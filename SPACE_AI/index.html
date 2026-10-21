@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Progetto STEP Lazio · NOREMA</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+<header class="top"><div class="wrap"><div class="brand"><b>NOREMA</b> · STEP Lazio</div><div class="updated" id="updated"></div></div></header>
+
+<div class="hero"><div class="wrap">
+  <div class="eyebrow">PR FESR Lazio 2021–2027 · Avviso STEP Lazio</div>
+  <h1 id="acr"></h1>
+  <p class="sub" id="title"></p>
+  <div class="chips" id="chips"></div>
+</div></div>
+
+<div class="wrap"><div class="kpis" id="kpis"></div></div>
+
+<nav class="tabs"><div class="wrap">
+  <a href="#panoramica">Panoramica</a><a href="#scadenze-s">Scadenze</a><a href="#budget">Partner e budget</a>
+  <a href="#piano">Piano di lavoro</a><a href="#attivita">Comunicazioni e riunioni</a><a href="#documenti-s">Documenti</a>
+</div></nav>
+
+<main class="wrap">
+  <section id="panoramica">
+    <h2>Panoramica</h2>
+    <div class="grid2">
+      <div class="card" id="sintesi"></div>
+      <div class="card"><div class="eyebrow" style="color:var(--muted)">Criticità e punti di attenzione</div><ul class="feed" id="criticita"></ul></div>
+    </div>
+  </section>
+
+  <section id="scadenze-s">
+    <h2>Scadenze e adempimenti</h2>
+    <p class="lead">Adempimenti verso Lazio Innova e verso il capofila, in ordine di data.</p>
+    <div class="card"><ul class="dl" id="scadenze"></ul></div>
+  </section>
+
+  <section id="budget">
+    <h2>Partner e budget</h2>
+    <p class="lead">Importi ammessi e concessi per beneficiario, come da atto di concessione.</p>
+    <div class="card scroll">
+      <table class="tbl">
+        <thead><tr><th>Beneficiario</th><th class="num">Costo ammesso</th><th class="num">Contributo concesso</th><th class="num">Intensità</th><th>Quota progetto</th><th>Codice RNA</th></tr></thead>
+        <tbody id="partner"></tbody><tfoot id="partner-tot"></tfoot>
+      </table>
+    </div>
+    <div class="card" style="margin-top:16px"><div class="eyebrow" style="color:var(--muted)">Avanzamento della spesa rendicontata</div><div id="spesa"></div></div>
+  </section>
+
+  <section id="piano">
+    <h2>Piano di lavoro</h2>
+    <p class="lead" id="gantt-note"></p>
+    <div class="card scroll"><div class="gantt" id="gantt"></div></div>
+  </section>
+
+  <section id="attivita">
+    <h2>Comunicazioni e riunioni</h2>
+    <div class="grid2">
+      <div class="card"><div class="eyebrow" style="color:var(--muted)">Ultime comunicazioni</div><ul class="feed" id="feed"></ul></div>
+      <div class="card"><div class="eyebrow" style="color:var(--muted)">Riunioni di partenariato</div><ul class="feed" id="riunioni"></ul></div>
+    </div>
+  </section>
+
+  <section id="documenti-s">
+    <h2>Documenti</h2>
+    <p class="lead">Stato dei principali documenti di progetto. I file sono conservati nell'archivio condiviso del partenariato.</p>
+    <div class="card" id="documenti"></div>
+  </section>
+</main>
+
+<footer><div class="wrap"><span>Pagina riservata ai partner di progetto · gestita da NOREMA S.r.l.</span><span id="fonte"></span></div></footer>
+<!--DATA-->
+<script src="../assets/app.js"></script>
+</body>
+</html>
