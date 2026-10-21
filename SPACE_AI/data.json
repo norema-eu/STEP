@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-10-21T16:00:00+02:00",
+  "aggiornato": "2026-10-21T16:30:00+02:00",
   "fonte": "Fonti: atto di concessione (BURL n. 81 suppl. 1 del 08/10/2026), proposta progettuale, corrispondenza di partenariato.",
   "progetto": {
     "acronimo": "SPACE.AI",
@@ -17,59 +17,267 @@
     "periodo": "Durata 24 mesi dalla data di concessione. Il cronoprogramma diventa operativo con la firma dell'Atto di Impegno."
   },
   "budget": {
-    "costo_ammesso": 770990.40,
+    "costo_ammesso": 770990.4,
     "contributo_concesso": 454972.32,
     "contributo_richiesto": 456412.32,
     "rendicontato": [],
     "nota_rendicontazione": "Rendicontazione non ancora avviata. Primo stato di avanzamento previsto dal piano di spesa al mese 8."
   },
   "partner": [
-    { "nome": "IPTSAT S.r.l.", "ruolo": "Capofila · responsabile WP1 e WP5", "referente": "Valerio Caroselli (project manager)", "costo_ammesso": 347400.00, "contributo_concesso": 191070.00, "rna": "26294675" },
-    { "nome": "Università di Roma \"La Sapienza\" – SBAI", "ruolo": "Organismo di ricerca · responsabile WP3", "referente": "Prof.ssa Vittoria Bruni", "costo_ammesso": 200030.40, "contributo_concesso": 160024.32, "rna": "Non aiuto" },
-    { "nome": "ReadyLab S.r.l.s.", "ruolo": "Partner · responsabile WP6 e WP7", "referente": "Sabato Fusco", "costo_ammesso": 147600.00, "contributo_concesso": 62100.00, "rna": "26294693" },
-    { "nome": "NOREMA S.r.l.", "ruolo": "Partner · responsabile WP2 e WP4", "referente": "Claudia Abatecola", "costo_ammesso": 75960.00, "contributo_concesso": 41778.00, "rna": "26294686" }
+    {
+      "nome": "IPTSAT S.r.l.",
+      "ruolo": "Capofila · responsabile WP1 e WP5",
+      "referente": "Valerio Caroselli (project manager)",
+      "costo_ammesso": 347400.0,
+      "contributo_concesso": 191070.0,
+      "rna": "26294675"
+    },
+    {
+      "nome": "Università di Roma \"La Sapienza\" – SBAI",
+      "ruolo": "Organismo di ricerca · responsabile WP3",
+      "referente": "Prof.ssa Vittoria Bruni",
+      "costo_ammesso": 200030.4,
+      "contributo_concesso": 160024.32,
+      "rna": "Non aiuto"
+    },
+    {
+      "nome": "ReadyLab S.r.l.s.",
+      "ruolo": "Partner · responsabile WP6 e WP7",
+      "referente": "Sabato Fusco",
+      "costo_ammesso": 147600.0,
+      "contributo_concesso": 62100.0,
+      "rna": "26294693"
+    },
+    {
+      "nome": "NOREMA S.r.l.",
+      "ruolo": "Partner · responsabile WP2 e WP4",
+      "referente": "Claudia Abatecola",
+      "costo_ammesso": 75960.0,
+      "contributo_concesso": 41778.0,
+      "rna": "26294686"
+    }
   ],
   "wp": [
-    { "codice": "WP1", "titolo": "Project management e acquisizione dati", "responsabile": "IPTSAT", "mese_inizio": 1, "mese_fine": 24, "stato": "da_avviare", "deliverable": "D1.1 (M6), D1.2 (M12), D1.3 (M18), D1.4 (M24)" },
-    { "codice": "WP2", "titolo": "Sviluppo tokenizzatori", "responsabile": "NOREMA", "mese_inizio": 3, "mese_fine": 9, "stato": "da_avviare", "deliverable": "D2.1 (M9)" },
-    { "codice": "WP3", "titolo": "Pretraining modello foundation", "responsabile": "Sapienza", "mese_inizio": 7, "mese_fine": 15, "stato": "da_avviare", "deliverable": "D3.1 (M15)" },
-    { "codice": "WP4", "titolo": "Generazione e Thinking-in-Modalities", "responsabile": "NOREMA", "mese_inizio": 10, "mese_fine": 20, "stato": "da_avviare", "deliverable": "D4.1 (M20)" },
-    { "codice": "WP5", "titolo": "Validazione su task operativi", "responsabile": "IPTSAT", "mese_inizio": 16, "mese_fine": 22, "stato": "da_avviare", "deliverable": "D5.1 (M22)" },
-    { "codice": "WP6", "titolo": "Integrazione, test e dimostrazione (TRL7)", "responsabile": "ReadyLab", "mese_inizio": 21, "mese_fine": 24, "stato": "da_avviare", "deliverable": "D6.1 (M24)" },
-    { "codice": "WP7", "titolo": "Piattaforma SaaS e architettura", "responsabile": "ReadyLab", "mese_inizio": 3, "mese_fine": 20, "stato": "da_avviare", "deliverable": "D7.1 (M6), D7.2 (M20)" }
+    {
+      "codice": "WP1",
+      "titolo": "Project management e acquisizione dati",
+      "responsabile": "IPTSAT",
+      "mese_inizio": 1,
+      "mese_fine": 24,
+      "stato": "da_avviare",
+      "deliverable": "D1.1 (M6), D1.2 (M12), D1.3 (M18), D1.4 (M24)"
+    },
+    {
+      "codice": "WP2",
+      "titolo": "Sviluppo tokenizzatori",
+      "responsabile": "NOREMA",
+      "mese_inizio": 3,
+      "mese_fine": 9,
+      "stato": "da_avviare",
+      "deliverable": "D2.1 (M9)"
+    },
+    {
+      "codice": "WP3",
+      "titolo": "Pretraining modello foundation",
+      "responsabile": "Sapienza",
+      "mese_inizio": 7,
+      "mese_fine": 15,
+      "stato": "da_avviare",
+      "deliverable": "D3.1 (M15)"
+    },
+    {
+      "codice": "WP4",
+      "titolo": "Generazione e Thinking-in-Modalities",
+      "responsabile": "NOREMA",
+      "mese_inizio": 10,
+      "mese_fine": 20,
+      "stato": "da_avviare",
+      "deliverable": "D4.1 (M20)"
+    },
+    {
+      "codice": "WP5",
+      "titolo": "Validazione su task operativi",
+      "responsabile": "IPTSAT",
+      "mese_inizio": 16,
+      "mese_fine": 22,
+      "stato": "da_avviare",
+      "deliverable": "D5.1 (M22)"
+    },
+    {
+      "codice": "WP6",
+      "titolo": "Integrazione, test e dimostrazione (TRL7)",
+      "responsabile": "ReadyLab",
+      "mese_inizio": 21,
+      "mese_fine": 24,
+      "stato": "da_avviare",
+      "deliverable": "D6.1 (M24)"
+    },
+    {
+      "codice": "WP7",
+      "titolo": "Piattaforma SaaS e architettura",
+      "responsabile": "ReadyLab",
+      "mese_inizio": 3,
+      "mese_fine": 20,
+      "stato": "da_avviare",
+      "deliverable": "D7.1 (M6), D7.2 (M20)"
+    }
   ],
   "scadenze": [
-    { "data": "2026-10-08", "titolo": "Pubblicazione esiti", "descrizione": "Progetto inserito nel 5° elenco degli idonei e finanziabili (BURL n. 81 suppl. 1).", "stato": "completato" },
-    { "data": "2026-10-19", "titolo": "Call di avvio del partenariato", "descrizione": "Accettazione del contributo, antimafia, cronoprogramma, organizzazione della rendicontazione.", "stato": "completato" },
-    { "data": "2026-10-21", "titolo": "Invio documentazione antimafia al capofila", "descrizione": "Allegati 1a e 1b e verifica schede B.D.N.A. IPTSAT e ReadyLab inviati il 21/10; NOREMA da confermare.", "chi": "IPTSAT, NOREMA, ReadyLab", "stato": "attenzione" },
-    { "data": "2026-10-22", "titolo": "Trasmissione documentazione antimafia a Lazio Innova", "descrizione": "Necessaria per la sottoscrizione dell'Atto di Impegno. Sapienza esclusa in quanto ente pubblico.", "chi": "IPTSAT (capofila)", "stato": "in_corso" },
-    { "data": null, "titolo": "Polizza fideiussoria per l'anticipo", "descrizione": "Schema precompilato inviato al capofila il 20/10; bozza dell'assicuratore in attesa, va completata con la data dell'ATS.", "chi": "IPTSAT", "stato": "in_corso" },
-    { "data": null, "titolo": "Costituzione formale dell'ATS", "descrizione": "Atto di aggregazione da formalizzare: la data serve anche per la polizza e per l'Atto di Impegno.", "chi": "Tutti i partner", "stato": "da_avviare" },
-    { "data": null, "titolo": "Sottoscrizione Atto di Impegno", "descrizione": "Dopo l'esito delle verifiche antimafia. Fissa l'avvio del cronoprogramma (mese 1).", "chi": "Tutti i partner", "stato": "da_avviare" },
-    { "data": null, "titolo": "Fine progetto e rendicontazione finale", "descrizione": "Entro 24 mesi dalla data di concessione, salvo proroghe.", "chi": "Tutti i partner", "stato": "da_avviare" }
+    {
+      "data": "2026-10-08",
+      "titolo": "Pubblicazione esiti",
+      "descrizione": "Progetto inserito nel 5° elenco degli idonei e finanziabili (BURL n. 81 suppl. 1).",
+      "stato": "completato"
+    },
+    {
+      "data": "2026-10-19",
+      "titolo": "Call di avvio del partenariato",
+      "descrizione": "Accettazione del contributo, antimafia, cronoprogramma, organizzazione della rendicontazione.",
+      "stato": "completato"
+    },
+    {
+      "data": "2026-10-21",
+      "titolo": "Invio documentazione antimafia al capofila",
+      "descrizione": "Allegati 1a e 1b e verifica schede B.D.N.A.: documentazione di IPTSAT, ReadyLab e NOREMA predisposta.",
+      "chi": "IPTSAT, NOREMA, ReadyLab",
+      "stato": "completato"
+    },
+    {
+      "data": "2026-10-22",
+      "titolo": "Trasmissione documentazione antimafia a Lazio Innova",
+      "descrizione": "Necessaria per la sottoscrizione dell'Atto di Impegno. Sapienza esclusa in quanto ente pubblico.",
+      "chi": "IPTSAT (capofila)",
+      "stato": "in_corso"
+    },
+    {
+      "data": null,
+      "titolo": "Polizza fideiussoria per l'anticipo",
+      "descrizione": "Schema precompilato inviato al capofila il 20/10; bozza dell'assicuratore in attesa, va completata con la data dell'ATS.",
+      "chi": "IPTSAT",
+      "stato": "in_corso"
+    },
+    {
+      "data": null,
+      "titolo": "Costituzione formale dell'ATS",
+      "descrizione": "Atto di aggregazione da formalizzare: la data serve anche per la polizza e per l'Atto di Impegno.",
+      "chi": "Tutti i partner",
+      "stato": "da_avviare"
+    },
+    {
+      "data": null,
+      "titolo": "Sottoscrizione Atto di Impegno",
+      "descrizione": "Dopo l'esito delle verifiche antimafia. Fissa l'avvio del cronoprogramma (mese 1).",
+      "chi": "Tutti i partner",
+      "stato": "da_avviare"
+    },
+    {
+      "data": null,
+      "titolo": "Fine progetto e rendicontazione finale",
+      "descrizione": "Entro 24 mesi dalla data di concessione, salvo proroghe.",
+      "chi": "Tutti i partner",
+      "stato": "da_avviare"
+    }
   ],
   "criticita": [
-    { "data": "2026-10-19", "titolo": "Tempi stretti per l'antimafia", "descrizione": "Trasmissione a Lazio Innova entro il 22/10: verificare che la documentazione di tutte le imprese sia completa e firmata digitalmente.", "livello": "alta", "stato": "aperta" },
-    { "data": "2026-10-08", "titolo": "Contributo ReadyLab ridotto", "descrizione": "Investimento ammesso per intero ma contributo concesso inferiore di € 1.440 rispetto al richiesto: verificarne la motivazione nell'atto di concessione.", "livello": "media", "stato": "aperta" },
-    { "data": "2026-10-20", "titolo": "Polizza legata alla data dell'ATS", "descrizione": "La polizza per l'anticipo non può essere finalizzata finché l'ATS non è costituita.", "livello": "media", "stato": "aperta" },
-    { "data": "2026-10-21", "titolo": "Polizza catastrofale", "descrizione": "In domanda i partner hanno dichiarato l'obbligo non ancora vigente: ciascuna impresa deve verificare di essere ora in regola.", "livello": "media", "stato": "aperta" }
+    {
+      "data": "2026-10-19",
+      "titolo": "Tempi stretti per l'antimafia",
+      "descrizione": "Trasmissione a Lazio Innova entro il 22/10: verificare che la documentazione di tutte le imprese sia completa e firmata digitalmente.",
+      "livello": "alta",
+      "stato": "aperta"
+    },
+    {
+      "data": "2026-10-08",
+      "titolo": "Contributo ReadyLab ridotto",
+      "descrizione": "Investimento ammesso per intero ma contributo concesso inferiore di € 1.440 rispetto al richiesto: verificarne la motivazione nell'atto di concessione.",
+      "livello": "media",
+      "stato": "aperta"
+    },
+    {
+      "data": "2026-10-20",
+      "titolo": "Polizza legata alla data dell'ATS",
+      "descrizione": "La polizza per l'anticipo non può essere finalizzata finché l'ATS non è costituita.",
+      "livello": "media",
+      "stato": "aperta"
+    },
+    {
+      "data": "2026-10-21",
+      "titolo": "Polizza catastrofale",
+      "descrizione": "In domanda i partner hanno dichiarato l'obbligo non ancora vigente: ciascuna impresa deve verificare di essere ora in regola.",
+      "livello": "media",
+      "stato": "aperta"
+    }
   ],
   "comunicazioni": [
-    { "data": "2026-10-08", "titolo": "Comunicazione del finanziamento ai partner", "sintesi": "NOREMA comunica l'esito (74 punti), il dettaglio degli importi per beneficiario e convoca la call di avvio." },
-    { "data": "2026-10-14", "titolo": "PEC Lazio Innova – richiesta documentazione", "sintesi": "Richiesta della documentazione per l'informazione antimafia (prot. 0036565 del 14/10/2026), inoltrata dal capofila." },
-    { "data": "2026-10-19", "titolo": "Istruzioni antimafia ai partner", "sintesi": "Il capofila invia schede B.D.N.A., Allegati 1a e 1b e atto di concessione; consegna al capofila entro il 21/10 ore 12." },
-    { "data": "2026-10-20", "titolo": "Schema polizza fideiussoria", "sintesi": "NOREMA invia lo schema precompilato e la dichiarazione del fideiussore; il capofila lo gira all'assicuratore come bozza." },
-    { "data": "2026-10-21", "titolo": "Antimafia IPTSAT e ReadyLab", "sintesi": "Il capofila trasmette la documentazione compilata per IPTSAT e ReadyLab per la verifica; dati B.D.N.A. ReadyLab confermati." }
+    {
+      "data": "2026-10-08",
+      "titolo": "Comunicazione del finanziamento ai partner",
+      "sintesi": "NOREMA comunica l'esito (74 punti), il dettaglio degli importi per beneficiario e convoca la call di avvio."
+    },
+    {
+      "data": "2026-10-14",
+      "titolo": "PEC Lazio Innova – richiesta documentazione",
+      "sintesi": "Richiesta della documentazione per l'informazione antimafia (prot. 0036565 del 14/10/2026), inoltrata dal capofila."
+    },
+    {
+      "data": "2026-10-19",
+      "titolo": "Istruzioni antimafia ai partner",
+      "sintesi": "Il capofila invia schede B.D.N.A., Allegati 1a e 1b e atto di concessione; consegna al capofila entro il 21/10 ore 12."
+    },
+    {
+      "data": "2026-10-20",
+      "titolo": "Schema polizza fideiussoria",
+      "sintesi": "NOREMA invia lo schema precompilato e la dichiarazione del fideiussore; il capofila lo gira all'assicuratore come bozza."
+    },
+    {
+      "data": "2026-10-21",
+      "titolo": "Antimafia IPTSAT e ReadyLab",
+      "sintesi": "Il capofila trasmette la documentazione compilata per IPTSAT e ReadyLab per la verifica; dati B.D.N.A. ReadyLab confermati."
+    }
   ],
   "riunioni": [
-    { "data": "2026-10-19", "titolo": "Call di avvio del partenariato (Teams)", "esito": "Ordine del giorno: accettazione del contributo, documentazione antimafia, cronoprogramma, organizzazione della rendicontazione." }
+    {
+      "data": "2026-10-19",
+      "titolo": "Call di avvio del partenariato (Teams)",
+      "esito": "Ordine del giorno: accettazione del contributo, documentazione antimafia, cronoprogramma, organizzazione della rendicontazione."
+    }
   ],
   "documenti": [
-    { "nome": "Proposta progettuale (formulario)", "categoria": "Domanda", "data": "2025-07-17", "stato": "completato" },
-    { "nome": "Atto di concessione A0896-2025-095582", "categoria": "Concessione", "data": "2026-10-08", "stato": "completato" },
-    { "nome": "Accordo di aggregazione (ATS)", "categoria": "Partenariato", "nota": "bozza del 18/11/2025, da formalizzare", "stato": "in_corso" },
-    { "nome": "Documentazione antimafia (Allegati 1a, 1b, B.D.N.A.)", "categoria": "Atto di Impegno", "stato": "in_corso" },
-    { "nome": "Polizza fideiussoria per l'anticipo", "categoria": "Anticipo", "stato": "in_corso" },
-    { "nome": "Atto di Impegno", "categoria": "Avvio", "stato": "da_avviare" }
+    {
+      "nome": "Proposta progettuale (formulario)",
+      "categoria": "Domanda",
+      "data": "2025-07-17",
+      "stato": "completato",
+      "file": "SPACE_AI_proposta_progettuale.pdf"
+    },
+    {
+      "nome": "Atto di concessione A0896-2025-095582",
+      "categoria": "Concessione",
+      "data": "2026-10-08",
+      "stato": "completato"
+    },
+    {
+      "nome": "Accordo di aggregazione (ATS)",
+      "categoria": "Partenariato",
+      "nota": "bozza del 18/11/2025, da formalizzare",
+      "stato": "in_corso"
+    },
+    {
+      "nome": "Documentazione antimafia (Allegati 1a, 1b, B.D.N.A.)",
+      "categoria": "Atto di Impegno",
+      "stato": "in_corso"
+    },
+    {
+      "nome": "Schema di polizza fideiussoria per l'anticipo",
+      "categoria": "Anticipo",
+      "stato": "in_corso",
+      "file": "SPACE_AI_schema_polizza_fideiussoria.docx",
+      "nota": "schema precompilato, in revisione con l'assicuratore"
+    },
+    {
+      "nome": "Atto di Impegno",
+      "categoria": "Avvio",
+      "stato": "da_avviare"
+    }
   ]
 }
