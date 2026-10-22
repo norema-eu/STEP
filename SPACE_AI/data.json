@@ -1,10 +1,10 @@
 {
-  "aggiornato": "2026-10-21T16:30:00+02:00",
-  "fonte": "Fonti: atto di concessione (BURL n. 81 suppl. 1 del 08/10/2026), proposta progettuale, corrispondenza di partenariato.",
+  "aggiornato": "2026-10-22T10:40:00+02:00",
+  "fonte": "Fonti: comunicazione di concessione Lazio Innova (Det. G13392, BURL n. 81 suppl. 1 del 08/10/2026), proposta progettuale, corrispondenza di partenariato.",
   "progetto": {
     "acronimo": "SPACE.AI",
     "titolo": "Intelligenza artificiale multimodale e generativa per i dati satellitari di Osservazione della Terra",
-    "stato": "Concesso · in attesa dell'Atto di Impegno",
+    "stato": "Ammesso a contributo · verifiche antimafia in corso",
     "cup": "F89J26001240004",
     "protocollo": "A0896-2025-095582",
     "concessione": "Det. G13392 · BURL 81/2026",
@@ -14,7 +14,7 @@
     "durata_mesi": 24,
     "data_avvio": null,
     "sintesi": "SPACE.AI sviluppa un modello di intelligenza artificiale multimodale (tokenizzatori, pretraining di un foundation model encoder-decoder e generazione cross-modale \"Thinking-in-Modalities\") per elaborare e generare dati satellitari di Osservazione della Terra. Il progetto porta la tecnologia da TRL 3 a TRL 7, con validazione su casi d'uso reali (agricoltura, mappatura urbana, rischio) e rilascio di una piattaforma SaaS operativa.",
-    "periodo": "Durata 24 mesi dalla data di concessione. Il cronoprogramma diventa operativo con la firma dell'Atto di Impegno."
+    "periodo": "Durata 24 mesi. L'atto di concessione sarà emesso dalla Regione dopo le verifiche antimafia; il cronoprogramma diventa operativo con la firma dell'Atto di Impegno."
   },
   "budget": {
     "costo_ammesso": 770990.4,
@@ -165,8 +165,15 @@
     },
     {
       "data": null,
+      "titolo": "Atto di concessione",
+      "descrizione": "Emesso dalla Regione Lazio al termine delle verifiche antimafia.",
+      "chi": "Regione Lazio / Lazio Innova",
+      "stato": "da_avviare"
+    },
+    {
+      "data": null,
       "titolo": "Sottoscrizione Atto di Impegno",
-      "descrizione": "Dopo l'esito delle verifiche antimafia. Fissa l'avvio del cronoprogramma (mese 1).",
+      "descrizione": "Dopo l'atto di concessione. Fissa l'avvio del cronoprogramma (mese 1).",
       "chi": "Tutti i partner",
       "stato": "da_avviare"
     },
@@ -189,7 +196,7 @@
     {
       "data": "2026-10-08",
       "titolo": "Contributo ReadyLab ridotto",
-      "descrizione": "Investimento ammesso per intero ma contributo concesso inferiore di € 1.440 rispetto al richiesto: verificarne la motivazione nell'atto di concessione.",
+      "descrizione": "Investimento ammesso per intero ma contributo concesso inferiore di € 1.440 rispetto al richiesto: le motivazioni sono consultabili sul piano costi approvato in GeCoWEB Plus.",
       "livello": "media",
       "stato": "aperta"
     },
@@ -222,7 +229,7 @@
     {
       "data": "2026-10-19",
       "titolo": "Istruzioni antimafia ai partner",
-      "sintesi": "Il capofila invia schede B.D.N.A., Allegati 1a e 1b e atto di concessione; consegna al capofila entro il 21/10 ore 12."
+      "sintesi": "Il capofila invia schede B.D.N.A., Allegati 1a e 1b e la comunicazione di concessione; consegna al capofila entro il 21/10 ore 12."
     },
     {
       "data": "2026-10-20",
@@ -251,10 +258,11 @@
       "file": "SPACE_AI_proposta_progettuale.pdf"
     },
     {
-      "nome": "Atto di concessione A0896-2025-095582",
-      "categoria": "Concessione",
+      "nome": "Comunicazione di concessione del contributo (Lazio Innova)",
+      "categoria": "Esito",
       "data": "2026-10-08",
-      "stato": "completato"
+      "stato": "completato",
+      "nota": "importi ammessi, CUP e richiesta antimafia"
     },
     {
       "nome": "Accordo di aggregazione (ATS)",
@@ -273,6 +281,12 @@
       "stato": "in_corso",
       "file": "SPACE_AI_schema_polizza_fideiussoria.docx",
       "nota": "schema precompilato, in revisione con l'assicuratore"
+    },
+    {
+      "nome": "Atto di concessione",
+      "categoria": "Concessione",
+      "nota": "emesso dalla Regione dopo le verifiche antimafia",
+      "stato": "da_avviare"
     },
     {
       "nome": "Atto di Impegno",
