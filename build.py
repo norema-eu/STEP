@@ -5,7 +5,7 @@
 - Con --preview crea anche preview/<PROGETTO>.html autocontenuta (CSS, JS e dati incorporati),
   utile per vedere la pagina senza server.
 """
-import json, pathlib, sys
+import hashlib, json, pathlib, sys
 
 ROOT = pathlib.Path(__file__).resolve().parent
 TEMPLATE = (ROOT / "_template" / "index.html").read_text(encoding="utf-8")
@@ -15,9 +15,13 @@ PROJECTS = [p.parent for p in ROOT.glob("*/data.json") if not p.parent.name.star
 def main(preview: bool) -> None:
     css = (ROOT / "assets" / "style.css").read_text(encoding="utf-8")
     js = (ROOT / "assets" / "app.js").read_text(encoding="utf-8")
+    # versione dei file statici: forza il browser a ricaricarli quando cambiano
+    ver = hashlib.sha1((css + js).encode("utf-8")).hexdigest()[:10]
+    page = (TEMPLATE.replace('href="../assets/style.css"', f'href="../assets/style.css?v={ver}"')
+                    .replace('src="../assets/app.js"', f'src="../assets/app.js?v={ver}"'))
     for folder in sorted(PROJECTS):
         data = json.loads((folder / "data.json").read_text(encoding="utf-8"))  # valida il JSON
-        (folder / "index.html").write_text(TEMPLATE, encoding="utf-8")
+        (folder / "index.html").write_text(page, encoding="utf-8")
         print(f"ok  {folder.name}/index.html")
         if preview:
             out = ROOT / "preview"

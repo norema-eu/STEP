@@ -123,7 +123,9 @@ h2::after{content:"";flex:1;height:1px;background:var(--line)}
 .docs-viewer{position:sticky;top:60px;padding:0;overflow:hidden;display:flex;flex-direction:column;height:calc(100vh - 90px);min-height:420px}
 .viewer-head{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:12px 16px;border-bottom:1px solid var(--line);font-weight:500;color:var(--navy);font-size:14px}
 .viewer-head a{text-decoration:none;flex:none}
-.docs-viewer iframe{flex:1;width:100%;border:0;background:var(--g1)}
+.viewer-body{flex:1;overflow:auto;background:var(--g1);padding:12px}
+.viewer-body .pdf-page{display:block;margin:0 auto 12px;background:#fff;box-shadow:0 0 0 1px var(--line)}
+.viewer-body > div:not(.empty){background:#fff;border-radius:8px}
 .docs-viewer .empty{padding:24px 16px}
 [hidden]{display:none!important}
 @media (max-width:860px){.docs-layout{grid-template-columns:1fr}.docs-list{max-height:none}.docs-viewer{position:static;height:75vh}}

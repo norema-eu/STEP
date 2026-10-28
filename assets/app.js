@@ -113,23 +113,54 @@
         ${x.file ? `<a class="b ok dl" href="${url(x.file)}" download title="Scarica ${esc(x.nome)}">${esc(ext(x.file))} ↓</a>` : ""}
       </div>`).join("")).join("") : `<div class="empty">Nessun documento.</div>`;
 
-    const frame = $("#viewer-frame"), vt = $("#viewer-title"), vdl = $("#viewer-dl"), ve = $("#viewer-empty");
-    const show = (i) => {
+    const body = $("#viewer-body"), vt = $("#viewer-title"), vdl = $("#viewer-dl");
+    let token = 0;
+    const msg = (t) => { body.innerHTML = `<div class="empty">${esc(t)}</div>`; };
+    async function renderPdf(src, my) {
+      if (!window.pdfjsLib) throw new Error("visualizzatore non caricato");
+      pdfjsLib.GlobalWorkerOptions.workerSrc = "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js";
+      const pdf = await pdfjsLib.getDocument({ url: src, withCredentials: true }).promise;
+      if (my !== token) return;
+      body.innerHTML = "";
+      const width = body.clientWidth - 24, dpr = Math.min(window.devicePixelRatio || 1, 2);
+      for (let n = 1; n <= pdf.numPages; n++) {
+        if (my !== token) return;
+        const page = await pdf.getPage(n);
+        const vp0 = page.getViewport({ scale: 1 }), scale = width / vp0.width, vp = page.getViewport({ scale: scale * dpr });
+        const c = document.createElement("canvas");
+        c.width = vp.width; c.height = vp.height; c.style.width = width + "px"; c.style.height = (vp.height / dpr) + "px";
+        c.className = "pdf-page"; body.appendChild(c);
+        await page.render({ canvasContext: c.getContext("2d"), viewport: vp }).promise;
+      }
+    }
+    async function renderHtml(src, my) {
+      const r = await fetch(src, { cache: "no-store", credentials: "same-origin" });
+      if (!r.ok) throw new Error("HTTP " + r.status);
+      const doc = new DOMParser().parseFromString(await r.text(), "text/html");
+      if (my !== token) return;
+      body.innerHTML = "";
+      const host = document.createElement("div"); body.appendChild(host);
+      const root = host.attachShadow({ mode: "open" });
+      root.innerHTML = [...doc.querySelectorAll("style")].map((s) => s.outerHTML).join("") + doc.body.innerHTML;
+    }
+    const show = async (i) => {
       const x = docs[i]; if (!x || !x.file) return;
+      const my = ++token;
       document.querySelectorAll(".doc.sel").forEach((e) => e.classList.remove("sel"));
       const el = document.querySelector(`.doc[data-i="${i}"]`); if (el) el.classList.add("sel");
       vt.textContent = x.nome;
       vdl.hidden = false; vdl.href = url(x.file); vdl.textContent = "Scarica " + ext(x.file);
-      const pv = x.anteprima || (x.file.toLowerCase().endsWith(".pdf") ? x.file : null);
-      if (pv) { frame.src = url(pv) + "#view=FitH"; frame.hidden = false; ve.hidden = true; }
-      else { frame.hidden = true; frame.removeAttribute("src"); ve.hidden = false; ve.textContent = "Anteprima non disponibile per questo formato: scarica il file."; }
       if (window.innerWidth < 860) document.querySelector(".docs-viewer").scrollIntoView({ behavior: "smooth", block: "start" });
+      const pv = x.anteprima || (x.file.toLowerCase().endsWith(".pdf") ? x.file : null);
+      if (!pv) return msg("Anteprima non disponibile per questo formato: scarica il file.");
+      msg("Caricamento anteprima…");
+      try { pv.toLowerCase().endsWith(".pdf") ? await renderPdf(url(pv), my) : await renderHtml(url(pv), my); }
+      catch (e) { if (my === token) msg("Anteprima non disponibile (" + e.message + "). Usa il pulsante per scaricare il file."); }
     };
     document.querySelectorAll(".doc.has-file").forEach((el) => {
       el.addEventListener("click", (e) => { if (e.target.closest("a.dl")) return; show(+el.dataset.i); });
       el.addEventListener("keydown", (e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); show(+el.dataset.i); } });
     });
-    frame.hidden = true;
     const first = docs.findIndex((x) => x.file);
     if (first >= 0 && window.innerWidth >= 860) show(first);
 

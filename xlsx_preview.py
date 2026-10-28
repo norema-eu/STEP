@@ -4,7 +4,7 @@ import html, sys, datetime, pathlib, warnings
 import openpyxl
 warnings.filterwarnings("ignore")
 
-CSS = """body{margin:0;font:13px/1.45 Montserrat,system-ui,sans-serif;color:#0D2436;background:#fff}
+CSS = """:host,body{display:block;margin:0;font:13px/1.45 Montserrat,system-ui,sans-serif;color:#0D2436;background:#fff}
 h2{font-weight:500;font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:#01A79C;margin:18px 14px 8px}
 .w{overflow:auto;margin:0 14px 18px;border:1px solid #DDE3E6;border-radius:8px}
 table{border-collapse:collapse;min-width:100%}td{padding:6px 9px;border-bottom:1px solid #E7EAE9;vertical-align:top;max-width:340px;min-width:90px}
