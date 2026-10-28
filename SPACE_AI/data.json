@@ -1,10 +1,10 @@
 {
-  "aggiornato": "2026-10-22T10:40:00+02:00",
+  "aggiornato": "2026-10-28T14:20:00+01:00",
   "fonte": "Fonti: comunicazione di concessione Lazio Innova (Det. G13392, BURL n. 81 suppl. 1 del 08/10/2026), proposta progettuale, corrispondenza di partenariato.",
   "progetto": {
     "acronimo": "SPACE.AI",
     "titolo": "Intelligenza artificiale multimodale e generativa per i dati satellitari di Osservazione della Terra",
-    "stato": "Ammesso a contributo · verifiche antimafia in corso",
+    "stato": "Ammesso a contributo · antimafia trasmessa, in attesa dell'atto di concessione",
     "cup": "F89J26001240004",
     "protocollo": "A0896-2025-095582",
     "concessione": "Det. G13392 · BURL 81/2026",
@@ -145,9 +145,9 @@
     {
       "data": "2026-10-22",
       "titolo": "Trasmissione documentazione antimafia a Lazio Innova",
-      "descrizione": "Necessaria per la sottoscrizione dell'Atto di Impegno. Sapienza esclusa in quanto ente pubblico.",
+      "descrizione": "Trasmessa via PEC dal capofila il 22/10/2026 alle 12:39 a incentivi@pec.lazioinnova.it, per IPTSAT, NOREMA e ReadyLab.",
       "chi": "IPTSAT (capofila)",
-      "stato": "in_corso"
+      "stato": "completato"
     },
     {
       "data": null,
@@ -187,11 +187,18 @@
   ],
   "criticita": [
     {
+      "data": "2026-10-22",
+      "titolo": "Scheda B.D.N.A. IPTSAT non ricevuta",
+      "descrizione": "Nella PEC di trasmissione il capofila segnala a Lazio Innova di non aver trovato la scheda B.D.N.A. di IPTSAT nella comunicazione del 14/10: seguire eventuale richiesta di integrazione.",
+      "livello": "media",
+      "stato": "aperta"
+    },
+    {
       "data": "2026-10-19",
       "titolo": "Tempi stretti per l'antimafia",
-      "descrizione": "Trasmissione a Lazio Innova entro il 22/10: verificare che la documentazione di tutte le imprese sia completa e firmata digitalmente.",
+      "descrizione": "Documentazione trasmessa a Lazio Innova entro il termine (22/10).",
       "livello": "alta",
-      "stato": "aperta"
+      "stato": "risolta"
     },
     {
       "data": "2026-10-08",
@@ -240,6 +247,11 @@
       "data": "2026-10-21",
       "titolo": "Antimafia IPTSAT e ReadyLab",
       "sintesi": "Il capofila trasmette la documentazione compilata per IPTSAT e ReadyLab per la verifica; dati B.D.N.A. ReadyLab confermati."
+    },
+    {
+      "data": "2026-10-22",
+      "titolo": "PEC antimafia a Lazio Innova",
+      "sintesi": "Il capofila trasmette a Lazio Innova la documentazione antimafia di IPTSAT, NOREMA e ReadyLab. Si attende l'atto di concessione della Regione."
     }
   ],
   "riunioni": [
@@ -273,7 +285,9 @@
     {
       "nome": "Documentazione antimafia (Allegati 1a, 1b, B.D.N.A.)",
       "categoria": "Atto di Impegno",
-      "stato": "in_corso"
+      "stato": "completato",
+      "data": "2026-10-22",
+      "nota": "trasmessa a Lazio Innova"
     },
     {
       "nome": "Schema di polizza fideiussoria per l'anticipo",
