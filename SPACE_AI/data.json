@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-10-28T15:00:00+01:00",
+  "aggiornato": "2026-10-28T14:45:00+01:00",
   "fonte": "Fonti: comunicazione di concessione Lazio Innova (Det. G13392, BURL n. 81 suppl. 1 del 08/10/2026), proposta progettuale, corrispondenza di partenariato.",
   "progetto": {
     "acronimo": "SPACE.AI",
@@ -168,9 +168,9 @@
     {
       "data": null,
       "titolo": "Polizza fideiussoria per l'anticipo",
-      "descrizione": "Schema precompilato inviato al capofila il 20/10; bozza dell'assicuratore in attesa, va completata con la data dell'ATS.",
+      "descrizione": "Polizza fideiussoria per l'anticipo presentata.",
       "chi": "IPTSAT",
-      "stato": "in_corso"
+      "stato": "completato"
     },
     {
       "data": null,
@@ -226,9 +226,9 @@
     {
       "data": "2026-10-20",
       "titolo": "Polizza legata alla data dell'ATS",
-      "descrizione": "La polizza per l'anticipo non può essere finalizzata finché l'ATS non è costituita.",
+      "descrizione": "Polizza per l'anticipo presentata.",
       "livello": "media",
-      "stato": "aperta"
+      "stato": "risolta"
     },
     {
       "data": "2026-10-21",
