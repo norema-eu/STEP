@@ -14,8 +14,8 @@
   async function load() {
     const inline = document.getElementById("project-data");
     if (inline) return JSON.parse(inline.textContent);
-    const r = await fetch("data.json?v=" + Date.now(), { cache: "no-store" });
-    if (!r.ok) throw new Error("data.json non disponibile");
+    const r = await fetch("data.json?v=" + Date.now(), { cache: "no-store", credentials: "same-origin" });
+    if (!r.ok) throw new Error("data.json non disponibile, HTTP " + r.status);
     return r.json();
   }
 
