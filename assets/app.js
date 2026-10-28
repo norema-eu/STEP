@@ -19,6 +19,13 @@
     return r.json();
   }
 
+  // Pagina HTML vecchia rimasta in cache del browser (manca il riquadro CUP introdotto il 28/10/2026):
+  // ricarica una sola volta con un parametro che obbliga a scaricare la versione aggiornata.
+  if (!document.getElementById("cup") && !/[?&]r=/.test(location.search) && location.protocol !== "file:") {
+    location.replace(location.pathname + "?r=" + Date.now() + location.hash);
+    return;
+  }
+
   function render(D) {
     const P = D.progetto;
     document.title = `${P.acronimo} · STEP Lazio · NOREMA`;
@@ -32,8 +39,8 @@
       `<span class="chip">Capofila <b>${esc(P.capofila)}</b></span>`,
       P.punteggio ? `<span class="chip">Punteggio <b>${esc(P.punteggio)}</b></span>` : ""
     ].join("");
-    $("#cup").textContent = P.cup || "—";
-    $("#cup-copy").addEventListener("click", async () => {
+    if ($("#cup")) $("#cup").textContent = P.cup || "—";
+    if ($("#cup-copy")) $("#cup-copy").addEventListener("click", async () => {
       try { await navigator.clipboard.writeText(P.cup); $("#cup-copy").textContent = "Copiato"; setTimeout(() => ($("#cup-copy").textContent = "Copia"), 1500); } catch (e) {}
     });
 
