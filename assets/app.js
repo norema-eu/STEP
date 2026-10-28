@@ -27,12 +27,15 @@
     $("#title").textContent = P.titolo || "";
     $("#chips").innerHTML = [
       `<span class="chip status">${esc(P.stato)}</span>`,
-      `<span class="chip">CUP <b>${esc(P.cup)}</b></span>`,
       `<span class="chip">Domanda <b>${esc(P.protocollo)}</b></span>`,
       P.concessione ? `<span class="chip">Concessione <b>${esc(P.concessione)}</b></span>` : "",
       `<span class="chip">Capofila <b>${esc(P.capofila)}</b></span>`,
       P.punteggio ? `<span class="chip">Punteggio <b>${esc(P.punteggio)}</b></span>` : ""
     ].join("");
+    $("#cup").textContent = P.cup || "—";
+    $("#cup-copy").addEventListener("click", async () => {
+      try { await navigator.clipboard.writeText(P.cup); $("#cup-copy").textContent = "Copiato"; setTimeout(() => ($("#cup-copy").textContent = "Copia"), 1500); } catch (e) {}
+    });
 
     // KPI
     const next = (D.scadenze || []).filter((s) => s.data && days(s.data) >= 0 && s.stato !== "completato").sort((a, b) => a.data.localeCompare(b.data))[0];
@@ -56,6 +59,15 @@
       <td><div class="bar" title="${Math.round(p.costo_ammesso / tot * 100)}% del progetto"><i style="width:${(p.costo_ammesso / tot * 100).toFixed(1)}%"></i></div></td>
       <td>${esc(p.rna || "—")}</td></tr>`).join("");
     $("#partner-tot").innerHTML = `<tr><td>Totale progetto</td><td class="num">${eur(D.budget.costo_ammesso)}</td><td class="num">${eur(D.budget.contributo_concesso)}</td><td class="num">${Math.round(D.budget.contributo_concesso / tot * 100)}%</td><td></td><td></td></tr>`;
+
+    // Ruoli dei partner
+    $("#ruoli").innerHTML = (D.partner || []).map((p) => `
+      <div class="card role-card">
+        <div class="role-head"><b>${esc(p.nome)}</b><span class="b prog">${esc(p.tipo || "")}</span></div>
+        ${p.wp ? `<div class="role-wp">${esc(p.wp)}</div>` : ""}
+        <p>${esc(p.descrizione || "")}</p>
+        ${p.team ? `<div class="x">${esc(p.team)}</div>` : ""}
+      </div>`).join("");
 
     // Spesa rendicontata
     const sp = D.budget.rendicontato || [];
@@ -162,14 +174,24 @@
       el.addEventListener("keydown", (e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); show(+el.dataset.i); } });
     });
     const first = docs.findIndex((x) => x.file);
-    if (first >= 0 && window.innerWidth >= 860) show(first);
 
     $("#fonte").textContent = D.fonte || "";
 
-    // nav highlight
+    // Navigazione a schede: una sezione alla volta
     const links = [...document.querySelectorAll(".tabs a")];
-    const io = new IntersectionObserver((es) => es.forEach((e) => { if (e.isIntersecting) links.forEach((a) => a.classList.toggle("on", a.getAttribute("href") === "#" + e.target.id)); }), { rootMargin: "-40% 0px -55% 0px" });
-    document.querySelectorAll("section[id]").forEach((s) => io.observe(s));
+    const sections = [...document.querySelectorAll("main section[id]")];
+    const activate = (id, push) => {
+      if (!sections.some((s) => s.id === id)) id = sections[0].id;
+      sections.forEach((s) => (s.hidden = s.id !== id));
+      links.forEach((a) => { const on = a.getAttribute("href") === "#" + id; a.classList.toggle("on", on); if (on) a.setAttribute("aria-current", "page"); else a.removeAttribute("aria-current"); });
+      if (push) history.replaceState(null, "", "#" + id);
+      const tabs = document.querySelector(".tabs");
+      if (push && tabs.getBoundingClientRect().top < 0) tabs.scrollIntoView({ block: "start" });
+      if (id === "documenti-s" && !document.querySelector(".doc.sel") && first >= 0) show(first);
+    };
+    links.forEach((a) => a.addEventListener("click", (e) => { e.preventDefault(); activate(a.getAttribute("href").slice(1), true); }));
+    window.addEventListener("hashchange", () => activate(location.hash.slice(1), false));
+    activate(location.hash.slice(1), false);
   }
 
   load().then(render).catch((e) => { document.body.insertAdjacentHTML("beforeend", `<div class="wrap empty">Impossibile caricare i dati del progetto (${esc(e.message)}).</div>`); });

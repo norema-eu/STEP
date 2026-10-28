@@ -7,15 +7,17 @@
 <title>Progetto STEP Lazio · NOREMA</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,300&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../assets/style.css?v=2bb940c9d2">
+<link rel="stylesheet" href="../assets/style.css?v=d52bb3a6bf">
 </head>
 <body>
 <header class="top"><div class="wrap"><div class="brand"><b>NOREMA</b> · STEP Lazio</div><div class="updated" id="updated"></div></div></header>
 
 <div class="hero"><div class="wrap">
   <div class="eyebrow">PR FESR Lazio 2021–2027 · Avviso STEP Lazio</div>
-  <h1 id="acr"></h1>
-  <p class="sub" id="title"></p>
+  <div class="hero-row">
+    <div class="hero-main"><h1 id="acr"></h1><p class="sub" id="title"></p></div>
+    <div class="cup-box"><span class="cup-l">CUP</span><span class="cup-v" id="cup"></span><button type="button" class="cup-copy" id="cup-copy" title="Copia il CUP">Copia</button></div>
+  </div>
   <div class="chips" id="chips"></div>
 </div></div>
 
@@ -43,7 +45,8 @@
 
   <section id="budget">
     <h2>Partner e budget</h2>
-    <p class="lead">Importi ammessi e concessi per beneficiario, come da comunicazione di concessione di Lazio Innova.</p>
+    <p class="lead">Ruoli nel partenariato e importi ammessi e concessi per beneficiario, come da comunicazione di concessione di Lazio Innova.</p>
+    <div class="roles" id="ruoli"></div>
     <div class="card scroll">
       <table class="tbl">
         <thead><tr><th>Beneficiario</th><th class="num">Costo ammesso</th><th class="num">Contributo concesso</th><th class="num">Intensità</th><th>Quota progetto</th><th>Codice RNA</th></tr></thead>
@@ -83,6 +86,6 @@
 <footer><div class="wrap"><span>Pagina riservata ai partner di progetto · gestita da NOREMA S.r.l.</span><span id="fonte"></span></div></footer>
 <!--DATA-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
-<script src="../assets/app.js?v=2bb940c9d2"></script>
+<script src="../assets/app.js?v=d52bb3a6bf"></script>
 </body>
 </html>

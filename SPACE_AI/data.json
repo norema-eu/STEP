@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-10-28T14:50:00+01:00",
+  "aggiornato": "2026-10-28T15:00:00+01:00",
   "fonte": "Fonti: comunicazione di concessione Lazio Innova (Det. G13392, BURL n. 81 suppl. 1 del 08/10/2026), proposta progettuale, corrispondenza di partenariato.",
   "progetto": {
     "acronimo": "SPACE.AI",
@@ -30,7 +30,11 @@
       "referente": "Valerio Caroselli (project manager)",
       "costo_ammesso": 347400.0,
       "contributo_concesso": 191070.0,
-      "rna": "26294675"
+      "rna": "26294675",
+      "tipo": "Capofila · mandataria",
+      "wp": "WP1 Project management e acquisizione dati · WP5 Validazione su task operativi",
+      "descrizione": "Coordina il progetto e il partenariato ed è l'interlocutore di Lazio Innova. Gestisce acquisizione, armonizzazione e qualità dei dati satellitari (Sentinel, Planet, DEM), le pipeline geospaziali e la validazione dei modelli su casi d'uso reali (agricoltura, mappatura urbana, rischio).",
+      "team": "Project manager: Valerio Caroselli · coordinamento WP1 e WP5: Silvia Ricci"
     },
     {
       "nome": "Università di Roma \"La Sapienza\" – SBAI",
@@ -38,7 +42,11 @@
       "referente": "Prof.ssa Vittoria Bruni",
       "costo_ammesso": 200030.4,
       "contributo_concesso": 160024.32,
-      "rna": "Non aiuto"
+      "rna": "Non aiuto",
+      "tipo": "Organismo di ricerca",
+      "wp": "WP3 Pretraining del modello foundation",
+      "descrizione": "Sviluppa e pre-addestra il modello foundation multimodale (encoder-decoder Transformer) mettendo a disposizione il proprio cluster di calcolo, supporta il tuning dei modelli negli altri WP e cura la validazione scientifica complessiva del progetto.",
+      "team": "Coordinamento scientifico: Prof.ssa Vittoria Bruni (Dip. SBAI)"
     },
     {
       "nome": "ReadyLab S.r.l.s.",
@@ -46,7 +54,11 @@
       "referente": "Sabato Fusco",
       "costo_ammesso": 147600.0,
       "contributo_concesso": 62100.0,
-      "rna": "26294693"
+      "rna": "26294693",
+      "tipo": "Partner",
+      "wp": "WP6 Integrazione, test e dimostrazione (TRL7) · WP7 Piattaforma SaaS e architettura",
+      "descrizione": "Progetta e realizza la piattaforma SaaS di SPACE.AI (interfaccia geospaziale, backend, API), cura il deploy in cloud, l'integrazione GIS e i test in ambiente operativo fino al TRL7, insieme alla formazione degli utenti.",
+      "team": "Coordinamento WP6 e WP7: Sabato Fusco"
     },
     {
       "nome": "NOREMA S.r.l.",
@@ -54,7 +66,11 @@
       "referente": "Claudia Abatecola",
       "costo_ammesso": 75960.0,
       "contributo_concesso": 41778.0,
-      "rna": "26294686"
+      "rna": "26294686",
+      "tipo": "Partner",
+      "wp": "WP2 Sviluppo tokenizzatori · WP4 Generazione e Thinking-in-Modalities",
+      "descrizione": "Guida lo sviluppo dei tokenizzatori multimodali e del modulo generativo cross-modale, con un esperto di deep learning dedicato. Assicura inoltre il supporto trasversale di project management, monitoraggio dei KPI e gestione tecnico-amministrativa e di rendicontazione.",
+      "team": "Coordinamento scientifico e strategico: Claudia Abatecola · coordinamento operativo: Chiara Mirabella"
     }
   ],
   "wp": [
