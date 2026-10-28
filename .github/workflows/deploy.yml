@@ -33,6 +33,7 @@ jobs:
             preview/**
             deploy/**
             build.py
+            xlsx_preview.py
             README.md
             **/.htaccess
             **/.htpasswd*

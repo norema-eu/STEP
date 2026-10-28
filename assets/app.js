@@ -102,9 +102,36 @@
     // Documenti
     const ico = `<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke-width="1.5"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/></svg>`;
     const docs = D.documenti || [];
-    const nome = (x) => x.file ? `<a href="documenti/${encodeURI(x.file)}" download>${esc(x.nome)}</a>` : esc(x.nome);
-    const dl = (x) => x.file ? `<a class="b ok" style="text-decoration:none" href="documenti/${encodeURI(x.file)}" download>Scarica ${esc((x.file.split(".").pop() || "").toUpperCase())}</a>` : "";
-    $("#documenti").innerHTML = docs.length ? docs.map((x) => `<div class="doc">${ico}<div style="flex:1"><div>${nome(x)} ${badge(x.stato)}</div><div class="x">${esc(x.categoria || "")}${x.data ? " · " + d(x.data) : ""}${x.nota ? " · " + esc(x.nota) : ""}</div></div>${dl(x)}</div>`).join("") : `<div class="empty">Nessun documento.</div>`;
+    const url = (f) => "documenti/" + f.split("/").map(encodeURIComponent).join("/");
+    const ext = (f) => (f.split(".").pop() || "").toUpperCase();
+    const cats = [];
+    docs.forEach((x) => { const c = x.categoria || "Altro"; if (!cats.includes(c)) cats.push(c); });
+    $("#documenti").innerHTML = docs.length ? cats.map((c) => `<div class="doc-cat">${esc(c)}</div>` + docs.map((x, i) => [x, i]).filter(([x]) => (x.categoria || "Altro") === c).map(([x, i]) => `
+      <div class="doc ${x.file ? "has-file" : "no-file"}" data-i="${i}" ${x.file ? 'tabindex="0" role="button"' : ""}>${ico}
+        <div style="flex:1;min-width:0"><div class="doc-name">${esc(x.nome)} ${x.stato !== "completato" ? badge(x.stato) : ""}</div>
+        <div class="x">${x.data ? d(x.data) : ""}${x.data && x.nota ? " · " : ""}${x.nota ? esc(x.nota) : ""}${!x.file ? (x.data || x.nota ? " · " : "") + "non ancora disponibile" : ""}</div></div>
+        ${x.file ? `<a class="b ok dl" href="${url(x.file)}" download title="Scarica ${esc(x.nome)}">${esc(ext(x.file))} ↓</a>` : ""}
+      </div>`).join("")).join("") : `<div class="empty">Nessun documento.</div>`;
+
+    const frame = $("#viewer-frame"), vt = $("#viewer-title"), vdl = $("#viewer-dl"), ve = $("#viewer-empty");
+    const show = (i) => {
+      const x = docs[i]; if (!x || !x.file) return;
+      document.querySelectorAll(".doc.sel").forEach((e) => e.classList.remove("sel"));
+      const el = document.querySelector(`.doc[data-i="${i}"]`); if (el) el.classList.add("sel");
+      vt.textContent = x.nome;
+      vdl.hidden = false; vdl.href = url(x.file); vdl.textContent = "Scarica " + ext(x.file);
+      const pv = x.anteprima || (x.file.toLowerCase().endsWith(".pdf") ? x.file : null);
+      if (pv) { frame.src = url(pv) + "#view=FitH"; frame.hidden = false; ve.hidden = true; }
+      else { frame.hidden = true; frame.removeAttribute("src"); ve.hidden = false; ve.textContent = "Anteprima non disponibile per questo formato: scarica il file."; }
+      if (window.innerWidth < 860) document.querySelector(".docs-viewer").scrollIntoView({ behavior: "smooth", block: "start" });
+    };
+    document.querySelectorAll(".doc.has-file").forEach((el) => {
+      el.addEventListener("click", (e) => { if (e.target.closest("a.dl")) return; show(+el.dataset.i); });
+      el.addEventListener("keydown", (e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); show(+el.dataset.i); } });
+    });
+    frame.hidden = true;
+    const first = docs.findIndex((x) => x.file);
+    if (first >= 0 && window.innerWidth >= 860) show(first);
 
     $("#fonte").textContent = D.fonte || "";
 

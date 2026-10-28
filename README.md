@@ -37,3 +37,9 @@ Sito statico pubblicato su **step.norema.eu** (hosting SiteGround), in sola visu
 
 Modificare `<PROGETTO>/data.json`, eseguire `python3 build.py`, fare commit e push su `main`. Entro 15 minuti la pagina è online.
 `python3 build.py --preview` crea in `preview/` una versione autonoma da aprire nel browser (non va pubblicata).
+
+## Documenti scaricabili e anteprime
+
+- I file vanno in `<PROGETTO>/documenti/` e si elencano in `data.json` → `documenti` con il campo `file` (e `categoria`, `stato`, `data`, `nota`).
+- PDF: anteprima diretta. Word (.docx): anteprima PDF in `documenti/anteprime/` con `soffice --headless --convert-to pdf --outdir <PROGETTO>/documenti/anteprime <file>.docx`. Excel (.xlsx): anteprima HTML con `python3 xlsx_preview.py <PROGETTO>/documenti/<file>.xlsx`. Indicare il percorso nel campo `anteprima` (es. `anteprime/nome.pdf`).
+- Non pubblicare mai documenti antimafia (dichiarazioni familiari conviventi, schede B.D.N.A., moduli conviventi), visure o documenti d'identità.

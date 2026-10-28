@@ -69,8 +69,15 @@
 
   <section id="documenti-s">
     <h2>Documenti</h2>
-    <p class="lead">Stato dei principali documenti di progetto. I file sono conservati nell'archivio condiviso del partenariato.</p>
-    <div class="card" id="documenti"></div>
+    <p class="lead">Seleziona un documento per vederlo in anteprima; usa il pulsante per scaricarlo.</p>
+    <div class="docs-layout">
+      <div class="card docs-list" id="documenti"></div>
+      <div class="card docs-viewer">
+        <div class="viewer-head"><span id="viewer-title">Nessun documento selezionato</span><a id="viewer-dl" class="b ok" href="#" download hidden>Scarica</a></div>
+        <iframe id="viewer-frame" title="Anteprima documento" loading="lazy"></iframe>
+        <div class="empty" id="viewer-empty">Seleziona un documento dall'elenco.</div>
+      </div>
+    </div>
   </section>
 </main>
 

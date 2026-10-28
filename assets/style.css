@@ -109,6 +109,24 @@ h2::after{content:"";flex:1;height:1px;background:var(--line)}
 .doc svg{flex:none;margin-top:2px;stroke:var(--teal-2)}
 .doc .x{font-size:12.5px;color:var(--muted)}
 
+/* Documenti: elenco + anteprima */
+.docs-layout{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:16px;align-items:start}
+.docs-list{padding:8px 14px;max-height:calc(100vh - 90px);overflow:auto}
+.doc-cat{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--teal-2);font-weight:600;padding:14px 6px 4px}
+.docs-list .doc{padding:10px 8px;border-radius:10px;align-items:center}
+.doc.has-file{cursor:pointer}
+.doc.has-file:hover{background:#F4FAFA}
+.doc.sel{background:var(--aqua-2)}
+.doc.no-file{opacity:.65}
+.doc-name{font-size:14px}
+.doc .dl{text-decoration:none;flex:none}
+.docs-viewer{position:sticky;top:60px;padding:0;overflow:hidden;display:flex;flex-direction:column;height:calc(100vh - 90px);min-height:420px}
+.viewer-head{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:12px 16px;border-bottom:1px solid var(--line);font-weight:500;color:var(--navy);font-size:14px}
+.viewer-head a{text-decoration:none;flex:none}
+.docs-viewer iframe{flex:1;width:100%;border:0;background:var(--g1)}
+.docs-viewer .empty{padding:24px 16px}
+[hidden]{display:none!important}
+@media (max-width:860px){.docs-layout{grid-template-columns:1fr}.docs-list{max-height:none}.docs-viewer{position:static;height:75vh}}
 .empty{color:var(--muted);font-style:italic;padding:8px 0}
 footer{margin:48px 0 0;padding:22px 0 36px;border-top:1px solid var(--line);color:var(--muted);font-size:12px}
 footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}

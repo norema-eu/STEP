@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-10-28T14:20:00+01:00",
+  "aggiornato": "2026-10-28T14:40:00+01:00",
   "fonte": "Fonti: comunicazione di concessione Lazio Innova (Det. G13392, BURL n. 81 suppl. 1 del 08/10/2026), proposta progettuale, corrispondenza di partenariato.",
   "progetto": {
     "acronimo": "SPACE.AI",
@@ -263,49 +263,147 @@
   ],
   "documenti": [
     {
-      "nome": "Proposta progettuale (formulario)",
-      "categoria": "Domanda",
-      "data": "2025-07-17",
+      "nome": "Comunicazione di concessione del contributo",
+      "categoria": "Concessione e avvio",
       "stato": "completato",
-      "file": "SPACE_AI_proposta_progettuale.pdf"
-    },
-    {
-      "nome": "Comunicazione di concessione del contributo (Lazio Innova)",
-      "categoria": "Esito",
+      "file": "SPACE_AI_comunicazione_concessione.pdf",
       "data": "2026-10-08",
-      "stato": "completato",
-      "nota": "importi ammessi, CUP e richiesta antimafia"
+      "nota": "Lazio Innova · importi ammessi, CUP, richiesta antimafia"
     },
     {
-      "nome": "Accordo di aggregazione (ATS)",
-      "categoria": "Partenariato",
-      "nota": "bozza del 18/11/2025, da formalizzare",
-      "stato": "in_corso"
-    },
-    {
-      "nome": "Documentazione antimafia (Allegati 1a, 1b, B.D.N.A.)",
-      "categoria": "Atto di Impegno",
+      "nome": "Piano costi approvato – dettaglio",
+      "categoria": "Concessione e avvio",
       "stato": "completato",
+      "file": "SPACE_AI_piano_costi_dettaglio.xlsx",
+      "anteprima": "anteprime/SPACE_AI_piano_costi_dettaglio.html",
       "data": "2026-10-22",
-      "nota": "trasmessa a Lazio Innova"
+      "nota": "estratto GeCoWEB Plus"
     },
     {
-      "nome": "Schema di polizza fideiussoria per l'anticipo",
-      "categoria": "Anticipo",
-      "stato": "in_corso",
-      "file": "SPACE_AI_schema_polizza_fideiussoria.docx",
-      "nota": "schema precompilato, in revisione con l'assicuratore"
+      "nome": "Piano costi approvato – riepilogo per normativa",
+      "categoria": "Concessione e avvio",
+      "stato": "completato",
+      "file": "SPACE_AI_piano_costi_riepilogo_normativa.xlsx",
+      "anteprima": "anteprime/SPACE_AI_piano_costi_riepilogo_normativa.html",
+      "data": "2026-10-22"
+    },
+    {
+      "nome": "Piano costi approvato – riepilogo per investimento",
+      "categoria": "Concessione e avvio",
+      "stato": "completato",
+      "file": "SPACE_AI_piano_costi_riepilogo_investimento.xlsx",
+      "anteprima": "anteprime/SPACE_AI_piano_costi_riepilogo_investimento.html",
+      "data": "2026-10-22"
+    },
+    {
+      "nome": "Istruzioni per l'informazione antimafia",
+      "categoria": "Concessione e avvio",
+      "stato": "completato",
+      "file": "SPACE_AI_istruzioni_antimafia.docx",
+      "anteprima": "anteprime/SPACE_AI_istruzioni_antimafia.pdf",
+      "nota": "Allegato 1 Lazio Innova"
     },
     {
       "nome": "Atto di concessione",
-      "categoria": "Concessione",
-      "nota": "emesso dalla Regione dopo le verifiche antimafia",
-      "stato": "da_avviare"
+      "categoria": "Concessione e avvio",
+      "stato": "da_avviare",
+      "nota": "emesso dalla Regione dopo le verifiche antimafia"
     },
     {
       "nome": "Atto di Impegno",
-      "categoria": "Avvio",
+      "categoria": "Concessione e avvio",
       "stato": "da_avviare"
+    },
+    {
+      "nome": "Accordo di aggregazione (ATS) – bozza",
+      "categoria": "Partenariato",
+      "stato": "in_corso",
+      "file": "SPACE_AI_ATS_bozza.docx",
+      "anteprima": "anteprime/SPACE_AI_ATS_bozza.pdf",
+      "nota": "da formalizzare"
+    },
+    {
+      "nome": "Schema di polizza fideiussoria per l'anticipo",
+      "categoria": "Polizze",
+      "stato": "in_corso",
+      "file": "SPACE_AI_schema_polizza_fideiussoria.docx",
+      "anteprima": "anteprime/SPACE_AI_schema_polizza_fideiussoria.pdf",
+      "nota": "in revisione con l'assicuratore"
+    },
+    {
+      "nome": "Polizza catastrofale IPTSAT",
+      "categoria": "Polizze",
+      "stato": "completato",
+      "file": "polizza_catastrofale_IPTSAT.pdf"
+    },
+    {
+      "nome": "Polizza catastrofale NOREMA n. 60006210",
+      "categoria": "Polizze",
+      "stato": "completato",
+      "file": "polizza_catastrofale_NOREMA_60006210.pdf"
+    },
+    {
+      "nome": "Polizza catastrofale NOREMA n. 60006219",
+      "categoria": "Polizze",
+      "stato": "completato",
+      "file": "polizza_catastrofale_NOREMA_60006219.pdf"
+    },
+    {
+      "nome": "Polizza catastrofale ReadyLab",
+      "categoria": "Polizze",
+      "stato": "completato",
+      "file": "polizza_catastrofale_READYLAB.pdf"
+    },
+    {
+      "nome": "Proposta progettuale (formulario)",
+      "categoria": "Domanda presentata",
+      "stato": "completato",
+      "file": "SPACE_AI_proposta_progettuale.pdf",
+      "data": "2025-07-17"
+    },
+    {
+      "nome": "Domanda di finalizzazione (GeCoWEB Plus)",
+      "categoria": "Domanda presentata",
+      "stato": "completato",
+      "file": "SPACE_AI_domanda_finalizzazione.pdf",
+      "data": "2025-07-14"
+    },
+    {
+      "nome": "Autovalutazione DNSH – IPTSAT",
+      "categoria": "Domanda presentata",
+      "stato": "completato",
+      "file": "IPTSAT_autovalutazione_DNSH.xlsx",
+      "anteprima": "anteprime/IPTSAT_autovalutazione_DNSH.html"
+    },
+    {
+      "nome": "Lettera d'intenti BIP",
+      "categoria": "Domanda presentata",
+      "stato": "completato",
+      "file": "lettera_intenti_BIP.pdf"
+    },
+    {
+      "nome": "Lettera d'intenti Cari Costruzioni",
+      "categoria": "Domanda presentata",
+      "stato": "completato",
+      "file": "lettera_intenti_Cari_Costruzioni.pdf"
+    },
+    {
+      "nome": "Certificato ISO 14001 – IPTSAT",
+      "categoria": "Domanda presentata",
+      "stato": "completato",
+      "file": "IPTSAT_certificato_ISO14001.pdf"
+    },
+    {
+      "nome": "Certificato parità di genere UNI/PdR 125 – IPTSAT",
+      "categoria": "Domanda presentata",
+      "stato": "completato",
+      "file": "IPTSAT_certificato_PdR125.pdf"
+    },
+    {
+      "nome": "Statuto Università La Sapienza (2019)",
+      "categoria": "Domanda presentata",
+      "stato": "completato",
+      "file": "Sapienza_statuto_2019.pdf"
     }
   ]
 }
