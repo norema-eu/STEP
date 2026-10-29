@@ -1,0 +1,356 @@
+{
+  "aggiornato": "2026-10-29T22:45:00+01:00",
+  "fonte": "Fonti: comunicazione di concessione Lazio Innova (prot. LISPA 0033570 del 24/09/2026), Det. G12471 del 15/09/2026 (BURL n. 75 del 17/09/2026, Allegati A e B), formulario/proposta progettuale definitiva (18/07/2025), piano costi approvato da GeCoWEB Plus (estrazione 22/10/2026), corrispondenza di partenariato e PEC (luglio 2025 – ottobre 2026).",
+  "progetto": {
+    "acronimo": "HS – HumanSeal",
+    "titolo": "HumanSeal – Human Source Authentication Layer",
+    "stato": "Ammesso a contributo · antimafia trasmessa il 02/10/2026, in attesa dell'atto di concessione",
+    "cup": "F89J26001110007",
+    "protocollo": "A0896-2025-095547",
+    "concessione": "Det. G12471 · BURL 75/2026",
+    "punteggio": "68 punti",
+    "capofila": "DEV4U S.r.l.s.",
+    "tutor": "Ida Spinuso (Lazio Innova)",
+    "durata_mesi": 24,
+    "data_avvio": null,
+    "sintesi": "HumanSeal sviluppa una piattaforma per l'analisi dell'autenticità dei testi digitali e la certificazione della loro origine umana, distinguendo i testi scritti da persone da quelli generati da modelli di intelligenza artificiale. Il sistema combina NLP, AI explainable, fingerprinting stilistico e segnali semantici in un punteggio di \"umanità\" (HumanSeal Index), con API, dashboard web, certificazione on-chain e integrazione nei flussi documentali della PA (SPID, firma digitale, eIDAS). Il progetto porta la tecnologia da TRL 3 a TRL 7 con validazione in contesti reali (PA, redazioni, enti di formazione).",
+    "periodo": "Durata 24 mesi. L'atto di concessione sarà emesso dalla Regione dopo le verifiche antimafia; il cronoprogramma diventa operativo con la sottoscrizione dell'Atto di Impegno."
+  },
+  "budget": {
+    "costo_ammesso": 528156.0,
+    "contributo_concesso": 312454.8,
+    "contributo_richiesto": 312454.8,
+    "rendicontato": [],
+    "nota_rendicontazione": "Rendicontazione non ancora avviata. Il piano di spesa del formulario prevede stati di avanzamento ai mesi 8, 16, 20 e 24."
+  },
+  "partner": [
+    {
+      "nome": "DEV4U S.r.l.s.",
+      "ruolo": "Capofila · responsabile WP1 e WP4",
+      "referente": "Maurizio Patitucci",
+      "costo_ammesso": 103680.0,
+      "contributo_concesso": 57024.0,
+      "rna": "26242970",
+      "tipo": "Capofila · mandataria",
+      "wp": "WP1 Gestione, coordinamento e monitoraggio · WP4 Integrazione tecnologica, blockchain e testing in ambienti reali",
+      "descrizione": "Coordina il progetto ed è l'interlocutore di Lazio Innova come mandataria dell'aggregazione. Cura la progettazione architetturale e lo sviluppo software: motore di scoring certificativo, API e dashboard web, e guida l'integrazione e la validazione tecnica fino al TRL 7.",
+      "team": "Project manager (coordinatore): Dario Berardi · UI/UX: Maurizio Patitucci · comunicazione: Sara Tomasso"
+    },
+    {
+      "nome": "Università di Roma \"La Sapienza\" – SBAI",
+      "ruolo": "Organismo di ricerca · responsabile WP3",
+      "referente": "Prof. Domenico Vitulano",
+      "costo_ammesso": 87876.0,
+      "contributo_concesso": 70300.8,
+      "rna": "Non aiuto",
+      "tipo": "Organismo di ricerca",
+      "wp": "WP3 Sviluppo, addestramento e validazione del motore AI",
+      "descrizione": "Fornisce il supporto scientifico alla progettazione NLP: costruzione e annotazione dei dataset multilingue, addestramento del modello di scoring e validazione dei segnali stilistici e semantici. Cura le pubblicazioni scientifiche dei risultati.",
+      "team": "Responsabile scientifico: Prof. Domenico Vitulano · gestione scientifica e controllo qualità: Prof.ssa Vittoria Bruni (Dip. SBAI)"
+    },
+    {
+      "nome": "NOREMA S.r.l.",
+      "ruolo": "Partner · responsabile WP5",
+      "referente": "Claudia Abatecola",
+      "costo_ammesso": 90360.0,
+      "contributo_concesso": 49698.0,
+      "rna": "26242984",
+      "tipo": "Partner",
+      "wp": "WP5 Disseminazione, formazione e replicabilità",
+      "descrizione": "Conduce lo studio degli utenti finali e dei contesti d'uso (PA, giornalismo, enti formativi), definisce i requisiti dell'interfaccia SaaS e il modello di pricing per la sostenibilità. Guida disseminazione, kit formativo e piano di replicabilità e valorizzazione industriale.",
+      "team": "Responsabile scientifico e strategia: Claudia Abatecola · project manager e coordinamento operativo: Chiara Mirabella · monitoraggio: Valentina Caldarera"
+    },
+    {
+      "nome": "Microsis S.r.l.",
+      "ruolo": "Partner · responsabile WP2",
+      "referente": "Roberto Antoniucci",
+      "costo_ammesso": 84960.0,
+      "contributo_concesso": 46728.0,
+      "rna": "26242985",
+      "tipo": "Partner",
+      "wp": "WP2 Analisi e definizione dei requisiti",
+      "descrizione": "Coordina l'analisi dei requisiti funzionali, tecnici e normativi e la definizione dell'architettura della piattaforma. Cura la conformità ai flussi documentali della PA (SPID, firma digitale, eIDAS) e il testing in ambiente regolato.",
+      "team": "Capo progetto software: Andrea Morviducci · Maurizio Bevilacqua · Claudio Serrano · Paolo Valerio"
+    },
+    {
+      "nome": "Main Project S.r.l.",
+      "ruolo": "Partner · blockchain e smart contract (WP4)",
+      "referente": "Fabrizio Batori",
+      "costo_ammesso": 77760.0,
+      "contributo_concesso": 42768.0,
+      "rna": "26242976",
+      "tipo": "Partner",
+      "wp": "WP4 Integrazione tecnologica, blockchain e testing (moduli blockchain)",
+      "descrizione": "Integra la piattaforma su infrastruttura blockchain per garantire tracciabilità, immutabilità e verificabilità pubblica delle certificazioni. Sviluppa i moduli smart contract per l'emissione del certificato digitale associato a ciascun contenuto validato.",
+      "team": "Fabrizio Batori · Silvia Cerreti · Alessio Giannini · smart contract e blockchain: Alessio Mancini"
+    },
+    {
+      "nome": "Olympos Hub S.r.l.",
+      "ruolo": "Partner · test in ambienti pilota (WP4)",
+      "referente": "Sandy Gasperoni",
+      "costo_ammesso": 83520.0,
+      "contributo_concesso": 45936.0,
+      "rna": "26242981",
+      "tipo": "Partner",
+      "wp": "WP4 Integrazione tecnologica, blockchain e testing (ambienti pilota)",
+      "descrizione": "Gestisce il deployment del prototipo in contesti pilota (formazione, PMI, enti culturali), l'onboarding degli utenti e la raccolta di feedback per la validazione funzionale e UX. Contribuisce alla disseminazione e alla scalabilità territoriale.",
+      "team": "CTO: Andrea Alunno Minciotti · Innovation & Strategy Lead: Claudio Pezzotta · software engineer: Tamer Hayek · Sandy Gasperoni"
+    }
+  ],
+  "wp": [
+    {
+      "codice": "WP1",
+      "titolo": "Gestione, coordinamento e monitoraggio",
+      "responsabile": "DEV4U",
+      "mese_inizio": 1,
+      "mese_fine": 24,
+      "stato": "da_avviare",
+      "deliverable": "D1.1 (M6), D1.2 (M6, M12, M18, M24)"
+    },
+    {
+      "codice": "WP2",
+      "titolo": "Analisi e definizione dei requisiti",
+      "responsabile": "Microsis",
+      "mese_inizio": 1,
+      "mese_fine": 10,
+      "stato": "da_avviare",
+      "deliverable": "D2.1 (M3), D2.2 (M8)"
+    },
+    {
+      "codice": "WP3",
+      "titolo": "Sviluppo, addestramento e validazione del motore AI",
+      "responsabile": "Sapienza",
+      "mese_inizio": 1,
+      "mese_fine": 18,
+      "stato": "da_avviare",
+      "deliverable": "D3.1 (M10), D3.2 (M16)"
+    },
+    {
+      "codice": "WP4",
+      "titolo": "Integrazione tecnologica, blockchain e testing in ambienti reali",
+      "responsabile": "DEV4U",
+      "mese_inizio": 6,
+      "mese_fine": 24,
+      "stato": "da_avviare",
+      "deliverable": "D4.1 (M16), D4.2 (M20), D4.3 (M22)"
+    },
+    {
+      "codice": "WP5",
+      "titolo": "Disseminazione, formazione e replicabilità",
+      "responsabile": "NOREMA",
+      "mese_inizio": 6,
+      "mese_fine": 24,
+      "stato": "da_avviare",
+      "deliverable": "D5.1 (M18), D5.2 (M24)"
+    }
+  ],
+  "scadenze": [
+    {
+      "data": "2025-07-18",
+      "titolo": "Presentazione della domanda",
+      "descrizione": "Domanda A0896-2025-095547 finalizzata su GeCoWEB Plus il 18/07/2025 e confermata dalla PEC di ricezione.",
+      "chi": "DEV4U (capofila)",
+      "stato": "completato"
+    },
+    {
+      "data": "2026-07-27",
+      "titolo": "Trasmissione polizze catastrofali",
+      "descrizione": "Polizze catastrofali e visure dei partner trasmesse via PEC a Lazio Innova in risposta alla richiesta prot. 0025597 del 13/07/2026.",
+      "chi": "DEV4U (capofila)",
+      "stato": "completato"
+    },
+    {
+      "data": "2026-09-17",
+      "titolo": "Pubblicazione esiti",
+      "descrizione": "Progetto inserito nel quarto elenco degli idonei e finanziabili (Det. G12471, BURL n. 75): 68 punti, nessun taglio.",
+      "stato": "completato"
+    },
+    {
+      "data": "2026-09-24",
+      "titolo": "Comunicazione di concessione del contributo",
+      "descrizione": "PEC di Lazio Innova (prot. 0033570) con CUP, schede B.D.N.A. e richiesta della documentazione antimafia entro 10 giorni.",
+      "chi": "Lazio Innova",
+      "stato": "completato"
+    },
+    {
+      "data": "2026-10-01",
+      "titolo": "Invio documentazione antimafia a NOREMA",
+      "descrizione": "Allegati 1a e 1b e verifica schede B.D.N.A. di DEV4U, Microsis, Main Project, NOREMA e Olympos Hub per la verifica preliminare.",
+      "chi": "Tutti i partner",
+      "stato": "completato"
+    },
+    {
+      "data": "2026-10-02",
+      "titolo": "Trasmissione documentazione antimafia a Lazio Innova",
+      "descrizione": "Trasmessa via PEC dal capofila il 02/10/2026 alle 11:59 a incentivi@pec.lazioinnova.it (8 dichiarazioni All. 1a e 5 moduli All. 1b). Sapienza esclusa in quanto ente pubblico.",
+      "chi": "DEV4U (capofila)",
+      "stato": "completato"
+    },
+    {
+      "data": "2026-10-21",
+      "titolo": "Webinar Lazio Innova sulla rendicontazione",
+      "descrizione": "Webinar su anticipo, SAL e saldo e caricamento su GeCoWEB Plus; slide inoltrate dal capofila il 21/10.",
+      "chi": "Lazio Innova",
+      "stato": "completato"
+    },
+    {
+      "data": null,
+      "titolo": "Kick-off meeting di partenariato",
+      "descrizione": "Data non ancora fissata: il capofila la sollecita il 28/10. Nel formulario la milestone \"Avvio operativo formalizzato\" è prevista al mese 3.",
+      "chi": "Tutti i partner",
+      "stato": "da_avviare"
+    },
+    {
+      "data": null,
+      "titolo": "Polizza fideiussoria per l'anticipo",
+      "descrizione": "Da avviare: il 28/10 il capofila chiede indicazioni su tempi e modalità.",
+      "chi": "DEV4U (capofila)",
+      "stato": "da_avviare"
+    },
+    {
+      "data": null,
+      "titolo": "Atto di concessione",
+      "descrizione": "Emesso dalla Regione Lazio al termine delle verifiche antimafia.",
+      "chi": "Regione Lazio / Lazio Innova",
+      "stato": "da_avviare"
+    },
+    {
+      "data": null,
+      "titolo": "Sottoscrizione Atto di Impegno",
+      "descrizione": "Dopo l'atto di concessione; va riportato il CUP F89J26001110007. Fissa l'avvio del cronoprogramma (mese 1).",
+      "chi": "DEV4U (mandataria)",
+      "stato": "da_avviare"
+    },
+    {
+      "data": null,
+      "titolo": "Fine progetto e rendicontazione finale",
+      "descrizione": "Entro 24 mesi dalla data di concessione, salvo proroghe.",
+      "chi": "Tutti i partner",
+      "stato": "da_avviare"
+    }
+  ],
+  "criticita": [
+    {
+      "data": "2026-10-28",
+      "titolo": "Kick-off e fideiussione non ancora avviati",
+      "descrizione": "Il capofila chiede la data del kick-off e come procedere con la polizza fideiussoria per l'anticipo: serve una pianificazione condivisa.",
+      "livello": "media",
+      "stato": "aperta"
+    },
+    {
+      "data": "2026-10-02",
+      "titolo": "Esito verifiche antimafia in attesa",
+      "descrizione": "Dopo la PEC del 02/10 nelle fonti non risultano riscontri di Lazio Innova: seguire eventuali richieste di integrazione, che arriverebbero alla PEC del capofila.",
+      "livello": "media",
+      "stato": "aperta"
+    },
+    {
+      "data": "2026-10-29",
+      "titolo": "Contratto di aggregazione da verificare",
+      "descrizione": "Su SharePoint è presente solo la bozza del contratto di aggregazione, senza dati completi né firme: verificare la versione sottoscritta.",
+      "livello": "media",
+      "stato": "aperta"
+    },
+    {
+      "data": "2026-09-24",
+      "titolo": "Tempi stretti per l'antimafia",
+      "descrizione": "Termine di 10 giorni dalla comunicazione di concessione: documentazione trasmessa il 02/10.",
+      "livello": "alta",
+      "stato": "risolta"
+    },
+    {
+      "data": "2026-07-13",
+      "titolo": "Polizze catastrofali",
+      "descrizione": "Polizze catastrofali richieste da Lazio Innova (prot. 0025597) e trasmesse via PEC il 27/07/2026.",
+      "livello": "media",
+      "stato": "risolta"
+    }
+  ],
+  "comunicazioni": [
+    {
+      "data": "2025-07-18",
+      "titolo": "Ricezione della domanda",
+      "sintesi": "PEC GeCoWEB di ricezione della domanda A0896-2025-095547, inoltrata dal capofila ai partner."
+    },
+    {
+      "data": "2026-07-27",
+      "titolo": "PEC polizze catastrofali",
+      "sintesi": "Il capofila trasmette a Lazio Innova polizze catastrofali e visure dei partner (rif. prot. 0025597 del 13/07/2026)."
+    },
+    {
+      "data": "2026-09-17",
+      "titolo": "Comunicazione del finanziamento ai partner",
+      "sintesi": "NOREMA comunica l'esito (68 punti, nessun taglio), il dettaglio degli importi per beneficiario e allega il BURL n. 75."
+    },
+    {
+      "data": "2026-09-24",
+      "titolo": "PEC Lazio Innova – comunicazione di concessione",
+      "sintesi": "Prot. 0033570: costi ammessi € 528.156,00, contributo € 312.454,80, CUP, tutor assegnato e richiesta di documentazione antimafia. Inoltrata dal capofila."
+    },
+    {
+      "data": "2026-09-28",
+      "titolo": "Istruzioni antimafia ai partner",
+      "sintesi": "NOREMA invia schede B.D.N.A., Allegati 1a e 1b e istruzioni; consegna richiesta entro il 1° ottobre."
+    },
+    {
+      "data": "2026-10-02",
+      "titolo": "PEC antimafia a Lazio Innova",
+      "sintesi": "Il capofila trasmette la documentazione antimafia di tutte le imprese; si attende l'atto di concessione della Regione."
+    },
+    {
+      "data": "2026-10-02",
+      "titolo": "Invito webinar rendicontazione",
+      "sintesi": "Il Servizio Tutoraggio di Lazio Innova invita al webinar del 21/10 su anticipo, SAL e saldo."
+    },
+    {
+      "data": "2026-10-28",
+      "titolo": "Sollecito kick-off e fideiussione",
+      "sintesi": "Il capofila chiede a NOREMA la data del kick-off e indicazioni sulla polizza fideiussoria."
+    }
+  ],
+  "riunioni": [
+    {
+      "data": "2026-10-21",
+      "titolo": "Webinar Lazio Innova – procedura di rendicontazione STEP",
+      "esito": "Illustrate le fasi di anticipo, SAL e saldo e il caricamento su GeCoWEB Plus; slide inoltrate dal capofila."
+    }
+  ],
+  "documenti": [
+    {
+      "nome": "Formulario presentato (proposta progettuale)",
+      "categoria": "Documenti di progetto",
+      "data": "2025-07-18",
+      "stato": "completato",
+      "fonte_sharepoint": "Documenti condivisi/PROGETTI/PROGETTI IN CORSO/STEP/Human Seal/HS-Proposta Progettuale/HS - FORMULARIO - DEFINITIVO.pdf.p7m",
+      "nota": "firmato digitalmente (p7m) · file in caricamento"
+    },
+    {
+      "nome": "Comunicazione di concessione del contributo",
+      "categoria": "Documenti di progetto",
+      "data": "2026-09-24",
+      "stato": "completato",
+      "fonte_sharepoint": null,
+      "nota": "Lazio Innova, prot. 0033570 · file A0896-2025-095547_concessione.pdf ricevuto via PEC, non presente su SharePoint · file in caricamento"
+    },
+    {
+      "nome": "Piano dei costi approvato",
+      "categoria": "Documenti di progetto",
+      "data": "2026-10-22",
+      "stato": "completato",
+      "fonte_sharepoint": "Documenti condivisi/PROGETTI/PROGETTI IN CORSO/STEP/Human Seal/HS-Dettaglio costi/A0896-2025-095547_Dettaglio_22-10-2026.xlsx",
+      "nota": "dettaglio da GeCoWEB Plus · file in caricamento"
+    },
+    {
+      "nome": "Decreto di concessione",
+      "categoria": "Documenti di progetto",
+      "stato": "da_avviare",
+      "nota": "emesso dalla Regione dopo le verifiche antimafia"
+    },
+    {
+      "nome": "Atto di Impegno",
+      "categoria": "Documenti di progetto",
+      "stato": "da_avviare",
+      "nota": "da sottoscrivere dopo l'atto di concessione"
+    }
+  ]
+}
