@@ -98,7 +98,8 @@
     } else { $("#gantt").outerHTML = `<div class="empty">Piano di lavoro in caricamento.</div>`; }
 
     // Scadenze
-    const sc = (D.scadenze || []).slice().sort((a, b) => (a.data || "9999").localeCompare(b.data || "9999"));
+    // dalla più recente alla più vecchia; le scadenze ancora senza data (da definire) in cima
+    const sc = (D.scadenze || []).slice().sort((a, b) => (b.data || "9999").localeCompare(a.data || "9999"));
     $("#scadenze").innerHTML = sc.length ? sc.map((s) => {
       const past = s.data && days(s.data) < 0;
       const dd = s.data ? (past ? "" : days(s.data) === 0 ? "oggi" : "tra " + days(s.data) + " gg") : "";
