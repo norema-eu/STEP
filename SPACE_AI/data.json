@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-10-28T14:50:00+01:00",
+  "aggiornato": "2026-11-01T12:42:00+01:00",
   "fonte": "Fonti: comunicazione di concessione Lazio Innova (Det. G13392, BURL n. 81 suppl. 1 del 08/10/2026), proposta progettuale, corrispondenza di partenariato.",
   "progetto": {
     "acronimo": "SPACE.AI",
@@ -239,6 +239,11 @@
     }
   ],
   "comunicazioni": [
+    {
+      "data": "2026-07-27",
+      "titolo": "PEC polizza catastrofale a Lazio Innova",
+      "sintesi": "Il capofila trasmette via PEC a Lazio Innova la documentazione integrativa sulla polizza catastrofale (D.L. 39/2025) richiesta con nota prot. LISPA 0025601 del 13/07/2026; PEC reinoltrata a NOREMA il 28/10/2026."
+    },
     {
       "data": "2026-10-08",
       "titolo": "Comunicazione del finanziamento ai partner",
