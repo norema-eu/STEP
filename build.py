@@ -129,7 +129,7 @@ def build_norema(ver: str) -> None:
             "durata_mesi": p.get("durata_mesi") or 24, "costo_progetto": d["budget"]["costo_ammesso"], "wp": d.get("wp", []),
             "norema": {"costo": nor["costo_ammesso"], "contributo": nor["contributo_concesso"], "voci": e.get("voci"),
                        "personale": e.get("personale"), "ore_per_wp": e.get("ore_per_wp"), "attivita": e.get("attivita"),
-                       "note": e.get("note") if isinstance(e.get("note"), str) else "; ".join(e.get("note") or [])},
+                       "note": [e["note"]] if isinstance(e.get("note"), str) else (e.get("note") or [])},
         })
         agg = max(agg, d.get("aggiornato") or "")
     out = ROOT / "NOREMA"

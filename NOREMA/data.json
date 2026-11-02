@@ -1,0 +1,697 @@
+{
+ "aggiornato": "2026-11-02T19:55:00+01:00",
+ "ipotesi": {
+  "ritardo_li": 60,
+  "ritardo_capofila": 15,
+  "anticipo_pct": 0.4,
+  "anticipo_giorni": 90,
+  "sal_mesi": [
+   8,
+   16
+  ],
+  "tetto_pct": 0.8,
+  "date_concessione": {
+   "SPACE_AI": "2026-10-08",
+   "PRONTI_VIA": "2026-10-08",
+   "HUMAN_SEAL": "2026-09-17"
+  }
+ },
+ "progetti": [
+  {
+   "slug": "HUMAN_SEAL",
+   "acronimo": "HS – HumanSeal",
+   "tema": "arancione",
+   "cup": "F89J26001110007",
+   "capofila": "DEV4U S.r.l.s.",
+   "data_inizio": "2026-09-17",
+   "durata_mesi": 24,
+   "costo_progetto": 528156.0,
+   "wp": [
+    {
+     "codice": "WP1",
+     "titolo": "Gestione, coordinamento e monitoraggio",
+     "responsabile": "DEV4U",
+     "mese_inizio": 1,
+     "mese_fine": 24,
+     "stato": "da_avviare",
+     "deliverable": "D1.1 (M6), D1.2 (M6, M12, M18, M24)"
+    },
+    {
+     "codice": "WP2",
+     "titolo": "Analisi e definizione dei requisiti",
+     "responsabile": "Microsis",
+     "mese_inizio": 1,
+     "mese_fine": 10,
+     "stato": "da_avviare",
+     "deliverable": "D2.1 (M3), D2.2 (M8)"
+    },
+    {
+     "codice": "WP3",
+     "titolo": "Sviluppo, addestramento e validazione del motore AI",
+     "responsabile": "Sapienza",
+     "mese_inizio": 1,
+     "mese_fine": 18,
+     "stato": "da_avviare",
+     "deliverable": "D3.1 (M10), D3.2 (M16)"
+    },
+    {
+     "codice": "WP4",
+     "titolo": "Integrazione tecnologica, blockchain e testing in ambienti reali",
+     "responsabile": "DEV4U",
+     "mese_inizio": 6,
+     "mese_fine": 24,
+     "stato": "da_avviare",
+     "deliverable": "D4.1 (M16), D4.2 (M20), D4.3 (M22)"
+    },
+    {
+     "codice": "WP5",
+     "titolo": "Disseminazione, formazione e replicabilità",
+     "responsabile": "NOREMA",
+     "mese_inizio": 6,
+     "mese_fine": 24,
+     "stato": "da_avviare",
+     "deliverable": "D5.1 (M18), D5.2 (M24)"
+    }
+   ],
+   "norema": {
+    "costo": 90360.0,
+    "contributo": 49698.0,
+    "voci": [
+     {
+      "voce": "B.1.1 Personale dipendente – costi standard orari",
+      "importo": 42900.0,
+      "dettaglio": "Riga GeCoWEB 1 – equivale a 1.430 h × 30 €/h; probabilmente Claudia Abatecola (ricostruzione)"
+     },
+     {
+      "voce": "B.1.1 Personale dipendente – costi standard orari",
+      "importo": 26700.0,
+      "dettaglio": "Riga GeCoWEB 2 – equivale a 890 h × 30 €/h; probabilmente Chiara Mirabella (ricostruzione)"
+     },
+     {
+      "voce": "B.1.1 Personale dipendente – costi standard orari",
+      "importo": 5700.0,
+      "dettaglio": "Riga GeCoWEB 3 – equivale a 190 h × 30 €/h; Valentina Caldarera (unica compatibile)"
+     },
+     {
+      "voce": "B.4 Altre spese supplementari, costi generali, amministrativi e indiretti (forfait 20% delle voci B)",
+      "importo": 15060.0,
+      "dettaglio": "20% di 75.300,00 (totale personale); nell'export GeCoWEB la colonna 'Spesa' riporta B.1.1"
+     }
+    ],
+    "personale": [
+     {
+      "nome": "Claudia Abatecola",
+      "ruolo": "Esperta progettazione e gestione fondi europei; strategia e coordinamento WP5",
+      "ore_totali": 1430,
+      "costo_orario": 30,
+      "costo": 42900.0
+     },
+     {
+      "nome": "Chiara Mirabella",
+      "ruolo": "Responsabile amministrativa e project manager",
+      "ore_totali": 890,
+      "costo_orario": 30,
+      "costo": 26700.0
+     },
+     {
+      "nome": "Valentina Caldarera",
+      "ruolo": "Junior PM, digitale e rendicontazione",
+      "ore_totali": 190,
+      "costo_orario": 30,
+      "costo": 5700.0
+     }
+    ],
+    "ore_per_wp": [
+     {
+      "wp": "WP1",
+      "ore": 60,
+      "costo": 1800.0
+     },
+     {
+      "wp": "WP2",
+      "ore": null,
+      "costo": null
+     },
+     {
+      "wp": "WP3",
+      "ore": null,
+      "costo": null
+     },
+     {
+      "wp": "WP2+WP3 (residuo calcolato)",
+      "ore": 1050,
+      "costo": 31500.0,
+      "nota": "Tab. 3 WP2 e WP3 sono immagini non leggibili; valore = 2.510 h approvate − WP1, WP4, WP5"
+     },
+     {
+      "wp": "WP4",
+      "ore": 200,
+      "costo": 6000.0
+     },
+     {
+      "wp": "WP5",
+      "ore": 1200,
+      "costo": 36000.0
+     }
+    ],
+    "attivita": [
+     {
+      "wp": "WP1",
+      "titolo": "Gestione, coordinamento e monitoraggio",
+      "ruolo_norema": "partecipante",
+      "mesi": "M1–M24",
+      "task_norema": "Supporto al coordinamento (Claudia Abatecola, 60 h)",
+      "deliverable_norema": []
+     },
+     {
+      "wp": "WP2",
+      "titolo": "Analisi e definizione dei requisiti",
+      "ruolo_norema": "partecipante",
+      "mesi": "M1–M10",
+      "task_norema": "Mappatura degli stakeholder, studio degli utenti finali e contesti d'uso, requisiti dell'interfaccia SaaS, modello di sostenibilità e pricing (T2.1, T2.3)",
+      "deliverable_norema": []
+     },
+     {
+      "wp": "WP3",
+      "titolo": "Sviluppo, addestramento e validazione del motore AI",
+      "ruolo_norema": "partecipante",
+      "mesi": "M1–M18",
+      "task_norema": "Elaborazione semantica e UX (figura indicata: Serena Tabacchi)",
+      "deliverable_norema": []
+     },
+     {
+      "wp": "WP4",
+      "titolo": "Integrazione tecnologica, blockchain e testing in ambienti reali",
+      "ruolo_norema": "partecipante",
+      "mesi": "M6–M24",
+      "task_norema": "200 h in Tab. 3 (Abatecola 120, Mirabella 40, Caldarera 40); NOREMA non è elencata tra i partner coinvolti nella descrizione del WP",
+      "deliverable_norema": []
+     },
+     {
+      "wp": "WP5",
+      "titolo": "Disseminazione, formazione e replicabilità",
+      "ruolo_norema": "responsabile",
+      "mesi": "M6–M24",
+      "task_norema": "T5.1 kit formativo; T5.2 3 eventi pubblici e 4 workshop; T5.3 pubblicazioni, policy paper e roadmap di replicabilità; T5.4 comunicazione multicanale",
+      "deliverable_norema": [
+       "D5.1 Kit formativo e comunicativo (M18)",
+       "D5.2 Piano di replicabilità e valorizzazione industriale (M24)",
+       "Milestone M5.1 Avvio campagna di engagement (M18)",
+       "Milestone M5.2 Strategia attuativa replicabilità (M24)"
+      ]
+     }
+    ],
+    "note": [
+     "Quadratura: 75.300,00 personale + 15.060,00 forfait 20% = 90.360,00 = costo ammesso data.json; contributo 55% = 49.698,00.",
+     "Formulario 'HS - FORMULARIO - DEFINITIVO.pdf' (email 18/07/2025): in Tab. 6 le colonne NOREMA e Olympos risultano scambiate nella riga B.1.1. Sotto NOREMA compaiono 69.600 di personale, totale 84.660 e contributo 46.563; il piano GeCoWEB approvato attribuisce invece a NOREMA 75.300 + 15.060 = 90.360, coerente con la riga B.4 del formulario (15.060).",
+     "Tab. 3 WP2 e WP3 sono immagini non leggibili dal testo estratto (pagg. 27–28). Le ore WP2+WP3 (1.050 h) e il totale per persona sono ricostruiti dal piano approvato. Abbinamento: 190 h può essere solo Caldarera; 1.430/890 h assegnate ad Abatecola/Mirabella per ipotesi.",
+     "Serena Tabacchi (NOREMA) è indicata come figura chiave WP3 ma non corrisponde a nessuna riga del piano approvato (solo 3 righe personale): verificare se è prevista e su quale riga.",
+     "Deliverable WP5: Tab. 1 riporta un solo deliverable NOREMA 'Kit formativo e piano di replicabilità' (DEC, aperto, M24); la §5 lo divide in D5.1 (M18) e D5.2 (M24). Tab. 2 riporta milestone NOREMA diverse: 'Piano di replicabilità approvato' (M23) e 'Attività di disseminazione completate' (M24).",
+     "Il formulario (§5 WP1) cita 'Diego Grimani (Ro Technology)', un refuso da altro progetto: non riguarda NOREMA."
+    ]
+   }
+  },
+  {
+   "slug": "PRONTI_VIA",
+   "acronimo": "PRONTI VIA",
+   "tema": "verde",
+   "cup": "F89J26001200004",
+   "capofila": "RO Technology S.r.l.",
+   "data_inizio": "2026-10-08",
+   "durata_mesi": 24,
+   "costo_progetto": 667174.8,
+   "wp": [
+    {
+     "codice": "WP1",
+     "titolo": "Coordinamento generale, monitoraggio e controllo qualità",
+     "responsabile": "RO Technology",
+     "mese_inizio": 1,
+     "mese_fine": 24,
+     "stato": "da_avviare",
+     "deliverable": "D1.1 (M2), D1.2 (M6, M12, M18, M24)"
+    },
+    {
+     "codice": "WP2",
+     "titolo": "Sviluppo e test delle reti IoT per parametri ambientali",
+     "responsabile": "RO Technology",
+     "mese_inizio": 1,
+     "mese_fine": 10,
+     "stato": "da_avviare",
+     "deliverable": "D2.1 (M10)"
+    },
+    {
+     "codice": "WP3",
+     "titolo": "Sviluppo moduli AI/NLP per analisi documentale e social media",
+     "responsabile": "NOREMA",
+     "mese_inizio": 1,
+     "mese_fine": 16,
+     "stato": "da_avviare",
+     "deliverable": "D3.1 (M16), D3.2 (M12)"
+    },
+    {
+     "codice": "WP4",
+     "titolo": "Integrazione e sviluppo della piattaforma interoperabile",
+     "responsabile": "RO Technology",
+     "mese_inizio": 8,
+     "mese_fine": 22,
+     "stato": "da_avviare",
+     "deliverable": "D4.1 (M22)"
+    },
+    {
+     "codice": "WP5",
+     "titolo": "Dimostrazione e validazione in aree pilota del Lazio",
+     "responsabile": "Sapienza",
+     "mese_inizio": 20,
+     "mese_fine": 24,
+     "stato": "da_avviare",
+     "deliverable": "D5.1 (M24)"
+    },
+    {
+     "codice": "WP6",
+     "titolo": "Disseminazione, formazione e replicabilità",
+     "responsabile": "NOREMA",
+     "mese_inizio": 6,
+     "mese_fine": 24,
+     "stato": "da_avviare",
+     "deliverable": "D6.1 (M20), D6.2 (M12)"
+    }
+   ],
+   "norema": {
+    "costo": 215424.0,
+    "contributo": 118483.2,
+    "voci": [
+     {
+      "voce": "B.1.1 Personale dipendente – costi standard orari",
+      "importo": 42240.0,
+      "dettaglio": "Riga GeCoWEB 1 – equivale a 1.408 h × 30 €/h; nominativo non indicato"
+     },
+     {
+      "voce": "B.1.1 Personale dipendente – costi standard orari",
+      "importo": 42240.0,
+      "dettaglio": "Riga GeCoWEB 2 – equivale a 1.408 h × 30 €/h; nominativo non indicato"
+     },
+     {
+      "voce": "B.1.1 Personale dipendente – costi standard orari",
+      "importo": 63360.0,
+      "dettaglio": "Riga GeCoWEB 3 – equivale a 2.112 h × 30 €/h; nominativo non indicato"
+     },
+     {
+      "voce": "B.1.1 Personale dipendente – costi standard orari",
+      "importo": 31680.0,
+      "dettaglio": "Riga GeCoWEB 4 – equivale a 1.056 h × 30 €/h; nominativo non indicato"
+     },
+     {
+      "voce": "B.4 Altre spese supplementari, costi generali, amministrativi e indiretti (forfait 20% delle voci B)",
+      "importo": 35904.0,
+      "dettaglio": "20% di 179.520,00 (totale personale); nell'export GeCoWEB la colonna 'Spesa' riporta B.1.1"
+     }
+    ],
+    "personale": [
+     {
+      "nome": "Claudia Abatecola",
+      "ruolo": "Responsabile scientifico e strategia digitale",
+      "ore_totali": null,
+      "costo_orario": 30,
+      "costo": null,
+      "ore_wp1_wp4_formulario": 812
+     },
+     {
+      "nome": "Chiara Mirabella",
+      "ruolo": "Project manager e coordinamento operativo",
+      "ore_totali": null,
+      "costo_orario": 30,
+      "costo": null,
+      "ore_wp1_wp4_formulario": 308
+     },
+     {
+      "nome": "Valentina Caldarera",
+      "ruolo": "Junior EU project manager, monitoring",
+      "ore_totali": null,
+      "costo_orario": 30,
+      "costo": null,
+      "ore_wp1_wp4_formulario": 308
+     },
+     {
+      "nome": "da individuare",
+      "ruolo": "Figura da contrattualizzare (full stack developer)",
+      "ore_totali": null,
+      "costo_orario": 30,
+      "costo": null,
+      "ore_wp1_wp4_formulario": 556
+     }
+    ],
+    "ore_per_wp": [
+     {
+      "wp": "WP1",
+      "ore": 150,
+      "costo": 4500.0
+     },
+     {
+      "wp": "WP2",
+      "ore": 200,
+      "costo": 6000.0
+     },
+     {
+      "wp": "WP3",
+      "ore": 706,
+      "costo": 21180.0
+     },
+     {
+      "wp": "WP4",
+      "ore": 928,
+      "costo": 27840.0
+     },
+     {
+      "wp": "WP5",
+      "ore": null,
+      "costo": null
+     },
+     {
+      "wp": "WP6",
+      "ore": null,
+      "costo": null
+     },
+     {
+      "wp": "WP5+WP6 (residuo calcolato)",
+      "ore": 4000,
+      "costo": 120000.0,
+      "nota": "Differenza tra personale approvato 179.520 € e WP1–WP4 59.520 €; non leggibile per singolo WP"
+     }
+    ],
+    "attivita": [
+     {
+      "wp": "WP1",
+      "titolo": "Coordinamento generale, monitoraggio e controllo qualità",
+      "ruolo_norema": "partecipante",
+      "mesi": "M1–M24",
+      "task_norema": "Partecipazione a coordinamento e monitoraggio (150 h di Claudia Abatecola)",
+      "deliverable_norema": []
+     },
+     {
+      "wp": "WP2",
+      "titolo": "Sviluppo e test delle reti IoT per parametri ambientali",
+      "ruolo_norema": "partecipante",
+      "mesi": "M1–M10",
+      "task_norema": "Supporto tecnico alla sensoristica (50 h per ciascuna delle 4 figure)",
+      "deliverable_norema": []
+     },
+     {
+      "wp": "WP3",
+      "titolo": "Sviluppo moduli AI/NLP per analisi documentale e social media",
+      "ruolo_norema": "responsabile",
+      "mesi": "M1–M16",
+      "task_norema": "T3.1 annotazione semantica e dataset; T3.2 pipeline NLP; T3.3 validazione e test su documenti amministrativi e contenuti social",
+      "deliverable_norema": [
+       "D3.1 Moduli AI operativi (M16; Tab. 1: M14)",
+       "D3.2 Dataset classificati (M12; Tab. 1: M16)",
+       "Milestone M3.1 Moduli testati in ambiente operativo simulato (M16)"
+      ]
+     },
+     {
+      "wp": "WP4",
+      "titolo": "Integrazione e sviluppo della piattaforma interoperabile",
+      "ruolo_norema": "partecipante",
+      "mesi": "M8–M22",
+      "task_norema": "Supporto su interoperabilità e verifica dell'integrazione dei moduli AI/NLP",
+      "deliverable_norema": []
+     },
+     {
+      "wp": "WP5",
+      "titolo": "Dimostrazione e validazione in aree pilota del Lazio",
+      "ruolo_norema": "partecipante",
+      "mesi": "M20–M24",
+      "task_norema": "Contributo su analisi dati e usabilità nelle aree pilota",
+      "deliverable_norema": []
+     },
+     {
+      "wp": "WP6",
+      "titolo": "Disseminazione, formazione e replicabilità",
+      "ruolo_norema": "responsabile",
+      "mesi": "M6–M24",
+      "task_norema": "T6.1 piano di comunicazione; T6.2 attività formative; T6.3 toolkit di replicabilità (manuali, linee guida, video)",
+      "deliverable_norema": [
+       "D6.1 Toolkit di replicabilità (M20; Tab. 1: M12)",
+       "D6.2 Piano di comunicazione e materiali multimediali (M12; Tab. 1: M24)",
+       "Milestone M6.1 Avvio attività pubbliche (M12)"
+      ]
+     }
+    ],
+    "note": [
+     "Quadratura: 179.520,00 personale + 35.904,00 forfait 20% = 215.424,00 = costo ammesso data.json; la Tab. 6 del formulario riporta per NOREMA gli stessi importi (contributo 118.483,20; percentuale scritta '555' per refuso).",
+     "Fonte formulario: PDF 'ProntiVIA - Formulario.pdf' allegato all'email di C. Abatecola a G. Rossi del 17/07/2025 'Firmare digitalmente'. Il Google Doc del 15/07/2025 è una bozza con tabelle incomplete. Non è stato verificato che il .p7m firmato coincida con questo PDF.",
+     "Ore per WP: WP1–WP4 ricostruite dalle Tab. 3 del PDF (testo estratto in ordine disordinato, quadrature per partner verificate). Tab. 3 WP5 assente nel testo (probabilmente immagine). Tab. 3 WP6 riporta 2.750 h / 82.500 € nella colonna RO Technology e 0 per NOREMA, che è il responsabile: quasi certamente un errore di colonna. Il residuo NOREMA calcolato per WP5+WP6 è 4.000 h / 120.000 €; se le 2.750 h del WP6 sono di NOREMA, al WP5 restano 1.250 h / 37.500 € (non verificato).",
+     "Nella §5 le stime per WP non tornano con le Tab. 3 (es. WP3 'Totale 2.653 h – 79.575 €'; WP6 '1.884 h – 56.520 €').",
+     "Le 4 righe personale GeCoWEB (1.408 / 1.408 / 2.112 / 1.056 h equivalenti) non riportano nomi; abbinamento alle persone non ricostruibile senza la Tab. 3 di WP5/WP6.",
+     "Mesi dei deliverable incoerenti tra Tab. 1 e §5 del formulario: si usa la §5 (come data.json), tra parentesi la Tab. 1.",
+     "Il WP1 del formulario indica Diego Grimani per RO Technology, poi sostituito da Andrea Talamanca (data.json): non riguarda NOREMA."
+    ]
+   }
+  },
+  {
+   "slug": "SPACE_AI",
+   "acronimo": "SPACE.AI",
+   "tema": "blu",
+   "cup": "F89J26001240004",
+   "capofila": "IPTSAT S.r.l.",
+   "data_inizio": "2026-10-08",
+   "durata_mesi": 24,
+   "costo_progetto": 770990.4,
+   "wp": [
+    {
+     "codice": "WP1",
+     "titolo": "Project management e acquisizione dati",
+     "responsabile": "IPTSAT",
+     "mese_inizio": 1,
+     "mese_fine": 24,
+     "stato": "da_avviare",
+     "deliverable": "D1.1 (M6), D1.2 (M12), D1.3 (M18), D1.4 (M24)"
+    },
+    {
+     "codice": "WP2",
+     "titolo": "Sviluppo tokenizzatori",
+     "responsabile": "NOREMA",
+     "mese_inizio": 3,
+     "mese_fine": 9,
+     "stato": "da_avviare",
+     "deliverable": "D2.1 (M9)"
+    },
+    {
+     "codice": "WP3",
+     "titolo": "Pretraining modello foundation",
+     "responsabile": "Sapienza",
+     "mese_inizio": 7,
+     "mese_fine": 15,
+     "stato": "da_avviare",
+     "deliverable": "D3.1 (M15)"
+    },
+    {
+     "codice": "WP4",
+     "titolo": "Generazione e Thinking-in-Modalities",
+     "responsabile": "NOREMA",
+     "mese_inizio": 10,
+     "mese_fine": 20,
+     "stato": "da_avviare",
+     "deliverable": "D4.1 (M20)"
+    },
+    {
+     "codice": "WP5",
+     "titolo": "Validazione su task operativi",
+     "responsabile": "IPTSAT",
+     "mese_inizio": 16,
+     "mese_fine": 22,
+     "stato": "da_avviare",
+     "deliverable": "D5.1 (M22)"
+    },
+    {
+     "codice": "WP6",
+     "titolo": "Integrazione, test e dimostrazione (TRL7)",
+     "responsabile": "ReadyLab",
+     "mese_inizio": 21,
+     "mese_fine": 24,
+     "stato": "da_avviare",
+     "deliverable": "D6.1 (M24)"
+    },
+    {
+     "codice": "WP7",
+     "titolo": "Piattaforma SaaS e architettura",
+     "responsabile": "ReadyLab",
+     "mese_inizio": 3,
+     "mese_fine": 20,
+     "stato": "da_avviare",
+     "deliverable": "D7.1 (M6), D7.2 (M20)"
+    }
+   ],
+   "norema": {
+    "costo": 75960.0,
+    "contributo": 41778.0,
+    "voci": [
+     {
+      "voce": "B.1.1 Personale dipendente – costi standard orari",
+      "importo": 18000.0,
+      "dettaglio": "Riga GeCoWEB 1 – 600 h × 30 €/h: Claudia Abatecola (WP1 150, WP2 140, WP3 110, WP4 60, WP5 70, WP6 50, WP7 20)"
+     },
+     {
+      "voce": "B.1.1 Personale dipendente – costi standard orari",
+      "importo": 11400.0,
+      "dettaglio": "Riga GeCoWEB 2 – 380 h × 30 €/h: Valentina Caldarera o Chiara Mirabella (entrambe 380 h nel formulario)"
+     },
+     {
+      "voce": "B.1.1 Personale dipendente – costi standard orari",
+      "importo": 11400.0,
+      "dettaglio": "Riga GeCoWEB 3 – 380 h × 30 €/h: Chiara Mirabella o Valentina Caldarera"
+     },
+     {
+      "voce": "B.1.1 Personale dipendente – costi standard orari",
+      "importo": 22500.0,
+      "dettaglio": "Riga GeCoWEB 4 – 750 h × 30 €/h: esperto deep learning da contrattualizzare (WP2 150, WP3 140, WP4 160, WP5 140, WP6 140, WP7 20)"
+     },
+     {
+      "voce": "B.4 Altre spese supplementari, costi generali, amministrativi e indiretti (forfait 20% delle voci B)",
+      "importo": 12660.0,
+      "dettaglio": "20% di 63.300,00 (totale personale). Nell'export GeCoWEB la colonna 'Spesa' riporta B.1.1 ma il 'Tipo voce' è 'Altre spese e altri costi di esercizio e costi generali, amministrativi e indiretti'"
+     }
+    ],
+    "personale": [
+     {
+      "nome": "Claudia Abatecola",
+      "ruolo": "Coordinamento scientifico e strategico / Responsabile scientifico",
+      "ore_totali": 600,
+      "costo_orario": 30,
+      "costo": 18000.0
+     },
+     {
+      "nome": "Chiara Mirabella",
+      "ruolo": "Project manager, coordinamento operativo",
+      "ore_totali": 380,
+      "costo_orario": 30,
+      "costo": 11400.0
+     },
+     {
+      "nome": "Valentina Caldarera",
+      "ruolo": "Junior EU project manager, monitoraggio, rendicontazione e KPI",
+      "ore_totali": 380,
+      "costo_orario": 30,
+      "costo": 11400.0
+     },
+     {
+      "nome": "da individuare",
+      "ruolo": "Esperto deep learning (coordinatore senior WP2 e WP4), contratto da attivare in caso di concessione",
+      "ore_totali": 750,
+      "costo_orario": 30,
+      "costo": 22500.0
+     }
+    ],
+    "ore_per_wp": [
+     {
+      "wp": "WP1",
+      "ore": 150,
+      "costo": 4500.0
+     },
+     {
+      "wp": "WP2",
+      "ore": 530,
+      "costo": 15900.0
+     },
+     {
+      "wp": "WP3",
+      "ore": 390,
+      "costo": 11700.0
+     },
+     {
+      "wp": "WP4",
+      "ore": 360,
+      "costo": 10800.0
+     },
+     {
+      "wp": "WP5",
+      "ore": 340,
+      "costo": 10200.0
+     },
+     {
+      "wp": "WP6",
+      "ore": 260,
+      "costo": 7800.0
+     },
+     {
+      "wp": "WP7",
+      "ore": 80,
+      "costo": 2400.0
+     }
+    ],
+    "attivita": [
+     {
+      "wp": "WP1",
+      "titolo": "Project management e acquisizione dati",
+      "ruolo_norema": "partecipante",
+      "mesi": "M1–M24",
+      "task_norema": "Supporto trasversale di project management, monitoraggio KPI e gestione tecnico-amministrativa (150 h di Claudia Abatecola)",
+      "deliverable_norema": []
+     },
+     {
+      "wp": "WP2",
+      "titolo": "Sviluppo tokenizzatori",
+      "ruolo_norema": "responsabile",
+      "mesi": "M3–M9",
+      "task_norema": "T2.1 design tokenizzatori; T2.2 addestramento con FSQ; T2.3 validazione (MSE, SSIM, PSNR) su radar, ottico, DEM",
+      "deliverable_norema": [
+       "D2.1 Tokenizzatori multimodali compressi e validati (M9)",
+       "Milestone M2 Prototipo iniziale tokenizzatori FSQ (M6)"
+      ]
+     },
+     {
+      "wp": "WP3",
+      "titolo": "Pretraining modello foundation",
+      "ruolo_norema": "partecipante",
+      "mesi": "M7–M15",
+      "task_norema": "Contributo al pretraining del modello Transformer multimodale guidato da Sapienza (task NOREMA non specificati nel formulario)",
+      "deliverable_norema": []
+     },
+     {
+      "wp": "WP4",
+      "titolo": "Generazione e Thinking-in-Modalities",
+      "ruolo_norema": "responsabile",
+      "mesi": "M10–M20",
+      "task_norema": "T4.1 generazione chained; T4.2 integrazione TiM; T4.3 validazione cross-modale",
+      "deliverable_norema": [
+       "D4.1 Modulo generativo SPACE.AI con TiM (M20)",
+       "Milestone M4 Integrazione modulo TiM e generazione (M15)"
+      ]
+     },
+     {
+      "wp": "WP5",
+      "titolo": "Validazione su task operativi",
+      "ruolo_norema": "partecipante",
+      "mesi": "M16–M22",
+      "task_norema": "Supporto alla validazione e al benchmarking su casi d'uso (task NOREMA non specificati)",
+      "deliverable_norema": []
+     },
+     {
+      "wp": "WP6",
+      "titolo": "Integrazione, test e dimostrazione (TRL7)",
+      "ruolo_norema": "partecipante",
+      "mesi": "M21–M24",
+      "task_norema": "Supporto a deploy, test e formazione (task NOREMA non specificati)",
+      "deliverable_norema": []
+     },
+     {
+      "wp": "WP7",
+      "titolo": "Piattaforma SaaS e architettura",
+      "ruolo_norema": "partecipante",
+      "mesi": "M3–M20",
+      "task_norema": "Contributo marginale (80 h) all'architettura SaaS; il formulario cita un full stack developer da acquisire per la piattaforma, ma non compare come riga di costo separata",
+      "deliverable_norema": []
+     }
+    ],
+    "note": [
+     "Quadratura: 63.300,00 personale + 12.660,00 forfait 20% = 75.960,00 = costo ammesso data.json. Contributo 55% = 41.778,00. Formulario e piano approvato coincidono su ore (2.110 h) e importi NOREMA.",
+     "Tab. 6 del formulario (pag. finali) ha le colonne ReadyLab/NOREMA scambiate nella riga B.1.1 (NOREMA 123.000 invece di 63.300): ne derivano subtotale 135.660 e contributo 74.613 attribuiti a NOREMA, errati. Il piano GeCoWEB approvato è corretto (63.300 + 12.660).",
+     "Tab. 3 WP1 è un'immagine (pag. 23): letta visivamente, NOREMA 150 h (Abatecola) = 4.500 €.",
+     "Tab. 3 WP2: le 150 h NOREMA sono sulla riga 'Fatigati Giuseppe' (dipendente ReadyLab); nei WP3–WP7 la stessa figura compare come 'Da contrattualizzare'. La riga GeCoWEB da 22.500 (750 h) torna solo includendo queste 150 h nell'esperto da contrattualizzare.",
+     "Le righe GeCoWEB non riportano nominativi: l'abbinamento riga/persona è ricostruito dagli importi (30 €/h). Le due righe da 11.400 non sono distinguibili tra Mirabella e Caldarera.",
+     "Il formulario nomina Claudia Abatecola, Chiara Mirabella e Valentina Caldarera come 'Dipendente': verificare che il rapporto di lavoro sia compatibile con la voce B.1.1 costi standard orari prima della rendicontazione.",
+     "Deliverable WP7 numerati in modo incoerente nel formulario (D7.0/D7.1 nel testo, D7.1/D7.2 in Tab. 1): non riguarda NOREMA."
+    ]
+   }
+  }
+ ]
+}

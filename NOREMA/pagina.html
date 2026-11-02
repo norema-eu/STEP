@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Cache-Control" content="no-cache">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<script>(function(){var p=location.pathname;if(location.protocol!=="file:"&&!/\/$/.test(p)&&!/\.html?$/i.test(p))location.replace(p+"/"+location.search+location.hash);})();</script>
+<title>NOREMA · STEP Lazio · attività, budget e cassa</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/style.css?v=6332ad5c05">
+<link rel="stylesheet" href="../assets/dash.css?v=6332ad5c05">
+<link rel="stylesheet" href="../assets/norema.css?v=6332ad5c05">
+</head>
+<body>
+<header class="top"><div class="wrap"><div class="brand"><b>NOREMA</b> · STEP Lazio</div><div class="updated" id="updated"></div></div></header>
+
+<div class="hero"><div class="wrap">
+  <div class="eyebrow">Uso interno NOREMA · <a href="../DASHBOARD/" style="color:inherit">Cabina di regia</a></div>
+  <h1>NOREMA nei progetti STEP</h1>
+  <p class="sub">Attività di NOREMA, budget per progetto e complessivo, ipotesi di flusso di cassa secondo le regole di erogazione dell'Avviso (art. 9).</p>
+</div></div>
+
+<div class="wrap"><div class="kpis kpis-6" id="kpis"></div></div>
+
+<nav class="tabs"><div class="wrap">
+  <a href="#attivita-n">Attività</a><a href="#budget-n">Budget</a><a href="#cassa-n">Flusso di cassa</a><a href="#ipotesi-n">Ipotesi</a>
+</div></nav>
+
+<main class="wrap">
+  <section id="attivita-n">
+    <h2>Attività di NOREMA</h2>
+    <p class="lead">Work package in cui NOREMA è responsabile o coinvolta, con periodo e deliverable. Le date dei mesi di progetto partono dalla data di concessione indicata in Ipotesi.</p>
+    <div class="card scroll"><div class="gantt" id="n-gantt"></div></div>
+    <div class="nact" id="n-attivita"></div>
+  </section>
+
+  <section id="budget-n">
+    <h2>Budget</h2>
+    <p class="lead">Costi ammessi e contributo concesso a NOREMA per progetto, con voci di costo e personale previsto.</p>
+    <div class="card scroll"><table class="tbl" id="n-budget-tot"></table></div>
+    <div id="n-budget-prog"></div>
+  </section>
+
+  <section id="cassa-n">
+    <h2>Ipotesi di flusso di cassa</h2>
+    <p class="lead" id="n-cassa-lead"></p>
+    <div class="filters">
+      <div class="seg-ctl" id="n-f-prog"></div>
+      <label class="nctl">Lazio Innova paga in <input type="number" id="n-li" min="0" max="365" step="5"> giorni</label>
+      <label class="nctl">il capofila gira in <input type="number" id="n-cf" min="0" max="180" step="5"> giorni</label>
+    </div>
+    <div class="card"><div id="n-chart" class="nchart" role="img" aria-label="Flusso di cassa mensile NOREMA"></div><div class="nlegend" id="n-legend"></div></div>
+    <div class="card scroll" style="margin-top:16px"><table class="tbl" id="n-erog"></table></div>
+    <div class="card scroll" style="margin-top:16px"><table class="tbl ncash" id="n-cassa"></table></div>
+  </section>
+
+  <section id="ipotesi-n">
+    <h2>Ipotesi e regole utilizzate</h2>
+    <div class="card" id="n-ipotesi"></div>
+  </section>
+</main>
+<div class="ntip" id="n-tip" hidden></div>
+<footer><div class="wrap"><span>Pagina riservata a NOREMA S.r.l.</span><span>Stime di pianificazione: non sostituiscono il piano di spesa né le comunicazioni ufficiali di Lazio Innova</span></div></footer>
+<script src="../assets/norema.js?v=6332ad5c05"></script>
+</body>
+</html>

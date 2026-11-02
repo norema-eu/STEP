@@ -23,9 +23,14 @@
   function profilo(p) {
     const D = p.durata_mesi || 24, N = p.norema, out = new Array(D).fill(0);
     const wpMesi = Object.fromEntries((p.wp || []).map((w) => [w.codice, [w.mese_inizio, w.mese_fine]]));
-    const opw = (N.ore_per_wp || []).filter((x) => (x.costo || x.ore) && wpMesi[x.wp]);
+    // voci anche aggregate (es. "WP5+WP6 (residuo)"): il peso si ripartisce sui mesi di tutti i WP indicati
+    const opw = (N.ore_per_wp || []).map((x) => ({ peso: x.costo || x.ore, wps: (String(x.wp).match(/WP\d+/g) || []).filter((c) => wpMesi[c]) }))
+      .filter((x) => x.peso && x.wps.length);
     if (opw.length) {
-      opw.forEach((x) => { const [a, b] = wpMesi[x.wp], peso = x.costo || x.ore, n = b - a + 1; for (let m = a; m <= b; m++) out[m - 1] += peso / n; });
+      opw.forEach(({ peso, wps }) => {
+        const mesi = wps.flatMap((c) => { const [a, b] = wpMesi[c]; return Array.from({ length: b - a + 1 }, (_, i) => a + i); });
+        mesi.forEach((m) => (out[m - 1] += peso / mesi.length));
+      });
     } else {
       const resp = (N.attivita || []).filter((a) => a.ruolo_norema === "responsabile" && wpMesi[a.wp]);
       if (resp.length) resp.forEach((a) => { const [x, y] = wpMesi[a.wp]; for (let m = x; m <= y; m++) out[m - 1] += 1; });
@@ -92,7 +97,7 @@
         <div class="grid2"><div><table><thead><tr><th>Voce di costo</th><th class="num">Importo</th></tr></thead><tbody>${voci || `<tr><td colspan="2" class="empty">Voci non disponibili</td></tr>`}</tbody></table></div>
         <div><table><thead><tr><th>Personale</th><th class="num">Ore</th><th class="num">€/h</th><th class="num">Costo</th></tr></thead><tbody>${pers || `<tr><td colspan="4" class="empty">Dettaglio non disponibile</td></tr>`}</tbody></table>
         ${opw ? `<div class="note">Ore per WP: ${opw}</div>` : ""}</div></div>
-        ${N.note ? `<div class="note">${esc(N.note)}</div>` : ""}</div>`;
+        ${(N.note || []).length ? `<details class="note"><summary>Note di verifica sulle fonti (${N.note.length})</summary><ul>${N.note.map((t) => `<li>${esc(t)}</li>`).join("")}</ul></details>` : ""}</div>`;
     }).join("");
 
     // ---------- Cassa
