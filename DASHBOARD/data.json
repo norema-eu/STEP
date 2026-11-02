@@ -1,0 +1,1279 @@
+{
+ "aggiornato": "2026-11-02T15:45:00+01:00",
+ "progetti": [
+  {
+   "acronimo": "HS – HumanSeal",
+   "titolo": "HumanSeal – Human Source Authentication Layer",
+   "stato": "Ammesso a contributo · antimafia trasmessa il 02/10/2026, in attesa dell'atto di concessione",
+   "cup": "F89J26001110007",
+   "protocollo": "A0896-2025-095547",
+   "concessione": "Det. G12471 · BURL 75/2026",
+   "punteggio": "68 punti",
+   "capofila": "DEV4U S.r.l.s.",
+   "tutor": "Ida Spinuso (Lazio Innova)",
+   "durata_mesi": 24,
+   "data_avvio": null,
+   "data_inizio": "2026-09-17",
+   "sintesi": "HumanSeal sviluppa una piattaforma per l'analisi dell'autenticità dei testi digitali e la certificazione della loro origine umana, distinguendo i testi scritti da persone da quelli generati da modelli di intelligenza artificiale. Il sistema combina NLP, AI explainable, fingerprinting stilistico e segnali semantici in un punteggio di \"umanità\" (HumanSeal Index), con API, dashboard web, certificazione on-chain e integrazione nei flussi documentali della PA (SPID, firma digitale, eIDAS). Il progetto porta la tecnologia da TRL 3 a TRL 7 con validazione in contesti reali (PA, redazioni, enti di formazione).",
+   "periodo": "Durata 24 mesi. L'atto di concessione sarà emesso dalla Regione dopo le verifiche antimafia; il cronoprogramma diventa operativo con la sottoscrizione dell'Atto di Impegno.",
+   "tema": "arancione",
+   "slug": "HUMAN_SEAL",
+   "budget": {
+    "costo_ammesso": 528156.0,
+    "contributo_concesso": 312454.8,
+    "contributo_richiesto": 312454.8,
+    "rendicontato": [],
+    "nota_rendicontazione": "Rendicontazione non ancora avviata. Il piano di spesa del formulario prevede stati di avanzamento ai mesi 8, 16, 20 e 24."
+   },
+   "partner": [
+    {
+     "nome": "DEV4U S.r.l.s.",
+     "ruolo": "Capofila · responsabile WP1 e WP4",
+     "referente": "Maurizio Patitucci",
+     "costo_ammesso": 103680.0,
+     "contributo_concesso": 57024.0,
+     "rna": "26242970",
+     "tipo": "Capofila · mandataria",
+     "wp": "WP1 Gestione, coordinamento e monitoraggio · WP4 Integrazione tecnologica, blockchain e testing in ambienti reali",
+     "descrizione": "Coordina il progetto ed è l'interlocutore di Lazio Innova come mandataria dell'aggregazione. Cura la progettazione architetturale e lo sviluppo software: motore di scoring certificativo, API e dashboard web, e guida l'integrazione e la validazione tecnica fino al TRL 7.",
+     "team": "Project manager (coordinatore): Dario Berardi · UI/UX: Maurizio Patitucci · comunicazione: Sara Tomasso",
+     "anagrafica": {
+      "ragione_sociale": "DEV4U S.r.l.s.",
+      "sede_legale": "Via Appia Nuova 96 – 00183 Roma (RM)",
+      "codice_fiscale": "13200681008",
+      "partita_iva": "13200681008",
+      "rea": "RM-1430459",
+      "legale_rappresentante": "Dario Berardi, Amministratore Unico",
+      "pec": "dev4u@pec.it"
+     },
+     "referenti": [
+      {
+       "nome": "Dario Berardi",
+       "ruolo": "Project manager (coordinatore) e legale rappresentante"
+      },
+      {
+       "nome": "Maurizio Patitucci",
+       "ruolo": "Referente di progetto, UI/UX",
+       "email": "mpatitucci@dev4u.it"
+      }
+     ]
+    },
+    {
+     "nome": "Università di Roma \"La Sapienza\" – SBAI",
+     "ruolo": "Organismo di ricerca · responsabile WP3",
+     "referente": "Prof. Domenico Vitulano",
+     "costo_ammesso": 87876.0,
+     "contributo_concesso": 70300.8,
+     "rna": "Non aiuto",
+     "tipo": "Organismo di ricerca",
+     "wp": "WP3 Sviluppo, addestramento e validazione del motore AI",
+     "descrizione": "Fornisce il supporto scientifico alla progettazione NLP: costruzione e annotazione dei dataset multilingue, addestramento del modello di scoring e validazione dei segnali stilistici e semantici. Cura le pubblicazioni scientifiche dei risultati.",
+     "team": "Responsabile scientifico: Prof. Domenico Vitulano · gestione scientifica e controllo qualità: Prof.ssa Vittoria Bruni (Dip. SBAI)",
+     "anagrafica": {
+      "ragione_sociale": "Università degli Studi di Roma \"La Sapienza\" – Dipartimento di Scienze di Base e Applicate per l'Ingegneria (SBAI)",
+      "sede_legale": "Piazzale Aldo Moro 5 – 00185 Roma (RM)",
+      "codice_fiscale": "80209930587",
+      "partita_iva": "02133771002",
+      "rea": "RM-1569958",
+      "legale_rappresentante": "Prof.ssa Antonella Polimeni, Rettrice",
+      "altro": "Direttore del Dipartimento SBAI: Prof. Roberto Li Voti"
+     },
+     "referenti": [
+      {
+       "nome": "Prof. Domenico Vitulano",
+       "ruolo": "Responsabile scientifico",
+       "email": "domenico.vitulano@uniroma1.it"
+      },
+      {
+       "nome": "Prof.ssa Vittoria Bruni",
+       "ruolo": "Gestione scientifica e controllo qualità",
+       "email": "vittoria.bruni@uniroma1.it"
+      }
+     ]
+    },
+    {
+     "nome": "NOREMA S.r.l.",
+     "ruolo": "Partner · responsabile WP5",
+     "referente": "Claudia Abatecola",
+     "costo_ammesso": 90360.0,
+     "contributo_concesso": 49698.0,
+     "rna": "26242984",
+     "tipo": "Partner",
+     "wp": "WP5 Disseminazione, formazione e replicabilità",
+     "descrizione": "Conduce lo studio degli utenti finali e dei contesti d'uso (PA, giornalismo, enti formativi), definisce i requisiti dell'interfaccia SaaS e il modello di pricing per la sostenibilità. Guida disseminazione, kit formativo e piano di replicabilità e valorizzazione industriale.",
+     "team": "Responsabile scientifico e strategia: Claudia Abatecola · project manager e coordinamento operativo: Chiara Mirabella · monitoraggio: Valentina Caldarera",
+     "anagrafica": {
+      "ragione_sociale": "NOREMA S.r.l. (start-up innovativa)",
+      "sede_legale": "Viale Anicio Gallo 102 – 00174 Roma (RM)",
+      "sede_operativa": "Via di San Martino ai Monti 34-35 – 00184 Roma (RM)",
+      "codice_fiscale": "15893071009",
+      "partita_iva": "15893071009",
+      "rea": "RM-1621151",
+      "legale_rappresentante": "Claudia Abatecola, Amministratrice Unica",
+      "pec": "norema@pec.it",
+      "telefono": "06 96520960",
+      "sito": "www.norema.eu"
+     },
+     "referenti": [
+      {
+       "nome": "Claudia Abatecola",
+       "ruolo": "Responsabile scientifica e strategia",
+       "email": "c.abatecola@norema.eu"
+      },
+      {
+       "nome": "Chiara Mirabella",
+       "ruolo": "EU project manager, coordinamento operativo",
+       "email": "c.mirabella@norema.eu"
+      },
+      {
+       "nome": "Ufficio progetti",
+       "ruolo": "Casella condivisa per documenti e adempimenti",
+       "email": "progetti@norema.eu"
+      }
+     ]
+    },
+    {
+     "nome": "Microsis S.r.l.",
+     "ruolo": "Partner · responsabile WP2",
+     "referente": "Roberto Antoniucci",
+     "costo_ammesso": 84960.0,
+     "contributo_concesso": 46728.0,
+     "rna": "26242985",
+     "tipo": "Partner",
+     "wp": "WP2 Analisi e definizione dei requisiti",
+     "descrizione": "Coordina l'analisi dei requisiti funzionali, tecnici e normativi e la definizione dell'architettura della piattaforma. Cura la conformità ai flussi documentali della PA (SPID, firma digitale, eIDAS) e il testing in ambiente regolato.",
+     "team": "Capo progetto software: Andrea Morviducci · Maurizio Bevilacqua · Claudio Serrano · Paolo Valerio",
+     "anagrafica": {
+      "ragione_sociale": "Microsis S.r.l.",
+      "sede_legale": "Via degli Olmetti 8/A – 00060 Formello (RM)",
+      "codice_fiscale": "06701631001",
+      "partita_iva": "06701631001",
+      "rea": "RM-985338",
+      "legale_rappresentante": "Roberto Antoniucci, Presidente del CdA"
+     },
+     "referenti": [
+      {
+       "nome": "Roberto Antoniucci",
+       "ruolo": "Referente di progetto e legale rappresentante",
+       "email": "r.antoniucci@microsis.it"
+      },
+      {
+       "nome": "Andrea Morviducci",
+       "ruolo": "Capo progetto software"
+      }
+     ]
+    },
+    {
+     "nome": "Main Project S.r.l.",
+     "ruolo": "Partner · blockchain e smart contract (WP4)",
+     "referente": "Fabrizio Batori",
+     "costo_ammesso": 77760.0,
+     "contributo_concesso": 42768.0,
+     "rna": "26242976",
+     "tipo": "Partner",
+     "wp": "WP4 Integrazione tecnologica, blockchain e testing (moduli blockchain)",
+     "descrizione": "Integra la piattaforma su infrastruttura blockchain per garantire tracciabilità, immutabilità e verificabilità pubblica delle certificazioni. Sviluppa i moduli smart contract per l'emissione del certificato digitale associato a ciascun contenuto validato.",
+     "team": "Fabrizio Batori · Silvia Cerreti · Alessio Giannini · smart contract e blockchain: Alessio Mancini",
+     "anagrafica": {
+      "ragione_sociale": "Main Project S.r.l.",
+      "sede_legale": "Via Mesopotamia 11 – 00179 Roma (RM)",
+      "codice_fiscale": "10931101009",
+      "partita_iva": "10931101009",
+      "rea": "RM-1265211",
+      "legale_rappresentante": "Fabrizio Batori, Amministratore Unico"
+     },
+     "referenti": [
+      {
+       "nome": "Fabrizio Batori",
+       "ruolo": "Referente di progetto e legale rappresentante",
+       "email": "fabrizio.batori@mainproject.it"
+      }
+     ]
+    },
+    {
+     "nome": "Olympos Hub S.r.l.",
+     "ruolo": "Partner · test in ambienti pilota (WP4)",
+     "referente": "Sandy Gasperoni",
+     "costo_ammesso": 83520.0,
+     "contributo_concesso": 45936.0,
+     "rna": "26242981",
+     "tipo": "Partner",
+     "wp": "WP4 Integrazione tecnologica, blockchain e testing (ambienti pilota)",
+     "descrizione": "Gestisce il deployment del prototipo in contesti pilota (formazione, PMI, enti culturali), l'onboarding degli utenti e la raccolta di feedback per la validazione funzionale e UX. Contribuisce alla disseminazione e alla scalabilità territoriale.",
+     "team": "CTO: Andrea Alunno Minciotti · Innovation & Strategy Lead: Claudio Pezzotta · software engineer: Tamer Hayek · Sandy Gasperoni",
+     "anagrafica": {
+      "ragione_sociale": "Olympos Hub S.r.l.",
+      "sede_legale": "Via Nicolò Tartaglia 11 – 00197 Roma (RM)",
+      "codice_fiscale": "15499331005",
+      "partita_iva": "15499331005",
+      "rea": "RM-1594684",
+      "legale_rappresentante": "Sandy Gasperoni, Amministratrice Unica"
+     },
+     "referenti": [
+      {
+       "nome": "Sandy Gasperoni",
+       "ruolo": "Referente di progetto e legale rappresentante",
+       "email": "sandy@olymposhub.io"
+      }
+     ]
+    }
+   ],
+   "scadenze": [
+    {
+     "data": "2025-07-18",
+     "titolo": "Presentazione della domanda",
+     "descrizione": "Domanda A0896-2025-095547 finalizzata su GeCoWEB Plus il 18/07/2025 e confermata dalla PEC di ricezione.",
+     "chi": "DEV4U (capofila)",
+     "stato": "completato"
+    },
+    {
+     "data": "2026-07-27",
+     "titolo": "Trasmissione polizze catastrofali",
+     "descrizione": "Polizze catastrofali e visure dei partner trasmesse via PEC a Lazio Innova in risposta alla richiesta prot. 0025597 del 13/07/2026.",
+     "chi": "DEV4U (capofila)",
+     "stato": "completato"
+    },
+    {
+     "data": "2026-09-17",
+     "titolo": "Pubblicazione esiti",
+     "descrizione": "Progetto inserito nel quarto elenco degli idonei e finanziabili (Det. G12471, BURL n. 75): 68 punti, nessun taglio.",
+     "stato": "completato"
+    },
+    {
+     "data": "2026-09-24",
+     "titolo": "Comunicazione di concessione del contributo",
+     "descrizione": "PEC di Lazio Innova (prot. 0033570) con CUP, schede B.D.N.A. e richiesta della documentazione antimafia entro 10 giorni.",
+     "chi": "Lazio Innova",
+     "stato": "completato"
+    },
+    {
+     "data": "2026-10-01",
+     "titolo": "Invio documentazione antimafia a NOREMA",
+     "descrizione": "Allegati 1a e 1b e verifica schede B.D.N.A. di DEV4U, Microsis, Main Project, NOREMA e Olympos Hub per la verifica preliminare.",
+     "chi": "Tutti i partner",
+     "stato": "completato"
+    },
+    {
+     "data": "2026-10-02",
+     "titolo": "Trasmissione documentazione antimafia a Lazio Innova",
+     "descrizione": "Trasmessa via PEC dal capofila il 02/10/2026 alle 11:59 a incentivi@pec.lazioinnova.it (8 dichiarazioni All. 1a e 5 moduli All. 1b). Sapienza esclusa in quanto ente pubblico.",
+     "chi": "DEV4U (capofila)",
+     "stato": "completato"
+    },
+    {
+     "data": "2026-10-21",
+     "titolo": "Webinar Lazio Innova sulla rendicontazione",
+     "descrizione": "Webinar su anticipo, SAL e saldo e caricamento su GeCoWEB Plus; slide inoltrate dal capofila il 21/10.",
+     "chi": "Lazio Innova",
+     "stato": "completato"
+    },
+    {
+     "data": null,
+     "titolo": "Kick-off meeting di partenariato",
+     "descrizione": "Data non ancora fissata: il capofila la sollecita il 28/10. Nel formulario la milestone \"Avvio operativo formalizzato\" è prevista al mese 3.",
+     "chi": "Tutti i partner",
+     "stato": "da_avviare"
+    },
+    {
+     "data": null,
+     "titolo": "Polizza fideiussoria per l'anticipo",
+     "descrizione": "Da avviare: il 28/10 il capofila chiede indicazioni su tempi e modalità.",
+     "chi": "DEV4U (capofila)",
+     "stato": "da_avviare"
+    },
+    {
+     "data": null,
+     "titolo": "Atto di concessione",
+     "descrizione": "Emesso dalla Regione Lazio al termine delle verifiche antimafia.",
+     "chi": "Regione Lazio / Lazio Innova",
+     "stato": "da_avviare"
+    },
+    {
+     "data": null,
+     "titolo": "Sottoscrizione Atto di Impegno",
+     "descrizione": "Dopo l'atto di concessione; va riportato il CUP F89J26001110007. Fissa l'avvio del cronoprogramma (mese 1).",
+     "chi": "DEV4U (mandataria)",
+     "stato": "da_avviare"
+    },
+    {
+     "data": null,
+     "titolo": "Fine progetto e rendicontazione finale",
+     "descrizione": "Entro 24 mesi dalla data di concessione, salvo proroghe.",
+     "chi": "Tutti i partner",
+     "stato": "da_avviare"
+    }
+   ],
+   "criticita": [
+    {
+     "data": "2026-10-28",
+     "titolo": "Kick-off e fideiussione non ancora avviati",
+     "descrizione": "Il capofila chiede la data del kick-off e come procedere con la polizza fideiussoria per l'anticipo: serve una pianificazione condivisa.",
+     "livello": "media",
+     "stato": "aperta"
+    },
+    {
+     "data": "2026-10-02",
+     "titolo": "Esito verifiche antimafia in attesa",
+     "descrizione": "Dopo la PEC del 02/10 nelle fonti non risultano riscontri di Lazio Innova: seguire eventuali richieste di integrazione, che arriverebbero alla PEC del capofila.",
+     "livello": "media",
+     "stato": "aperta"
+    },
+    {
+     "data": "2026-10-29",
+     "titolo": "Contratto di aggregazione da verificare",
+     "descrizione": "Su SharePoint è presente solo la bozza del contratto di aggregazione, senza dati completi né firme: verificare la versione sottoscritta.",
+     "livello": "media",
+     "stato": "aperta"
+    },
+    {
+     "data": "2026-09-24",
+     "titolo": "Tempi stretti per l'antimafia",
+     "descrizione": "Termine di 10 giorni dalla comunicazione di concessione: documentazione trasmessa il 02/10.",
+     "livello": "alta",
+     "stato": "risolta"
+    },
+    {
+     "data": "2026-07-13",
+     "titolo": "Polizze catastrofali",
+     "descrizione": "Polizze catastrofali richieste da Lazio Innova (prot. 0025597) e trasmesse via PEC il 27/07/2026.",
+     "livello": "media",
+     "stato": "risolta"
+    }
+   ],
+   "aggiornato": "2026-11-02T15:45:00+01:00"
+  },
+  {
+   "acronimo": "PRONTI VIA",
+   "titolo": "Piattaforma per la Raccolta e l'Ottimizzazione dei dati attraverso Nuove Tecnologie Intelligenti per la Valutazione dell'Impatto Ambientale nei territori del Lazio",
+   "stato": "Ammesso a contributo · antimafia trasmessa, in attesa dell'atto di concessione",
+   "cup": "F89J26001200004",
+   "protocollo": "A0896-2025-095563",
+   "concessione": "Det. G13392 · BURL 81/2026",
+   "punteggio": "63 punti",
+   "capofila": "RO Technology S.r.l.",
+   "tutor": "Ida Spinuso (Lazio Innova)",
+   "durata_mesi": 24,
+   "data_avvio": null,
+   "data_inizio": "2026-10-08",
+   "sintesi": "PRONTI VIA realizza una piattaforma digitale integrata per il monitoraggio ambientale e socio-istituzionale nei territori del Lazio: raccoglie e integra dati da reti di sensori IoT ambientali, contenuti non strutturati da social media e documentazione amministrativa, analizzandoli con tecniche di intelligenza artificiale (NLP, analisi semantica e predittiva) per rendere le Valutazioni di Impatto Ambientale più accurate e tempestive. Il progetto, articolato in 6 WP, porta la tecnologia da TRL 3 a TRL 7 con validazione in due aree pilota del Lazio insieme agli enti locali.",
+   "periodo": "Durata 24 mesi. L'atto di concessione sarà emesso dalla Regione dopo le verifiche antimafia; il cronoprogramma diventa operativo con la firma dell'Atto di Impegno.",
+   "tema": "verde",
+   "slug": "PRONTI_VIA",
+   "budget": {
+    "costo_ammesso": 667174.8,
+    "contributo_concesso": 377773.44,
+    "contributo_richiesto": 406947.84,
+    "rendicontato": [],
+    "nota_rendicontazione": "Rendicontazione non ancora avviata."
+   },
+   "partner": [
+    {
+     "nome": "RO Technology S.r.l.",
+     "ruolo": "Capofila · responsabile WP1, WP2 e WP4",
+     "referente": "Gianluca Rossi (National & EU Grant Office)",
+     "costo_ammesso": 291744.0,
+     "contributo_concesso": 131284.8,
+     "rna": "26292690",
+     "tipo": "Capofila · mandataria",
+     "wp": "WP1 Coordinamento generale, monitoraggio e controllo qualità · WP2 Sviluppo e test delle reti IoT per parametri ambientali · WP4 Integrazione e sviluppo della piattaforma interoperabile",
+     "descrizione": "Mandataria dell'aggregazione e interlocutore di Lazio Innova, assicura il coordinamento generale, il monitoraggio e il controllo qualità. Progetta, installa e valida la rete di sensori IoT ambientali e realizza la piattaforma cloud-based con dashboard GIS che integra i moduli sensoristici e AI/NLP.",
+     "team": "Referente: Gianluca Rossi · coordinatore del team: Andrea Talamanca (subentrato a Diego Grimani indicato nel formulario) · Marialuisa Scalise · comunicazione/disseminazione e rendicontazione: Massimo Scopigno",
+     "anagrafica": {
+      "ragione_sociale": "RO Technology S.r.l.",
+      "sede_legale": "Via Benedetto Croce 40 – 00142 Roma (RM)",
+      "codice_fiscale": "11250391007",
+      "partita_iva": "11250391007",
+      "legale_rappresentante": "Roberto Di Francesco, Amministratore Unico",
+      "pec": "rotechnology@pec.it"
+     },
+     "referenti": [
+      {
+       "nome": "Gianluca Rossi",
+       "ruolo": "National & EU Grant Office, referente di progetto",
+       "email": "gianluca.rossi@rotechnology.it",
+       "telefono": "+39 06 2112 8876"
+      },
+      {
+       "nome": "Andrea Talamanca",
+       "ruolo": "Coordinatore del team tecnico"
+      },
+      {
+       "nome": "Massimo Scopigno",
+       "ruolo": "Comunicazione, disseminazione e rendicontazione"
+      }
+     ]
+    },
+    {
+     "nome": "NOREMA S.r.l.",
+     "ruolo": "Partner · responsabile WP3 e WP6",
+     "referente": "Claudia Abatecola",
+     "costo_ammesso": 215424.0,
+     "contributo_concesso": 118483.2,
+     "rna": "26292705",
+     "tipo": "Partner",
+     "wp": "WP3 Sviluppo moduli AI/NLP per analisi documentale e social media · WP6 Disseminazione, formazione e replicabilità",
+     "descrizione": "Sviluppa i moduli di intelligenza artificiale e NLP per l'analisi automatica di documenti amministrativi e contenuti testuali non strutturati (social media, segnalazioni civiche), con annotazione semantica e dataset classificati. Cura comunicazione, formazione e toolkit di replicabilità e prevede lo sfruttamento della piattaforma in modalità SaaS per enti locali, ARPA e consulenti ambientali.",
+     "team": "Responsabile scientifico e strategia digitale: Claudia Abatecola · project manager e coordinamento operativo: Chiara Mirabella · monitoring: Valentina Caldarera · full stack developer da acquisire",
+     "anagrafica": {
+      "ragione_sociale": "NOREMA S.r.l. (start-up innovativa)",
+      "sede_legale": "Viale Anicio Gallo 102 – 00174 Roma (RM)",
+      "sede_operativa": "Via di San Martino ai Monti 34-35 – 00184 Roma (RM)",
+      "codice_fiscale": "15893071009",
+      "partita_iva": "15893071009",
+      "rea": "RM-1621151",
+      "legale_rappresentante": "Claudia Abatecola, Amministratrice Unica",
+      "pec": "norema@pec.it",
+      "telefono": "06 96520960",
+      "sito": "www.norema.eu"
+     },
+     "referenti": [
+      {
+       "nome": "Claudia Abatecola",
+       "ruolo": "Responsabile scientifica e strategia",
+       "email": "c.abatecola@norema.eu"
+      },
+      {
+       "nome": "Chiara Mirabella",
+       "ruolo": "EU project manager, coordinamento operativo",
+       "email": "c.mirabella@norema.eu"
+      },
+      {
+       "nome": "Ufficio progetti",
+       "ruolo": "Casella condivisa per documenti e adempimenti",
+       "email": "progetti@norema.eu"
+      }
+     ]
+    },
+    {
+     "nome": "Università di Roma \"La Sapienza\" – SBAI",
+     "ruolo": "Organismo di ricerca · responsabile WP5",
+     "referente": "Prof. Domenico Vitulano",
+     "costo_ammesso": 160006.8,
+     "contributo_concesso": 128005.44,
+     "rna": "Non aiuto",
+     "tipo": "Organismo di ricerca",
+     "wp": "WP5 Dimostrazione e validazione in aree pilota del Lazio",
+     "descrizione": "Partecipa con il laboratorio DIPLab del Dipartimento SBAI e cura la validazione scientifica e lo sviluppo di indicatori. Guida la sperimentazione della piattaforma in due aree pilota del Lazio con gli enti locali, misurandone impatto, affidabilità e utilità per la governance ambientale.",
+     "team": "Responsabile scientifico: Prof. Domenico Vitulano (Dip. SBAI) · Prof.ssa Vittoria Bruni",
+     "anagrafica": {
+      "ragione_sociale": "Università degli Studi di Roma \"La Sapienza\" – Dipartimento di Scienze di Base e Applicate per l'Ingegneria (SBAI)",
+      "sede_legale": "Piazzale Aldo Moro 5 – 00185 Roma (RM)",
+      "codice_fiscale": "80209930587",
+      "partita_iva": "02133771002",
+      "rea": "RM-1569958",
+      "legale_rappresentante": "Prof.ssa Antonella Polimeni, Rettrice",
+      "altro": "Direttore del Dipartimento SBAI: Prof. Roberto Li Voti"
+     },
+     "referenti": [
+      {
+       "nome": "Prof. Domenico Vitulano",
+       "ruolo": "Responsabile scientifico",
+       "email": "domenico.vitulano@uniroma1.it"
+      },
+      {
+       "nome": "Prof.ssa Vittoria Bruni",
+       "ruolo": "Ricerca e validazione",
+       "email": "vittoria.bruni@uniroma1.it"
+      }
+     ]
+    }
+   ],
+   "scadenze": [
+    {
+     "data": "2026-10-08",
+     "titolo": "Pubblicazione esiti",
+     "descrizione": "Progetto inserito nel 5° elenco degli idonei e finanziabili (Det. G13392 del 02/10/2026, BURL n. 81 suppl. 1).",
+     "stato": "completato"
+    },
+    {
+     "data": "2026-10-14",
+     "titolo": "Comunicazione di concessione del contributo",
+     "descrizione": "PEC di Lazio Innova al capofila (prot. LISPA 0036564): CUP, tutor e richiesta della documentazione antimafia entro 10 giorni.",
+     "chi": "Lazio Innova",
+     "stato": "completato"
+    },
+    {
+     "data": "2026-10-19",
+     "titolo": "Call di avvio del partenariato",
+     "descrizione": "Accettazione del contributo, antimafia, cronoprogramma, organizzazione della rendicontazione.",
+     "stato": "completato"
+    },
+    {
+     "data": "2026-10-21",
+     "titolo": "Invio documentazione antimafia NOREMA al capofila",
+     "descrizione": "Allegati 1a e 1b di NOREMA firmati digitalmente e trasmessi a RO Technology.",
+     "chi": "NOREMA",
+     "stato": "completato"
+    },
+    {
+     "data": "2026-10-22",
+     "titolo": "Trasmissione documentazione antimafia a Lazio Innova",
+     "descrizione": "Trasmessa via PEC dal capofila il 22/10/2026 alle 16:16 a incentivi@pec.lazioinnova.it, per RO Technology e NOREMA, con conferma dei soggetti B.D.N.A.",
+     "chi": "RO Technology (capofila)",
+     "stato": "completato"
+    },
+    {
+     "data": null,
+     "titolo": "Comunicazione a Lazio Innova del nuovo gruppo di lavoro RO Technology",
+     "descrizione": "Nuova distribuzione delle ore-uomo e sostituzioni nel team RO Technology (20/10) da comunicare a Lazio Innova: l'invio non risulta dalla corrispondenza.",
+     "chi": "RO Technology",
+     "stato": "attenzione"
+    },
+    {
+     "data": null,
+     "titolo": "Polizza fideiussoria per l'anticipo",
+     "descrizione": "Nessuna attività risulta avviata: la cartella VIA-Polizza su SharePoint è vuota e non ci sono email sullo schema di polizza per PRONTI VIA.",
+     "chi": "RO Technology",
+     "stato": "da_avviare"
+    },
+    {
+     "data": null,
+     "titolo": "Costituzione formale dell'ATS",
+     "descrizione": "Esiste solo la bozza del contratto di aggregazione allegata alla domanda: l'atto va formalizzato (serve anche per la polizza e per l'Atto di Impegno).",
+     "chi": "Tutti i partner",
+     "stato": "da_avviare"
+    },
+    {
+     "data": null,
+     "titolo": "Accordo di gestione della proprietà intellettuale",
+     "descrizione": "Previsto dalla bozza di ATS entro 60 giorni dalla data di concessione del contributo.",
+     "chi": "Tutti i partner",
+     "stato": "da_avviare"
+    },
+    {
+     "data": null,
+     "titolo": "Atto di concessione",
+     "descrizione": "Emesso dalla Regione Lazio al termine delle verifiche antimafia.",
+     "chi": "Regione Lazio / Lazio Innova",
+     "stato": "da_avviare"
+    },
+    {
+     "data": null,
+     "titolo": "Sottoscrizione Atto di Impegno",
+     "descrizione": "Dopo l'atto di concessione. Fissa l'avvio del cronoprogramma (mese 1).",
+     "chi": "Tutti i partner",
+     "stato": "da_avviare"
+    },
+    {
+     "data": null,
+     "titolo": "Fine progetto e rendicontazione finale",
+     "descrizione": "Entro 24 mesi dalla data di concessione, salvo proroghe.",
+     "chi": "Tutti i partner",
+     "stato": "da_avviare"
+    }
+   ],
+   "criticita": [
+    {
+     "data": "2026-10-08",
+     "titolo": "Contributo RO Technology ridotto",
+     "descrizione": "Investimento ammesso per intero ma contributo concesso inferiore di € 29.174,40 rispetto al richiesto. Nel piano costi approvato GeCoWEB Plus RO Technology è classificata come impresa media con intensità del 45%.",
+     "livello": "media",
+     "stato": "aperta"
+    },
+    {
+     "data": "2026-10-14",
+     "titolo": "Tempi stretti per l'antimafia",
+     "descrizione": "Termine di 10 giorni dalla comunicazione del 14/10: documentazione trasmessa a Lazio Innova il 22/10.",
+     "livello": "alta",
+     "stato": "risolta"
+    },
+    {
+     "data": "2026-10-20",
+     "titolo": "Variazione del gruppo di lavoro RO Technology",
+     "descrizione": "Rispetto al formulario cambiano il coordinatore del team e il responsabile comunicazione/rendicontazione, con nuova tabella ore-uomo da comunicare a Lazio Innova.",
+     "livello": "media",
+     "stato": "aperta"
+    },
+    {
+     "data": null,
+     "titolo": "ATS non ancora costituita",
+     "descrizione": "Esiste solo la bozza allegata alla domanda: senza l'atto formale non si possono finalizzare la polizza fideiussoria e l'Atto di Impegno.",
+     "livello": "media",
+     "stato": "aperta"
+    },
+    {
+     "data": null,
+     "titolo": "Polizza fideiussoria non avviata",
+     "descrizione": "Per PRONTI VIA non risulta ancora predisposto lo schema di polizza per l'anticipo (cartella VIA-Polizza vuota).",
+     "livello": "media",
+     "stato": "aperta"
+    },
+    {
+     "data": "2026-07-13",
+     "titolo": "Polizza catastrofale",
+     "descrizione": "Richiesta da Lazio Innova il 13/07/2026 (prot. LISPA 0025599): polizze di RO Technology e NOREMA trasmesse via PEC dal capofila il 27/07/2026.",
+     "livello": "media",
+     "stato": "risolta"
+    }
+   ],
+   "aggiornato": "2026-11-02T15:45:00+01:00"
+  },
+  {
+   "acronimo": "SPACE.AI",
+   "titolo": "Intelligenza artificiale multimodale e generativa per i dati satellitari di Osservazione della Terra",
+   "stato": "Ammesso a contributo · antimafia trasmessa, in attesa dell'atto di concessione",
+   "cup": "F89J26001240004",
+   "protocollo": "A0896-2025-095582",
+   "concessione": "Det. G13392 · BURL 81/2026",
+   "punteggio": "74 punti",
+   "capofila": "IPTSAT S.r.l.",
+   "tutor": "Ida Spinuso (Lazio Innova)",
+   "durata_mesi": 24,
+   "data_avvio": null,
+   "data_inizio": "2026-10-08",
+   "sintesi": "SPACE.AI sviluppa un modello di intelligenza artificiale multimodale (tokenizzatori, pretraining di un foundation model encoder-decoder e generazione cross-modale \"Thinking-in-Modalities\") per elaborare e generare dati satellitari di Osservazione della Terra. Il progetto porta la tecnologia da TRL 3 a TRL 7, con validazione su casi d'uso reali (agricoltura, mappatura urbana, rischio) e rilascio di una piattaforma SaaS operativa.",
+   "periodo": "Durata 24 mesi. L'atto di concessione sarà emesso dalla Regione dopo le verifiche antimafia; il cronoprogramma diventa operativo con la firma dell'Atto di Impegno.",
+   "tema": "blu",
+   "slug": "SPACE_AI",
+   "budget": {
+    "costo_ammesso": 770990.4,
+    "contributo_concesso": 454972.32,
+    "contributo_richiesto": 456412.32,
+    "rendicontato": [],
+    "nota_rendicontazione": "Rendicontazione non ancora avviata. Primo stato di avanzamento previsto dal piano di spesa al mese 8."
+   },
+   "partner": [
+    {
+     "nome": "IPTSAT S.r.l.",
+     "ruolo": "Capofila · responsabile WP1 e WP5",
+     "referente": "Valerio Caroselli (project manager)",
+     "costo_ammesso": 347400.0,
+     "contributo_concesso": 191070.0,
+     "rna": "26294675",
+     "tipo": "Capofila · mandataria",
+     "wp": "WP1 Project management e acquisizione dati · WP5 Validazione su task operativi",
+     "descrizione": "Coordina il progetto e il partenariato ed è l'interlocutore di Lazio Innova. Gestisce acquisizione, armonizzazione e qualità dei dati satellitari (Sentinel, Planet, DEM), le pipeline geospaziali e la validazione dei modelli su casi d'uso reali (agricoltura, mappatura urbana, rischio).",
+     "team": "Project manager: Valerio Caroselli · coordinamento WP1 e WP5: Silvia Ricci",
+     "anagrafica": {
+      "ragione_sociale": "IPTSAT S.r.l.",
+      "sede_legale": "Via Sallustiana 23 – 00187 Roma (RM)",
+      "codice_fiscale": "07830820580",
+      "partita_iva": "01882071002",
+      "rea": "RM-632885",
+      "legale_rappresentante": "Valerio Caroselli, Amministratore Unico",
+      "email_generale": "info@iptsat.com"
+     },
+     "referenti": [
+      {
+       "nome": "Valerio Caroselli",
+       "ruolo": "Project manager e legale rappresentante",
+       "email": "vcaroselli@gmail.com"
+      },
+      {
+       "nome": "Tiziana Di Silvio",
+       "ruolo": "Adempimenti amministrativi (antimafia, polizze)",
+       "email": "t.disilvio@iptsat.com"
+      },
+      {
+       "nome": "Silvia Ricci",
+       "ruolo": "Coordinamento WP1 e WP5"
+      }
+     ]
+    },
+    {
+     "nome": "Università di Roma \"La Sapienza\" – SBAI",
+     "ruolo": "Organismo di ricerca · responsabile WP3",
+     "referente": "Prof.ssa Vittoria Bruni",
+     "costo_ammesso": 200030.4,
+     "contributo_concesso": 160024.32,
+     "rna": "Non aiuto",
+     "tipo": "Organismo di ricerca",
+     "wp": "WP3 Pretraining del modello foundation",
+     "descrizione": "Sviluppa e pre-addestra il modello foundation multimodale (encoder-decoder Transformer) mettendo a disposizione il proprio cluster di calcolo, supporta il tuning dei modelli negli altri WP e cura la validazione scientifica complessiva del progetto.",
+     "team": "Coordinamento scientifico: Prof.ssa Vittoria Bruni (Dip. SBAI)",
+     "anagrafica": {
+      "ragione_sociale": "Università degli Studi di Roma \"La Sapienza\" – Dipartimento di Scienze di Base e Applicate per l'Ingegneria (SBAI)",
+      "sede_legale": "Piazzale Aldo Moro 5 – 00185 Roma (RM)",
+      "codice_fiscale": "80209930587",
+      "partita_iva": "02133771002",
+      "rea": "RM-1569958",
+      "legale_rappresentante": "Prof.ssa Antonella Polimeni, Rettrice",
+      "altro": "Direttore del Dipartimento SBAI: Prof. Roberto Li Voti"
+     },
+     "referenti": [
+      {
+       "nome": "Prof.ssa Vittoria Bruni",
+       "ruolo": "Responsabile scientifica",
+       "email": "vittoria.bruni@uniroma1.it"
+      },
+      {
+       "nome": "Prof. Domenico Vitulano",
+       "ruolo": "Ricerca e sviluppo",
+       "email": "domenico.vitulano@uniroma1.it"
+      }
+     ]
+    },
+    {
+     "nome": "ReadyLab S.r.l.s.",
+     "ruolo": "Partner · responsabile WP6 e WP7",
+     "referente": "Sabato Fusco",
+     "costo_ammesso": 147600.0,
+     "contributo_concesso": 62100.0,
+     "rna": "26294693",
+     "tipo": "Partner",
+     "wp": "WP6 Integrazione, test e dimostrazione (TRL7) · WP7 Piattaforma SaaS e architettura",
+     "descrizione": "Progetta e realizza la piattaforma SaaS di SPACE.AI (interfaccia geospaziale, backend, API), cura il deploy in cloud, l'integrazione GIS e i test in ambiente operativo fino al TRL7, insieme alla formazione degli utenti.",
+     "team": "Coordinamento WP6 e WP7: Sabato Fusco",
+     "anagrafica": {
+      "ragione_sociale": "ReadyLab S.r.l.s.",
+      "sede_legale": "Via Luigi Vitale 5 – 80033 Cicciano (NA)",
+      "codice_fiscale": "10197921215",
+      "partita_iva": "10197921215",
+      "legale_rappresentante": "Sabato Fusco, Amministratore Unico"
+     },
+     "referenti": [
+      {
+       "nome": "Sabato Fusco",
+       "ruolo": "Coordinamento WP6 e WP7 e legale rappresentante",
+       "email": "s.fusco@readylab.it"
+      }
+     ]
+    },
+    {
+     "nome": "NOREMA S.r.l.",
+     "ruolo": "Partner · responsabile WP2 e WP4",
+     "referente": "Claudia Abatecola",
+     "costo_ammesso": 75960.0,
+     "contributo_concesso": 41778.0,
+     "rna": "26294686",
+     "tipo": "Partner",
+     "wp": "WP2 Sviluppo tokenizzatori · WP4 Generazione e Thinking-in-Modalities",
+     "descrizione": "Guida lo sviluppo dei tokenizzatori multimodali e del modulo generativo cross-modale, con un esperto di deep learning dedicato. Assicura inoltre il supporto trasversale di project management, monitoraggio dei KPI e gestione tecnico-amministrativa e di rendicontazione.",
+     "team": "Coordinamento scientifico e strategico: Claudia Abatecola · coordinamento operativo: Chiara Mirabella",
+     "anagrafica": {
+      "ragione_sociale": "NOREMA S.r.l. (start-up innovativa)",
+      "sede_legale": "Viale Anicio Gallo 102 – 00174 Roma (RM)",
+      "sede_operativa": "Via di San Martino ai Monti 34-35 – 00184 Roma (RM)",
+      "codice_fiscale": "15893071009",
+      "partita_iva": "15893071009",
+      "rea": "RM-1621151",
+      "legale_rappresentante": "Claudia Abatecola, Amministratrice Unica",
+      "pec": "norema@pec.it",
+      "telefono": "06 96520960",
+      "sito": "www.norema.eu"
+     },
+     "referenti": [
+      {
+       "nome": "Claudia Abatecola",
+       "ruolo": "Responsabile scientifica e strategia",
+       "email": "c.abatecola@norema.eu"
+      },
+      {
+       "nome": "Chiara Mirabella",
+       "ruolo": "EU project manager, coordinamento operativo",
+       "email": "c.mirabella@norema.eu"
+      },
+      {
+       "nome": "Ufficio progetti",
+       "ruolo": "Casella condivisa per documenti e adempimenti",
+       "email": "progetti@norema.eu"
+      }
+     ]
+    }
+   ],
+   "scadenze": [
+    {
+     "data": "2026-10-08",
+     "titolo": "Pubblicazione esiti",
+     "descrizione": "Progetto inserito nel 5° elenco degli idonei e finanziabili (BURL n. 81 suppl. 1).",
+     "stato": "completato"
+    },
+    {
+     "data": "2026-10-19",
+     "titolo": "Call di avvio del partenariato",
+     "descrizione": "Accettazione del contributo, antimafia, cronoprogramma, organizzazione della rendicontazione.",
+     "stato": "completato"
+    },
+    {
+     "data": "2026-10-21",
+     "titolo": "Invio documentazione antimafia al capofila",
+     "descrizione": "Allegati 1a e 1b e verifica schede B.D.N.A.: documentazione di IPTSAT, ReadyLab e NOREMA predisposta.",
+     "chi": "IPTSAT, NOREMA, ReadyLab",
+     "stato": "completato"
+    },
+    {
+     "data": "2026-10-22",
+     "titolo": "Trasmissione documentazione antimafia a Lazio Innova",
+     "descrizione": "Trasmessa via PEC dal capofila il 22/10/2026 alle 12:39 a incentivi@pec.lazioinnova.it, per IPTSAT, NOREMA e ReadyLab.",
+     "chi": "IPTSAT (capofila)",
+     "stato": "completato"
+    },
+    {
+     "data": null,
+     "titolo": "Polizza fideiussoria per l'anticipo",
+     "descrizione": "Schema precompilato inviato al capofila il 20/10 e girato all'assicuratore; da completare con la data dell'ATS.",
+     "chi": "IPTSAT",
+     "stato": "in_corso"
+    },
+    {
+     "data": null,
+     "titolo": "Costituzione formale dell'ATS",
+     "descrizione": "Atto di aggregazione da formalizzare: la data serve anche per la polizza e per l'Atto di Impegno.",
+     "chi": "Tutti i partner",
+     "stato": "da_avviare"
+    },
+    {
+     "data": null,
+     "titolo": "Atto di concessione",
+     "descrizione": "Emesso dalla Regione Lazio al termine delle verifiche antimafia.",
+     "chi": "Regione Lazio / Lazio Innova",
+     "stato": "da_avviare"
+    },
+    {
+     "data": null,
+     "titolo": "Sottoscrizione Atto di Impegno",
+     "descrizione": "Dopo l'atto di concessione. Fissa l'avvio del cronoprogramma (mese 1).",
+     "chi": "Tutti i partner",
+     "stato": "da_avviare"
+    },
+    {
+     "data": null,
+     "titolo": "Fine progetto e rendicontazione finale",
+     "descrizione": "Entro 24 mesi dalla data di concessione, salvo proroghe.",
+     "chi": "Tutti i partner",
+     "stato": "da_avviare"
+    }
+   ],
+   "criticita": [
+    {
+     "data": "2026-10-22",
+     "titolo": "Scheda B.D.N.A. IPTSAT non ricevuta",
+     "descrizione": "Nella PEC di trasmissione il capofila segnala a Lazio Innova di non aver trovato la scheda B.D.N.A. di IPTSAT nella comunicazione del 14/10: seguire eventuale richiesta di integrazione.",
+     "livello": "media",
+     "stato": "aperta"
+    },
+    {
+     "data": "2026-10-19",
+     "titolo": "Tempi stretti per l'antimafia",
+     "descrizione": "Documentazione trasmessa a Lazio Innova entro il termine (22/10).",
+     "livello": "alta",
+     "stato": "risolta"
+    },
+    {
+     "data": "2026-10-08",
+     "titolo": "Contributo ReadyLab ridotto",
+     "descrizione": "Investimento ammesso per intero ma contributo concesso inferiore di € 1.440 rispetto al richiesto: le motivazioni sono consultabili sul piano costi approvato in GeCoWEB Plus.",
+     "livello": "media",
+     "stato": "aperta"
+    },
+    {
+     "data": "2026-10-20",
+     "titolo": "Polizza legata alla data dell'ATS",
+     "descrizione": "La polizza fideiussoria per l'anticipo non può essere finalizzata finché l'ATS non è costituita.",
+     "livello": "media",
+     "stato": "aperta"
+    },
+    {
+     "data": "2026-10-21",
+     "titolo": "Polizza catastrofale",
+     "descrizione": "Polizze catastrofali di IPTSAT, NOREMA e ReadyLab sottoscritte e trasmesse via PEC il 27/07/2026.",
+     "livello": "media",
+     "stato": "risolta"
+    }
+   ],
+   "aggiornato": "2026-11-02T15:45:00+01:00"
+  }
+ ],
+ "organizzazioni": [
+  {
+   "nome": "NOREMA",
+   "tipo": "Impresa",
+   "referenti": [
+    {
+     "nome": "Claudia Abatecola",
+     "ruolo": "Amministratrice Unica; responsabile scientifico nei tre progetti",
+     "email": "c.abatecola@norema.eu",
+     "telefono": "+39 06 96520960"
+    },
+    {
+     "nome": "Chiara Mirabella",
+     "ruolo": "EU Project Manager – coordinamento operativo",
+     "email": "c.mirabella@norema.eu",
+     "telefono": "+39 06 96520960"
+    },
+    {
+     "nome": "Lucia Ciampi",
+     "ruolo": "Staff NOREMA (documentazione antimafia PRONTI VIA)",
+     "email": "l.ciampi@norema.eu",
+     "telefono": "+39 06 96520960"
+    },
+    {
+     "nome": "Valentina Caldarera",
+     "ruolo": "Junior PM / monitoring (PRONTI VIA, HS)",
+     "email": null,
+     "telefono": null
+    },
+    {
+     "nome": "Casella progetti",
+     "ruolo": "Indirizzo condiviso per la corrispondenza di progetto",
+     "email": "progetti@norema.eu",
+     "telefono": null
+    }
+   ],
+   "partecipazioni": [
+    {
+     "slug": "HUMAN_SEAL",
+     "ruolo": "Partner",
+     "wp": "WP5 Disseminazione, formazione e replicabilità",
+     "costo_ammesso": 90360.0,
+     "contributo_concesso": 49698.0,
+     "rna": "26242984"
+    },
+    {
+     "slug": "PRONTI_VIA",
+     "ruolo": "Partner",
+     "wp": "WP3 Sviluppo moduli AI/NLP per analisi documentale e social media · WP6 Disseminazione, formazione e replicabilità",
+     "costo_ammesso": 215424.0,
+     "contributo_concesso": 118483.2,
+     "rna": "26292705"
+    },
+    {
+     "slug": "SPACE_AI",
+     "ruolo": "Partner",
+     "wp": "WP2 Sviluppo tokenizzatori · WP4 Generazione e Thinking-in-Modalities",
+     "costo_ammesso": 75960.0,
+     "contributo_concesso": 41778.0,
+     "rna": "26294686"
+    }
+   ],
+   "dimensione": "micro",
+   "piva": "15893071009",
+   "codice_fiscale": "15893071009",
+   "sede_legale": "Viale Anicio Gallo 102 – 00174 Roma (RM)",
+   "pec": "norema@pec.it",
+   "sito": "https://www.norema.eu",
+   "legale_rappresentante": "Claudia Abatecola (Amministratrice Unica)",
+   "note": "Dimensione 'Micro' dichiarata nella domanda GeCoWEB SPACE.AI (2025): 1 dipendente, fatturato 2024 € 62.621. Start-up innovativa, REA RM-1621151. Sede operativa: Via di San Martino ai Monti 34-35 – 00184 Roma.",
+   "nome_completo": "NOREMA S.R.L. start-up costituita a norma dell'articolo 4 comma 10 bis del Decreto Legge 24 gennaio 2015, n. 3"
+  },
+  {
+   "nome": "Sapienza – SBAI",
+   "tipo": "Organismo di ricerca",
+   "referenti": [
+    {
+     "nome": "Prof.ssa Vittoria Bruni",
+     "ruolo": "Professoressa associata SBAI; responsabile scientifico SPACE.AI, gestione scientifica HS, team PRONTI VIA",
+     "email": "vittoria.bruni@uniroma1.it",
+     "telefono": "+39 06 49766648"
+    },
+    {
+     "nome": "Prof. Domenico Vitulano",
+     "ruolo": "Professore associato SBAI; responsabile scientifico PRONTI VIA e HS",
+     "email": "domenico.vitulano@uniroma1.it",
+     "telefono": null
+    },
+    {
+     "nome": "Prof. Roberto Li Voti",
+     "ruolo": "Direttore del Dipartimento SBAI",
+     "email": null,
+     "telefono": null
+    }
+   ],
+   "partecipazioni": [
+    {
+     "slug": "HUMAN_SEAL",
+     "ruolo": "Organismo di ricerca",
+     "wp": "WP3 Sviluppo, addestramento e validazione del motore AI",
+     "costo_ammesso": 87876.0,
+     "contributo_concesso": 70300.8,
+     "rna": "Non aiuto"
+    },
+    {
+     "slug": "PRONTI_VIA",
+     "ruolo": "Organismo di ricerca",
+     "wp": "WP5 Dimostrazione e validazione in aree pilota del Lazio",
+     "costo_ammesso": 160006.8,
+     "contributo_concesso": 128005.44,
+     "rna": "Non aiuto"
+    },
+    {
+     "slug": "SPACE_AI",
+     "ruolo": "Organismo di ricerca",
+     "wp": "WP3 Pretraining del modello foundation",
+     "costo_ammesso": 200030.4,
+     "contributo_concesso": 160024.32,
+     "rna": "Non aiuto"
+    }
+   ],
+   "piva": "02133771002",
+   "codice_fiscale": "80209930587",
+   "sede_legale": "Piazzale Aldo Moro 5 – 00185 Roma (RM)",
+   "pec": "dipartimento.sbai@cert.uniroma1.it",
+   "sito": "https://www.uniroma1.it",
+   "legale_rappresentante": "Prof.ssa Antonella Polimeni (Rettrice)",
+   "note": "Ente pubblico: dimensione d'impresa non applicabile, contributo 'Non aiuto', escluso dalla documentazione antimafia. La PEC indicata è quella del Dipartimento SBAI (sede Via Antonio Scarpa 14/16 – 00161 Roma); la PEC dell'Ateneo non è stata trovata. Le ATS vanno firmate dalla Rettrice. Il CUP proprio del Dipartimento è ancora da generare in tutti e tre i progetti (segnaposto nelle bozze ATS).",
+   "nome_completo": "Università degli Studi di Roma \"La Sapienza\" – Dipartimento di Scienze di Base e Applicate per l'Ingegneria (SBAI)"
+  },
+  {
+   "nome": "DEV4U S.R.L.S.",
+   "tipo": "Impresa",
+   "referenti": [
+    {
+     "nome": "Dario Berardi",
+     "ruolo": "Amministratore Unico; project manager/coordinatore HS",
+     "email": "dberardi@dev4u.it",
+     "telefono": null
+    },
+    {
+     "nome": "Maurizio Patitucci",
+     "ruolo": "Business analyst / project manager / account manager; UI/UX (resp. scientifico indicato tra parentesi nella bozza ATS)",
+     "email": "mpatitucci@dev4u.it",
+     "telefono": "+39 329 0555562"
+    },
+    {
+     "nome": "Sara Tomasso",
+     "ruolo": "Comunicazione",
+     "email": null,
+     "telefono": null
+    }
+   ],
+   "partecipazioni": [
+    {
+     "slug": "HUMAN_SEAL",
+     "ruolo": "Capofila · mandataria",
+     "wp": "WP1 Gestione, coordinamento e monitoraggio · WP4 Integrazione tecnologica, blockchain e testing in ambienti reali",
+     "costo_ammesso": 103680.0,
+     "contributo_concesso": 57024.0,
+     "rna": "26242970"
+    }
+   ],
+   "dimensione": "micro",
+   "piva": "13200681008",
+   "codice_fiscale": "13200681008",
+   "sede_legale": "Via Appia Nuova 96 – 00183 Roma (RM)",
+   "pec": "dev4u@pec.it",
+   "sito": "https://www.dev4u.it",
+   "legale_rappresentante": "Dario Berardi (Amministratore Unico)",
+   "note": "Dimensione 'Micro impresa' da un documento R.O.M.E. Digital Hub (Allegato 13, giugno 2026), non dalla domanda STEP: la domanda HS è solo in .p7m e non è leggibile. Sede legale Via Appia Nuova 96 secondo visura CCIAA (01/2026) e bozza ATS; una carta intestata DEV4U riporta invece il n. 197, da verificare. Sede operativa: Via Sestio Calvino 155 – 00174 Roma, tel. aziendale +39 06 71545247. REA RM-1430459."
+  },
+  {
+   "nome": "IPTSAT S.R.L.",
+   "tipo": "Impresa",
+   "referenti": [
+    {
+     "nome": "Valerio Caroselli",
+     "ruolo": "Amministratore Unico; project manager e responsabile scientifico SPACE.AI",
+     "email": "val.caroselli@iptsat.com",
+     "telefono": null
+    },
+    {
+     "nome": "Tiziana Di Silvio",
+     "ruolo": "Responsabile amministrativo",
+     "email": "t.disilvio@iptsat.com",
+     "telefono": "+39 338 3702707"
+    },
+    {
+     "nome": "Silvia Ricci",
+     "ruolo": "Coordinamento WP1 e WP5",
+     "email": null,
+     "telefono": null
+    },
+    {
+     "nome": "Info IPTSAT",
+     "ruolo": "Casella generale aziendale",
+     "email": "info@iptsat.com",
+     "telefono": null
+    }
+   ],
+   "partecipazioni": [
+    {
+     "slug": "SPACE_AI",
+     "ruolo": "Capofila · mandataria",
+     "wp": "WP1 Project management e acquisizione dati · WP5 Validazione su task operativi",
+     "costo_ammesso": 347400.0,
+     "contributo_concesso": 191070.0,
+     "rna": "26294675"
+    }
+   ],
+   "dimensione": "micro",
+   "piva": "01882071002",
+   "codice_fiscale": "07830820580",
+   "sede_legale": "Via Sallustiana 23 – 00187 Roma (RM)",
+   "pec": "valerio.caroselli@pec.it",
+   "sito": "https://www.iptsat.com",
+   "legale_rappresentante": "Valerio Caroselli (Amministratore Unico)",
+   "note": "Dimensione 'Micro' dichiarata nella domanda SPACE.AI (fatturato 2023 € 619.590). P.IVA e codice fiscale sono diversi (CF 07830820580, P.IVA 01882071002). La PEC indicata in domanda e usata per le trasmissioni a Lazio Innova è intestata a nome del legale rappresentante (valerio.caroselli@pec.it): verificare se esiste una PEC societaria. Caroselli usa anche vcaroselli@gmail.com nella corrispondenza di progetto. Telefono aziendale in domanda: 06 42041717. REA RM-632885."
+  },
+  {
+   "nome": "MAIN PROJECT S.R.L.",
+   "tipo": "Impresa",
+   "referenti": [
+    {
+     "nome": "Fabrizio Batori",
+     "ruolo": "Amministratore Unico",
+     "email": "fabrizio.batori@mainproject.it",
+     "telefono": null
+    },
+    {
+     "nome": "Alessio Mancini",
+     "ruolo": "Smart contract e blockchain (team HS)",
+     "email": null,
+     "telefono": null
+    }
+   ],
+   "partecipazioni": [
+    {
+     "slug": "HUMAN_SEAL",
+     "ruolo": "Partner",
+     "wp": "WP4 Integrazione tecnologica, blockchain e testing (moduli blockchain)",
+     "costo_ammesso": 77760.0,
+     "contributo_concesso": 42768.0,
+     "rna": "26242976"
+    }
+   ],
+   "piva": "10931101009",
+   "codice_fiscale": "10931101009",
+   "sede_legale": "Via Mesopotamia 11 – 00179 Roma (RM)",
+   "pec": "mainprj@pec.it",
+   "legale_rappresentante": "Fabrizio Batori (Amministratore Unico)",
+   "note": "Dimensione non trovata: la domanda HS è solo in .p7m. PEC da una DSAN R.O.M.E. Digital Hub. Sito web non trovato. Le email di Batori non hanno firma con telefono. REA RM-1265211. Nella bozza ATS manca il nome del responsabile scientifico."
+  },
+  {
+   "nome": "MICROSIS S.R.L.",
+   "tipo": "Impresa",
+   "referenti": [
+    {
+     "nome": "Roberto Antoniucci",
+     "ruolo": "Presidente del CdA e legale rappresentante",
+     "email": "r.antoniucci@microsis.it",
+     "telefono": "+39 06 90400404"
+    },
+    {
+     "nome": "Andrea Morviducci",
+     "ruolo": "Consigliere; capo progetto software HS",
+     "email": null,
+     "telefono": null
+    },
+    {
+     "nome": "Maurizio Bevilacqua",
+     "ruolo": "Consigliere; team di progetto",
+     "email": "m.bevilacqua@microsis.it",
+     "telefono": null
+    }
+   ],
+   "partecipazioni": [
+    {
+     "slug": "HUMAN_SEAL",
+     "ruolo": "Partner",
+     "wp": "WP2 Analisi e definizione dei requisiti",
+     "costo_ammesso": 84960.0,
+     "contributo_concesso": 46728.0,
+     "rna": "26242985"
+    }
+   ],
+   "piva": "06701631001",
+   "codice_fiscale": "06701631001",
+   "sede_legale": "Via degli Olmetti 8/A – 00060 Formello (RM)",
+   "pec": "microsis@pec.it",
+   "sito": "https://www.microsis.it",
+   "legale_rappresentante": "Roberto Antoniucci (Presidente del CdA)",
+   "note": "La bozza di contratto di aggregazione 2025 indica erroneamente Andrea Morviducci come legale rappresentante. Il legale rappresentante corretto è Roberto Antoniucci, Presidente del CdA, come risulta dalla conferma B.D.N.A. e dalla bozza ATS 2026. Dimensione non trovata: la domanda HS è solo in .p7m. PEC da una DSAN R.O.M.E. Digital Hub (10/2026). Email generica aziendale: info@microsis.it. REA RM-985338."
+  },
+  {
+   "nome": "OLYMPOS HUB S.R.L.",
+   "tipo": "Impresa",
+   "referenti": [
+    {
+     "nome": "Sandy Gasperoni",
+     "ruolo": "Amministratrice Unica / CEO",
+     "email": "sandy@olymposhub.io",
+     "telefono": "+39 335 658 7506"
+    }
+   ],
+   "partecipazioni": [
+    {
+     "slug": "HUMAN_SEAL",
+     "ruolo": "Partner",
+     "wp": "WP4 Integrazione tecnologica, blockchain e testing (ambienti pilota)",
+     "costo_ammesso": 83520.0,
+     "contributo_concesso": 45936.0,
+     "rna": "26242981"
+    }
+   ],
+   "dimensione": "micro",
+   "piva": "15499331005",
+   "codice_fiscale": "15499331005",
+   "sede_legale": "Via Nicolò Tartaglia 11 – 00197 Roma (RM)",
+   "pec": "olympos.hub@legalmail.it",
+   "sito": "https://olymposhub.io",
+   "legale_rappresentante": "Sandy Gasperoni (Amministratrice Unica)",
+   "note": "Dimensione 'Micro impresa' da un documento R.O.M.E. Digital Hub (Allegato 13 Sapienza, luglio 2026), non dalla domanda STEP, che è solo in .p7m. PEC da un documento R.O.M.E. Digital Hub. REA RM-1594684. Nella bozza ATS manca il nome del responsabile scientifico."
+  },
+  {
+   "nome": "READYLAB S.R.L.S.",
+   "tipo": "Impresa",
+   "referenti": [
+    {
+     "nome": "Sabato Fusco",
+     "ruolo": "Amministratore Unico, CTO & Owner; coordinamento WP6 e WP7",
+     "email": "s.fusco@readylab.it",
+     "telefono": "+39 328 0266537"
+    }
+   ],
+   "partecipazioni": [
+    {
+     "slug": "SPACE_AI",
+     "ruolo": "Partner",
+     "wp": "WP6 Integrazione, test e dimostrazione (TRL7) · WP7 Piattaforma SaaS e architettura",
+     "costo_ammesso": 147600.0,
+     "contributo_concesso": 62100.0,
+     "rna": "26294693"
+    }
+   ],
+   "dimensione": "media",
+   "piva": "10197921215",
+   "codice_fiscale": "10197921215",
+   "sede_legale": "Via Luigi Vitale 5 – 80033 Cicciano (NA)",
+   "pec": "readylab@pec.it",
+   "legale_rappresentante": "Sabato Fusco (Amministratore Unico)",
+   "note": "DISCORDANZA DIMENSIONE: nella domanda SPACE.AI la classificazione è 'Media', ma gli stessi dati riportano 2 dipendenti e fatturato 2024 € 168.080 (valori da micro impresa). Il contributo concesso (€ 62.100) è inferiore a quello richiesto (€ 63.540): la differenza potrebbe dipendere dalla classificazione. Da verificare con Lazio Innova/ReadyLab. Ragione sociale estesa: 'READYLAB SOCIETA' A RESPONSABILITA' LIMITATA SEMPLIFICATA', costituita il 16/01/2023, n. iscrizione CCIAA 1088451 (il REA nella bozza ATS è ancora un segnaposto). Sito web non trovato."
+  },
+  {
+   "nome": "RO TECHNOLOGY S.R.L.",
+   "tipo": "Impresa",
+   "referenti": [
+    {
+     "nome": "Gianluca Rossi",
+     "ruolo": "National & EU Grant Office – referente di progetto",
+     "email": "gianluca.rossi@rotechnology.it",
+     "telefono": "+39 06 2112 8876"
+    },
+    {
+     "nome": "Roberto Di Francesco",
+     "ruolo": "Amministratore Unico / Chief Executive Officer",
+     "email": "roberto.difrancesco@rotechnology.it",
+     "telefono": "+39 06 21128876"
+    },
+    {
+     "nome": "Andrea Talamanca",
+     "ruolo": "Coordinatore del team di progetto (subentrato a Diego Grimani)",
+     "email": null,
+     "telefono": null
+    },
+    {
+     "nome": "Massimo Scopigno",
+     "ruolo": "Comunicazione/disseminazione e rendicontazione",
+     "email": null,
+     "telefono": null
+    }
+   ],
+   "partecipazioni": [
+    {
+     "slug": "PRONTI_VIA",
+     "ruolo": "Capofila · mandataria",
+     "wp": "WP1 Coordinamento generale, monitoraggio e controllo qualità · WP2 Sviluppo e test delle reti IoT per parametri ambientali · WP4 Integrazione e sviluppo della piattaforma interoperabile",
+     "costo_ammesso": 291744.0,
+     "contributo_concesso": 131284.8,
+     "rna": "26292690"
+    }
+   ],
+   "piva": "11250391007",
+   "codice_fiscale": "11250391007",
+   "sede_legale": "Via Benedetto Croce 40 – 00142 Roma (RM)",
+   "pec": "rotechnology@pec.it",
+   "sito": "https://www.rotechnology.it",
+   "legale_rappresentante": "Roberto Di Francesco (Amministratore Unico)",
+   "note": "SEDE LEGALE DA VERIFICARE CON VISURA: la bozza ATS 2026 e le firme email indicano Via Benedetto Croce 40 – 00142 Roma; il bilancio 2023 riporta Via dei Mamili 11 – 00175 Roma. La bozza di contratto di aggregazione 2025 (cartella proposta PRONTI VIA) contiene dati errati da non usare: P.IVA 10970291009, sede Via G. Peroni 130 e PEC info@pec.rotechnology.it. La P.IVA corretta (11250391007) è confermata da bilancio e PEC a Lazio Innova. La PEC rotechnology@pec.it è quella usata il 22/10/2026 per la trasmissione a Lazio Innova. DIMENSIONE non trovata: la domanda GeCoWEB è solo in formato .p7m. Il contributo concesso è il 45% dei costi ammessi (€ 131.284,80 su € 291.744), contro il 55% degli altri partner impresa e contro i € 160.459,20 richiesti: la classificazione dimensionale potrebbe essere diversa da quella dichiarata. Socio di maggioranza: Milestone 42 S.r.l."
+  }
+ ]
+}

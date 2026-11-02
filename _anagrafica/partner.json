@@ -1,0 +1,388 @@
+{
+  "aggiornato": "2026-11-02",
+  "organizzazioni": [
+    {
+      "id": "norema",
+      "nome": "NOREMA S.R.L. start-up costituita a norma dell'articolo 4 comma 10 bis del Decreto Legge 24 gennaio 2015, n. 3",
+      "nome_breve": "NOREMA",
+      "tipo": "Impresa",
+      "dimensione": "micro",
+      "piva": "15893071009",
+      "codice_fiscale": "15893071009",
+      "sede_legale": "Viale Anicio Gallo 102 – 00174 Roma (RM)",
+      "pec": "norema@pec.it",
+      "sito": "https://www.norema.eu",
+      "legale_rappresentante": "Claudia Abatecola (Amministratrice Unica)",
+      "referenti": [
+        {
+          "nome": "Claudia Abatecola",
+          "ruolo": "Amministratrice Unica; responsabile scientifico nei tre progetti",
+          "email": "c.abatecola@norema.eu",
+          "telefono": "+39 06 96520960"
+        },
+        {
+          "nome": "Chiara Mirabella",
+          "ruolo": "EU Project Manager – coordinamento operativo",
+          "email": "c.mirabella@norema.eu",
+          "telefono": "+39 06 96520960"
+        },
+        {
+          "nome": "Lucia Ciampi",
+          "ruolo": "Staff NOREMA (documentazione antimafia PRONTI VIA)",
+          "email": "l.ciampi@norema.eu",
+          "telefono": "+39 06 96520960"
+        },
+        {
+          "nome": "Valentina Caldarera",
+          "ruolo": "Junior PM / monitoring (PRONTI VIA, HS)",
+          "email": null,
+          "telefono": null
+        },
+        {
+          "nome": "Casella progetti",
+          "ruolo": "Indirizzo condiviso per la corrispondenza di progetto",
+          "email": "progetti@norema.eu",
+          "telefono": null
+        }
+      ],
+      "progetti": [
+        {
+          "progetto": "SPACE.AI",
+          "ruolo": "Partner (mandante)",
+          "wp": "WP2 Sviluppo tokenizzatori (resp.) · WP4 Generazione e Thinking-in-Modalities (resp.)"
+        },
+        {
+          "progetto": "PRONTI VIA",
+          "ruolo": "Partner (mandante)",
+          "wp": "WP3 Moduli AI/NLP per analisi documentale e social media (resp.) · WP6 Disseminazione, formazione e replicabilità (resp.)"
+        },
+        {
+          "progetto": "HS – HumanSeal",
+          "ruolo": "Partner (mandante)",
+          "wp": "WP5 Disseminazione, formazione e replicabilità (resp.)"
+        }
+      ],
+      "note": "Dimensione 'Micro' dichiarata nella domanda GeCoWEB SPACE.AI (2025): 1 dipendente, fatturato 2024 € 62.621. Start-up innovativa, REA RM-1621151. Sede operativa: Via di San Martino ai Monti 34-35 – 00184 Roma."
+    },
+    {
+      "id": "iptsat",
+      "nome": "IPTSAT S.R.L.",
+      "nome_breve": "IPTSAT",
+      "tipo": "Impresa",
+      "dimensione": "micro",
+      "piva": "01882071002",
+      "codice_fiscale": "07830820580",
+      "sede_legale": "Via Sallustiana 23 – 00187 Roma (RM)",
+      "pec": "valerio.caroselli@pec.it",
+      "sito": "https://www.iptsat.com",
+      "legale_rappresentante": "Valerio Caroselli (Amministratore Unico)",
+      "referenti": [
+        {
+          "nome": "Valerio Caroselli",
+          "ruolo": "Amministratore Unico; project manager e responsabile scientifico SPACE.AI",
+          "email": "val.caroselli@iptsat.com",
+          "telefono": null
+        },
+        {
+          "nome": "Tiziana Di Silvio",
+          "ruolo": "Responsabile amministrativo",
+          "email": "t.disilvio@iptsat.com",
+          "telefono": "+39 338 3702707"
+        },
+        {
+          "nome": "Silvia Ricci",
+          "ruolo": "Coordinamento WP1 e WP5",
+          "email": null,
+          "telefono": null
+        },
+        {
+          "nome": "Info IPTSAT",
+          "ruolo": "Casella generale aziendale",
+          "email": "info@iptsat.com",
+          "telefono": null
+        }
+      ],
+      "progetti": [
+        {
+          "progetto": "SPACE.AI",
+          "ruolo": "Capofila (mandataria)",
+          "wp": "WP1 Project management e data acquisition (resp.) · WP5 Validazione su task operativi (resp.)"
+        }
+      ],
+      "note": "Dimensione 'Micro' dichiarata nella domanda SPACE.AI (fatturato 2023 € 619.590). P.IVA e codice fiscale sono diversi (CF 07830820580, P.IVA 01882071002). La PEC indicata in domanda e usata per le trasmissioni a Lazio Innova è intestata a nome del legale rappresentante (valerio.caroselli@pec.it): verificare se esiste una PEC societaria. Caroselli usa anche vcaroselli@gmail.com nella corrispondenza di progetto. Telefono aziendale in domanda: 06 42041717. REA RM-632885."
+    },
+    {
+      "id": "sapienza-sbai",
+      "nome": "Università degli Studi di Roma \"La Sapienza\" – Dipartimento di Scienze di Base e Applicate per l'Ingegneria (SBAI)",
+      "nome_breve": "Sapienza – SBAI",
+      "tipo": "Organismo di ricerca",
+      "dimensione": null,
+      "piva": "02133771002",
+      "codice_fiscale": "80209930587",
+      "sede_legale": "Piazzale Aldo Moro 5 – 00185 Roma (RM)",
+      "pec": "dipartimento.sbai@cert.uniroma1.it",
+      "sito": "https://www.uniroma1.it",
+      "legale_rappresentante": "Prof.ssa Antonella Polimeni (Rettrice)",
+      "referenti": [
+        {
+          "nome": "Prof.ssa Vittoria Bruni",
+          "ruolo": "Professoressa associata SBAI; responsabile scientifico SPACE.AI, gestione scientifica HS, team PRONTI VIA",
+          "email": "vittoria.bruni@uniroma1.it",
+          "telefono": "+39 06 49766648"
+        },
+        {
+          "nome": "Prof. Domenico Vitulano",
+          "ruolo": "Professore associato SBAI; responsabile scientifico PRONTI VIA e HS",
+          "email": "domenico.vitulano@uniroma1.it",
+          "telefono": null
+        },
+        {
+          "nome": "Prof. Roberto Li Voti",
+          "ruolo": "Direttore del Dipartimento SBAI",
+          "email": null,
+          "telefono": null
+        }
+      ],
+      "progetti": [
+        {
+          "progetto": "SPACE.AI",
+          "ruolo": "Organismo di ricerca (mandante)",
+          "wp": "WP3 Pretraining del modello foundation (resp.)"
+        },
+        {
+          "progetto": "PRONTI VIA",
+          "ruolo": "Organismo di ricerca (mandante)",
+          "wp": "WP5 Dimostrazione e validazione in aree pilota del Lazio (resp.)"
+        },
+        {
+          "progetto": "HS – HumanSeal",
+          "ruolo": "Organismo di ricerca (mandante)",
+          "wp": "WP3 Sviluppo, addestramento e validazione del motore AI (resp.)"
+        }
+      ],
+      "note": "Ente pubblico: dimensione d'impresa non applicabile, contributo 'Non aiuto', escluso dalla documentazione antimafia. La PEC indicata è quella del Dipartimento SBAI (sede Via Antonio Scarpa 14/16 – 00161 Roma); la PEC dell'Ateneo non è stata trovata. Le ATS vanno firmate dalla Rettrice. Il CUP proprio del Dipartimento è ancora da generare in tutti e tre i progetti (segnaposto nelle bozze ATS)."
+    },
+    {
+      "id": "readylab",
+      "nome": "READYLAB S.R.L.S.",
+      "nome_breve": "ReadyLab",
+      "tipo": "Impresa",
+      "dimensione": "media",
+      "piva": "10197921215",
+      "codice_fiscale": "10197921215",
+      "sede_legale": "Via Luigi Vitale 5 – 80033 Cicciano (NA)",
+      "pec": "readylab@pec.it",
+      "sito": null,
+      "legale_rappresentante": "Sabato Fusco (Amministratore Unico)",
+      "referenti": [
+        {
+          "nome": "Sabato Fusco",
+          "ruolo": "Amministratore Unico, CTO & Owner; coordinamento WP6 e WP7",
+          "email": "s.fusco@readylab.it",
+          "telefono": "+39 328 0266537"
+        }
+      ],
+      "progetti": [
+        {
+          "progetto": "SPACE.AI",
+          "ruolo": "Partner (mandante)",
+          "wp": "WP6 Deploy, integrazione e formazione (resp.) · WP7 Piattaforma SaaS (resp.)"
+        }
+      ],
+      "note": "DISCORDANZA DIMENSIONE: nella domanda SPACE.AI la classificazione è 'Media', ma gli stessi dati riportano 2 dipendenti e fatturato 2024 € 168.080 (valori da micro impresa). Il contributo concesso (€ 62.100) è inferiore a quello richiesto (€ 63.540): la differenza potrebbe dipendere dalla classificazione. Da verificare con Lazio Innova/ReadyLab. Ragione sociale estesa: 'READYLAB SOCIETA' A RESPONSABILITA' LIMITATA SEMPLIFICATA', costituita il 16/01/2023, n. iscrizione CCIAA 1088451 (il REA nella bozza ATS è ancora un segnaposto). Sito web non trovato."
+    },
+    {
+      "id": "ro-technology",
+      "nome": "RO TECHNOLOGY S.R.L.",
+      "nome_breve": "RO Technology",
+      "tipo": "Impresa",
+      "dimensione": null,
+      "piva": "11250391007",
+      "codice_fiscale": "11250391007",
+      "sede_legale": "Via Benedetto Croce 40 – 00142 Roma (RM)",
+      "pec": "rotechnology@pec.it",
+      "sito": "https://www.rotechnology.it",
+      "legale_rappresentante": "Roberto Di Francesco (Amministratore Unico)",
+      "referenti": [
+        {
+          "nome": "Gianluca Rossi",
+          "ruolo": "National & EU Grant Office – referente di progetto",
+          "email": "gianluca.rossi@rotechnology.it",
+          "telefono": "+39 06 2112 8876"
+        },
+        {
+          "nome": "Roberto Di Francesco",
+          "ruolo": "Amministratore Unico / Chief Executive Officer",
+          "email": "roberto.difrancesco@rotechnology.it",
+          "telefono": "+39 06 21128876"
+        },
+        {
+          "nome": "Andrea Talamanca",
+          "ruolo": "Coordinatore del team di progetto (subentrato a Diego Grimani)",
+          "email": null,
+          "telefono": null
+        },
+        {
+          "nome": "Massimo Scopigno",
+          "ruolo": "Comunicazione/disseminazione e rendicontazione",
+          "email": null,
+          "telefono": null
+        }
+      ],
+      "progetti": [
+        {
+          "progetto": "PRONTI VIA",
+          "ruolo": "Capofila (mandataria)",
+          "wp": "WP1 Coordinamento generale, monitoraggio e controllo qualità (resp.) · WP2 Reti IoT per parametri ambientali (resp.) · WP4 Integrazione e sviluppo della piattaforma interoperabile (resp.)"
+        }
+      ],
+      "note": "SEDE LEGALE DA VERIFICARE CON VISURA: la bozza ATS 2026 e le firme email indicano Via Benedetto Croce 40 – 00142 Roma; il bilancio 2023 riporta Via dei Mamili 11 – 00175 Roma. La bozza di contratto di aggregazione 2025 (cartella proposta PRONTI VIA) contiene dati errati da non usare: P.IVA 10970291009, sede Via G. Peroni 130 e PEC info@pec.rotechnology.it. La P.IVA corretta (11250391007) è confermata da bilancio e PEC a Lazio Innova. La PEC rotechnology@pec.it è quella usata il 22/10/2026 per la trasmissione a Lazio Innova. DIMENSIONE non trovata: la domanda GeCoWEB è solo in formato .p7m. Il contributo concesso è il 45% dei costi ammessi (€ 131.284,80 su € 291.744), contro il 55% degli altri partner impresa e contro i € 160.459,20 richiesti: la classificazione dimensionale potrebbe essere diversa da quella dichiarata. Socio di maggioranza: Milestone 42 S.r.l."
+    },
+    {
+      "id": "dev4u",
+      "nome": "DEV4U S.R.L.S.",
+      "nome_breve": "DEV4U",
+      "tipo": "Impresa",
+      "dimensione": "micro",
+      "piva": "13200681008",
+      "codice_fiscale": "13200681008",
+      "sede_legale": "Via Appia Nuova 96 – 00183 Roma (RM)",
+      "pec": "dev4u@pec.it",
+      "sito": "https://www.dev4u.it",
+      "legale_rappresentante": "Dario Berardi (Amministratore Unico)",
+      "referenti": [
+        {
+          "nome": "Dario Berardi",
+          "ruolo": "Amministratore Unico; project manager/coordinatore HS",
+          "email": "dberardi@dev4u.it",
+          "telefono": null
+        },
+        {
+          "nome": "Maurizio Patitucci",
+          "ruolo": "Business analyst / project manager / account manager; UI/UX (resp. scientifico indicato tra parentesi nella bozza ATS)",
+          "email": "mpatitucci@dev4u.it",
+          "telefono": "+39 329 0555562"
+        },
+        {
+          "nome": "Sara Tomasso",
+          "ruolo": "Comunicazione",
+          "email": null,
+          "telefono": null
+        }
+      ],
+      "progetti": [
+        {
+          "progetto": "HS – HumanSeal",
+          "ruolo": "Capofila (mandataria)",
+          "wp": "WP1 Gestione, coordinamento e monitoraggio (resp.) · WP4 Integrazione tecnologica, blockchain e testing in ambienti reali (resp.)"
+        }
+      ],
+      "note": "Dimensione 'Micro impresa' da un documento R.O.M.E. Digital Hub (Allegato 13, giugno 2026), non dalla domanda STEP: la domanda HS è solo in .p7m e non è leggibile. Sede legale Via Appia Nuova 96 secondo visura CCIAA (01/2026) e bozza ATS; una carta intestata DEV4U riporta invece il n. 197, da verificare. Sede operativa: Via Sestio Calvino 155 – 00174 Roma, tel. aziendale +39 06 71545247. REA RM-1430459."
+    },
+    {
+      "id": "microsis",
+      "nome": "MICROSIS S.R.L.",
+      "nome_breve": "Microsis",
+      "tipo": "Impresa",
+      "dimensione": null,
+      "piva": "06701631001",
+      "codice_fiscale": "06701631001",
+      "sede_legale": "Via degli Olmetti 8/A – 00060 Formello (RM)",
+      "pec": "microsis@pec.it",
+      "sito": "https://www.microsis.it",
+      "legale_rappresentante": "Roberto Antoniucci (Presidente del CdA)",
+      "referenti": [
+        {
+          "nome": "Roberto Antoniucci",
+          "ruolo": "Presidente del CdA e legale rappresentante",
+          "email": "r.antoniucci@microsis.it",
+          "telefono": "+39 06 90400404"
+        },
+        {
+          "nome": "Andrea Morviducci",
+          "ruolo": "Consigliere; capo progetto software HS",
+          "email": null,
+          "telefono": null
+        },
+        {
+          "nome": "Maurizio Bevilacqua",
+          "ruolo": "Consigliere; team di progetto",
+          "email": "m.bevilacqua@microsis.it",
+          "telefono": null
+        }
+      ],
+      "progetti": [
+        {
+          "progetto": "HS – HumanSeal",
+          "ruolo": "Partner (mandante)",
+          "wp": "WP2 Analisi e definizione dei requisiti (resp.)"
+        }
+      ],
+      "note": "La bozza di contratto di aggregazione 2025 indica erroneamente Andrea Morviducci come legale rappresentante. Il legale rappresentante corretto è Roberto Antoniucci, Presidente del CdA, come risulta dalla conferma B.D.N.A. e dalla bozza ATS 2026. Dimensione non trovata: la domanda HS è solo in .p7m. PEC da una DSAN R.O.M.E. Digital Hub (10/2026). Email generica aziendale: info@microsis.it. REA RM-985338."
+    },
+    {
+      "id": "main-project",
+      "nome": "MAIN PROJECT S.R.L.",
+      "nome_breve": "Main Project",
+      "tipo": "Impresa",
+      "dimensione": null,
+      "piva": "10931101009",
+      "codice_fiscale": "10931101009",
+      "sede_legale": "Via Mesopotamia 11 – 00179 Roma (RM)",
+      "pec": "mainprj@pec.it",
+      "sito": null,
+      "legale_rappresentante": "Fabrizio Batori (Amministratore Unico)",
+      "referenti": [
+        {
+          "nome": "Fabrizio Batori",
+          "ruolo": "Amministratore Unico",
+          "email": "fabrizio.batori@mainproject.it",
+          "telefono": null
+        },
+        {
+          "nome": "Alessio Mancini",
+          "ruolo": "Smart contract e blockchain (team HS)",
+          "email": null,
+          "telefono": null
+        }
+      ],
+      "progetti": [
+        {
+          "progetto": "HS – HumanSeal",
+          "ruolo": "Partner (mandante)",
+          "wp": "WP4 Integrazione tecnologica, blockchain e testing – moduli blockchain e smart contract (partecipante, non responsabile)"
+        }
+      ],
+      "note": "Dimensione non trovata: la domanda HS è solo in .p7m. PEC da una DSAN R.O.M.E. Digital Hub. Sito web non trovato. Le email di Batori non hanno firma con telefono. REA RM-1265211. Nella bozza ATS manca il nome del responsabile scientifico."
+    },
+    {
+      "id": "olympos-hub",
+      "nome": "OLYMPOS HUB S.R.L.",
+      "nome_breve": "Olympos Hub",
+      "tipo": "Impresa",
+      "dimensione": "micro",
+      "piva": "15499331005",
+      "codice_fiscale": "15499331005",
+      "sede_legale": "Via Nicolò Tartaglia 11 – 00197 Roma (RM)",
+      "pec": "olympos.hub@legalmail.it",
+      "sito": "https://olymposhub.io",
+      "legale_rappresentante": "Sandy Gasperoni (Amministratrice Unica)",
+      "referenti": [
+        {
+          "nome": "Sandy Gasperoni",
+          "ruolo": "Amministratrice Unica / CEO",
+          "email": "sandy@olymposhub.io",
+          "telefono": "+39 335 658 7506"
+        }
+      ],
+      "progetti": [
+        {
+          "progetto": "HS – HumanSeal",
+          "ruolo": "Partner (mandante)",
+          "wp": "WP4 Integrazione tecnologica, blockchain e testing – test in ambienti pilota (partecipante, non responsabile)"
+        }
+      ],
+      "note": "Dimensione 'Micro impresa' da un documento R.O.M.E. Digital Hub (Allegato 13 Sapienza, luglio 2026), non dalla domanda STEP, che è solo in .p7m. PEC da un documento R.O.M.E. Digital Hub. REA RM-1594684. Nella bozza ATS manca il nome del responsabile scientifico."
+    }
+  ]
+}

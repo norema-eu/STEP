@@ -30,6 +30,8 @@ jobs:
             **/.git*/**
             .github/**
             _template/**
+            _dashboard/**
+            _anagrafica/**
             preview/**
             deploy/**
             build.py
