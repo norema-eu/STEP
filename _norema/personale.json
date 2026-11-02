@@ -1,0 +1,31 @@
+{
+ "ore_annue": 1584,
+ "ore_annue_nota": "7 h 12' al giorno x 220 giornate lavorate (tolti ferie, festività e permessi)",
+ "forfait_b4": 0.2,
+ "forfait_b4_uscita": false,
+ "fonte_ccnl": "CCNL Terziario, Distribuzione e Servizi (Confcommercio), minimi da novembre 2026: III livello 1.494,41 + contingenza 527,90 = 2.022,31 €/mese; IV livello 1.292,46 + 524,22 = 1.816,68 €/mese; 14 mensilità",
+ "persone": [
+  {"id": "claudia", "nome": "Claudia Abatecola", "inquadramento": "Amministratrice, compenso 2.000 €/mese",
+   "costo_annuo": 24000, "calcolo": "2.000 € x 12 mesi",
+   "voce": "B.1.1", "tariffa_rend": 30,
+   "attenzione": "Come amministratrice non dipendente le ore sono ammissibili solo come «Titolare Qualificato di PMI» (dottorato o 4 anni di esperienza da ricercatrice: 34,70 €/h) o con incarico tecnico deliberato dal CdA; mai per l'amministratore unico (Avviso, Appendice 1, definizione di «Dipendente»). La rendicontazione a 30 €/h in fascia bassa va verificata."},
+  {"id": "chiara", "nome": "Chiara Mirabella", "inquadramento": "Impiegata a tempo indeterminato, III livello CCNL Terziario",
+   "ral": 28312.34, "fattore_oneri": 1.3691, "calcolo": "RAL 2.022,31 x 14 = 28.312 €; + contributi INPS/INAIL a carico azienda (circa 30%) e TFR (6,91%)",
+   "voce": "B.1.1", "tariffa_rend": 30},
+  {"id": "lucia", "nome": "Lucia Ciampi", "sostituisce": "Valentina Caldarera", "inquadramento": "Apprendista professionalizzante, IV livello CCNL Terziario",
+   "ral": 25433.52, "fattore_oneri": 1.1902, "calcolo": "RAL 1.816,68 x 14 = 25.434 €; + contributi apprendisti a carico azienda (11,61% a regime, meno nei primi due anni sotto i 10 dipendenti), INAIL e TFR (6,91%)",
+   "voce": "B.1.2", "tariffa_rend_formula": "ral/1720",
+   "attenzione": "Agli apprendisti non si applicano i costi standard: si rendicontano a costo effettivo (RAL/1.720, Modello 11) e le ore di formazione obbligatoria non sono riconosciute (FAQ 18 luglio, n. 5). Serve una richiesta di variazione tramite il capofila (cambio nominativo e passaggio da B.1.1 a B.1.2)."},
+  {"id": "da_individuare", "nome": "Figura da individuare", "inquadramento": "Da contrattualizzare",
+   "costo_orario": 30, "calcolo": "nessun dato: uscita stimata pari al costo standard",
+   "voce": "B.1.1", "tariffa_rend": 30}
+ ],
+ "ore": {
+  "SPACE_AI": {"claudia": 600, "chiara": 380, "lucia": 380, "da_individuare": 750},
+  "PRONTI_VIA": {"claudia": 2112, "chiara": 1408, "lucia": 1408, "da_individuare": 1056},
+  "HUMAN_SEAL": {"claudia": 1430, "chiara": 890, "lucia": 190}
+ },
+ "ore_nota": {
+  "PRONTI_VIA": "Le righe del piano dei costi (2.112, 1.408, 1.408 e 1.056 ore) non riportano i nominativi: abbinamento ricostruito per coerenza con le ore dei WP1–WP4 del formulario. Da confermare."
+ }
+}
