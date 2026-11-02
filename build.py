@@ -135,7 +135,8 @@ def build_norema(ver: str) -> None:
     out = ROOT / "NOREMA"
     out.mkdir(exist_ok=True)
     pers = json.loads((src / "personale.json").read_text(encoding="utf-8")) if (src / "personale.json").exists() else None
-    (out / "data.json").write_text(json.dumps({"aggiornato": agg, "ipotesi": ip, "personale": pers, "progetti": progetti}, ensure_ascii=False, indent=1), encoding="utf-8")
+    crit = json.loads((src / "criticita.json").read_text(encoding="utf-8")) if (src / "criticita.json").exists() else {"voci": []}
+    (out / "data.json").write_text(json.dumps({"aggiornato": agg, "ipotesi": ip, "personale": pers, "progetti": progetti, "criticita": crit.get("voci", [])}, ensure_ascii=False, indent=1), encoding="utf-8")
     html = (ROOT / "_norema_page" / "index.html").read_text(encoding="utf-8")
     for a in ("style.css", "dash.css", "norema.css", "norema.js"):
         html = html.replace(f'../assets/{a}"', f'../assets/{a}?v={ver}"')

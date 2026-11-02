@@ -1,0 +1,193 @@
+{
+ "aggiornato": "2026-11-02",
+ "voci": [
+  {
+   "livello": "alta",
+   "stato": "aperta",
+   "area": "Personale",
+   "progetti": [
+    "HUMAN_SEAL",
+    "SPACE_AI",
+    "PRONTI_VIA"
+   ],
+   "titolo": "Ore dell'Amministratrice Unica a costi standard",
+   "descrizione": "Claudia Abatecola è Amministratrice Unica di NOREMA (visura del 24/07/2026), con compenso da amministratrice e non con contratto da dipendente. Il piano approvato valorizza le sue ore in B.1.1 a 30 €/h (HS 1.430 h, SPACE.AI 600 h, PRONTI VIA 2.112 h secondo l'abbinamento ricostruito, da confermare: 4.142 h in tutto). L'Avviso ammette i costi degli amministratori solo se rientrano nella definizione di Titolare Qualificato di PMI: alla Data della Domanda, dottorato di ricerca oppure almeno 4 anni a tempo pieno di esperienza comprovabile come ricercatore. In quel caso il costo è figurativo a 34,70 €/h. La via alternativa dell'incarico deliberato dal CdA è esclusa per gli amministratori unici.",
+   "azione": "Verificare e documentare il requisito di Titolare Qualificato (esperienza al CNR come tecnologo: periodi, tempo pieno, mansioni di ricerca). Se il requisito c'è, chiarire con la tutor come si rendiconta (34,70 €/h figurativo, nel limite degli importi ammessi). Se manca, preparare una richiesta di variazione per spostare le ore su personale dipendente.",
+   "chi": "NOREMA; eventuale variazione tramite il capofila",
+   "fonte": "Avviso, Appendice 1, definizioni «Dipendente» e «Titolare Qualificato di PMI»; visura NOREMA 24/07/2026"
+  },
+  {
+   "livello": "alta",
+   "stato": "aperta",
+   "area": "Personale",
+   "progetti": [
+    "HUMAN_SEAL",
+    "SPACE_AI",
+    "PRONTI_VIA"
+   ],
+   "titolo": "Rapporto di lavoro del gruppo NOREMA",
+   "descrizione": "La voce B.1 riguarda solo i Dipendenti, cioè le persone per cui NOREMA emette il cedolino. Situazione attuale: Chiara Mirabella è impiegata a tempo indeterminato (III livello CCNL Terziario), compatibile con il costo standard «Basso» da 30 €/h. Valentina Caldarera, prevista nel piano, è sostituita da Lucia Ciampi, apprendista professionalizzante: agli apprendisti non si applicano i costi standard (si rendicontano a costo effettivo in B.1.2) e le ore di formazione obbligatoria non sono riconosciute. Restano da assumere le figure previste in SPACE.AI (esperto di deep learning, 750 h) e PRONTI VIA (1.056 h).",
+   "azione": "Chiedere tramite i capofila la variazione per Lucia Ciampi (cambio nominativo e passaggio da B.1.1 a B.1.2) nei tre progetti. Programmare le assunzioni delle figure da individuare come dipendenti con inquadramento coerente con i 30 €/h (impiegato, operaio o tecnico), prima dell'avvio dei WP in cui lavorano. I co.co.co. sono ammessi in B.1 ma senza costi standard; i tirocinanti non sono ammessi.",
+   "chi": "NOREMA; variazioni tramite i capofila",
+   "fonte": "Avviso, art. 4 voce B.1 e Appendice 1 «Dipendente»; FAQ del 18/07/2025, n. 5; Modello 11 – Timesheet"
+  },
+  {
+   "livello": "alta",
+   "stato": "aperta",
+   "area": "Scadenze",
+   "progetti": [
+    "HUMAN_SEAL",
+    "SPACE_AI",
+    "PRONTI_VIA"
+   ],
+   "titolo": "Anticipo da richiedere entro 90 giorni dalla Data di Concessione",
+   "descrizione": "L'anticipo del 40% è obbligatorio, va richiesto entro 90 giorni dalla Data di Concessione ed è garantito da fideiussione. Prendendo come Data di Concessione la pubblicazione sul BURL degli elenchi, le scadenze sono: HS-HumanSeal 16/12/2026 (BURL n. 75 del 17/09/2026); SPACE.AI e PRONTI VIA 06/01/2027 (BURL n. 81 dell'08/10/2026). Le polizze fideiussorie non sono ancora finalizzate in nessuno dei tre progetti: dipendono dalla costituzione dell'ATS.",
+   "azione": "Confermare con la tutor quale atto fa decorrere i 90 giorni (BURL degli elenchi o decreto di concessione dopo l'antimafia). Fornire subito al capofila i dati NOREMA necessari per la polizza e firmare l'ATS.",
+   "chi": "Capofila (polizza e richiesta su GeCoWEB Plus); NOREMA (dati e firma ATS)",
+   "fonte": "Avviso, art. 9 lett. a e Appendice 1 «Data di Concessione»"
+  },
+  {
+   "livello": "media",
+   "stato": "aperta",
+   "area": "Personale",
+   "progetti": [
+    "HUMAN_SEAL",
+    "SPACE_AI",
+    "PRONTI_VIA"
+   ],
+   "titolo": "Mansioni amministrative escluse dalla voce B.1",
+   "descrizione": "Dalla voce B.1 è escluso il personale con mansioni amministrative, contabili e commerciali. Nei formulari alcuni ruoli NOREMA sono descritti come «responsabile amministrativa», «rendicontazione» e «gestione tecnico-amministrativa».",
+   "azione": "Descrivere nei timesheet e nelle relazioni di SAL solo attività tecniche di sviluppo sperimentale, collegate a task e deliverable. Non imputare al progetto le ore di rendicontazione e amministrazione.",
+   "chi": "NOREMA",
+   "fonte": "Avviso, art. 4, voce B.1, primo alinea"
+  },
+  {
+   "livello": "media",
+   "stato": "aperta",
+   "area": "Personale",
+   "progetti": [
+    "HUMAN_SEAL",
+    "SPACE_AI",
+    "PRONTI_VIA"
+   ],
+   "titolo": "Ore di project management nel WP1",
+   "descrizione": "In aggregazione, il costo dell'attività del coordinatore è riconosciuto solo alla Mandataria. NOREMA ha ore nel WP1 di gestione e coordinamento: HS 60 h, SPACE.AI 150 h, PRONTI VIA 150 h.",
+   "azione": "Rendicontare nel WP1 solo il contributo tecnico di NOREMA (es. monitoraggio dei KPI, raccolta dati), senza attività di coordinamento del progetto.",
+   "chi": "NOREMA",
+   "fonte": "Avviso, art. 4, voce B.1, ultimo alinea"
+  },
+  {
+   "livello": "alta",
+   "stato": "aperta",
+   "area": "Personale",
+   "progetti": [
+    "HUMAN_SEAL",
+    "SPACE_AI",
+    "PRONTI_VIA"
+   ],
+   "titolo": "Carico di lavoro rispetto all'organico",
+   "descrizione": "I tre piani approvati assegnano a NOREMA 10.604 ore in circa 25 mesi di calendario: in media circa 3 persone a tempo pieno, con un picco di circa 4 a giugno 2028. Con l'abbinamento attuale, Claudia Abatecola ha 4.142 ore, circa 1.990 all'anno: il 116% delle 1.720 ore annue considerate dall'Avviso.",
+   "azione": "Ridistribuire le ore di Claudia Abatecola (anche in vista della criticità sull'Amministratrice Unica) e confrontare il carico con le altre commesse. Le ore rendicontate non possono superare quelle lavorate risultanti dai timesheet.",
+   "chi": "NOREMA",
+   "fonte": "Piani dei costi approvati GeCoWEB Plus (22/10/2026); Avviso, art. 4 voce B.1 (1.720 ore annue)"
+  },
+  {
+   "livello": "media",
+   "stato": "aperta",
+   "area": "Budget",
+   "progetti": [
+    "PRONTI_VIA"
+   ],
+   "titolo": "PRONTI VIA: ore NOREMA non attribuite a persone",
+   "descrizione": "Il piano approvato ha 4 righe di personale NOREMA (1.408, 1.408, 2.112 e 1.056 h, totale 5.984 h) senza nominativi. Il formulario permette di ricostruire solo i WP1–WP4 (1.984 h); per WP5 e WP6 le tabelle non sono leggibili e la Tab. 3 del WP6 attribuisce le ore a RO Technology anche se NOREMA è responsabile.",
+   "azione": "Ricostruire con il capofila la ripartizione per persona e per WP prima del primo timesheet, e allinearla al piano approvato.",
+   "chi": "NOREMA, con RO Technology",
+   "fonte": "Piano dei costi approvato GeCoWEB Plus A0896-2025-095563 (22/10/2026); formulario PRONTI VIA, Tab. 3"
+  },
+  {
+   "livello": "media",
+   "stato": "aperta",
+   "area": "Budget",
+   "progetti": [
+    "HUMAN_SEAL",
+    "SPACE_AI"
+   ],
+   "titolo": "Tab. 6 dei formulari con colonne scambiate",
+   "descrizione": "Nei formulari di HS-HumanSeal e SPACE.AI la riga B.1.1 della Tab. 6 attribuisce a NOREMA gli importi di un altro partner. I piani approvati su GeCoWEB Plus sono corretti: HS 90.360 € di costo e 49.698 € di contributo; SPACE.AI 75.960 € di costo e 41.778 € di contributo.",
+   "azione": "Usare sempre il piano approvato GeCoWEB Plus come riferimento, nell'ATS e in rendicontazione.",
+   "chi": "NOREMA",
+   "fonte": "Formulari HS e SPACE.AI, Tab. 6; piani approvati GeCoWEB Plus (22/10/2026)"
+  },
+  {
+   "livello": "bassa",
+   "stato": "aperta",
+   "area": "Personale",
+   "progetti": [
+    "HUMAN_SEAL"
+   ],
+   "titolo": "HS: figura chiave senza riga nel piano",
+   "descrizione": "Il formulario indica Serena Tabacchi (NOREMA) come figura chiave del WP3, ma il piano approvato ha solo 3 righe di personale NOREMA.",
+   "azione": "Decidere se coinvolgerla. In caso positivo serve una variazione del gruppo di lavoro.",
+   "chi": "NOREMA",
+   "fonte": "Formulario HS; piano approvato GeCoWEB Plus A0896-2025-095547"
+  },
+  {
+   "livello": "bassa",
+   "stato": "aperta",
+   "area": "Personale",
+   "progetti": [
+    "SPACE_AI"
+   ],
+   "titolo": "SPACE.AI: ruolo di Claudia Abatecola",
+   "descrizione": "Il formulario indica Claudia Abatecola come «responsabile scientifico», mentre nelle bozze di ATS è referente di progetto.",
+   "azione": "Usare la stessa dicitura in ATS, timesheet e relazioni.",
+   "chi": "NOREMA",
+   "fonte": "Formulario SPACE.AI; bozza ATS rev. 1"
+  },
+  {
+   "livello": "media",
+   "stato": "aperta",
+   "area": "Adempimenti",
+   "progetti": [
+    "HUMAN_SEAL",
+    "SPACE_AI",
+    "PRONTI_VIA"
+   ],
+   "titolo": "ATS da firmare",
+   "descrizione": "Le bozze rev. 1 del contratto di aggregazione sono pubblicate nelle pagine di progetto. Senza ATS firmata non si possono finalizzare la polizza fideiussoria e l'Atto di Impegno. Su indicazione della tutor (02/11/2026), l'ATS deve prevedere che il capofila riceva tutti i pagamenti e li trasferisca ai partner.",
+   "azione": "Controllare i dati NOREMA nelle tre bozze (importi del piano approvato, referente di progetto) e firmare.",
+   "chi": "Tutti i partner",
+   "fonte": "Cartelle HS-ATS, SAI-ATS, VIA-ATS; Avviso, Appendice 5"
+  },
+  {
+   "livello": "media",
+   "stato": "in_attesa",
+   "area": "Adempimenti",
+   "progetti": [
+    "HUMAN_SEAL",
+    "SPACE_AI",
+    "PRONTI_VIA"
+   ],
+   "titolo": "Antimafia NOREMA: trasmessa, esito in attesa",
+   "descrizione": "Gli allegati 1a (dichiarazione dei familiari conviventi) e 1b (modulo antimafia) di NOREMA sono firmati. Le richieste di Lazio Innova sono del 22/09/2026 (HS) e del 09/10/2026 (SPACE.AI e PRONTI VIA). I capofila hanno trasmesso la documentazione via PEC il 02/10/2026 (HS) e il 22/10/2026 (SPACE.AI e PRONTI VIA).",
+   "azione": "Attendere l'esito. Eventuali richieste di integrazione arrivano alla PEC del capofila, che le inoltra a NOREMA.",
+   "chi": "Capofila; NOREMA per eventuali integrazioni",
+   "fonte": "Cartelle HS-Antimafia, SAI-ANTIMAFIA e VIA-Antimafia (sottocartelle NOREMA, RICHIESTA REGIONE, INVIO PEC)"
+  },
+  {
+   "livello": "media",
+   "stato": "risolta",
+   "area": "Adempimenti",
+   "progetti": [
+    "HUMAN_SEAL",
+    "SPACE_AI",
+    "PRONTI_VIA"
+   ],
+   "titolo": "Polizza catastrofale NOREMA",
+   "descrizione": "La polizza catastrofale di NOREMA è firmata, con visura allegata, ed è stata trasmessa a Lazio Innova via PEC dai capofila il 27/07/2026. La stessa polizza vale per tutti e tre i progetti.",
+   "azione": "Nessuna. Controllare la scadenza della polizza durante il progetto.",
+   "chi": "NOREMA",
+   "fonte": "Cartelle HS-Polizze, SAI-Polizze e VIA-Polizza, sottocartella NOREMA"
+  }
+ ]
+}

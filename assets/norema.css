@@ -41,3 +41,22 @@
 @media (max-width:1000px){.nact{grid-template-columns:1fr}}
 .nbud details.note summary{cursor:pointer;color:var(--teal-2);font-weight:500}.nbud details.note ul{margin:6px 0 0;padding-left:18px}.nbud details.note li{margin:3px 0}
 #n-erog tfoot td,.ncash tfoot td{font-weight:600;border-top:2px solid var(--line);background:var(--row)}#n-erog tfoot tr.sub td{font-weight:500;background:transparent;border-top:1px solid var(--g1)}#n-erog tfoot tr.tot td{border-top:2px solid var(--line)}
+
+.ncount:not(:empty){display:inline-block;min-width:18px;padding:0 6px;margin-left:4px;border-radius:999px;background:var(--risk);color:#fff;font-size:11px;font-weight:600;line-height:18px;text-align:center}
+.nh3{font-size:17px;font-weight:600;color:var(--navy);margin:28px 0 6px}
+.note-s{font-size:12.5px;color:var(--muted);margin-top:8px;line-height:1.5}
+#n-pers td.num,#n-pers th.num{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
+#n-pers td.neg{color:var(--risk);font-weight:600}
+#n-pers tfoot td{font-weight:600;border-top:2px solid var(--line);background:var(--row)}
+#n-ts tr.ev td{font-weight:600}#n-ts td.num,#n-ts th.num{text-align:right}
+.ntsgrid{grid-template-columns:1.3fr 1fr;align-items:start;gap:16px}
+.ncrit{margin-top:12px;border-left:4px solid var(--g2)}
+.ncrit.lv-alta{border-left-color:var(--risk)}.ncrit.lv-media{border-left-color:var(--warn)}.ncrit.lv-ok{border-left-color:var(--ok);opacity:.85}
+.ncrit-h{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;align-items:flex-start}
+.ncrit-h .t{font-weight:600;color:var(--navy);font-size:15.5px}
+.ncrit-h .tags{display:flex;gap:6px;flex-wrap:wrap;align-items:center}
+.ncrit .b:not(.ok):not(.warn):not(.risk){background:var(--g1);color:#4B5A6B}
+.ncrit p{margin:8px 0;font-size:14px}
+.ncrit dl{display:grid;grid-template-columns:70px 1fr;gap:4px 12px;margin:0;font-size:13.5px}
+.ncrit dt{color:var(--muted);font-weight:500}.ncrit dd{margin:0}.ncrit dd.src{color:var(--muted);font-size:12.5px}
+@media (max-width:860px){.ntsgrid{grid-template-columns:1fr}.ncrit dl{grid-template-columns:1fr}.ncrit dt{margin-top:4px}}

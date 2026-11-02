@@ -6,12 +6,12 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="noindex,nofollow">
 <script>(function(){var p=location.pathname;if(location.protocol!=="file:"&&!/\/$/.test(p)&&!/\.html?$/i.test(p))location.replace(p+"/"+location.search+location.hash);})();</script>
-<title>NOREMA · STEP Lazio · attività, budget e cassa</title>
+<title>NOREMA · STEP Lazio · posizione di NOREMA come partner</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,300&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../assets/style.css?v=c2c7ef8890">
-<link rel="stylesheet" href="../assets/dash.css?v=c2c7ef8890">
-<link rel="stylesheet" href="../assets/norema.css?v=c2c7ef8890">
+<link rel="stylesheet" href="../assets/style.css?v=31a2481a63">
+<link rel="stylesheet" href="../assets/dash.css?v=31a2481a63">
+<link rel="stylesheet" href="../assets/norema.css?v=31a2481a63">
 </head>
 <body>
 <header class="top"><div class="wrap"><div class="brand"><b>NOREMA</b> · STEP Lazio</div><div class="updated" id="updated"></div></div></header>
@@ -19,13 +19,13 @@
 <div class="hero"><div class="wrap">
   <div class="eyebrow">Uso interno NOREMA · <a href="../DASHBOARD/" style="color:inherit">Cabina di regia</a></div>
   <h1>NOREMA nei progetti STEP</h1>
-  <p class="sub">Attività di NOREMA, budget per progetto e complessivo, ipotesi di flusso di cassa secondo le regole di erogazione dell'Avviso (art. 9).</p>
+  <p class="sub">La posizione di NOREMA come partner nei tre progetti: attività, personale e ore, budget, flusso di cassa e criticità da gestire.</p>
 </div></div>
 
 <div class="wrap"><div class="kpis kpis-6" id="kpis"></div></div>
 
 <nav class="tabs"><div class="wrap">
-  <a href="#attivita-n">Attività</a><a href="#budget-n">Budget</a><a href="#cassa-n">Flusso di cassa</a><a href="#ipotesi-n">Ipotesi</a>
+  <a href="#attivita-n">Attività</a><a href="#personale-n">Personale e ore</a><a href="#budget-n">Budget</a><a href="#cassa-n">Flusso di cassa</a><a href="#criticita-n">Criticità <span class="ncount" id="n-crit-count"></span></a><a href="#ipotesi-n">Ipotesi</a>
 </div></nav>
 
 <main class="wrap">
@@ -34,6 +34,18 @@
     <p class="lead">Work package in cui NOREMA è responsabile o coinvolta, con periodo e deliverable. Le date dei mesi di progetto partono dalla data di concessione indicata in Ipotesi.</p>
     <div class="card scroll"><div class="gantt" id="n-gantt"></div></div>
     <div class="nact" id="n-attivita"></div>
+  </section>
+
+  <section id="personale-n">
+    <h2>Personale e ore</h2>
+    <p class="lead">Ore di NOREMA approvate nei piani dei costi, per persona e per progetto, carico mensile stimato e calendario dei timesheet da preparare per i SAL.</p>
+    <div class="card scroll"><table class="tbl" id="n-pers"></table></div>
+    <div class="note-s" id="n-pers-note"></div>
+    <h3 class="nh3">Carico mensile stimato</h3>
+    <p class="lead" id="n-load-lead"></p>
+    <div class="card"><div id="n-load" class="nchart" role="img" aria-label="Ore NOREMA al mese per progetto"></div><div class="nlegend" id="n-load-legend"></div></div>
+    <h3 class="nh3">Timesheet e documenti per i SAL</h3>
+    <div class="grid2 ntsgrid"><div class="card scroll"><table class="tbl" id="n-ts"></table></div><div class="card nip" id="n-ts-regole"></div></div>
   </section>
 
   <section id="budget-n">
@@ -58,6 +70,13 @@
     <div class="card scroll" style="margin-top:16px"><table class="tbl ncash" id="n-cassa"></table></div>
   </section>
 
+  <section id="criticita-n">
+    <h2>Criticità</h2>
+    <p class="lead">Rischi di non conformità e punti aperti che riguardano NOREMA, con l'azione da fare, chi la fa e la fonte. Comprende lo stato di polizze e antimafia di NOREMA, ricavato dai documenti nelle cartelle di progetto.</p>
+    <div class="filters"><div class="seg-ctl" id="n-f-crit"><button data-v="aperte">Da gestire</button><button data-v="tutte">Tutte</button></div></div>
+    <div id="n-crit"></div>
+  </section>
+
   <section id="ipotesi-n">
     <h2>Ipotesi e regole utilizzate</h2>
     <div class="card" id="n-ipotesi"></div>
@@ -65,6 +84,6 @@
 </main>
 <div class="ntip" id="n-tip" hidden></div>
 <footer><div class="wrap"><span>Pagina riservata a NOREMA S.r.l.</span><span>Stime di pianificazione: non sostituiscono il piano di spesa né le comunicazioni ufficiali di Lazio Innova</span></div><div class="credit"><div class="wrap"><a class="credit-by" href="https://www.norema.eu" target="_blank" rel="noopener" title="NOREMA S.r.l. – www.norema.eu"><span>Realizzato da</span><img src="../assets/norema-logo.png" alt="NOREMA" width="74" height="22"></a><span class="credit-c">NOREMA S.r.l. · Via di San Martino ai Monti 34-35, 00184 Roma · <a href="mailto:info@norema.eu">info@norema.eu</a> · <a href="https://www.norema.eu" target="_blank" rel="noopener">www.norema.eu</a></span></div></div></footer>
-<script src="../assets/norema.js?v=c2c7ef8890"></script>
+<script src="../assets/norema.js?v=31a2481a63"></script>
 </body>
 </html>

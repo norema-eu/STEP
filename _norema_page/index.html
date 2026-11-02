@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="noindex,nofollow">
 <script>(function(){var p=location.pathname;if(location.protocol!=="file:"&&!/\/$/.test(p)&&!/\.html?$/i.test(p))location.replace(p+"/"+location.search+location.hash);})();</script>
-<title>NOREMA · STEP Lazio · attività, budget e cassa</title>
+<title>NOREMA · STEP Lazio · posizione di NOREMA come partner</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,300&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../assets/style.css">
@@ -19,13 +19,13 @@
 <div class="hero"><div class="wrap">
   <div class="eyebrow">Uso interno NOREMA · <a href="../DASHBOARD/" style="color:inherit">Cabina di regia</a></div>
   <h1>NOREMA nei progetti STEP</h1>
-  <p class="sub">Attività di NOREMA, budget per progetto e complessivo, ipotesi di flusso di cassa secondo le regole di erogazione dell'Avviso (art. 9).</p>
+  <p class="sub">La posizione di NOREMA come partner nei tre progetti: attività, personale e ore, budget, flusso di cassa e criticità da gestire.</p>
 </div></div>
 
 <div class="wrap"><div class="kpis kpis-6" id="kpis"></div></div>
 
 <nav class="tabs"><div class="wrap">
-  <a href="#attivita-n">Attività</a><a href="#budget-n">Budget</a><a href="#cassa-n">Flusso di cassa</a><a href="#ipotesi-n">Ipotesi</a>
+  <a href="#attivita-n">Attività</a><a href="#personale-n">Personale e ore</a><a href="#budget-n">Budget</a><a href="#cassa-n">Flusso di cassa</a><a href="#criticita-n">Criticità <span class="ncount" id="n-crit-count"></span></a><a href="#ipotesi-n">Ipotesi</a>
 </div></nav>
 
 <main class="wrap">
@@ -34,6 +34,18 @@
     <p class="lead">Work package in cui NOREMA è responsabile o coinvolta, con periodo e deliverable. Le date dei mesi di progetto partono dalla data di concessione indicata in Ipotesi.</p>
     <div class="card scroll"><div class="gantt" id="n-gantt"></div></div>
     <div class="nact" id="n-attivita"></div>
+  </section>
+
+  <section id="personale-n">
+    <h2>Personale e ore</h2>
+    <p class="lead">Ore di NOREMA approvate nei piani dei costi, per persona e per progetto, carico mensile stimato e calendario dei timesheet da preparare per i SAL.</p>
+    <div class="card scroll"><table class="tbl" id="n-pers"></table></div>
+    <div class="note-s" id="n-pers-note"></div>
+    <h3 class="nh3">Carico mensile stimato</h3>
+    <p class="lead" id="n-load-lead"></p>
+    <div class="card"><div id="n-load" class="nchart" role="img" aria-label="Ore NOREMA al mese per progetto"></div><div class="nlegend" id="n-load-legend"></div></div>
+    <h3 class="nh3">Timesheet e documenti per i SAL</h3>
+    <div class="grid2 ntsgrid"><div class="card scroll"><table class="tbl" id="n-ts"></table></div><div class="card nip" id="n-ts-regole"></div></div>
   </section>
 
   <section id="budget-n">
@@ -56,6 +68,13 @@
     <div class="card"><div id="n-chart" class="nchart" role="img" aria-label="Flusso di cassa mensile NOREMA"></div><div class="nlegend" id="n-legend"></div></div>
     <div class="card scroll" style="margin-top:16px"><table class="tbl" id="n-erog"></table></div>
     <div class="card scroll" style="margin-top:16px"><table class="tbl ncash" id="n-cassa"></table></div>
+  </section>
+
+  <section id="criticita-n">
+    <h2>Criticità</h2>
+    <p class="lead">Rischi di non conformità e punti aperti che riguardano NOREMA, con l'azione da fare, chi la fa e la fonte. Comprende lo stato di polizze e antimafia di NOREMA, ricavato dai documenti nelle cartelle di progetto.</p>
+    <div class="filters"><div class="seg-ctl" id="n-f-crit"><button data-v="aperte">Da gestire</button><button data-v="tutte">Tutte</button></div></div>
+    <div id="n-crit"></div>
   </section>
 
   <section id="ipotesi-n">

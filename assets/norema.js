@@ -1,4 +1,4 @@
-/* Pagina NOREMA — attività, budget e ipotesi di flusso di cassa (legge NOREMA/data.json generato da build.py) */
+/* Pagina NOREMA — attività, personale e ore, budget, flusso di cassa, criticità (legge NOREMA/data.json generato da build.py) */
 (function () {
   const $ = (s) => document.querySelector(s);
   const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
@@ -220,6 +220,98 @@
     } else $("#n-f-mode").remove();
     [["#n-li", "ritardo_li", "n_li"], ["#n-cf", "ritardo_capofila", "n_cf"]].forEach(([id, k, sk]) => $(id).addEventListener("change", (e) => { I[k] = Math.max(0, +e.target.value || 0); store.set(sk, I[k]); draw(); }));
     draw();
+
+    // ---------- Personale e ore
+    const ORE_ANNO = 1720, FTE_M = ORE_ANNO / 12;
+    const num = (n) => n == null ? "—" : String(Math.round(n)).replace(/\B(?=(\d{3})+(?!\d))/g, ".");
+    const oreAppr = (p) => (p.norema.voci || []).filter((v) => /^B\.1\.1/.test(v.voce)).reduce((a, v) => a + v.importo, 0) / 30;
+    const chi = (x, p) => x.nome !== "da individuare" ? x.nome : (/deep learning/i.test(x.ruolo) ? "Esperto deep learning" : /full stack/i.test(x.ruolo) ? "Full stack developer" : "Figura da individuare");
+    const names = [], cell = {};
+    P.forEach((p) => (p.norema.personale || []).forEach((x) => {
+      const n = chi(x, p); if (!names.includes(n)) names.push(n);
+      cell[n + "|" + p.slug] = { ore: x.ore_totali ?? x.ore_wp1_wp4_formulario ?? null, parz: x.ore_totali == null && x.ore_wp1_wp4_formulario != null, nuova: x.nome === "da individuare" };
+    }));
+    if (X.personale && X.personale.ore) { // dati del personale reale (_norema/personale.json): prevalgono sull'estrazione dal formulario
+      names.length = 0; Object.keys(cell).forEach((k) => delete cell[k]);
+      X.personale.persone.forEach((q) => { const n = q.nome + (q.sostituisce ? ` (al posto di ${q.sostituisce})` : ""); names.push(n);
+        P.forEach((p) => { const o = (X.personale.ore[p.slug] || {})[q.id]; if (o != null) cell[n + "|" + p.slug] = { ore: o, parz: !!(X.personale.ore_nota || {})[p.slug], nuova: q.id === "da_individuare" }; }); });
+    }
+    const totP = Object.fromEntries(P.map((p) => [p.slug, oreAppr(p)]));
+    const nonAttr = Object.fromEntries(P.map((p) => [p.slug, totP[p.slug] - names.reduce((a, n) => a + (cell[n + "|" + p.slug]?.ore || 0), 0)]));
+    const mesiCal = (() => { const a = Math.min(...P.map((p) => mKey(parse(p.data_inizio)))), b = Math.max(...P.map((p) => mKey(addM(parse(p.data_inizio), (p.durata_mesi || 24) - 1)))); return b - a + 1; })();
+    const totAll = P.reduce((a, p) => a + totP[p.slug], 0);
+    $("#n-pers").innerHTML = `<thead><tr><th>Persona</th>${P.map((p) => `<th class="num">${pill(p)}</th>`).join("")}<th class="num">Totale ore</th><th class="num">Media ore/anno</th><th class="num">% di 1.720 h</th></tr></thead><tbody>` +
+      names.map((n) => {
+        const cs = P.map((p) => cell[n + "|" + p.slug]), tot = cs.reduce((a, c) => a + (c?.ore || 0), 0), parz = cs.some((c) => c?.parz), nuova = cs.some((c) => c?.nuova);
+        const anno = tot / (mesiCal / 12), pct = anno / ORE_ANNO;
+        return `<tr><td>${esc(n)}${nuova ? ' <span class="b warn">da assumere</span>' : ""}</td>${cs.map((c) => `<td class="num">${c ? num(c.ore) + (c.parz ? "*" : "") : "—"}</td>`).join("")}<td class="num">${num(tot)}${parz ? "*" : ""}</td><td class="num">${num(anno)}${parz ? "*" : ""}</td><td class="num ${pct > 1 ? "neg" : ""}">${Math.round(pct * 100)}%${parz ? "*" : ""}</td></tr>`;
+      }).join("") +
+      (P.some((p) => nonAttr[p.slug] > 0.5) ? `<tr><td><i>Ore approvate non ancora attribuite a persone</i></td>${P.map((p) => `<td class="num">${nonAttr[p.slug] > 0.5 ? num(nonAttr[p.slug]) : "—"}</td>`).join("")}<td class="num">${num(P.reduce((a, p) => a + Math.max(0, nonAttr[p.slug]), 0))}</td><td></td><td></td></tr>` : "") +
+      `</tbody><tfoot><tr><td>Totale ore approvate</td>${P.map((p) => `<td class="num">${num(totP[p.slug])}</td>`).join("")}<td class="num">${num(totAll)}</td><td class="num">${num(totAll / (mesiCal / 12))}</td><td class="num">${(totAll / (mesiCal / 12) / ORE_ANNO).toLocaleString("it-IT", { maximumFractionDigits: 1 })} FTE</td></tr></tfoot>`;
+    $("#n-pers-note").innerHTML = `Ore del piano dei costi approvato su GeCoWEB Plus (voce B.1.1, costo standard 30 €/h). La media annua è calcolata sui ${mesiCal} mesi di calendario dei tre progetti insieme; 1.720 h è il monte ore annuo dell'Avviso (art. 4, voce B.1).<br>* PRONTI VIA: le righe del piano approvato non riportano i nominativi; abbinamento alle persone ricostruito, da confermare. HS-HumanSeal: abbinamento delle righe 1.430 h e 890 h a Abatecola e Mirabella ricostruito per ipotesi. SPACE.AI: le due righe da 380 h sono attribuite a Mirabella e a Ciampi (al posto di Caldarera).`;
+
+    // carico mensile per progetto (ore per WP distribuite sui mesi del WP)
+    const oreProf = (p) => {
+      const D = p.durata_mesi || 24, out = new Array(D).fill(0), wpM = Object.fromEntries((p.wp || []).map((w) => [w.codice, [w.mese_inizio, w.mese_fine]]));
+      (p.norema.ore_per_wp || []).forEach((x) => { const wps = (String(x.wp).match(/WP\d+/g) || []).filter((c) => wpM[c]); if (!x.ore || !wps.length) return;
+        const ms = wps.flatMap((c) => { const [a, b] = wpM[c]; return Array.from({ length: b - a + 1 }, (_, i) => a + i); }); ms.forEach((m) => (out[m - 1] += x.ore / ms.length)); });
+      return out;
+    };
+    const lm = new Map(); P.forEach((p) => oreProf(p).forEach((v, i) => { const k = mKey(addM(parse(p.data_inizio), i)); if (!lm.has(k)) lm.set(k, {}); lm.get(k)[p.slug] = (lm.get(k)[p.slug] || 0) + v; }));
+    const lk = [...lm.keys()].sort((a, b) => a - b), lrows = lk.map((k) => ({ k, dt: new Date(Math.floor(k / 12), k % 12, 1), v: lm.get(k), tot: P.reduce((a, p) => a + (lm.get(k)[p.slug] || 0), 0) }));
+    const peak = lrows.reduce((a, b) => (b.tot > a.tot ? b : a), lrows[0]);
+    $("#n-load-lead").innerHTML = `Ore NOREMA per mese, sommando i tre progetti: le ore di ciascun WP sono distribuite in modo uniforme sui suoi mesi. Media <b>${num(totAll / lrows.length)} h/mese</b> (circa ${(totAll / lrows.length / FTE_M).toLocaleString("it-IT", { maximumFractionDigits: 1 })} persone a tempo pieno); picco <b>${num(peak.tot)} h</b> a ${ym(peak.dt)} (${(peak.tot / FTE_M).toLocaleString("it-IT", { maximumFractionDigits: 1 })} persone). Una persona a tempo pieno corrisponde a circa ${num(FTE_M)} h/mese.`;
+    {
+      const W = 1100, H = 300, padL = 56, padR = 16, padT = 14, padB = 34, maxV = Math.ceil(Math.max(...lrows.map((r) => r.tot), FTE_M) / FTE_M) * FTE_M;
+      const y = (v) => padT + (1 - v / maxV) * (H - padT - padB), bw = (W - padL - padR) / lrows.length, x = (i) => padL + i * bw;
+      let g = ""; for (let f = 1; f * FTE_M <= maxV + 1; f++) g += `<line x1="${padL}" x2="${W - padR}" y1="${y(f * FTE_M)}" y2="${y(f * FTE_M)}" stroke-dasharray="4 4"/><text x="${padL - 8}" y="${y(f * FTE_M) + 4}" text-anchor="end">${f} FTE</text>`;
+      const bars = lrows.map((r, i) => { let acc = 0; return P.map((p) => { const v = r.v[p.slug] || 0; if (!v) return ""; const y1 = y(acc + v), y0 = y(acc); acc += v; return `<rect x="${x(i) + 1.5}" y="${y1}" width="${Math.max(2, bw - 3)}" height="${Math.max(1, y0 - y1 - 1)}" fill="var(--p-${esc(p.tema)})"/>`; }).join(""); }).join("");
+      const xl = lrows.map((r, i) => (r.dt.getMonth() % 3 === 0 ? `<text x="${x(i) + bw / 2}" y="${H - 10}" text-anchor="middle">${ym(r.dt)}</text>` : "")).join("");
+      const hits = lrows.map((r, i) => `<rect class="hit" data-i="${i}" x="${x(i)}" y="${padT}" width="${bw}" height="${H - padT - padB}" fill="transparent"/>`).join("");
+      $("#n-load").innerHTML = `<svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="none"><g class="grid axis">${g}</g><line class="zero" x1="${padL}" x2="${W - padR}" y1="${y(0)}" y2="${y(0)}"/>${bars}<g class="axis">${xl}</g>${hits}</svg>`;
+      $("#n-load-legend").innerHTML = P.map((p) => `<span><i style="background:var(--p-${esc(p.tema)})"></i>${esc(p.acronimo)}</span>`).join("") + `<span><i class="line" style="background:var(--g2)"></i>Persone a tempo pieno equivalenti (FTE)</span>`;
+      const tip = $("#n-tip");
+      document.querySelectorAll("#n-load .hit").forEach((h) => {
+        h.addEventListener("mousemove", (e) => { const r = lrows[+h.dataset.i]; tip.hidden = false; tip.style.left = Math.min(e.clientX + 14, innerWidth - 230) + "px"; tip.style.top = e.clientY + 14 + "px";
+          tip.innerHTML = `<b>${ym(r.dt)}</b>` + P.filter((p) => r.v[p.slug]).map((p) => `<div><span>${esc(p.acronimo)}</span><span>${num(r.v[p.slug])} h</span></div>`).join("") + `<div><span>Totale</span><span>${num(r.tot)} h · ${(r.tot / FTE_M).toLocaleString("it-IT", { maximumFractionDigits: 1 })} FTE</span></div>`; });
+        h.addEventListener("mouseleave", () => (tip.hidden = true));
+      });
+    }
+
+    // calendario timesheet / SAL
+    const oggi = new Date(); oggi.setHours(0, 0, 0, 0);
+    const per = P.flatMap((p) => { const t0 = parse(p.data_inizio), D = p.durata_mesi || 24, n = (p.norema.personale || []).length;
+      const tappe = [...I0.sal_mesi.map((m, i) => [`SAL ${i + 1}`, i ? I0.sal_mesi[i - 1] + 1 : 1, m]), ["Saldo", I0.sal_mesi.at(-1) + 1, D]];
+      return tappe.map(([t, a, b]) => ({ p, t, a, b, dal: addM(t0, a - 1), al: addD(addM(t0, b), -1), entro: addM(t0, b), n })); }).sort((u, v) => u.entro - v.entro);
+    const next = per.find((r) => r.entro >= oggi);
+    $("#n-ts").innerHTML = `<thead><tr><th>Progetto</th><th>Erogazione</th><th>Periodo dei timesheet</th><th>Richiesta entro</th><th class="num">Persone</th></tr></thead><tbody>` +
+      per.map((r) => `<tr class="${r === next ? "ev" : ""}"><td>${pill(r.p)}</td><td>${esc(r.t)}</td><td>M${r.a}–M${r.b} · ${d(r.dal)} – ${d(r.al)}</td><td>${d(r.entro)}${r === next ? ' <span class="b warn">prossima</span>' : ""}</td><td class="num">${r.n}</td></tr>`).join("") + `</tbody>`;
+    $("#n-ts-regole").innerHTML = `<p><b>Cosa serve per le ore NOREMA</b></p><ul>
+      <li>Un timesheet (Modello 11) per ciascun Dipendente, compreso l'eventuale Titolare Qualificato di PMI, relativo al periodo rendicontato: per ogni giorno le ore lavorate e le ore dedicate al progetto.</li>
+      <li>Firme: Dipendente, Legale Rappresentante di NOREMA e coordinatore dell'attività (project manager della mandataria).</li>
+      <li>Per le ore a costi standard (B.1.1): la busta paga dell'ultimo mese rendicontato, da cui risultino il rapporto di lavoro per tutto il periodo e un inquadramento coerente con il costo standard applicato.</li>
+      <li>CV dei Dipendenti da individuare o sostituiti, da caricare in rendicontazione.</li>
+      <li>Il forfait del 20% (B.4) non si rendiconta: è riconosciuto in proporzione al personale rendicontato.</li></ul>
+      <p class="src">Fonti: Avviso, art. 4 (voci B.1 e B.4) e art. 9 (documentazione per SAL e saldo); Modulistica e istruzioni, Modello 11 – Timesheet. L'art. 9 dell'Avviso cita il «modello 9» per i timesheet del personale, mentre la modulistica dedica al timesheet il Modello 11: usare il Modello 11 caricato tra i modelli di rendicontazione. Le date sono calcolate dalla Data di Concessione in Ipotesi.</p>`;
+
+    // ---------- Criticità
+    const CR = X.criticita || [], LV = { alta: 0, media: 1, bassa: 2 }, ST = { aperta: 0, in_attesa: 1, risolta: 2 };
+    const bySlug = Object.fromEntries(P.map((p) => [p.slug, p]));
+    const aperte = CR.filter((c) => c.stato !== "risolta");
+    $("#n-crit-count").textContent = aperte.length ? aperte.length : "";
+    let cf = store.get("n_crit") || "aperte";
+    const drawCrit = () => {
+      document.querySelectorAll("#n-f-crit button").forEach((b) => b.classList.toggle("on", b.dataset.v === cf));
+      const L = (cf === "tutte" ? CR : aperte).slice().sort((a, b) => (ST[a.stato] - ST[b.stato]) || (LV[a.livello] - LV[b.livello]));
+      $("#n-crit").innerHTML = L.length ? L.map((c) => {
+        const lv = c.stato === "risolta" ? `<span class="b ok">Risolta</span>` : c.stato === "in_attesa" ? `<span class="b">In attesa</span>` : `<span class="b ${c.livello === "alta" ? "risk" : c.livello === "media" ? "warn" : ""}">Priorità ${esc(c.livello)}</span>`;
+        return `<div class="card ncrit lv-${esc(c.stato === "risolta" ? "ok" : c.livello)}"><div class="ncrit-h"><div class="t">${esc(c.titolo)}</div><div class="tags">${lv}<span class="b">${esc(c.area)}</span>${(c.progetti || []).map((s) => bySlug[s] ? pill(bySlug[s]) : "").join("")}</div></div>
+          <p>${esc(c.descrizione)}</p>
+          <dl><dt>Azione</dt><dd>${esc(c.azione)}</dd><dt>Chi</dt><dd>${esc(c.chi)}</dd><dt>Fonte</dt><dd class="src">${esc(c.fonte)}</dd></dl></div>`;
+      }).join("") : `<div class="empty">Nessuna criticità aperta.</div>`;
+    };
+    document.querySelectorAll("#n-f-crit button").forEach((b) => b.addEventListener("click", () => { cf = b.dataset.v; store.set("n_crit", cf); drawCrit(); }));
+    drawCrit();
 
     // ---------- Ipotesi
     $("#n-ipotesi").innerHTML = `<div class="nip">
