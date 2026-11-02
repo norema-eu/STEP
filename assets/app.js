@@ -1,4 +1,4 @@
-/* Rendering pagina progetto STEP — legge data.json dalla stessa cartella */
+/* Rendering pagina progetto STEP — legge pubblico.json (copia per i partner generata da build.py) dalla stessa cartella */
 (function () {
   const $ = (s) => document.querySelector(s);
   const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
@@ -14,8 +14,8 @@
   async function load() {
     const inline = document.getElementById("project-data");
     if (inline) return JSON.parse(inline.textContent);
-    const r = await fetch("data.json?v=" + Date.now(), { cache: "no-store", credentials: "same-origin" });
-    if (!r.ok) throw new Error("data.json non disponibile, HTTP " + r.status);
+    const r = await fetch("pubblico.json?v=" + Date.now(), { cache: "no-store", credentials: "same-origin" });
+    if (!r.ok) throw new Error("dati non disponibili, HTTP " + r.status);
     return r.json();
   }
 

@@ -38,5 +38,17 @@ jobs:
             build.py
             xlsx_preview.py
             README.md
+            SPACE_AI/data.json
+            PRONTI_VIA/data.json
+            HUMAN_SEAL/data.json
             **/.htaccess
             **/.htpasswd*
+      - name: Rimuovi dal sito i dati completi dei progetti (contengono note interne NOREMA)
+        env:
+          FTP_SERVER: ${{ secrets.FTP_SERVER }}
+          FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
+          FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+        run: |
+          for f in SPACE_AI/data.json PRONTI_VIA/data.json HUMAN_SEAL/data.json; do
+            curl -sS --ssl-reqd --user "$FTP_USERNAME:$FTP_PASSWORD" "ftp://$FTP_SERVER/" -Q "DELE $f" -o /dev/null && echo "rimosso $f" || echo "$f già assente"
+          done

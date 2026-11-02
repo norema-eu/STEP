@@ -76,7 +76,7 @@
         (rows.length ? rows.map((s) => {
           const g = s.data ? days(s.data) : null;
           const rel = g == null ? "" : g === 0 ? "oggi" : g > 0 ? "tra " + g + " gg" : "";
-          return `<tr class="${g != null && g < 0 && s.stato === "completato" ? "past" : ""}"><td class="dt">${d(s.data)}<small>${rel}</small></td><td>${pill(s.p)}</td><td><b>${esc(s.titolo)}</b><div class="x">${esc(s.descrizione || "")}</div></td><td>${esc(s.chi || "—")}</td><td>${badge(s.stato)}</td></tr>`;
+          return `<tr class="${g != null && g < 0 && s.stato === "completato" ? "past" : ""}"><td class="dt">${d(s.data)}<small>${rel}</small></td><td>${pill(s.p)}</td><td><b>${esc(s.titolo)}</b>${s.interna ? ' <span class="b warn">Solo NOREMA</span>' : ""}<div class="x">${esc(s.descrizione || "")}</div>${s.nota_interna ? `<div class="nint">Nota NOREMA: ${esc(s.nota_interna)}</div>` : ""}</td><td>${esc(s.chi || "—")}</td><td>${badge(s.stato)}</td></tr>`;
         }).join("") : `<tr><td colspan="5" class="empty">Nessun adempimento con questi filtri.</td></tr>`) + `</tbody>`;
     };
     const seg = (id, set) => document.querySelectorAll(`#${id} button`).forEach((b) => b.addEventListener("click", () => {
@@ -113,7 +113,7 @@
     // Criticità aperte
     const ord = { alta: 0, media: 1 };
     $("#crit").innerHTML = crit.length ? crit.sort((a, b) => (ord[a.livello] ?? 2) - (ord[b.livello] ?? 2) || (b.data || "").localeCompare(a.data || ""))
-      .map((c) => `<li><div class="d">${d(c.data)}</div><div><div class="t">${pill(c.p)} ${esc(c.titolo)} <span class="b ${c.livello === "alta" ? "risk" : "warn"}">${c.livello === "alta" ? "Priorità alta" : "Da monitorare"}</span></div><div class="x">${esc(c.descrizione)}</div></div></li>`).join("")
+      .map((c) => `<li><div class="d">${d(c.data)}</div><div><div class="t">${pill(c.p)} ${esc(c.titolo)} <span class="b ${c.livello === "alta" ? "risk" : "warn"}">${c.livello === "alta" ? "Priorità alta" : "Da monitorare"}</span></div><div class="x">${esc(c.descrizione)}</div>${c.nota_interna ? `<div class="nint">Nota NOREMA: ${esc(c.nota_interna)}</div>` : ""}${c.interna ? '<div class="nint">Non visibile ai partner</div>' : ""}</div></li>`).join("")
       : `<li class="empty">Nessuna criticità aperta.</li>`;
 
     // Interlocuzioni con la tutor

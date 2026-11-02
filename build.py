@@ -89,6 +89,18 @@ fetch("pagina.html?v=" + Date.now(), {cache: "no-store", credentials: "same-orig
 """
 
 
+INTERNI = ("nota_interna", "fonte_sharepoint")
+
+
+def pubblico(d):
+    """Copia per i partner: toglie le voci marcate "interna" e i campi riservati a NOREMA."""
+    if isinstance(d, dict):
+        return {k: pubblico(v) for k, v in d.items() if k not in INTERNI}
+    if isinstance(d, list):
+        return [pubblico(x) for x in d if not (isinstance(x, dict) and x.get("interna"))]
+    return d
+
+
 def write_page(folder: pathlib.Path, html: str) -> None:
     """index.html = guscio stabile; pagina.html = pagina vera (sempre ricaricata senza cache)."""
     (folder / "pagina.html").write_text(html, encoding="utf-8")
@@ -123,13 +135,14 @@ def main(preview: bool) -> None:
     for folder in sorted(PROJECTS):
         data = json.loads((folder / "data.json").read_text(encoding="utf-8"))  # valida il JSON
         write_page(folder, page)
+        (folder / "pubblico.json").write_text(json.dumps(pubblico(data), ensure_ascii=False, indent=1), encoding="utf-8")
         print(f"ok  {folder.name}/index.html")
         if preview:
             out = ROOT / "preview"
             out.mkdir(exist_ok=True)
             html = TEMPLATE.replace('<link rel="stylesheet" href="../assets/style.css">', f"<style>{css}</style>")
             html = html.replace('<script src="../assets/app.js"></script>', f"<script>{js}</script>")
-            blob = json.dumps(data, ensure_ascii=False).replace("</", "<\\/")
+            blob = json.dumps(pubblico(data), ensure_ascii=False).replace("</", "<\\/")
             html = html.replace("<!--DATA-->", f'<script id="project-data" type="application/json">{blob}</script>')
             (out / f"{folder.name}.html").write_text(html, encoding="utf-8")
             print(f"ok  preview/{folder.name}.html")

@@ -1,0 +1,411 @@
+{
+ "aggiornato": "2026-11-02T19:55:00+01:00",
+ "fonte": "Fonti: Det. G13392 del 02/10/2026 (BURL n. 81 suppl. 1 del 08/10/2026, Allegati A e B); comunicazione di concessione Lazio Innova (prot. LISPA 0036564 del 14/10/2026); piano costi approvato GeCoWEB Plus (dettaglio del 22/10/2026); formulario presentato (proposta progettuale) e bozza del contratto di aggregazione allegata alla domanda; corrispondenza di partenariato (email Outlook dal 15/07/2025 al 26/10/2026).",
+ "progetto": {
+  "acronimo": "PRONTI VIA",
+  "titolo": "Piattaforma per la Raccolta e l'Ottimizzazione dei dati attraverso Nuove Tecnologie Intelligenti per la Valutazione dell'Impatto Ambientale nei territori del Lazio",
+  "stato": "Ammesso a contributo · antimafia trasmessa, in attesa dell'atto di concessione",
+  "cup": "F89J26001200004",
+  "protocollo": "A0896-2025-095563",
+  "concessione": "Det. G13392 · BURL 81/2026",
+  "punteggio": "63 punti",
+  "capofila": "RO Technology S.r.l.",
+  "tutor": "Ida Spinuso (Lazio Innova)",
+  "durata_mesi": 24,
+  "data_avvio": null,
+  "data_inizio": "2026-10-08",
+  "sintesi": "PRONTI VIA realizza una piattaforma digitale integrata per il monitoraggio ambientale e socio-istituzionale nei territori del Lazio: raccoglie e integra dati da reti di sensori IoT ambientali, contenuti non strutturati da social media e documentazione amministrativa, analizzandoli con tecniche di intelligenza artificiale (NLP, analisi semantica e predittiva) per rendere le Valutazioni di Impatto Ambientale più accurate e tempestive. Il progetto, articolato in 6 WP, porta la tecnologia da TRL 3 a TRL 7 con validazione in due aree pilota del Lazio insieme agli enti locali.",
+  "periodo": "Durata 24 mesi. L'atto di concessione sarà emesso dalla Regione dopo le verifiche antimafia; il cronoprogramma diventa operativo con la firma dell'Atto di Impegno.",
+  "tema": "verde"
+ },
+ "budget": {
+  "costo_ammesso": 667174.8,
+  "contributo_concesso": 377773.44,
+  "contributo_richiesto": 406947.84,
+  "rendicontato": [],
+  "nota_rendicontazione": "Rendicontazione non ancora avviata."
+ },
+ "partner": [
+  {
+   "nome": "RO Technology S.r.l.",
+   "ruolo": "Capofila · responsabile WP1, WP2 e WP4",
+   "referente": "Gianluca Rossi (National & EU Grant Office)",
+   "costo_ammesso": 291744.0,
+   "contributo_concesso": 131284.8,
+   "rna": "26292690",
+   "tipo": "Capofila · mandataria",
+   "wp": "WP1 Coordinamento generale, monitoraggio e controllo qualità · WP2 Sviluppo e test delle reti IoT per parametri ambientali · WP4 Integrazione e sviluppo della piattaforma interoperabile",
+   "descrizione": "Mandataria dell'aggregazione e interlocutore di Lazio Innova, assicura il coordinamento generale, il monitoraggio e il controllo qualità. Progetta, installa e valida la rete di sensori IoT ambientali e realizza la piattaforma cloud-based con dashboard GIS che integra i moduli sensoristici e AI/NLP.",
+   "team": "Referente: Gianluca Rossi · coordinatore del team: Andrea Talamanca (subentrato a Diego Grimani indicato nel formulario) · Marialuisa Scalise · comunicazione/disseminazione e rendicontazione: Massimo Scopigno",
+   "anagrafica": {
+    "ragione_sociale": "RO Technology S.r.l.",
+    "sede_legale": "Via Benedetto Croce 40 – 00142 Roma (RM)",
+    "codice_fiscale": "11250391007",
+    "partita_iva": "11250391007",
+    "legale_rappresentante": "Roberto Di Francesco, Amministratore Unico",
+    "pec": "rotechnology@pec.it"
+   },
+   "referenti": [
+    {
+     "nome": "Gianluca Rossi",
+     "ruolo": "National & EU Grant Office, referente di progetto",
+     "email": "gianluca.rossi@rotechnology.it",
+     "telefono": "+39 06 2112 8876"
+    },
+    {
+     "nome": "Andrea Talamanca",
+     "ruolo": "Coordinatore del team tecnico"
+    },
+    {
+     "nome": "Massimo Scopigno",
+     "ruolo": "Comunicazione, disseminazione e rendicontazione"
+    }
+   ]
+  },
+  {
+   "nome": "NOREMA S.r.l.",
+   "ruolo": "Partner · responsabile WP3 e WP6",
+   "referente": "Claudia Abatecola",
+   "costo_ammesso": 215424.0,
+   "contributo_concesso": 118483.2,
+   "rna": "26292705",
+   "tipo": "Partner",
+   "wp": "WP3 Sviluppo moduli AI/NLP per analisi documentale e social media · WP6 Disseminazione, formazione e replicabilità",
+   "descrizione": "Sviluppa i moduli di intelligenza artificiale e NLP per l'analisi automatica di documenti amministrativi e contenuti testuali non strutturati (social media, segnalazioni civiche), con annotazione semantica e dataset classificati. Cura comunicazione, formazione e toolkit di replicabilità e prevede lo sfruttamento della piattaforma in modalità SaaS per enti locali, ARPA e consulenti ambientali.",
+   "team": "Responsabile scientifico e strategia digitale: Claudia Abatecola · project manager e coordinamento operativo: Chiara Mirabella · monitoring: Valentina Caldarera · full stack developer da acquisire",
+   "anagrafica": {
+    "ragione_sociale": "NOREMA S.r.l. (start-up innovativa)",
+    "sede_legale": "Viale Anicio Gallo 102 – 00174 Roma (RM)",
+    "sede_operativa": "Via di San Martino ai Monti 34-35 – 00184 Roma (RM)",
+    "codice_fiscale": "15893071009",
+    "partita_iva": "15893071009",
+    "rea": "RM-1621151",
+    "legale_rappresentante": "Claudia Abatecola, Amministratrice Unica",
+    "pec": "norema@pec.it",
+    "telefono": "06 96520960",
+    "sito": "www.norema.eu"
+   },
+   "referenti": [
+    {
+     "nome": "Claudia Abatecola",
+     "ruolo": "Responsabile scientifica e strategia",
+     "email": "c.abatecola@norema.eu"
+    },
+    {
+     "nome": "Chiara Mirabella",
+     "ruolo": "EU project manager, coordinamento operativo",
+     "email": "c.mirabella@norema.eu"
+    },
+    {
+     "nome": "Ufficio progetti",
+     "ruolo": "Casella condivisa per documenti e adempimenti",
+     "email": "progetti@norema.eu"
+    }
+   ]
+  },
+  {
+   "nome": "Università di Roma \"La Sapienza\" – SBAI",
+   "ruolo": "Organismo di ricerca · responsabile WP5",
+   "referente": "Prof. Domenico Vitulano",
+   "costo_ammesso": 160006.8,
+   "contributo_concesso": 128005.44,
+   "rna": "Non aiuto",
+   "tipo": "Organismo di ricerca",
+   "wp": "WP5 Dimostrazione e validazione in aree pilota del Lazio",
+   "descrizione": "Partecipa con il laboratorio DIPLab del Dipartimento SBAI e cura la validazione scientifica e lo sviluppo di indicatori. Guida la sperimentazione della piattaforma in due aree pilota del Lazio con gli enti locali, misurandone impatto, affidabilità e utilità per la governance ambientale.",
+   "team": "Responsabile scientifico: Prof. Domenico Vitulano (Dip. SBAI) · Prof.ssa Vittoria Bruni",
+   "anagrafica": {
+    "ragione_sociale": "Università degli Studi di Roma \"La Sapienza\" – Dipartimento di Scienze di Base e Applicate per l'Ingegneria (SBAI)",
+    "sede_legale": "Piazzale Aldo Moro 5 – 00185 Roma (RM)",
+    "codice_fiscale": "80209930587",
+    "partita_iva": "02133771002",
+    "rea": "RM-1569958",
+    "legale_rappresentante": "Prof.ssa Antonella Polimeni, Rettrice",
+    "altro": "Direttore del Dipartimento SBAI: Prof. Roberto Li Voti"
+   },
+   "referenti": [
+    {
+     "nome": "Prof. Domenico Vitulano",
+     "ruolo": "Responsabile scientifico",
+     "email": "domenico.vitulano@uniroma1.it"
+    },
+    {
+     "nome": "Prof.ssa Vittoria Bruni",
+     "ruolo": "Ricerca e validazione",
+     "email": "vittoria.bruni@uniroma1.it"
+    }
+   ]
+  }
+ ],
+ "wp": [
+  {
+   "codice": "WP1",
+   "titolo": "Coordinamento generale, monitoraggio e controllo qualità",
+   "responsabile": "RO Technology",
+   "mese_inizio": 1,
+   "mese_fine": 24,
+   "stato": "da_avviare",
+   "deliverable": "D1.1 (M2), D1.2 (M6, M12, M18, M24)"
+  },
+  {
+   "codice": "WP2",
+   "titolo": "Sviluppo e test delle reti IoT per parametri ambientali",
+   "responsabile": "RO Technology",
+   "mese_inizio": 1,
+   "mese_fine": 10,
+   "stato": "da_avviare",
+   "deliverable": "D2.1 (M10)"
+  },
+  {
+   "codice": "WP3",
+   "titolo": "Sviluppo moduli AI/NLP per analisi documentale e social media",
+   "responsabile": "NOREMA",
+   "mese_inizio": 1,
+   "mese_fine": 16,
+   "stato": "da_avviare",
+   "deliverable": "D3.1 (M16), D3.2 (M12)"
+  },
+  {
+   "codice": "WP4",
+   "titolo": "Integrazione e sviluppo della piattaforma interoperabile",
+   "responsabile": "RO Technology",
+   "mese_inizio": 8,
+   "mese_fine": 22,
+   "stato": "da_avviare",
+   "deliverable": "D4.1 (M22)"
+  },
+  {
+   "codice": "WP5",
+   "titolo": "Dimostrazione e validazione in aree pilota del Lazio",
+   "responsabile": "Sapienza",
+   "mese_inizio": 20,
+   "mese_fine": 24,
+   "stato": "da_avviare",
+   "deliverable": "D5.1 (M24)"
+  },
+  {
+   "codice": "WP6",
+   "titolo": "Disseminazione, formazione e replicabilità",
+   "responsabile": "NOREMA",
+   "mese_inizio": 6,
+   "mese_fine": 24,
+   "stato": "da_avviare",
+   "deliverable": "D6.1 (M20), D6.2 (M12)"
+  }
+ ],
+ "scadenze": [
+  {
+   "data": "2026-10-08",
+   "titolo": "Pubblicazione esiti",
+   "descrizione": "Progetto inserito nel 5° elenco degli idonei e finanziabili (Det. G13392 del 02/10/2026, BURL n. 81 suppl. 1).",
+   "stato": "completato"
+  },
+  {
+   "data": "2026-10-14",
+   "titolo": "Comunicazione di concessione del contributo",
+   "descrizione": "PEC di Lazio Innova al capofila (prot. LISPA 0036564): CUP, tutor e richiesta della documentazione antimafia entro 10 giorni.",
+   "chi": "Lazio Innova",
+   "stato": "completato"
+  },
+  {
+   "data": "2026-10-19",
+   "titolo": "Call di avvio del partenariato",
+   "descrizione": "Accettazione del contributo, antimafia, cronoprogramma, organizzazione della rendicontazione.",
+   "stato": "completato"
+  },
+  {
+   "data": "2026-10-21",
+   "titolo": "Invio documentazione antimafia NOREMA al capofila",
+   "descrizione": "Allegati 1a e 1b di NOREMA firmati digitalmente e trasmessi a RO Technology.",
+   "chi": "NOREMA",
+   "stato": "completato"
+  },
+  {
+   "data": "2026-10-22",
+   "titolo": "Trasmissione documentazione antimafia a Lazio Innova",
+   "descrizione": "Trasmessa via PEC dal capofila il 22/10/2026 alle 16:16 a incentivi@pec.lazioinnova.it, per RO Technology e NOREMA, con conferma dei soggetti B.D.N.A.",
+   "chi": "RO Technology (capofila)",
+   "stato": "completato"
+  },
+  {
+   "data": null,
+   "titolo": "Comunicazione a Lazio Innova della variazione del gruppo di lavoro",
+   "descrizione": "Variazione del team di RO Technology (sostituzioni e nuova distribuzione delle ore-uomo) condivisa con i partner il 20/10, da trasmettere a Lazio Innova.",
+   "chi": "RO Technology",
+   "stato": "in_corso"
+  },
+  {
+   "data": null,
+   "titolo": "Polizza fideiussoria per l'anticipo",
+   "descrizione": "Da avviare: schema di polizza per l'anticipo da predisporre.",
+   "chi": "RO Technology",
+   "stato": "da_avviare"
+  },
+  {
+   "data": null,
+   "titolo": "Costituzione formale dell'ATS",
+   "descrizione": "Bozza rev. 1 del contratto di aggregazione da completare e sottoscrivere: serve anche per la polizza e per l'Atto di Impegno.",
+   "chi": "Tutti i partner",
+   "stato": "da_avviare"
+  },
+  {
+   "data": null,
+   "titolo": "Accordo di gestione della proprietà intellettuale",
+   "descrizione": "Previsto dalla bozza di ATS entro 60 giorni dalla data di concessione del contributo.",
+   "chi": "Tutti i partner",
+   "stato": "da_avviare"
+  },
+  {
+   "data": null,
+   "titolo": "Atto di concessione",
+   "descrizione": "Emesso dalla Regione Lazio al termine delle verifiche antimafia.",
+   "chi": "Regione Lazio / Lazio Innova",
+   "stato": "da_avviare"
+  },
+  {
+   "data": null,
+   "titolo": "Sottoscrizione Atto di Impegno",
+   "descrizione": "Dopo l'atto di concessione. Fissa l'avvio del cronoprogramma (mese 1).",
+   "chi": "Tutti i partner",
+   "stato": "da_avviare"
+  },
+  {
+   "data": null,
+   "titolo": "Fine progetto e rendicontazione finale",
+   "descrizione": "Entro 24 mesi dalla data di concessione, salvo proroghe.",
+   "chi": "Tutti i partner",
+   "stato": "da_avviare"
+  }
+ ],
+ "criticita": [
+  {
+   "data": "2026-10-14",
+   "titolo": "Tempi stretti per l'antimafia",
+   "descrizione": "Termine di 10 giorni dalla comunicazione del 14/10: documentazione trasmessa a Lazio Innova il 22/10.",
+   "livello": "alta",
+   "stato": "risolta"
+  },
+  {
+   "data": null,
+   "titolo": "ATS non ancora costituita",
+   "descrizione": "Bozza rev. 1 da completare e sottoscrivere: senza l'atto formale non si possono finalizzare la polizza fideiussoria e l'Atto di Impegno.",
+   "livello": "media",
+   "stato": "aperta"
+  },
+  {
+   "data": null,
+   "titolo": "Polizza fideiussoria da predisporre",
+   "descrizione": "Schema di polizza per l'anticipo ancora da predisporre.",
+   "livello": "media",
+   "stato": "aperta"
+  },
+  {
+   "data": "2026-07-13",
+   "titolo": "Polizza catastrofale",
+   "descrizione": "Richiesta da Lazio Innova il 13/07/2026 (prot. LISPA 0025599): polizze di RO Technology e NOREMA trasmesse via PEC dal capofila il 27/07/2026.",
+   "livello": "media",
+   "stato": "risolta"
+  }
+ ],
+ "comunicazioni": [
+  {
+   "data": "2025-07-17",
+   "titolo": "Domanda finalizzata",
+   "sintesi": "Domanda A0896-2025-095563 finalizzata su GeCoWEB Plus e confermata con la ricezione della PEC il 17/07/2025."
+  },
+  {
+   "data": "2026-07-13",
+   "titolo": "PEC Lazio Innova – richiesta polizza catastrofale",
+   "sintesi": "Richiesta di documentazione integrativa sulla polizza catastrofale (prot. LISPA 0025599), inoltrata dal capofila ai partner."
+  },
+  {
+   "data": "2026-07-27",
+   "titolo": "Polizze catastrofali trasmesse",
+   "sintesi": "NOREMA invia le proprie polizze al capofila, che trasmette la risposta via PEC a Lazio Innova lo stesso giorno."
+  },
+  {
+   "data": "2026-10-08",
+   "titolo": "Comunicazione del finanziamento ai partner",
+   "sintesi": "NOREMA comunica l'esito, il dettaglio degli importi per beneficiario (Allegato B) e convoca la call di avvio del 19/10."
+  },
+  {
+   "data": "2026-10-14",
+   "titolo": "PEC Lazio Innova – comunicazione di concessione",
+   "sintesi": "Comunicazione di concessione del contributo (prot. LISPA 0036564) con CUP, tutor e istruzioni per l'informazione antimafia, inoltrata dal capofila."
+  },
+  {
+   "data": "2026-10-20",
+   "titolo": "Nuovo gruppo di lavoro RO Technology",
+   "sintesi": "Il capofila comunica ai partner le sostituzioni nel proprio team e la nuova tabella delle ore-uomo."
+  },
+  {
+   "data": "2026-10-20",
+   "titolo": "Istruzioni per la documentazione antimafia",
+   "sintesi": "NOREMA condivide dati del progetto, istruzioni e i propri Allegati 1a e 1b come riferimento per la compilazione."
+  },
+  {
+   "data": "2026-10-22",
+   "titolo": "PEC antimafia a Lazio Innova",
+   "sintesi": "Il capofila trasmette a Lazio Innova la documentazione antimafia di RO Technology e NOREMA. Si attende l'atto di concessione della Regione."
+  }
+ ],
+ "riunioni": [
+  {
+   "data": "2026-10-19",
+   "titolo": "Call di avvio del partenariato (Teams)",
+   "esito": "Adempimenti per l'avvio del progetto (accettazione del contributo, antimafia, cronoprogramma, rendicontazione) e revisione dell'impostazione tecnica."
+  }
+ ],
+ "documenti": [
+  {
+   "nome": "Formulario presentato (proposta progettuale)",
+   "categoria": "Documenti di progetto",
+   "data": "2025-07-17",
+   "stato": "completato",
+   "nota": "file in caricamento"
+  },
+  {
+   "nome": "Comunicazione di concessione del contributo",
+   "categoria": "Documenti di progetto",
+   "data": "2026-10-14",
+   "stato": "completato",
+   "nota": "Lazio Innova · file in caricamento"
+  },
+  {
+   "nome": "Piano dei costi approvato",
+   "categoria": "Documenti di progetto",
+   "data": "2026-10-22",
+   "stato": "completato",
+   "nota": "dettaglio da GeCoWEB Plus",
+   "file": "PRONTI_VIA_piano_costi_dettaglio.xlsx",
+   "anteprima": "anteprime/PRONTI_VIA_piano_costi_dettaglio.html"
+  },
+  {
+   "nome": "Decreto di concessione",
+   "categoria": "Documenti di progetto",
+   "stato": "da_avviare",
+   "nota": "emesso dalla Regione dopo le verifiche antimafia"
+  },
+  {
+   "nome": "Contratto di aggregazione (ATS) – bozza rev. 1",
+   "categoria": "Documenti di progetto",
+   "data": "2026-11-02",
+   "stato": "in_corso",
+   "file": "PRONTI_VIA_ATS_bozza.docx",
+   "anteprima": "anteprime/PRONTI_VIA_ATS_bozza.pdf",
+   "nota": "bozza rev. 1 allineata all'Appendice 5 dell'Avviso: da completare nelle parti evidenziate e firmare digitalmente da tutti i partner (per Sapienza la Rettrice); va trasmessa con l'Atto di Impegno"
+  },
+  {
+   "nome": "Atto di Impegno",
+   "categoria": "Documenti di progetto",
+   "stato": "da_avviare"
+  }
+ ],
+ "lazio_innova": {
+  "ente": "Lazio Innova S.p.A.",
+  "tutor": "Ida Spinuso",
+  "email_tutor": "i.spinuso@lazioinnova.it",
+  "pec": "incentivi@pec.lazioinnova.it",
+  "nota": "Le comunicazioni ufficiali con Lazio Innova passano dalla PEC della capofila."
+ }
+}

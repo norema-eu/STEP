@@ -259,7 +259,7 @@
     {
       "data": null,
       "titolo": "Polizza fideiussoria per l'anticipo",
-      "descrizione": "Schema precompilato inviato al capofila il 20/10 e girato all'assicuratore; da completare con la data dell'ATS.",
+      "descrizione": "Schema precompilato inviato al capofila il 20/10 e trasmesso all'assicuratore; da completare con la data dell'ATS.",
       "chi": "IPTSAT",
       "stato": "in_corso"
     },
@@ -295,8 +295,8 @@
   "criticita": [
     {
       "data": "2026-10-22",
-      "titolo": "Scheda B.D.N.A. IPTSAT non ricevuta",
-      "descrizione": "Nella PEC di trasmissione il capofila segnala a Lazio Innova di non aver trovato la scheda B.D.N.A. di IPTSAT nella comunicazione del 14/10: seguire eventuale richiesta di integrazione.",
+      "titolo": "Scheda B.D.N.A. di IPTSAT",
+      "descrizione": "Nella PEC di trasmissione il capofila ha segnalato a Lazio Innova che la scheda B.D.N.A. di IPTSAT non era presente nella comunicazione del 14/10: possibile richiesta di integrazione.",
       "livello": "media",
       "stato": "aperta"
     },
@@ -333,7 +333,8 @@
     {
       "data": "2026-07-27",
       "titolo": "PEC polizza catastrofale a Lazio Innova",
-      "sintesi": "Il capofila trasmette via PEC a Lazio Innova la documentazione integrativa sulla polizza catastrofale (D.L. 39/2025) richiesta con nota prot. LISPA 0025601 del 13/07/2026; PEC reinoltrata a NOREMA il 28/10/2026."
+      "sintesi": "Il capofila trasmette via PEC a Lazio Innova la documentazione integrativa sulla polizza catastrofale (D.L. 39/2025) richiesta con nota prot. LISPA 0025601 del 13/07/2026.",
+      "nota_interna": "PEC reinoltrata a NOREMA il 28/10/2026."
     },
     {
       "data": "2026-10-08",
@@ -353,7 +354,7 @@
     {
       "data": "2026-10-20",
       "titolo": "Schema polizza fideiussoria",
-      "sintesi": "NOREMA invia lo schema precompilato e la dichiarazione del fideiussore; il capofila lo gira all'assicuratore come bozza."
+      "sintesi": "NOREMA invia lo schema precompilato e la dichiarazione del fideiussore; il capofila lo trasmette all'assicuratore in bozza."
     },
     {
       "data": "2026-10-21",

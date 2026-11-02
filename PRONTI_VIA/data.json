@@ -229,22 +229,24 @@
     },
     {
       "data": null,
-      "titolo": "Comunicazione a Lazio Innova del nuovo gruppo di lavoro RO Technology",
-      "descrizione": "Nuova distribuzione delle ore-uomo e sostituzioni nel team RO Technology (20/10) da comunicare a Lazio Innova: l'invio non risulta dalla corrispondenza.",
+      "titolo": "Comunicazione a Lazio Innova della variazione del gruppo di lavoro",
+      "descrizione": "Variazione del team di RO Technology (sostituzioni e nuova distribuzione delle ore-uomo) condivisa con i partner il 20/10, da trasmettere a Lazio Innova.",
       "chi": "RO Technology",
-      "stato": "attenzione"
+      "stato": "in_corso",
+      "nota_interna": "L'invio a Lazio Innova non risulta dalla corrispondenza: verificare con RO Technology."
     },
     {
       "data": null,
       "titolo": "Polizza fideiussoria per l'anticipo",
-      "descrizione": "Nessuna attività risulta avviata: la cartella VIA-Polizza su SharePoint è vuota e non ci sono email sullo schema di polizza per PRONTI VIA.",
+      "descrizione": "Da avviare: schema di polizza per l'anticipo da predisporre.",
       "chi": "RO Technology",
-      "stato": "da_avviare"
+      "stato": "da_avviare",
+      "nota_interna": "Cartella VIA-Polizza vuota e nessuna email sullo schema di polizza."
     },
     {
       "data": null,
       "titolo": "Costituzione formale dell'ATS",
-      "descrizione": "Esiste solo la bozza del contratto di aggregazione allegata alla domanda: l'atto va formalizzato (serve anche per la polizza e per l'Atto di Impegno).",
+      "descrizione": "Bozza rev. 1 del contratto di aggregazione da completare e sottoscrivere: serve anche per la polizza e per l'Atto di Impegno.",
       "chi": "Tutti i partner",
       "stato": "da_avviare"
     },
@@ -283,7 +285,8 @@
       "titolo": "Contributo RO Technology ridotto",
       "descrizione": "Investimento ammesso per intero ma contributo concesso inferiore di € 29.174,40 rispetto al richiesto. Nel piano costi approvato GeCoWEB Plus RO Technology è classificata come impresa media con intensità del 45%.",
       "livello": "media",
-      "stato": "aperta"
+      "stato": "aperta",
+      "interna": true
     },
     {
       "data": "2026-10-14",
@@ -295,23 +298,25 @@
     {
       "data": "2026-10-20",
       "titolo": "Variazione del gruppo di lavoro RO Technology",
-      "descrizione": "Rispetto al formulario cambiano il coordinatore del team e il responsabile comunicazione/rendicontazione, con nuova tabella ore-uomo da comunicare a Lazio Innova.",
+      "descrizione": "Cambiano il coordinatore del team e il responsabile comunicazione/rendicontazione di RO Technology, con nuova tabella ore-uomo: l'invio a Lazio Innova non risulta dalla corrispondenza.",
       "livello": "media",
-      "stato": "aperta"
+      "stato": "aperta",
+      "interna": true
     },
     {
       "data": null,
       "titolo": "ATS non ancora costituita",
-      "descrizione": "Esiste solo la bozza allegata alla domanda: senza l'atto formale non si possono finalizzare la polizza fideiussoria e l'Atto di Impegno.",
+      "descrizione": "Bozza rev. 1 da completare e sottoscrivere: senza l'atto formale non si possono finalizzare la polizza fideiussoria e l'Atto di Impegno.",
       "livello": "media",
       "stato": "aperta"
     },
     {
       "data": null,
-      "titolo": "Polizza fideiussoria non avviata",
-      "descrizione": "Per PRONTI VIA non risulta ancora predisposto lo schema di polizza per l'anticipo (cartella VIA-Polizza vuota).",
+      "titolo": "Polizza fideiussoria da predisporre",
+      "descrizione": "Schema di polizza per l'anticipo ancora da predisporre.",
       "livello": "media",
-      "stato": "aperta"
+      "stato": "aperta",
+      "nota_interna": "Cartella VIA-Polizza vuota."
     },
     {
       "data": "2026-07-13",
@@ -330,7 +335,7 @@
     {
       "data": "2026-07-13",
       "titolo": "PEC Lazio Innova – richiesta polizza catastrofale",
-      "sintesi": "Richiesta di documentazione integrativa sulla polizza catastrofale (prot. LISPA 0025599), inoltrata dal capofila a NOREMA."
+      "sintesi": "Richiesta di documentazione integrativa sulla polizza catastrofale (prot. LISPA 0025599), inoltrata dal capofila ai partner."
     },
     {
       "data": "2026-07-27",
@@ -350,17 +355,18 @@
     {
       "data": "2026-10-20",
       "titolo": "Nuovo gruppo di lavoro RO Technology",
-      "sintesi": "Il capofila comunica le sostituzioni nel proprio team e invia la nuova tabella delle ore-uomo da comunicare a Lazio Innova."
+      "sintesi": "Il capofila comunica ai partner le sostituzioni nel proprio team e la nuova tabella delle ore-uomo."
     },
     {
       "data": "2026-10-20",
-      "titolo": "Istruzioni antimafia al capofila",
-      "sintesi": "NOREMA invia a RO Technology dati del progetto, istruzioni e i propri Allegati 1a e 1b come esempio di compilazione."
+      "titolo": "Istruzioni per la documentazione antimafia",
+      "sintesi": "NOREMA condivide dati del progetto, istruzioni e i propri Allegati 1a e 1b come riferimento per la compilazione."
     },
     {
       "data": "2026-10-22",
       "titolo": "PEC antimafia a Lazio Innova",
-      "sintesi": "Dopo la verifica di NOREMA e le correzioni, il capofila trasmette la documentazione antimafia di RO Technology e NOREMA. Si attende l'atto di concessione della Regione."
+      "sintesi": "Il capofila trasmette a Lazio Innova la documentazione antimafia di RO Technology e NOREMA. Si attende l'atto di concessione della Regione.",
+      "nota_interna": "Trasmissione dopo la verifica di NOREMA e le correzioni ai documenti del capofila."
     }
   ],
   "riunioni": [

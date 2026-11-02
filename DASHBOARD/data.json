@@ -248,7 +248,7 @@
     },
     {
      "data": "2026-10-01",
-     "titolo": "Invio documentazione antimafia a NOREMA",
+     "titolo": "Raccolta della documentazione antimafia dei partner",
      "descrizione": "Allegati 1a e 1b e verifica schede B.D.N.A. di DEV4U, Microsis, Main Project, NOREMA e Olympos Hub per la verifica preliminare.",
      "chi": "Tutti i partner",
      "stato": "completato"
@@ -270,16 +270,18 @@
     {
      "data": null,
      "titolo": "Kick-off meeting di partenariato",
-     "descrizione": "Data non ancora fissata: il capofila la sollecita il 28/10. Nel formulario la milestone \"Avvio operativo formalizzato\" è prevista al mese 3.",
+     "descrizione": "Data da fissare. Nel formulario la milestone \"Avvio operativo formalizzato\" è prevista al mese 3.",
      "chi": "Tutti i partner",
-     "stato": "da_avviare"
+     "stato": "da_avviare",
+     "nota_interna": "Il capofila l'ha chiesta a NOREMA il 28/10."
     },
     {
      "data": null,
      "titolo": "Polizza fideiussoria per l'anticipo",
-     "descrizione": "Da avviare: il 28/10 il capofila chiede indicazioni su tempi e modalità.",
+     "descrizione": "Da avviare: tempi e modalità da definire con il capofila.",
      "chi": "DEV4U (capofila)",
-     "stato": "da_avviare"
+     "stato": "da_avviare",
+     "nota_interna": "Il 28/10 il capofila ha chiesto indicazioni a NOREMA."
     },
     {
      "data": null,
@@ -306,24 +308,26 @@
    "criticita": [
     {
      "data": "2026-10-28",
-     "titolo": "Kick-off e fideiussione non ancora avviati",
-     "descrizione": "Il capofila chiede la data del kick-off e come procedere con la polizza fideiussoria per l'anticipo: serve una pianificazione condivisa.",
+     "titolo": "Kick-off e polizza fideiussoria da pianificare",
+     "descrizione": "Da definire la data del kick-off e le modalità della polizza fideiussoria per l'anticipo.",
      "livello": "media",
-     "stato": "aperta"
+     "stato": "aperta",
+     "nota_interna": "Richiesta del capofila (Patitucci) a NOREMA del 28/10."
     },
     {
      "data": "2026-10-02",
      "titolo": "Esito verifiche antimafia in attesa",
-     "descrizione": "Dopo la PEC del 02/10 nelle fonti non risultano riscontri di Lazio Innova: seguire eventuali richieste di integrazione, che arriverebbero alla PEC del capofila.",
+     "descrizione": "In attesa del riscontro di Lazio Innova sulla documentazione trasmessa il 02/10; eventuali richieste di integrazione arriveranno alla PEC del capofila.",
      "livello": "media",
      "stato": "aperta"
     },
     {
      "data": "2026-10-29",
-     "titolo": "Contratto di aggregazione da verificare",
-     "descrizione": "Su SharePoint è presente solo la bozza del contratto di aggregazione, senza dati completi né firme: verificare la versione sottoscritta.",
+     "titolo": "Contratto di aggregazione da sottoscrivere",
+     "descrizione": "Bozza rev. 1 del contratto di aggregazione da completare e firmare da tutti i partner.",
      "livello": "media",
-     "stato": "aperta"
+     "stato": "aperta",
+     "nota_interna": "Su SharePoint c'è solo la bozza, senza dati completi né firme: verificare se esiste una versione sottoscritta."
     },
     {
      "data": "2026-09-24",
@@ -514,22 +518,24 @@
     },
     {
      "data": null,
-     "titolo": "Comunicazione a Lazio Innova del nuovo gruppo di lavoro RO Technology",
-     "descrizione": "Nuova distribuzione delle ore-uomo e sostituzioni nel team RO Technology (20/10) da comunicare a Lazio Innova: l'invio non risulta dalla corrispondenza.",
+     "titolo": "Comunicazione a Lazio Innova della variazione del gruppo di lavoro",
+     "descrizione": "Variazione del team di RO Technology (sostituzioni e nuova distribuzione delle ore-uomo) condivisa con i partner il 20/10, da trasmettere a Lazio Innova.",
      "chi": "RO Technology",
-     "stato": "attenzione"
+     "stato": "in_corso",
+     "nota_interna": "L'invio a Lazio Innova non risulta dalla corrispondenza: verificare con RO Technology."
     },
     {
      "data": null,
      "titolo": "Polizza fideiussoria per l'anticipo",
-     "descrizione": "Nessuna attività risulta avviata: la cartella VIA-Polizza su SharePoint è vuota e non ci sono email sullo schema di polizza per PRONTI VIA.",
+     "descrizione": "Da avviare: schema di polizza per l'anticipo da predisporre.",
      "chi": "RO Technology",
-     "stato": "da_avviare"
+     "stato": "da_avviare",
+     "nota_interna": "Cartella VIA-Polizza vuota e nessuna email sullo schema di polizza."
     },
     {
      "data": null,
      "titolo": "Costituzione formale dell'ATS",
-     "descrizione": "Esiste solo la bozza del contratto di aggregazione allegata alla domanda: l'atto va formalizzato (serve anche per la polizza e per l'Atto di Impegno).",
+     "descrizione": "Bozza rev. 1 del contratto di aggregazione da completare e sottoscrivere: serve anche per la polizza e per l'Atto di Impegno.",
      "chi": "Tutti i partner",
      "stato": "da_avviare"
     },
@@ -568,7 +574,8 @@
      "titolo": "Contributo RO Technology ridotto",
      "descrizione": "Investimento ammesso per intero ma contributo concesso inferiore di € 29.174,40 rispetto al richiesto. Nel piano costi approvato GeCoWEB Plus RO Technology è classificata come impresa media con intensità del 45%.",
      "livello": "media",
-     "stato": "aperta"
+     "stato": "aperta",
+     "interna": true
     },
     {
      "data": "2026-10-14",
@@ -580,23 +587,25 @@
     {
      "data": "2026-10-20",
      "titolo": "Variazione del gruppo di lavoro RO Technology",
-     "descrizione": "Rispetto al formulario cambiano il coordinatore del team e il responsabile comunicazione/rendicontazione, con nuova tabella ore-uomo da comunicare a Lazio Innova.",
+     "descrizione": "Cambiano il coordinatore del team e il responsabile comunicazione/rendicontazione di RO Technology, con nuova tabella ore-uomo: l'invio a Lazio Innova non risulta dalla corrispondenza.",
      "livello": "media",
-     "stato": "aperta"
+     "stato": "aperta",
+     "interna": true
     },
     {
      "data": null,
      "titolo": "ATS non ancora costituita",
-     "descrizione": "Esiste solo la bozza allegata alla domanda: senza l'atto formale non si possono finalizzare la polizza fideiussoria e l'Atto di Impegno.",
+     "descrizione": "Bozza rev. 1 da completare e sottoscrivere: senza l'atto formale non si possono finalizzare la polizza fideiussoria e l'Atto di Impegno.",
      "livello": "media",
      "stato": "aperta"
     },
     {
      "data": null,
-     "titolo": "Polizza fideiussoria non avviata",
-     "descrizione": "Per PRONTI VIA non risulta ancora predisposto lo schema di polizza per l'anticipo (cartella VIA-Polizza vuota).",
+     "titolo": "Polizza fideiussoria da predisporre",
+     "descrizione": "Schema di polizza per l'anticipo ancora da predisporre.",
      "livello": "media",
-     "stato": "aperta"
+     "stato": "aperta",
+     "nota_interna": "Cartella VIA-Polizza vuota."
     },
     {
      "data": "2026-07-13",
@@ -801,7 +810,7 @@
     {
      "data": null,
      "titolo": "Polizza fideiussoria per l'anticipo",
-     "descrizione": "Schema precompilato inviato al capofila il 20/10 e girato all'assicuratore; da completare con la data dell'ATS.",
+     "descrizione": "Schema precompilato inviato al capofila il 20/10 e trasmesso all'assicuratore; da completare con la data dell'ATS.",
      "chi": "IPTSAT",
      "stato": "in_corso"
     },
@@ -837,8 +846,8 @@
    "criticita": [
     {
      "data": "2026-10-22",
-     "titolo": "Scheda B.D.N.A. IPTSAT non ricevuta",
-     "descrizione": "Nella PEC di trasmissione il capofila segnala a Lazio Innova di non aver trovato la scheda B.D.N.A. di IPTSAT nella comunicazione del 14/10: seguire eventuale richiesta di integrazione.",
+     "titolo": "Scheda B.D.N.A. di IPTSAT",
+     "descrizione": "Nella PEC di trasmissione il capofila ha segnalato a Lazio Innova che la scheda B.D.N.A. di IPTSAT non era presente nella comunicazione del 14/10: possibile richiesta di integrazione.",
      "livello": "media",
      "stato": "aperta"
     },

@@ -1,0 +1,434 @@
+{
+ "aggiornato": "2026-11-02T19:55:00+01:00",
+ "fonte": "Fonti: comunicazione di concessione Lazio Innova (Det. G13392, BURL n. 81 suppl. 1 del 08/10/2026), proposta progettuale, corrispondenza di partenariato.",
+ "progetto": {
+  "acronimo": "SPACE.AI",
+  "titolo": "Intelligenza artificiale multimodale e generativa per i dati satellitari di Osservazione della Terra",
+  "stato": "Ammesso a contributo · antimafia trasmessa, in attesa dell'atto di concessione",
+  "cup": "F89J26001240004",
+  "protocollo": "A0896-2025-095582",
+  "concessione": "Det. G13392 · BURL 81/2026",
+  "punteggio": "74 punti",
+  "capofila": "IPTSAT S.r.l.",
+  "tutor": "Ida Spinuso (Lazio Innova)",
+  "durata_mesi": 24,
+  "data_avvio": null,
+  "data_inizio": "2026-10-08",
+  "sintesi": "SPACE.AI sviluppa un modello di intelligenza artificiale multimodale (tokenizzatori, pretraining di un foundation model encoder-decoder e generazione cross-modale \"Thinking-in-Modalities\") per elaborare e generare dati satellitari di Osservazione della Terra. Il progetto porta la tecnologia da TRL 3 a TRL 7, con validazione su casi d'uso reali (agricoltura, mappatura urbana, rischio) e rilascio di una piattaforma SaaS operativa.",
+  "periodo": "Durata 24 mesi. L'atto di concessione sarà emesso dalla Regione dopo le verifiche antimafia; il cronoprogramma diventa operativo con la firma dell'Atto di Impegno.",
+  "tema": "blu"
+ },
+ "budget": {
+  "costo_ammesso": 770990.4,
+  "contributo_concesso": 454972.32,
+  "contributo_richiesto": 456412.32,
+  "rendicontato": [],
+  "nota_rendicontazione": "Rendicontazione non ancora avviata. Primo stato di avanzamento previsto dal piano di spesa al mese 8."
+ },
+ "partner": [
+  {
+   "nome": "IPTSAT S.r.l.",
+   "ruolo": "Capofila · responsabile WP1 e WP5",
+   "referente": "Valerio Caroselli (project manager)",
+   "costo_ammesso": 347400.0,
+   "contributo_concesso": 191070.0,
+   "rna": "26294675",
+   "tipo": "Capofila · mandataria",
+   "wp": "WP1 Project management e acquisizione dati · WP5 Validazione su task operativi",
+   "descrizione": "Coordina il progetto e il partenariato ed è l'interlocutore di Lazio Innova. Gestisce acquisizione, armonizzazione e qualità dei dati satellitari (Sentinel, Planet, DEM), le pipeline geospaziali e la validazione dei modelli su casi d'uso reali (agricoltura, mappatura urbana, rischio).",
+   "team": "Project manager: Valerio Caroselli · coordinamento WP1 e WP5: Silvia Ricci",
+   "anagrafica": {
+    "ragione_sociale": "IPTSAT S.r.l.",
+    "sede_legale": "Via Sallustiana 23 – 00187 Roma (RM)",
+    "codice_fiscale": "07830820580",
+    "partita_iva": "01882071002",
+    "rea": "RM-632885",
+    "legale_rappresentante": "Valerio Caroselli, Amministratore Unico",
+    "email_generale": "info@iptsat.com"
+   },
+   "referenti": [
+    {
+     "nome": "Valerio Caroselli",
+     "ruolo": "Project manager e legale rappresentante",
+     "email": "vcaroselli@gmail.com"
+    },
+    {
+     "nome": "Tiziana Di Silvio",
+     "ruolo": "Adempimenti amministrativi (antimafia, polizze)",
+     "email": "t.disilvio@iptsat.com"
+    },
+    {
+     "nome": "Silvia Ricci",
+     "ruolo": "Coordinamento WP1 e WP5"
+    }
+   ]
+  },
+  {
+   "nome": "Università di Roma \"La Sapienza\" – SBAI",
+   "ruolo": "Organismo di ricerca · responsabile WP3",
+   "referente": "Prof.ssa Vittoria Bruni",
+   "costo_ammesso": 200030.4,
+   "contributo_concesso": 160024.32,
+   "rna": "Non aiuto",
+   "tipo": "Organismo di ricerca",
+   "wp": "WP3 Pretraining del modello foundation",
+   "descrizione": "Sviluppa e pre-addestra il modello foundation multimodale (encoder-decoder Transformer) mettendo a disposizione il proprio cluster di calcolo, supporta il tuning dei modelli negli altri WP e cura la validazione scientifica complessiva del progetto.",
+   "team": "Coordinamento scientifico: Prof.ssa Vittoria Bruni (Dip. SBAI)",
+   "anagrafica": {
+    "ragione_sociale": "Università degli Studi di Roma \"La Sapienza\" – Dipartimento di Scienze di Base e Applicate per l'Ingegneria (SBAI)",
+    "sede_legale": "Piazzale Aldo Moro 5 – 00185 Roma (RM)",
+    "codice_fiscale": "80209930587",
+    "partita_iva": "02133771002",
+    "rea": "RM-1569958",
+    "legale_rappresentante": "Prof.ssa Antonella Polimeni, Rettrice",
+    "altro": "Direttore del Dipartimento SBAI: Prof. Roberto Li Voti"
+   },
+   "referenti": [
+    {
+     "nome": "Prof.ssa Vittoria Bruni",
+     "ruolo": "Responsabile scientifica",
+     "email": "vittoria.bruni@uniroma1.it"
+    },
+    {
+     "nome": "Prof. Domenico Vitulano",
+     "ruolo": "Ricerca e sviluppo",
+     "email": "domenico.vitulano@uniroma1.it"
+    }
+   ]
+  },
+  {
+   "nome": "ReadyLab S.r.l.s.",
+   "ruolo": "Partner · responsabile WP6 e WP7",
+   "referente": "Sabato Fusco",
+   "costo_ammesso": 147600.0,
+   "contributo_concesso": 62100.0,
+   "rna": "26294693",
+   "tipo": "Partner",
+   "wp": "WP6 Integrazione, test e dimostrazione (TRL7) · WP7 Piattaforma SaaS e architettura",
+   "descrizione": "Progetta e realizza la piattaforma SaaS di SPACE.AI (interfaccia geospaziale, backend, API), cura il deploy in cloud, l'integrazione GIS e i test in ambiente operativo fino al TRL7, insieme alla formazione degli utenti.",
+   "team": "Coordinamento WP6 e WP7: Sabato Fusco",
+   "anagrafica": {
+    "ragione_sociale": "ReadyLab S.r.l.s.",
+    "sede_legale": "Via Luigi Vitale 5 – 80033 Cicciano (NA)",
+    "codice_fiscale": "10197921215",
+    "partita_iva": "10197921215",
+    "legale_rappresentante": "Sabato Fusco, Amministratore Unico"
+   },
+   "referenti": [
+    {
+     "nome": "Sabato Fusco",
+     "ruolo": "Coordinamento WP6 e WP7 e legale rappresentante",
+     "email": "s.fusco@readylab.it"
+    }
+   ]
+  },
+  {
+   "nome": "NOREMA S.r.l.",
+   "ruolo": "Partner · responsabile WP2 e WP4",
+   "referente": "Claudia Abatecola",
+   "costo_ammesso": 75960.0,
+   "contributo_concesso": 41778.0,
+   "rna": "26294686",
+   "tipo": "Partner",
+   "wp": "WP2 Sviluppo tokenizzatori · WP4 Generazione e Thinking-in-Modalities",
+   "descrizione": "Guida lo sviluppo dei tokenizzatori multimodali e del modulo generativo cross-modale, con un esperto di deep learning dedicato. Assicura inoltre il supporto trasversale di project management, monitoraggio dei KPI e gestione tecnico-amministrativa e di rendicontazione.",
+   "team": "Coordinamento scientifico e strategico: Claudia Abatecola · coordinamento operativo: Chiara Mirabella",
+   "anagrafica": {
+    "ragione_sociale": "NOREMA S.r.l. (start-up innovativa)",
+    "sede_legale": "Viale Anicio Gallo 102 – 00174 Roma (RM)",
+    "sede_operativa": "Via di San Martino ai Monti 34-35 – 00184 Roma (RM)",
+    "codice_fiscale": "15893071009",
+    "partita_iva": "15893071009",
+    "rea": "RM-1621151",
+    "legale_rappresentante": "Claudia Abatecola, Amministratrice Unica",
+    "pec": "norema@pec.it",
+    "telefono": "06 96520960",
+    "sito": "www.norema.eu"
+   },
+   "referenti": [
+    {
+     "nome": "Claudia Abatecola",
+     "ruolo": "Responsabile scientifica e strategia",
+     "email": "c.abatecola@norema.eu"
+    },
+    {
+     "nome": "Chiara Mirabella",
+     "ruolo": "EU project manager, coordinamento operativo",
+     "email": "c.mirabella@norema.eu"
+    },
+    {
+     "nome": "Ufficio progetti",
+     "ruolo": "Casella condivisa per documenti e adempimenti",
+     "email": "progetti@norema.eu"
+    }
+   ]
+  }
+ ],
+ "wp": [
+  {
+   "codice": "WP1",
+   "titolo": "Project management e acquisizione dati",
+   "responsabile": "IPTSAT",
+   "mese_inizio": 1,
+   "mese_fine": 24,
+   "stato": "da_avviare",
+   "deliverable": "D1.1 (M6), D1.2 (M12), D1.3 (M18), D1.4 (M24)"
+  },
+  {
+   "codice": "WP2",
+   "titolo": "Sviluppo tokenizzatori",
+   "responsabile": "NOREMA",
+   "mese_inizio": 3,
+   "mese_fine": 9,
+   "stato": "da_avviare",
+   "deliverable": "D2.1 (M9)"
+  },
+  {
+   "codice": "WP3",
+   "titolo": "Pretraining modello foundation",
+   "responsabile": "Sapienza",
+   "mese_inizio": 7,
+   "mese_fine": 15,
+   "stato": "da_avviare",
+   "deliverable": "D3.1 (M15)"
+  },
+  {
+   "codice": "WP4",
+   "titolo": "Generazione e Thinking-in-Modalities",
+   "responsabile": "NOREMA",
+   "mese_inizio": 10,
+   "mese_fine": 20,
+   "stato": "da_avviare",
+   "deliverable": "D4.1 (M20)"
+  },
+  {
+   "codice": "WP5",
+   "titolo": "Validazione su task operativi",
+   "responsabile": "IPTSAT",
+   "mese_inizio": 16,
+   "mese_fine": 22,
+   "stato": "da_avviare",
+   "deliverable": "D5.1 (M22)"
+  },
+  {
+   "codice": "WP6",
+   "titolo": "Integrazione, test e dimostrazione (TRL7)",
+   "responsabile": "ReadyLab",
+   "mese_inizio": 21,
+   "mese_fine": 24,
+   "stato": "da_avviare",
+   "deliverable": "D6.1 (M24)"
+  },
+  {
+   "codice": "WP7",
+   "titolo": "Piattaforma SaaS e architettura",
+   "responsabile": "ReadyLab",
+   "mese_inizio": 3,
+   "mese_fine": 20,
+   "stato": "da_avviare",
+   "deliverable": "D7.1 (M6), D7.2 (M20)"
+  }
+ ],
+ "scadenze": [
+  {
+   "data": "2026-10-08",
+   "titolo": "Pubblicazione esiti",
+   "descrizione": "Progetto inserito nel 5° elenco degli idonei e finanziabili (BURL n. 81 suppl. 1).",
+   "stato": "completato"
+  },
+  {
+   "data": "2026-10-19",
+   "titolo": "Call di avvio del partenariato",
+   "descrizione": "Accettazione del contributo, antimafia, cronoprogramma, organizzazione della rendicontazione.",
+   "stato": "completato"
+  },
+  {
+   "data": "2026-10-21",
+   "titolo": "Invio documentazione antimafia al capofila",
+   "descrizione": "Allegati 1a e 1b e verifica schede B.D.N.A.: documentazione di IPTSAT, ReadyLab e NOREMA predisposta.",
+   "chi": "IPTSAT, NOREMA, ReadyLab",
+   "stato": "completato"
+  },
+  {
+   "data": "2026-10-22",
+   "titolo": "Trasmissione documentazione antimafia a Lazio Innova",
+   "descrizione": "Trasmessa via PEC dal capofila il 22/10/2026 alle 12:39 a incentivi@pec.lazioinnova.it, per IPTSAT, NOREMA e ReadyLab.",
+   "chi": "IPTSAT (capofila)",
+   "stato": "completato"
+  },
+  {
+   "data": null,
+   "titolo": "Polizza fideiussoria per l'anticipo",
+   "descrizione": "Schema precompilato inviato al capofila il 20/10 e trasmesso all'assicuratore; da completare con la data dell'ATS.",
+   "chi": "IPTSAT",
+   "stato": "in_corso"
+  },
+  {
+   "data": null,
+   "titolo": "Costituzione formale dell'ATS",
+   "descrizione": "Atto di aggregazione da formalizzare: la data serve anche per la polizza e per l'Atto di Impegno. Su indicazione della tutor (02/11/2026) l'ATS deve prevedere che il capofila riceva tutti i pagamenti e li trasferisca ai partner.",
+   "chi": "Tutti i partner",
+   "stato": "da_avviare"
+  },
+  {
+   "data": null,
+   "titolo": "Atto di concessione",
+   "descrizione": "Emesso dalla Regione Lazio al termine delle verifiche antimafia.",
+   "chi": "Regione Lazio / Lazio Innova",
+   "stato": "da_avviare"
+  },
+  {
+   "data": null,
+   "titolo": "Sottoscrizione Atto di Impegno",
+   "descrizione": "Dopo l'atto di concessione. Fissa l'avvio del cronoprogramma (mese 1).",
+   "chi": "Tutti i partner",
+   "stato": "da_avviare"
+  },
+  {
+   "data": null,
+   "titolo": "Fine progetto e rendicontazione finale",
+   "descrizione": "Entro 24 mesi dalla data di concessione, salvo proroghe.",
+   "chi": "Tutti i partner",
+   "stato": "da_avviare"
+  }
+ ],
+ "criticita": [
+  {
+   "data": "2026-10-22",
+   "titolo": "Scheda B.D.N.A. di IPTSAT",
+   "descrizione": "Nella PEC di trasmissione il capofila ha segnalato a Lazio Innova che la scheda B.D.N.A. di IPTSAT non era presente nella comunicazione del 14/10: possibile richiesta di integrazione.",
+   "livello": "media",
+   "stato": "aperta"
+  },
+  {
+   "data": "2026-10-19",
+   "titolo": "Tempi stretti per l'antimafia",
+   "descrizione": "Documentazione trasmessa a Lazio Innova entro il termine (22/10).",
+   "livello": "alta",
+   "stato": "risolta"
+  },
+  {
+   "data": "2026-10-08",
+   "titolo": "Contributo ReadyLab ridotto",
+   "descrizione": "Investimento ammesso per intero ma contributo inferiore di € 1.440 al richiesto. La tutor di Lazio Innova ha chiarito il 02/11/2026 che il contributo non può essere aumentato.",
+   "livello": "media",
+   "stato": "risolta"
+  },
+  {
+   "data": "2026-10-20",
+   "titolo": "Polizza legata alla data dell'ATS",
+   "descrizione": "La polizza fideiussoria per l'anticipo non può essere finalizzata finché l'ATS non è costituita.",
+   "livello": "media",
+   "stato": "aperta"
+  },
+  {
+   "data": "2026-10-21",
+   "titolo": "Polizza catastrofale",
+   "descrizione": "Polizze catastrofali di IPTSAT, NOREMA e ReadyLab sottoscritte e trasmesse via PEC il 27/07/2026.",
+   "livello": "media",
+   "stato": "risolta"
+  }
+ ],
+ "comunicazioni": [
+  {
+   "data": "2026-07-27",
+   "titolo": "PEC polizza catastrofale a Lazio Innova",
+   "sintesi": "Il capofila trasmette via PEC a Lazio Innova la documentazione integrativa sulla polizza catastrofale (D.L. 39/2025) richiesta con nota prot. LISPA 0025601 del 13/07/2026."
+  },
+  {
+   "data": "2026-10-08",
+   "titolo": "Comunicazione del finanziamento ai partner",
+   "sintesi": "NOREMA comunica l'esito (74 punti), il dettaglio degli importi per beneficiario e convoca la call di avvio."
+  },
+  {
+   "data": "2026-10-14",
+   "titolo": "PEC Lazio Innova – richiesta documentazione",
+   "sintesi": "Richiesta della documentazione per l'informazione antimafia (prot. 0036565 del 14/10/2026), inoltrata dal capofila."
+  },
+  {
+   "data": "2026-10-19",
+   "titolo": "Istruzioni antimafia ai partner",
+   "sintesi": "Il capofila invia schede B.D.N.A., Allegati 1a e 1b e la comunicazione di concessione; consegna al capofila entro il 21/10 ore 12."
+  },
+  {
+   "data": "2026-10-20",
+   "titolo": "Schema polizza fideiussoria",
+   "sintesi": "NOREMA invia lo schema precompilato e la dichiarazione del fideiussore; il capofila lo trasmette all'assicuratore in bozza."
+  },
+  {
+   "data": "2026-10-21",
+   "titolo": "Antimafia IPTSAT e ReadyLab",
+   "sintesi": "Il capofila trasmette la documentazione compilata per IPTSAT e ReadyLab per la verifica; dati B.D.N.A. ReadyLab confermati."
+  },
+  {
+   "data": "2026-10-22",
+   "titolo": "PEC antimafia a Lazio Innova",
+   "sintesi": "Il capofila trasmette a Lazio Innova la documentazione antimafia di IPTSAT, NOREMA e ReadyLab. Si attende l'atto di concessione della Regione."
+  },
+  {
+   "data": "2026-11-02",
+   "titolo": "Colloquio con la tutor di Lazio Innova",
+   "sintesi": "Il contributo di ReadyLab non può essere aumentato; i pagamenti saranno erogati al capofila, che li girerà ai partner (da prevedere nell'ATS)."
+  }
+ ],
+ "riunioni": [
+  {
+   "data": "2026-10-19",
+   "titolo": "Call di avvio del partenariato (Teams)",
+   "esito": "Ordine del giorno: accettazione del contributo, documentazione antimafia, cronoprogramma, organizzazione della rendicontazione."
+  }
+ ],
+ "documenti": [
+  {
+   "nome": "Formulario presentato (proposta progettuale)",
+   "categoria": "Documenti di progetto",
+   "data": "2025-07-17",
+   "stato": "completato",
+   "file": "SPACE_AI_proposta_progettuale.pdf"
+  },
+  {
+   "nome": "Comunicazione di concessione del contributo",
+   "categoria": "Documenti di progetto",
+   "data": "2026-10-08",
+   "stato": "completato",
+   "file": "SPACE_AI_comunicazione_concessione.pdf",
+   "nota": "Lazio Innova"
+  },
+  {
+   "nome": "Piano dei costi approvato",
+   "categoria": "Documenti di progetto",
+   "data": "2026-10-22",
+   "stato": "completato",
+   "file": "SPACE_AI_piano_costi_dettaglio.xlsx",
+   "anteprima": "anteprime/SPACE_AI_piano_costi_dettaglio.html",
+   "nota": "dettaglio da GeCoWEB Plus"
+  },
+  {
+   "nome": "Decreto di concessione",
+   "categoria": "Documenti di progetto",
+   "stato": "da_avviare",
+   "nota": "emesso dalla Regione dopo le verifiche antimafia"
+  },
+  {
+   "nome": "Contratto di aggregazione (ATS) – bozza rev. 1",
+   "categoria": "Documenti di progetto",
+   "data": "2026-11-02",
+   "stato": "in_corso",
+   "file": "SPACE_AI_ATS_bozza.docx",
+   "anteprima": "anteprime/SPACE_AI_ATS_bozza.pdf",
+   "nota": "bozza rev. 1 allineata all'Appendice 5 dell'Avviso: da completare nelle parti evidenziate e firmare digitalmente da tutti i partner (per Sapienza la Rettrice); va trasmessa con l'Atto di Impegno"
+  },
+  {
+   "nome": "Atto di Impegno",
+   "categoria": "Documenti di progetto",
+   "stato": "da_avviare"
+  }
+ ],
+ "lazio_innova": {
+  "ente": "Lazio Innova S.p.A.",
+  "tutor": "Ida Spinuso",
+  "email_tutor": "i.spinuso@lazioinnova.it",
+  "pec": "incentivi@pec.lazioinnova.it",
+  "nota": "Le comunicazioni ufficiali con Lazio Innova passano dalla PEC della capofila."
+ }
+}

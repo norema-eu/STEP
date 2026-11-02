@@ -43,3 +43,9 @@ Modificare `<PROGETTO>/data.json`, eseguire `python3 build.py`, fare commit e pu
 - I file vanno in `<PROGETTO>/documenti/` e si elencano in `data.json` → `documenti` con il campo `file` (e `categoria`, `stato`, `data`, `nota`).
 - PDF: anteprima diretta. Word (.docx): anteprima PDF in `documenti/anteprime/` con `soffice --headless --convert-to pdf --outdir <PROGETTO>/documenti/anteprime <file>.docx`. Excel (.xlsx): anteprima HTML con `python3 xlsx_preview.py <PROGETTO>/documenti/<file>.xlsx`. Indicare il percorso nel campo `anteprima` (es. `anteprime/nome.pdf`).
 - Non pubblicare mai documenti antimafia (dichiarazioni familiari conviventi, schede B.D.N.A., moduli conviventi), visure o documenti d'identità.
+
+## Riservatezza (pagine partner vs cabina di regia)
+
+- Le pagine di progetto leggono `pubblico.json`, generato da `build.py` partendo da `data.json`.
+- `nota_interna` su una voce: visibile solo in /DASHBOARD. `"interna": true` su una voce: la voce resta solo in /DASHBOARD.
+- I `data.json` dei progetti non vengono pubblicati sul sito (la GitHub Action li esclude e li cancella dal server).

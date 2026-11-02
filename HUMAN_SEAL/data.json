@@ -295,7 +295,7 @@
     },
     {
       "data": "2026-10-01",
-      "titolo": "Invio documentazione antimafia a NOREMA",
+      "titolo": "Raccolta della documentazione antimafia dei partner",
       "descrizione": "Allegati 1a e 1b e verifica schede B.D.N.A. di DEV4U, Microsis, Main Project, NOREMA e Olympos Hub per la verifica preliminare.",
       "chi": "Tutti i partner",
       "stato": "completato"
@@ -317,16 +317,18 @@
     {
       "data": null,
       "titolo": "Kick-off meeting di partenariato",
-      "descrizione": "Data non ancora fissata: il capofila la sollecita il 28/10. Nel formulario la milestone \"Avvio operativo formalizzato\" è prevista al mese 3.",
+      "descrizione": "Data da fissare. Nel formulario la milestone \"Avvio operativo formalizzato\" è prevista al mese 3.",
       "chi": "Tutti i partner",
-      "stato": "da_avviare"
+      "stato": "da_avviare",
+      "nota_interna": "Il capofila l'ha chiesta a NOREMA il 28/10."
     },
     {
       "data": null,
       "titolo": "Polizza fideiussoria per l'anticipo",
-      "descrizione": "Da avviare: il 28/10 il capofila chiede indicazioni su tempi e modalità.",
+      "descrizione": "Da avviare: tempi e modalità da definire con il capofila.",
       "chi": "DEV4U (capofila)",
-      "stato": "da_avviare"
+      "stato": "da_avviare",
+      "nota_interna": "Il 28/10 il capofila ha chiesto indicazioni a NOREMA."
     },
     {
       "data": null,
@@ -353,24 +355,26 @@
   "criticita": [
     {
       "data": "2026-10-28",
-      "titolo": "Kick-off e fideiussione non ancora avviati",
-      "descrizione": "Il capofila chiede la data del kick-off e come procedere con la polizza fideiussoria per l'anticipo: serve una pianificazione condivisa.",
+      "titolo": "Kick-off e polizza fideiussoria da pianificare",
+      "descrizione": "Da definire la data del kick-off e le modalità della polizza fideiussoria per l'anticipo.",
       "livello": "media",
-      "stato": "aperta"
+      "stato": "aperta",
+      "nota_interna": "Richiesta del capofila (Patitucci) a NOREMA del 28/10."
     },
     {
       "data": "2026-10-02",
       "titolo": "Esito verifiche antimafia in attesa",
-      "descrizione": "Dopo la PEC del 02/10 nelle fonti non risultano riscontri di Lazio Innova: seguire eventuali richieste di integrazione, che arriverebbero alla PEC del capofila.",
+      "descrizione": "In attesa del riscontro di Lazio Innova sulla documentazione trasmessa il 02/10; eventuali richieste di integrazione arriveranno alla PEC del capofila.",
       "livello": "media",
       "stato": "aperta"
     },
     {
       "data": "2026-10-29",
-      "titolo": "Contratto di aggregazione da verificare",
-      "descrizione": "Su SharePoint è presente solo la bozza del contratto di aggregazione, senza dati completi né firme: verificare la versione sottoscritta.",
+      "titolo": "Contratto di aggregazione da sottoscrivere",
+      "descrizione": "Bozza rev. 1 del contratto di aggregazione da completare e firmare da tutti i partner.",
       "livello": "media",
-      "stato": "aperta"
+      "stato": "aperta",
+      "nota_interna": "Su SharePoint c'è solo la bozza, senza dati completi né firme: verificare se esiste una versione sottoscritta."
     },
     {
       "data": "2026-09-24",
@@ -426,7 +430,8 @@
     {
       "data": "2026-10-28",
       "titolo": "Sollecito kick-off e fideiussione",
-      "sintesi": "Il capofila chiede a NOREMA la data del kick-off e indicazioni sulla polizza fideiussoria."
+      "sintesi": "Il capofila chiede a NOREMA la data del kick-off e indicazioni sulla polizza fideiussoria.",
+      "interna": true
     }
   ],
   "riunioni": [
@@ -451,7 +456,8 @@
       "data": "2026-09-24",
       "stato": "completato",
       "fonte_sharepoint": null,
-      "nota": "Lazio Innova, prot. 0033570 · file A0896-2025-095547_concessione.pdf ricevuto via PEC, non presente su SharePoint · file in caricamento"
+      "nota": "Lazio Innova, prot. 0033570 · file in caricamento",
+      "nota_interna": "File A0896-2025-095547_concessione.pdf ricevuto via PEC, non presente su SharePoint."
     },
     {
       "nome": "Piano dei costi approvato",
