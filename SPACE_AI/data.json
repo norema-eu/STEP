@@ -132,7 +132,7 @@
       "tipo": "Partner",
       "wp": "WP2 Sviluppo tokenizzatori · WP4 Generazione e Thinking-in-Modalities",
       "descrizione": "Guida lo sviluppo dei tokenizzatori multimodali e del modulo generativo cross-modale, con un esperto di deep learning dedicato. Assicura inoltre il supporto trasversale di project management, monitoraggio dei KPI e gestione tecnico-amministrativa e di rendicontazione.",
-      "team": "Coordinamento scientifico e strategico: Claudia Abatecola · coordinamento operativo: Chiara Mirabella",
+      "team": "Referente di progetto: Claudia Abatecola · coordinamento operativo: Chiara Mirabella",
       "anagrafica": {
         "ragione_sociale": "NOREMA S.r.l. (start-up innovativa)",
         "sede_legale": "Viale Anicio Gallo 102 – 00174 Roma (RM)",
@@ -148,7 +148,7 @@
       "referenti": [
         {
           "nome": "Claudia Abatecola",
-          "ruolo": "Responsabile scientifica e strategia",
+          "ruolo": "Referente di progetto",
           "email": "c.abatecola@norema.eu"
         },
         {

@@ -72,7 +72,7 @@
       "tipo": "Partner",
       "wp": "WP3 Sviluppo moduli AI/NLP per analisi documentale e social media · WP6 Disseminazione, formazione e replicabilità",
       "descrizione": "Sviluppa i moduli di intelligenza artificiale e NLP per l'analisi automatica di documenti amministrativi e contenuti testuali non strutturati (social media, segnalazioni civiche), con annotazione semantica e dataset classificati. Cura comunicazione, formazione e toolkit di replicabilità e prevede lo sfruttamento della piattaforma in modalità SaaS per enti locali, ARPA e consulenti ambientali.",
-      "team": "Responsabile scientifico e strategia digitale: Claudia Abatecola · project manager e coordinamento operativo: Chiara Mirabella · monitoring: Valentina Caldarera · full stack developer da acquisire",
+      "team": "Referente di progetto: Claudia Abatecola · project manager e coordinamento operativo: Chiara Mirabella · monitoring: Valentina Caldarera · full stack developer da acquisire",
       "anagrafica": {
         "ragione_sociale": "NOREMA S.r.l. (start-up innovativa)",
         "sede_legale": "Viale Anicio Gallo 102 – 00174 Roma (RM)",
@@ -88,7 +88,7 @@
       "referenti": [
         {
           "nome": "Claudia Abatecola",
-          "ruolo": "Responsabile scientifica e strategia",
+          "ruolo": "Referente di progetto",
           "email": "c.abatecola@norema.eu"
         },
         {
