@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-02T15:45:00+01:00",
+  "aggiornato": "2026-11-02T19:55:00+01:00",
   "fonte": "Fonti: Det. G13392 del 02/10/2026 (BURL n. 81 suppl. 1 del 08/10/2026, Allegati A e B); comunicazione di concessione Lazio Innova (prot. LISPA 0036564 del 14/10/2026); piano costi approvato GeCoWEB Plus (dettaglio del 22/10/2026); formulario presentato (proposta progettuale) e bozza del contratto di aggregazione allegata alla domanda; corrispondenza di partenariato (email Outlook dal 15/07/2025 al 26/10/2026).",
   "progetto": {
     "acronimo": "PRONTI VIA",
@@ -403,13 +403,13 @@
       "nota": "emesso dalla Regione dopo le verifiche antimafia"
     },
     {
-      "nome": "Contratto di aggregazione (ATS) – bozza",
+      "nome": "Contratto di aggregazione (ATS) – bozza rev. 1",
       "categoria": "Documenti di progetto",
-      "data": "2026-10-28",
+      "data": "2026-11-02",
       "stato": "in_corso",
       "file": "PRONTI_VIA_ATS_bozza.docx",
       "anteprima": "anteprime/PRONTI_VIA_ATS_bozza.pdf",
-      "nota": "bozza NOREMA da completare (parti evidenziate) e far firmare a tutti i partner; per Sapienza firma la Rettrice. Va allegato all'Atto di Impegno"
+      "nota": "bozza rev. 1 allineata all'Appendice 5 dell'Avviso: da completare nelle parti evidenziate e firmare digitalmente da tutti i partner (per Sapienza la Rettrice); va trasmessa con l'Atto di Impegno"
     },
     {
       "nome": "Atto di Impegno",

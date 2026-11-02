@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-02T15:55:00+01:00",
+  "aggiornato": "2026-11-02T19:55:00+01:00",
   "fonte": "Fonti: comunicazione di concessione Lazio Innova (Det. G13392, BURL n. 81 suppl. 1 del 08/10/2026), proposta progettuale, corrispondenza di partenariato.",
   "progetto": {
     "acronimo": "SPACE.AI",
@@ -410,13 +410,13 @@
       "nota": "emesso dalla Regione dopo le verifiche antimafia"
     },
     {
-      "nome": "Contratto di aggregazione (ATS) – bozza",
+      "nome": "Contratto di aggregazione (ATS) – bozza rev. 1",
       "categoria": "Documenti di progetto",
-      "data": "2026-10-28",
+      "data": "2026-11-02",
       "stato": "in_corso",
       "file": "SPACE_AI_ATS_bozza.docx",
       "anteprima": "anteprime/SPACE_AI_ATS_bozza.pdf",
-      "nota": "bozza NOREMA da completare (parti evidenziate) e far firmare a tutti i partner; per Sapienza firma la Rettrice. Va allegato all'Atto di Impegno"
+      "nota": "bozza rev. 1 allineata all'Appendice 5 dell'Avviso: da completare nelle parti evidenziate e firmare digitalmente da tutti i partner (per Sapienza la Rettrice); va trasmessa con l'Atto di Impegno"
     },
     {
       "nome": "Atto di Impegno",
