@@ -116,6 +116,24 @@
       .map((c) => `<li><div class="d">${d(c.data)}</div><div><div class="t">${pill(c.p)} ${esc(c.titolo)} <span class="b ${c.livello === "alta" ? "risk" : "warn"}">${c.livello === "alta" ? "Priorità alta" : "Da monitorare"}</span></div><div class="x">${esc(c.descrizione)}</div></div></li>`).join("")
       : `<li class="empty">Nessuna criticità aperta.</li>`;
 
+    // Interlocuzioni con la tutor
+    const T = D.tutor || {}, IL = (D.interlocuzioni || []).slice().sort((a, b) => b.data.localeCompare(a.data));
+    $("#tutor-info").innerHTML = T.nome ? `Tutor Lazio Innova: <b>${esc(T.nome)}</b>${T.email ? ` · <a href="mailto:${esc(T.email)}">${esc(T.email)}</a>` : ""} · dalla più recente alla più vecchia.` : "";
+    let ft = "tutti";
+    $("#f-tutor").innerHTML = `<button data-v="tutti" class="on">Tutti</button>` + P.map((p) => `<button data-v="${esc(p.slug)}">${esc(p.acronimo)}</button>`).join("");
+    const drawTutor = () => {
+      const rows = IL.filter((x) => ft === "tutti" || (x.progetti || []).includes(ft));
+      $("#tutor").innerHTML = rows.length ? rows.map((x) => `<div class="card tl-item">
+        <div class="tl-head"><span class="tl-date">${d(x.data)}</span>${(x.progetti || []).map((s) => byslug[s] ? pill(byslug[s]) : "").join(" ")}<span class="x">${esc([x.canale, x.con].filter(Boolean).join(" · "))}</span></div>
+        ${(x.punti || []).length ? `<ul class="tl-list">${x.punti.map((t) => `<li>${esc(t)}</li>`).join("")}</ul>` : ""}
+        ${(x.azioni || []).length ? `<div class="tl-act"><b>Azioni conseguenti</b><ul class="tl-list">${x.azioni.map((t) => `<li>${esc(t)}</li>`).join("")}</ul></div>` : ""}
+      </div>`).join("") : `<div class="empty">Nessuna interlocuzione registrata.</div>`;
+    };
+    document.querySelectorAll("#f-tutor button").forEach((b) => b.addEventListener("click", () => {
+      document.querySelectorAll("#f-tutor button").forEach((x) => x.classList.toggle("on", x === b)); ft = b.dataset.v; drawTutor();
+    }));
+    drawTutor();
+
     // schede
     const links = [...document.querySelectorAll(".tabs a")], sections = [...document.querySelectorAll("main section[id]")];
     const activate = (id, push) => {

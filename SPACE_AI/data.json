@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-02T15:45:00+01:00",
+  "aggiornato": "2026-11-02T15:55:00+01:00",
   "fonte": "Fonti: comunicazione di concessione Lazio Innova (Det. G13392, BURL n. 81 suppl. 1 del 08/10/2026), proposta progettuale, corrispondenza di partenariato.",
   "progetto": {
     "acronimo": "SPACE.AI",
@@ -266,7 +266,7 @@
     {
       "data": null,
       "titolo": "Costituzione formale dell'ATS",
-      "descrizione": "Atto di aggregazione da formalizzare: la data serve anche per la polizza e per l'Atto di Impegno.",
+      "descrizione": "Atto di aggregazione da formalizzare: la data serve anche per la polizza e per l'Atto di Impegno. Su indicazione della tutor (02/11/2026) l'ATS deve prevedere che il capofila riceva tutti i pagamenti e li trasferisca ai partner.",
       "chi": "Tutti i partner",
       "stato": "da_avviare"
     },
@@ -310,9 +310,9 @@
     {
       "data": "2026-10-08",
       "titolo": "Contributo ReadyLab ridotto",
-      "descrizione": "Investimento ammesso per intero ma contributo concesso inferiore di € 1.440 rispetto al richiesto: le motivazioni sono consultabili sul piano costi approvato in GeCoWEB Plus.",
+      "descrizione": "Investimento ammesso per intero ma contributo inferiore di € 1.440 al richiesto. La tutor di Lazio Innova ha chiarito il 02/11/2026 che il contributo non può essere aumentato.",
       "livello": "media",
-      "stato": "aperta"
+      "stato": "risolta"
     },
     {
       "data": "2026-10-20",
@@ -364,6 +364,11 @@
       "data": "2026-10-22",
       "titolo": "PEC antimafia a Lazio Innova",
       "sintesi": "Il capofila trasmette a Lazio Innova la documentazione antimafia di IPTSAT, NOREMA e ReadyLab. Si attende l'atto di concessione della Regione."
+    },
+    {
+      "data": "2026-11-02",
+      "titolo": "Colloquio con la tutor di Lazio Innova",
+      "sintesi": "Il contributo di ReadyLab non può essere aumentato; i pagamenti saranno erogati al capofila, che li girerà ai partner (da prevedere nell'ATS)."
     }
   ],
   "riunioni": [

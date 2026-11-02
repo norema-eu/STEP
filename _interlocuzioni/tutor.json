@@ -1,0 +1,18 @@
+{
+  "tutor": {"nome": "Ida Spinuso", "ente": "Lazio Innova", "email": "i.spinuso@lazioinnova.it", "progetti": ["SPACE_AI", "PRONTI_VIA", "HUMAN_SEAL"]},
+  "interlocuzioni": [
+    {
+      "data": "2026-11-02",
+      "progetti": ["SPACE_AI"],
+      "canale": "Colloquio con la tutor",
+      "con": "Claudia Abatecola (NOREMA)",
+      "punti": [
+        "ReadyLab: il contributo concesso (€ 62.100,00, € 1.440 in meno del richiesto) non può essere aumentato.",
+        "Pagamenti: il capofila riceverà tutti i pagamenti del contributo e dovrà poi girarli ai partner."
+      ],
+      "azioni": [
+        "Inserire nell'ATS la clausola sul trasferimento dei pagamenti dal capofila ai partner."
+      ]
+    }
+  ]
+}

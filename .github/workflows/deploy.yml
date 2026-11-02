@@ -32,6 +32,7 @@ jobs:
             _template/**
             _dashboard/**
             _anagrafica/**
+            _interlocuzioni/**
             preview/**
             deploy/**
             build.py

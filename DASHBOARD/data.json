@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-11-02T15:45:00+01:00",
+ "aggiornato": "2026-11-02T15:55:00+01:00",
  "progetti": [
   {
    "acronimo": "HS – HumanSeal",
@@ -808,7 +808,7 @@
     {
      "data": null,
      "titolo": "Costituzione formale dell'ATS",
-     "descrizione": "Atto di aggregazione da formalizzare: la data serve anche per la polizza e per l'Atto di Impegno.",
+     "descrizione": "Atto di aggregazione da formalizzare: la data serve anche per la polizza e per l'Atto di Impegno. Su indicazione della tutor (02/11/2026) l'ATS deve prevedere che il capofila riceva tutti i pagamenti e li trasferisca ai partner.",
      "chi": "Tutti i partner",
      "stato": "da_avviare"
     },
@@ -852,9 +852,9 @@
     {
      "data": "2026-10-08",
      "titolo": "Contributo ReadyLab ridotto",
-     "descrizione": "Investimento ammesso per intero ma contributo concesso inferiore di € 1.440 rispetto al richiesto: le motivazioni sono consultabili sul piano costi approvato in GeCoWEB Plus.",
+     "descrizione": "Investimento ammesso per intero ma contributo inferiore di € 1.440 al richiesto. La tutor di Lazio Innova ha chiarito il 02/11/2026 che il contributo non può essere aumentato.",
      "livello": "media",
-     "stato": "aperta"
+     "stato": "risolta"
     },
     {
      "data": "2026-10-20",
@@ -871,7 +871,34 @@
      "stato": "risolta"
     }
    ],
-   "aggiornato": "2026-11-02T15:45:00+01:00"
+   "aggiornato": "2026-11-02T15:55:00+01:00"
+  }
+ ],
+ "tutor": {
+  "nome": "Ida Spinuso",
+  "ente": "Lazio Innova",
+  "email": "i.spinuso@lazioinnova.it",
+  "progetti": [
+   "SPACE_AI",
+   "PRONTI_VIA",
+   "HUMAN_SEAL"
+  ]
+ },
+ "interlocuzioni": [
+  {
+   "data": "2026-11-02",
+   "progetti": [
+    "SPACE_AI"
+   ],
+   "canale": "Colloquio con la tutor",
+   "con": "Claudia Abatecola (NOREMA)",
+   "punti": [
+    "ReadyLab: il contributo concesso (€ 62.100,00, € 1.440 in meno del richiesto) non può essere aumentato.",
+    "Pagamenti: il capofila riceverà tutti i pagamenti del contributo e dovrà poi girarli ai partner."
+   ],
+   "azioni": [
+    "Inserire nell'ATS la clausola sul trasferimento dei pagamenti dal capofila ai partner."
+   ]
   }
  ],
  "organizzazioni": [

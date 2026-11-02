@@ -55,8 +55,11 @@ def build_dashboard(ver: str) -> None:
                 o["nome_completo"], o["nome"] = o["nome"], a["nome_breve"]
             if a.get("referenti"):
                 o["referenti"] = a["referenti"]
+    inter = ROOT / "_interlocuzioni" / "tutor.json"
+    tutor = json.loads(inter.read_text(encoding="utf-8")) if inter.exists() else {}
     order = {"norema": 0}
     out = {"aggiornato": max(p["aggiornato"] or "" for p in progetti), "progetti": progetti,
+           "tutor": tutor.get("tutor"), "interlocuzioni": tutor.get("interlocuzioni", []),
            "organizzazioni": sorted(orgs.values(), key=lambda o: (order.get(org_key(o["nome"]), 1), -len(o["partecipazioni"]), o["nome"]))}
     DASH.mkdir(exist_ok=True)
     (DASH / "data.json").write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")

@@ -40,3 +40,10 @@
 .org .note{font-size:12px;color:var(--warn);margin-top:8px}
 @media (max-width:1000px){.kpis-6{grid-template-columns:repeat(3,1fr)}.proj-grid{grid-template-columns:1fr}.org-grid{grid-template-columns:1fr}}
 @media (max-width:600px){.kpis-6{grid-template-columns:1fr 1fr}}
+.tl{display:grid;gap:12px}
+.tl-head{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:6px}
+.tl-date{font-weight:600;color:var(--navy);font-variant-numeric:tabular-nums;margin-right:4px}
+.tl-head .x{font-size:12.5px;color:var(--muted)}
+.tl-list{margin:6px 0 0;padding-left:20px;font-size:14px}
+.tl-list li{margin:3px 0}
+.tl-act{margin-top:10px;padding:10px 12px;border-radius:10px;background:var(--row);font-size:13px}
