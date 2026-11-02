@@ -67,6 +67,21 @@ def build_dashboard(ver: str) -> None:
     print("ok  DASHBOARD/index.html + data.json")
 
 
+def build_aliases() -> None:
+    """Il server distingue maiuscole e minuscole: /dashboard, /space_ai ecc. reindirizzano alle cartelle vere."""
+    for folder in sorted(PROJECTS) + [DASH]:
+        low = ROOT / folder.name.lower()
+        if low == folder:
+            continue
+        low.mkdir(exist_ok=True)
+        (low / "index.html").write_text(
+            '<!doctype html><meta charset="utf-8"><meta name="robots" content="noindex">'
+            f'<script>location.replace("../{folder.name}/"+location.search+location.hash)</script>'
+            f'<meta http-equiv="refresh" content="0;url=../{folder.name}/"><a href="../{folder.name}/">{folder.name}</a>',
+            encoding="utf-8")
+    print("ok  alias in minuscolo")
+
+
 def main(preview: bool) -> None:
     css = (ROOT / "assets" / "style.css").read_text(encoding="utf-8")
     js = (ROOT / "assets" / "app.js").read_text(encoding="utf-8")
@@ -74,6 +89,7 @@ def main(preview: bool) -> None:
     # versione dei file statici: forza il browser a ricaricarli quando cambiano
     ver = hashlib.sha1((css + js + extra).encode("utf-8")).hexdigest()[:10]
     build_dashboard(ver)
+    build_aliases()
     page = (TEMPLATE.replace('href="../assets/style.css"', f'href="../assets/style.css?v={ver}"')
                     .replace('src="../assets/app.js"', f'src="../assets/app.js?v={ver}"'))
     for folder in sorted(PROJECTS):
