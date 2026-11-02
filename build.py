@@ -66,8 +66,33 @@ def build_dashboard(ver: str) -> None:
     html = (ROOT / "_dashboard" / "index.html").read_text(encoding="utf-8")
     for a in ("style.css", "dash.css", "dash.js"):
         html = html.replace(f'../assets/{a}"', f'../assets/{a}?v={ver}"')
-    (DASH / "index.html").write_text(html, encoding="utf-8")
+    write_page(DASH, html)
     print("ok  DASHBOARD/index.html + data.json")
+
+
+SHELL = """<!doctype html>
+<html lang="it"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow"><meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<title>STEP Lazio · NOREMA</title>
+<script>(function(){var p=location.pathname;if(location.protocol!=="file:"&&!/\\/$/.test(p)&&!/\\.html?$/i.test(p))location.replace(p+"/"+location.search+location.hash);})();</script>
+</head><body style="margin:0;font-family:system-ui,sans-serif;background:#fff">
+<p id="ld" style="padding:24px;color:#5E7088">Caricamento…</p>
+<script>
+/* Guscio sempre uguale: scarica ogni volta la versione aggiornata della pagina, così il browser non mostra mai una copia vecchia */
+fetch("pagina.html?v=" + Date.now(), {cache: "no-store", credentials: "same-origin"})
+  .then(function (r) { if (!r.ok) throw new Error(r.status); return r.text(); })
+  .then(function (t) { document.open(); document.write(t); document.close(); })
+  .catch(function () { location.replace("pagina.html" + location.hash); });
+</script>
+<noscript><a href="pagina.html">Apri la pagina</a></noscript>
+</body></html>
+"""
+
+
+def write_page(folder: pathlib.Path, html: str) -> None:
+    """index.html = guscio stabile; pagina.html = pagina vera (sempre ricaricata senza cache)."""
+    (folder / "pagina.html").write_text(html, encoding="utf-8")
+    (folder / "index.html").write_text(SHELL, encoding="utf-8")
 
 
 def build_aliases() -> None:
@@ -97,7 +122,7 @@ def main(preview: bool) -> None:
                     .replace('src="../assets/app.js"', f'src="../assets/app.js?v={ver}"'))
     for folder in sorted(PROJECTS):
         data = json.loads((folder / "data.json").read_text(encoding="utf-8"))  # valida il JSON
-        (folder / "index.html").write_text(page, encoding="utf-8")
+        write_page(folder, page)
         print(f"ok  {folder.name}/index.html")
         if preview:
             out = ROOT / "preview"
