@@ -1,0 +1,40 @@
+/* Pagina NOREMA: attività, budget, flusso di cassa */
+:root{--c-in:#01A79C;--c-out:#C98A1B;--c-cum:#4A55A8}
+.nctl{font-size:13px;color:var(--muted);display:inline-flex;align-items:center;gap:6px}
+.nctl input{font:inherit;width:70px;padding:6px 8px;border:1px solid var(--line);border-radius:8px;text-align:right}
+.nact{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-top:16px}
+.nact h3{margin:0 0 6px;font-size:17px;font-weight:600;color:var(--navy);display:flex;gap:8px;align-items:center}
+.nact .wpi{padding:8px 0;border-bottom:1px solid var(--g1);font-size:13.5px}
+.nact .wpi:last-child{border-bottom:0}
+.nact .wpi b{color:var(--navy)}
+.nact .wpi .x{font-size:12.5px;color:var(--muted)}
+.nact .tag{font-size:11px;font-weight:600;border-radius:999px;padding:2px 8px;margin-left:6px}
+.nact .tag.resp{background:#DDF3F0;color:#00756D}.nact .tag.part{background:var(--g1);color:#4B5A6B}
+.nbud{margin-top:16px}
+.nbud h3{margin:0 0 8px;font-size:16px;font-weight:600;color:var(--navy);display:flex;gap:8px;align-items:center}
+.nbud .grid2{gap:14px}
+.nbud table{width:100%;border-collapse:collapse;font-size:13px}
+.nbud th{text-align:left;color:var(--muted);font-weight:500;border-bottom:1px solid var(--line);padding:5px 6px}
+.nbud td{padding:6px;border-bottom:1px solid var(--g1);vertical-align:top}
+.nbud td.num,.nbud th.num{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
+.nbud .note{font-size:12px;color:var(--muted);margin-top:8px}
+.nchart{position:relative;width:100%}
+.nchart svg{display:block;width:100%;height:auto;overflow:visible}
+.nchart .axis text{font-size:11px;fill:var(--muted)}
+.nchart .grid line{stroke:var(--g1)}
+.nchart .zero{stroke:var(--g2)}
+.nlegend{display:flex;flex-wrap:wrap;gap:16px;font-size:12.5px;color:var(--text);margin-top:8px}
+.nlegend i{display:inline-block;width:12px;height:12px;border-radius:3px;margin-right:6px;vertical-align:-1px}
+.nlegend i.line{height:2px;border-radius:2px;vertical-align:3px}
+.ncash td.num,.ncash th.num{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
+.ncash tr.ev td{font-weight:600}
+.ncash td.neg{color:var(--risk)}
+#n-erog td.num,#n-erog th.num{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
+.ntip{position:fixed;z-index:20;pointer-events:none;background:#fff;border:1px solid var(--line);border-radius:10px;padding:8px 10px;font-size:12.5px;box-shadow:0 4px 16px rgba(13,36,54,.12);min-width:180px}
+.ntip b{display:block;margin-bottom:4px;color:var(--navy)}
+.ntip div{display:flex;justify-content:space-between;gap:12px;font-variant-numeric:tabular-nums}
+.nip p{margin:0 0 10px;font-size:14px}
+.nip ul{margin:0 0 12px;padding-left:20px;font-size:14px}
+.nip li{margin:4px 0}
+.nip .src{font-size:12.5px;color:var(--muted)}
+@media (max-width:1000px){.nact{grid-template-columns:1fr}}

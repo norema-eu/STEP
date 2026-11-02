@@ -33,6 +33,8 @@ jobs:
             _dashboard/**
             _anagrafica/**
             _interlocuzioni/**
+            _norema/**
+            _norema_page/**
             preview/**
             deploy/**
             build.py

@@ -11,7 +11,7 @@ ROOT = pathlib.Path(__file__).resolve().parent
 TEMPLATE = (ROOT / "_template" / "index.html").read_text(encoding="utf-8")
 DASH = ROOT / "DASHBOARD"  # cabina di regia interna NOREMA (generata, non è un progetto)
 PROJECTS = [p.parent for p in ROOT.glob("*/data.json")
-            if not p.parent.name.startswith(("_", ".")) and p.parent != DASH]
+            if not p.parent.name.startswith(("_", ".")) and p.parent not in (DASH, ROOT / "NOREMA")]
 
 # chiave per riconoscere la stessa organizzazione nei diversi progetti
 ORG_KEYS = ["iptsat", "norema", "sapienza", "readylab", "ro technology", "dev4u", "microsis", "main project", "olympos"]
@@ -108,9 +108,45 @@ def write_page(folder: pathlib.Path, html: str) -> None:
     (folder / "index.html").write_text(html, encoding="utf-8")
 
 
+def build_norema(ver: str) -> None:
+    """Pagina interna NOREMA: unisce dati di progetto, estrazione budget/attività e ipotesi di cassa."""
+    src = ROOT / "_norema"
+    if not (src / "estrazione.json").exists():
+        return
+    est = {x["progetto"]: x for x in json.loads((src / "estrazione.json").read_text(encoding="utf-8"))["progetti"]}
+    ip = json.loads((src / "ipotesi.json").read_text(encoding="utf-8"))
+    progetti, agg = [], ""
+    for folder in sorted(PROJECTS):
+        d = json.loads((folder / "data.json").read_text(encoding="utf-8"))
+        e = est.get(folder.name)
+        if not e:
+            continue
+        nor = next(x for x in d["partner"] if "norema" in x["nome"].lower())
+        p = d["progetto"]
+        progetti.append({
+            "slug": folder.name, "acronimo": p["acronimo"], "tema": p.get("tema"), "cup": p.get("cup"),
+            "capofila": p.get("capofila"), "data_inizio": ip.get("date_concessione", {}).get(folder.name) or p.get("data_inizio"),
+            "durata_mesi": p.get("durata_mesi") or 24, "costo_progetto": d["budget"]["costo_ammesso"], "wp": d.get("wp", []),
+            "norema": {"costo": nor["costo_ammesso"], "contributo": nor["contributo_concesso"], "voci": e.get("voci"),
+                       "personale": e.get("personale"), "ore_per_wp": e.get("ore_per_wp"), "attivita": e.get("attivita"),
+                       "note": e.get("note") if isinstance(e.get("note"), str) else "; ".join(e.get("note") or [])},
+        })
+        agg = max(agg, d.get("aggiornato") or "")
+    out = ROOT / "NOREMA"
+    out.mkdir(exist_ok=True)
+    (out / "data.json").write_text(json.dumps({"aggiornato": agg, "ipotesi": ip, "progetti": progetti}, ensure_ascii=False, indent=1), encoding="utf-8")
+    html = (ROOT / "_norema_page" / "index.html").read_text(encoding="utf-8")
+    for a in ("style.css", "dash.css", "norema.css", "norema.js"):
+        html = html.replace(f'../assets/{a}"', f'../assets/{a}?v={ver}"')
+    write_page(out, html)
+    print("ok  NOREMA/index.html + data.json")
+
+
 def build_aliases() -> None:
     """Il server distingue maiuscole e minuscole: /dashboard, /space_ai ecc. reindirizzano alle cartelle vere."""
-    for folder in sorted(PROJECTS) + [DASH]:
+    for folder in sorted(PROJECTS) + [DASH, ROOT / "NOREMA"]:
+        if not folder.exists():
+            continue
         low = ROOT / folder.name.lower()
         if low == folder:
             continue
@@ -126,10 +162,11 @@ def build_aliases() -> None:
 def main(preview: bool) -> None:
     css = (ROOT / "assets" / "style.css").read_text(encoding="utf-8")
     js = (ROOT / "assets" / "app.js").read_text(encoding="utf-8")
-    extra = "".join((ROOT / "assets" / f).read_text(encoding="utf-8") for f in ("dash.css", "dash.js"))
+    extra = "".join((ROOT / "assets" / f).read_text(encoding="utf-8") for f in ("dash.css", "dash.js", "norema.css", "norema.js"))
     # versione dei file statici: forza il browser a ricaricarli quando cambiano
     ver = hashlib.sha1((css + js + extra).encode("utf-8")).hexdigest()[:10]
     build_dashboard(ver)
+    build_norema(ver)
     build_aliases()
     page = (TEMPLATE.replace('href="../assets/style.css"', f'href="../assets/style.css?v={ver}"')
                     .replace('src="../assets/app.js"', f'src="../assets/app.js?v={ver}"'))

@@ -1,0 +1,9 @@
+{
+  "ritardo_li": 60,
+  "ritardo_capofila": 15,
+  "anticipo_pct": 0.4,
+  "anticipo_giorni": 90,
+  "sal_mesi": [8, 16],
+  "tetto_pct": 0.8,
+  "date_concessione": {"SPACE_AI": "2026-10-08", "PRONTI_VIA": "2026-10-08", "HUMAN_SEAL": "2026-09-17"}
+}
