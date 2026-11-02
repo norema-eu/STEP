@@ -2,7 +2,7 @@
  "aggiornato": "2026-11-02",
  "voci": [
   {
-   "livello": "alta",
+   "livello": "media",
    "stato": "aperta",
    "area": "Personale",
    "progetti": [
@@ -10,10 +10,10 @@
     "SPACE_AI",
     "PRONTI_VIA"
    ],
-   "titolo": "Ore dell'Amministratrice Unica a costi standard",
-   "descrizione": "Claudia Abatecola è Amministratrice Unica di NOREMA (visura del 24/07/2026), con compenso da amministratrice e non con contratto da dipendente. Il piano approvato valorizza le sue ore in B.1.1 a 30 €/h (HS 1.430 h, SPACE.AI 600 h, PRONTI VIA 2.112 h secondo l'abbinamento ricostruito, da confermare: 4.142 h in tutto). L'Avviso ammette i costi degli amministratori solo se rientrano nella definizione di Titolare Qualificato di PMI: alla Data della Domanda, dottorato di ricerca oppure almeno 4 anni a tempo pieno di esperienza comprovabile come ricercatore. In quel caso il costo è figurativo a 34,70 €/h. La via alternativa dell'incarico deliberato dal CdA è esclusa per gli amministratori unici.",
-   "azione": "Verificare e documentare il requisito di Titolare Qualificato (esperienza al CNR come tecnologo: periodi, tempo pieno, mansioni di ricerca). Se il requisito c'è, chiarire con la tutor come si rendiconta (34,70 €/h figurativo, nel limite degli importi ammessi). Se manca, preparare una richiesta di variazione per spostare le ore su personale dipendente.",
-   "chi": "NOREMA; eventuale variazione tramite il capofila",
+   "titolo": "Ore dell'Amministratrice Unica come Titolare Qualificato di PMI",
+   "descrizione": "Claudia Abatecola è Amministratrice Unica di NOREMA (visura del 24/07/2026) e ha un compenso da amministratrice, non un contratto da dipendente. Le sue ore (HS 1.430 h, SPACE.AI 600 h, PRONTI VIA 2.112 h secondo l'abbinamento ricostruito, da confermare: 4.142 h in tutto) sono ammissibili come Titolare Qualificato di PMI. Questa qualifica vale anche per l'amministratore unico e richiede, alla Data della Domanda, almeno 4 anni a tempo pieno di esperienza comprovabile come ricercatore, oppure il dottorato. Ipotesi di lavoro: la qualifica è soddisfatta grazie all'esperienza di ricerca al CNR. Il costo è figurativo a 34,70 €/h, mentre il piano approvato le valorizza a 30 €/h in B.1.1. Le schede Budget e Flusso di cassa mostrano i due scenari.",
+   "azione": "Preparare il fascicolo che documenta il requisito: CV, periodi di servizio al CNR, tempo pieno, mansioni di ricerca. Far confermare alla tutor l'inquadramento come Titolare Qualificato. Decidere se rendicontare a 30 €/h come nel piano approvato o chiedere tramite il capofila la variazione a 34,70 €/h.",
+   "chi": "NOREMA; variazione eventuale tramite il capofila",
    "fonte": "Avviso, Appendice 1, definizioni «Dipendente» e «Titolare Qualificato di PMI»; visura NOREMA 24/07/2026"
   },
   {
@@ -87,7 +87,7 @@
    ],
    "titolo": "Carico di lavoro rispetto all'organico",
    "descrizione": "I tre piani approvati assegnano a NOREMA 10.604 ore in circa 25 mesi di calendario: in media circa 3 persone a tempo pieno, con un picco di circa 4 a giugno 2028. Con l'abbinamento attuale, Claudia Abatecola ha 4.142 ore, circa 1.990 all'anno: il 116% delle 1.720 ore annue considerate dall'Avviso.",
-   "azione": "Ridistribuire le ore di Claudia Abatecola (anche in vista della criticità sull'Amministratrice Unica) e confrontare il carico con le altre commesse. Le ore rendicontate non possono superare quelle lavorate risultanti dai timesheet.",
+   "azione": "Ridistribuire le ore di Claudia Abatecola (4.142 h nei tre progetti) e confrontare il carico con le altre commesse. Le ore rendicontate non possono superare quelle lavorate risultanti dai timesheet.",
    "chi": "NOREMA",
    "fonte": "Piani dei costi approvati GeCoWEB Plus (22/10/2026); Avviso, art. 4 voce B.1 (1.720 ore annue)"
   },
