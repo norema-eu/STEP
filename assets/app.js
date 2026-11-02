@@ -87,15 +87,28 @@
     if (wps.length && P.durata_mesi) {
       const m = P.durata_mesi;
       let monthsNow = null;
-      if (P.data_avvio) { const s = new Date(P.data_avvio + "T00:00:00"); monthsNow = (today - s) / (30.44 * 864e5); }
-      const head = Array.from({ length: m }, (_, i) => `<span>${(i + 1) % 3 === 0 || i === 0 ? "M" + (i + 1) : ""}</span>`).join("");
+      const startIso = P.data_avvio || P.data_inizio;
+      const start = startIso ? new Date(startIso + "T00:00:00") : null;
+      if (start) monthsNow = (today - start) / (30.44 * 864e5);
+      // data di inizio del mese di progetto n (M1 = data di inizio)
+      const mStart = (n) => new Date(start.getFullYear(), start.getMonth() + n - 1, start.getDate());
+      const mEnd = (n) => { const x = mStart(n + 1); x.setDate(x.getDate() - 1); return x; };
+      const my = (x) => `${MESI[x.getMonth()]} ${x.getFullYear()}`;
+      const head = Array.from({ length: m }, (_, i) => {
+        const q = (i + 1) % 3 === 0 || i === 0;
+        if (!start) return `<span>${q ? "M" + (i + 1) : ""}</span>`;
+        const x = mStart(i + 1), yr = i === 0 || x.getMonth() === 0;
+        return `<span class="${q ? "q" : ""}${yr ? " yr" : ""}" title="M${i + 1}: ${x.toLocaleDateString("it-IT")} – ${mEnd(i + 1).toLocaleDateString("it-IT")}"><b>M${i + 1}</b><i>${MESI[x.getMonth()]}</i><em>${yr ? x.getFullYear() : ""}</em></span>`;
+      }).join("");
       $("#gantt").innerHTML = `<div class="h">Attività</div><div class="h months">${head}</div>` + wps.map((w) => {
         const left = ((w.mese_inizio - 1) / m * 100).toFixed(2), width = ((w.mese_fine - w.mese_inizio + 1) / m * 100).toFixed(2);
         const tl = monthsNow != null && monthsNow >= 0 && monthsNow <= m ? `<i class="todayline" style="left:${(monthsNow / m * 100).toFixed(2)}%"></i>` : "";
-        return `<div class="lbl"><b>${esc(w.codice)}</b>${esc(w.titolo)}<small>${esc(w.responsabile || "")} · M${w.mese_inizio}–M${w.mese_fine} · ${badge(w.stato)}</small></div>
+        return `<div class="lbl"><b>${esc(w.codice)}</b>${esc(w.titolo)}<small>${esc(w.responsabile || "")} · M${w.mese_inizio}–M${w.mese_fine}${start ? " (" + my(mStart(w.mese_inizio)) + " – " + my(mEnd(w.mese_fine)) + ")" : ""} · ${badge(w.stato)}</small></div>
                 <div class="trk" style="--m:${m}"><span class="seg ${w.stato === "in_corso" ? "on" : ""}" style="left:${left}%;width:${width}%"></span>${tl}</div>`;
       }).join("");
-      $("#gantt-note").textContent = P.data_avvio ? "La linea rossa indica la data di oggi." : "Mesi conteggiati dalla data di avvio, non ancora fissata (decorre dalla firma dell'Atto di Impegno).";
+      $("#gantt-note").textContent = start
+        ? `I mesi di progetto decorrono dalla data di concessione (${start.toLocaleDateString("it-IT")}): M1 inizia quel giorno e i ${m} mesi terminano il ${mEnd(m).toLocaleDateString("it-IT")}. La linea rossa indica la data di oggi.`
+        : "Mesi conteggiati dalla data di avvio, non ancora fissata (decorre dalla firma dell'Atto di Impegno).";
     } else { $("#gantt").outerHTML = `<div class="empty">Piano di lavoro in caricamento.</div>`; }
 
     // Scadenze

@@ -185,3 +185,12 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
 .pt-refs li .pt-c{color:inherit;font-size:13px;overflow-wrap:anywhere}
 .pt-li .x{font-size:12.5px;color:var(--muted);margin-top:8px}
 @media (max-width:860px){.pt-grid{grid-template-columns:1fr}.pt-r{grid-template-columns:1fr;gap:0}}
+
+/* Piano di lavoro: mesi e anni effettivi */
+.gantt .months span{display:flex;flex-direction:column;align-items:center;line-height:1.25;min-width:0;text-transform:none;letter-spacing:0}
+.gantt .months span b{font-weight:600;color:var(--navy);font-size:10.5px;visibility:hidden}
+.gantt .months span.q b{visibility:visible}
+.gantt .months span i{font-style:normal;font-size:10.5px}
+.gantt .months span em{font-style:normal;font-size:10px;color:var(--teal-2);font-weight:600;min-height:12.5px}
+.gantt .months span.yr{border-left:1px solid var(--g2)}
+@media (max-width:860px){.gantt .months span:not(.q) i{visibility:hidden}.gantt .months span i,.gantt .months span b,.gantt .months span em{font-size:9px}}

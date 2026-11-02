@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-02T15:40:00+01:00",
+  "aggiornato": "2026-11-02T15:45:00+01:00",
   "fonte": "Fonti: comunicazione di concessione Lazio Innova (Det. G13392, BURL n. 81 suppl. 1 del 08/10/2026), proposta progettuale, corrispondenza di partenariato.",
   "progetto": {
     "acronimo": "SPACE.AI",
@@ -13,6 +13,7 @@
     "tutor": "Ida Spinuso (Lazio Innova)",
     "durata_mesi": 24,
     "data_avvio": null,
+    "data_inizio": "2026-10-08",
     "sintesi": "SPACE.AI sviluppa un modello di intelligenza artificiale multimodale (tokenizzatori, pretraining di un foundation model encoder-decoder e generazione cross-modale \"Thinking-in-Modalities\") per elaborare e generare dati satellitari di Osservazione della Terra. Il progetto porta la tecnologia da TRL 3 a TRL 7, con validazione su casi d'uso reali (agricoltura, mappatura urbana, rischio) e rilascio di una piattaforma SaaS operativa.",
     "periodo": "Durata 24 mesi. L'atto di concessione sarà emesso dalla Regione dopo le verifiche antimafia; il cronoprogramma diventa operativo con la firma dell'Atto di Impegno.",
     "tema": "blu"
