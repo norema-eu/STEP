@@ -102,9 +102,10 @@ def pubblico(d):
 
 
 def write_page(folder: pathlib.Path, html: str) -> None:
-    """index.html = guscio stabile; pagina.html = pagina vera (sempre ricaricata senza cache)."""
+    """index.html = pagina vera (il server invia Cache-Control: no-cache, vedi deploy/cache.htaccess).
+    pagina.html resta come copia identica per i browser che avessero ancora in memoria il vecchio guscio."""
     (folder / "pagina.html").write_text(html, encoding="utf-8")
-    (folder / "index.html").write_text(SHELL, encoding="utf-8")
+    (folder / "index.html").write_text(html, encoding="utf-8")
 
 
 def build_aliases() -> None:

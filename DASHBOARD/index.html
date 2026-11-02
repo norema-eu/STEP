@@ -1,16 +1,76 @@
 <!doctype html>
-<html lang="it"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="robots" content="noindex,nofollow"><meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-<title>STEP Lazio · NOREMA</title>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Cache-Control" content="no-cache">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
 <script>(function(){var p=location.pathname;if(location.protocol!=="file:"&&!/\/$/.test(p)&&!/\.html?$/i.test(p))location.replace(p+"/"+location.search+location.hash);})();</script>
-</head><body style="margin:0;font-family:system-ui,sans-serif;background:#fff">
-<p id="ld" style="padding:24px;color:#5E7088">Caricamento…</p>
-<script>
-/* Guscio sempre uguale: scarica ogni volta la versione aggiornata della pagina, così il browser non mostra mai una copia vecchia */
-fetch("pagina.html?v=" + Date.now(), {cache: "no-store", credentials: "same-origin"})
-  .then(function (r) { if (!r.ok) throw new Error(r.status); return r.text(); })
-  .then(function (t) { document.open(); document.write(t); document.close(); })
-  .catch(function () { location.replace("pagina.html" + location.hash); });
-</script>
-<noscript><a href="pagina.html">Apri la pagina</a></noscript>
-</body></html>
+<title>Cabina di regia · STEP Lazio · NOREMA</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/style.css?v=926f7f5c86">
+<link rel="stylesheet" href="../assets/dash.css?v=926f7f5c86">
+</head>
+<body>
+<header class="top"><div class="wrap"><div class="brand"><b>NOREMA</b> · STEP Lazio</div><div class="updated" id="updated"></div></div></header>
+
+<div class="hero"><div class="wrap">
+  <div class="eyebrow">Uso interno NOREMA · PR FESR Lazio 2021–2027 · Avviso STEP Lazio</div>
+  <h1>Cabina di regia STEP 2025</h1>
+  <p class="sub">Riepilogo gestionale dei progetti SPACE.AI, PRONTI VIA e HS – HumanSeal: scadenze, criticità e anagrafica dei partner.</p>
+</div></div>
+
+<div class="wrap"><div class="kpis kpis-6" id="kpis"></div></div>
+
+<nav class="tabs"><div class="wrap">
+  <a href="#riepilogo">Riepilogo progetti</a><a href="#scadenzario">Scadenzario</a><a href="#anagrafica">Anagrafica partner</a><a href="#tutor-s">Interlocuzioni tutor</a><a href="#criticita-s">Criticità aperte</a>
+</div></nav>
+
+<main class="wrap">
+  <section id="riepilogo">
+    <h2>Riepilogo progetti</h2>
+    <p class="lead">Stato gestionale di ciascun progetto e posizione di NOREMA.</p>
+    <div class="proj-grid" id="progetti"></div>
+    <div class="card scroll" style="margin-top:16px">
+      <table class="tbl" id="confronto"></table>
+    </div>
+  </section>
+
+  <section id="scadenzario">
+    <h2>Scadenzario</h2>
+    <p class="lead">Tutti gli adempimenti dei tre progetti, dal più recente al più vecchio; in cima quelli ancora da programmare.</p>
+    <div class="filters">
+      <div class="seg-ctl" id="f-progetto"></div>
+      <div class="seg-ctl" id="f-stato">
+        <button data-v="aperte" class="on">Da fare</button><button data-v="tutte">Tutte</button><button data-v="completate">Completate</button>
+      </div>
+    </div>
+    <div class="card scroll"><table class="tbl" id="scad"></table></div>
+  </section>
+
+  <section id="anagrafica">
+    <h2>Anagrafica partner</h2>
+    <p class="lead">Una scheda per organizzazione, con i progetti STEP a cui partecipa, ruoli, importi e referenti.</p>
+    <div class="filters"><input type="search" id="q" placeholder="Cerca partner, referente, P.IVA…" aria-label="Cerca nell'anagrafica"></div>
+    <div class="org-grid" id="orgs"></div>
+  </section>
+
+  <section id="tutor-s">
+    <h2>Interlocuzioni con la tutor</h2>
+    <p class="lead" id="tutor-info"></p>
+    <div class="filters"><div class="seg-ctl" id="f-tutor"></div></div>
+    <div class="tl" id="tutor"></div>
+  </section>
+
+  <section id="criticita-s">
+    <h2>Criticità aperte</h2>
+    <p class="lead">Punti di attenzione ancora aperti, per progetto.</p>
+    <div class="card"><ul class="feed" id="crit"></ul></div>
+  </section>
+</main>
+
+<footer><div class="wrap"><span>Cabina di regia riservata al team NOREMA</span><span>Dati dalle dashboard di progetto, aggiornati automaticamente alle 7:40, 12:40 e 15:40</span></div></footer>
+<script src="../assets/dash.js?v=926f7f5c86"></script>
+</body>
+</html>
