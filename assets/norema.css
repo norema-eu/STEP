@@ -40,3 +40,4 @@
 .nip .src{font-size:12.5px;color:var(--muted)}
 @media (max-width:1000px){.nact{grid-template-columns:1fr}}
 .nbud details.note summary{cursor:pointer;color:var(--teal-2);font-weight:500}.nbud details.note ul{margin:6px 0 0;padding-left:18px}.nbud details.note li{margin:3px 0}
+#n-erog tfoot td,.ncash tfoot td{font-weight:600;border-top:2px solid var(--line);background:var(--row)}#n-erog tfoot tr.sub td{font-weight:500;background:transparent;border-top:1px solid var(--g1)}#n-erog tfoot tr.tot td{border-top:2px solid var(--line)}

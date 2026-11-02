@@ -147,9 +147,14 @@
       });
 
       $("#n-erog").innerHTML = `<thead><tr><th>Progetto</th><th>Erogazione</th><th>Richiesta entro</th><th>Incasso stimato NOREMA</th><th class="num">Importo NOREMA</th><th>Note</th></tr></thead><tbody>` +
-        runs.flatMap(({ p, ev }) => ev.map((e) => `<tr><td>${pill(p)}</td><td>${esc(e.tipo)}</td><td>${d(e.rich)}</td><td>${d(e.inc)}</td><td class="num">${eur(e.importo)}</td><td style="font-size:12.5px;color:var(--muted)">${esc(e.nota)}</td></tr>`)).join("") + `</tbody>`;
+        runs.flatMap(({ p, ev }) => ev.map((e) => `<tr><td>${pill(p)}</td><td>${esc(e.tipo)}</td><td>${d(e.rich)}</td><td>${d(e.inc)}</td><td class="num">${eur(e.importo)}</td><td style="font-size:12.5px;color:var(--muted)">${esc(e.nota)}</td></tr>`)).join("") + `</tbody>` +
+        (() => { const per = runs.map(({ p, ev }) => `<tr class="sub"><td>${pill(p)}</td><td colspan="3">Totale erogazioni ${esc(p.acronimo)}</td><td class="num">${eur(ev.reduce((a, e) => a + e.importo, 0))}</td><td></td></tr>`).join("");
+          const tot = runs.reduce((a, r) => a + r.ev.reduce((b, e) => b + e.importo, 0), 0);
+          return `<tfoot>${runs.length > 1 ? per : ""}<tr class="tot"><td colspan="4">Totale erogazioni</td><td class="num">${eur(tot)}</td><td></td></tr></tfoot>`; })();
       $("#n-cassa").innerHTML = `<thead><tr><th>Mese</th><th class="num">Uscite</th><th class="num">Entrate</th><th class="num">Saldo del mese</th><th class="num">Cumulato</th><th>Eventi</th></tr></thead><tbody>` +
-        rows.map((r) => `<tr class="${r.ev.length ? "ev" : ""}"><td>${ym(r.dt)}</td><td class="num">${eur0(r.out)}</td><td class="num">${r.inn ? eur0(r.inn) : "—"}</td><td class="num ${r.inn - r.out < 0 ? "neg" : ""}">${eur0(r.inn - r.out)}</td><td class="num ${r.cum < 0 ? "neg" : ""}">${eur0(r.cum)}</td><td style="font-size:12.5px">${r.ev.map(esc).join("; ")}</td></tr>`).join("") + `</tbody>`;
+        rows.map((r) => `<tr class="${r.ev.length ? "ev" : ""}"><td>${ym(r.dt)}</td><td class="num">${eur0(r.out)}</td><td class="num">${r.inn ? eur0(r.inn) : "—"}</td><td class="num ${r.inn - r.out < 0 ? "neg" : ""}">${eur0(r.inn - r.out)}</td><td class="num ${r.cum < 0 ? "neg" : ""}">${eur0(r.cum)}</td><td style="font-size:12.5px">${r.ev.map(esc).join("; ")}</td></tr>`).join("") + `</tbody>` +
+        (() => { const o = rows.reduce((a, r) => a + r.out, 0), n = rows.reduce((a, r) => a + r.inn, 0);
+          return `<tfoot><tr class="tot"><td>Totale</td><td class="num">${eur0(o)}</td><td class="num">${eur0(n)}</td><td class="num ${n - o < 0 ? "neg" : ""}">${eur0(n - o)}</td><td class="num ${rows.at(-1).cum < 0 ? "neg" : ""}">${eur0(rows.at(-1).cum)}</td><td style="font-size:12.5px">Massima esposizione ${eur0(-Math.min(0, minRow.cum))} (${ym(minRow.dt)})</td></tr></tfoot>`; })();
 
       // KPI
       const all3 = P.map((p) => ({ p, ...erogazioni(p, I) }));
