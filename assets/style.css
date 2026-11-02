@@ -5,6 +5,7 @@
   --g1:#E7EAE9; --g2:#CED2D8; --g3:#90A1B5;
   --bg:#FFFFFF; --surface:#F7F9F9; --text:#0D2436; --muted:#5E7088;
   --line:#DDE3E6; --ok:#01A79C; --warn:#C98A1B; --risk:#B8434E;
+  --row:#F4FAFA;
   --radius:14px;
 }
 *{box-sizing:border-box}
@@ -69,7 +70,7 @@ h2::after{content:"";flex:1;height:1px;background:var(--line)}
 .tbl th{background:var(--navy);color:#fff;font-weight:500;text-align:left;padding:10px 12px;font-size:12.5px;letter-spacing:.04em}
 .tbl th:first-child{border-top-left-radius:10px}.tbl th:last-child{border-top-right-radius:10px}
 .tbl td{padding:10px 12px;border-bottom:1px solid var(--g1);vertical-align:top}
-.tbl tr:nth-child(even) td{background:#F4FAFA}
+.tbl tr:nth-child(even) td{background:var(--row)}
 .tbl .num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
 .tbl tfoot td{font-weight:600;background:var(--aqua-2)!important;border-bottom:0}
 .scroll{overflow-x:auto}
@@ -128,7 +129,7 @@ h2::after{content:"";flex:1;height:1px;background:var(--line)}
 .doc-cat{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--teal-2);font-weight:600;padding:14px 6px 4px}
 .docs-list .doc{padding:10px 8px;border-radius:10px;align-items:center}
 .doc.has-file{cursor:pointer}
-.doc.has-file:hover{background:#F4FAFA}
+.doc.has-file:hover{background:var(--row)}
 .doc.sel{background:var(--aqua-2)}
 .doc.no-file{opacity:.65}
 .doc-name{font-size:14px}
@@ -155,3 +156,13 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
 }
 @media print{.tabs{display:none}.hero{padding:20px 0}}
 .role-card .x{font-size:12.5px;color:var(--muted)}
+
+/* Temi colore per progetto (campo progetto.tema in data.json) */
+:root[data-tema="arancione"]{
+  --teal:#F08A3C; --teal-2:#D2691E; --navy:#7A3A12; --navy-dk:#2E1508;
+  --aqua-1:#F7D3B5; --aqua-2:#FBE7D7; --aqua-3:#F3BE94; --row:#FEF7F1;
+}
+:root[data-tema="verde"]{
+  --teal:#4DB37E; --teal-2:#2B8F5C; --navy:#1E5B3E; --navy-dk:#0C2A1D;
+  --aqua-1:#BFE6CF; --aqua-2:#DDF1E5; --aqua-3:#A6D9BC; --row:#F3FAF6;
+}

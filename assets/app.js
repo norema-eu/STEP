@@ -29,6 +29,7 @@
   function render(D) {
     const P = D.progetto;
     document.title = `${P.acronimo} · STEP Lazio · NOREMA`;
+    if (P.tema) document.documentElement.dataset.tema = P.tema;
     $("#updated").textContent = "Aggiornato il " + new Date(D.aggiornato).toLocaleString("it-IT", { dateStyle: "long", timeStyle: "short" });
     $("#acr").textContent = P.acronimo;
     $("#title").textContent = P.titolo || "";

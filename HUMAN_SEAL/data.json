@@ -14,7 +14,8 @@
     "durata_mesi": 24,
     "data_avvio": null,
     "sintesi": "HumanSeal sviluppa una piattaforma per l'analisi dell'autenticità dei testi digitali e la certificazione della loro origine umana, distinguendo i testi scritti da persone da quelli generati da modelli di intelligenza artificiale. Il sistema combina NLP, AI explainable, fingerprinting stilistico e segnali semantici in un punteggio di \"umanità\" (HumanSeal Index), con API, dashboard web, certificazione on-chain e integrazione nei flussi documentali della PA (SPID, firma digitale, eIDAS). Il progetto porta la tecnologia da TRL 3 a TRL 7 con validazione in contesti reali (PA, redazioni, enti di formazione).",
-    "periodo": "Durata 24 mesi. L'atto di concessione sarà emesso dalla Regione dopo le verifiche antimafia; il cronoprogramma diventa operativo con la sottoscrizione dell'Atto di Impegno."
+    "periodo": "Durata 24 mesi. L'atto di concessione sarà emesso dalla Regione dopo le verifiche antimafia; il cronoprogramma diventa operativo con la sottoscrizione dell'Atto di Impegno.",
+    "tema": "arancione"
   },
   "budget": {
     "costo_ammesso": 528156.0,

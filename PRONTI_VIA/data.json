@@ -14,7 +14,8 @@
     "durata_mesi": 24,
     "data_avvio": null,
     "sintesi": "PRONTI VIA realizza una piattaforma digitale integrata per il monitoraggio ambientale e socio-istituzionale nei territori del Lazio: raccoglie e integra dati da reti di sensori IoT ambientali, contenuti non strutturati da social media e documentazione amministrativa, analizzandoli con tecniche di intelligenza artificiale (NLP, analisi semantica e predittiva) per rendere le Valutazioni di Impatto Ambientale più accurate e tempestive. Il progetto, articolato in 6 WP, porta la tecnologia da TRL 3 a TRL 7 con validazione in due aree pilota del Lazio insieme agli enti locali.",
-    "periodo": "Durata 24 mesi. L'atto di concessione sarà emesso dalla Regione dopo le verifiche antimafia; il cronoprogramma diventa operativo con la firma dell'Atto di Impegno."
+    "periodo": "Durata 24 mesi. L'atto di concessione sarà emesso dalla Regione dopo le verifiche antimafia; il cronoprogramma diventa operativo con la firma dell'Atto di Impegno.",
+    "tema": "verde"
   },
   "budget": {
     "costo_ammesso": 667174.8,
