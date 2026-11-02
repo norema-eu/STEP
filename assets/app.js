@@ -21,7 +21,7 @@
 
   // Pagina HTML vecchia rimasta in cache del browser (manca il riquadro CUP introdotto il 28/10/2026):
   // ricarica una sola volta con un parametro che obbliga a scaricare la versione aggiornata.
-  if (!document.getElementById("cup") && !/[?&]r=/.test(location.search) && location.protocol !== "file:") {
+  if ((!document.getElementById("cup") || !document.getElementById("partenariato-s")) && !/[?&]r=/.test(location.search) && location.protocol !== "file:") {
     location.replace(location.pathname + "?r=" + Date.now() + location.hash);
     return;
   }
@@ -198,6 +198,7 @@
     const first = docs.findIndex((x) => x.file);
 
     // Partenariato: anagrafica e referenti
+    if ($("#partenariato-s")) try {
     const mail = (e) => e ? `<a href="mailto:${esc(e)}">${esc(e)}</a>` : "";
     const tel = (t) => t ? `<a href="tel:${esc(t.replace(/\s/g, ""))}">${esc(t)}</a>` : "";
     const row = (l, v) => v ? `<div class="pt-r"><dt>${esc(l)}</dt><dd>${v}</dd></div>` : "";
@@ -229,6 +230,7 @@
     else $("#pt-copy").addEventListener("click", async () => {
       try { await navigator.clipboard.writeText(allMails.join("; ")); $("#pt-copied").hidden = false; setTimeout(() => ($("#pt-copied").hidden = true), 1800); } catch (e) {}
     });
+    } catch (e) { console.error("Partenariato", e); }
 
     $("#fonte").textContent = D.fonte || "";
 
@@ -249,5 +251,12 @@
     activate(location.hash.slice(1), false);
   }
 
-  load().then(render).catch((e) => { document.body.insertAdjacentHTML("beforeend", `<div class="wrap empty">Impossibile caricare i dati del progetto (${esc(e.message)}).</div>`); });
+  const tabsOnly = () => {
+    const links = [...document.querySelectorAll(".tabs a")], sections = [...document.querySelectorAll("main section[id]")];
+    if (!sections.length || sections.some((x) => x.hidden)) return;
+    const id = sections.some((x) => x.id === location.hash.slice(1)) ? location.hash.slice(1) : sections[0].id;
+    sections.forEach((x) => (x.hidden = x.id !== id));
+    links.forEach((l) => l.classList.toggle("on", l.getAttribute("href") === "#" + id));
+  };
+  load().then(render).catch((e) => { document.body.insertAdjacentHTML("beforeend", `<div class="wrap empty">Impossibile caricare i dati del progetto (${esc(e.message)}).</div>`); tabsOnly(); });
 })();
