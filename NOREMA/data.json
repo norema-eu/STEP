@@ -31,7 +31,8 @@
     "calcolo": "2.000 € x 12 mesi",
     "voce": "B.1.1",
     "tariffa_rend": 30,
-    "attenzione": "Come amministratrice non dipendente le ore sono ammissibili solo come «Titolare Qualificato di PMI» (dottorato o 4 anni di esperienza da ricercatrice: 34,70 €/h) o con incarico tecnico deliberato dal CdA; mai per l'amministratore unico (Avviso, Appendice 1, definizione di «Dipendente»). La rendicontazione a 30 €/h in fascia bassa va verificata."
+    "attenzione": "Scenario base: 30 €/h come da piano approvato. Scenario «Titolare Qualificato di PMI»: 34,70 €/h figurativi (Avviso, Appendice 1, definizione di «Dipendente»): per l'amministratore di PMI con dottorato o almeno 4 anni a tempo pieno di esperienza come ricercatore; vale anche per l'amministratore unico. Da confermare con la tutor: esperienza da tecnologo (CCNL Ricerca) equiparata a quella da ricercatore. Il passaggio richiede una variazione tramite il capofila.",
+    "tariffa_rend_tq": 34.7
    },
    {
     "id": "chiara",
@@ -86,6 +87,12 @@
   },
   "ore_nota": {
    "PRONTI_VIA": "Le righe del piano dei costi (2.112, 1.408, 1.408 e 1.056 ore) non riportano i nominativi: abbinamento ricostruito per coerenza con le ore dei WP1–WP4 del formulario. Da confermare."
+  },
+  "prestazioni_esterne": {
+   "importo": 12000,
+   "mesi_punta": 4,
+   "rendicontabile": false,
+   "nota": "Personale specializzato esterno nei mesi di punta (stima NOREMA). Non è nel piano dei costi approvato di NOREMA (solo B.1.1 e B.4): senza variazione non è rendicontabile e resta interamente a carico di NOREMA. Distribuito sui mesi con le uscite più alte."
   }
  },
  "progetti": [
