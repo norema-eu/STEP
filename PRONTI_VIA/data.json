@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-10-29T22:45:00+01:00",
+  "aggiornato": "2026-11-02T15:40:00+01:00",
   "fonte": "Fonti: Det. G13392 del 02/10/2026 (BURL n. 81 suppl. 1 del 08/10/2026, Allegati A e B); comunicazione di concessione Lazio Innova (prot. LISPA 0036564 del 14/10/2026); piano costi approvato GeCoWEB Plus (dettaglio del 22/10/2026); formulario presentato (proposta progettuale) e bozza del contratto di aggregazione allegata alla domanda; corrispondenza di partenariato (email Outlook dal 15/07/2025 al 26/10/2026).",
   "progetto": {
     "acronimo": "PRONTI VIA",
@@ -35,7 +35,31 @@
       "tipo": "Capofila · mandataria",
       "wp": "WP1 Coordinamento generale, monitoraggio e controllo qualità · WP2 Sviluppo e test delle reti IoT per parametri ambientali · WP4 Integrazione e sviluppo della piattaforma interoperabile",
       "descrizione": "Mandataria dell'aggregazione e interlocutore di Lazio Innova, assicura il coordinamento generale, il monitoraggio e il controllo qualità. Progetta, installa e valida la rete di sensori IoT ambientali e realizza la piattaforma cloud-based con dashboard GIS che integra i moduli sensoristici e AI/NLP.",
-      "team": "Referente: Gianluca Rossi · coordinatore del team: Andrea Talamanca (subentrato a Diego Grimani indicato nel formulario) · Marialuisa Scalise · comunicazione/disseminazione e rendicontazione: Massimo Scopigno"
+      "team": "Referente: Gianluca Rossi · coordinatore del team: Andrea Talamanca (subentrato a Diego Grimani indicato nel formulario) · Marialuisa Scalise · comunicazione/disseminazione e rendicontazione: Massimo Scopigno",
+      "anagrafica": {
+        "ragione_sociale": "RO Technology S.r.l.",
+        "sede_legale": "Via Benedetto Croce 40 – 00142 Roma (RM)",
+        "codice_fiscale": "11250391007",
+        "partita_iva": "11250391007",
+        "legale_rappresentante": "Roberto Di Francesco, Amministratore Unico",
+        "pec": "rotechnology@pec.it"
+      },
+      "referenti": [
+        {
+          "nome": "Gianluca Rossi",
+          "ruolo": "National & EU Grant Office, referente di progetto",
+          "email": "gianluca.rossi@rotechnology.it",
+          "telefono": "+39 06 2112 8876"
+        },
+        {
+          "nome": "Andrea Talamanca",
+          "ruolo": "Coordinatore del team tecnico"
+        },
+        {
+          "nome": "Massimo Scopigno",
+          "ruolo": "Comunicazione, disseminazione e rendicontazione"
+        }
+      ]
     },
     {
       "nome": "NOREMA S.r.l.",
@@ -47,7 +71,36 @@
       "tipo": "Partner",
       "wp": "WP3 Sviluppo moduli AI/NLP per analisi documentale e social media · WP6 Disseminazione, formazione e replicabilità",
       "descrizione": "Sviluppa i moduli di intelligenza artificiale e NLP per l'analisi automatica di documenti amministrativi e contenuti testuali non strutturati (social media, segnalazioni civiche), con annotazione semantica e dataset classificati. Cura comunicazione, formazione e toolkit di replicabilità e prevede lo sfruttamento della piattaforma in modalità SaaS per enti locali, ARPA e consulenti ambientali.",
-      "team": "Responsabile scientifico e strategia digitale: Claudia Abatecola · project manager e coordinamento operativo: Chiara Mirabella · monitoring: Valentina Caldarera · full stack developer da acquisire"
+      "team": "Responsabile scientifico e strategia digitale: Claudia Abatecola · project manager e coordinamento operativo: Chiara Mirabella · monitoring: Valentina Caldarera · full stack developer da acquisire",
+      "anagrafica": {
+        "ragione_sociale": "NOREMA S.r.l. (start-up innovativa)",
+        "sede_legale": "Viale Anicio Gallo 102 – 00174 Roma (RM)",
+        "sede_operativa": "Via di San Martino ai Monti 34-35 – 00184 Roma (RM)",
+        "codice_fiscale": "15893071009",
+        "partita_iva": "15893071009",
+        "rea": "RM-1621151",
+        "legale_rappresentante": "Claudia Abatecola, Amministratrice Unica",
+        "pec": "norema@pec.it",
+        "telefono": "06 96520960",
+        "sito": "www.norema.eu"
+      },
+      "referenti": [
+        {
+          "nome": "Claudia Abatecola",
+          "ruolo": "Responsabile scientifica e strategia",
+          "email": "c.abatecola@norema.eu"
+        },
+        {
+          "nome": "Chiara Mirabella",
+          "ruolo": "EU project manager, coordinamento operativo",
+          "email": "c.mirabella@norema.eu"
+        },
+        {
+          "nome": "Ufficio progetti",
+          "ruolo": "Casella condivisa per documenti e adempimenti",
+          "email": "progetti@norema.eu"
+        }
+      ]
     },
     {
       "nome": "Università di Roma \"La Sapienza\" – SBAI",
@@ -59,7 +112,28 @@
       "tipo": "Organismo di ricerca",
       "wp": "WP5 Dimostrazione e validazione in aree pilota del Lazio",
       "descrizione": "Partecipa con il laboratorio DIPLab del Dipartimento SBAI e cura la validazione scientifica e lo sviluppo di indicatori. Guida la sperimentazione della piattaforma in due aree pilota del Lazio con gli enti locali, misurandone impatto, affidabilità e utilità per la governance ambientale.",
-      "team": "Responsabile scientifico: Prof. Domenico Vitulano (Dip. SBAI) · Prof.ssa Vittoria Bruni"
+      "team": "Responsabile scientifico: Prof. Domenico Vitulano (Dip. SBAI) · Prof.ssa Vittoria Bruni",
+      "anagrafica": {
+        "ragione_sociale": "Università degli Studi di Roma \"La Sapienza\" – Dipartimento di Scienze di Base e Applicate per l'Ingegneria (SBAI)",
+        "sede_legale": "Piazzale Aldo Moro 5 – 00185 Roma (RM)",
+        "codice_fiscale": "80209930587",
+        "partita_iva": "02133771002",
+        "rea": "RM-1569958",
+        "legale_rappresentante": "Prof.ssa Antonella Polimeni, Rettrice",
+        "altro": "Direttore del Dipartimento SBAI: Prof. Roberto Li Voti"
+      },
+      "referenti": [
+        {
+          "nome": "Prof. Domenico Vitulano",
+          "ruolo": "Responsabile scientifico",
+          "email": "domenico.vitulano@uniroma1.it"
+        },
+        {
+          "nome": "Prof.ssa Vittoria Bruni",
+          "ruolo": "Ricerca e validazione",
+          "email": "vittoria.bruni@uniroma1.it"
+        }
+      ]
     }
   ],
   "wp": [
@@ -341,5 +415,12 @@
       "categoria": "Documenti di progetto",
       "stato": "da_avviare"
     }
-  ]
+  ],
+  "lazio_innova": {
+    "ente": "Lazio Innova S.p.A.",
+    "tutor": "Ida Spinuso",
+    "email_tutor": "i.spinuso@lazioinnova.it",
+    "pec": "incentivi@pec.lazioinnova.it",
+    "nota": "Le comunicazioni ufficiali con Lazio Innova passano dalla PEC della capofila."
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-01T12:42:00+01:00",
+  "aggiornato": "2026-11-02T15:40:00+01:00",
   "fonte": "Fonti: comunicazione di concessione Lazio Innova (Det. G13392, BURL n. 81 suppl. 1 del 08/10/2026), proposta progettuale, corrispondenza di partenariato.",
   "progetto": {
     "acronimo": "SPACE.AI",
@@ -35,7 +35,32 @@
       "tipo": "Capofila · mandataria",
       "wp": "WP1 Project management e acquisizione dati · WP5 Validazione su task operativi",
       "descrizione": "Coordina il progetto e il partenariato ed è l'interlocutore di Lazio Innova. Gestisce acquisizione, armonizzazione e qualità dei dati satellitari (Sentinel, Planet, DEM), le pipeline geospaziali e la validazione dei modelli su casi d'uso reali (agricoltura, mappatura urbana, rischio).",
-      "team": "Project manager: Valerio Caroselli · coordinamento WP1 e WP5: Silvia Ricci"
+      "team": "Project manager: Valerio Caroselli · coordinamento WP1 e WP5: Silvia Ricci",
+      "anagrafica": {
+        "ragione_sociale": "IPTSAT S.r.l.",
+        "sede_legale": "Via Sallustiana 23 – 00187 Roma (RM)",
+        "codice_fiscale": "07830820580",
+        "partita_iva": "01882071002",
+        "rea": "RM-632885",
+        "legale_rappresentante": "Valerio Caroselli, Amministratore Unico",
+        "email_generale": "info@iptsat.com"
+      },
+      "referenti": [
+        {
+          "nome": "Valerio Caroselli",
+          "ruolo": "Project manager e legale rappresentante",
+          "email": "vcaroselli@gmail.com"
+        },
+        {
+          "nome": "Tiziana Di Silvio",
+          "ruolo": "Adempimenti amministrativi (antimafia, polizze)",
+          "email": "t.disilvio@iptsat.com"
+        },
+        {
+          "nome": "Silvia Ricci",
+          "ruolo": "Coordinamento WP1 e WP5"
+        }
+      ]
     },
     {
       "nome": "Università di Roma \"La Sapienza\" – SBAI",
@@ -47,7 +72,28 @@
       "tipo": "Organismo di ricerca",
       "wp": "WP3 Pretraining del modello foundation",
       "descrizione": "Sviluppa e pre-addestra il modello foundation multimodale (encoder-decoder Transformer) mettendo a disposizione il proprio cluster di calcolo, supporta il tuning dei modelli negli altri WP e cura la validazione scientifica complessiva del progetto.",
-      "team": "Coordinamento scientifico: Prof.ssa Vittoria Bruni (Dip. SBAI)"
+      "team": "Coordinamento scientifico: Prof.ssa Vittoria Bruni (Dip. SBAI)",
+      "anagrafica": {
+        "ragione_sociale": "Università degli Studi di Roma \"La Sapienza\" – Dipartimento di Scienze di Base e Applicate per l'Ingegneria (SBAI)",
+        "sede_legale": "Piazzale Aldo Moro 5 – 00185 Roma (RM)",
+        "codice_fiscale": "80209930587",
+        "partita_iva": "02133771002",
+        "rea": "RM-1569958",
+        "legale_rappresentante": "Prof.ssa Antonella Polimeni, Rettrice",
+        "altro": "Direttore del Dipartimento SBAI: Prof. Roberto Li Voti"
+      },
+      "referenti": [
+        {
+          "nome": "Prof.ssa Vittoria Bruni",
+          "ruolo": "Responsabile scientifica",
+          "email": "vittoria.bruni@uniroma1.it"
+        },
+        {
+          "nome": "Prof. Domenico Vitulano",
+          "ruolo": "Ricerca e sviluppo",
+          "email": "domenico.vitulano@uniroma1.it"
+        }
+      ]
     },
     {
       "nome": "ReadyLab S.r.l.s.",
@@ -59,7 +105,21 @@
       "tipo": "Partner",
       "wp": "WP6 Integrazione, test e dimostrazione (TRL7) · WP7 Piattaforma SaaS e architettura",
       "descrizione": "Progetta e realizza la piattaforma SaaS di SPACE.AI (interfaccia geospaziale, backend, API), cura il deploy in cloud, l'integrazione GIS e i test in ambiente operativo fino al TRL7, insieme alla formazione degli utenti.",
-      "team": "Coordinamento WP6 e WP7: Sabato Fusco"
+      "team": "Coordinamento WP6 e WP7: Sabato Fusco",
+      "anagrafica": {
+        "ragione_sociale": "ReadyLab S.r.l.s.",
+        "sede_legale": "Via Luigi Vitale 5 – 80033 Cicciano (NA)",
+        "codice_fiscale": "10197921215",
+        "partita_iva": "10197921215",
+        "legale_rappresentante": "Sabato Fusco, Amministratore Unico"
+      },
+      "referenti": [
+        {
+          "nome": "Sabato Fusco",
+          "ruolo": "Coordinamento WP6 e WP7 e legale rappresentante",
+          "email": "s.fusco@readylab.it"
+        }
+      ]
     },
     {
       "nome": "NOREMA S.r.l.",
@@ -71,7 +131,36 @@
       "tipo": "Partner",
       "wp": "WP2 Sviluppo tokenizzatori · WP4 Generazione e Thinking-in-Modalities",
       "descrizione": "Guida lo sviluppo dei tokenizzatori multimodali e del modulo generativo cross-modale, con un esperto di deep learning dedicato. Assicura inoltre il supporto trasversale di project management, monitoraggio dei KPI e gestione tecnico-amministrativa e di rendicontazione.",
-      "team": "Coordinamento scientifico e strategico: Claudia Abatecola · coordinamento operativo: Chiara Mirabella"
+      "team": "Coordinamento scientifico e strategico: Claudia Abatecola · coordinamento operativo: Chiara Mirabella",
+      "anagrafica": {
+        "ragione_sociale": "NOREMA S.r.l. (start-up innovativa)",
+        "sede_legale": "Viale Anicio Gallo 102 – 00174 Roma (RM)",
+        "sede_operativa": "Via di San Martino ai Monti 34-35 – 00184 Roma (RM)",
+        "codice_fiscale": "15893071009",
+        "partita_iva": "15893071009",
+        "rea": "RM-1621151",
+        "legale_rappresentante": "Claudia Abatecola, Amministratrice Unica",
+        "pec": "norema@pec.it",
+        "telefono": "06 96520960",
+        "sito": "www.norema.eu"
+      },
+      "referenti": [
+        {
+          "nome": "Claudia Abatecola",
+          "ruolo": "Responsabile scientifica e strategia",
+          "email": "c.abatecola@norema.eu"
+        },
+        {
+          "nome": "Chiara Mirabella",
+          "ruolo": "EU project manager, coordinamento operativo",
+          "email": "c.mirabella@norema.eu"
+        },
+        {
+          "nome": "Ufficio progetti",
+          "ruolo": "Casella condivisa per documenti e adempimenti",
+          "email": "progetti@norema.eu"
+        }
+      ]
     }
   ],
   "wp": [
@@ -328,5 +417,12 @@
       "categoria": "Documenti di progetto",
       "stato": "da_avviare"
     }
-  ]
+  ],
+  "lazio_innova": {
+    "ente": "Lazio Innova S.p.A.",
+    "tutor": "Ida Spinuso",
+    "email_tutor": "i.spinuso@lazioinnova.it",
+    "pec": "incentivi@pec.lazioinnova.it",
+    "nota": "Le comunicazioni ufficiali con Lazio Innova passano dalla PEC della capofila."
+  }
 }

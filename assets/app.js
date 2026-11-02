@@ -184,6 +184,39 @@
     });
     const first = docs.findIndex((x) => x.file);
 
+    // Partenariato: anagrafica e referenti
+    const mail = (e) => e ? `<a href="mailto:${esc(e)}">${esc(e)}</a>` : "";
+    const tel = (t) => t ? `<a href="tel:${esc(t.replace(/\s/g, ""))}">${esc(t)}</a>` : "";
+    const row = (l, v) => v ? `<div class="pt-r"><dt>${esc(l)}</dt><dd>${v}</dd></div>` : "";
+    const piva = (a) => a.codice_fiscale && a.partita_iva && a.codice_fiscale !== a.partita_iva
+      ? `C.F. ${esc(a.codice_fiscale)} · P.IVA ${esc(a.partita_iva)}` : esc(a.partita_iva || a.codice_fiscale || "");
+    const parts = D.partner || [];
+    $("#anagrafica").innerHTML = parts.length ? parts.map((p) => {
+      const a = p.anagrafica || {}, refs = p.referenti || [];
+      return `<div class="card pt-card">
+        <div class="role-head"><b>${esc(a.ragione_sociale || p.nome)}</b><span class="b prog">${esc(p.tipo || "")}</span></div>
+        <div class="role-wp">${esc(p.ruolo || "")}</div>
+        <dl class="pt-dl">
+          ${row("Sede legale", esc(a.sede_legale))}${row("Sede operativa", esc(a.sede_operativa))}
+          ${row(a.codice_fiscale && a.partita_iva && a.codice_fiscale !== a.partita_iva ? "Codici fiscali" : "C.F. / P.IVA", piva(a))}
+          ${row("REA", esc(a.rea))}${row("Legale rappresentante", esc(a.legale_rappresentante))}
+          ${row("PEC", mail(a.pec))}${row("Email", mail(a.email_generale))}${row("Telefono", tel(a.telefono))}
+          ${row("Codice RNA", esc(p.rna))}${row("Note", esc(a.altro))}
+        </dl>
+        ${refs.length ? `<div class="pt-h">Referenti</div><ul class="pt-refs">${refs.map((r) => `<li><b>${esc(r.nome)}</b><span>${esc(r.ruolo || "")}</span>${r.email || r.telefono ? `<span class="pt-c">${mail(r.email)}${r.email && r.telefono ? " · " : ""}${tel(r.telefono)}</span>` : ""}</li>`).join("")}</ul>` : ""}
+      </div>`;
+    }).join("") : `<div class="empty">Anagrafica in caricamento.</div>`;
+    const L = D.lazio_innova;
+    if (L) $("#lazio-innova").innerHTML = `<div class="role-head"><b>${esc(L.ente)}</b><span class="b prog">Soggetto gestore</span></div>
+      <dl class="pt-dl">${row("Tutor di progetto", esc(L.tutor) + (L.email_tutor ? " · " + mail(L.email_tutor) : ""))}${row("PEC", mail(L.pec))}</dl>
+      ${L.nota ? `<div class="x">${esc(L.nota)}</div>` : ""}`;
+    else $("#lazio-innova").remove();
+    const allMails = [...new Set(parts.flatMap((p) => (p.referenti || []).map((r) => r.email).filter(Boolean)))];
+    if (!allMails.length) $(".pt-tools").remove();
+    else $("#pt-copy").addEventListener("click", async () => {
+      try { await navigator.clipboard.writeText(allMails.join("; ")); $("#pt-copied").hidden = false; setTimeout(() => ($("#pt-copied").hidden = true), 1800); } catch (e) {}
+    });
+
     $("#fonte").textContent = D.fonte || "";
 
     // Navigazione a schede: una sezione alla volta
