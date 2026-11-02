@@ -43,12 +43,21 @@ jobs:
             HUMAN_SEAL/data.json
             **/.htaccess
             **/.htpasswd*
-      - name: Rimuovi dal sito i dati completi dei progetti (contengono note interne NOREMA)
+      - name: Intestazioni anti-cache e rimozione dei dati completi dal sito
         env:
           FTP_SERVER: ${{ secrets.FTP_SERVER }}
           FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
           FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
         run: |
+          # -k: il certificato FTPS di SiteGround è condiviso e non riporta ftp.norema.eu
+          C="curl -sS -k --ssl-reqd --user $FTP_USERNAME:$FTP_PASSWORD"
+          B="ftp://$FTP_SERVER"
+          # .htaccess principale: si conserva quello esistente e si aggiunge il blocco NOREMA una sola volta
+          set +e; $C "$B/.htaccess" -o remote.htaccess; rc=$?; set -e
+          if [ $rc -eq 78 ]; then : > remote.htaccess; echo "nessun .htaccess principale"; fi
+          if [ $rc -ne 0 ] && [ $rc -ne 78 ]; then echo "lettura .htaccess non riuscita ($rc): non lo modifico"
+          elif grep -q "NOREMA-STEP-CACHE" remote.htaccess; then echo "blocco già presente"
+          else cat deploy/cache.htaccess >> remote.htaccess && $C -T remote.htaccess "$B/.htaccess" && echo ".htaccess aggiornato"; fi
           for f in SPACE_AI/data.json PRONTI_VIA/data.json HUMAN_SEAL/data.json; do
-            curl -sS --ssl-reqd --user "$FTP_USERNAME:$FTP_PASSWORD" "ftp://$FTP_SERVER/" -Q "DELE $f" -o /dev/null && echo "rimosso $f" || echo "$f già assente"
+            $C "$B/" -Q "DELE $f" -o /dev/null && echo "rimosso $f" || echo "non rimosso $f"
           done

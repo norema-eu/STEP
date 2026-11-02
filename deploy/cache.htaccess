@@ -1,0 +1,19 @@
+
+# NOREMA-STEP-CACHE (blocco gestito dalla pubblicazione automatica: non modificare)
+# Pagine e dati sempre ricontrollati dal browser: niente copie vecchie in cache
+<IfModule mod_headers.c>
+  <FilesMatch "\.(html?|json)$">
+    Header set Cache-Control "no-cache, must-revalidate"
+  </FilesMatch>
+</IfModule>
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType text/html "access plus 0 seconds"
+  ExpiresByType application/json "access plus 0 seconds"
+</IfModule>
+# I dati completi dei progetti (con note interne NOREMA) non sono mai leggibili dal web
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteRule ^(SPACE_AI|PRONTI_VIA|HUMAN_SEAL)/data\.json$ - [F,NC]
+</IfModule>
+# /NOREMA-STEP-CACHE
