@@ -61,6 +61,7 @@ jobs:
           if [ $rc -ne 0 ] && [ $rc -ne 78 ]; then echo "lettura .htaccess non riuscita ($rc): non lo modifico"
           elif grep -q "NOREMA-STEP-CACHE" remote.htaccess; then echo "blocco già presente"
           else cat deploy/cache.htaccess >> remote.htaccess && $C -T remote.htaccess "$B/.htaccess" && echo ".htaccess aggiornato"; fi
+          echo "Regole di protezione nel .htaccess principale:"; grep -niE "auth|require|<(files|directory|if|location)" remote.htaccess | sed -E 's/(AuthUserFile ).*/\1[percorso]/' || echo "(nessuna)"
           # Protezione con password: SiteGround l'ha applicata alle cartelle in minuscolo (alias);
           # si copia la stessa regola (stesso file utenti) nelle cartelle vere in maiuscolo, se manca.
           for D in SPACE_AI PRONTI_VIA HUMAN_SEAL DASHBOARD NOREMA; do d=$(echo $D | tr 'A-Z' 'a-z')
