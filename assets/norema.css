@@ -60,3 +60,8 @@
 .ncrit dl{display:grid;grid-template-columns:70px 1fr;gap:4px 12px;margin:0;font-size:13.5px}
 .ncrit dt{color:var(--muted);font-weight:500}.ncrit dd{margin:0}.ncrit dd.src{color:var(--muted);font-size:12.5px}
 @media (max-width:860px){.ntsgrid{grid-template-columns:1fr}.ncrit dl{grid-template-columns:1fr}.ncrit dt{margin-top:4px}}
+
+#n-seg td.num,#n-seg th.num{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
+#n-seg tr.sub td{background:var(--row);font-size:13px}
+#n-seg tfoot td{font-weight:600;border-top:2px solid var(--line);background:var(--row)}
+#n-seg .b{background:var(--g1);color:#4B5A6B;margin-left:4px}

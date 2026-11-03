@@ -1,0 +1,16 @@
+{
+ "titolo": "Servizio di segreteria tecnica ai partner",
+ "percentuale": 0.015,
+ "rate": [
+  {"nome": "Avvio", "quota": 0.005, "mese": 0, "nota": "da definire (proposta: all'incasso dell'anticipo)"},
+  {"nome": "Metà progetto", "quota": 0.005, "mese": 12},
+  {"nome": "Fine progetto", "quota": 0.005, "mese": 24}
+ ],
+ "stato": "proposta da inviare",
+ "note": [
+  "Supporto organizzativo al partenariato: non è la fee che NOREMA applica di norma, perché NOREMA partecipa come partner.",
+  "Servizio fuori dalle attività di progetto: non è rendicontato su STEP né dai partner né da NOREMA. Le ore NOREMA dedicate alla segreteria non vanno nei timesheet STEP.",
+  "Base di calcolo: costo ammesso di ciascun partner nel piano dei costi approvato GeCoWEB Plus; importi IVA esclusa.",
+  "Per Sapienza va concordata la procedura con il Dipartimento SBAI."
+ ]
+}

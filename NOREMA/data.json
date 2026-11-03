@@ -98,6 +98,38 @@
  "progetti": [
   {
    "slug": "HUMAN_SEAL",
+   "partner": [
+    {
+     "nome": "DEV4U S.r.l.s.",
+     "capofila": true,
+     "costo": 103680.0
+    },
+    {
+     "nome": "Università di Roma \"La Sapienza\" – SBAI",
+     "capofila": false,
+     "costo": 87876.0
+    },
+    {
+     "nome": "NOREMA S.r.l.",
+     "capofila": false,
+     "costo": 90360.0
+    },
+    {
+     "nome": "Microsis S.r.l.",
+     "capofila": false,
+     "costo": 84960.0
+    },
+    {
+     "nome": "Main Project S.r.l.",
+     "capofila": false,
+     "costo": 77760.0
+    },
+    {
+     "nome": "Olympos Hub S.r.l.",
+     "capofila": false,
+     "costo": 83520.0
+    }
+   ],
    "acronimo": "HS – HumanSeal",
    "tema": "arancione",
    "cup": "F89J26001110007",
@@ -292,6 +324,23 @@
   },
   {
    "slug": "PRONTI_VIA",
+   "partner": [
+    {
+     "nome": "RO Technology S.r.l.",
+     "capofila": true,
+     "costo": 291744.0
+    },
+    {
+     "nome": "NOREMA S.r.l.",
+     "capofila": false,
+     "costo": 215424.0
+    },
+    {
+     "nome": "Università di Roma \"La Sapienza\" – SBAI",
+     "capofila": false,
+     "costo": 160006.8
+    }
+   ],
    "acronimo": "PRONTI VIA",
    "tema": "verde",
    "cup": "F89J26001200004",
@@ -528,6 +577,28 @@
   },
   {
    "slug": "SPACE_AI",
+   "partner": [
+    {
+     "nome": "IPTSAT S.r.l.",
+     "capofila": true,
+     "costo": 347400.0
+    },
+    {
+     "nome": "Università di Roma \"La Sapienza\" – SBAI",
+     "capofila": false,
+     "costo": 200030.4
+    },
+    {
+     "nome": "ReadyLab S.r.l.s.",
+     "capofila": false,
+     "costo": 147600.0
+    },
+    {
+     "nome": "NOREMA S.r.l.",
+     "capofila": false,
+     "costo": 75960.0
+    }
+   ],
    "acronimo": "SPACE.AI",
    "tema": "blu",
    "cup": "F89J26001240004",
@@ -962,5 +1033,34 @@
    "chi": "NOREMA",
    "fonte": "Cartelle HS-Polizze, SAI-Polizze e VIA-Polizza, sottocartella NOREMA"
   }
- ]
+ ],
+ "segreteria": {
+  "titolo": "Servizio di segreteria tecnica ai partner",
+  "percentuale": 0.015,
+  "rate": [
+   {
+    "nome": "Avvio",
+    "quota": 0.005,
+    "mese": 0,
+    "nota": "da definire (proposta: all'incasso dell'anticipo)"
+   },
+   {
+    "nome": "Metà progetto",
+    "quota": 0.005,
+    "mese": 12
+   },
+   {
+    "nome": "Fine progetto",
+    "quota": 0.005,
+    "mese": 24
+   }
+  ],
+  "stato": "proposta da inviare",
+  "note": [
+   "Supporto organizzativo al partenariato: non è la fee che NOREMA applica di norma, perché NOREMA partecipa come partner.",
+   "Servizio fuori dalle attività di progetto: non è rendicontato su STEP né dai partner né da NOREMA. Le ore NOREMA dedicate alla segreteria non vanno nei timesheet STEP.",
+   "Base di calcolo: costo ammesso di ciascun partner nel piano dei costi approvato GeCoWEB Plus; importi IVA esclusa.",
+   "Per Sapienza va concordata la procedura con il Dipartimento SBAI."
+  ]
+ }
 }

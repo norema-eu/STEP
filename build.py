@@ -124,7 +124,8 @@ def build_norema(ver: str) -> None:
         nor = next(x for x in d["partner"] if "norema" in x["nome"].lower())
         p = d["progetto"]
         progetti.append({
-            "slug": folder.name, "acronimo": p["acronimo"], "tema": p.get("tema"), "cup": p.get("cup"),
+            "slug": folder.name, "partner": [{"nome": x["nome"], "capofila": "capofila" in str(x.get("tipo", "")).lower() or "mandatari" in str(x.get("tipo", "")).lower(), "costo": x.get("costo_ammesso")} for x in d["partner"]],
+            "acronimo": p["acronimo"], "tema": p.get("tema"), "cup": p.get("cup"),
             "capofila": p.get("capofila"), "data_inizio": ip.get("date_concessione", {}).get(folder.name) or p.get("data_inizio"),
             "durata_mesi": p.get("durata_mesi") or 24, "costo_progetto": d["budget"]["costo_ammesso"], "wp": d.get("wp", []),
             "norema": {"costo": nor["costo_ammesso"], "contributo": nor["contributo_concesso"], "voci": e.get("voci"),
@@ -135,8 +136,9 @@ def build_norema(ver: str) -> None:
     out = ROOT / "NOREMA"
     out.mkdir(exist_ok=True)
     pers = json.loads((src / "personale.json").read_text(encoding="utf-8")) if (src / "personale.json").exists() else None
+    seg = json.loads((src / "segreteria.json").read_text(encoding="utf-8")) if (src / "segreteria.json").exists() else None
     crit = json.loads((src / "criticita.json").read_text(encoding="utf-8")) if (src / "criticita.json").exists() else {"voci": []}
-    (out / "data.json").write_text(json.dumps({"aggiornato": agg, "ipotesi": ip, "personale": pers, "progetti": progetti, "criticita": crit.get("voci", [])}, ensure_ascii=False, indent=1), encoding="utf-8")
+    (out / "data.json").write_text(json.dumps({"aggiornato": agg, "ipotesi": ip, "personale": pers, "progetti": progetti, "criticita": crit.get("voci", []), "segreteria": seg}, ensure_ascii=False, indent=1), encoding="utf-8")
     html = (ROOT / "_norema_page" / "index.html").read_text(encoding="utf-8")
     for a in ("style.css", "dash.css", "norema.css", "norema.js"):
         html = html.replace(f'../assets/{a}"', f'../assets/{a}?v={ver}"')
