@@ -63,7 +63,7 @@ jobs:
           else cat deploy/cache.htaccess >> remote.htaccess && $C -T remote.htaccess "$B/.htaccess" && echo ".htaccess aggiornato"; fi
           # Protezione con password: SiteGround l'ha applicata alle cartelle in minuscolo (alias);
           # si copia la stessa regola (stesso file utenti) nelle cartelle vere in maiuscolo, se manca.
-          for D in SPACE_AI PRONTI_VIA HUMAN_SEAL DASHBOARD NOREMA; d=$(echo $D | tr 'A-Z' 'a-z'); do
+          for D in SPACE_AI PRONTI_VIA HUMAN_SEAL DASHBOARD NOREMA; do d=$(echo $D | tr 'A-Z' 'a-z')
             rm -f low.ht up.ht
             set +e; $C "$B/$d/.htaccess" -o low.ht; r1=$?; $C "$B/$D/.htaccess" -o up.ht; r2=$?; set -e
             if [ $r1 -ne 0 ] || ! grep -qi "AuthType" low.ht; then echo "$D: nessuna protezione impostata su /$d"; continue; fi
