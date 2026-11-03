@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-02T19:55:00+01:00",
+  "aggiornato": "2026-11-03T07:45:00+01:00",
   "fonte": "Fonti: comunicazione di concessione Lazio Innova (prot. LISPA 0033570 del 24/09/2026), Det. G12471 del 15/09/2026 (BURL n. 75 del 17/09/2026, Allegati A e B), formulario/proposta progettuale definitiva (18/07/2025), piano costi approvato da GeCoWEB Plus (estrazione 22/10/2026), corrispondenza di partenariato e PEC (luglio 2025 – ottobre 2026).",
   "progetto": {
     "acronimo": "HS – HumanSeal",
@@ -432,6 +432,11 @@
       "titolo": "Sollecito kick-off e fideiussione",
       "sintesi": "Il capofila chiede a NOREMA la data del kick-off e indicazioni sulla polizza fideiussoria.",
       "interna": true
+    },
+    {
+      "data": "2026-11-02",
+      "titolo": "Documentazione di progetto inviata a Sapienza",
+      "sintesi": "NOREMA trasmette al Dipartimento SBAI di Sapienza l'appunto riepilogativo (cronoprogramma, importi, WP, ore per persona), la bozza di ATS allineata all'Appendice 5 e il formulario presentato. Al Dipartimento si chiedono il CUP Sapienza e i tempi di firma dell'ATS da parte del Rettore, da chiudere possibilmente entro metà dicembre (l'ATS va allegata all'Atto di Impegno; richiesta dell'anticipo entro il 16/12)."
     }
   ],
   "riunioni": [
