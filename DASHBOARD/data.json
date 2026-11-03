@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-11-03T07:45:00+01:00",
+ "aggiornato": "2026-11-03T12:45:00+01:00",
  "progetti": [
   {
    "acronimo": "HS – HumanSeal",
@@ -268,6 +268,13 @@
      "stato": "completato"
     },
     {
+     "titolo": "Richiesta dell'anticipo",
+     "descrizione": "Termine per la richiesta dell'anticipo: richiede ATS sottoscritta (da allegare all'Atto di Impegno) e polizza fideiussoria. Obiettivo: firma dell'ATS entro metà dicembre, possibilmente entro novembre.",
+     "chi": "DEV4U (capofila)",
+     "stato": "da_avviare",
+     "data": "2026-12-16"
+    },
+    {
      "data": null,
      "titolo": "Kick-off meeting di partenariato",
      "descrizione": "Data da fissare. Nel formulario la milestone \"Avvio operativo formalizzato\" è prevista al mese 3.",
@@ -344,7 +351,7 @@
      "stato": "risolta"
     }
    ],
-   "aggiornato": "2026-11-03T07:45:00+01:00"
+   "aggiornato": "2026-11-03T12:45:00+01:00"
   },
   {
    "acronimo": "PRONTI VIA",
@@ -517,6 +524,13 @@
      "stato": "completato"
     },
     {
+     "titolo": "Richiesta dell'anticipo",
+     "descrizione": "Termine per la richiesta dell'anticipo: richiede ATS sottoscritta (da allegare all'Atto di Impegno) e polizza fideiussoria. Obiettivo: firma dell'ATS entro metà dicembre, possibilmente entro novembre.",
+     "chi": "RO Technology (capofila)",
+     "stato": "da_avviare",
+     "data": "2027-01-06"
+    },
+    {
      "data": null,
      "titolo": "Comunicazione a Lazio Innova della variazione del gruppo di lavoro",
      "descrizione": "Variazione del team di RO Technology (sostituzioni e nuova distribuzione delle ore-uomo) condivisa con i partner il 20/10, da trasmettere a Lazio Innova.",
@@ -615,7 +629,7 @@
      "stato": "risolta"
     }
    ],
-   "aggiornato": "2026-11-03T07:45:00+01:00"
+   "aggiornato": "2026-11-03T12:45:00+01:00"
   },
   {
    "acronimo": "SPACE.AI",
@@ -808,9 +822,16 @@
      "stato": "completato"
     },
     {
+     "titolo": "Richiesta dell'anticipo",
+     "descrizione": "Termine per la richiesta dell'anticipo: richiede ATS sottoscritta (da allegare all'Atto di Impegno) e polizza fideiussoria. Obiettivo: firma dell'ATS entro metà dicembre, possibilmente entro novembre.",
+     "chi": "IPTSAT (capofila)",
+     "stato": "da_avviare",
+     "data": "2027-01-06"
+    },
+    {
      "data": null,
      "titolo": "Polizza fideiussoria per l'anticipo",
-     "descrizione": "Schema precompilato inviato al capofila il 20/10 e trasmesso all'assicuratore; da completare con la data dell'ATS.",
+     "descrizione": "Schema precompilato inviato al capofila il 20/10. Il 03/11 il capofila ha condiviso la bozza di polizza redatta dall'assicuratore sullo schema di Lazio Innova: premio complessivo di € 4.832 per i 2 anni di validità, ripartito tra i partner come previsto dalla bozza di ATS (art. 5-bis). Da finalizzare dopo l'ATS e l'Atto di Impegno.",
      "chi": "IPTSAT",
      "stato": "in_corso"
     },
@@ -878,9 +899,18 @@
      "descrizione": "Polizze catastrofali di IPTSAT, NOREMA e ReadyLab sottoscritte e trasmesse via PEC il 27/07/2026.",
      "livello": "media",
      "stato": "risolta"
+    },
+    {
+     "data": "2026-11-03",
+     "titolo": "Inquadramento del personale da verificare",
+     "descrizione": "Dal confronto tra piano approvato, Avviso e manuale di rendicontazione emergono punti da chiarire prima dell'Atto di Impegno: amministratori inseriti come personale (requisito di Titolare Qualificato di PMI), figure di ReadyLab descritte come consulenti ma inserite come dipendenti, unità locale ReadyLab nel Lazio, contratto di ricerca Sapienza a 30 €/h (tariffa imprese), qualifica commerciale di una figura IPTSAT. Previsto un quesito unico alla tutor.",
+     "livello": "alta",
+     "stato": "aperta",
+     "interna": true,
+     "nota_interna": "Bozze di email di C. Mirabella del 03/11 per IPTSAT, ReadyLab e Dipartimento SBAI (inviate a Claudia per revisione). Rischio economico: ~52.200 € IPTSAT e ~82.800 € ReadyLab se non risolto."
     }
    ],
-   "aggiornato": "2026-11-03T07:45:00+01:00"
+   "aggiornato": "2026-11-03T12:45:00+01:00"
   }
  ],
  "tutor": {

@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-03T07:45:00+01:00",
+  "aggiornato": "2026-11-03T12:45:00+01:00",
   "fonte": "Fonti: Det. G13392 del 02/10/2026 (BURL n. 81 suppl. 1 del 08/10/2026, Allegati A e B); comunicazione di concessione Lazio Innova (prot. LISPA 0036564 del 14/10/2026); piano costi approvato GeCoWEB Plus (dettaglio del 22/10/2026); formulario presentato (proposta progettuale) e bozza del contratto di aggregazione allegata alla domanda; corrispondenza di partenariato (email Outlook dal 15/07/2025 al 26/10/2026).",
   "progetto": {
     "acronimo": "PRONTI VIA",
@@ -226,6 +226,13 @@
       "descrizione": "Trasmessa via PEC dal capofila il 22/10/2026 alle 16:16 a incentivi@pec.lazioinnova.it, per RO Technology e NOREMA, con conferma dei soggetti B.D.N.A.",
       "chi": "RO Technology (capofila)",
       "stato": "completato"
+    },
+    {
+      "titolo": "Richiesta dell'anticipo",
+      "descrizione": "Termine per la richiesta dell'anticipo: richiede ATS sottoscritta (da allegare all'Atto di Impegno) e polizza fideiussoria. Obiettivo: firma dell'ATS entro metà dicembre, possibilmente entro novembre.",
+      "chi": "RO Technology (capofila)",
+      "stato": "da_avviare",
+      "data": "2027-01-06"
     },
     {
       "data": null,

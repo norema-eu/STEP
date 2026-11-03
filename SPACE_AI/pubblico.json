@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-11-03T07:45:00+01:00",
+ "aggiornato": "2026-11-03T12:45:00+01:00",
  "fonte": "Fonti: comunicazione di concessione Lazio Innova (Det. G13392, BURL n. 81 suppl. 1 del 08/10/2026), proposta progettuale, corrispondenza di partenariato.",
  "progetto": {
   "acronimo": "SPACE.AI",
@@ -257,9 +257,16 @@
    "stato": "completato"
   },
   {
+   "titolo": "Richiesta dell'anticipo",
+   "descrizione": "Termine per la richiesta dell'anticipo: richiede ATS sottoscritta (da allegare all'Atto di Impegno) e polizza fideiussoria. Obiettivo: firma dell'ATS entro metà dicembre, possibilmente entro novembre.",
+   "chi": "IPTSAT (capofila)",
+   "stato": "da_avviare",
+   "data": "2027-01-06"
+  },
+  {
    "data": null,
    "titolo": "Polizza fideiussoria per l'anticipo",
-   "descrizione": "Schema precompilato inviato al capofila il 20/10 e trasmesso all'assicuratore; da completare con la data dell'ATS.",
+   "descrizione": "Schema precompilato inviato al capofila il 20/10. Il 03/11 il capofila ha condiviso la bozza di polizza redatta dall'assicuratore sullo schema di Lazio Innova: premio complessivo di € 4.832 per i 2 anni di validità, ripartito tra i partner come previsto dalla bozza di ATS (art. 5-bis). Da finalizzare dopo l'ATS e l'Atto di Impegno.",
    "chi": "IPTSAT",
    "stato": "in_corso"
   },
@@ -374,6 +381,11 @@
    "data": "2026-11-02",
    "titolo": "Documentazione di progetto inviata a Sapienza",
    "sintesi": "NOREMA trasmette al Dipartimento SBAI di Sapienza l'appunto riepilogativo (cronoprogramma, importi, WP, ore per persona), la bozza di ATS allineata all'Appendice 5 e il formulario presentato. Al Dipartimento si chiedono il CUP Sapienza e i tempi di firma dell'ATS da parte del Rettore, da chiudere possibilmente entro metà dicembre (l'ATS va allegata all'Atto di Impegno; richiesta dell'anticipo entro il 06/01), oltre all'avvio della selezione per il contratto di ricerca previsto da dicembre."
+  },
+  {
+   "data": "2026-11-03",
+   "titolo": "Bozza di polizza fideiussoria",
+   "sintesi": "Il capofila condivide la bozza di polizza predisposta dall'assicuratore sullo schema di Lazio Innova (premio complessivo € 4.832 per 2 anni), da verificare; restano da correggere alcuni refusi."
   }
  ],
  "riunioni": [

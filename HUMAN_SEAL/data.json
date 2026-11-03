@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-03T07:45:00+01:00",
+  "aggiornato": "2026-11-03T12:45:00+01:00",
   "fonte": "Fonti: comunicazione di concessione Lazio Innova (prot. LISPA 0033570 del 24/09/2026), Det. G12471 del 15/09/2026 (BURL n. 75 del 17/09/2026, Allegati A e B), formulario/proposta progettuale definitiva (18/07/2025), piano costi approvato da GeCoWEB Plus (estrazione 22/10/2026), corrispondenza di partenariato e PEC (luglio 2025 – ottobre 2026).",
   "progetto": {
     "acronimo": "HS – HumanSeal",
@@ -313,6 +313,13 @@
       "descrizione": "Webinar su anticipo, SAL e saldo e caricamento su GeCoWEB Plus; slide inoltrate dal capofila il 21/10.",
       "chi": "Lazio Innova",
       "stato": "completato"
+    },
+    {
+      "titolo": "Richiesta dell'anticipo",
+      "descrizione": "Termine per la richiesta dell'anticipo: richiede ATS sottoscritta (da allegare all'Atto di Impegno) e polizza fideiussoria. Obiettivo: firma dell'ATS entro metà dicembre, possibilmente entro novembre.",
+      "chi": "DEV4U (capofila)",
+      "stato": "da_avviare",
+      "data": "2026-12-16"
     },
     {
       "data": null,
