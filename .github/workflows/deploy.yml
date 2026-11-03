@@ -35,6 +35,7 @@ jobs:
             _interlocuzioni/**
             _norema/**
             _norema_page/**
+            _personale/**
             preview/**
             deploy/**
             build.py

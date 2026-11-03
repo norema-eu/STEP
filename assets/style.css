@@ -205,3 +205,28 @@ footer .credit .wrap{display:flex;align-items:center;justify-content:center;gap:
 .credit-c a{color:inherit;text-decoration:none}
 .credit-c a:hover{color:var(--teal-2);text-decoration:underline}
 @media print{footer .credit{border-top:0}}
+
+/* Personale: mappa di calore ore/mese */
+.pers-sum{width:100%;border-collapse:collapse;font-size:13.5px}
+.pers-sum th{text-align:left;color:var(--muted);font-weight:500;border-bottom:1px solid var(--line);padding:6px 8px}
+.pers-sum td{padding:7px 8px;border-bottom:1px solid var(--g1)}
+.pers-sum .num{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
+.pers-sum tfoot td{font-weight:600;border-top:2px solid var(--line);background:var(--row)}
+.pers-f{margin-top:4px}
+.pers-f .seg-ctl{display:inline-flex;flex-wrap:wrap;border:1px solid var(--line);border-radius:18px;overflow:hidden;background:#fff}
+.pers-f .seg-ctl button{font:inherit;font-size:12.5px;border:0;background:transparent;padding:7px 14px;cursor:pointer;color:var(--muted)}
+.pers-f .seg-ctl button.on{background:var(--navy);color:#fff}
+.heat-wrap{overflow-x:auto}
+.heat{border-collapse:separate;border-spacing:2px;font-size:11.5px;font-variant-numeric:tabular-nums;min-width:100%}
+.heat thead th{font-weight:600;color:var(--navy);font-size:10.5px;text-align:center;padding:2px 0;min-width:34px}
+.heat thead th small{display:block;font-weight:400;color:var(--muted);font-size:9.5px;white-space:nowrap}
+.heat th.who{position:sticky;left:0;z-index:1;background:#fff;text-align:left;font-weight:500;color:var(--text);font-size:12.5px;padding:4px 10px 4px 0;min-width:190px;max-width:240px}
+.heat th.who small{display:block;color:var(--muted);font-size:11px;font-weight:400;line-height:1.3}
+.heat td{text-align:center;border-radius:4px;height:30px;min-width:34px}
+.heat td.z{background:var(--g1);opacity:.45}
+.heat td.tot,.heat th.tot{font-weight:600;color:var(--navy);padding:0 6px;text-align:right;background:transparent}
+.heat tr.ph th.who{font-weight:600;color:var(--navy);padding-top:12px}
+.heat tr.ph td.ptot{color:var(--navy);font-weight:600;border-bottom:2px solid var(--teal-2);border-radius:0;font-size:11px}
+.heat-leg{display:flex;flex-wrap:wrap;align-items:center;gap:6px;font-size:12px;color:var(--muted);margin-top:10px}
+.heat-leg i{display:inline-block;width:18px;height:12px;border-radius:3px}
+@media (max-width:600px){.heat th.who{min-width:130px;max-width:150px}}

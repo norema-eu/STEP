@@ -111,6 +111,54 @@
         : "Mesi conteggiati dalla data di avvio, non ancora fissata (decorre dalla firma dell'Atto di Impegno).";
     } else { $("#gantt").outerHTML = `<div class="empty">Piano di lavoro in caricamento.</div>`; }
 
+    // Personale per partner: ore per WP del formulario distribuite in modo uniforme sui mesi del WP
+    const PE = D.personale;
+    if (PE && (PE.partner || []).length && $("#personale-s")) {
+      const m = P.durata_mesi || Math.max(...(D.wp || []).map((w) => w.mese_fine), 24);
+      const wpM = Object.fromEntries((D.wp || []).map((w) => [w.codice, [w.mese_inizio, w.mese_fine]]));
+      const startIso = P.data_avvio || P.data_inizio, st = startIso ? new Date(startIso + "T00:00:00") : null;
+      const mLab = (n) => st ? (() => { const x = new Date(st.getFullYear(), st.getMonth() + n - 1, 1); return `${MESI[x.getMonth()]} ${String(x.getFullYear()).slice(2)}`; })() : "";
+      let senzaWp = false;
+      const profilo = (x) => {
+        const v = new Array(m).fill(0), opw = Object.entries(x.ore_per_wp || {}).filter(([k, h]) => h && wpM[k]);
+        if (opw.length) opw.forEach(([k, h]) => { const [a, b] = wpM[k]; for (let i = a; i <= b; i++) v[i - 1] += h / (b - a + 1); });
+        else if (x.ore_totali) { senzaWp = true; for (let i = 0; i < m; i++) v[i] += x.ore_totali / m; }
+        return v;
+      };
+      const parts = PE.partner.map((pa) => {
+        const pp = (pa.persone || []).map((x) => ({ ...x, v: profilo(x) }));
+        const v = Array.from({ length: m }, (_, i) => pp.reduce((s, x) => s + x.v[i], 0));
+        return { ...pa, pp, v, tot: v.reduce((s, y) => s + y, 0) };
+      });
+      const n0 = (x) => Math.round(x).toLocaleString("it-IT");
+      const short = (nm) => String(nm).replace(/Università di Roma "La Sapienza" – /, "Sapienza – ").replace(/ S\.r\.l\.s?\.?/i, "");
+      const grand = parts.reduce((s, p) => s + p.tot, 0);
+      $("#pers-sum").innerHTML = `<thead><tr><th>Partner</th><th class="num">Persone</th><th class="num">Ore totali</th><th class="num">Media ore/mese</th><th class="num">Mese di picco</th><th class="num">Quota ore</th></tr></thead><tbody>` +
+        parts.map((p) => { const pk = p.v.indexOf(Math.max(...p.v)); return `<tr><td>${esc(short(p.nome))}</td><td class="num">${p.pp.length}</td><td class="num">${n0(p.tot)}</td><td class="num">${n0(p.tot / m)}</td><td class="num">M${pk + 1}${st ? " · " + mLab(pk + 1) : ""} (${n0(p.v[pk])} h)</td><td class="num">${grand ? Math.round(p.tot / grand * 100) : 0}%</td></tr>`; }).join("") +
+        `</tbody><tfoot><tr><td>Totale progetto</td><td class="num">${parts.reduce((s, p) => s + p.pp.length, 0)}</td><td class="num">${n0(grand)}</td><td class="num">${n0(grand / m)}</td><td></td><td></td></tr></tfoot>`;
+      let fsel = "tutti";
+      $("#pers-f").innerHTML = `<button data-v="tutti">Tutti i partner</button>` + parts.map((p, i) => `<button data-v="${i}">${esc(short(p.nome))}</button>`).join("");
+      const drawHeat = () => {
+        document.querySelectorAll("#pers-f button").forEach((b) => b.classList.toggle("on", b.dataset.v === String(fsel)));
+        const shown = fsel === "tutti" ? parts : [parts[+fsel]];
+        const max = Math.max(1, ...shown.flatMap((p) => p.pp.flatMap((x) => x.v)));
+        const cell = (h, tip, strong) => { if (h < 0.5) return `<td class="z" title="${esc(tip)}: 0 h"></td>`; const t = Math.min(1, h / max), pct = Math.round(12 + t * 78);
+          return `<td title="${esc(tip)}: ${n0(h)} h" style="background:color-mix(in srgb, var(--teal-2) ${pct}%, #fff);color:${pct > 55 ? "#fff" : "var(--text)"}${strong ? ";font-weight:600" : ""}">${n0(h)}</td>`; };
+        const head = `<thead><tr><th class="who">Persona</th>${Array.from({ length: m }, (_, i) => `<th title="${mLab(i + 1)}">M${i + 1}${st ? `<small>${mLab(i + 1)}</small>` : ""}</th>`).join("")}<th class="tot">Totale</th></tr></thead>`;
+        $("#pers-heat").innerHTML = head + `<tbody>` + shown.map((p) =>
+          `<tr class="ph"><th class="who">${esc(short(p.nome))}<small>carico mensile del partner</small></th>${p.v.map((h, i) => `<td class="ptot" title="${esc(short(p.nome))} · M${i + 1}: ${n0(h)} h">${h >= 0.5 ? n0(h) : ""}</td>`).join("")}<td class="tot">${n0(p.tot)}</td></tr>` +
+          p.pp.map((x) => `<tr><th class="who">${esc(x.nome)}<small>${esc([x.ruolo, x.inquadramento].filter(Boolean).join(" · "))}</small></th>${x.v.map((h, i) => cell(h, `${x.nome} · M${i + 1}${st ? " " + mLab(i + 1) : ""}`)).join("")}<td class="tot">${n0(x.v.reduce((s, y) => s + y, 0))}</td></tr>`).join("")).join("") + `</tbody>`;
+        $("#pers-leg").innerHTML = `<span>Ore al mese:</span><i style="background:color-mix(in srgb, var(--teal-2) 12%, #fff)"></i>poche<i style="background:color-mix(in srgb, var(--teal-2) 50%, #fff)"></i><i style="background:color-mix(in srgb, var(--teal-2) 90%, #fff)"></i>${n0(max)} h<span style="margin-left:12px">La riga del partner somma le ore del suo personale.</span>`;
+      };
+      document.querySelectorAll("#pers-f button").forEach((b) => b.addEventListener("click", () => { fsel = b.dataset.v === "tutti" ? "tutti" : +b.dataset.v; drawHeat(); }));
+      drawHeat();
+      $("#pers-note").textContent = `Personale indicato nel formulario per ciascun partner e carico mensile stimato: le ore previste per ogni work package sono distribuite in modo uniforme sui mesi del WP${senzaWp ? " (dove il formulario non ripartisce le ore per WP, sull'intera durata)" : ""}. È una pianificazione indicativa: le ore effettive risultano dai timesheet.`;
+      $("#pers-src").textContent = "Fonte: " + (PE.fonte || "formulario presentato");
+    } else if ($("#personale-s")) {
+      $("#pers-sum").closest(".card").outerHTML = `<div class="empty">Dati del personale in caricamento.</div>`;
+      document.querySelectorAll("#personale-s .card, #personale-s .filters").forEach((e) => e.remove());
+    }
+
     // Scadenze
     // dalla più recente alla più vecchia; le scadenze ancora senza data (da definire) in cima
     const sc = (D.scadenze || []).slice().sort((a, b) => (b.data || "9999").localeCompare(a.data || "9999"));
