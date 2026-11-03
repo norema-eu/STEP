@@ -486,5 +486,346 @@
   "email_tutor": "i.spinuso@lazioinnova.it",
   "pec": "incentivi@pec.lazioinnova.it",
   "nota": "Le comunicazioni ufficiali con Lazio Innova passano dalla PEC della capofila."
+ },
+ "personale": {
+  "progetto": "HUMAN_SEAL",
+  "fonte": "Formulario presentato, Tab. 3 «Impegno delle risorse umane valorizzate a tempo uomo» dei WP1, WP4 e WP5, verificata con i costi ammessi per partner. Le ore dei WP2 e WP3 non ripartite per persona sono indicate come «Ore da attribuire»; il dettaglio sarà completato.",
+  "partner": [
+   {
+    "nome": "DEV4U S.r.l.s.",
+    "persone": [
+     {
+      "nome": "Dario Berardi",
+      "ruolo": "Project manager (coordinatore); nel WP1 scritto 'Dario Bernardi'",
+      "inquadramento": "fascia bassa",
+      "ore_per_wp": {
+       "WP1": 80,
+       "WP4": 300
+      },
+      "ore_totali": 380
+     },
+     {
+      "nome": "Maurizio Patitucci",
+      "ruolo": "UI/UX Designer",
+      "inquadramento": "fascia bassa",
+      "ore_per_wp": {
+       "WP4": 300,
+       "WP5": 100
+      },
+      "ore_totali": 400
+     },
+     {
+      "nome": "Roberto Paris",
+      "ruolo": "Developer full-stack",
+      "inquadramento": "fascia bassa",
+      "ore_per_wp": {
+       "WP1": 40,
+       "WP4": 250
+      },
+      "ore_totali": 290
+     },
+     {
+      "nome": "Sara Tomasso",
+      "ruolo": "Esperta in comunicazione",
+      "inquadramento": "fascia bassa",
+      "ore_per_wp": {
+       "WP5": 300
+      },
+      "ore_totali": 300
+     },
+     {
+      "nome": "Álvarez González",
+      "ruolo": "Project Manager e Business Analyst (nel WP1 la stessa riga è intestata 'Berardi Daniele')",
+      "inquadramento": "fascia bassa",
+      "ore_per_wp": {
+       "WP4": 300
+      },
+      "ore_totali": 300
+     },
+     {
+      "nome": "Álvaro Juan Travieso García",
+      "ruolo": "Project Manager con focus innovazione tecnologica / ML (ruolo incerto)",
+      "inquadramento": "fascia bassa",
+      "ore_per_wp": {
+       "WP4": 300
+      },
+      "ore_totali": 300
+     },
+     {
+      "nome": "Fabio Oresti",
+      "ruolo": "Machine Learning Engineer / PM (ruolo incerto)",
+      "inquadramento": "fascia bassa",
+      "ore_per_wp": {
+       "WP4": 150
+      },
+      "ore_totali": 150
+     },
+     {
+      "nome": "Ore da attribuire",
+      "ruolo": "ore del piano dei costi non ripartite per persona nel formulario (WP2–WP3)",
+      "inquadramento": "",
+      "ore_per_wp": {},
+      "ore_totali": 760,
+      "wp_residuo": [
+       "WP2",
+       "WP3"
+      ]
+     }
+    ],
+    "ore_totali": 2880
+   },
+   {
+    "nome": "Università di Roma \"La Sapienza\" – SBAI",
+    "persone": [
+     {
+      "nome": "Roberto Li Voti",
+      "ruolo": "Professore ordinario",
+      "inquadramento": "fascia alta",
+      "ore_per_wp": {
+       "WP4": 30,
+       "WP5": 50
+      },
+      "ore_totali": 80
+     },
+     {
+      "nome": "Domenico Vitulano",
+      "ruolo": "Professore associato, responsabile scientifico",
+      "inquadramento": "fascia media",
+      "ore_per_wp": {
+       "WP1": 60,
+       "WP4": 160,
+       "WP5": 120
+      },
+      "ore_totali": 340
+     },
+     {
+      "nome": "Vittoria Bruni",
+      "ruolo": "Professoressa associata",
+      "inquadramento": "fascia media",
+      "ore_per_wp": {
+       "WP4": 120,
+       "WP5": 80
+      },
+      "ore_totali": 200
+     },
+     {
+      "nome": "Giuseppe Zollo",
+      "ruolo": "Professore associato",
+      "inquadramento": "fascia media",
+      "ore_per_wp": {
+       "WP4": 100,
+       "WP5": 60
+      },
+      "ore_totali": 160
+     },
+     {
+      "nome": "Anna Vidotto",
+      "ruolo": "Ricercatrice",
+      "inquadramento": "fascia bassa (valorizzata a 30 €/h, tariffa imprese)",
+      "ore_per_wp": {
+       "WP4": 30,
+       "WP5": 50
+      },
+      "ore_totali": 80
+     }
+    ],
+    "ore_totali": 860
+   },
+   {
+    "nome": "NOREMA S.r.l.",
+    "persone": [
+     {
+      "nome": "Claudia Abatecola",
+      "ruolo": "Esperta progettazione e gestione fondi europei",
+      "inquadramento": "fascia bassa",
+      "ore_per_wp": {
+       "WP1": 60,
+       "WP4": 120,
+       "WP5": 600
+      },
+      "ore_totali": 780
+     },
+     {
+      "nome": "Chiara Mirabella",
+      "ruolo": "Responsabile amministrativa e project manager",
+      "inquadramento": "fascia bassa",
+      "ore_per_wp": {
+       "WP4": 40,
+       "WP5": 500
+      },
+      "ore_totali": 540
+     },
+     {
+      "nome": "Valentina Caldarera",
+      "ruolo": "Junior PM, digitale e rendicontazione PNRR",
+      "inquadramento": "fascia bassa",
+      "ore_per_wp": {
+       "WP4": 40,
+       "WP5": 100
+      },
+      "ore_totali": 140
+     },
+     {
+      "nome": "Ore da attribuire",
+      "ruolo": "ore del piano dei costi non ripartite per persona nel formulario (WP2–WP3)",
+      "inquadramento": "",
+      "ore_per_wp": {},
+      "ore_totali": 1050,
+      "wp_residuo": [
+       "WP2",
+       "WP3"
+      ]
+     }
+    ],
+    "ore_totali": 2510
+   },
+   {
+    "nome": "Microsis S.r.l.",
+    "persone": [
+     {
+      "nome": "Andrea Morviducci",
+      "ruolo": "Capo progetto software e sistemi complessi",
+      "inquadramento": "fascia bassa",
+      "ore_per_wp": {
+       "WP1": 60,
+       "WP4": 600
+      },
+      "ore_totali": 660
+     },
+     {
+      "nome": "Claudio Serrano",
+      "ruolo": "Developer web/mobile e sistemi gestionali",
+      "inquadramento": "fascia bassa",
+      "ore_per_wp": {
+       "WP4": 320
+      },
+      "ore_totali": 320
+     },
+     {
+      "nome": "Maurizio Bevilacqua",
+      "ruolo": "Capo progetto software e fondi europei",
+      "inquadramento": "fascia bassa",
+      "ore_per_wp": {
+       "WP4": 140,
+       "WP5": 300
+      },
+      "ore_totali": 440
+     },
+     {
+      "nome": "Paolo Valerio",
+      "ruolo": "Analista software per PA e startup innovative",
+      "inquadramento": "fascia bassa",
+      "ore_per_wp": {
+       "WP4": 140
+      },
+      "ore_totali": 140
+     },
+     {
+      "nome": "Ore da attribuire",
+      "ruolo": "ore del piano dei costi non ripartite per persona nel formulario (WP2–WP3)",
+      "inquadramento": "",
+      "ore_per_wp": {},
+      "ore_totali": 800,
+      "wp_residuo": [
+       "WP2",
+       "WP3"
+      ]
+     }
+    ],
+    "ore_totali": 2360
+   },
+   {
+    "nome": "Main Project S.r.l.",
+    "persone": [
+     {
+      "nome": "Fabrizio Batori",
+      "ruolo": "Esperto IoT, AR/VR, UX e smart cities",
+      "inquadramento": "fascia bassa",
+      "ore_per_wp": {
+       "WP1": 60,
+       "WP4": 500,
+       "WP5": 200
+      },
+      "ore_totali": 760
+     },
+     {
+      "nome": "Silvia Cerreti",
+      "ruolo": "Esperta gestione progetti e finanza UE",
+      "inquadramento": "fascia bassa",
+      "ore_per_wp": {
+       "WP4": 700,
+       "WP5": 100
+      },
+      "ore_totali": 800
+     },
+     {
+      "nome": "Alessio Giannini",
+      "ruolo": "Ricercatore AI, big data e modelli predittivi",
+      "inquadramento": "fascia bassa",
+      "ore_per_wp": {
+       "WP4": 700,
+       "WP5": 100
+      },
+      "ore_totali": 800
+     }
+    ],
+    "ore_totali": 2360
+   },
+   {
+    "nome": "Olympos Hub S.r.l.",
+    "persone": [
+     {
+      "nome": "Sandy Gasperoni",
+      "ruolo": "Amministratrice, esperta contenuti educativi",
+      "inquadramento": "fascia bassa",
+      "ore_per_wp": {
+       "WP1": 60,
+       "WP5": 350
+      },
+      "ore_totali": 410
+     },
+     {
+      "nome": "Andrea Alunno Minciotti",
+      "ruolo": "CTO, esperto sistemi web multimediali",
+      "inquadramento": "fascia bassa",
+      "ore_per_wp": {
+       "WP4": 400,
+       "WP5": 50
+      },
+      "ore_totali": 450
+     },
+     {
+      "nome": "Tamer Hayek",
+      "ruolo": "Full-stack developer (React, Svelte)",
+      "inquadramento": "fascia bassa",
+      "ore_per_wp": {
+       "WP4": 800
+      },
+      "ore_totali": 800
+     },
+     {
+      "nome": "Claudio Pezzotta",
+      "ruolo": "Managing Director, esperto produzione A/V",
+      "inquadramento": "fascia bassa",
+      "ore_per_wp": {
+       "WP4": 600
+      },
+      "ore_totali": 600
+     },
+     {
+      "nome": "Ore da attribuire",
+      "ruolo": "ore del piano dei costi non ripartite per persona nel formulario (WP2–WP3)",
+      "inquadramento": "",
+      "ore_per_wp": {},
+      "ore_totali": 60,
+      "wp_residuo": [
+       "WP2",
+       "WP3"
+      ]
+     }
+    ],
+    "ore_totali": 2320
+   }
+  ]
  }
 }

@@ -176,7 +176,12 @@ def main(preview: bool) -> None:
         data = json.loads((folder / "data.json").read_text(encoding="utf-8"))  # valida il JSON
         pers = ROOT / "_personale" / f"{folder.name}.json"
         if pers.exists():  # personale per partner dai formulari (ore per WP, nessun importo)
-            data["personale"] = json.loads(pers.read_text(encoding="utf-8"))
+            pe = json.loads(pers.read_text(encoding="utf-8"))
+            pe.pop("note", None)  # note di verifica: restano interne
+            pe.pop("fonte_dettaglio", None)
+            for pa in pe.get("partner", []):
+                pa.pop("verifica", None)
+            data["personale"] = pe
         write_page(folder, page)
         (folder / "pubblico.json").write_text(json.dumps(pubblico(data), ensure_ascii=False, indent=1), encoding="utf-8")
         print(f"ok  {folder.name}/index.html")

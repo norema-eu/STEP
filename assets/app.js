@@ -121,6 +121,8 @@
       let senzaWp = false;
       const profilo = (x) => {
         const v = new Array(m).fill(0), opw = Object.entries(x.ore_per_wp || {}).filter(([k, h]) => h && wpM[k]);
+        const res = (x.wp_residuo || []).filter((k) => wpM[k]);
+        if (res.length && x.ore_totali) { const ms = [...new Set(res.flatMap((k) => { const [a, b] = wpM[k]; return Array.from({ length: b - a + 1 }, (_, i) => a + i); }))]; ms.forEach((i) => (v[i - 1] += x.ore_totali / ms.length)); return v; }
         if (opw.length) opw.forEach(([k, h]) => { const [a, b] = wpM[k]; for (let i = a; i <= b; i++) v[i - 1] += h / (b - a + 1); });
         else if (x.ore_totali) { senzaWp = true; for (let i = 0; i < m; i++) v[i] += x.ore_totali / m; }
         return v;
@@ -134,8 +136,8 @@
       const short = (nm) => String(nm).replace(/Università di Roma "La Sapienza" – /, "Sapienza – ").replace(/ S\.r\.l\.s?\.?/i, "");
       const grand = parts.reduce((s, p) => s + p.tot, 0);
       $("#pers-sum").innerHTML = `<thead><tr><th>Partner</th><th class="num">Persone</th><th class="num">Ore totali</th><th class="num">Media ore/mese</th><th class="num">Mese di picco</th><th class="num">Quota ore</th></tr></thead><tbody>` +
-        parts.map((p) => { const pk = p.v.indexOf(Math.max(...p.v)); return `<tr><td>${esc(short(p.nome))}</td><td class="num">${p.pp.length}</td><td class="num">${n0(p.tot)}</td><td class="num">${n0(p.tot / m)}</td><td class="num">M${pk + 1}${st ? " · " + mLab(pk + 1) : ""} (${n0(p.v[pk])} h)</td><td class="num">${grand ? Math.round(p.tot / grand * 100) : 0}%</td></tr>`; }).join("") +
-        `</tbody><tfoot><tr><td>Totale progetto</td><td class="num">${parts.reduce((s, p) => s + p.pp.length, 0)}</td><td class="num">${n0(grand)}</td><td class="num">${n0(grand / m)}</td><td></td><td></td></tr></tfoot>`;
+        parts.map((p) => { const pk = p.v.indexOf(Math.max(...p.v)); return `<tr><td>${esc(short(p.nome))}</td><td class="num">${p.pp.filter((x) => !x.wp_residuo).length}</td><td class="num">${n0(p.tot)}</td><td class="num">${n0(p.tot / m)}</td><td class="num">M${pk + 1}${st ? " · " + mLab(pk + 1) : ""} (${n0(p.v[pk])} h)</td><td class="num">${grand ? Math.round(p.tot / grand * 100) : 0}%</td></tr>`; }).join("") +
+        `</tbody><tfoot><tr><td>Totale progetto</td><td class="num">${parts.reduce((s, p) => s + p.pp.filter((x) => !x.wp_residuo).length, 0)}</td><td class="num">${n0(grand)}</td><td class="num">${n0(grand / m)}</td><td></td><td></td></tr></tfoot>`;
       let fsel = "tutti";
       $("#pers-f").innerHTML = `<button data-v="tutti">Tutti i partner</button>` + parts.map((p, i) => `<button data-v="${i}">${esc(short(p.nome))}</button>`).join("");
       const drawHeat = () => {

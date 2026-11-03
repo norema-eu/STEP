@@ -412,5 +412,207 @@
   "email_tutor": "i.spinuso@lazioinnova.it",
   "pec": "incentivi@pec.lazioinnova.it",
   "nota": "Le comunicazioni ufficiali con Lazio Innova passano dalla PEC della capofila."
+ },
+ "personale": {
+  "progetto": "PRONTI_VIA",
+  "fonte": "Formulario presentato, Tab. 3 «Impegno delle risorse umane valorizzate a tempo uomo» dei WP1–WP4 e WP6, verificata con il piano dei costi approvato (GeCoWEB Plus, 22/10/2026). Le ore del WP5 non ripartite per persona sono indicate come «Ore da attribuire».",
+  "partner": [
+   {
+    "nome": "RO Technology S.r.l.",
+    "persone": [
+     {
+      "nome": "Gianluca Rossi",
+      "ruolo": "Dipendente RO Technology (referente di progetto)",
+      "inquadramento": "fascia bassa",
+      "ore_per_wp": {
+       "WP2": 1000,
+       "WP3": 840,
+       "WP4": 500
+      },
+      "ore_totali": 2340
+     },
+     {
+      "nome": "Diego Grimani",
+      "ruolo": "Dipendente RO Technology (coordinatore del team; subentra Andrea Talamanca)",
+      "inquadramento": "fascia bassa",
+      "ore_per_wp": {
+       "WP1": 150,
+       "WP2": 1000,
+       "WP3": 820,
+       "WP4": 400
+      },
+      "ore_totali": 2370
+     },
+     {
+      "nome": "Marialuisa Scalise",
+      "ruolo": "Dipendente RO Technology",
+      "inquadramento": "fascia bassa",
+      "ore_per_wp": {
+       "WP2": 800,
+       "WP3": 500,
+       "WP4": 300
+      },
+      "ore_totali": 1600
+     },
+     {
+      "nome": "Damiano Vellocchia",
+      "ruolo": "Dipendente RO Technology",
+      "inquadramento": "fascia bassa",
+      "ore_per_wp": {
+       "WP2": 640,
+       "WP3": 500,
+       "WP4": 150
+      },
+      "ore_totali": 1290
+     },
+     {
+      "nome": "Ore da attribuire",
+      "ruolo": "ore del piano dei costi non ripartite per persona nel formulario (WP5)",
+      "inquadramento": "",
+      "ore_per_wp": {},
+      "ore_totali": 504,
+      "wp_residuo": [
+       "WP5"
+      ]
+     }
+    ],
+    "ore_totali": 8104
+   },
+   {
+    "nome": "NOREMA S.r.l.",
+    "persone": [
+     {
+      "nome": "Claudia Abatecola",
+      "ruolo": "Dipendente NOREMA, responsabile scientifico/strategia",
+      "inquadramento": "fascia bassa",
+      "ore_per_wp": {
+       "WP1": 150,
+       "WP2": 50,
+       "WP3": 300,
+       "WP4": 312
+      },
+      "ore_totali": 812
+     },
+     {
+      "nome": "Valentina Caldarera",
+      "ruolo": "Dipendente NOREMA, junior EU project manager",
+      "inquadramento": "fascia bassa",
+      "ore_per_wp": {
+       "WP2": 50,
+       "WP3": 100,
+       "WP4": 158
+      },
+      "ore_totali": 308
+     },
+     {
+      "nome": "Chiara Mirabella",
+      "ruolo": "Dipendente NOREMA, project manager",
+      "inquadramento": "fascia bassa",
+      "ore_per_wp": {
+       "WP2": 50,
+       "WP3": 100,
+       "WP4": 158
+      },
+      "ore_totali": 308
+     },
+     {
+      "nome": "Da individuare",
+      "ruolo": "Figura da contrattualizzare (full stack developer)",
+      "inquadramento": "fascia bassa",
+      "ore_per_wp": {
+       "WP2": 50,
+       "WP3": 206,
+       "WP4": 300
+      },
+      "ore_totali": 556
+     },
+     {
+      "nome": "Ore da attribuire",
+      "ruolo": "ore del piano dei costi non ripartite per persona nel formulario (WP5–WP6)",
+      "inquadramento": "",
+      "ore_per_wp": {},
+      "ore_totali": 4000,
+      "wp_residuo": [
+       "WP5",
+       "WP6"
+      ]
+     }
+    ],
+    "ore_totali": 5984
+   },
+   {
+    "nome": "Università di Roma \"La Sapienza\" – SBAI",
+    "persone": [
+     {
+      "nome": "Domenico Vitulano",
+      "ruolo": "Professore associato, responsabile scientifico Sapienza",
+      "inquadramento": "fascia media",
+      "ore_per_wp": {
+       "WP1": 150,
+       "WP2": 25,
+       "WP3": 50,
+       "WP4": 50,
+       "WP6": 30
+      },
+      "ore_totali": 305
+     },
+     {
+      "nome": "Vittoria Bruni",
+      "ruolo": "Professoressa associata",
+      "inquadramento": "fascia media",
+      "ore_per_wp": {
+       "WP2": 150,
+       "WP3": 210,
+       "WP4": 50,
+       "WP6": 40
+      },
+      "ore_totali": 450
+     },
+     {
+      "nome": "Maria Rosaria Lancia",
+      "ruolo": "Professoressa associata",
+      "inquadramento": "fascia media",
+      "ore_per_wp": {
+       "WP3": 200,
+       "WP4": 208,
+       "WP6": 30
+      },
+      "ore_totali": 438
+     },
+     {
+      "nome": "Giuseppe Zollo",
+      "ruolo": "Professore associato",
+      "inquadramento": "fascia media",
+      "ore_per_wp": {
+       "WP3": 200,
+       "WP4": 140
+      },
+      "ore_totali": 340
+     },
+     {
+      "nome": "Anna Vidotto",
+      "ruolo": "Ricercatrice tenure track",
+      "inquadramento": "fascia bassa",
+      "ore_per_wp": {
+       "WP2": 110,
+       "WP3": 150,
+       "WP4": 200
+      },
+      "ore_totali": 460
+     },
+     {
+      "nome": "Ore da attribuire",
+      "ruolo": "ore del piano dei costi non ripartite per persona nel formulario (WP5)",
+      "inquadramento": "",
+      "ore_per_wp": {},
+      "ore_totali": 720,
+      "wp_residuo": [
+       "WP5"
+      ]
+     }
+    ],
+    "ore_totali": 2713
+   }
+  ]
  }
 }

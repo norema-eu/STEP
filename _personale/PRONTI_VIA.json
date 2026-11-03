@@ -1,0 +1,216 @@
+{
+ "progetto": "PRONTI_VIA",
+ "fonte": "Formulario presentato, Tab. 3 «Impegno delle risorse umane valorizzate a tempo uomo» dei WP1–WP4 e WP6, verificata con il piano dei costi approvato (GeCoWEB Plus, 22/10/2026). Le ore del WP5 non ripartite per persona sono indicate come «Ore da attribuire».",
+ "partner": [
+  {
+   "nome": "RO Technology S.r.l.",
+   "persone": [
+    {
+     "nome": "Gianluca Rossi",
+     "ruolo": "Dipendente RO Technology (referente di progetto)",
+     "inquadramento": "fascia bassa",
+     "ore_per_wp": {
+      "WP2": 1000,
+      "WP3": 840,
+      "WP4": 500
+     },
+     "ore_totali": 2340
+    },
+    {
+     "nome": "Diego Grimani",
+     "ruolo": "Dipendente RO Technology (coordinatore del team; subentra Andrea Talamanca)",
+     "inquadramento": "fascia bassa",
+     "ore_per_wp": {
+      "WP1": 150,
+      "WP2": 1000,
+      "WP3": 820,
+      "WP4": 400
+     },
+     "ore_totali": 2370
+    },
+    {
+     "nome": "Marialuisa Scalise",
+     "ruolo": "Dipendente RO Technology",
+     "inquadramento": "fascia bassa",
+     "ore_per_wp": {
+      "WP2": 800,
+      "WP3": 500,
+      "WP4": 300
+     },
+     "ore_totali": 1600
+    },
+    {
+     "nome": "Damiano Vellocchia",
+     "ruolo": "Dipendente RO Technology",
+     "inquadramento": "fascia bassa",
+     "ore_per_wp": {
+      "WP2": 640,
+      "WP3": 500,
+      "WP4": 150
+     },
+     "ore_totali": 1290
+    },
+    {
+     "nome": "Ore da attribuire",
+     "ruolo": "ore del piano dei costi non ripartite per persona nel formulario (WP5)",
+     "inquadramento": "",
+     "ore_per_wp": {},
+     "ore_totali": 504,
+     "wp_residuo": [
+      "WP5"
+     ]
+    }
+   ],
+   "verifica": "Tab. 3 leggibili (WP1–WP4): 7.600 h × 30 = € 228.000. Piano costi approvato B.1.1 € 243.120 = 8.104 h (righe 74.040 / 74.040 / 52.800 / 42.240 = 2.468 / 2.468 / 1.760 / 1.408 h). Residuo 504 h attribuito al WP5 (non leggibile). Abbinamento plausibile: Rossi e Grimani 2.468 h (residuo 128 e 98 h), Scalise 1.760 h (160 h), Vellocchia 1.408 h (118 h). Le 2.750 h che la Tab. 3 WP6 pone in colonna RO sono incompatibili con il piano approvato.",
+   "ore_totali": 8104
+  },
+  {
+   "nome": "NOREMA S.r.l.",
+   "persone": [
+    {
+     "nome": "Claudia Abatecola",
+     "ruolo": "Dipendente NOREMA, responsabile scientifico/strategia",
+     "inquadramento": "fascia bassa",
+     "ore_per_wp": {
+      "WP1": 150,
+      "WP2": 50,
+      "WP3": 300,
+      "WP4": 312
+     },
+     "ore_totali": 812
+    },
+    {
+     "nome": "Valentina Caldarera",
+     "ruolo": "Dipendente NOREMA, junior EU project manager",
+     "inquadramento": "fascia bassa",
+     "ore_per_wp": {
+      "WP2": 50,
+      "WP3": 100,
+      "WP4": 158
+     },
+     "ore_totali": 308
+    },
+    {
+     "nome": "Chiara Mirabella",
+     "ruolo": "Dipendente NOREMA, project manager",
+     "inquadramento": "fascia bassa",
+     "ore_per_wp": {
+      "WP2": 50,
+      "WP3": 100,
+      "WP4": 158
+     },
+     "ore_totali": 308
+    },
+    {
+     "nome": "Da individuare",
+     "ruolo": "Figura da contrattualizzare (full stack developer)",
+     "inquadramento": "fascia bassa",
+     "ore_per_wp": {
+      "WP2": 50,
+      "WP3": 206,
+      "WP4": 300
+     },
+     "ore_totali": 556
+    },
+    {
+     "nome": "Ore da attribuire",
+     "ruolo": "ore del piano dei costi non ripartite per persona nel formulario (WP5–WP6)",
+     "inquadramento": "",
+     "ore_per_wp": {},
+     "ore_totali": 4000,
+     "wp_residuo": [
+      "WP5",
+      "WP6"
+     ]
+    }
+   ],
+   "verifica": "Tab. 3 leggibili (WP1–WP4): 1.984 h × 30 = € 59.520. Piano costi approvato B.1.1 € 179.520 = 5.984 h (righe 42.240 / 42.240 / 63.360 / 31.680 = 1.408 / 1.408 / 2.112 / 1.056 h). Residuo 4.000 h per WP5+WP6. Ipotesi coerente (come _norema/personale.json): Abatecola 2.112 h (residuo 1.300), Caldarera e Mirabella 1.408 h (residuo 1.100 ciascuna), figura da contrattualizzare 1.056 h (residuo 500). Non verificabile sul formulario.",
+   "ore_totali": 5984
+  },
+  {
+   "nome": "Università di Roma \"La Sapienza\" – SBAI",
+   "persone": [
+    {
+     "nome": "Domenico Vitulano",
+     "ruolo": "Professore associato, responsabile scientifico Sapienza",
+     "inquadramento": "fascia media",
+     "ore_per_wp": {
+      "WP1": 150,
+      "WP2": 25,
+      "WP3": 50,
+      "WP4": 50,
+      "WP6": 30
+     },
+     "ore_totali": 305
+    },
+    {
+     "nome": "Vittoria Bruni",
+     "ruolo": "Professoressa associata",
+     "inquadramento": "fascia media",
+     "ore_per_wp": {
+      "WP2": 150,
+      "WP3": 210,
+      "WP4": 50,
+      "WP6": 40
+     },
+     "ore_totali": 450
+    },
+    {
+     "nome": "Maria Rosaria Lancia",
+     "ruolo": "Professoressa associata",
+     "inquadramento": "fascia media",
+     "ore_per_wp": {
+      "WP3": 200,
+      "WP4": 208,
+      "WP6": 30
+     },
+     "ore_totali": 438
+    },
+    {
+     "nome": "Giuseppe Zollo",
+     "ruolo": "Professore associato",
+     "inquadramento": "fascia media",
+     "ore_per_wp": {
+      "WP3": 200,
+      "WP4": 140
+     },
+     "ore_totali": 340
+    },
+    {
+     "nome": "Anna Vidotto",
+     "ruolo": "Ricercatrice tenure track",
+     "inquadramento": "fascia bassa",
+     "ore_per_wp": {
+      "WP2": 110,
+      "WP3": 150,
+      "WP4": 200
+     },
+     "ore_totali": 460
+    },
+    {
+     "nome": "Ore da attribuire",
+     "ruolo": "ore del piano dei costi non ripartite per persona nel formulario (WP5)",
+     "inquadramento": "",
+     "ore_per_wp": {},
+     "ore_totali": 720,
+     "wp_residuo": [
+      "WP5"
+     ]
+    }
+   ],
+   "verifica": "Tab. 3 leggibili (WP1–WP4, WP6): fascia media 1.533 h × 53 = € 81.249 + Vidotto 460 h × 34 = € 15.640 → € 96.889. Piano costi approvato B.1.1 € 133.339 (righe 31.800 / 22.525 / 32.754 / 27.560 a 53 €/h = 600 / 425 / 618 / 520 h, e 18.700 a 34 €/h = 550 h, quest'ultima riga 'Zone Assistite'). Residuo € 36.450 = 630 h × 53 + 90 h × 34: coerente con un WP5 da 720 h. Vidotto (unica a 34 €/h) = 550 h in totale. Le altre 4 righe non sono abbinabili alle persone in modo univoco.",
+   "ore_totali": 2713
+  }
+ ],
+ "note": [
+  "La Tab. 3 del WP5 non c'è nel testo estratto dal PDF (probabilmente è un'immagine; anche la lettura del PDF da SharePoint non la restituisce). Nella versione docx (via.txt) le Tab. 3 di WP3–WP6 sono vuote o con sole 'x'. Le ore WP5 sono ricostruite per differenza con il piano approvato e messe in righe 'Non attribuito'.",
+  "Tab. 3 WP6: le ore (righe 50, 50, 50, 1.000, 800, 800 = 2.750 h; 82.500 €) sono nella colonna RO Technology, NOREMA risulta a 0. Il totale RO del piano approvato (8.104 h) torna esattamente con WP1–WP4 + 504 h, quindi le 2.750 h non possono essere di RO; nel docx la Tab. 3 WP6 ha come unico partner Norema (responsabile del WP6). Le 2.750 h non sono state attribuite a persone: sono comprese nel residuo NOREMA (4.000 h WP5+WP6). Se sono di NOREMA, al WP5 NOREMA restano 1.250 h.",
+  "Il testo PDF delle Tab. 3 è un flusso di numeri senza colonne: le ore per persona sono state ricostruite quadrando i subtotali per partner e i costi (RO e NOREMA 30 €/h; Sapienza 53 €/h fascia media, 34 €/h Vidotto). Tutte le quadrature WP1–WP4 e WP6 tornano. Ordine righe Sapienza assunto: Vitulano, Bruni, Lancia, Zollo, Vidotto; in WP3 Lancia e Zollo hanno entrambi 200 h (scambio irrilevante).",
+  "Inquadramento: il docx colloca Vitulano, Grimani, Abatecola nella 'fascia media', ma i costi del PDF (30 €/h per RO e NOREMA) corrispondono alla fascia bassa delle imprese; per Sapienza 53 €/h = fascia media università. Si è usata la fascia coerente con la tariffa.",
+  "La colonna 'Totale' delle Tab. 3 è compilata solo per alcune righe (es. 335 h in WP2, 1.016 in WP3, 948 in WP4): è un errore di formula del formulario, non un dato.",
+  "La §5 del formulario riporta per WP stime diverse dalle Tab. 3 (WP2 Rossi 987 h e Scalise 704 h contro 1.000 e 800; totali WP3 2.653 h, WP4 1.715 h, WP5 2.012 h, WP6 1.884 h). Sono state usate le Tab. 3.",
+  "Tab. 6 del formulario (B.1.1 RO 243.120, Sapienza 133.339, NOREMA 179.520) coincide con il piano approvato; percentuale NOREMA scritta '555' (refuso).",
+  "Diego Grimani (RO Technology) è indicato nel formulario; secondo data.json è subentrato Andrea Talamanca: serve variazione del nominativo tramite il capofila."
+ ],
+ "fonte_dettaglio": "Formulario presentato (PDF 'Formulario_PRONTI-VIA.pdf', testo estratto viapdf.txt, e versione docx via.txt), Tab. 3 dei WP1, WP2, WP3, WP4 e WP6; controllo con Tab. 6 e con il piano costi approvato GeCoWEB A0896-2025-095563_Dettaglio_22-10-2026.xlsx"
+}

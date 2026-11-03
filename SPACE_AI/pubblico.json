@@ -435,5 +435,346 @@
   "email_tutor": "i.spinuso@lazioinnova.it",
   "pec": "incentivi@pec.lazioinnova.it",
   "nota": "Le comunicazioni ufficiali con Lazio Innova passano dalla PEC della capofila."
+ },
+ "personale": {
+  "progetto": "SPACE_AI",
+  "fonte": "Formulario presentato, Tab. 3 «Impegno delle risorse umane valorizzate a tempo uomo» dei WP1–WP7, verificata con il piano dei costi approvato (GeCoWEB Plus, 22/10/2026).",
+  "partner": [
+   {
+    "nome": "IPTSAT S.r.l.",
+    "persone": [
+     {
+      "nome": "Valerio Caroselli",
+      "ruolo": "Project Manager",
+      "inquadramento": "fascia bassa",
+      "ore_per_wp": {
+       "WP1": 150,
+       "WP2": 200,
+       "WP3": 260,
+       "WP4": 290,
+       "WP5": 200,
+       "WP6": 200,
+       "WP7": 150
+      },
+      "ore_totali": 1450
+     },
+     {
+      "nome": "Fabiao Campo",
+      "ruolo": "Dipendente",
+      "inquadramento": "fascia bassa",
+      "ore_per_wp": {
+       "WP2": 380,
+       "WP3": 260,
+       "WP4": 290,
+       "WP5": 150,
+       "WP6": 150,
+       "WP7": 20
+      },
+      "ore_totali": 1250
+     },
+     {
+      "nome": "Roberto Napoleni",
+      "ruolo": "Dipendente",
+      "inquadramento": "fascia bassa",
+      "ore_per_wp": {
+       "WP1": 50,
+       "WP2": 330,
+       "WP3": 260,
+       "WP4": 190,
+       "WP5": 150,
+       "WP6": 250,
+       "WP7": 20
+      },
+      "ore_totali": 1250
+     },
+     {
+      "nome": "Simone De Gennaro",
+      "ruolo": "Dipendente",
+      "inquadramento": "fascia bassa",
+      "ore_per_wp": {
+       "WP2": 400,
+       "WP3": 260,
+       "WP4": 200,
+       "WP5": 300,
+       "WP6": 120,
+       "WP7": 20
+      },
+      "ore_totali": 1300
+     },
+     {
+      "nome": "Silvia Ricci",
+      "ruolo": "Dipendente",
+      "inquadramento": "fascia bassa",
+      "ore_per_wp": {
+       "WP2": 300,
+       "WP3": 350,
+       "WP4": 330,
+       "WP5": 250,
+       "WP6": 150,
+       "WP7": 20
+      },
+      "ore_totali": 1400
+     },
+     {
+      "nome": "Alessandro Caroselli",
+      "ruolo": "Dipendente",
+      "inquadramento": "fascia bassa",
+      "ore_per_wp": {
+       "WP2": 230,
+       "WP3": 250,
+       "WP4": 200,
+       "WP5": 150,
+       "WP6": 150,
+       "WP7": 20
+      },
+      "ore_totali": 1000
+     },
+     {
+      "nome": "Stefania Annicchiarico",
+      "ruolo": "Dipendente",
+      "inquadramento": "fascia bassa",
+      "ore_per_wp": {
+       "WP1": 80,
+       "WP2": 150,
+       "WP3": 200,
+       "WP4": 220,
+       "WP5": 180,
+       "WP6": 150,
+       "WP7": 20
+      },
+      "ore_totali": 1000
+     },
+     {
+      "nome": "Emanuela De Leo",
+      "ruolo": "Dipendente",
+      "inquadramento": "fascia bassa",
+      "ore_per_wp": {
+       "WP2": 170,
+       "WP3": 180,
+       "WP4": 250,
+       "WP5": 200,
+       "WP6": 180,
+       "WP7": 20
+      },
+      "ore_totali": 1000
+     }
+    ],
+    "ore_totali": 9650
+   },
+   {
+    "nome": "Università di Roma \"La Sapienza\" – SBAI",
+    "persone": [
+     {
+      "nome": "Francesca Pitolli",
+      "ruolo": "Dipendente",
+      "inquadramento": "fascia alta",
+      "ore_per_wp": {
+       "WP2": 80,
+       "WP3": 50,
+       "WP4": 30,
+       "WP5": 50,
+       "WP6": 20,
+       "WP7": 20
+      },
+      "ore_totali": 250
+     },
+     {
+      "nome": "Roberto Li Voti",
+      "ruolo": "Dipendente",
+      "inquadramento": "fascia alta",
+      "ore_per_wp": {
+       "WP2": 40,
+       "WP3": 32,
+       "WP4": 30,
+       "WP5": 50,
+       "WP6": 20,
+       "WP7": 20
+      },
+      "ore_totali": 192
+     },
+     {
+      "nome": "Domenico Vitulano",
+      "ruolo": "Dipendente",
+      "inquadramento": "fascia media",
+      "ore_per_wp": {
+       "WP2": 80,
+       "WP3": 60,
+       "WP4": 60,
+       "WP5": 40,
+       "WP6": 10
+      },
+      "ore_totali": 250
+     },
+     {
+      "nome": "Vittoria Bruni",
+      "ruolo": "Dipendente",
+      "inquadramento": "fascia media",
+      "ore_per_wp": {
+       "WP1": 90,
+       "WP2": 30,
+       "WP3": 30,
+       "WP4": 50,
+       "WP5": 90,
+       "WP6": 80,
+       "WP7": 110
+      },
+      "ore_totali": 480
+     },
+     {
+      "nome": "Maria Rosaria Lancia",
+      "ruolo": "Dipendente",
+      "inquadramento": "fascia media",
+      "ore_per_wp": {
+       "WP2": 80,
+       "WP3": 30,
+       "WP4": 30,
+       "WP5": 50,
+       "WP6": 20,
+       "WP7": 20
+      },
+      "ore_totali": 230
+     },
+     {
+      "nome": "Da individuare",
+      "ruolo": "Contratto di ricerca (riga 'Contratto di ricerca' della Tab. 3)",
+      "inquadramento": "contratto di ricerca – in Tab. 3 sotto 'fascia bassa' valorizzato a 30 €/h; in Tab. 6 come B.2.3 ricerca contrattuale a corpo",
+      "ore_per_wp": {
+       "WP1": 20,
+       "WP2": 500,
+       "WP3": 447,
+       "WP4": 400,
+       "WP5": 400,
+       "WP6": 600,
+       "WP7": 300
+      },
+      "ore_totali": 2667
+     }
+    ],
+    "ore_totali": 4069
+   },
+   {
+    "nome": "ReadyLab S.r.l.s.",
+    "persone": [
+     {
+      "nome": "Giuseppe Fatigati",
+      "ruolo": "Dipendente",
+      "inquadramento": "fascia bassa",
+      "ore_per_wp": {
+       "WP1": 150,
+       "WP2": 250,
+       "WP3": 300,
+       "WP4": 250,
+       "WP5": 350,
+       "WP6": 150,
+       "WP7": 50
+      },
+      "ore_totali": 1500
+     },
+     {
+      "nome": "Fusco Sabato",
+      "ruolo": "Dipendente",
+      "inquadramento": "fascia bassa",
+      "ore_per_wp": {
+       "WP2": 200,
+       "WP3": 200,
+       "WP4": 200,
+       "WP5": 200,
+       "WP6": 200
+      },
+      "ore_totali": 1000
+     },
+     {
+      "nome": "Gavino Covone",
+      "ruolo": "Dipendente",
+      "inquadramento": "fascia bassa",
+      "ore_per_wp": {
+       "WP2": 160,
+       "WP3": 140,
+       "WP4": 140,
+       "WP5": 160,
+       "WP6": 200
+      },
+      "ore_totali": 800
+     },
+     {
+      "nome": "Luca Leonard",
+      "ruolo": "Dipendente",
+      "inquadramento": "fascia bassa",
+      "ore_per_wp": {
+       "WP2": 120,
+       "WP3": 140,
+       "WP4": 140,
+       "WP5": 200,
+       "WP6": 200
+      },
+      "ore_totali": 800
+     }
+    ],
+    "ore_totali": 4100
+   },
+   {
+    "nome": "NOREMA S.r.l.",
+    "persone": [
+     {
+      "nome": "Claudia Abatecola",
+      "ruolo": "Dipendente – coordinamento (responsabile WP2)",
+      "inquadramento": "fascia bassa",
+      "ore_per_wp": {
+       "WP1": 150,
+       "WP2": 140,
+       "WP3": 110,
+       "WP4": 60,
+       "WP5": 70,
+       "WP6": 50,
+       "WP7": 20
+      },
+      "ore_totali": 600
+     },
+     {
+      "nome": "Valentina Caldarera",
+      "ruolo": "Dipendente",
+      "inquadramento": "fascia bassa",
+      "ore_per_wp": {
+       "WP2": 120,
+       "WP3": 80,
+       "WP4": 80,
+       "WP5": 60,
+       "WP6": 20,
+       "WP7": 20
+      },
+      "ore_totali": 380
+     },
+     {
+      "nome": "Chiara Mirabella",
+      "ruolo": "Dipendente",
+      "inquadramento": "fascia bassa",
+      "ore_per_wp": {
+       "WP2": 120,
+       "WP3": 60,
+       "WP4": 60,
+       "WP5": 70,
+       "WP6": 50,
+       "WP7": 20
+      },
+      "ore_totali": 380
+     },
+     {
+      "nome": "Da individuare",
+      "ruolo": "Figura da contrattualizzare (esperto deep learning); in WP2 le 150 h sono sulla riga 'Fatigati Giuseppe', colonna NOREMA",
+      "inquadramento": "fascia bassa",
+      "ore_per_wp": {
+       "WP2": 150,
+       "WP3": 140,
+       "WP4": 160,
+       "WP5": 140,
+       "WP6": 140,
+       "WP7": 20
+      },
+      "ore_totali": 750
+     }
+    ],
+    "ore_totali": 2110
+   }
+  ]
  }
 }

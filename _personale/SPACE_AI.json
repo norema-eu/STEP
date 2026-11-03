@@ -1,0 +1,356 @@
+{
+ "progetto": "SPACE_AI",
+ "fonte": "Formulario presentato, Tab. 3 «Impegno delle risorse umane valorizzate a tempo uomo» dei WP1–WP7, verificata con il piano dei costi approvato (GeCoWEB Plus, 22/10/2026).",
+ "partner": [
+  {
+   "nome": "IPTSAT S.r.l.",
+   "persone": [
+    {
+     "nome": "Valerio Caroselli",
+     "ruolo": "Project Manager",
+     "inquadramento": "fascia bassa",
+     "ore_per_wp": {
+      "WP1": 150,
+      "WP2": 200,
+      "WP3": 260,
+      "WP4": 290,
+      "WP5": 200,
+      "WP6": 200,
+      "WP7": 150
+     },
+     "ore_totali": 1450
+    },
+    {
+     "nome": "Fabiao Campo",
+     "ruolo": "Dipendente",
+     "inquadramento": "fascia bassa",
+     "ore_per_wp": {
+      "WP2": 380,
+      "WP3": 260,
+      "WP4": 290,
+      "WP5": 150,
+      "WP6": 150,
+      "WP7": 20
+     },
+     "ore_totali": 1250
+    },
+    {
+     "nome": "Roberto Napoleni",
+     "ruolo": "Dipendente",
+     "inquadramento": "fascia bassa",
+     "ore_per_wp": {
+      "WP1": 50,
+      "WP2": 330,
+      "WP3": 260,
+      "WP4": 190,
+      "WP5": 150,
+      "WP6": 250,
+      "WP7": 20
+     },
+     "ore_totali": 1250
+    },
+    {
+     "nome": "Simone De Gennaro",
+     "ruolo": "Dipendente",
+     "inquadramento": "fascia bassa",
+     "ore_per_wp": {
+      "WP2": 400,
+      "WP3": 260,
+      "WP4": 200,
+      "WP5": 300,
+      "WP6": 120,
+      "WP7": 20
+     },
+     "ore_totali": 1300
+    },
+    {
+     "nome": "Silvia Ricci",
+     "ruolo": "Dipendente",
+     "inquadramento": "fascia bassa",
+     "ore_per_wp": {
+      "WP2": 300,
+      "WP3": 350,
+      "WP4": 330,
+      "WP5": 250,
+      "WP6": 150,
+      "WP7": 20
+     },
+     "ore_totali": 1400
+    },
+    {
+     "nome": "Alessandro Caroselli",
+     "ruolo": "Dipendente",
+     "inquadramento": "fascia bassa",
+     "ore_per_wp": {
+      "WP2": 230,
+      "WP3": 250,
+      "WP4": 200,
+      "WP5": 150,
+      "WP6": 150,
+      "WP7": 20
+     },
+     "ore_totali": 1000
+    },
+    {
+     "nome": "Stefania Annicchiarico",
+     "ruolo": "Dipendente",
+     "inquadramento": "fascia bassa",
+     "ore_per_wp": {
+      "WP1": 80,
+      "WP2": 150,
+      "WP3": 200,
+      "WP4": 220,
+      "WP5": 180,
+      "WP6": 150,
+      "WP7": 20
+     },
+     "ore_totali": 1000
+    },
+    {
+     "nome": "Emanuela De Leo",
+     "ruolo": "Dipendente",
+     "inquadramento": "fascia bassa",
+     "ore_per_wp": {
+      "WP2": 170,
+      "WP3": 180,
+      "WP4": 250,
+      "WP5": 200,
+      "WP6": 180,
+      "WP7": 20
+     },
+     "ore_totali": 1000
+    }
+   ],
+   "verifica": "9.650 h × 30 €/h = € 289.500, coerente con il piano costi approvato B.1.1 (8 righe: 43.500 + 39.000 + 42.000 + 37.500 × 2 + 30.000 × 3 = € 289.500). Anche le singole righe tornano: Caroselli V. 1.450 h = 43.500; Ricci 1.400 h = 42.000; De Gennaro 1.300 h = 39.000; Napoleni e Campo 1.250 h = 37.500; Caroselli A., Annicchiarico, De Leo 1.000 h = 30.000. Tab. 3 per WP: WP1 280, WP2 2.160, WP3 2.020, WP4 1.970, WP5 1.580, WP6 1.350, WP7 290.",
+   "ore_totali": 9650
+  },
+  {
+   "nome": "Università di Roma \"La Sapienza\" – SBAI",
+   "persone": [
+    {
+     "nome": "Francesca Pitolli",
+     "ruolo": "Dipendente",
+     "inquadramento": "fascia alta",
+     "ore_per_wp": {
+      "WP2": 80,
+      "WP3": 50,
+      "WP4": 30,
+      "WP5": 50,
+      "WP6": 20,
+      "WP7": 20
+     },
+     "ore_totali": 250
+    },
+    {
+     "nome": "Roberto Li Voti",
+     "ruolo": "Dipendente",
+     "inquadramento": "fascia alta",
+     "ore_per_wp": {
+      "WP2": 40,
+      "WP3": 32,
+      "WP4": 30,
+      "WP5": 50,
+      "WP6": 20,
+      "WP7": 20
+     },
+     "ore_totali": 192
+    },
+    {
+     "nome": "Domenico Vitulano",
+     "ruolo": "Dipendente",
+     "inquadramento": "fascia media",
+     "ore_per_wp": {
+      "WP2": 80,
+      "WP3": 60,
+      "WP4": 60,
+      "WP5": 40,
+      "WP6": 10
+     },
+     "ore_totali": 250
+    },
+    {
+     "nome": "Vittoria Bruni",
+     "ruolo": "Dipendente",
+     "inquadramento": "fascia media",
+     "ore_per_wp": {
+      "WP1": 90,
+      "WP2": 30,
+      "WP3": 30,
+      "WP4": 50,
+      "WP5": 90,
+      "WP6": 80,
+      "WP7": 110
+     },
+     "ore_totali": 480
+    },
+    {
+     "nome": "Maria Rosaria Lancia",
+     "ruolo": "Dipendente",
+     "inquadramento": "fascia media",
+     "ore_per_wp": {
+      "WP2": 80,
+      "WP3": 30,
+      "WP4": 30,
+      "WP5": 50,
+      "WP6": 20,
+      "WP7": 20
+     },
+     "ore_totali": 230
+    },
+    {
+     "nome": "Da individuare",
+     "ruolo": "Contratto di ricerca (riga 'Contratto di ricerca' della Tab. 3)",
+     "inquadramento": "contratto di ricerca – in Tab. 3 sotto 'fascia bassa' valorizzato a 30 €/h; in Tab. 6 come B.2.3 ricerca contrattuale a corpo",
+     "ore_per_wp": {
+      "WP1": 20,
+      "WP2": 500,
+      "WP3": 447,
+      "WP4": 400,
+      "WP5": 400,
+      "WP6": 600,
+      "WP7": 300
+     },
+     "ore_totali": 2667
+    }
+   ],
+   "verifica": "Fascia alta 442 h × 81 = € 35.802; fascia media 960 h × 53 = € 50.880; totale € 86.682 = Tab. 6 B.1.1. Contratto di ricerca 2.667 h × 30 = € 80.010 = Tab. 6 B.2.3. Piano costi approvato: 6 righe B.1.1 per € 166.692 (20.250 Pitolli, 15.552 Li Voti, 13.250 Vitulano, 25.440 Bruni, 12.190 Lancia, 80.010 contratto di ricerca): coerente, riga per riga.",
+   "ore_totali": 4069
+  },
+  {
+   "nome": "ReadyLab S.r.l.s.",
+   "persone": [
+    {
+     "nome": "Giuseppe Fatigati",
+     "ruolo": "Dipendente",
+     "inquadramento": "fascia bassa",
+     "ore_per_wp": {
+      "WP1": 150,
+      "WP2": 250,
+      "WP3": 300,
+      "WP4": 250,
+      "WP5": 350,
+      "WP6": 150,
+      "WP7": 50
+     },
+     "ore_totali": 1500
+    },
+    {
+     "nome": "Fusco Sabato",
+     "ruolo": "Dipendente",
+     "inquadramento": "fascia bassa",
+     "ore_per_wp": {
+      "WP2": 200,
+      "WP3": 200,
+      "WP4": 200,
+      "WP5": 200,
+      "WP6": 200
+     },
+     "ore_totali": 1000
+    },
+    {
+     "nome": "Gavino Covone",
+     "ruolo": "Dipendente",
+     "inquadramento": "fascia bassa",
+     "ore_per_wp": {
+      "WP2": 160,
+      "WP3": 140,
+      "WP4": 140,
+      "WP5": 160,
+      "WP6": 200
+     },
+     "ore_totali": 800
+    },
+    {
+     "nome": "Luca Leonard",
+     "ruolo": "Dipendente",
+     "inquadramento": "fascia bassa",
+     "ore_per_wp": {
+      "WP2": 120,
+      "WP3": 140,
+      "WP4": 140,
+      "WP5": 200,
+      "WP6": 200
+     },
+     "ore_totali": 800
+    }
+   ],
+   "verifica": "4.100 h × 30 €/h = € 123.000, coerente con il piano costi approvato B.1.1 (45.000 + 30.000 + 24.000 + 24.000). Righe: Fatigati 1.500 h = 45.000; Fusco 1.000 h = 30.000; Covone e Leonard 800 h = 24.000 ciascuno.",
+   "ore_totali": 4100
+  },
+  {
+   "nome": "NOREMA S.r.l.",
+   "persone": [
+    {
+     "nome": "Claudia Abatecola",
+     "ruolo": "Dipendente – coordinamento (responsabile WP2)",
+     "inquadramento": "fascia bassa",
+     "ore_per_wp": {
+      "WP1": 150,
+      "WP2": 140,
+      "WP3": 110,
+      "WP4": 60,
+      "WP5": 70,
+      "WP6": 50,
+      "WP7": 20
+     },
+     "ore_totali": 600
+    },
+    {
+     "nome": "Valentina Caldarera",
+     "ruolo": "Dipendente",
+     "inquadramento": "fascia bassa",
+     "ore_per_wp": {
+      "WP2": 120,
+      "WP3": 80,
+      "WP4": 80,
+      "WP5": 60,
+      "WP6": 20,
+      "WP7": 20
+     },
+     "ore_totali": 380
+    },
+    {
+     "nome": "Chiara Mirabella",
+     "ruolo": "Dipendente",
+     "inquadramento": "fascia bassa",
+     "ore_per_wp": {
+      "WP2": 120,
+      "WP3": 60,
+      "WP4": 60,
+      "WP5": 70,
+      "WP6": 50,
+      "WP7": 20
+     },
+     "ore_totali": 380
+    },
+    {
+     "nome": "Da individuare",
+     "ruolo": "Figura da contrattualizzare (esperto deep learning); in WP2 le 150 h sono sulla riga 'Fatigati Giuseppe', colonna NOREMA",
+     "inquadramento": "fascia bassa",
+     "ore_per_wp": {
+      "WP2": 150,
+      "WP3": 140,
+      "WP4": 160,
+      "WP5": 140,
+      "WP6": 140,
+      "WP7": 20
+     },
+     "ore_totali": 750
+    }
+   ],
+   "verifica": "2.110 h × 30 €/h = € 63.300, coerente con il piano costi approvato B.1.1 (18.000 + 11.400 + 11.400 + 22.500). Righe: Abatecola 600 h = 18.000; Caldarera e Mirabella 380 h = 11.400 ciascuna; figura da contrattualizzare 750 h = 22.500. Coincide con _norema/estrazione.json.",
+   "ore_totali": 2110
+  }
+ ],
+ "note": [
+  "Tab. 3 WP1 è un'immagine a bassa risoluzione (pag. 23): letta visivamente; i totali per partner (IPTSAT 280, NOREMA 150, Sapienza 110, ReadyLab 150) e i costi (8.400 / 4.500 / 5.370 / 4.500 €) quadrano con le righe lette.",
+  "Tutte le persone nel formulario sono indicate come 'Dipendente' (Caroselli V. come 'Project Manager'): il formulario non riporta specializzazioni, quindi il campo 'ruolo' riprende la dicitura del formulario.",
+  "Nella Tab. 3 la riga 'Subtotale fascia ...' precede le righe della fascia: Pitolli e Li Voti sono in fascia alta, Vitulano, Bruni e Lancia in fascia media, tutti gli altri (imprese e contratto di ricerca Sapienza) in fascia bassa. Costi verificati: imprese 30 €/h, Sapienza 81/53 €/h, contratto di ricerca 30 €/h.",
+  "NOREMA, WP2: le 150 h della figura da contrattualizzare sono scritte sulla riga 'Fatigati Giuseppe' (dipendente ReadyLab), nella colonna NOREMA; dal WP3 al WP7 la stessa figura ha una riga propria 'Da contrattualizzare'. Attribuite alla figura da individuare NOREMA (solo così la riga GeCoWEB da 22.500 € = 750 h torna).",
+  "Le righe 'Contratto di ricerca' di Sapienza (2.667 h, Da individuare) stanno in Tab. 3 nella fascia bassa del personale a costi standard, ma in Tab. 6 sono classificate B.2.3 'ricerca contrattuale a corpo' (80.010 €); nel piano GeCoWEB la riga da 80.010 € è sotto B.1.1. Da chiarire con Sapienza la natura (assegnista/contratto) e la voce di rendicontazione.",
+  "Tab. 6 del formulario ha le colonne NOREMA e ReadyLab scambiate nella riga B.1.1 (NOREMA 123.000 / ReadyLab 63.300): il piano approvato e le Tab. 3 sono corretti (NOREMA 63.300, ReadyLab 123.000).",
+  "Refusi nei nomi del formulario: 'Ricci Silvi' (Silvia Ricci, coordinamento WP1/WP5 in data.json), 'Mirabella Chiaraa', 'Campo Fabiao' (lasciato come nel formulario), 'Sabato Fusco' (ordine nome/cognome incerto). Tiziana Di Silvio compare in Tab. 3 WP1 senza ore (referente amministrativa IPTSAT): non inclusa.",
+  "Il piano GeCoWEB non riporta nominativi: l'abbinamento riga/persona è ricostruito per importo; dove più persone hanno le stesse ore (es. Caldarera/Mirabella 380 h; Campo/Napoleni 1.250 h) le righe sono intercambiabili."
+ ],
+ "fonte_dettaglio": "Formulario presentato 'SPACE AI formulario_def.pdf', Tab. 3 'Impegno delle risorse umane valorizzate a tempo uomo' dei WP1–WP7 (pag. 23 immagine per WP1, pagg. 24–29 per WP2–WP7); controllo con Tab. 6 (pag. 30–32) e con il piano costi approvato GeCoWEB A0896-2025-095582_Dettaglio_22-10-2026.xlsx"
+}
