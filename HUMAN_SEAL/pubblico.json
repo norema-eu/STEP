@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-11-03T12:45:00+01:00",
+ "aggiornato": "2026-11-04T07:50:00+01:00",
  "fonte": "Fonti: comunicazione di concessione Lazio Innova (prot. LISPA 0033570 del 24/09/2026), Det. G12471 del 15/09/2026 (BURL n. 75 del 17/09/2026, Allegati A e B), formulario/proposta progettuale definitiva (18/07/2025), piano costi approvato da GeCoWEB Plus (estrazione 22/10/2026), corrispondenza di partenariato e PEC (luglio 2025 – ottobre 2026).",
  "progetto": {
   "acronimo": "HS – HumanSeal",
@@ -322,18 +322,18 @@
    "data": "2026-12-16"
   },
   {
-   "data": null,
+   "data": "2026-11-09",
    "titolo": "Kick-off meeting di partenariato",
-   "descrizione": "Data da fissare. Nel formulario la milestone \"Avvio operativo formalizzato\" è prevista al mese 3.",
+   "descrizione": "Lunedì 9 novembre 2026 ore 15:30, in modalità ibrida: in presenza presso la sede NOREMA (Via di San Martino ai Monti 34, Roma) o in videoconferenza. Nel formulario la milestone \"Avvio operativo formalizzato\" è prevista al mese 3.",
    "chi": "Tutti i partner",
-   "stato": "da_avviare"
+   "stato": "in_corso"
   },
   {
    "data": null,
    "titolo": "Polizza fideiussoria per l'anticipo",
-   "descrizione": "Da avviare: tempi e modalità da definire con il capofila.",
+   "descrizione": "Individuato lo schema di polizza; raccolta di più preventivi in corso per scegliere la soluzione più idonea nei tempi previsti.",
    "chi": "DEV4U (capofila)",
-   "stato": "da_avviare"
+   "stato": "in_corso"
   },
   {
    "data": null,
@@ -360,8 +360,8 @@
  "criticita": [
   {
    "data": "2026-10-28",
-   "titolo": "Kick-off e polizza fideiussoria da pianificare",
-   "descrizione": "Da definire la data del kick-off e le modalità della polizza fideiussoria per l'anticipo.",
+   "titolo": "Polizza fideiussoria da finalizzare",
+   "descrizione": "Kick-off fissato al 09/11/2026. Per la polizza fideiussoria dell'anticipo è in corso la raccolta dei preventivi.",
    "livello": "media",
    "stato": "aperta"
   },
@@ -434,6 +434,11 @@
    "data": "2026-11-02",
    "titolo": "Documentazione di progetto inviata a Sapienza",
    "sintesi": "NOREMA trasmette al Dipartimento SBAI di Sapienza l'appunto riepilogativo (cronoprogramma, importi, WP, ore per persona), la bozza di ATS allineata all'Appendice 5 e il formulario presentato. Al Dipartimento si chiedono il CUP Sapienza e i tempi di firma dell'ATS da parte del Rettore, da chiudere possibilmente entro metà dicembre (l'ATS va allegata all'Atto di Impegno; richiesta dell'anticipo entro il 16/12)."
+  },
+  {
+   "data": "2026-11-03",
+   "titolo": "Kick-off, dashboard di progetto e polizza",
+   "sintesi": "NOREMA propone il kick-off per lunedì 9 novembre alle 15:30 (in presenza o online), comunica l'attivazione della dashboard di progetto e aggiorna sulla polizza fideiussoria (preventivi in raccolta). Il capofila conferma la data."
   }
  ],
  "riunioni": [
@@ -441,6 +446,11 @@
    "data": "2026-10-21",
    "titolo": "Webinar Lazio Innova – procedura di rendicontazione STEP",
    "esito": "Illustrate le fasi di anticipo, SAL e saldo e il caricamento su GeCoWEB Plus; slide inoltrate dal capofila."
+  },
+  {
+   "data": "2026-11-09",
+   "titolo": "Kick-off meeting di partenariato (ibrido)",
+   "esito": "In programma alle 15:30 presso la sede NOREMA e in videoconferenza."
   }
  ],
  "documenti": [

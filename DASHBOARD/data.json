@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-11-03T12:45:00+01:00",
+ "aggiornato": "2026-11-04T07:50:00+01:00",
  "progetti": [
   {
    "acronimo": "HS – HumanSeal",
@@ -275,20 +275,20 @@
      "data": "2026-12-16"
     },
     {
-     "data": null,
+     "data": "2026-11-09",
      "titolo": "Kick-off meeting di partenariato",
-     "descrizione": "Data da fissare. Nel formulario la milestone \"Avvio operativo formalizzato\" è prevista al mese 3.",
+     "descrizione": "Lunedì 9 novembre 2026 ore 15:30, in modalità ibrida: in presenza presso la sede NOREMA (Via di San Martino ai Monti 34, Roma) o in videoconferenza. Nel formulario la milestone \"Avvio operativo formalizzato\" è prevista al mese 3.",
      "chi": "Tutti i partner",
-     "stato": "da_avviare",
-     "nota_interna": "Il capofila l'ha chiesta a NOREMA il 28/10."
+     "stato": "in_corso",
+     "nota_interna": "Proposta da NOREMA (L. Ciampi) il 03/11; DEV4U ha confermato il 03/11 e partecipa online: inviare il link."
     },
     {
      "data": null,
      "titolo": "Polizza fideiussoria per l'anticipo",
-     "descrizione": "Da avviare: tempi e modalità da definire con il capofila.",
+     "descrizione": "Individuato lo schema di polizza; raccolta di più preventivi in corso per scegliere la soluzione più idonea nei tempi previsti.",
      "chi": "DEV4U (capofila)",
-     "stato": "da_avviare",
-     "nota_interna": "Il 28/10 il capofila ha chiesto indicazioni a NOREMA."
+     "stato": "in_corso",
+     "nota_interna": "Il 03/11 NOREMA ha chiesto al capofila se ha un broker di riferimento."
     },
     {
      "data": null,
@@ -315,8 +315,8 @@
    "criticita": [
     {
      "data": "2026-10-28",
-     "titolo": "Kick-off e polizza fideiussoria da pianificare",
-     "descrizione": "Da definire la data del kick-off e le modalità della polizza fideiussoria per l'anticipo.",
+     "titolo": "Polizza fideiussoria da finalizzare",
+     "descrizione": "Kick-off fissato al 09/11/2026. Per la polizza fideiussoria dell'anticipo è in corso la raccolta dei preventivi.",
      "livello": "media",
      "stato": "aperta",
      "nota_interna": "Richiesta del capofila (Patitucci) a NOREMA del 28/10."
@@ -351,7 +351,7 @@
      "stato": "risolta"
     }
    ],
-   "aggiornato": "2026-11-03T12:45:00+01:00"
+   "aggiornato": "2026-11-04T07:50:00+01:00"
   },
   {
    "acronimo": "PRONTI VIA",
@@ -629,7 +629,7 @@
      "stato": "risolta"
     }
    ],
-   "aggiornato": "2026-11-03T12:45:00+01:00"
+   "aggiornato": "2026-11-04T07:50:00+01:00"
   },
   {
    "acronimo": "SPACE.AI",
@@ -907,10 +907,10 @@
      "livello": "alta",
      "stato": "aperta",
      "interna": true,
-     "nota_interna": "Bozze di email di C. Mirabella del 03/11 per IPTSAT, ReadyLab e Dipartimento SBAI (inviate a Claudia per revisione). Rischio economico: ~52.200 € IPTSAT e ~82.800 € ReadyLab se non risolto."
+     "nota_interna": "Bozze di email di C. Mirabella del 03/11 per IPTSAT, ReadyLab e Dipartimento SBAI (inviate a Claudia per revisione). Rischio economico: ~52.200 € IPTSAT e ~82.800 € ReadyLab se non risolto. 03/11: risposto a Sapienza sul post-doc (B.1 dipendente; costo standard vs effettivo da chiedere a Lazio Innova)."
     }
    ],
-   "aggiornato": "2026-11-03T12:45:00+01:00"
+   "aggiornato": "2026-11-04T07:50:00+01:00"
   }
  ],
  "tutor": {

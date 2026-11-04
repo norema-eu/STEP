@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-03T12:45:00+01:00",
+  "aggiornato": "2026-11-04T07:50:00+01:00",
   "fonte": "Fonti: comunicazione di concessione Lazio Innova (Det. G13392, BURL n. 81 suppl. 1 del 08/10/2026), proposta progettuale, corrispondenza di partenariato.",
   "progetto": {
     "acronimo": "SPACE.AI",
@@ -342,7 +342,7 @@
       "livello": "alta",
       "stato": "aperta",
       "interna": true,
-      "nota_interna": "Bozze di email di C. Mirabella del 03/11 per IPTSAT, ReadyLab e Dipartimento SBAI (inviate a Claudia per revisione). Rischio economico: ~52.200 € IPTSAT e ~82.800 € ReadyLab se non risolto."
+      "nota_interna": "Bozze di email di C. Mirabella del 03/11 per IPTSAT, ReadyLab e Dipartimento SBAI (inviate a Claudia per revisione). Rischio economico: ~52.200 € IPTSAT e ~82.800 € ReadyLab se non risolto. 03/11: risposto a Sapienza sul post-doc (B.1 dipendente; costo standard vs effettivo da chiedere a Lazio Innova)."
     }
   ],
   "comunicazioni": [
@@ -396,6 +396,12 @@
       "data": "2026-11-03",
       "titolo": "Bozza di polizza fideiussoria",
       "sintesi": "Il capofila condivide la bozza di polizza predisposta dall'assicuratore sullo schema di Lazio Innova (premio complessivo € 4.832 per 2 anni), da verificare; restano da correggere alcuni refusi."
+    },
+    {
+      "data": "2026-11-03",
+      "titolo": "Chiarimento sull'incarico post-doc di Sapienza",
+      "sintesi": "L'incarico post-doc (lavoro subordinato a tempo determinato) rientra nel personale dipendente (voce B.1). Resta da chiarire con Lazio Innova se valorizzarlo a costo standard o a costo effettivo: il quesito sarà inviato per email.",
+      "nota_interna": "Risposta di Claudia a Vitulano del 03/11; quesito alla tutor da inviare (collegato alla criticità sull'inquadramento del personale)."
     }
   ],
   "riunioni": [
