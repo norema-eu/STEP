@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-11-05T07:45:00+01:00",
+ "aggiornato": "2026-11-05T12:45:00+01:00",
  "fonte": "Fonti: comunicazione di concessione Lazio Innova (Det. G13392, BURL n. 81 suppl. 1 del 08/10/2026), proposta progettuale, corrispondenza di partenariato.",
  "progetto": {
   "acronimo": "SPACE.AI",
@@ -266,7 +266,7 @@
   {
    "data": null,
    "titolo": "Polizza fideiussoria per l'anticipo",
-   "descrizione": "Schema precompilato inviato al capofila il 20/10. Il 03/11 il capofila ha condiviso la bozza di polizza redatta dall'assicuratore sullo schema di Lazio Innova: premio complessivo di € 4.832 per i 2 anni di validità, ripartito tra i partner come previsto dalla bozza di ATS (art. 5-bis). Da finalizzare dopo l'ATS e l'Atto di Impegno.",
+   "descrizione": "Schema precompilato inviato al capofila il 20/10. Il 03/11 il capofila ha condiviso la bozza di polizza redatta dall'assicuratore sullo schema di Lazio Innova: premio complessivo di € 4.832 per i 2 anni di validità, ripartito tra i partner come previsto dalla bozza di ATS (art. 5-bis). Il 05/11 il capofila ha trasmesso la bozza corretta (refusi del facsimile e durata fino all'08/10/2029). Da finalizzare dopo l'ATS e l'Atto di Impegno; all'emissione serve un coobbligato (amministratore/legale rappresentante).",
    "chi": "IPTSAT",
    "stato": "in_corso"
   },
@@ -396,6 +396,11 @@
    "data": "2026-11-04",
    "titolo": "Firma dell'ATS presso il Rettorato di Sapienza",
    "sintesi": "Il Dipartimento SBAI comunica che la gestione amministrativa dei tre progetti STEP sarà seguita dalla dott.ssa Liana Francescangeli e che è in corso l'organizzazione con la segreteria della Rettrice per fissare la data di firma. Si chiede di verificare la disponibilità delle imprese partner a sottoscrivere l'ATS presso il Rettorato, una volta stabilita la data."
+  },
+  {
+   "data": "2026-11-05",
+   "titolo": "Bozza corretta della polizza fideiussoria",
+   "sintesi": "Il capofila trasmette la bozza di polizza corretta dall'assicuratore: sistemati i refusi del facsimile e la durata (fino all'08/10/2029). La polizza sarà finalizzata dopo la costituzione dell'ATS e l'Atto di Impegno."
   }
  ],
  "riunioni": [
