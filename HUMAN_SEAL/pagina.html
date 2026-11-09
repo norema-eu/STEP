@@ -10,7 +10,7 @@
 <title>Progetto STEP Lazio · NOREMA</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,300&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../assets/style.css?v=a835460118">
+<link rel="stylesheet" href="../assets/style.css?v=a41b5b5a70">
 </head>
 <body>
 <header class="top"><div class="wrap"><div class="brand"><b>NOREMA</b> · STEP Lazio</div><div class="updated" id="updated"></div></div></header>
@@ -57,6 +57,16 @@
       </table>
     </div>
     <div class="card" style="margin-top:16px"><div class="eyebrow" style="color:var(--muted)">Avanzamento della spesa rendicontata</div><div id="spesa"></div></div>
+    <div class="card cf-card" id="cf-card" style="margin-top:16px">
+      <div class="eyebrow" style="color:var(--muted)">Ipotesi di flusso di cassa</div>
+      <p class="cf-lead" id="cf-lead"></p>
+      <div class="cf-ctl"><div class="cf-seg" id="cf-f"></div>
+        <label class="cf-in">Lazio Innova paga in <input type="number" id="cf-li" min="0" max="365" step="5"> gg</label>
+        <label class="cf-in">il capofila gira in <input type="number" id="cf-cf" min="0" max="180" step="5"> gg</label></div>
+      <div id="cf-chart" class="cf-chart" role="img" aria-label="Flusso di cassa mensile ipotetico"></div>
+      <div class="cf-leg" id="cf-leg"></div>
+      <details class="cf-tab"><summary>Vedi i valori in tabella</summary><div class="scroll"><table id="cf-table"></table></div></details>
+    </div>
   </section>
 
   <section id="piano">
@@ -106,6 +116,6 @@
 <footer><div class="wrap"><span>Pagina riservata ai partner di progetto · gestita da NOREMA S.r.l.</span><span id="fonte"></span></div><div class="credit"><div class="wrap"><a class="credit-by" href="https://www.norema.eu" target="_blank" rel="noopener" title="NOREMA S.r.l. – www.norema.eu"><span>Realizzato da</span><img src="../assets/norema-logo.png" alt="NOREMA" width="74" height="22"></a><span class="credit-c">NOREMA S.r.l. · Via di San Martino ai Monti 34-35, 00184 Roma · <a href="mailto:info@norema.eu">info@norema.eu</a> · <a href="https://www.norema.eu" target="_blank" rel="noopener">www.norema.eu</a></span></div></div></footer>
 <!--DATA-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
-<script src="../assets/app.js?v=a835460118"></script>
+<script src="../assets/app.js?v=a41b5b5a70"></script>
 </body>
 </html>

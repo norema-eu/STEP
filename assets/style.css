@@ -230,3 +230,32 @@ footer .credit .wrap{display:flex;align-items:center;justify-content:center;gap:
 .heat-leg{display:flex;flex-wrap:wrap;align-items:center;gap:6px;font-size:12px;color:var(--muted);margin-top:10px}
 .heat-leg i{display:inline-block;width:18px;height:12px;border-radius:3px}
 @media (max-width:600px){.heat th.who{min-width:130px;max-width:150px}}
+
+/* Ipotesi di flusso di cassa (Partner e budget) */
+:root{--cf-in:#01A79C;--cf-out:#C98A1B;--cf-cum:#4A55A8}
+.cf-lead{font-size:13.5px;color:var(--muted);margin:6px 0 12px}
+.cf-ctl{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:10px}
+.cf-seg{display:inline-flex;flex-wrap:wrap;border:1px solid var(--line);border-radius:18px;overflow:hidden;background:#fff}
+.cf-seg button{font:inherit;font-size:12.5px;border:0;background:transparent;padding:7px 14px;cursor:pointer;color:var(--muted)}
+.cf-seg button.on{background:var(--navy);color:#fff}
+.cf-in{font-size:13px;color:var(--muted);display:inline-flex;align-items:center;gap:6px;white-space:nowrap}
+.cf-in input{font:inherit;width:64px;padding:5px 8px;border:1px solid var(--line);border-radius:8px;text-align:right}
+.cf-chart{position:relative}
+.cf-chart svg{display:block;width:100%;height:auto;overflow:visible}
+.cf-chart text{font-size:11px;fill:var(--muted)}
+.cf-chart .grid line{stroke:var(--g1)}
+.cf-chart .zero{stroke:var(--g2)}
+.cf-tip{position:absolute;z-index:5;pointer-events:none;background:#fff;border:1px solid var(--line);border-radius:10px;padding:8px 10px;font-size:12.5px;box-shadow:0 4px 16px rgba(13,36,54,.12);min-width:190px}
+.cf-tip b{display:block;margin-bottom:4px;color:var(--navy)}
+.cf-tip div{display:flex;justify-content:space-between;gap:12px;font-variant-numeric:tabular-nums}
+.cf-tip .evs{display:block;color:var(--muted);margin-top:4px}
+.cf-leg{display:flex;flex-wrap:wrap;gap:16px;font-size:12.5px;margin-top:8px}
+.cf-leg i{display:inline-block;width:12px;height:12px;border-radius:3px;margin-right:6px;vertical-align:-1px}
+.cf-leg i.ln{height:2px;vertical-align:3px}
+.cf-tab{margin-top:10px;font-size:13px}
+.cf-tab summary{cursor:pointer;color:var(--teal-2);font-weight:500}
+.cf-tab table{width:100%;border-collapse:collapse;margin-top:8px;font-size:12.5px}
+.cf-tab th{text-align:left;color:var(--muted);font-weight:500;border-bottom:1px solid var(--line);padding:5px 6px}
+.cf-tab td{padding:5px 6px;border-bottom:1px solid var(--g1)}
+.cf-tab .num{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
+.cf-tab tfoot td{font-weight:600;border-top:2px solid var(--line)}

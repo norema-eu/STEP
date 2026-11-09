@@ -161,6 +161,86 @@
       document.querySelectorAll("#personale-s .card, #personale-s .filters").forEach((e) => e.remove());
     }
 
+    // Ipotesi di flusso di cassa (costo standard ammesso; regole di erogazione art. 9 dell'Avviso)
+    (() => {
+      const card = $("#cf-card"); if (!card) return;
+      const startIso = P.data_inizio || P.data_avvio, PA = (D.partner || []).filter((x) => x.costo_ammesso && x.contributo_concesso);
+      if (!startIso || !PA.length) { card.remove(); return; }
+      const t0 = new Date(startIso + "T00:00:00"), Dm = P.durata_mesi || 24;
+      const addM = (dt, n) => new Date(dt.getFullYear(), dt.getMonth() + n, Math.min(dt.getDate(), 28));
+      const addD = (dt, n) => new Date(dt.getTime() + n * 864e5);
+      const mKey = (dt) => dt.getFullYear() * 12 + dt.getMonth();
+      const ym = (dt) => `${MESI[dt.getMonth()]} ${String(dt.getFullYear()).slice(2)}`;
+      const e0 = (v) => "€ " + Math.round(v).toLocaleString("it-IT");
+      const wpM = Object.fromEntries((D.wp || []).map((w) => [w.codice, [w.mese_inizio, w.mese_fine]]));
+      const key = (n) => String(n || "").toLowerCase().replace(/[^a-z]/g, "").slice(0, 12);
+      const persBy = Object.fromEntries(((D.personale || {}).partner || []).map((pa) => [key(pa.nome), pa.persone || []]));
+      const profilo = (pa) => { // quota mensile del costo, dalle ore del personale per WP
+        const v = new Array(Dm).fill(0);
+        (persBy[key(pa.nome)] || []).forEach((x) => {
+          const res = (x.wp_residuo || []).filter((k) => wpM[k]);
+          if (res.length && x.ore_totali) { const ms = [...new Set(res.flatMap((k) => { const [a, b] = wpM[k]; return Array.from({ length: b - a + 1 }, (_, i) => a + i); }))]; ms.forEach((i) => i <= Dm && (v[i - 1] += x.ore_totali / ms.length)); return; }
+          const opw = Object.entries(x.ore_per_wp || {}).filter(([k, h]) => h && wpM[k]);
+          if (opw.length) opw.forEach(([k, h]) => { const [a, b] = wpM[k]; for (let i = a; i <= Math.min(b, Dm); i++) v[i - 1] += h / (b - a + 1); });
+          else if (x.ore_totali) for (let i = 0; i < Dm; i++) v[i] += x.ore_totali / Dm;
+        });
+        const tot = v.reduce((a, b) => a + b, 0);
+        return tot ? v.map((h) => h / tot * pa.costo_ammesso) : v.map(() => pa.costo_ammesso / Dm);
+      };
+      const erog = (pa, prof, lag) => {
+        const K = pa.costo_ammesso, C = pa.contributo_concesso, r = C / K, ev = []; let e = 0;
+        const push = (tipo, rich, imp) => { imp = Math.max(0, imp); e += imp; ev.push({ tipo, inc: addD(rich, lag), imp }); };
+        push("anticipo 40%", addD(t0, 90), 0.4 * C);
+        let prev = 0; [8, 16].forEach((m, i) => { const c = prof.slice(prev, m).reduce((a, b) => a + b, 0); push(`SAL ${i + 1}`, addM(t0, m), Math.min(c * r, 0.8 * C - e)); prev = m; });
+        push("saldo", addM(t0, Dm), C - e);
+        return ev;
+      };
+      const st = (k, v) => { try { if (v === undefined) return localStorage.getItem(k); localStorage.setItem(k, v); } catch (_) { return null; } };
+      const li = $("#cf-li"), cf = $("#cf-cf");
+      li.value = st("cf_li") || 60; cf.value = st("cf_cf") || 15;
+      const short = (nm) => String(nm).replace(/Università di Roma "La Sapienza" – /, "Sapienza – ").replace(/ S\.r\.l\.s?\.?/i, "");
+      let sel = "tutti";
+      $("#cf-f").innerHTML = `<button data-v="tutti">Tutto il progetto</button>` + PA.map((x, i) => `<button data-v="${i}">${esc(short(x.nome))}</button>`).join("");
+      const draw = () => {
+        document.querySelectorAll("#cf-f button").forEach((b) => b.classList.toggle("on", b.dataset.v === String(sel)));
+        const lag = (+li.value || 0) + (+cf.value || 0);
+        const shown = sel === "tutti" ? PA : [PA[+sel]];
+        const months = new Map(), get = (dt) => { const k = mKey(dt); if (!months.has(k)) months.set(k, { out: 0, inn: 0, ev: [] }); return months.get(k); };
+        shown.forEach((pa) => { const prof = profilo(pa); prof.forEach((v, i) => (get(addM(t0, i)).out += v));
+          erog(pa, prof, lag).forEach((x) => { const m = get(x.inc); m.inn += x.imp; m.ev.push(`${sel === "tutti" ? short(pa.nome) + ": " : ""}${x.tipo} ${e0(x.imp)}`); }); });
+        const ks = [...months.keys()], k0 = Math.min(...ks), k1 = Math.max(...ks), rows = []; let cum = 0;
+        for (let k = k0; k <= k1; k++) { const m = months.get(k) || { out: 0, inn: 0, ev: [] }; cum += m.inn - m.out; rows.push({ dt: new Date(Math.floor(k / 12), k % 12, 1), ...m, cum }); }
+        const minR = rows.reduce((a, b) => (b.cum < a.cum ? b : a), rows[0]);
+        const K = shown.reduce((a, x) => a + x.costo_ammesso, 0), C = shown.reduce((a, x) => a + x.contributo_concesso, 0);
+        $("#cf-lead").innerHTML = `Uscite: costo ammesso (costi standard) distribuito sui mesi in base alle ore del personale per work package. Entrate: anticipo del 40% (richiesto entro 90 giorni dalla concessione), SAL a 8 e 16 mesi (anticipo + SAL entro l'80% del contributo) e saldo a fine progetto, incassati ${lag} giorni dopo la richiesta (art. 9 dell'Avviso). <b>Massima esposizione: ${e0(-Math.min(0, minR.cum))}</b> (${ym(minR.dt)}); a fine progetto resta il cofinanziamento di ${e0(K - C)}. Stima indicativa: i costi reali possono differire dai costi standard.`;
+        const W = 1100, H = 320, pL = 64, pR = 14, pT = 12, pB = 34;
+        const mx = Math.max(...rows.map((r) => Math.max(r.inn, r.cum, 0)), 1), mn = Math.min(...rows.map((r) => Math.min(-r.out, r.cum, 0)), -1);
+        const y = (v) => pT + (mx - v) / (mx - mn) * (H - pT - pB), bw = (W - pL - pR) / rows.length, x = (i) => pL + i * bw;
+        const stp = (() => { const raw = (mx - mn) / 5, p10 = Math.pow(10, Math.floor(Math.log10(raw))); return [1, 2, 2.5, 5, 10].map((f) => f * p10).find((s) => s >= raw); })();
+        let g = ""; for (let v = Math.ceil(mn / stp) * stp; v <= mx; v += stp) g += `<line x1="${pL}" x2="${W - pR}" y1="${y(v)}" y2="${y(v)}"/><text x="${pL - 8}" y="${y(v) + 4}" text-anchor="end">${Math.round(v / 1000).toLocaleString("it-IT")}k</text>`;
+        const bars = rows.map((r, i) => { const w = Math.max(2, bw - 3), bx = x(i) + 1.5;
+          return (r.inn ? `<rect x="${bx}" y="${y(r.inn)}" width="${w}" height="${Math.max(1, y(0) - y(r.inn))}" rx="3" fill="var(--cf-in)"/>` : "") + (r.out ? `<rect x="${bx}" y="${y(0) + 1}" width="${w}" height="${Math.max(1, y(-r.out) - y(0) - 1)}" rx="3" fill="var(--cf-out)"/>` : ""); }).join("");
+        const line = rows.map((r, i) => `${i ? "L" : "M"}${(x(i) + bw / 2).toFixed(1)},${y(r.cum).toFixed(1)}`).join(" ");
+        const xl = rows.map((r, i) => (r.dt.getMonth() % 3 === 0 ? `<text x="${x(i) + bw / 2}" y="${H - 10}" text-anchor="middle">${ym(r.dt)}</text>` : "")).join("");
+        const hits = rows.map((r, i) => `<rect class="hit" data-i="${i}" x="${x(i)}" y="${pT}" width="${bw}" height="${H - pT - pB}" fill="transparent"/>`).join("");
+        $("#cf-chart").innerHTML = `<svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="none"><g class="grid">${g}</g><line class="zero" x1="${pL}" x2="${W - pR}" y1="${y(0)}" y2="${y(0)}"/>${bars}<path d="${line}" fill="none" stroke="var(--cf-cum)" stroke-width="2"/><circle cx="${x(rows.indexOf(minR)) + bw / 2}" cy="${y(minR.cum)}" r="5" fill="var(--cf-cum)" stroke="#fff" stroke-width="2"/><g>${xl}</g>${hits}</svg><div class="cf-tip" hidden></div>`;
+        $("#cf-leg").innerHTML = `<span><i style="background:var(--cf-in)"></i>Entrate (contributo incassato)</span><span><i style="background:var(--cf-out)"></i>Uscite (costo ammesso)</span><span><i class="ln" style="background:var(--cf-cum)"></i>Saldo di cassa cumulato</span>`;
+        const tip = $("#cf-chart .cf-tip");
+        document.querySelectorAll("#cf-chart .hit").forEach((h) => {
+          h.addEventListener("mousemove", (ev) => { const r = rows[+h.dataset.i], bx = $("#cf-chart").getBoundingClientRect(); tip.hidden = false;
+            tip.style.left = Math.min(ev.clientX - bx.left + 12, bx.width - 220) + "px"; tip.style.top = ev.clientY - bx.top + 12 + "px";
+            tip.innerHTML = `<b>${ym(r.dt)}</b><div><span>Entrate</span><span>${e0(r.inn)}</span></div><div><span>Uscite</span><span>${e0(r.out)}</span></div><div><span>Cumulato</span><span>${e0(r.cum)}</span></div>${r.ev.length ? `<div class="evs">${r.ev.map(esc).join("<br>")}</div>` : ""}`; });
+          h.addEventListener("mouseleave", () => (tip.hidden = true)); });
+        const o = rows.reduce((a, r) => a + r.out, 0), n = rows.reduce((a, r) => a + r.inn, 0);
+        $("#cf-table").innerHTML = `<thead><tr><th>Mese</th><th class="num">Uscite</th><th class="num">Entrate</th><th class="num">Cumulato</th><th>Erogazioni</th></tr></thead><tbody>` +
+          rows.map((r) => `<tr><td>${ym(r.dt)}</td><td class="num">${e0(r.out)}</td><td class="num">${r.inn ? e0(r.inn) : "—"}</td><td class="num">${e0(r.cum)}</td><td>${r.ev.map(esc).join("; ")}</td></tr>`).join("") +
+          `</tbody><tfoot><tr><td>Totale</td><td class="num">${e0(o)}</td><td class="num">${e0(n)}</td><td class="num">${e0(n - o)}</td><td></td></tr></tfoot>`;
+      };
+      document.querySelectorAll("#cf-f button").forEach((b) => b.addEventListener("click", () => { sel = b.dataset.v === "tutti" ? "tutti" : +b.dataset.v; draw(); }));
+      [li, cf].forEach((el) => el.addEventListener("input", () => { st("cf_li", li.value); st("cf_cf", cf.value); draw(); }));
+      draw();
+    })();
+
     // Scadenze
     // dalla più recente alla più vecchia; le scadenze ancora senza data (da definire) in cima
     const sc = (D.scadenze || []).slice().sort((a, b) => (b.data || "9999").localeCompare(a.data || "9999"));

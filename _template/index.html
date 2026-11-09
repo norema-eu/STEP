@@ -57,6 +57,16 @@
       </table>
     </div>
     <div class="card" style="margin-top:16px"><div class="eyebrow" style="color:var(--muted)">Avanzamento della spesa rendicontata</div><div id="spesa"></div></div>
+    <div class="card cf-card" id="cf-card" style="margin-top:16px">
+      <div class="eyebrow" style="color:var(--muted)">Ipotesi di flusso di cassa</div>
+      <p class="cf-lead" id="cf-lead"></p>
+      <div class="cf-ctl"><div class="cf-seg" id="cf-f"></div>
+        <label class="cf-in">Lazio Innova paga in <input type="number" id="cf-li" min="0" max="365" step="5"> gg</label>
+        <label class="cf-in">il capofila gira in <input type="number" id="cf-cf" min="0" max="180" step="5"> gg</label></div>
+      <div id="cf-chart" class="cf-chart" role="img" aria-label="Flusso di cassa mensile ipotetico"></div>
+      <div class="cf-leg" id="cf-leg"></div>
+      <details class="cf-tab"><summary>Vedi i valori in tabella</summary><div class="scroll"><table id="cf-table"></table></div></details>
+    </div>
   </section>
 
   <section id="piano">
