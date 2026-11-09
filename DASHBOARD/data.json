@@ -316,6 +316,13 @@
      "descrizione": "Entro 24 mesi dalla data di concessione, salvo proroghe.",
      "chi": "Tutti i partner",
      "stato": "da_avviare"
+    },
+    {
+     "data": "2026-12-16",
+     "titolo": "Firma dell'ATS (entro la richiesta dell'anticipo)",
+     "descrizione": "Sottoscrizione del contratto di aggregazione (ATS) da parte di tutti i partner, con firma digitale, entro il termine per la richiesta dell'anticipo (16/12/2026): l'ATS va trasmessa a Lazio Innova a corredo dell'Atto di Impegno ed è necessaria per finalizzare la polizza fideiussoria e chiedere l'anticipo (art. 2, art. 9 e Appendice 5 dell'Avviso). Per Sapienza firma il prof. Roberto Li Voti con la procura speciale del 16/11/2026. Obiettivo: firma entro fine novembre.",
+     "chi": "DEV4U (capofila) e tutti i partner",
+     "stato": "da_avviare"
     }
    ],
    "criticita": [
@@ -559,10 +566,10 @@
      "nota_interna": "Cartella VIA-Polizza vuota e nessuna email sullo schema di polizza. 04/11: RO Technology (G. Rossi) ha inoltrato a NOREMA un'offerta commerciale non richiesta di Qui Fideiussione per la polizza dell'anticipo, chiedendo un parere sull'opportunità. 05/11: NOREMA ha chiesto a IPTSAT il contatto dell'assicuratore che ha emesso la bozza di polizza SPACE.AI, per richiedere preventivi anche per PRONTI VIA e HumanSeal; IPTSAT ha fornito il riferimento del titolare (contatto preavvisato)."
     },
     {
-     "data": null,
-     "titolo": "Costituzione formale dell'ATS",
-     "descrizione": "Bozza rev. 1 del contratto di aggregazione da completare e sottoscrivere: serve anche per la polizza e per l'Atto di Impegno.",
-     "chi": "Tutti i partner",
+     "data": "2027-01-06",
+     "titolo": "Firma dell'ATS (entro la richiesta dell'anticipo)",
+     "descrizione": "Sottoscrizione del contratto di aggregazione (ATS) da parte di tutti i partner, con firma digitale, entro il termine per la richiesta dell'anticipo (06/01/2027): l'ATS va trasmessa a Lazio Innova a corredo dell'Atto di Impegno ed è necessaria per finalizzare la polizza fideiussoria e chiedere l'anticipo (art. 2, art. 9 e Appendice 5 dell'Avviso). Per Sapienza firma il prof. Roberto Li Voti con la procura speciale del 16/11/2026. Obiettivo: firma entro fine novembre.",
+     "chi": "RO Technology (capofila) e tutti i partner",
      "stato": "da_avviare"
     },
     {
@@ -854,10 +861,10 @@
      "stato": "in_corso"
     },
     {
-     "data": null,
-     "titolo": "Costituzione formale dell'ATS",
-     "descrizione": "Atto di aggregazione da formalizzare: la data serve anche per la polizza e per l'Atto di Impegno. Su indicazione della tutor (02/11/2026) l'ATS deve prevedere che il capofila riceva tutti i pagamenti e li trasferisca ai partner.",
-     "chi": "Tutti i partner",
+     "data": "2027-01-06",
+     "titolo": "Firma dell'ATS (entro la richiesta dell'anticipo)",
+     "descrizione": "Sottoscrizione del contratto di aggregazione (ATS) da parte di tutti i partner, con firma digitale, entro il termine per la richiesta dell'anticipo (06/01/2027): l'ATS va trasmessa a Lazio Innova a corredo dell'Atto di Impegno ed è necessaria per finalizzare la polizza fideiussoria e chiedere l'anticipo (art. 2, art. 9 e Appendice 5 dell'Avviso). Per Sapienza firma il prof. Roberto Li Voti con la procura speciale del 16/11/2026. Obiettivo: firma entro fine novembre. L'ATS prevede che il capofila riceva tutti i pagamenti e li trasferisca ai partner, come indicato dalla tutor il 02/11/2026.",
+     "chi": "IPTSAT (capofila) e tutti i partner",
      "stato": "da_avviare"
     },
     {

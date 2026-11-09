@@ -361,6 +361,13 @@
    "descrizione": "Entro 24 mesi dalla data di concessione, salvo proroghe.",
    "chi": "Tutti i partner",
    "stato": "da_avviare"
+  },
+  {
+   "data": "2026-12-16",
+   "titolo": "Firma dell'ATS (entro la richiesta dell'anticipo)",
+   "descrizione": "Sottoscrizione del contratto di aggregazione (ATS) da parte di tutti i partner, con firma digitale, entro il termine per la richiesta dell'anticipo (16/12/2026): l'ATS va trasmessa a Lazio Innova a corredo dell'Atto di Impegno ed è necessaria per finalizzare la polizza fideiussoria e chiedere l'anticipo (art. 2, art. 9 e Appendice 5 dell'Avviso). Per Sapienza firma il prof. Roberto Li Voti con la procura speciale del 16/11/2026. Obiettivo: firma entro fine novembre.",
+   "chi": "DEV4U (capofila) e tutti i partner",
+   "stato": "da_avviare"
   }
  ],
  "criticita": [
