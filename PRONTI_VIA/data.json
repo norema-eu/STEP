@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-05T15:45:00+01:00",
+  "aggiornato": "2026-11-09T15:00:00+01:00",
   "fonte": "Fonti: Det. G13392 del 02/10/2026 (BURL n. 81 suppl. 1 del 08/10/2026, Allegati A e B); comunicazione di concessione Lazio Innova (prot. LISPA 0036564 del 14/10/2026); piano costi approvato GeCoWEB Plus (dettaglio del 22/10/2026); formulario presentato (proposta progettuale) e bozza del contratto di aggregazione allegata alla domanda; corrispondenza di partenariato (email Outlook dal 15/07/2025 al 26/10/2026).",
   "progetto": {
     "acronimo": "PRONTI VIA",
@@ -74,7 +74,7 @@
       "descrizione": "Sviluppa i moduli di intelligenza artificiale e NLP per l'analisi automatica di documenti amministrativi e contenuti testuali non strutturati (social media, segnalazioni civiche), con annotazione semantica e dataset classificati. Cura comunicazione, formazione e toolkit di replicabilità e prevede lo sfruttamento della piattaforma in modalità SaaS per enti locali, ARPA e consulenti ambientali.",
       "team": "Referente di progetto: Claudia Abatecola · project manager e coordinamento operativo: Chiara Mirabella · monitoring: Valentina Caldarera · full stack developer da acquisire",
       "anagrafica": {
-        "ragione_sociale": "NOREMA S.r.l. (start-up innovativa)",
+        "ragione_sociale": "NOREMA S.r.l.",
         "sede_legale": "Viale Anicio Gallo 102 – 00174 Roma (RM)",
         "sede_operativa": "Via di San Martino ai Monti 34-35 – 00184 Roma (RM)",
         "codice_fiscale": "15893071009",
@@ -120,8 +120,8 @@
         "codice_fiscale": "80209930587",
         "partita_iva": "02133771002",
         "rea": "RM-1569958",
-        "legale_rappresentante": "Prof.ssa Antonella Polimeni, Rettrice",
-        "altro": "Direttore del Dipartimento SBAI: Prof. Roberto Li Voti"
+        "legale_rappresentante": "Rettore pro tempore (prof. Antonio Carcaterra, eletto il 30/10/2026 per il mandato 2026-2032)",
+        "altro": "Direttore del Dipartimento SBAI: prof. Roberto Li Voti, firmatario delle ATS con procura speciale del Rettore (atto del 16/11/2026)"
       },
       "referenti": [
         {
@@ -226,6 +226,12 @@
       "descrizione": "Trasmessa via PEC dal capofila il 22/10/2026 alle 16:16 a incentivi@pec.lazioinnova.it, per RO Technology e NOREMA, con conferma dei soggetti B.D.N.A.",
       "chi": "RO Technology (capofila)",
       "stato": "completato"
+    },
+    {
+      "data": "2026-11-16",
+      "titolo": "Procura speciale per la firma dell'ATS (Sapienza)",
+      "descrizione": "Stipula della procura speciale con cui il Rettore conferisce al prof. Roberto Li Voti, Direttore del Dipartimento SBAI, il potere di firmare l'ATS. Gli estremi della procura vanno riportati nell'ATS e la procura va allegata (Allegato B). Dopo questa data si può fissare la firma dell'ATS.",
+      "stato": "da_avviare"
     },
     {
       "titolo": "Richiesta dell'anticipo",
@@ -390,6 +396,11 @@
       "titolo": "Firma dell'ATS presso il Rettorato di Sapienza",
       "sintesi": "Il Dipartimento SBAI comunica che la gestione amministrativa dei tre progetti STEP sarà seguita dalla dott.ssa Liana Francescangeli e che è in corso l'organizzazione con la segreteria della Rettrice per fissare la data di firma. Si chiede di verificare la disponibilità delle imprese partner a sottoscrivere l'ATS presso il Rettorato, una volta stabilita la data.",
       "nota_interna": "Email di L. Francescangeli a Claudia del 04/11 (11:49): richiesta urgente, ha provato a contattarla telefonicamente (recapito nell'email). Da raccogliere la disponibilità di capofila e partner."
+    },
+    {
+      "data": "2026-11-09",
+      "titolo": "Firmatario dell'ATS per Sapienza",
+      "sintesi": "Per Sapienza le ATS dei tre progetti saranno firmate dal prof. Roberto Li Voti, Direttore del Dipartimento SBAI, con procura speciale del Rettore da stipulare il 16/11/2026. Le bozze di ATS sono state aggiornate (rev. 2)."
     }
   ],
   "riunioni": [
@@ -432,13 +443,13 @@
       "nota": "emesso dalla Regione dopo le verifiche antimafia"
     },
     {
-      "nome": "Contratto di aggregazione (ATS) – bozza rev. 1",
+      "nome": "Contratto di aggregazione (ATS) – bozza rev. 2",
       "categoria": "Documenti di progetto",
-      "data": "2026-11-02",
+      "data": "2026-11-09",
       "stato": "in_corso",
       "file": "PRONTI_VIA_ATS_bozza.docx",
       "anteprima": "anteprime/PRONTI_VIA_ATS_bozza.pdf",
-      "nota": "bozza rev. 1 allineata all'Appendice 5 dell'Avviso: da completare nelle parti evidenziate e firmare digitalmente da tutti i partner (per Sapienza la Rettrice); va trasmessa con l'Atto di Impegno"
+      "nota": "bozza rev. 2: per Sapienza firma il prof. Roberto Li Voti, Direttore del Dipartimento SBAI, con procura speciale del Rettore (atto del 16/11/2026), da allegare all'ATS; NOREMA indicata come S.r.l. Da completare nelle parti evidenziate e firmare da tutti i partner; va trasmessa con l'Atto di Impegno"
     },
     {
       "nome": "Atto di Impegno",

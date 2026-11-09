@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-05T15:45:00+01:00",
+  "aggiornato": "2026-11-09T15:00:00+01:00",
   "fonte": "Fonti: comunicazione di concessione Lazio Innova (prot. LISPA 0033570 del 24/09/2026), Det. G12471 del 15/09/2026 (BURL n. 75 del 17/09/2026, Allegati A e B), formulario/proposta progettuale definitiva (18/07/2025), piano costi approvato da GeCoWEB Plus (estrazione 22/10/2026), corrispondenza di partenariato e PEC (luglio 2025 – ottobre 2026).",
   "progetto": {
     "acronimo": "HS – HumanSeal",
@@ -75,8 +75,8 @@
         "codice_fiscale": "80209930587",
         "partita_iva": "02133771002",
         "rea": "RM-1569958",
-        "legale_rappresentante": "Prof.ssa Antonella Polimeni, Rettrice",
-        "altro": "Direttore del Dipartimento SBAI: Prof. Roberto Li Voti"
+        "legale_rappresentante": "Rettore pro tempore (prof. Antonio Carcaterra, eletto il 30/10/2026 per il mandato 2026-2032)",
+        "altro": "Direttore del Dipartimento SBAI: prof. Roberto Li Voti, firmatario delle ATS con procura speciale del Rettore (atto del 16/11/2026)"
       },
       "referenti": [
         {
@@ -103,7 +103,7 @@
       "descrizione": "Conduce lo studio degli utenti finali e dei contesti d'uso (PA, giornalismo, enti formativi), definisce i requisiti dell'interfaccia SaaS e il modello di pricing per la sostenibilità. Guida disseminazione, kit formativo e piano di replicabilità e valorizzazione industriale.",
       "team": "Referente di progetto: Claudia Abatecola · project manager e coordinamento operativo: Chiara Mirabella · monitoraggio: Valentina Caldarera",
       "anagrafica": {
-        "ragione_sociale": "NOREMA S.r.l. (start-up innovativa)",
+        "ragione_sociale": "NOREMA S.r.l.",
         "sede_legale": "Viale Anicio Gallo 102 – 00174 Roma (RM)",
         "sede_operativa": "Via di San Martino ai Monti 34-35 – 00184 Roma (RM)",
         "codice_fiscale": "15893071009",
@@ -315,19 +315,25 @@
       "stato": "completato"
     },
     {
-      "titolo": "Richiesta dell'anticipo",
-      "descrizione": "Termine per la richiesta dell'anticipo: richiede ATS sottoscritta (da allegare all'Atto di Impegno) e polizza fideiussoria. Obiettivo: firma dell'ATS entro metà dicembre, possibilmente entro novembre.",
-      "chi": "DEV4U (capofila)",
-      "stato": "da_avviare",
-      "data": "2026-12-16"
-    },
-    {
       "data": "2026-11-09",
       "titolo": "Kick-off meeting di partenariato",
       "descrizione": "Lunedì 9 novembre 2026 ore 15:30, in modalità ibrida: in presenza presso la sede NOREMA (Via di San Martino ai Monti 34, Roma) o in videoconferenza. Nel formulario la milestone \"Avvio operativo formalizzato\" è prevista al mese 3.",
       "chi": "Tutti i partner",
       "stato": "in_corso",
       "nota_interna": "Proposta da NOREMA (L. Ciampi) il 03/11; DEV4U ha confermato il 03/11 e partecipa online: inviare il link."
+    },
+    {
+      "data": "2026-11-16",
+      "titolo": "Procura speciale per la firma dell'ATS (Sapienza)",
+      "descrizione": "Stipula della procura speciale con cui il Rettore conferisce al prof. Roberto Li Voti, Direttore del Dipartimento SBAI, il potere di firmare l'ATS. Gli estremi della procura vanno riportati nell'ATS e la procura va allegata (Allegato B). Dopo questa data si può fissare la firma dell'ATS.",
+      "stato": "da_avviare"
+    },
+    {
+      "titolo": "Richiesta dell'anticipo",
+      "descrizione": "Termine per la richiesta dell'anticipo: richiede ATS sottoscritta (da allegare all'Atto di Impegno) e polizza fideiussoria. Obiettivo: firma dell'ATS entro metà dicembre, possibilmente entro novembre.",
+      "chi": "DEV4U (capofila)",
+      "stato": "da_avviare",
+      "data": "2026-12-16"
     },
     {
       "data": null,
@@ -460,6 +466,11 @@
       "data": "2026-11-04",
       "titolo": "Indicazioni operative ai partner",
       "sintesi": "NOREMA conferma il kick-off di lunedì 9 novembre alle 15:30 (sede NOREMA o collegamento a distanza, con richiesta di conferma della modalità), comunica l'accesso alla dashboard di progetto e chiede ai partner di verificarne i dati e di portare al kick-off eventuali variazioni di personale o di spesa. La firma dell'ATS è prevista entro fine novembre."
+    },
+    {
+      "data": "2026-11-09",
+      "titolo": "Firmatario dell'ATS per Sapienza",
+      "sintesi": "Per Sapienza le ATS dei tre progetti saranno firmate dal prof. Roberto Li Voti, Direttore del Dipartimento SBAI, con procura speciale del Rettore da stipulare il 16/11/2026. Le bozze di ATS sono state aggiornate (rev. 2)."
     }
   ],
   "riunioni": [
@@ -507,13 +518,13 @@
       "nota": "emesso dalla Regione dopo le verifiche antimafia"
     },
     {
-      "nome": "Contratto di aggregazione (ATS) – bozza rev. 1",
+      "nome": "Contratto di aggregazione (ATS) – bozza rev. 2",
       "categoria": "Documenti di progetto",
-      "data": "2026-11-02",
+      "data": "2026-11-09",
       "stato": "in_corso",
       "file": "HUMAN_SEAL_ATS_bozza.docx",
       "anteprima": "anteprime/HUMAN_SEAL_ATS_bozza.pdf",
-      "nota": "bozza rev. 1 allineata all'Appendice 5 dell'Avviso: da completare nelle parti evidenziate e firmare digitalmente da tutti i partner (per Sapienza la Rettrice); va trasmessa con l'Atto di Impegno"
+      "nota": "bozza rev. 2: per Sapienza firma il prof. Roberto Li Voti, Direttore del Dipartimento SBAI, con procura speciale del Rettore (atto del 16/11/2026), da allegare all'ATS; NOREMA indicata come S.r.l. Da completare nelle parti evidenziate e firmare da tutti i partner; va trasmessa con l'Atto di Impegno"
     },
     {
       "nome": "Atto di Impegno",

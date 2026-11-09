@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-11-05T12:45:00+01:00",
+ "aggiornato": "2026-11-09T15:00:00+01:00",
  "fonte": "Fonti: comunicazione di concessione Lazio Innova (Det. G13392, BURL n. 81 suppl. 1 del 08/10/2026), proposta progettuale, corrispondenza di partenariato.",
  "progetto": {
   "acronimo": "SPACE.AI",
@@ -80,8 +80,8 @@
     "codice_fiscale": "80209930587",
     "partita_iva": "02133771002",
     "rea": "RM-1569958",
-    "legale_rappresentante": "Prof.ssa Antonella Polimeni, Rettrice",
-    "altro": "Direttore del Dipartimento SBAI: Prof. Roberto Li Voti"
+    "legale_rappresentante": "Rettore pro tempore (prof. Antonio Carcaterra, eletto il 30/10/2026 per il mandato 2026-2032)",
+    "altro": "Direttore del Dipartimento SBAI: prof. Roberto Li Voti, firmatario delle ATS con procura speciale del Rettore (atto del 16/11/2026)"
    },
    "referenti": [
     {
@@ -134,7 +134,7 @@
    "descrizione": "Guida lo sviluppo dei tokenizzatori multimodali e del modulo generativo cross-modale, con un esperto di deep learning dedicato. Assicura inoltre il supporto trasversale di project management, monitoraggio dei KPI e gestione tecnico-amministrativa e di rendicontazione.",
    "team": "Referente di progetto: Claudia Abatecola · coordinamento operativo: Chiara Mirabella",
    "anagrafica": {
-    "ragione_sociale": "NOREMA S.r.l. (start-up innovativa)",
+    "ragione_sociale": "NOREMA S.r.l.",
     "sede_legale": "Viale Anicio Gallo 102 – 00174 Roma (RM)",
     "sede_operativa": "Via di San Martino ai Monti 34-35 – 00184 Roma (RM)",
     "codice_fiscale": "15893071009",
@@ -255,6 +255,12 @@
    "descrizione": "Trasmessa via PEC dal capofila il 22/10/2026 alle 12:39 a incentivi@pec.lazioinnova.it, per IPTSAT, NOREMA e ReadyLab.",
    "chi": "IPTSAT (capofila)",
    "stato": "completato"
+  },
+  {
+   "data": "2026-11-16",
+   "titolo": "Procura speciale per la firma dell'ATS (Sapienza)",
+   "descrizione": "Stipula della procura speciale con cui il Rettore conferisce al prof. Roberto Li Voti, Direttore del Dipartimento SBAI, il potere di firmare l'ATS. Gli estremi della procura vanno riportati nell'ATS e la procura va allegata (Allegato B). Dopo questa data si può fissare la firma dell'ATS.",
+   "stato": "da_avviare"
   },
   {
    "titolo": "Richiesta dell'anticipo",
@@ -401,6 +407,11 @@
    "data": "2026-11-05",
    "titolo": "Bozza corretta della polizza fideiussoria",
    "sintesi": "Il capofila trasmette la bozza di polizza corretta dall'assicuratore: sistemati i refusi del facsimile e la durata (fino all'08/10/2029). La polizza sarà finalizzata dopo la costituzione dell'ATS e l'Atto di Impegno."
+  },
+  {
+   "data": "2026-11-09",
+   "titolo": "Firmatario dell'ATS per Sapienza",
+   "sintesi": "Per Sapienza le ATS dei tre progetti saranno firmate dal prof. Roberto Li Voti, Direttore del Dipartimento SBAI, con procura speciale del Rettore da stipulare il 16/11/2026. Le bozze di ATS sono state aggiornate (rev. 2)."
   }
  ],
  "riunioni": [
@@ -447,13 +458,13 @@
    "nota": "emesso dalla Regione dopo le verifiche antimafia"
   },
   {
-   "nome": "Contratto di aggregazione (ATS) – bozza rev. 1",
+   "nome": "Contratto di aggregazione (ATS) – bozza rev. 2",
    "categoria": "Documenti di progetto",
-   "data": "2026-11-02",
+   "data": "2026-11-09",
    "stato": "in_corso",
    "file": "SPACE_AI_ATS_bozza.docx",
    "anteprima": "anteprime/SPACE_AI_ATS_bozza.pdf",
-   "nota": "bozza rev. 1 allineata all'Appendice 5 dell'Avviso: da completare nelle parti evidenziate e firmare digitalmente da tutti i partner (per Sapienza la Rettrice); va trasmessa con l'Atto di Impegno"
+   "nota": "bozza rev. 2: per Sapienza firma il prof. Roberto Li Voti, Direttore del Dipartimento SBAI, con procura speciale del Rettore (atto del 16/11/2026), da allegare all'ATS; NOREMA indicata come S.r.l. Da completare nelle parti evidenziate e firmare da tutti i partner; va trasmessa con l'Atto di Impegno"
   },
   {
    "nome": "Atto di Impegno",
