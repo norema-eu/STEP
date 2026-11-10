@@ -283,7 +283,10 @@
     async function renderPdf(src, my) {
       if (!window.pdfjsLib) throw new Error("visualizzatore non caricato");
       pdfjsLib.GlobalWorkerOptions.workerSrc = "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js";
-      const pdf = await pdfjsLib.getDocument({ url: src, withCredentials: true }).promise;
+      // il file si scarica nella pagina (che ha già le credenziali della cartella protetta) e si passa a pdf.js
+      const r = await fetch(src, { cache: "no-store", credentials: "same-origin" });
+      if (!r.ok) throw new Error("file non raggiungibile (" + r.status + ")");
+      const pdf = await pdfjsLib.getDocument({ data: new Uint8Array(await r.arrayBuffer()) }).promise;
       if (my !== token) return;
       body.innerHTML = "";
       const width = body.clientWidth - 24, dpr = Math.min(window.devicePixelRatio || 1, 2);
