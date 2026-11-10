@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-11-09T15:00:00+01:00",
+ "aggiornato": "2026-11-10T12:50:00+01:00",
  "progetti": [
   {
    "acronimo": "HS – HumanSeal",
@@ -272,7 +272,7 @@
      "titolo": "Kick-off meeting di partenariato",
      "descrizione": "Lunedì 9 novembre 2026 ore 15:30, in modalità ibrida: in presenza presso la sede NOREMA (Via di San Martino ai Monti 34, Roma) o in videoconferenza. Nel formulario la milestone \"Avvio operativo formalizzato\" è prevista al mese 3.",
      "chi": "Tutti i partner",
-     "stato": "in_corso",
+     "stato": "completato",
      "nota_interna": "Proposta da NOREMA (L. Ciampi) il 03/11; DEV4U ha confermato il 03/11 e partecipa online: inviare il link."
     },
     {
@@ -291,24 +291,26 @@
     {
      "data": null,
      "titolo": "Polizza fideiussoria per l'anticipo",
-     "descrizione": "Individuato lo schema di polizza; raccolta di più preventivi in corso per scegliere la soluzione più idonea nei tempi previsti.",
+     "descrizione": "Individuato lo schema di polizza; raccolta dei preventivi in corso. Per la stipula sono richiesti ai partner le dichiarazioni degli amministratori e gli ultimi due bilanci approvati.",
      "chi": "DEV4U (capofila)",
      "stato": "in_corso",
-     "nota_interna": "Il 03/11 NOREMA ha chiesto al capofila se ha un broker di riferimento. 05/11: NOREMA ha chiesto a IPTSAT il contatto dell'assicuratore che ha emesso la bozza di polizza SPACE.AI, per richiedere preventivi anche per PRONTI VIA e HumanSeal; IPTSAT ha fornito il riferimento del titolare (contatto preavvisato)."
+     "nota_interna": "Il 03/11 NOREMA ha chiesto al capofila se ha un broker di riferimento. 05/11: NOREMA ha chiesto a IPTSAT il contatto dell'assicuratore che ha emesso la bozza di polizza SPACE.AI, per richiedere preventivi anche per PRONTI VIA e HumanSeal; IPTSAT ha fornito il riferimento del titolare (contatto preavvisato). 10/11: NOREMA ha chiesto a DEV4U e Main Project le ultime due dichiarazioni degli amministratori e gli ultimi due bilanci; DEV4U ha inviato lo stesso giorno (bilanci 2024 e 2025 e due dichiarazioni)."
     },
     {
      "data": null,
      "titolo": "Atto di concessione",
      "descrizione": "Emesso dalla Regione Lazio al termine delle verifiche antimafia.",
      "chi": "Regione Lazio / Lazio Innova",
-     "stato": "da_avviare"
+     "stato": "da_avviare",
+     "nota_interna": "La lettera di invio dell'Atto di Impegno (prot. 0041094 del 10/11) dichiara concluse con esito positivo le verifiche dell'art. 8: verificare se la voce va chiusa."
     },
     {
-     "data": null,
+     "data": "2026-12-25",
      "titolo": "Sottoscrizione Atto di Impegno",
-     "descrizione": "Dopo l'atto di concessione; va riportato il CUP F89J26001110007. Fissa l'avvio del cronoprogramma (mese 1).",
+     "descrizione": "Atto di Impegno ricevuto da Lazio Innova via PEC il 10/11/2026 (prot. 0041094). Va firmato digitalmente dal legale rappresentante della mandataria e trasmesso a incentivi@pec.lazioinnova.it entro 45 giorni dalla ricezione, corredato dall'atto notarile di costituzione dell'aggregazione (coerente con il testo allegato alla domanda e con l'Appendice 5). Va riportato il CUP F89J26001110007. Fissa l'avvio del cronoprogramma (mese 1).",
      "chi": "DEV4U (mandataria)",
-     "stato": "da_avviare"
+     "stato": "in_corso",
+     "nota_interna": "Termine calcolato: 45 giorni dal 10/11/2026 = 25/12/2026. Oltre il termine Lazio Innova invia un invito ad adempiere entro ulteriori 10 giorni, poi rinuncia (art. 10 Avviso)."
     },
     {
      "data": null,
@@ -320,12 +322,22 @@
     {
      "data": "2026-12-16",
      "titolo": "Firma dell'ATS (entro la richiesta dell'anticipo)",
-     "descrizione": "Sottoscrizione del contratto di aggregazione (ATS) da parte di tutti i partner, con firma digitale, entro il termine per la richiesta dell'anticipo (16/12/2026): l'ATS va trasmessa a Lazio Innova a corredo dell'Atto di Impegno ed è necessaria per finalizzare la polizza fideiussoria e chiedere l'anticipo (art. 2, art. 9 e Appendice 5 dell'Avviso). Per Sapienza firma il prof. Roberto Li Voti con la procura speciale del 16/11/2026. Obiettivo: firma entro fine novembre.",
+     "descrizione": "Sottoscrizione del contratto di aggregazione (ATS) da parte di tutti i partner, con atto notarile di costituzione dell'aggregazione, entro il termine per la richiesta dell'anticipo (16/12/2026): l'ATS va trasmessa a Lazio Innova a corredo dell'Atto di Impegno (da trasmettere entro il 25/12/2026) ed è necessaria per finalizzare la polizza fideiussoria e chiedere l'anticipo (art. 2, art. 9 e Appendice 5 dell'Avviso). Per Sapienza firma il prof. Roberto Li Voti con la procura speciale del 16/11/2026. Obiettivo: firma entro fine novembre.",
      "chi": "DEV4U (capofila) e tutti i partner",
-     "stato": "da_avviare"
+     "stato": "da_avviare",
+     "nota_interna": "10/11: Sapienza (L. Francescangeli) chiede il contatto del notaio individuato per l'ATS (ipotesi di un unico notaio per i tre progetti), perché il notaio di Sapienza che prepara la procura speciale vuole coordinarsi con lui."
     }
    ],
    "criticita": [
+    {
+     "data": "2026-11-10",
+     "titolo": "Olympos Hub: inquadramento del personale e ore per persona",
+     "descrizione": "Olympos Hub segnala che nel piano dei costi su GeCoWEB Plus quattro persone sono in B.1.1 (personale dipendente a costi standard orari), ma l'amministratrice unica riceve compenso da amministratrice (non ammissibile secondo Appendice 1, a loro avviso) e gli altri tre sono consulenti con partita IVA senza busta paga (art. 9). Chiedono se spostare le ore in B.2.2 (consulenze a tempo uomo), variazione oltre il 15% che richiede l'autorizzazione preventiva di Lazio Innova (art. 8), e con quali tempi rispetto ad ATS e Atto di Impegno. Segnalano anche che la ripartizione delle ore della dashboard non coincide con GeCoWEB (Gasperoni 410, Pezzotta 450, Alunno Minciotti 800, Hayek 660; totale 2.320 h invariato).",
+     "livello": "alta",
+     "stato": "aperta",
+     "interna": true,
+     "nota_interna": "Email di C. Pezzotta a Claudia del 10/11 (12:03): chiede parere su Gasperoni e come impostare la richiesta di variazione; disponibile a sentirsi per telefono. Da verificare anche le ore per persona nella pagina partner."
+    },
     {
      "data": "2026-10-28",
      "titolo": "Polizza fideiussoria da finalizzare",
@@ -337,14 +349,14 @@
     {
      "data": "2026-10-02",
      "titolo": "Esito verifiche antimafia in attesa",
-     "descrizione": "In attesa del riscontro di Lazio Innova sulla documentazione trasmessa il 02/10; eventuali richieste di integrazione arriveranno alla PEC del capofila.",
+     "descrizione": "Documentazione trasmessa il 02/10. Con l'invio dell'Atto di Impegno (10/11/2026) Lazio Innova comunica l'esito positivo delle verifiche previste dall'art. 8 dell'Avviso.",
      "livello": "media",
-     "stato": "aperta"
+     "stato": "risolta"
     },
     {
      "data": "2026-10-29",
      "titolo": "Contratto di aggregazione da sottoscrivere",
-     "descrizione": "Bozza rev. 1 del contratto di aggregazione da completare e firmare da tutti i partner.",
+     "descrizione": "Bozza rev. 2 del contratto di aggregazione da completare e sottoscrivere con atto notarile da tutti i partner: va trasmessa con l'Atto di Impegno entro il 25/12/2026.",
      "livello": "media",
      "stato": "aperta",
      "nota_interna": "Su SharePoint c'è solo la bozza, senza dati completi né firme: verificare se esiste una versione sottoscritta."
@@ -364,7 +376,7 @@
      "stato": "risolta"
     }
    ],
-   "aggiornato": "2026-11-09T15:00:00+01:00"
+   "aggiornato": "2026-11-10T12:50:00+01:00"
   },
   {
    "acronimo": "PRONTI VIA",
@@ -570,7 +582,8 @@
      "titolo": "Firma dell'ATS (entro la richiesta dell'anticipo)",
      "descrizione": "Sottoscrizione del contratto di aggregazione (ATS) da parte di tutti i partner, con firma digitale, entro il termine per la richiesta dell'anticipo (06/01/2027): l'ATS va trasmessa a Lazio Innova a corredo dell'Atto di Impegno ed è necessaria per finalizzare la polizza fideiussoria e chiedere l'anticipo (art. 2, art. 9 e Appendice 5 dell'Avviso). Per Sapienza firma il prof. Roberto Li Voti con la procura speciale del 16/11/2026. Obiettivo: firma entro fine novembre.",
      "chi": "RO Technology (capofila) e tutti i partner",
-     "stato": "da_avviare"
+     "stato": "da_avviare",
+     "nota_interna": "10/11: Sapienza (L. Francescangeli) chiede il contatto del notaio individuato per l'ATS (ipotesi di un unico notaio per i tre progetti), perché il notaio di Sapienza che prepara la procura speciale vuole coordinarsi con lui."
     },
     {
      "data": null,
@@ -648,7 +661,7 @@
      "stato": "risolta"
     }
    ],
-   "aggiornato": "2026-11-09T15:00:00+01:00"
+   "aggiornato": "2026-11-10T12:50:00+01:00"
   },
   {
    "acronimo": "SPACE.AI",
@@ -865,7 +878,8 @@
      "titolo": "Firma dell'ATS (entro la richiesta dell'anticipo)",
      "descrizione": "Sottoscrizione del contratto di aggregazione (ATS) da parte di tutti i partner, con firma digitale, entro il termine per la richiesta dell'anticipo (06/01/2027): l'ATS va trasmessa a Lazio Innova a corredo dell'Atto di Impegno ed è necessaria per finalizzare la polizza fideiussoria e chiedere l'anticipo (art. 2, art. 9 e Appendice 5 dell'Avviso). Per Sapienza firma il prof. Roberto Li Voti con la procura speciale del 16/11/2026. Obiettivo: firma entro fine novembre. L'ATS prevede che il capofila riceva tutti i pagamenti e li trasferisca ai partner, come indicato dalla tutor il 02/11/2026.",
      "chi": "IPTSAT (capofila) e tutti i partner",
-     "stato": "da_avviare"
+     "stato": "da_avviare",
+     "nota_interna": "10/11: Sapienza (L. Francescangeli) chiede il contatto del notaio individuato per l'ATS (ipotesi di un unico notaio per i tre progetti), perché il notaio di Sapienza che prepara la procura speciale vuole coordinarsi con lui."
     },
     {
      "data": null,
@@ -935,7 +949,7 @@
      "nota_interna": "Bozze di email di C. Mirabella del 03/11 per IPTSAT, ReadyLab e Dipartimento SBAI (inviate a Claudia per revisione). Rischio economico: ~52.200 € IPTSAT e ~82.800 € ReadyLab se non risolto. 03/11: risposto a Sapienza sul post-doc (B.1 dipendente; costo standard vs effettivo da chiedere a Lazio Innova)."
     }
    ],
-   "aggiornato": "2026-11-09T15:00:00+01:00"
+   "aggiornato": "2026-11-10T12:50:00+01:00"
   }
  ],
  "tutor": {

@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-11-09T15:00:00+01:00",
+ "aggiornato": "2026-11-10T12:50:00+01:00",
  "fonte": "Fonti: comunicazione di concessione Lazio Innova (prot. LISPA 0033570 del 24/09/2026), Det. G12471 del 15/09/2026 (BURL n. 75 del 17/09/2026, Allegati A e B), formulario/proposta progettuale definitiva (18/07/2025), piano costi approvato da GeCoWEB Plus (estrazione 22/10/2026), corrispondenza di partenariato e PEC (luglio 2025 – ottobre 2026).",
  "progetto": {
   "acronimo": "HS – HumanSeal",
@@ -319,7 +319,7 @@
    "titolo": "Kick-off meeting di partenariato",
    "descrizione": "Lunedì 9 novembre 2026 ore 15:30, in modalità ibrida: in presenza presso la sede NOREMA (Via di San Martino ai Monti 34, Roma) o in videoconferenza. Nel formulario la milestone \"Avvio operativo formalizzato\" è prevista al mese 3.",
    "chi": "Tutti i partner",
-   "stato": "in_corso"
+   "stato": "completato"
   },
   {
    "data": "2026-11-16",
@@ -337,7 +337,7 @@
   {
    "data": null,
    "titolo": "Polizza fideiussoria per l'anticipo",
-   "descrizione": "Individuato lo schema di polizza; raccolta di più preventivi in corso per scegliere la soluzione più idonea nei tempi previsti.",
+   "descrizione": "Individuato lo schema di polizza; raccolta dei preventivi in corso. Per la stipula sono richiesti ai partner le dichiarazioni degli amministratori e gli ultimi due bilanci approvati.",
    "chi": "DEV4U (capofila)",
    "stato": "in_corso"
   },
@@ -349,11 +349,11 @@
    "stato": "da_avviare"
   },
   {
-   "data": null,
+   "data": "2026-12-25",
    "titolo": "Sottoscrizione Atto di Impegno",
-   "descrizione": "Dopo l'atto di concessione; va riportato il CUP F89J26001110007. Fissa l'avvio del cronoprogramma (mese 1).",
+   "descrizione": "Atto di Impegno ricevuto da Lazio Innova via PEC il 10/11/2026 (prot. 0041094). Va firmato digitalmente dal legale rappresentante della mandataria e trasmesso a incentivi@pec.lazioinnova.it entro 45 giorni dalla ricezione, corredato dall'atto notarile di costituzione dell'aggregazione (coerente con il testo allegato alla domanda e con l'Appendice 5). Va riportato il CUP F89J26001110007. Fissa l'avvio del cronoprogramma (mese 1).",
    "chi": "DEV4U (mandataria)",
-   "stato": "da_avviare"
+   "stato": "in_corso"
   },
   {
    "data": null,
@@ -365,7 +365,7 @@
   {
    "data": "2026-12-16",
    "titolo": "Firma dell'ATS (entro la richiesta dell'anticipo)",
-   "descrizione": "Sottoscrizione del contratto di aggregazione (ATS) da parte di tutti i partner, con firma digitale, entro il termine per la richiesta dell'anticipo (16/12/2026): l'ATS va trasmessa a Lazio Innova a corredo dell'Atto di Impegno ed è necessaria per finalizzare la polizza fideiussoria e chiedere l'anticipo (art. 2, art. 9 e Appendice 5 dell'Avviso). Per Sapienza firma il prof. Roberto Li Voti con la procura speciale del 16/11/2026. Obiettivo: firma entro fine novembre.",
+   "descrizione": "Sottoscrizione del contratto di aggregazione (ATS) da parte di tutti i partner, con atto notarile di costituzione dell'aggregazione, entro il termine per la richiesta dell'anticipo (16/12/2026): l'ATS va trasmessa a Lazio Innova a corredo dell'Atto di Impegno (da trasmettere entro il 25/12/2026) ed è necessaria per finalizzare la polizza fideiussoria e chiedere l'anticipo (art. 2, art. 9 e Appendice 5 dell'Avviso). Per Sapienza firma il prof. Roberto Li Voti con la procura speciale del 16/11/2026. Obiettivo: firma entro fine novembre.",
    "chi": "DEV4U (capofila) e tutti i partner",
    "stato": "da_avviare"
   }
@@ -381,14 +381,14 @@
   {
    "data": "2026-10-02",
    "titolo": "Esito verifiche antimafia in attesa",
-   "descrizione": "In attesa del riscontro di Lazio Innova sulla documentazione trasmessa il 02/10; eventuali richieste di integrazione arriveranno alla PEC del capofila.",
+   "descrizione": "Documentazione trasmessa il 02/10. Con l'invio dell'Atto di Impegno (10/11/2026) Lazio Innova comunica l'esito positivo delle verifiche previste dall'art. 8 dell'Avviso.",
    "livello": "media",
-   "stato": "aperta"
+   "stato": "risolta"
   },
   {
    "data": "2026-10-29",
    "titolo": "Contratto di aggregazione da sottoscrivere",
-   "descrizione": "Bozza rev. 1 del contratto di aggregazione da completare e firmare da tutti i partner.",
+   "descrizione": "Bozza rev. 2 del contratto di aggregazione da completare e sottoscrivere con atto notarile da tutti i partner: va trasmessa con l'Atto di Impegno entro il 25/12/2026.",
    "livello": "media",
    "stato": "aperta"
   },
@@ -467,6 +467,11 @@
    "data": "2026-11-09",
    "titolo": "Firmatario dell'ATS per Sapienza",
    "sintesi": "Per Sapienza le ATS dei tre progetti saranno firmate dal prof. Roberto Li Voti, Direttore del Dipartimento SBAI, con procura speciale del Rettore da stipulare il 16/11/2026. Le bozze di ATS sono state aggiornate (rev. 2)."
+  },
+  {
+   "data": "2026-11-10",
+   "titolo": "Invio dell'Atto di Impegno",
+   "sintesi": "Lazio Innova trasmette via PEC al capofila l'Atto di Impegno (prot. 0041094 del 10/11/2026), dopo l'esito positivo delle verifiche dell'art. 8. Va sottoscritto dalla mandataria e trasmesso entro 45 giorni con l'atto notarile di costituzione dell'aggregazione; ogni impresa deve avere una sede operativa nel Lazio entro la prima richiesta di erogazione."
   }
  ],
  "riunioni": [
@@ -478,7 +483,7 @@
   {
    "data": "2026-11-09",
    "titolo": "Kick-off meeting di partenariato (ibrido)",
-   "esito": "In programma alle 15:30 presso la sede NOREMA e in videoconferenza."
+   "esito": "Svolto il 09/11/2026 alle 15:30 in modalità ibrida. Ai partner è stato chiesto di confrontare i dati della pagina di progetto (personale e ore) con il piano dei costi su GeCoWEB Plus."
   }
  ],
  "documenti": [
@@ -521,8 +526,9 @@
   {
    "nome": "Atto di Impegno",
    "categoria": "Documenti di progetto",
-   "stato": "da_avviare",
-   "nota": "da sottoscrivere dopo l'atto di concessione"
+   "stato": "in_corso",
+   "nota": "ricevuto dal capofila via PEC il 10/11/2026 (prot. 0041094), con scheda di progetto e modulo del conto corrente; da firmare e trasmettere entro il 25/12/2026 con l'atto notarile dell'ATS",
+   "data": "2026-11-10"
   }
  ],
  "lazio_innova": {

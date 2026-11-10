@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-09T15:00:00+01:00",
+  "aggiornato": "2026-11-10T12:50:00+01:00",
   "fonte": "Fonti: Det. G13392 del 02/10/2026 (BURL n. 81 suppl. 1 del 08/10/2026, Allegati A e B); comunicazione di concessione Lazio Innova (prot. LISPA 0036564 del 14/10/2026); piano costi approvato GeCoWEB Plus (dettaglio del 22/10/2026); formulario presentato (proposta progettuale) e bozza del contratto di aggregazione allegata alla domanda; corrispondenza di partenariato (email Outlook dal 15/07/2025 al 26/10/2026).",
   "progetto": {
     "acronimo": "PRONTI VIA",
@@ -261,7 +261,8 @@
       "titolo": "Firma dell'ATS (entro la richiesta dell'anticipo)",
       "descrizione": "Sottoscrizione del contratto di aggregazione (ATS) da parte di tutti i partner, con firma digitale, entro il termine per la richiesta dell'anticipo (06/01/2027): l'ATS va trasmessa a Lazio Innova a corredo dell'Atto di Impegno ed è necessaria per finalizzare la polizza fideiussoria e chiedere l'anticipo (art. 2, art. 9 e Appendice 5 dell'Avviso). Per Sapienza firma il prof. Roberto Li Voti con la procura speciale del 16/11/2026. Obiettivo: firma entro fine novembre.",
       "chi": "RO Technology (capofila) e tutti i partner",
-      "stato": "da_avviare"
+      "stato": "da_avviare",
+      "nota_interna": "10/11: Sapienza (L. Francescangeli) chiede il contatto del notaio individuato per l'ATS (ipotesi di un unico notaio per i tre progetti), perché il notaio di Sapienza che prepara la procura speciale vuole coordinarsi con lui."
     },
     {
       "data": null,
