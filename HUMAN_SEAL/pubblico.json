@@ -492,21 +492,24 @@
    "categoria": "Documenti di progetto",
    "data": "2025-07-18",
    "stato": "completato",
-   "nota": "firmato digitalmente (p7m) · file in caricamento"
+   "file": "HUMAN_SEAL_proposta_progettuale.pdf"
   },
   {
    "nome": "Comunicazione di concessione del contributo",
    "categoria": "Documenti di progetto",
    "data": "2026-09-24",
    "stato": "completato",
-   "nota": "Lazio Innova, prot. 0033570 · file in caricamento"
+   "nota": "Lazio Innova, prot. 0033570",
+   "file": "HUMAN_SEAL_comunicazione_concessione.pdf"
   },
   {
    "nome": "Piano dei costi approvato",
    "categoria": "Documenti di progetto",
    "data": "2026-10-22",
    "stato": "completato",
-   "nota": "dettaglio da GeCoWEB Plus · file in caricamento"
+   "nota": "dettaglio da GeCoWEB Plus",
+   "file": "HUMAN_SEAL_piano_costi_dettaglio.xlsx",
+   "anteprima": "anteprime/HUMAN_SEAL_piano_costi_dettaglio.html"
   },
   {
    "nome": "Decreto di concessione",

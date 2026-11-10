@@ -417,16 +417,15 @@
       "categoria": "Documenti di progetto",
       "data": "2025-07-17",
       "stato": "completato",
-      "fonte_sharepoint": "TEAM/Documenti condivisi/PROGETTI/PROGETTI IN CORSO/STEP/PRONTI VIA/VIA - Proposta progettuale/ProntiVIA - Formulario.pdf.p7m",
-      "nota": "file in caricamento"
+      "file": "PRONTI_VIA_proposta_progettuale.pdf"
     },
     {
       "nome": "Comunicazione di concessione del contributo",
       "categoria": "Documenti di progetto",
       "data": "2026-10-14",
       "stato": "completato",
-      "fonte_sharepoint": "TEAM/Documenti condivisi/PROGETTI/PROGETTI IN CORSO/STEP/PRONTI VIA/VIA-Antimafia/RICHIESTA REGIONE/A0896-2025-095563 Atto di Concessione.pdf",
-      "nota": "Lazio Innova · file in caricamento"
+      "nota": "Lazio Innova",
+      "file": "PRONTI_VIA_comunicazione_concessione.pdf"
     },
     {
       "nome": "Piano dei costi approvato",
