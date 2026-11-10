@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-11-10T15:45:00+01:00",
+ "aggiornato": "2026-11-10T15:50:00+01:00",
  "fonte": "Fonti: comunicazione di concessione Lazio Innova (prot. LISPA 0033570 del 24/09/2026), Det. G12471 del 15/09/2026 (BURL n. 75 del 17/09/2026, Allegati A e B), formulario/proposta progettuale definitiva (18/07/2025), piano costi approvato da GeCoWEB Plus (estrazione 22/10/2026), corrispondenza di partenariato e PEC (luglio 2025 – ottobre 2026).",
  "progetto": {
   "acronimo": "HS – HumanSeal",
@@ -365,7 +365,7 @@
   {
    "data": "2026-12-16",
    "titolo": "Firma dell'ATS (entro la richiesta dell'anticipo)",
-   "descrizione": "Sottoscrizione del contratto di aggregazione (ATS) da parte di tutti i partner, con atto notarile di costituzione dell'aggregazione, entro il termine per la richiesta dell'anticipo (16/12/2026): l'ATS va trasmessa a Lazio Innova a corredo dell'Atto di Impegno (da trasmettere entro il 25/12/2026) ed è necessaria per finalizzare la polizza fideiussoria e chiedere l'anticipo (art. 2, art. 9 e Appendice 5 dell'Avviso). Per Sapienza firma il prof. Roberto Li Voti con la procura speciale del 16/11/2026. Obiettivo: firma entro fine novembre.",
+   "descrizione": "Sottoscrizione del contratto di aggregazione (ATS) da parte di tutti i partner, con atto notarile di costituzione dell'aggregazione, entro il termine per la richiesta dell'anticipo (16/12/2026): l'ATS va trasmessa a Lazio Innova a corredo dell'Atto di Impegno (da trasmettere entro il 25/12/2026) ed è necessaria per finalizzare la polizza fideiussoria e chiedere l'anticipo (art. 2, art. 9 e Appendice 5 dell'Avviso). Per Sapienza firma il prof. Roberto Li Voti con la procura speciale del 16/11/2026. Obiettivo: firma entro fine novembre; richiesta al notaio la disponibilità per una sessione unica delle tre ATS il 18, 19 o 20/11/2026.",
    "chi": "DEV4U (capofila) e tutti i partner",
    "stato": "da_avviare"
   },
@@ -507,6 +507,11 @@
    "data": "2026-11-10",
    "titolo": "Invio dell'Atto di Impegno",
    "sintesi": "Lazio Innova trasmette via PEC al capofila l'Atto di Impegno (prot. 0041094 del 10/11/2026), dopo l'esito positivo delle verifiche dell'art. 8. Va sottoscritto dalla mandataria e trasmesso entro 45 giorni con l'atto notarile di costituzione dell'aggregazione; ogni impresa deve avere una sede operativa nel Lazio entro la prima richiesta di erogazione."
+  },
+  {
+   "data": "2026-11-10",
+   "titolo": "Richiesta al notaio per la stipula delle ATS",
+   "sintesi": "NOREMA chiede a un notaio, che ha già curato la stipula di un'altra ATS sull'Avviso STEP, preventivo e disponibilità per stipulare in un'unica sessione le ATS dei tre progetti in cui partecipano NOREMA e Sapienza (HS – HumanSeal, PRONTI VIA, SPACE.AI). Date proposte: 18, 19 o 20/11/2026; sede da definire con Sapienza (una sede dell'Università o la sede NOREMA)."
   }
  ],
  "riunioni": [

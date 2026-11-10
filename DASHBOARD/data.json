@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-11-10T15:45:00+01:00",
+ "aggiornato": "2026-11-10T15:50:00+01:00",
  "progetti": [
   {
    "acronimo": "HS – HumanSeal",
@@ -321,10 +321,10 @@
     {
      "data": "2026-12-16",
      "titolo": "Firma dell'ATS (entro la richiesta dell'anticipo)",
-     "descrizione": "Sottoscrizione del contratto di aggregazione (ATS) da parte di tutti i partner, con atto notarile di costituzione dell'aggregazione, entro il termine per la richiesta dell'anticipo (16/12/2026): l'ATS va trasmessa a Lazio Innova a corredo dell'Atto di Impegno (da trasmettere entro il 25/12/2026) ed è necessaria per finalizzare la polizza fideiussoria e chiedere l'anticipo (art. 2, art. 9 e Appendice 5 dell'Avviso). Per Sapienza firma il prof. Roberto Li Voti con la procura speciale del 16/11/2026. Obiettivo: firma entro fine novembre.",
+     "descrizione": "Sottoscrizione del contratto di aggregazione (ATS) da parte di tutti i partner, con atto notarile di costituzione dell'aggregazione, entro il termine per la richiesta dell'anticipo (16/12/2026): l'ATS va trasmessa a Lazio Innova a corredo dell'Atto di Impegno (da trasmettere entro il 25/12/2026) ed è necessaria per finalizzare la polizza fideiussoria e chiedere l'anticipo (art. 2, art. 9 e Appendice 5 dell'Avviso). Per Sapienza firma il prof. Roberto Li Voti con la procura speciale del 16/11/2026. Obiettivo: firma entro fine novembre; richiesta al notaio la disponibilità per una sessione unica delle tre ATS il 18, 19 o 20/11/2026.",
      "chi": "DEV4U (capofila) e tutti i partner",
      "stato": "da_avviare",
-     "nota_interna": "10/11: Sapienza (L. Francescangeli) chiede il contatto del notaio individuato per l'ATS (ipotesi di un unico notaio per i tre progetti), perché il notaio di Sapienza che prepara la procura speciale vuole coordinarsi con lui."
+     "nota_interna": "10/11: Sapienza (L. Francescangeli) chiede il contatto del notaio individuato per l'ATS (ipotesi di un unico notaio per i tre progetti), perché il notaio di Sapienza che prepara la procura speciale vuole coordinarsi con lui. 10/11: NOREMA ha chiesto al notaio S. Lombardo (contatto Microsis) preventivo e disponibilità per stipulare le tre ATS in un'unica sessione il 18, 19 o 20/11."
     },
     {
      "data": "2027-05-17",
@@ -410,7 +410,7 @@
      "stato": "risolta"
     }
    ],
-   "aggiornato": "2026-11-10T15:45:00+01:00"
+   "aggiornato": "2026-11-10T15:50:00+01:00"
   },
   {
    "acronimo": "PRONTI VIA",
@@ -606,18 +606,18 @@
     {
      "data": null,
      "titolo": "Polizza fideiussoria per l'anticipo",
-     "descrizione": "Da avviare: schema di polizza per l'anticipo da predisporre.",
+     "descrizione": "Raccolta della documentazione per il preventivo in corso: il 10/11 il capofila ha trasmesso gli ultimi due bilanci approvati (2024 e 2025) e la documentazione richiesta per la quotazione. La polizza si finalizza dopo la firma dell'ATS.",
      "chi": "RO Technology",
-     "stato": "da_avviare",
-     "nota_interna": "Cartella VIA-Polizza vuota e nessuna email sullo schema di polizza. 04/11: RO Technology (G. Rossi) ha inoltrato a NOREMA un'offerta commerciale non richiesta di Qui Fideiussione per la polizza dell'anticipo, chiedendo un parere sull'opportunità. 05/11: NOREMA ha chiesto a IPTSAT il contatto dell'assicuratore che ha emesso la bozza di polizza SPACE.AI, per richiedere preventivi anche per PRONTI VIA e HumanSeal; IPTSAT ha fornito il riferimento del titolare (contatto preavvisato)."
+     "stato": "in_corso",
+     "nota_interna": "Cartella VIA-Polizza vuota e nessuna email sullo schema di polizza. 04/11: RO Technology (G. Rossi) ha inoltrato a NOREMA un'offerta commerciale non richiesta di Qui Fideiussione per la polizza dell'anticipo, chiedendo un parere sull'opportunità. 05/11: NOREMA ha chiesto a IPTSAT il contatto dell'assicuratore che ha emesso la bozza di polizza SPACE.AI, per richiedere preventivi anche per PRONTI VIA e HumanSeal; IPTSAT ha fornito il riferimento del titolare (contatto preavvisato). 10/11: G. Rossi (RO Technology) ha inviato a NOREMA bilanci 2024-2025 e dichiarazioni dei redditi dei 3 soci (dati personali: non pubblicare), per il preventivo dell'assicuratore."
     },
     {
      "data": "2027-01-06",
      "titolo": "Firma dell'ATS (entro la richiesta dell'anticipo)",
-     "descrizione": "Sottoscrizione del contratto di aggregazione (ATS) da parte di tutti i partner, con firma digitale, entro il termine per la richiesta dell'anticipo (06/01/2027): l'ATS va trasmessa a Lazio Innova a corredo dell'Atto di Impegno ed è necessaria per finalizzare la polizza fideiussoria e chiedere l'anticipo (art. 2, art. 9 e Appendice 5 dell'Avviso). Per Sapienza firma il prof. Roberto Li Voti con la procura speciale del 16/11/2026. Obiettivo: firma entro fine novembre.",
+     "descrizione": "Sottoscrizione del contratto di aggregazione (ATS) da parte di tutti i partner, con firma digitale, entro il termine per la richiesta dell'anticipo (06/01/2027): l'ATS va trasmessa a Lazio Innova a corredo dell'Atto di Impegno ed è necessaria per finalizzare la polizza fideiussoria e chiedere l'anticipo (art. 2, art. 9 e Appendice 5 dell'Avviso). Per Sapienza firma il prof. Roberto Li Voti con la procura speciale del 16/11/2026. Obiettivo: firma entro fine novembre; richiesta al notaio la disponibilità per una sessione unica delle tre ATS il 18, 19 o 20/11/2026.",
      "chi": "RO Technology (capofila) e tutti i partner",
      "stato": "da_avviare",
-     "nota_interna": "10/11: Sapienza (L. Francescangeli) chiede il contatto del notaio individuato per l'ATS (ipotesi di un unico notaio per i tre progetti), perché il notaio di Sapienza che prepara la procura speciale vuole coordinarsi con lui."
+     "nota_interna": "10/11: Sapienza (L. Francescangeli) chiede il contatto del notaio individuato per l'ATS (ipotesi di un unico notaio per i tre progetti), perché il notaio di Sapienza che prepara la procura speciale vuole coordinarsi con lui. 10/11: NOREMA ha chiesto al notaio S. Lombardo (contatto Microsis) preventivo e disponibilità per stipulare le tre ATS in un'unica sessione il 18, 19 o 20/11."
     },
     {
      "data": null,
@@ -682,10 +682,10 @@
     {
      "data": null,
      "titolo": "Polizza fideiussoria da predisporre",
-     "descrizione": "Schema di polizza per l'anticipo ancora da predisporre.",
+     "descrizione": "Preventivo della polizza per l'anticipo in corso di richiesta; la polizza si finalizza dopo la firma dell'ATS.",
      "livello": "media",
      "stato": "aperta",
-     "nota_interna": "Cartella VIA-Polizza vuota."
+     "nota_interna": "Cartella VIA-Polizza vuota. 10/11: documentazione del capofila ricevuta per il preventivo."
     },
     {
      "data": "2026-07-13",
@@ -695,7 +695,7 @@
      "stato": "risolta"
     }
    ],
-   "aggiornato": "2026-11-10T12:50:00+01:00"
+   "aggiornato": "2026-11-10T15:50:00+01:00"
   },
   {
    "acronimo": "SPACE.AI",
@@ -910,10 +910,10 @@
     {
      "data": "2027-01-06",
      "titolo": "Firma dell'ATS (entro la richiesta dell'anticipo)",
-     "descrizione": "Sottoscrizione del contratto di aggregazione (ATS) da parte di tutti i partner, con firma digitale, entro il termine per la richiesta dell'anticipo (06/01/2027): l'ATS va trasmessa a Lazio Innova a corredo dell'Atto di Impegno ed è necessaria per finalizzare la polizza fideiussoria e chiedere l'anticipo (art. 2, art. 9 e Appendice 5 dell'Avviso). Per Sapienza firma il prof. Roberto Li Voti con la procura speciale del 16/11/2026. Obiettivo: firma entro fine novembre. L'ATS prevede che il capofila riceva tutti i pagamenti e li trasferisca ai partner, come indicato dalla tutor il 02/11/2026.",
+     "descrizione": "Sottoscrizione del contratto di aggregazione (ATS) da parte di tutti i partner, con firma digitale, entro il termine per la richiesta dell'anticipo (06/01/2027): l'ATS va trasmessa a Lazio Innova a corredo dell'Atto di Impegno ed è necessaria per finalizzare la polizza fideiussoria e chiedere l'anticipo (art. 2, art. 9 e Appendice 5 dell'Avviso). Per Sapienza firma il prof. Roberto Li Voti con la procura speciale del 16/11/2026. Obiettivo: firma entro fine novembre; richiesta al notaio la disponibilità per una sessione unica delle tre ATS il 18, 19 o 20/11/2026. L'ATS prevede che il capofila riceva tutti i pagamenti e li trasferisca ai partner, come indicato dalla tutor il 02/11/2026.",
      "chi": "IPTSAT (capofila) e tutti i partner",
      "stato": "da_avviare",
-     "nota_interna": "10/11: Sapienza (L. Francescangeli) chiede il contatto del notaio individuato per l'ATS (ipotesi di un unico notaio per i tre progetti), perché il notaio di Sapienza che prepara la procura speciale vuole coordinarsi con lui."
+     "nota_interna": "10/11: Sapienza (L. Francescangeli) chiede il contatto del notaio individuato per l'ATS (ipotesi di un unico notaio per i tre progetti), perché il notaio di Sapienza che prepara la procura speciale vuole coordinarsi con lui. 10/11: NOREMA ha chiesto al notaio S. Lombardo (contatto Microsis) preventivo e disponibilità per stipulare le tre ATS in un'unica sessione il 18, 19 o 20/11."
     },
     {
      "data": null,
@@ -983,7 +983,7 @@
      "nota_interna": "Bozze di email di C. Mirabella del 03/11 per IPTSAT, ReadyLab e Dipartimento SBAI (inviate a Claudia per revisione). Rischio economico: ~52.200 € IPTSAT e ~82.800 € ReadyLab se non risolto. 03/11: risposto a Sapienza sul post-doc (B.1 dipendente; costo standard vs effettivo da chiedere a Lazio Innova)."
     }
    ],
-   "aggiornato": "2026-11-10T12:50:00+01:00"
+   "aggiornato": "2026-11-10T15:50:00+01:00"
   }
  ],
  "tutor": {

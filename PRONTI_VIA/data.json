@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-10T12:50:00+01:00",
+  "aggiornato": "2026-11-10T15:50:00+01:00",
   "fonte": "Fonti: Det. G13392 del 02/10/2026 (BURL n. 81 suppl. 1 del 08/10/2026, Allegati A e B); comunicazione di concessione Lazio Innova (prot. LISPA 0036564 del 14/10/2026); piano costi approvato GeCoWEB Plus (dettaglio del 22/10/2026); formulario presentato (proposta progettuale) e bozza del contratto di aggregazione allegata alla domanda; corrispondenza di partenariato (email Outlook dal 15/07/2025 al 26/10/2026).",
   "progetto": {
     "acronimo": "PRONTI VIA",
@@ -251,18 +251,18 @@
     {
       "data": null,
       "titolo": "Polizza fideiussoria per l'anticipo",
-      "descrizione": "Da avviare: schema di polizza per l'anticipo da predisporre.",
+      "descrizione": "Raccolta della documentazione per il preventivo in corso: il 10/11 il capofila ha trasmesso gli ultimi due bilanci approvati (2024 e 2025) e la documentazione richiesta per la quotazione. La polizza si finalizza dopo la firma dell'ATS.",
       "chi": "RO Technology",
-      "stato": "da_avviare",
-      "nota_interna": "Cartella VIA-Polizza vuota e nessuna email sullo schema di polizza. 04/11: RO Technology (G. Rossi) ha inoltrato a NOREMA un'offerta commerciale non richiesta di Qui Fideiussione per la polizza dell'anticipo, chiedendo un parere sull'opportunità. 05/11: NOREMA ha chiesto a IPTSAT il contatto dell'assicuratore che ha emesso la bozza di polizza SPACE.AI, per richiedere preventivi anche per PRONTI VIA e HumanSeal; IPTSAT ha fornito il riferimento del titolare (contatto preavvisato)."
+      "stato": "in_corso",
+      "nota_interna": "Cartella VIA-Polizza vuota e nessuna email sullo schema di polizza. 04/11: RO Technology (G. Rossi) ha inoltrato a NOREMA un'offerta commerciale non richiesta di Qui Fideiussione per la polizza dell'anticipo, chiedendo un parere sull'opportunità. 05/11: NOREMA ha chiesto a IPTSAT il contatto dell'assicuratore che ha emesso la bozza di polizza SPACE.AI, per richiedere preventivi anche per PRONTI VIA e HumanSeal; IPTSAT ha fornito il riferimento del titolare (contatto preavvisato). 10/11: G. Rossi (RO Technology) ha inviato a NOREMA bilanci 2024-2025 e dichiarazioni dei redditi dei 3 soci (dati personali: non pubblicare), per il preventivo dell'assicuratore."
     },
     {
       "data": "2027-01-06",
       "titolo": "Firma dell'ATS (entro la richiesta dell'anticipo)",
-      "descrizione": "Sottoscrizione del contratto di aggregazione (ATS) da parte di tutti i partner, con firma digitale, entro il termine per la richiesta dell'anticipo (06/01/2027): l'ATS va trasmessa a Lazio Innova a corredo dell'Atto di Impegno ed è necessaria per finalizzare la polizza fideiussoria e chiedere l'anticipo (art. 2, art. 9 e Appendice 5 dell'Avviso). Per Sapienza firma il prof. Roberto Li Voti con la procura speciale del 16/11/2026. Obiettivo: firma entro fine novembre.",
+      "descrizione": "Sottoscrizione del contratto di aggregazione (ATS) da parte di tutti i partner, con firma digitale, entro il termine per la richiesta dell'anticipo (06/01/2027): l'ATS va trasmessa a Lazio Innova a corredo dell'Atto di Impegno ed è necessaria per finalizzare la polizza fideiussoria e chiedere l'anticipo (art. 2, art. 9 e Appendice 5 dell'Avviso). Per Sapienza firma il prof. Roberto Li Voti con la procura speciale del 16/11/2026. Obiettivo: firma entro fine novembre; richiesta al notaio la disponibilità per una sessione unica delle tre ATS il 18, 19 o 20/11/2026.",
       "chi": "RO Technology (capofila) e tutti i partner",
       "stato": "da_avviare",
-      "nota_interna": "10/11: Sapienza (L. Francescangeli) chiede il contatto del notaio individuato per l'ATS (ipotesi di un unico notaio per i tre progetti), perché il notaio di Sapienza che prepara la procura speciale vuole coordinarsi con lui."
+      "nota_interna": "10/11: Sapienza (L. Francescangeli) chiede il contatto del notaio individuato per l'ATS (ipotesi di un unico notaio per i tre progetti), perché il notaio di Sapienza che prepara la procura speciale vuole coordinarsi con lui. 10/11: NOREMA ha chiesto al notaio S. Lombardo (contatto Microsis) preventivo e disponibilità per stipulare le tre ATS in un'unica sessione il 18, 19 o 20/11."
     },
     {
       "data": null,
@@ -327,10 +327,10 @@
     {
       "data": null,
       "titolo": "Polizza fideiussoria da predisporre",
-      "descrizione": "Schema di polizza per l'anticipo ancora da predisporre.",
+      "descrizione": "Preventivo della polizza per l'anticipo in corso di richiesta; la polizza si finalizza dopo la firma dell'ATS.",
       "livello": "media",
       "stato": "aperta",
-      "nota_interna": "Cartella VIA-Polizza vuota."
+      "nota_interna": "Cartella VIA-Polizza vuota. 10/11: documentazione del capofila ricevuta per il preventivo."
     },
     {
       "data": "2026-07-13",
@@ -402,6 +402,18 @@
       "data": "2026-11-09",
       "titolo": "Firmatario dell'ATS per Sapienza",
       "sintesi": "Per Sapienza le ATS dei tre progetti saranno firmate dal prof. Roberto Li Voti, Direttore del Dipartimento SBAI, con procura speciale del Rettore da stipulare il 16/11/2026. Le bozze di ATS sono state aggiornate (rev. 2)."
+    },
+    {
+      "data": "2026-11-10",
+      "titolo": "Richiesta al notaio per la stipula delle ATS",
+      "sintesi": "NOREMA chiede a un notaio, che ha già curato la stipula di un'altra ATS sull'Avviso STEP, preventivo e disponibilità per stipulare in un'unica sessione le ATS dei tre progetti in cui partecipano NOREMA e Sapienza (HS – HumanSeal, PRONTI VIA, SPACE.AI). Date proposte: 18, 19 o 20/11/2026; sede da definire con Sapienza (una sede dell'Università o la sede NOREMA).",
+      "nota_interna": "Email di Claudia al notaio Stefano Lombardo (stefano.lombardo@notariato.it) del 10/11 alle 13:35, cc L. Ciampi, con le tre bozze di ATS e le determine G12471 e G13392; contatto fornito da Microsis. Nella stessa email chiesto anche il preventivo per la costituzione dell'associazione QUINTA. In attesa di risposta; contatto da girare a Sapienza (richiesta L. Francescangeli)."
+    },
+    {
+      "data": "2026-11-10",
+      "titolo": "Documentazione per il preventivo della polizza fideiussoria",
+      "sintesi": "Il capofila trasmette gli ultimi due bilanci approvati e la documentazione richiesta per il preventivo della polizza fideiussoria per l'anticipo, e propone un incontro a breve per programmare le attività di progetto.",
+      "nota_interna": "Thread «Fideiussione anticipo progetto Pronti Via» con G. Rossi (10/11, 13:16–15:36). G. Rossi chiede quando va firmata la procura per l'ATS (per avvisare Roberto di RO Technology): risposta da dare. Proposto incontro con Domenico per programmare le attività. Nota: alle 14:40 le credenziali della pagina partner sono state inviate in chiaro per email."
     }
   ],
   "riunioni": [

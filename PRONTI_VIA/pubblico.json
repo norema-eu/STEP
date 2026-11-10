@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-11-10T12:50:00+01:00",
+ "aggiornato": "2026-11-10T15:50:00+01:00",
  "fonte": "Fonti: Det. G13392 del 02/10/2026 (BURL n. 81 suppl. 1 del 08/10/2026, Allegati A e B); comunicazione di concessione Lazio Innova (prot. LISPA 0036564 del 14/10/2026); piano costi approvato GeCoWEB Plus (dettaglio del 22/10/2026); formulario presentato (proposta progettuale) e bozza del contratto di aggregazione allegata alla domanda; corrispondenza di partenariato (email Outlook dal 15/07/2025 al 26/10/2026).",
  "progetto": {
   "acronimo": "PRONTI VIA",
@@ -250,14 +250,14 @@
   {
    "data": null,
    "titolo": "Polizza fideiussoria per l'anticipo",
-   "descrizione": "Da avviare: schema di polizza per l'anticipo da predisporre.",
+   "descrizione": "Raccolta della documentazione per il preventivo in corso: il 10/11 il capofila ha trasmesso gli ultimi due bilanci approvati (2024 e 2025) e la documentazione richiesta per la quotazione. La polizza si finalizza dopo la firma dell'ATS.",
    "chi": "RO Technology",
-   "stato": "da_avviare"
+   "stato": "in_corso"
   },
   {
    "data": "2027-01-06",
    "titolo": "Firma dell'ATS (entro la richiesta dell'anticipo)",
-   "descrizione": "Sottoscrizione del contratto di aggregazione (ATS) da parte di tutti i partner, con firma digitale, entro il termine per la richiesta dell'anticipo (06/01/2027): l'ATS va trasmessa a Lazio Innova a corredo dell'Atto di Impegno ed è necessaria per finalizzare la polizza fideiussoria e chiedere l'anticipo (art. 2, art. 9 e Appendice 5 dell'Avviso). Per Sapienza firma il prof. Roberto Li Voti con la procura speciale del 16/11/2026. Obiettivo: firma entro fine novembre.",
+   "descrizione": "Sottoscrizione del contratto di aggregazione (ATS) da parte di tutti i partner, con firma digitale, entro il termine per la richiesta dell'anticipo (06/01/2027): l'ATS va trasmessa a Lazio Innova a corredo dell'Atto di Impegno ed è necessaria per finalizzare la polizza fideiussoria e chiedere l'anticipo (art. 2, art. 9 e Appendice 5 dell'Avviso). Per Sapienza firma il prof. Roberto Li Voti con la procura speciale del 16/11/2026. Obiettivo: firma entro fine novembre; richiesta al notaio la disponibilità per una sessione unica delle tre ATS il 18, 19 o 20/11/2026.",
    "chi": "RO Technology (capofila) e tutti i partner",
    "stato": "da_avviare"
   },
@@ -308,7 +308,7 @@
   {
    "data": null,
    "titolo": "Polizza fideiussoria da predisporre",
-   "descrizione": "Schema di polizza per l'anticipo ancora da predisporre.",
+   "descrizione": "Preventivo della polizza per l'anticipo in corso di richiesta; la polizza si finalizza dopo la firma dell'ATS.",
    "livello": "media",
    "stato": "aperta"
   },
@@ -380,6 +380,16 @@
    "data": "2026-11-09",
    "titolo": "Firmatario dell'ATS per Sapienza",
    "sintesi": "Per Sapienza le ATS dei tre progetti saranno firmate dal prof. Roberto Li Voti, Direttore del Dipartimento SBAI, con procura speciale del Rettore da stipulare il 16/11/2026. Le bozze di ATS sono state aggiornate (rev. 2)."
+  },
+  {
+   "data": "2026-11-10",
+   "titolo": "Richiesta al notaio per la stipula delle ATS",
+   "sintesi": "NOREMA chiede a un notaio, che ha già curato la stipula di un'altra ATS sull'Avviso STEP, preventivo e disponibilità per stipulare in un'unica sessione le ATS dei tre progetti in cui partecipano NOREMA e Sapienza (HS – HumanSeal, PRONTI VIA, SPACE.AI). Date proposte: 18, 19 o 20/11/2026; sede da definire con Sapienza (una sede dell'Università o la sede NOREMA)."
+  },
+  {
+   "data": "2026-11-10",
+   "titolo": "Documentazione per il preventivo della polizza fideiussoria",
+   "sintesi": "Il capofila trasmette gli ultimi due bilanci approvati e la documentazione richiesta per il preventivo della polizza fideiussoria per l'anticipo, e propone un incontro a breve per programmare le attività di progetto."
   }
  ],
  "riunioni": [
