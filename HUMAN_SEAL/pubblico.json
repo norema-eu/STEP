@@ -1,10 +1,10 @@
 {
- "aggiornato": "2026-11-10T12:50:00+01:00",
+ "aggiornato": "2026-11-10T15:45:00+01:00",
  "fonte": "Fonti: comunicazione di concessione Lazio Innova (prot. LISPA 0033570 del 24/09/2026), Det. G12471 del 15/09/2026 (BURL n. 75 del 17/09/2026, Allegati A e B), formulario/proposta progettuale definitiva (18/07/2025), piano costi approvato da GeCoWEB Plus (estrazione 22/10/2026), corrispondenza di partenariato e PEC (luglio 2025 – ottobre 2026).",
  "progetto": {
   "acronimo": "HS – HumanSeal",
   "titolo": "HumanSeal – Human Source Authentication Layer",
-  "stato": "Ammesso a contributo · antimafia trasmessa il 02/10/2026, in attesa dell'atto di concessione",
+  "stato": "Ammesso a contributo · verifiche art. 8 concluse · Atto di Impegno ricevuto il 10/11/2026, da sottoscrivere entro il 25/12/2026",
   "cup": "F89J26001110007",
   "protocollo": "A0896-2025-095547",
   "concessione": "Det. G12471 · BURL 75/2026",
@@ -15,7 +15,7 @@
   "data_avvio": null,
   "data_inizio": "2026-09-17",
   "sintesi": "HumanSeal sviluppa una piattaforma per l'analisi dell'autenticità dei testi digitali e la certificazione della loro origine umana, distinguendo i testi scritti da persone da quelli generati da modelli di intelligenza artificiale. Il sistema combina NLP, AI explainable, fingerprinting stilistico e segnali semantici in un punteggio di \"umanità\" (HumanSeal Index), con API, dashboard web, certificazione on-chain e integrazione nei flussi documentali della PA (SPID, firma digitale, eIDAS). Il progetto porta la tecnologia da TRL 3 a TRL 7 con validazione in contesti reali (PA, redazioni, enti di formazione).",
-  "periodo": "Durata 24 mesi. L'atto di concessione sarà emesso dalla Regione dopo le verifiche antimafia; il cronoprogramma diventa operativo con la sottoscrizione dell'Atto di Impegno.",
+  "periodo": "Durata 24 mesi dalla Data di Concessione (17/09/2026, pubblicazione sul BURL della Det. G12471): progetto concluso e saldo richiesto entro il 17/09/2028 (art. 3 Atto di Impegno).",
   "tema": "arancione"
  },
  "budget": {
@@ -342,11 +342,11 @@
    "stato": "in_corso"
   },
   {
-   "data": null,
-   "titolo": "Atto di concessione",
-   "descrizione": "Emesso dalla Regione Lazio al termine delle verifiche antimafia.",
-   "chi": "Regione Lazio / Lazio Innova",
-   "stato": "da_avviare"
+   "data": "2026-09-17",
+   "titolo": "Data di Concessione",
+   "descrizione": "Det. G12471 del 15/09/2026 pubblicata sul BURL n. 75 del 17/09/2026: per l'Atto di Impegno è la Data di Concessione da cui decorrono anticipo (90 giorni), SAL (8 e 16 mesi) e saldo (24 mesi). Con la lettera prot. 0041094 Lazio Innova conferma l'esito positivo delle verifiche dell'art. 8.",
+   "chi": "Regione Lazio",
+   "stato": "completato"
   },
   {
    "data": "2026-12-25",
@@ -356,9 +356,9 @@
    "stato": "in_corso"
   },
   {
-   "data": null,
-   "titolo": "Fine progetto e rendicontazione finale",
-   "descrizione": "Entro 24 mesi dalla data di concessione, salvo proroghe.",
+   "data": "2028-09-17",
+   "titolo": "Conclusione del progetto e richiesta di saldo",
+   "descrizione": "Progetto concluso e richiesta di erogazione a saldo con la rendicontazione finale di ogni beneficiario entro il 17/09/2028 (24 mesi dalla Data di Concessione; art. 3 Atto di Impegno, art. 1 Avviso).",
    "chi": "Tutti i partner",
    "stato": "da_avviare"
   },
@@ -368,9 +368,44 @@
    "descrizione": "Sottoscrizione del contratto di aggregazione (ATS) da parte di tutti i partner, con atto notarile di costituzione dell'aggregazione, entro il termine per la richiesta dell'anticipo (16/12/2026): l'ATS va trasmessa a Lazio Innova a corredo dell'Atto di Impegno (da trasmettere entro il 25/12/2026) ed è necessaria per finalizzare la polizza fideiussoria e chiedere l'anticipo (art. 2, art. 9 e Appendice 5 dell'Avviso). Per Sapienza firma il prof. Roberto Li Voti con la procura speciale del 16/11/2026. Obiettivo: firma entro fine novembre.",
    "chi": "DEV4U (capofila) e tutti i partner",
    "stato": "da_avviare"
+  },
+  {
+   "data": "2027-05-17",
+   "titolo": "1° SAL obbligatorio",
+   "descrizione": "Richiesta di erogazione a SAL entro 8 mesi dalla Data di Concessione (art. 9 Avviso; art. 6 Atto di Impegno). Anticipo e SAL insieme non possono superare l'80% del contributo.",
+   "chi": "DEV4U (mandataria) con la rendicontazione di tutti i partner",
+   "stato": "da_avviare"
+  },
+  {
+   "data": "2028-01-17",
+   "titolo": "2° SAL obbligatorio",
+   "descrizione": "Richiesta di erogazione a SAL entro 16 mesi dalla Data di Concessione: costi rendicontati complessivamente almeno pari al 40% dei costi ammessi (art. 9 Avviso).",
+   "chi": "DEV4U (mandataria) con la rendicontazione di tutti i partner",
+   "stato": "da_avviare"
+  },
+  {
+   "data": "2027-02-09",
+   "titolo": "Obblighi di pubblicità",
+   "descrizione": "Entro 3 mesi dall'invio dell'Atto di Impegno: descrizione del progetto con i loghi dei finanziatori sul sito di ciascun beneficiario e poster A3 nella sede in cui si svolge il progetto (art. 4 Atto di Impegno). Data indicativa, da ricalcolare sulla data effettiva di invio dell'Atto.",
+   "chi": "Tutti i partner",
+   "stato": "da_avviare"
+  },
+  {
+   "data": "2026-12-16",
+   "titolo": "Conto corrente dedicato",
+   "descrizione": "Ogni beneficiario compila e firma il modulo del conto corrente dedicato al progetto (tracciabilità, L. 136/2010), da allegare all'Atto di Impegno.",
+   "chi": "Tutti i partner",
+   "stato": "da_avviare"
   }
  ],
  "criticita": [
+  {
+   "data": "2026-11-10",
+   "titolo": "Forma del contratto di aggregazione (ATS)",
+   "descrizione": "La lettera di Lazio Innova del 10/11/2026 chiede di allegare all'Atto di Impegno l'atto notarile di costituzione dell'aggregazione; l'Appendice 5 dell'Avviso richiede la forma scritta con firme che autentichino i sottoscrittori. Da chiarire con la tutor se basta la firma digitale di tutti i partner o serve il notaio, perché incide su tempi e costi della firma.",
+   "livello": "alta",
+   "stato": "aperta"
+  },
   {
    "data": "2026-10-28",
    "titolo": "Polizza fideiussoria da finalizzare",
@@ -514,8 +549,9 @@
   {
    "nome": "Decreto di concessione",
    "categoria": "Documenti di progetto",
-   "stato": "da_avviare",
-   "nota": "emesso dalla Regione dopo le verifiche antimafia"
+   "stato": "completato",
+   "nota": "Det. G12471 del 15/09/2026 (BURL n. 75 del 17/09/2026); la Data di Concessione è il 17/09/2026",
+   "data": "2026-09-17"
   },
   {
    "nome": "Contratto di aggregazione (ATS) – bozza rev. 2",
@@ -839,43 +875,25 @@
       "ore_totali": 410
      },
      {
+      "nome": "Claudio Pezzotta",
+      "ruolo": "Managing Director, esperto produzione A/V",
+      "inquadramento": "fascia bassa",
+      "ore_per_wp": {},
+      "ore_totali": 450
+     },
+     {
       "nome": "Andrea Alunno Minciotti",
       "ruolo": "CTO, esperto sistemi web multimediali",
       "inquadramento": "fascia bassa",
-      "ore_per_wp": {
-       "WP4": 400,
-       "WP5": 50
-      },
-      "ore_totali": 450
+      "ore_per_wp": {},
+      "ore_totali": 800
      },
      {
       "nome": "Tamer Hayek",
       "ruolo": "Full-stack developer (React, Svelte)",
       "inquadramento": "fascia bassa",
-      "ore_per_wp": {
-       "WP4": 800
-      },
-      "ore_totali": 800
-     },
-     {
-      "nome": "Claudio Pezzotta",
-      "ruolo": "Managing Director, esperto produzione A/V",
-      "inquadramento": "fascia bassa",
-      "ore_per_wp": {
-       "WP4": 600
-      },
-      "ore_totali": 600
-     },
-     {
-      "nome": "Ore da attribuire",
-      "ruolo": "ore del piano dei costi non ripartite per persona nel formulario (WP2–WP3)",
-      "inquadramento": "",
       "ore_per_wp": {},
-      "ore_totali": 60,
-      "wp_residuo": [
-       "WP2",
-       "WP3"
-      ]
+      "ore_totali": 660
      }
     ],
     "ore_totali": 2320

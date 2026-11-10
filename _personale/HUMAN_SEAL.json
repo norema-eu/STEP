@@ -1,359 +1,341 @@
 {
- "progetto": "HUMAN_SEAL",
- "fonte": "Formulario presentato, Tab. 3 «Impegno delle risorse umane valorizzate a tempo uomo» dei WP1, WP4 e WP5, verificata con i costi ammessi per partner. Le ore dei WP2 e WP3 non ripartite per persona sono indicate come «Ore da attribuire»; il dettaglio sarà completato.",
- "partner": [
-  {
-   "nome": "DEV4U S.r.l.s.",
-   "persone": [
+  "progetto": "HUMAN_SEAL",
+  "fonte": "Formulario presentato, Tab. 3 «Impegno delle risorse umane valorizzate a tempo uomo» dei WP1, WP4 e WP5, verificata con i costi ammessi per partner. Le ore dei WP2 e WP3 non ripartite per persona sono indicate come «Ore da attribuire»; il dettaglio sarà completato.",
+  "partner": [
     {
-     "nome": "Dario Berardi",
-     "ruolo": "Project manager (coordinatore); nel WP1 scritto 'Dario Bernardi'",
-     "inquadramento": "fascia bassa",
-     "ore_per_wp": {
-      "WP1": 80,
-      "WP4": 300
-     },
-     "ore_totali": 380
+      "nome": "DEV4U S.r.l.s.",
+      "persone": [
+        {
+          "nome": "Dario Berardi",
+          "ruolo": "Project manager (coordinatore); nel WP1 scritto 'Dario Bernardi'",
+          "inquadramento": "fascia bassa",
+          "ore_per_wp": {
+            "WP1": 80,
+            "WP4": 300
+          },
+          "ore_totali": 380
+        },
+        {
+          "nome": "Maurizio Patitucci",
+          "ruolo": "UI/UX Designer",
+          "inquadramento": "fascia bassa",
+          "ore_per_wp": {
+            "WP4": 300,
+            "WP5": 100
+          },
+          "ore_totali": 400
+        },
+        {
+          "nome": "Roberto Paris",
+          "ruolo": "Developer full-stack",
+          "inquadramento": "fascia bassa",
+          "ore_per_wp": {
+            "WP1": 40,
+            "WP4": 250
+          },
+          "ore_totali": 290
+        },
+        {
+          "nome": "Sara Tomasso",
+          "ruolo": "Esperta in comunicazione",
+          "inquadramento": "fascia bassa",
+          "ore_per_wp": {
+            "WP5": 300
+          },
+          "ore_totali": 300
+        },
+        {
+          "nome": "Álvarez González",
+          "ruolo": "Project Manager e Business Analyst (nel WP1 la stessa riga è intestata 'Berardi Daniele')",
+          "inquadramento": "fascia bassa",
+          "ore_per_wp": {
+            "WP4": 300
+          },
+          "ore_totali": 300
+        },
+        {
+          "nome": "Álvaro Juan Travieso García",
+          "ruolo": "Project Manager con focus innovazione tecnologica / ML (ruolo incerto)",
+          "inquadramento": "fascia bassa",
+          "ore_per_wp": {
+            "WP4": 300
+          },
+          "ore_totali": 300
+        },
+        {
+          "nome": "Fabio Oresti",
+          "ruolo": "Machine Learning Engineer / PM (ruolo incerto)",
+          "inquadramento": "fascia bassa",
+          "ore_per_wp": {
+            "WP4": 150
+          },
+          "ore_totali": 150
+        },
+        {
+          "nome": "Ore da attribuire",
+          "ruolo": "ore del piano dei costi non ripartite per persona nel formulario (WP2–WP3)",
+          "inquadramento": "",
+          "ore_per_wp": {},
+          "ore_totali": 760,
+          "wp_residuo": [
+            "WP2",
+            "WP3"
+          ]
+        }
+      ],
+      "verifica": "Tab. 3 leggibili (WP1, WP4, WP5): 2.120 h × 30 = € 63.600. Costo ammesso data.json € 103.680 → personale € 86.400 = 2.880 h: residuo 760 h per WP2+WP3. Il formulario (Tab. 6, colonna DEV4U) riporta invece B.1.1 € 74.400 = 2.480 h (residuo 360 h): differenza di € 12.000 tra formulario e importo ammesso da verificare. Piano costi riga per riga non disponibile.",
+      "ore_totali": 2880
     },
     {
-     "nome": "Maurizio Patitucci",
-     "ruolo": "UI/UX Designer",
-     "inquadramento": "fascia bassa",
-     "ore_per_wp": {
-      "WP4": 300,
-      "WP5": 100
-     },
-     "ore_totali": 400
+      "nome": "Università di Roma \"La Sapienza\" – SBAI",
+      "persone": [
+        {
+          "nome": "Roberto Li Voti",
+          "ruolo": "Professore ordinario",
+          "inquadramento": "fascia alta",
+          "ore_per_wp": {
+            "WP4": 30,
+            "WP5": 50
+          },
+          "ore_totali": 80
+        },
+        {
+          "nome": "Domenico Vitulano",
+          "ruolo": "Professore associato, responsabile scientifico",
+          "inquadramento": "fascia media",
+          "ore_per_wp": {
+            "WP1": 60,
+            "WP4": 160,
+            "WP5": 120
+          },
+          "ore_totali": 340
+        },
+        {
+          "nome": "Vittoria Bruni",
+          "ruolo": "Professoressa associata",
+          "inquadramento": "fascia media",
+          "ore_per_wp": {
+            "WP4": 120,
+            "WP5": 80
+          },
+          "ore_totali": 200
+        },
+        {
+          "nome": "Giuseppe Zollo",
+          "ruolo": "Professore associato",
+          "inquadramento": "fascia media",
+          "ore_per_wp": {
+            "WP4": 100,
+            "WP5": 60
+          },
+          "ore_totali": 160
+        },
+        {
+          "nome": "Anna Vidotto",
+          "ruolo": "Ricercatrice",
+          "inquadramento": "fascia bassa (valorizzata a 30 €/h, tariffa imprese)",
+          "ore_per_wp": {
+            "WP4": 30,
+            "WP5": 50
+          },
+          "ore_totali": 80
+        }
+      ],
+      "verifica": "Tab. 3 leggibili: WP1 € 3.180 + WP4 € 23.470 + WP5 € 19.330 = € 45.980 (fascia alta 80 h × 81, fascia media 600 h × 53, Vidotto 80 h × 30). B.1.1 ammesso € 73.230 (= Tab. 6 formulario): residuo € 27.250 per WP2+WP3, non convertibile in ore senza la ripartizione per fascia.",
+      "ore_totali": 860
     },
     {
-     "nome": "Roberto Paris",
-     "ruolo": "Developer full-stack",
-     "inquadramento": "fascia bassa",
-     "ore_per_wp": {
-      "WP1": 40,
-      "WP4": 250
-     },
-     "ore_totali": 290
+      "nome": "NOREMA S.r.l.",
+      "persone": [
+        {
+          "nome": "Claudia Abatecola",
+          "ruolo": "Esperta progettazione e gestione fondi europei",
+          "inquadramento": "fascia bassa",
+          "ore_per_wp": {
+            "WP1": 60,
+            "WP4": 120,
+            "WP5": 600
+          },
+          "ore_totali": 780
+        },
+        {
+          "nome": "Chiara Mirabella",
+          "ruolo": "Responsabile amministrativa e project manager",
+          "inquadramento": "fascia bassa",
+          "ore_per_wp": {
+            "WP4": 40,
+            "WP5": 500
+          },
+          "ore_totali": 540
+        },
+        {
+          "nome": "Valentina Caldarera",
+          "ruolo": "Junior PM, digitale e rendicontazione PNRR",
+          "inquadramento": "fascia bassa",
+          "ore_per_wp": {
+            "WP4": 40,
+            "WP5": 100
+          },
+          "ore_totali": 140
+        },
+        {
+          "nome": "Ore da attribuire",
+          "ruolo": "ore del piano dei costi non ripartite per persona nel formulario (WP2–WP3)",
+          "inquadramento": "",
+          "ore_per_wp": {},
+          "ore_totali": 1050,
+          "wp_residuo": [
+            "WP2",
+            "WP3"
+          ]
+        }
+      ],
+      "verifica": "Tab. 3 leggibili: 1.460 h × 30 = € 43.800. Piano GeCoWEB B.1.1 € 75.300 = 2.510 h (righe 42.900 / 26.700 / 5.700 = 1.430 / 890 / 190 h): residuo 1.050 h per WP2+WP3. Abbinamento ipotizzato (come _norema/estrazione.json): Abatecola 1.430 h (residuo 650), Mirabella 890 h (residuo 350), Caldarera 190 h (residuo 50).",
+      "ore_totali": 2510
     },
     {
-     "nome": "Sara Tomasso",
-     "ruolo": "Esperta in comunicazione",
-     "inquadramento": "fascia bassa",
-     "ore_per_wp": {
-      "WP5": 300
-     },
-     "ore_totali": 300
+      "nome": "Microsis S.r.l.",
+      "persone": [
+        {
+          "nome": "Andrea Morviducci",
+          "ruolo": "Capo progetto software e sistemi complessi",
+          "inquadramento": "fascia bassa",
+          "ore_per_wp": {
+            "WP1": 60,
+            "WP4": 600
+          },
+          "ore_totali": 660
+        },
+        {
+          "nome": "Claudio Serrano",
+          "ruolo": "Developer web/mobile e sistemi gestionali",
+          "inquadramento": "fascia bassa",
+          "ore_per_wp": {
+            "WP4": 320
+          },
+          "ore_totali": 320
+        },
+        {
+          "nome": "Maurizio Bevilacqua",
+          "ruolo": "Capo progetto software e fondi europei",
+          "inquadramento": "fascia bassa",
+          "ore_per_wp": {
+            "WP4": 140,
+            "WP5": 300
+          },
+          "ore_totali": 440
+        },
+        {
+          "nome": "Paolo Valerio",
+          "ruolo": "Analista software per PA e startup innovative",
+          "inquadramento": "fascia bassa",
+          "ore_per_wp": {
+            "WP4": 140
+          },
+          "ore_totali": 140
+        },
+        {
+          "nome": "Ore da attribuire",
+          "ruolo": "ore del piano dei costi non ripartite per persona nel formulario (WP2–WP3)",
+          "inquadramento": "",
+          "ore_per_wp": {},
+          "ore_totali": 800,
+          "wp_residuo": [
+            "WP2",
+            "WP3"
+          ]
+        }
+      ],
+      "verifica": "Tab. 3 leggibili: 1.560 h × 30 = € 46.800. B.1.1 ammesso € 70.800 (= Tab. 6) = 2.360 h: residuo 800 h per WP2+WP3.",
+      "ore_totali": 2360
     },
     {
-     "nome": "Álvarez González",
-     "ruolo": "Project Manager e Business Analyst (nel WP1 la stessa riga è intestata 'Berardi Daniele')",
-     "inquadramento": "fascia bassa",
-     "ore_per_wp": {
-      "WP4": 300
-     },
-     "ore_totali": 300
+      "nome": "Main Project S.r.l.",
+      "persone": [
+        {
+          "nome": "Fabrizio Batori",
+          "ruolo": "Esperto IoT, AR/VR, UX e smart cities",
+          "inquadramento": "fascia bassa",
+          "ore_per_wp": {
+            "WP1": 60,
+            "WP4": 500,
+            "WP5": 200
+          },
+          "ore_totali": 760
+        },
+        {
+          "nome": "Silvia Cerreti",
+          "ruolo": "Esperta gestione progetti e finanza UE",
+          "inquadramento": "fascia bassa",
+          "ore_per_wp": {
+            "WP4": 700,
+            "WP5": 100
+          },
+          "ore_totali": 800
+        },
+        {
+          "nome": "Alessio Giannini",
+          "ruolo": "Ricercatore AI, big data e modelli predittivi",
+          "inquadramento": "fascia bassa",
+          "ore_per_wp": {
+            "WP4": 700,
+            "WP5": 100
+          },
+          "ore_totali": 800
+        }
+      ],
+      "verifica": "Tab. 3 leggibili: 2.360 h × 30 = € 70.800 = Tab. 6 del formulario (B.1.1 € 70.800), quindi nel formulario Main Project non ha ore in WP2/WP3. Il costo ammesso in data.json (€ 77.760 → personale € 64.800 = 2.160 h) è inferiore di 200 h / € 6.000: NON coerente con il formulario; probabile taglio in istruttoria, da verificare sulla comunicazione di concessione. Alessio Mancini (smart contract, indicato in §5 e data.json) non compare in Tab. 3.",
+      "ore_totali": 2360
     },
     {
-     "nome": "Álvaro Juan Travieso García",
-     "ruolo": "Project Manager con focus innovazione tecnologica / ML (ruolo incerto)",
-     "inquadramento": "fascia bassa",
-     "ore_per_wp": {
-      "WP4": 300
-     },
-     "ore_totali": 300
-    },
-    {
-     "nome": "Fabio Oresti",
-     "ruolo": "Machine Learning Engineer / PM (ruolo incerto)",
-     "inquadramento": "fascia bassa",
-     "ore_per_wp": {
-      "WP4": 150
-     },
-     "ore_totali": 150
-    },
-    {
-     "nome": "Ore da attribuire",
-     "ruolo": "ore del piano dei costi non ripartite per persona nel formulario (WP2–WP3)",
-     "inquadramento": "",
-     "ore_per_wp": {},
-     "ore_totali": 760,
-     "wp_residuo": [
-      "WP2",
-      "WP3"
-     ]
+      "nome": "Olympos Hub S.r.l.",
+      "persone": [
+        {
+          "nome": "Sandy Gasperoni",
+          "ruolo": "Amministratrice, esperta contenuti educativi",
+          "inquadramento": "fascia bassa",
+          "ore_per_wp": {
+            "WP1": 60,
+            "WP5": 350
+          },
+          "ore_totali": 410
+        },
+        {
+          "nome": "Claudio Pezzotta",
+          "ruolo": "Managing Director, esperto produzione A/V",
+          "inquadramento": "fascia bassa",
+          "ore_per_wp": {},
+          "ore_totali": 450
+        },
+        {
+          "nome": "Andrea Alunno Minciotti",
+          "ruolo": "CTO, esperto sistemi web multimediali",
+          "inquadramento": "fascia bassa",
+          "ore_per_wp": {},
+          "ore_totali": 800
+        },
+        {
+          "nome": "Tamer Hayek",
+          "ruolo": "Full-stack developer (React, Svelte)",
+          "inquadramento": "fascia bassa",
+          "ore_per_wp": {},
+          "ore_totali": 660
+        }
+      ],
+      "verifica": "Ore per persona allineate al piano dei costi GeCoWEB Plus (B.1.1, 30 €/h): Gasperoni 410 h (€ 12.300), Pezzotta 450 h (€ 13.500), Alunno Minciotti 800 h (€ 24.000), Hayek 660 h (€ 19.800); totale 2.320 h = € 69.600. Segnalazione di Olympos Hub del 10/11/2026. Ripartizione per WP da acquisire (resta solo quella di Gasperoni dal formulario).",
+      "ore_totali": 2320
     }
-   ],
-   "verifica": "Tab. 3 leggibili (WP1, WP4, WP5): 2.120 h × 30 = € 63.600. Costo ammesso data.json € 103.680 → personale € 86.400 = 2.880 h: residuo 760 h per WP2+WP3. Il formulario (Tab. 6, colonna DEV4U) riporta invece B.1.1 € 74.400 = 2.480 h (residuo 360 h): differenza di € 12.000 tra formulario e importo ammesso da verificare. Piano costi riga per riga non disponibile.",
-   "ore_totali": 2880
-  },
-  {
-   "nome": "Università di Roma \"La Sapienza\" – SBAI",
-   "persone": [
-    {
-     "nome": "Roberto Li Voti",
-     "ruolo": "Professore ordinario",
-     "inquadramento": "fascia alta",
-     "ore_per_wp": {
-      "WP4": 30,
-      "WP5": 50
-     },
-     "ore_totali": 80
-    },
-    {
-     "nome": "Domenico Vitulano",
-     "ruolo": "Professore associato, responsabile scientifico",
-     "inquadramento": "fascia media",
-     "ore_per_wp": {
-      "WP1": 60,
-      "WP4": 160,
-      "WP5": 120
-     },
-     "ore_totali": 340
-    },
-    {
-     "nome": "Vittoria Bruni",
-     "ruolo": "Professoressa associata",
-     "inquadramento": "fascia media",
-     "ore_per_wp": {
-      "WP4": 120,
-      "WP5": 80
-     },
-     "ore_totali": 200
-    },
-    {
-     "nome": "Giuseppe Zollo",
-     "ruolo": "Professore associato",
-     "inquadramento": "fascia media",
-     "ore_per_wp": {
-      "WP4": 100,
-      "WP5": 60
-     },
-     "ore_totali": 160
-    },
-    {
-     "nome": "Anna Vidotto",
-     "ruolo": "Ricercatrice",
-     "inquadramento": "fascia bassa (valorizzata a 30 €/h, tariffa imprese)",
-     "ore_per_wp": {
-      "WP4": 30,
-      "WP5": 50
-     },
-     "ore_totali": 80
-    }
-   ],
-   "verifica": "Tab. 3 leggibili: WP1 € 3.180 + WP4 € 23.470 + WP5 € 19.330 = € 45.980 (fascia alta 80 h × 81, fascia media 600 h × 53, Vidotto 80 h × 30). B.1.1 ammesso € 73.230 (= Tab. 6 formulario): residuo € 27.250 per WP2+WP3, non convertibile in ore senza la ripartizione per fascia.",
-   "ore_totali": 860
-  },
-  {
-   "nome": "NOREMA S.r.l.",
-   "persone": [
-    {
-     "nome": "Claudia Abatecola",
-     "ruolo": "Esperta progettazione e gestione fondi europei",
-     "inquadramento": "fascia bassa",
-     "ore_per_wp": {
-      "WP1": 60,
-      "WP4": 120,
-      "WP5": 600
-     },
-     "ore_totali": 780
-    },
-    {
-     "nome": "Chiara Mirabella",
-     "ruolo": "Responsabile amministrativa e project manager",
-     "inquadramento": "fascia bassa",
-     "ore_per_wp": {
-      "WP4": 40,
-      "WP5": 500
-     },
-     "ore_totali": 540
-    },
-    {
-     "nome": "Valentina Caldarera",
-     "ruolo": "Junior PM, digitale e rendicontazione PNRR",
-     "inquadramento": "fascia bassa",
-     "ore_per_wp": {
-      "WP4": 40,
-      "WP5": 100
-     },
-     "ore_totali": 140
-    },
-    {
-     "nome": "Ore da attribuire",
-     "ruolo": "ore del piano dei costi non ripartite per persona nel formulario (WP2–WP3)",
-     "inquadramento": "",
-     "ore_per_wp": {},
-     "ore_totali": 1050,
-     "wp_residuo": [
-      "WP2",
-      "WP3"
-     ]
-    }
-   ],
-   "verifica": "Tab. 3 leggibili: 1.460 h × 30 = € 43.800. Piano GeCoWEB B.1.1 € 75.300 = 2.510 h (righe 42.900 / 26.700 / 5.700 = 1.430 / 890 / 190 h): residuo 1.050 h per WP2+WP3. Abbinamento ipotizzato (come _norema/estrazione.json): Abatecola 1.430 h (residuo 650), Mirabella 890 h (residuo 350), Caldarera 190 h (residuo 50).",
-   "ore_totali": 2510
-  },
-  {
-   "nome": "Microsis S.r.l.",
-   "persone": [
-    {
-     "nome": "Andrea Morviducci",
-     "ruolo": "Capo progetto software e sistemi complessi",
-     "inquadramento": "fascia bassa",
-     "ore_per_wp": {
-      "WP1": 60,
-      "WP4": 600
-     },
-     "ore_totali": 660
-    },
-    {
-     "nome": "Claudio Serrano",
-     "ruolo": "Developer web/mobile e sistemi gestionali",
-     "inquadramento": "fascia bassa",
-     "ore_per_wp": {
-      "WP4": 320
-     },
-     "ore_totali": 320
-    },
-    {
-     "nome": "Maurizio Bevilacqua",
-     "ruolo": "Capo progetto software e fondi europei",
-     "inquadramento": "fascia bassa",
-     "ore_per_wp": {
-      "WP4": 140,
-      "WP5": 300
-     },
-     "ore_totali": 440
-    },
-    {
-     "nome": "Paolo Valerio",
-     "ruolo": "Analista software per PA e startup innovative",
-     "inquadramento": "fascia bassa",
-     "ore_per_wp": {
-      "WP4": 140
-     },
-     "ore_totali": 140
-    },
-    {
-     "nome": "Ore da attribuire",
-     "ruolo": "ore del piano dei costi non ripartite per persona nel formulario (WP2–WP3)",
-     "inquadramento": "",
-     "ore_per_wp": {},
-     "ore_totali": 800,
-     "wp_residuo": [
-      "WP2",
-      "WP3"
-     ]
-    }
-   ],
-   "verifica": "Tab. 3 leggibili: 1.560 h × 30 = € 46.800. B.1.1 ammesso € 70.800 (= Tab. 6) = 2.360 h: residuo 800 h per WP2+WP3.",
-   "ore_totali": 2360
-  },
-  {
-   "nome": "Main Project S.r.l.",
-   "persone": [
-    {
-     "nome": "Fabrizio Batori",
-     "ruolo": "Esperto IoT, AR/VR, UX e smart cities",
-     "inquadramento": "fascia bassa",
-     "ore_per_wp": {
-      "WP1": 60,
-      "WP4": 500,
-      "WP5": 200
-     },
-     "ore_totali": 760
-    },
-    {
-     "nome": "Silvia Cerreti",
-     "ruolo": "Esperta gestione progetti e finanza UE",
-     "inquadramento": "fascia bassa",
-     "ore_per_wp": {
-      "WP4": 700,
-      "WP5": 100
-     },
-     "ore_totali": 800
-    },
-    {
-     "nome": "Alessio Giannini",
-     "ruolo": "Ricercatore AI, big data e modelli predittivi",
-     "inquadramento": "fascia bassa",
-     "ore_per_wp": {
-      "WP4": 700,
-      "WP5": 100
-     },
-     "ore_totali": 800
-    }
-   ],
-   "verifica": "Tab. 3 leggibili: 2.360 h × 30 = € 70.800 = Tab. 6 del formulario (B.1.1 € 70.800), quindi nel formulario Main Project non ha ore in WP2/WP3. Il costo ammesso in data.json (€ 77.760 → personale € 64.800 = 2.160 h) è inferiore di 200 h / € 6.000: NON coerente con il formulario; probabile taglio in istruttoria, da verificare sulla comunicazione di concessione. Alessio Mancini (smart contract, indicato in §5 e data.json) non compare in Tab. 3.",
-   "ore_totali": 2360
-  },
-  {
-   "nome": "Olympos Hub S.r.l.",
-   "persone": [
-    {
-     "nome": "Sandy Gasperoni",
-     "ruolo": "Amministratrice, esperta contenuti educativi",
-     "inquadramento": "fascia bassa",
-     "ore_per_wp": {
-      "WP1": 60,
-      "WP5": 350
-     },
-     "ore_totali": 410
-    },
-    {
-     "nome": "Andrea Alunno Minciotti",
-     "ruolo": "CTO, esperto sistemi web multimediali",
-     "inquadramento": "fascia bassa",
-     "ore_per_wp": {
-      "WP4": 400,
-      "WP5": 50
-     },
-     "ore_totali": 450
-    },
-    {
-     "nome": "Tamer Hayek",
-     "ruolo": "Full-stack developer (React, Svelte)",
-     "inquadramento": "fascia bassa",
-     "ore_per_wp": {
-      "WP4": 800
-     },
-     "ore_totali": 800
-    },
-    {
-     "nome": "Claudio Pezzotta",
-     "ruolo": "Managing Director, esperto produzione A/V",
-     "inquadramento": "fascia bassa",
-     "ore_per_wp": {
-      "WP4": 600
-     },
-     "ore_totali": 600
-    },
-    {
-     "nome": "Ore da attribuire",
-     "ruolo": "ore del piano dei costi non ripartite per persona nel formulario (WP2–WP3)",
-     "inquadramento": "",
-     "ore_per_wp": {},
-     "ore_totali": 60,
-     "wp_residuo": [
-      "WP2",
-      "WP3"
-     ]
-    }
-   ],
-   "verifica": "Tab. 3 leggibili: 2.260 h × 30 = € 67.800. B.1.1 ammesso € 69.600 = 2.320 h (nel formulario Tab. 6 l'importo è nella colonna 'NOREMA', colonne scambiate): residuo 60 h per WP2+WP3.",
-   "ore_totali": 2320
-  }
- ],
- "note": [
-  "Tab. 3 di WP2 e WP3 (pagg. 27–28) sono immagini: non presenti nel testo estratto né nella lettura del PDF da SharePoint. Per tutti i partner le ore di WP2+WP3 sono ricostruite per differenza con il costo ammesso (righe 'Non attribuito'); per Sapienza il residuo è solo in euro. Per completare serve rasterizzare le pagine 27–28 del PDF (copia in SharePoint STEP/DOCUMENTI SAPIENZA/Formulario_HS-HumanSeal.pdf).",
-  "Il testo estratto è un flusso senza colonne; le ore per persona sono state assegnate ai partner con i subtotali per fascia e i costi WP (DEV4U, NOREMA, Microsis, Main Project, Olympos 30 €/h; Sapienza 81/53 €/h e Vidotto 30 €/h). Tutti i subtotali e i costi di WP1, WP4, WP5 tornano.",
-  "Righe NOREMA WP4: il testo riporta '0 120 120 ...' per Abatecola e '0 40 40' per Mirabella e Caldarera; il secondo valore cade nella colonna Sapienza, ma il subtotale Sapienza fascia bassa (30) e il totale NOREMA (200) mostrano che è la colonna Totale: ore NOREMA 120/40/40.",
-  "WP1: accanto a 'Vidotto Anna Ricercatrice' compare un '5' isolato; il subtotale Sapienza fascia bassa WP1 è 0 e il costo Sapienza WP1 (3.180 € = 60 h × 53) esclude altre ore: trattato come refuso, Vidotto 0 h in WP1.",
-  "DEV4U: le colonne nome e specializzazione sono disallineate tra WP1, WP4 e WP5 (es. 'Tommaso Sara – Developer full-stack', 'Roberto Paris – Esperta in comunicazione'). Le ore seguono il nome, i ruoli sono presi da WP1 e data.json; ruoli di Travieso García, Oresti e 'Álvarez González' incerti. Nel WP1 la riga 'PM e Business Analyst' è intestata 'Berardi Daniele', nei WP4/WP5 'Álvarez González': trattata come la stessa riga (persona da confermare). Guize Álvarez González non ha ore nei WP leggibili.",
-  "Righe 'Totale ore' delle Tab. 3 con valori errati per formula (es. WP4 Main Project e Olympos 0, totale 3.440): sono stati usati i subtotali per fascia e i costi.",
-  "Vidotto (Sapienza, ricercatrice) è valorizzata a 30 €/h (tariffa fascia bassa imprese) invece di 34 €/h (università): l'importo Sapienza in Tab. 6 (73.230 €) incorpora questo valore.",
-  "Tab. 6 del formulario: colonne NOREMA e Olympos scambiate (NOREMA 69.600 / 'Olympun' 75.300); costi ammessi data.json: NOREMA 75.300, Olympos 69.600. DEV4U (formulario 74.400 contro 86.400 ammessi) e Main Project (70.800 contro 64.800) non coincidono con data.json: da verificare sul piano costi GeCoWEB di HS, non disponibile.",
-  "Serena Tabacchi (NOREMA, figura chiave WP3 in §5), Alessio Mancini (Main Project) e Diego Grimani (citato per DEV4U/RO Technology in §5) non compaiono nelle Tab. 3 leggibili."
- ],
- "fonte_dettaglio": "Formulario presentato 'Formulario_HS-HumanSeal.pdf' (definitivo 18/07/2025, testo estratto hs.txt), Tab. 3 dei WP1, WP4 e WP5 (pagg. 26, 29, 30); Tab. 3 di WP2 e WP3 (pagg. 27–28) sono immagini non leggibili dal testo; controllo con Tab. 6 e con i costi ammessi per partner in data.json (piano costi riga per riga disponibile solo per NOREMA)"
+  ],
+  "note": [
+    "Tab. 3 di WP2 e WP3 (pagg. 27–28) sono immagini: non presenti nel testo estratto né nella lettura del PDF da SharePoint. Per tutti i partner le ore di WP2+WP3 sono ricostruite per differenza con il costo ammesso (righe 'Non attribuito'); per Sapienza il residuo è solo in euro. Per completare serve rasterizzare le pagine 27–28 del PDF (copia in SharePoint STEP/DOCUMENTI SAPIENZA/Formulario_HS-HumanSeal.pdf).",
+    "Il testo estratto è un flusso senza colonne; le ore per persona sono state assegnate ai partner con i subtotali per fascia e i costi WP (DEV4U, NOREMA, Microsis, Main Project, Olympos 30 €/h; Sapienza 81/53 €/h e Vidotto 30 €/h). Tutti i subtotali e i costi di WP1, WP4, WP5 tornano.",
+    "Righe NOREMA WP4: il testo riporta '0 120 120 ...' per Abatecola e '0 40 40' per Mirabella e Caldarera; il secondo valore cade nella colonna Sapienza, ma il subtotale Sapienza fascia bassa (30) e il totale NOREMA (200) mostrano che è la colonna Totale: ore NOREMA 120/40/40.",
+    "WP1: accanto a 'Vidotto Anna Ricercatrice' compare un '5' isolato; il subtotale Sapienza fascia bassa WP1 è 0 e il costo Sapienza WP1 (3.180 € = 60 h × 53) esclude altre ore: trattato come refuso, Vidotto 0 h in WP1.",
+    "DEV4U: le colonne nome e specializzazione sono disallineate tra WP1, WP4 e WP5 (es. 'Tommaso Sara – Developer full-stack', 'Roberto Paris – Esperta in comunicazione'). Le ore seguono il nome, i ruoli sono presi da WP1 e data.json; ruoli di Travieso García, Oresti e 'Álvarez González' incerti. Nel WP1 la riga 'PM e Business Analyst' è intestata 'Berardi Daniele', nei WP4/WP5 'Álvarez González': trattata come la stessa riga (persona da confermare). Guize Álvarez González non ha ore nei WP leggibili.",
+    "Righe 'Totale ore' delle Tab. 3 con valori errati per formula (es. WP4 Main Project e Olympos 0, totale 3.440): sono stati usati i subtotali per fascia e i costi.",
+    "Vidotto (Sapienza, ricercatrice) è valorizzata a 30 €/h (tariffa fascia bassa imprese) invece di 34 €/h (università): l'importo Sapienza in Tab. 6 (73.230 €) incorpora questo valore.",
+    "Tab. 6 del formulario: colonne NOREMA e Olympos scambiate (NOREMA 69.600 / 'Olympun' 75.300); costi ammessi data.json: NOREMA 75.300, Olympos 69.600. DEV4U (formulario 74.400 contro 86.400 ammessi) e Main Project (70.800 contro 64.800) non coincidono con data.json: da verificare sul piano costi GeCoWEB di HS, non disponibile.",
+    "Serena Tabacchi (NOREMA, figura chiave WP3 in §5), Alessio Mancini (Main Project) e Diego Grimani (citato per DEV4U/RO Technology in §5) non compaiono nelle Tab. 3 leggibili."
+  ],
+  "fonte_dettaglio": "Formulario presentato 'Formulario_HS-HumanSeal.pdf' (definitivo 18/07/2025, testo estratto hs.txt), Tab. 3 dei WP1, WP4 e WP5 (pagg. 26, 29, 30); Tab. 3 di WP2 e WP3 (pagg. 27–28) sono immagini non leggibili dal testo; controllo con Tab. 6 e con i costi ammessi per partner in data.json (piano costi riga per riga disponibile solo per NOREMA)"
 }

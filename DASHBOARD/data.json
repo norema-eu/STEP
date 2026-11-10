@@ -1,10 +1,10 @@
 {
- "aggiornato": "2026-11-10T12:50:00+01:00",
+ "aggiornato": "2026-11-10T15:45:00+01:00",
  "progetti": [
   {
    "acronimo": "HS – HumanSeal",
    "titolo": "HumanSeal – Human Source Authentication Layer",
-   "stato": "Ammesso a contributo · antimafia trasmessa il 02/10/2026, in attesa dell'atto di concessione",
+   "stato": "Ammesso a contributo · verifiche art. 8 concluse · Atto di Impegno ricevuto il 10/11/2026, da sottoscrivere entro il 25/12/2026",
    "cup": "F89J26001110007",
    "protocollo": "A0896-2025-095547",
    "concessione": "Det. G12471 · BURL 75/2026",
@@ -15,7 +15,7 @@
    "data_avvio": null,
    "data_inizio": "2026-09-17",
    "sintesi": "HumanSeal sviluppa una piattaforma per l'analisi dell'autenticità dei testi digitali e la certificazione della loro origine umana, distinguendo i testi scritti da persone da quelli generati da modelli di intelligenza artificiale. Il sistema combina NLP, AI explainable, fingerprinting stilistico e segnali semantici in un punteggio di \"umanità\" (HumanSeal Index), con API, dashboard web, certificazione on-chain e integrazione nei flussi documentali della PA (SPID, firma digitale, eIDAS). Il progetto porta la tecnologia da TRL 3 a TRL 7 con validazione in contesti reali (PA, redazioni, enti di formazione).",
-   "periodo": "Durata 24 mesi. L'atto di concessione sarà emesso dalla Regione dopo le verifiche antimafia; il cronoprogramma diventa operativo con la sottoscrizione dell'Atto di Impegno.",
+   "periodo": "Durata 24 mesi dalla Data di Concessione (17/09/2026, pubblicazione sul BURL della Det. G12471): progetto concluso e saldo richiesto entro il 17/09/2028 (art. 3 Atto di Impegno).",
    "tema": "arancione",
    "slug": "HUMAN_SEAL",
    "budget": {
@@ -297,12 +297,11 @@
      "nota_interna": "Il 03/11 NOREMA ha chiesto al capofila se ha un broker di riferimento. 05/11: NOREMA ha chiesto a IPTSAT il contatto dell'assicuratore che ha emesso la bozza di polizza SPACE.AI, per richiedere preventivi anche per PRONTI VIA e HumanSeal; IPTSAT ha fornito il riferimento del titolare (contatto preavvisato). 10/11: NOREMA ha chiesto a DEV4U e Main Project le ultime due dichiarazioni degli amministratori e gli ultimi due bilanci; DEV4U ha inviato lo stesso giorno (bilanci 2024 e 2025 e due dichiarazioni)."
     },
     {
-     "data": null,
-     "titolo": "Atto di concessione",
-     "descrizione": "Emesso dalla Regione Lazio al termine delle verifiche antimafia.",
-     "chi": "Regione Lazio / Lazio Innova",
-     "stato": "da_avviare",
-     "nota_interna": "La lettera di invio dell'Atto di Impegno (prot. 0041094 del 10/11) dichiara concluse con esito positivo le verifiche dell'art. 8: verificare se la voce va chiusa."
+     "data": "2026-09-17",
+     "titolo": "Data di Concessione",
+     "descrizione": "Det. G12471 del 15/09/2026 pubblicata sul BURL n. 75 del 17/09/2026: per l'Atto di Impegno è la Data di Concessione da cui decorrono anticipo (90 giorni), SAL (8 e 16 mesi) e saldo (24 mesi). Con la lettera prot. 0041094 Lazio Innova conferma l'esito positivo delle verifiche dell'art. 8.",
+     "chi": "Regione Lazio",
+     "stato": "completato"
     },
     {
      "data": "2026-12-25",
@@ -313,9 +312,9 @@
      "nota_interna": "Termine calcolato: 45 giorni dal 10/11/2026 = 25/12/2026. Oltre il termine Lazio Innova invia un invito ad adempiere entro ulteriori 10 giorni, poi rinuncia (art. 10 Avviso)."
     },
     {
-     "data": null,
-     "titolo": "Fine progetto e rendicontazione finale",
-     "descrizione": "Entro 24 mesi dalla data di concessione, salvo proroghe.",
+     "data": "2028-09-17",
+     "titolo": "Conclusione del progetto e richiesta di saldo",
+     "descrizione": "Progetto concluso e richiesta di erogazione a saldo con la rendicontazione finale di ogni beneficiario entro il 17/09/2028 (24 mesi dalla Data di Concessione; art. 3 Atto di Impegno, art. 1 Avviso).",
      "chi": "Tutti i partner",
      "stato": "da_avviare"
     },
@@ -326,13 +325,48 @@
      "chi": "DEV4U (capofila) e tutti i partner",
      "stato": "da_avviare",
      "nota_interna": "10/11: Sapienza (L. Francescangeli) chiede il contatto del notaio individuato per l'ATS (ipotesi di un unico notaio per i tre progetti), perché il notaio di Sapienza che prepara la procura speciale vuole coordinarsi con lui."
+    },
+    {
+     "data": "2027-05-17",
+     "titolo": "1° SAL obbligatorio",
+     "descrizione": "Richiesta di erogazione a SAL entro 8 mesi dalla Data di Concessione (art. 9 Avviso; art. 6 Atto di Impegno). Anticipo e SAL insieme non possono superare l'80% del contributo.",
+     "chi": "DEV4U (mandataria) con la rendicontazione di tutti i partner",
+     "stato": "da_avviare"
+    },
+    {
+     "data": "2028-01-17",
+     "titolo": "2° SAL obbligatorio",
+     "descrizione": "Richiesta di erogazione a SAL entro 16 mesi dalla Data di Concessione: costi rendicontati complessivamente almeno pari al 40% dei costi ammessi (art. 9 Avviso).",
+     "chi": "DEV4U (mandataria) con la rendicontazione di tutti i partner",
+     "stato": "da_avviare"
+    },
+    {
+     "data": "2027-02-09",
+     "titolo": "Obblighi di pubblicità",
+     "descrizione": "Entro 3 mesi dall'invio dell'Atto di Impegno: descrizione del progetto con i loghi dei finanziatori sul sito di ciascun beneficiario e poster A3 nella sede in cui si svolge il progetto (art. 4 Atto di Impegno). Data indicativa, da ricalcolare sulla data effettiva di invio dell'Atto.",
+     "chi": "Tutti i partner",
+     "stato": "da_avviare"
+    },
+    {
+     "data": "2026-12-16",
+     "titolo": "Conto corrente dedicato",
+     "descrizione": "Ogni beneficiario compila e firma il modulo del conto corrente dedicato al progetto (tracciabilità, L. 136/2010), da allegare all'Atto di Impegno.",
+     "chi": "Tutti i partner",
+     "stato": "da_avviare"
     }
    ],
    "criticita": [
     {
      "data": "2026-11-10",
+     "titolo": "Forma del contratto di aggregazione (ATS)",
+     "descrizione": "La lettera di Lazio Innova del 10/11/2026 chiede di allegare all'Atto di Impegno l'atto notarile di costituzione dell'aggregazione; l'Appendice 5 dell'Avviso richiede la forma scritta con firme che autentichino i sottoscrittori. Da chiarire con la tutor se basta la firma digitale di tutti i partner o serve il notaio, perché incide su tempi e costi della firma.",
+     "livello": "alta",
+     "stato": "aperta"
+    },
+    {
+     "data": "2026-11-10",
      "titolo": "Olympos Hub: inquadramento del personale e ore per persona",
-     "descrizione": "Olympos Hub segnala che nel piano dei costi su GeCoWEB Plus quattro persone sono in B.1.1 (personale dipendente a costi standard orari), ma l'amministratrice unica riceve compenso da amministratrice (non ammissibile secondo Appendice 1, a loro avviso) e gli altri tre sono consulenti con partita IVA senza busta paga (art. 9). Chiedono se spostare le ore in B.2.2 (consulenze a tempo uomo), variazione oltre il 15% che richiede l'autorizzazione preventiva di Lazio Innova (art. 8), e con quali tempi rispetto ad ATS e Atto di Impegno. Segnalano anche che la ripartizione delle ore della dashboard non coincide con GeCoWEB (Gasperoni 410, Pezzotta 450, Alunno Minciotti 800, Hayek 660; totale 2.320 h invariato).",
+     "descrizione": "Olympos Hub segnala che su GeCoWEB Plus le quattro persone del suo team sono in B.1.1 (personale dipendente a costi standard orari), ma nessuna ha la busta paga: l'amministratrice unica riceve il compenso da amministratrice e tre persone collaborano con partita IVA. Si valuta lo spostamento in B.2.2 (consulenze a tempo uomo): essendo una nuova sottovoce serve sempre l'autorizzazione preventiva di Lazio Innova (art. 8 Avviso; art. 8 Atto di Impegno). Le ore per persona della dashboard sono state allineate a GeCoWEB.",
      "livello": "alta",
      "stato": "aperta",
      "interna": true,
@@ -376,7 +410,7 @@
      "stato": "risolta"
     }
    ],
-   "aggiornato": "2026-11-10T12:50:00+01:00"
+   "aggiornato": "2026-11-10T15:45:00+01:00"
   },
   {
    "acronimo": "PRONTI VIA",
