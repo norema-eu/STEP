@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-10T16:45:00+01:00",
+  "aggiornato": "2026-11-10T16:50:00+01:00",
   "fonte": "Fonti: comunicazione di concessione Lazio Innova (prot. LISPA 0033570 del 24/09/2026), Det. G12471 del 15/09/2026 (BURL n. 75 del 17/09/2026, Allegati A e B), formulario/proposta progettuale definitiva (18/07/2025), piano costi approvato da GeCoWEB Plus (estrazione 22/10/2026), corrispondenza di partenariato e PEC (luglio 2025 – ottobre 2026).",
   "progetto": {
     "acronimo": "HS – HumanSeal",
@@ -420,8 +420,8 @@
     {
       "data": "2026-11-10",
       "titolo": "Chiusura in 18 mesi e SAL obbligatori",
-      "descrizione": "Al kick-off si è deciso di accelerare per chiudere in 18 mesi (entro il 17/03/2028) con un solo SAL. L'Avviso (art. 9) e l'Atto di Impegno (art. 6) rendono però obbligatori due SAL, entro il 17/05/2027 e il 17/01/2028: il secondo cade prima della fine a 18 mesi e va presentato comunque, con almeno il 40% dei costi rendicontati. Se non si presenta una richiesta obbligatoria, Lazio Innova invita ad adempiere entro 30 giorni e poi propone la revoca. Il SAL si potrebbe evitare solo chiudendo il progetto e chiedendo il saldo entro il 17/01/2028 (16 mesi); da verificare con la tutor.",
-      "livello": "alta",
+      "descrizione": "Al kick-off i partner hanno deciso di chiudere il progetto in 18 mesi (entro il 17/03/2028). Restano obbligatori i due SAL previsti dall'Avviso (art. 9) e dall'Atto di Impegno (art. 6): entro il 17/05/2027 ed entro il 17/01/2028, con almeno il 40% dei costi rendicontati al secondo SAL. Se una richiesta obbligatoria non viene presentata, Lazio Innova invita ad adempiere entro 30 giorni e poi propone la revoca.",
+      "livello": "media",
       "stato": "aperta"
     },
     {
