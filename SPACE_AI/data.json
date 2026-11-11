@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-11T07:50:00+01:00",
+  "aggiornato": "2026-11-11T12:50:00+01:00",
   "fonte": "Fonti: comunicazione di concessione Lazio Innova (Det. G13392, BURL n. 81 suppl. 1 del 08/10/2026), proposta progettuale, corrispondenza di partenariato.",
   "progetto": {
     "acronimo": "SPACE.AI",
@@ -282,7 +282,7 @@
       "descrizione": "Sottoscrizione del contratto di aggregazione (ATS) da parte di tutti i partner, con firma digitale, entro il termine per la richiesta dell'anticipo (06/01/2027): l'ATS va trasmessa a Lazio Innova a corredo dell'Atto di Impegno ed è necessaria per finalizzare la polizza fideiussoria e chiedere l'anticipo (art. 2, art. 9 e Appendice 5 dell'Avviso). Per Sapienza firma il prof. Roberto Li Voti con la procura speciale del 16/11/2026. Obiettivo: firma entro fine novembre; sessione unica delle tre ATS. Il notaio individuato ha confermato la disponibilità per venerdì 20/11/2026; data e sede definitive da confermare con Sapienza. L'ATS prevede che il capofila riceva tutti i pagamenti e li trasferisca ai partner, come indicato dalla tutor il 02/11/2026.",
       "chi": "IPTSAT (capofila) e tutti i partner",
       "stato": "da_avviare",
-      "nota_interna": "10/11: Sapienza (L. Francescangeli) chiede il contatto del notaio individuato per l'ATS (ipotesi di un unico notaio per i tre progetti), perché il notaio di Sapienza che prepara la procura speciale vuole coordinarsi con lui. 10/11: NOREMA ha chiesto al notaio S. Lombardo (contatto Microsis) preventivo e disponibilità per stipulare le tre ATS in un'unica sessione il 18, 19 o 20/11. 10/11 17:03: il notaio conferma la disponibilità per il 20/11."
+      "nota_interna": "10/11: Sapienza (L. Francescangeli) chiede il contatto del notaio individuato per l'ATS (ipotesi di un unico notaio per i tre progetti), perché il notaio di Sapienza che prepara la procura speciale vuole coordinarsi con lui. 10/11: NOREMA ha chiesto al notaio S. Lombardo (contatto Microsis) preventivo e disponibilità per stipulare le tre ATS in un'unica sessione il 18, 19 o 20/11. 10/11 17:03: il notaio conferma la disponibilità per il 20/11. 11/11 12:17: L. Francescangeli (Sapienza) chiede di nuovo se il notaio per le ATS è stato individuato, perché il notaio di Sapienza vuole contattarlo al più presto: in Bozze c'è una mail (11/11 12:38) con i recapiti del notaio Lombardo, non ancora inviata."
     },
     {
       "data": null,
@@ -438,6 +438,12 @@
       "titolo": "Disponibilità del notaio per la stipula delle ATS",
       "sintesi": "Il notaio individuato conferma la disponibilità per venerdì 20/11/2026 per la stipula delle ATS. La sede sarà probabilmente presso Sapienza: data e sede sono da confermare con l'Università.",
       "nota_interna": "Risposta del notaio S. Lombardo del 10/11 (17:03): disponibile il 20/11; suggerisce di chiedere subito conferma a Sapienza (stipula presumibilmente presso Sapienza). Preventivo: 1.600 € per ciascun atto ATS al netto della ritenuta d'acconto; 2.600 € (IVA e imposte incluse) per la costituzione dell'associazione QUINTA. In caso di accettazione fornirà l'elenco dei documenti necessari. Da accettare il preventivo e girare il contatto a Sapienza (L. Francescangeli)."
+    },
+    {
+      "data": "2026-11-11",
+      "titolo": "Documenti per la procura speciale Sapienza",
+      "sintesi": "Per la stipula della procura speciale per la firma delle ATS, l'amministrazione Sapienza necessita, per ciascuno dei tre progetti (HS – HumanSeal, PRONTI VIA, SPACE.AI), del documento di finalizzazione della domanda e della comunicazione di ammissione a finanziamento.",
+      "nota_interna": "Email di V. Bruni (cc D. Vitulano) a Claudia dell'11/11 alle 12:35: l'ammissione per HumanSeal e PRONTI VIA è stata recuperata dalla piattaforma; per SPACE.AI chiede le credenziali di accesso; il documento di finalizzazione manca per tutti e tre i progetti. Da inviare."
     }
   ],
   "riunioni": [

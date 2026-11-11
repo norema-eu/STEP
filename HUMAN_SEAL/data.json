@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-11T07:50:00+01:00",
+  "aggiornato": "2026-11-11T12:50:00+01:00",
   "fonte": "Fonti: comunicazione di concessione Lazio Innova (prot. LISPA 0033570 del 24/09/2026), Det. G12471 del 15/09/2026 (BURL n. 75 del 17/09/2026, Allegati A e B), formulario/proposta progettuale definitiva (18/07/2025), piano costi approvato da GeCoWEB Plus (estrazione 22/10/2026), corrispondenza di partenariato e PEC (luglio 2025 – ottobre 2026).",
   "progetto": {
     "acronimo": "HS – HumanSeal",
@@ -371,7 +371,7 @@
       "descrizione": "Firma del contratto di aggregazione (ATS) fissata per lunedì 23/11/2026 alle 15:30 (sede da confermare: NOREMA, Sapienza o studio notarile), con perfezionamento entro fine novembre. Per Sapienza firma il prof. Roberto Li Voti con la procura speciale del Rettore del 16/11/2026. L'ATS va allegata all'Atto di Impegno (entro il 25/12/2026) ed è necessaria per la polizza fideiussoria e la richiesta dell'anticipo (entro il 16/12/2026). Il notaio individuato ha dato disponibilità per venerdì 20/11/2026: la data definitiva è da confermare con Sapienza e con tutti i partner.",
       "chi": "DEV4U (capofila) e tutti i partner",
       "stato": "da_avviare",
-      "nota_interna": "10/11: Sapienza (L. Francescangeli) chiede il contatto del notaio individuato per l'ATS (ipotesi di un unico notaio per i tre progetti), perché il notaio di Sapienza che prepara la procura speciale vuole coordinarsi con lui. 10/11: NOREMA ha chiesto al notaio S. Lombardo (contatto Microsis) preventivo e disponibilità per stipulare le tre ATS in un'unica sessione il 18, 19 o 20/11. 10/11: il verbale del kick-off fissa la firma al 23/11 ore 15:30, mentre al notaio Lombardo era stata chiesta disponibilità per il 18, 19 o 20/11: allineare la data. 10/11 17:03: il notaio Lombardo conferma la disponibilità per il 20/11 (non per il 23/11 del verbale): decidere la data e comunicarla al partenariato."
+      "nota_interna": "10/11: Sapienza (L. Francescangeli) chiede il contatto del notaio individuato per l'ATS (ipotesi di un unico notaio per i tre progetti), perché il notaio di Sapienza che prepara la procura speciale vuole coordinarsi con lui. 10/11: NOREMA ha chiesto al notaio S. Lombardo (contatto Microsis) preventivo e disponibilità per stipulare le tre ATS in un'unica sessione il 18, 19 o 20/11. 10/11: il verbale del kick-off fissa la firma al 23/11 ore 15:30, mentre al notaio Lombardo era stata chiesta disponibilità per il 18, 19 o 20/11: allineare la data. 10/11 17:03: il notaio Lombardo conferma la disponibilità per il 20/11 (non per il 23/11 del verbale): decidere la data e comunicarla al partenariato. 11/11 12:17: L. Francescangeli (Sapienza) chiede di nuovo se il notaio per le ATS è stato individuato, perché il notaio di Sapienza vuole contattarlo al più presto: in Bozze c'è una mail (11/11 12:38) con i recapiti del notaio Lombardo, non ancora inviata."
     },
     {
       "data": "2027-05-17",
@@ -562,6 +562,12 @@
       "titolo": "Disponibilità del notaio per la stipula delle ATS",
       "sintesi": "Il notaio individuato conferma la disponibilità per venerdì 20/11/2026 per la stipula delle ATS. La sede sarà probabilmente presso Sapienza: data e sede sono da confermare con l'Università.",
       "nota_interna": "Risposta del notaio S. Lombardo del 10/11 (17:03): disponibile il 20/11; suggerisce di chiedere subito conferma a Sapienza (stipula presumibilmente presso Sapienza). Preventivo: 1.600 € per ciascun atto ATS al netto della ritenuta d'acconto; 2.600 € (IVA e imposte incluse) per la costituzione dell'associazione QUINTA. In caso di accettazione fornirà l'elenco dei documenti necessari. Da accettare il preventivo e girare il contatto a Sapienza (L. Francescangeli)."
+    },
+    {
+      "data": "2026-11-11",
+      "titolo": "Documenti per la procura speciale Sapienza",
+      "sintesi": "Per la stipula della procura speciale per la firma delle ATS, l'amministrazione Sapienza necessita, per ciascuno dei tre progetti (HS – HumanSeal, PRONTI VIA, SPACE.AI), del documento di finalizzazione della domanda e della comunicazione di ammissione a finanziamento.",
+      "nota_interna": "Email di V. Bruni (cc D. Vitulano) a Claudia dell'11/11 alle 12:35: l'ammissione per HumanSeal e PRONTI VIA è stata recuperata dalla piattaforma; per SPACE.AI chiede le credenziali di accesso; il documento di finalizzazione manca per tutti e tre i progetti. Da inviare."
     }
   ],
   "riunioni": [

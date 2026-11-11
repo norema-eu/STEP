@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-11-11T07:50:00+01:00",
+ "aggiornato": "2026-11-11T12:50:00+01:00",
  "fonte": "Fonti: comunicazione di concessione Lazio Innova (prot. LISPA 0033570 del 24/09/2026), Det. G12471 del 15/09/2026 (BURL n. 75 del 17/09/2026, Allegati A e B), formulario/proposta progettuale definitiva (18/07/2025), piano costi approvato da GeCoWEB Plus (estrazione 22/10/2026), corrispondenza di partenariato e PEC (luglio 2025 – ottobre 2026).",
  "progetto": {
   "acronimo": "HS – HumanSeal",
@@ -538,6 +538,11 @@
    "data": "2026-11-10",
    "titolo": "Disponibilità del notaio per la stipula delle ATS",
    "sintesi": "Il notaio individuato conferma la disponibilità per venerdì 20/11/2026 per la stipula delle ATS. La sede sarà probabilmente presso Sapienza: data e sede sono da confermare con l'Università."
+  },
+  {
+   "data": "2026-11-11",
+   "titolo": "Documenti per la procura speciale Sapienza",
+   "sintesi": "Per la stipula della procura speciale per la firma delle ATS, l'amministrazione Sapienza necessita, per ciascuno dei tre progetti (HS – HumanSeal, PRONTI VIA, SPACE.AI), del documento di finalizzazione della domanda e della comunicazione di ammissione a finanziamento."
   }
  ],
  "riunioni": [

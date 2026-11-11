@@ -205,8 +205,14 @@
       "legale_rappresentante": "Roberto Di Francesco (Amministratore Unico)",
       "referenti": [
         {
+          "nome": "Andrea Talamanca",
+          "ruolo": "Referente e coordinatore del progetto PRONTI VIA (subentrato a Diego Grimani)",
+          "email": "andrea.talamanca@rotechnology.it",
+          "telefono": null
+        },
+        {
           "nome": "Gianluca Rossi",
-          "ruolo": "National & EU Grant Office – referente di progetto",
+          "ruolo": "National & EU Grant Office – supporto al coordinamento PRONTI VIA",
           "email": "gianluca.rossi@rotechnology.it",
           "telefono": "+39 06 2112 8876"
         },
@@ -215,12 +221,6 @@
           "ruolo": "Amministratore Unico / Chief Executive Officer",
           "email": "roberto.difrancesco@rotechnology.it",
           "telefono": "+39 06 21128876"
-        },
-        {
-          "nome": "Andrea Talamanca",
-          "ruolo": "Coordinatore del team di progetto (subentrato a Diego Grimani)",
-          "email": null,
-          "telefono": null
         },
         {
           "nome": "Massimo Scopigno",

@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-11-11T07:50:00+01:00",
+ "aggiornato": "2026-11-11T12:50:00+01:00",
  "progetti": [
   {
    "acronimo": "HS – HumanSeal",
@@ -324,7 +324,7 @@
      "descrizione": "Firma del contratto di aggregazione (ATS) fissata per lunedì 23/11/2026 alle 15:30 (sede da confermare: NOREMA, Sapienza o studio notarile), con perfezionamento entro fine novembre. Per Sapienza firma il prof. Roberto Li Voti con la procura speciale del Rettore del 16/11/2026. L'ATS va allegata all'Atto di Impegno (entro il 25/12/2026) ed è necessaria per la polizza fideiussoria e la richiesta dell'anticipo (entro il 16/12/2026). Il notaio individuato ha dato disponibilità per venerdì 20/11/2026: la data definitiva è da confermare con Sapienza e con tutti i partner.",
      "chi": "DEV4U (capofila) e tutti i partner",
      "stato": "da_avviare",
-     "nota_interna": "10/11: Sapienza (L. Francescangeli) chiede il contatto del notaio individuato per l'ATS (ipotesi di un unico notaio per i tre progetti), perché il notaio di Sapienza che prepara la procura speciale vuole coordinarsi con lui. 10/11: NOREMA ha chiesto al notaio S. Lombardo (contatto Microsis) preventivo e disponibilità per stipulare le tre ATS in un'unica sessione il 18, 19 o 20/11. 10/11: il verbale del kick-off fissa la firma al 23/11 ore 15:30, mentre al notaio Lombardo era stata chiesta disponibilità per il 18, 19 o 20/11: allineare la data. 10/11 17:03: il notaio Lombardo conferma la disponibilità per il 20/11 (non per il 23/11 del verbale): decidere la data e comunicarla al partenariato."
+     "nota_interna": "10/11: Sapienza (L. Francescangeli) chiede il contatto del notaio individuato per l'ATS (ipotesi di un unico notaio per i tre progetti), perché il notaio di Sapienza che prepara la procura speciale vuole coordinarsi con lui. 10/11: NOREMA ha chiesto al notaio S. Lombardo (contatto Microsis) preventivo e disponibilità per stipulare le tre ATS in un'unica sessione il 18, 19 o 20/11. 10/11: il verbale del kick-off fissa la firma al 23/11 ore 15:30, mentre al notaio Lombardo era stata chiesta disponibilità per il 18, 19 o 20/11: allineare la data. 10/11 17:03: il notaio Lombardo conferma la disponibilità per il 20/11 (non per il 23/11 del verbale): decidere la data e comunicarla al partenariato. 11/11 12:17: L. Francescangeli (Sapienza) chiede di nuovo se il notaio per le ATS è stato individuato, perché il notaio di Sapienza vuole contattarlo al più presto: in Bozze c'è una mail (11/11 12:38) con i recapiti del notaio Lombardo, non ancora inviata."
     },
     {
      "data": "2027-05-17",
@@ -431,7 +431,7 @@
      "stato": "risolta"
     }
    ],
-   "aggiornato": "2026-11-11T07:50:00+01:00"
+   "aggiornato": "2026-11-11T12:50:00+01:00"
   },
   {
    "acronimo": "PRONTI VIA",
@@ -461,14 +461,14 @@
     {
      "nome": "RO Technology S.r.l.",
      "ruolo": "Capofila · responsabile WP1, WP2 e WP4",
-     "referente": "Gianluca Rossi (National & EU Grant Office)",
+     "referente": "Andrea Talamanca (coordinatore di progetto)",
      "costo_ammesso": 291744.0,
      "contributo_concesso": 131284.8,
      "rna": "26292690",
      "tipo": "Capofila · mandataria",
      "wp": "WP1 Coordinamento generale, monitoraggio e controllo qualità · WP2 Sviluppo e test delle reti IoT per parametri ambientali · WP4 Integrazione e sviluppo della piattaforma interoperabile",
      "descrizione": "Mandataria dell'aggregazione e interlocutore di Lazio Innova, assicura il coordinamento generale, il monitoraggio e il controllo qualità. Progetta, installa e valida la rete di sensori IoT ambientali e realizza la piattaforma cloud-based con dashboard GIS che integra i moduli sensoristici e AI/NLP.",
-     "team": "Referente: Gianluca Rossi · coordinatore del team: Andrea Talamanca (subentrato a Diego Grimani indicato nel formulario) · Marialuisa Scalise · comunicazione/disseminazione e rendicontazione: Massimo Scopigno",
+     "team": "Referente e coordinatore di progetto: Andrea Talamanca (subentrato a Diego Grimani indicato nel formulario) · supporto: Gianluca Rossi (National & EU Grant Office) · Marialuisa Scalise · comunicazione/disseminazione e rendicontazione: Massimo Scopigno",
      "anagrafica": {
       "ragione_sociale": "RO Technology S.r.l.",
       "sede_legale": "Via Benedetto Croce 40 – 00142 Roma (RM)",
@@ -479,14 +479,15 @@
      },
      "referenti": [
       {
-       "nome": "Gianluca Rossi",
-       "ruolo": "National & EU Grant Office, referente di progetto",
-       "email": "gianluca.rossi@rotechnology.it",
-       "telefono": "+39 06 2112 8876"
+       "nome": "Andrea Talamanca",
+       "ruolo": "Referente e coordinatore di progetto",
+       "email": "andrea.talamanca@rotechnology.it"
       },
       {
-       "nome": "Andrea Talamanca",
-       "ruolo": "Coordinatore del team tecnico"
+       "nome": "Gianluca Rossi",
+       "ruolo": "National & EU Grant Office, supporto al coordinamento",
+       "email": "gianluca.rossi@rotechnology.it",
+       "telefono": "+39 06 2112 8876"
       },
       {
        "nome": "Massimo Scopigno",
@@ -619,7 +620,7 @@
     {
      "data": null,
      "titolo": "Comunicazione a Lazio Innova della variazione del gruppo di lavoro",
-     "descrizione": "Variazione del team di RO Technology (sostituzioni e nuova distribuzione delle ore-uomo) condivisa con i partner il 20/10, da trasmettere a Lazio Innova.",
+     "descrizione": "Variazione del team di RO Technology (sostituzioni e nuova distribuzione delle ore-uomo) condivisa con i partner il 20/10, da trasmettere a Lazio Innova. Nella comunicazione va indicato Andrea Talamanca come coordinatore di progetto per RO Technology.",
      "chi": "RO Technology",
      "stato": "in_corso",
      "nota_interna": "L'invio a Lazio Innova non risulta dalla corrispondenza: verificare con RO Technology."
@@ -638,7 +639,7 @@
      "descrizione": "Sottoscrizione del contratto di aggregazione (ATS) da parte di tutti i partner, con firma digitale, entro il termine per la richiesta dell'anticipo (06/01/2027): l'ATS va trasmessa a Lazio Innova a corredo dell'Atto di Impegno ed è necessaria per finalizzare la polizza fideiussoria e chiedere l'anticipo (art. 2, art. 9 e Appendice 5 dell'Avviso). Per Sapienza firma il prof. Roberto Li Voti con la procura speciale del 16/11/2026. Obiettivo: firma entro fine novembre; sessione unica delle tre ATS. Il notaio individuato ha confermato la disponibilità per venerdì 20/11/2026; data e sede definitive da confermare con Sapienza.",
      "chi": "RO Technology (capofila) e tutti i partner",
      "stato": "da_avviare",
-     "nota_interna": "10/11: Sapienza (L. Francescangeli) chiede il contatto del notaio individuato per l'ATS (ipotesi di un unico notaio per i tre progetti), perché il notaio di Sapienza che prepara la procura speciale vuole coordinarsi con lui. 10/11: NOREMA ha chiesto al notaio S. Lombardo (contatto Microsis) preventivo e disponibilità per stipulare le tre ATS in un'unica sessione il 18, 19 o 20/11. 10/11 17:03: il notaio conferma la disponibilità per il 20/11."
+     "nota_interna": "10/11: Sapienza (L. Francescangeli) chiede il contatto del notaio individuato per l'ATS (ipotesi di un unico notaio per i tre progetti), perché il notaio di Sapienza che prepara la procura speciale vuole coordinarsi con lui. 10/11: NOREMA ha chiesto al notaio S. Lombardo (contatto Microsis) preventivo e disponibilità per stipulare le tre ATS in un'unica sessione il 18, 19 o 20/11. 10/11 17:03: il notaio conferma la disponibilità per il 20/11. 11/11 12:17: L. Francescangeli (Sapienza) chiede di nuovo se il notaio per le ATS è stato individuato, perché il notaio di Sapienza vuole contattarlo al più presto: in Bozze c'è una mail (11/11 12:38) con i recapiti del notaio Lombardo, non ancora inviata."
     },
     {
      "data": null,
@@ -716,7 +717,7 @@
      "stato": "risolta"
     }
    ],
-   "aggiornato": "2026-11-11T07:50:00+01:00"
+   "aggiornato": "2026-11-11T12:50:00+01:00"
   },
   {
    "acronimo": "SPACE.AI",
@@ -934,7 +935,7 @@
      "descrizione": "Sottoscrizione del contratto di aggregazione (ATS) da parte di tutti i partner, con firma digitale, entro il termine per la richiesta dell'anticipo (06/01/2027): l'ATS va trasmessa a Lazio Innova a corredo dell'Atto di Impegno ed è necessaria per finalizzare la polizza fideiussoria e chiedere l'anticipo (art. 2, art. 9 e Appendice 5 dell'Avviso). Per Sapienza firma il prof. Roberto Li Voti con la procura speciale del 16/11/2026. Obiettivo: firma entro fine novembre; sessione unica delle tre ATS. Il notaio individuato ha confermato la disponibilità per venerdì 20/11/2026; data e sede definitive da confermare con Sapienza. L'ATS prevede che il capofila riceva tutti i pagamenti e li trasferisca ai partner, come indicato dalla tutor il 02/11/2026.",
      "chi": "IPTSAT (capofila) e tutti i partner",
      "stato": "da_avviare",
-     "nota_interna": "10/11: Sapienza (L. Francescangeli) chiede il contatto del notaio individuato per l'ATS (ipotesi di un unico notaio per i tre progetti), perché il notaio di Sapienza che prepara la procura speciale vuole coordinarsi con lui. 10/11: NOREMA ha chiesto al notaio S. Lombardo (contatto Microsis) preventivo e disponibilità per stipulare le tre ATS in un'unica sessione il 18, 19 o 20/11. 10/11 17:03: il notaio conferma la disponibilità per il 20/11."
+     "nota_interna": "10/11: Sapienza (L. Francescangeli) chiede il contatto del notaio individuato per l'ATS (ipotesi di un unico notaio per i tre progetti), perché il notaio di Sapienza che prepara la procura speciale vuole coordinarsi con lui. 10/11: NOREMA ha chiesto al notaio S. Lombardo (contatto Microsis) preventivo e disponibilità per stipulare le tre ATS in un'unica sessione il 18, 19 o 20/11. 10/11 17:03: il notaio conferma la disponibilità per il 20/11. 11/11 12:17: L. Francescangeli (Sapienza) chiede di nuovo se il notaio per le ATS è stato individuato, perché il notaio di Sapienza vuole contattarlo al più presto: in Bozze c'è una mail (11/11 12:38) con i recapiti del notaio Lombardo, non ancora inviata."
     },
     {
      "data": null,
@@ -1004,7 +1005,7 @@
      "nota_interna": "Bozze di email di C. Mirabella del 03/11 per IPTSAT, ReadyLab e Dipartimento SBAI (inviate a Claudia per revisione). Rischio economico: ~52.200 € IPTSAT e ~82.800 € ReadyLab se non risolto. 03/11: risposto a Sapienza sul post-doc (B.1 dipendente; costo standard vs effettivo da chiedere a Lazio Innova)."
     }
    ],
-   "aggiornato": "2026-11-11T07:50:00+01:00"
+   "aggiornato": "2026-11-11T12:50:00+01:00"
   }
  ],
  "tutor": {
@@ -1393,8 +1394,14 @@
    "tipo": "Impresa",
    "referenti": [
     {
+     "nome": "Andrea Talamanca",
+     "ruolo": "Referente e coordinatore del progetto PRONTI VIA (subentrato a Diego Grimani)",
+     "email": "andrea.talamanca@rotechnology.it",
+     "telefono": null
+    },
+    {
      "nome": "Gianluca Rossi",
-     "ruolo": "National & EU Grant Office – referente di progetto",
+     "ruolo": "National & EU Grant Office – supporto al coordinamento PRONTI VIA",
      "email": "gianluca.rossi@rotechnology.it",
      "telefono": "+39 06 2112 8876"
     },
@@ -1403,12 +1410,6 @@
      "ruolo": "Amministratore Unico / Chief Executive Officer",
      "email": "roberto.difrancesco@rotechnology.it",
      "telefono": "+39 06 21128876"
-    },
-    {
-     "nome": "Andrea Talamanca",
-     "ruolo": "Coordinatore del team di progetto (subentrato a Diego Grimani)",
-     "email": null,
-     "telefono": null
     },
     {
      "nome": "Massimo Scopigno",

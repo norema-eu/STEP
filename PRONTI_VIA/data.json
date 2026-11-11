@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-11T07:50:00+01:00",
+  "aggiornato": "2026-11-11T12:50:00+01:00",
   "fonte": "Fonti: Det. G13392 del 02/10/2026 (BURL n. 81 suppl. 1 del 08/10/2026, Allegati A e B); comunicazione di concessione Lazio Innova (prot. LISPA 0036564 del 14/10/2026); piano costi approvato GeCoWEB Plus (dettaglio del 22/10/2026); formulario presentato (proposta progettuale) e bozza del contratto di aggregazione allegata alla domanda; corrispondenza di partenariato (email Outlook dal 15/07/2025 al 26/10/2026).",
   "progetto": {
     "acronimo": "PRONTI VIA",
@@ -29,14 +29,14 @@
     {
       "nome": "RO Technology S.r.l.",
       "ruolo": "Capofila · responsabile WP1, WP2 e WP4",
-      "referente": "Gianluca Rossi (National & EU Grant Office)",
+      "referente": "Andrea Talamanca (coordinatore di progetto)",
       "costo_ammesso": 291744.0,
       "contributo_concesso": 131284.8,
       "rna": "26292690",
       "tipo": "Capofila · mandataria",
       "wp": "WP1 Coordinamento generale, monitoraggio e controllo qualità · WP2 Sviluppo e test delle reti IoT per parametri ambientali · WP4 Integrazione e sviluppo della piattaforma interoperabile",
       "descrizione": "Mandataria dell'aggregazione e interlocutore di Lazio Innova, assicura il coordinamento generale, il monitoraggio e il controllo qualità. Progetta, installa e valida la rete di sensori IoT ambientali e realizza la piattaforma cloud-based con dashboard GIS che integra i moduli sensoristici e AI/NLP.",
-      "team": "Referente: Gianluca Rossi · coordinatore del team: Andrea Talamanca (subentrato a Diego Grimani indicato nel formulario) · Marialuisa Scalise · comunicazione/disseminazione e rendicontazione: Massimo Scopigno",
+      "team": "Referente e coordinatore di progetto: Andrea Talamanca (subentrato a Diego Grimani indicato nel formulario) · supporto: Gianluca Rossi (National & EU Grant Office) · Marialuisa Scalise · comunicazione/disseminazione e rendicontazione: Massimo Scopigno",
       "anagrafica": {
         "ragione_sociale": "RO Technology S.r.l.",
         "sede_legale": "Via Benedetto Croce 40 – 00142 Roma (RM)",
@@ -47,14 +47,15 @@
       },
       "referenti": [
         {
-          "nome": "Gianluca Rossi",
-          "ruolo": "National & EU Grant Office, referente di progetto",
-          "email": "gianluca.rossi@rotechnology.it",
-          "telefono": "+39 06 2112 8876"
+          "nome": "Andrea Talamanca",
+          "ruolo": "Referente e coordinatore di progetto",
+          "email": "andrea.talamanca@rotechnology.it"
         },
         {
-          "nome": "Andrea Talamanca",
-          "ruolo": "Coordinatore del team tecnico"
+          "nome": "Gianluca Rossi",
+          "ruolo": "National & EU Grant Office, supporto al coordinamento",
+          "email": "gianluca.rossi@rotechnology.it",
+          "telefono": "+39 06 2112 8876"
         },
         {
           "nome": "Massimo Scopigno",
@@ -243,7 +244,7 @@
     {
       "data": null,
       "titolo": "Comunicazione a Lazio Innova della variazione del gruppo di lavoro",
-      "descrizione": "Variazione del team di RO Technology (sostituzioni e nuova distribuzione delle ore-uomo) condivisa con i partner il 20/10, da trasmettere a Lazio Innova.",
+      "descrizione": "Variazione del team di RO Technology (sostituzioni e nuova distribuzione delle ore-uomo) condivisa con i partner il 20/10, da trasmettere a Lazio Innova. Nella comunicazione va indicato Andrea Talamanca come coordinatore di progetto per RO Technology.",
       "chi": "RO Technology",
       "stato": "in_corso",
       "nota_interna": "L'invio a Lazio Innova non risulta dalla corrispondenza: verificare con RO Technology."
@@ -262,7 +263,7 @@
       "descrizione": "Sottoscrizione del contratto di aggregazione (ATS) da parte di tutti i partner, con firma digitale, entro il termine per la richiesta dell'anticipo (06/01/2027): l'ATS va trasmessa a Lazio Innova a corredo dell'Atto di Impegno ed è necessaria per finalizzare la polizza fideiussoria e chiedere l'anticipo (art. 2, art. 9 e Appendice 5 dell'Avviso). Per Sapienza firma il prof. Roberto Li Voti con la procura speciale del 16/11/2026. Obiettivo: firma entro fine novembre; sessione unica delle tre ATS. Il notaio individuato ha confermato la disponibilità per venerdì 20/11/2026; data e sede definitive da confermare con Sapienza.",
       "chi": "RO Technology (capofila) e tutti i partner",
       "stato": "da_avviare",
-      "nota_interna": "10/11: Sapienza (L. Francescangeli) chiede il contatto del notaio individuato per l'ATS (ipotesi di un unico notaio per i tre progetti), perché il notaio di Sapienza che prepara la procura speciale vuole coordinarsi con lui. 10/11: NOREMA ha chiesto al notaio S. Lombardo (contatto Microsis) preventivo e disponibilità per stipulare le tre ATS in un'unica sessione il 18, 19 o 20/11. 10/11 17:03: il notaio conferma la disponibilità per il 20/11."
+      "nota_interna": "10/11: Sapienza (L. Francescangeli) chiede il contatto del notaio individuato per l'ATS (ipotesi di un unico notaio per i tre progetti), perché il notaio di Sapienza che prepara la procura speciale vuole coordinarsi con lui. 10/11: NOREMA ha chiesto al notaio S. Lombardo (contatto Microsis) preventivo e disponibilità per stipulare le tre ATS in un'unica sessione il 18, 19 o 20/11. 10/11 17:03: il notaio conferma la disponibilità per il 20/11. 11/11 12:17: L. Francescangeli (Sapienza) chiede di nuovo se il notaio per le ATS è stato individuato, perché il notaio di Sapienza vuole contattarlo al più presto: in Bozze c'è una mail (11/11 12:38) con i recapiti del notaio Lombardo, non ancora inviata."
     },
     {
       "data": null,
@@ -420,6 +421,18 @@
       "titolo": "Disponibilità del notaio per la stipula delle ATS",
       "sintesi": "Il notaio individuato conferma la disponibilità per venerdì 20/11/2026 per la stipula delle ATS. La sede sarà probabilmente presso Sapienza: data e sede sono da confermare con l'Università.",
       "nota_interna": "Risposta del notaio S. Lombardo del 10/11 (17:03): disponibile il 20/11; suggerisce di chiedere subito conferma a Sapienza (stipula presumibilmente presso Sapienza). Preventivo: 1.600 € per ciascun atto ATS al netto della ritenuta d'acconto; 2.600 € (IVA e imposte incluse) per la costituzione dell'associazione QUINTA. In caso di accettazione fornirà l'elenco dei documenti necessari. Da accettare il preventivo e girare il contatto a Sapienza (L. Francescangeli)."
+    },
+    {
+      "data": "2026-11-11",
+      "titolo": "Documenti per la procura speciale Sapienza",
+      "sintesi": "Per la stipula della procura speciale per la firma delle ATS, l'amministrazione Sapienza necessita, per ciascuno dei tre progetti (HS – HumanSeal, PRONTI VIA, SPACE.AI), del documento di finalizzazione della domanda e della comunicazione di ammissione a finanziamento.",
+      "nota_interna": "Email di V. Bruni (cc D. Vitulano) a Claudia dell'11/11 alle 12:35: l'ammissione per HumanSeal e PRONTI VIA è stata recuperata dalla piattaforma; per SPACE.AI chiede le credenziali di accesso; il documento di finalizzazione manca per tutti e tre i progetti. Da inviare."
+    },
+    {
+      "data": "2026-11-11",
+      "titolo": "Referente di RO Technology per PRONTI VIA",
+      "sintesi": "RO Technology indica Andrea Talamanca come referente e coordinatore del progetto per il capofila; Gianluca Rossi resta a supporto. Il nominativo va comunicato anche a Lazio Innova.",
+      "nota_interna": "Email di G. Rossi dell'11/11 alle 10:04 (thread «Fideiussione anticipo progetto Pronti Via», cc step@norema.eu): chiede di aggiornare la sezione Partenariato della pagina."
     }
   ],
   "riunioni": [
