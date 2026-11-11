@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-11-10T15:50:00+01:00",
+ "aggiornato": "2026-11-11T07:50:00+01:00",
  "fonte": "Fonti: Det. G13392 del 02/10/2026 (BURL n. 81 suppl. 1 del 08/10/2026, Allegati A e B); comunicazione di concessione Lazio Innova (prot. LISPA 0036564 del 14/10/2026); piano costi approvato GeCoWEB Plus (dettaglio del 22/10/2026); formulario presentato (proposta progettuale) e bozza del contratto di aggregazione allegata alla domanda; corrispondenza di partenariato (email Outlook dal 15/07/2025 al 26/10/2026).",
  "progetto": {
   "acronimo": "PRONTI VIA",
@@ -257,7 +257,7 @@
   {
    "data": "2027-01-06",
    "titolo": "Firma dell'ATS (entro la richiesta dell'anticipo)",
-   "descrizione": "Sottoscrizione del contratto di aggregazione (ATS) da parte di tutti i partner, con firma digitale, entro il termine per la richiesta dell'anticipo (06/01/2027): l'ATS va trasmessa a Lazio Innova a corredo dell'Atto di Impegno ed è necessaria per finalizzare la polizza fideiussoria e chiedere l'anticipo (art. 2, art. 9 e Appendice 5 dell'Avviso). Per Sapienza firma il prof. Roberto Li Voti con la procura speciale del 16/11/2026. Obiettivo: firma entro fine novembre; richiesta al notaio la disponibilità per una sessione unica delle tre ATS il 18, 19 o 20/11/2026.",
+   "descrizione": "Sottoscrizione del contratto di aggregazione (ATS) da parte di tutti i partner, con firma digitale, entro il termine per la richiesta dell'anticipo (06/01/2027): l'ATS va trasmessa a Lazio Innova a corredo dell'Atto di Impegno ed è necessaria per finalizzare la polizza fideiussoria e chiedere l'anticipo (art. 2, art. 9 e Appendice 5 dell'Avviso). Per Sapienza firma il prof. Roberto Li Voti con la procura speciale del 16/11/2026. Obiettivo: firma entro fine novembre; sessione unica delle tre ATS. Il notaio individuato ha confermato la disponibilità per venerdì 20/11/2026; data e sede definitive da confermare con Sapienza.",
    "chi": "RO Technology (capofila) e tutti i partner",
    "stato": "da_avviare"
   },
@@ -390,6 +390,11 @@
    "data": "2026-11-10",
    "titolo": "Documentazione per il preventivo della polizza fideiussoria",
    "sintesi": "Il capofila trasmette gli ultimi due bilanci approvati e la documentazione richiesta per il preventivo della polizza fideiussoria per l'anticipo, e propone un incontro a breve per programmare le attività di progetto."
+  },
+  {
+   "data": "2026-11-10",
+   "titolo": "Disponibilità del notaio per la stipula delle ATS",
+   "sintesi": "Il notaio individuato conferma la disponibilità per venerdì 20/11/2026 per la stipula delle ATS. La sede sarà probabilmente presso Sapienza: data e sede sono da confermare con l'Università."
   }
  ],
  "riunioni": [
