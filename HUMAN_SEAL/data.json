@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-12T17:45:00+01:00",
+  "aggiornato": "2026-11-12T18:50:00+01:00",
   "fonte": "Fonti: comunicazione di concessione Lazio Innova (prot. LISPA 0033570 del 24/09/2026), Det. G12471 del 15/09/2026 (BURL n. 75 del 17/09/2026, Allegati A e B), formulario/proposta progettuale definitiva (18/07/2025), piano costi approvato da GeCoWEB Plus (estrazione 22/10/2026), corrispondenza di partenariato e PEC (luglio 2025 – ottobre 2026).",
   "progetto": {
     "acronimo": "HS – HumanSeal",
@@ -418,6 +418,14 @@
   ],
   "criticita": [
     {
+      "data": "2026-11-12",
+      "titolo": "Olympos Hub: variazione della sede legale",
+      "descrizione": "Olympos Hub comunica che la propria sede legale (Via Nicolò Tartaglia 11, Roma) cambierà a breve per il trasloco dello studio presso cui è domiciliata; la variazione sarà depositata in Camera di Commercio non prima della prossima settimana. Alla stipula dell'ATS del 23/11/2026 la visura riporterà ancora la sede attuale. Da definire gli effetti su ATS, anagrafica GeCoWEB, Atto di Impegno e polizza fideiussoria e le relative comunicazioni a Lazio Innova tramite il capofila.",
+      "livello": "media",
+      "stato": "aperta",
+      "nota_interna": "Email di C. Pezzotta a Claudia (cc L. Ciampi) del 12/11 alle 17:44. Domande poste: 1) si può firmare l'ATS con la sede da visura alla data della firma; 2) dopo la registrazione basta comunicare la nuova sede o l'ATS va aggiornata, con quali spese; 3) comunicazione a Lazio Innova/aggiornamento GeCoWEB: la fa Olympos o il capofila; 4) effetti su Atto di Impegno e polizza fideiussoria. Nuovo indirizzo e data effettiva non ancora comunicati. Risposta da dare."
+    },
+    {
       "data": "2026-11-10",
       "titolo": "Chiusura in 18 mesi e SAL obbligatori",
       "descrizione": "Al kick-off i partner hanno deciso di chiudere il progetto in 18 mesi (entro il 17/03/2028). Restano obbligatori i due SAL previsti dall'Avviso (art. 9) e dall'Atto di Impegno (art. 6): entro il 17/05/2027 ed entro il 17/01/2028, con almeno il 40% dei costi rendicontati al secondo SAL. Se una richiesta obbligatoria non viene presentata, Lazio Innova invita ad adempiere entro 30 giorni e poi propone la revoca.",
@@ -585,6 +593,12 @@
       "titolo": "Documentazione allo Studio Floridi e orari della stipula del 23/11",
       "sintesi": "Allo Studio Floridi sono state trasmesse le schede delle parti e dei firmatari, le bozze delle tre ATS, l'Avviso e le determine di concessione. Orari proposti per lunedì 23/11/2026: ore 15:00 PRONTI VIA, 15:30 SPACE.AI, 16:00 HS – HumanSeal; per Sapienza firma il prof. Roberto Li Voti con procura speciale e il notaio dell'Università si coordinerà con lo studio.",
       "nota_interna": "Email di Claudia a E. Dragoni del 12/11 alle 14:43 (allegato Schede_firmatari_ATS_STEP_Lazio_NOREMA.pdf: contiene dati personali, non pubblicare). DEV4U ha confermato le 16:00 alle 12:54."
+    },
+    {
+      "data": "2026-11-12",
+      "titolo": "Olympos Hub: prossima variazione della sede legale",
+      "sintesi": "Olympos Hub segnala che la sede legale cambierà indirizzo dopo la stipula dell'ATS del 23/11/2026 (deposito in Camera di Commercio entro 30 giorni dalla variazione). Il nuovo indirizzo e la data effettiva saranno comunicati appena disponibili.",
+      "nota_interna": "Email di C. Pezzotta del 12/11 alle 17:44 a c.abatecola@norema.eu (non sulla casella step@)."
     }
   ],
   "riunioni": [

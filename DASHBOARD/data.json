@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-11-12T17:45:00+01:00",
+ "aggiornato": "2026-11-12T18:50:00+01:00",
  "progetti": [
   {
    "acronimo": "HS – HumanSeal",
@@ -371,6 +371,14 @@
    ],
    "criticita": [
     {
+     "data": "2026-11-12",
+     "titolo": "Olympos Hub: variazione della sede legale",
+     "descrizione": "Olympos Hub comunica che la propria sede legale (Via Nicolò Tartaglia 11, Roma) cambierà a breve per il trasloco dello studio presso cui è domiciliata; la variazione sarà depositata in Camera di Commercio non prima della prossima settimana. Alla stipula dell'ATS del 23/11/2026 la visura riporterà ancora la sede attuale. Da definire gli effetti su ATS, anagrafica GeCoWEB, Atto di Impegno e polizza fideiussoria e le relative comunicazioni a Lazio Innova tramite il capofila.",
+     "livello": "media",
+     "stato": "aperta",
+     "nota_interna": "Email di C. Pezzotta a Claudia (cc L. Ciampi) del 12/11 alle 17:44. Domande poste: 1) si può firmare l'ATS con la sede da visura alla data della firma; 2) dopo la registrazione basta comunicare la nuova sede o l'ATS va aggiornata, con quali spese; 3) comunicazione a Lazio Innova/aggiornamento GeCoWEB: la fa Olympos o il capofila; 4) effetti su Atto di Impegno e polizza fideiussoria. Nuovo indirizzo e data effettiva non ancora comunicati. Risposta da dare."
+    },
+    {
      "data": "2026-11-10",
      "titolo": "Chiusura in 18 mesi e SAL obbligatori",
      "descrizione": "Al kick-off i partner hanno deciso di chiudere il progetto in 18 mesi (entro il 17/03/2028). Restano obbligatori i due SAL previsti dall'Avviso (art. 9) e dall'Atto di Impegno (art. 6): entro il 17/05/2027 ed entro il 17/01/2028, con almeno il 40% dei costi rendicontati al secondo SAL. Se una richiesta obbligatoria non viene presentata, Lazio Innova invita ad adempiere entro 30 giorni e poi propone la revoca.",
@@ -431,7 +439,7 @@
      "stato": "risolta"
     }
    ],
-   "aggiornato": "2026-11-12T17:45:00+01:00"
+   "aggiornato": "2026-11-12T18:50:00+01:00"
   },
   {
    "acronimo": "PRONTI VIA",
@@ -1357,7 +1365,7 @@
    "pec": "olympos.hub@legalmail.it",
    "sito": "https://olymposhub.io",
    "legale_rappresentante": "Sandy Gasperoni (Amministratrice Unica)",
-   "note": "Dimensione 'Micro impresa' da un documento R.O.M.E. Digital Hub (Allegato 13 Sapienza, luglio 2026), non dalla domanda STEP, che è solo in .p7m. PEC da un documento R.O.M.E. Digital Hub. REA RM-1594684. Nella bozza ATS manca il nome del responsabile scientifico."
+   "note": "Dimensione 'Micro impresa' da un documento R.O.M.E. Digital Hub (Allegato 13 Sapienza, luglio 2026), non dalla domanda STEP, che è solo in .p7m. PEC da un documento R.O.M.E. Digital Hub. REA RM-1594684. Nella bozza ATS manca il nome del responsabile scientifico. 12/11/2026: Olympos Hub comunica una prossima variazione della sede legale (trasloco dello studio del commercialista), da registrare in CCIAA non prima della settimana successiva; nuovo indirizzo non ancora comunicato. Referente per la comunicazione: Claudio Pezzotta, Innovation & Strategy Lead, claudio@olymposhub.io."
   },
   {
    "nome": "READYLAB S.R.L.S.",
