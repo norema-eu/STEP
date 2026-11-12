@@ -258,7 +258,7 @@
   {
    "data": "2027-01-06",
    "titolo": "Firma dell'ATS (entro la richiesta dell'anticipo)",
-   "descrizione": "Sottoscrizione del contratto di aggregazione (ATS) da parte di tutti i partner, con firma digitale, entro il termine per la richiesta dell'anticipo (06/01/2027): l'ATS va trasmessa a Lazio Innova a corredo dell'Atto di Impegno ed è necessaria per finalizzare la polizza fideiussoria e chiedere l'anticipo (art. 2, art. 9 e Appendice 5 dell'Avviso). Per Sapienza firma il prof. Roberto Li Voti con la procura speciale del 16/11/2026. Stipula prevista presso lo Studio Floridi (Viale Regina Margherita 239, Roma) nella sessione di lunedì 23/11/2026 dalle ore 15:00, data indicata come preferita da Sapienza; orario del singolo atto da confermare.",
+   "descrizione": "Sottoscrizione del contratto di aggregazione (ATS) da parte di tutti i partner, con atto notarile, entro il termine per la richiesta dell'anticipo (06/01/2027): l'ATS va trasmessa a Lazio Innova a corredo dell'Atto di Impegno ed è necessaria per finalizzare la polizza fideiussoria e chiedere l'anticipo (art. 2, art. 9 e Appendice 5 dell'Avviso). Per Sapienza firma il prof. Roberto Li Voti con la procura speciale del 16/11/2026. Stipula prevista presso lo Studio Floridi (Viale Regina Margherita 239, Roma) nella sessione di lunedì 23/11/2026 dalle ore 15:00, data indicata come preferita da Sapienza; orario del singolo atto da confermare.",
    "chi": "RO Technology (capofila) e tutti i partner",
    "stato": "da_avviare"
   },
@@ -411,6 +411,11 @@
    "data": "2026-11-12",
    "titolo": "Studio notarile e date per la stipula delle ATS",
    "sintesi": "Le ATS dei tre progetti in cui partecipano NOREMA e Sapienza saranno stipulate presso lo Studio Floridi (Viale Regina Margherita 239, Roma). Per Sapienza il prof. Roberto Li Voti ha indicato come data preferita lunedì 23/11/2026 dalle ore 15:00 (in alternativa 24/11 ore 12:00)."
+  },
+  {
+   "data": "2026-11-12",
+   "titolo": "Bozza di ATS aggiornata (rev. 3)",
+   "sintesi": "La bozza di ATS è stata aggiornata per la stipula con atto notarile richiesta da Lazio Innova, con i dati dei partner disponibili. È stata precisata anche la regola sulla sostituzione del coordinatore, che richiede l'autorizzazione di Lazio Innova."
   }
  ],
  "riunioni": [
@@ -452,13 +457,13 @@
    "nota": "emesso dalla Regione dopo le verifiche antimafia"
   },
   {
-   "nome": "Contratto di aggregazione (ATS) – bozza rev. 2",
+   "nome": "Contratto di aggregazione (ATS) – bozza rev. 3",
    "categoria": "Documenti di progetto",
-   "data": "2026-11-09",
+   "data": "2026-11-12",
    "stato": "in_corso",
    "file": "PRONTI_VIA_ATS_bozza.docx",
    "anteprima": "anteprime/PRONTI_VIA_ATS_bozza.pdf",
-   "nota": "bozza rev. 2: per Sapienza firma il prof. Roberto Li Voti, Direttore del Dipartimento SBAI, con procura speciale del Rettore (atto del 16/11/2026), da allegare all'ATS; NOREMA indicata come S.r.l. Da completare nelle parti evidenziate e firmare da tutti i partner; va trasmessa con l'Atto di Impegno"
+   "nota": "bozza rev. 3 da stipulare con atto notarile, come richiesto da Lazio Innova per il perfezionamento dell'Atto di Impegno. Per Sapienza firma il prof. Roberto Li Voti con procura speciale del Rettore (16/11/2026). Restano da completare le parti evidenziate"
   },
   {
    "nome": "Atto di Impegno",
