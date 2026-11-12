@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-11-12T12:50:00+01:00",
+ "aggiornato": "2026-11-12T15:50:00+01:00",
  "fonte": "Fonti: comunicazione di concessione Lazio Innova (prot. LISPA 0033570 del 24/09/2026), Det. G12471 del 15/09/2026 (BURL n. 75 del 17/09/2026, Allegati A e B), formulario/proposta progettuale definitiva (18/07/2025), piano costi approvato da GeCoWEB Plus (estrazione 22/10/2026), corrispondenza di partenariato e PEC (luglio 2025 – ottobre 2026).",
  "progetto": {
   "acronimo": "HS – HumanSeal",
@@ -365,7 +365,7 @@
   {
    "data": "2026-11-23",
    "titolo": "Firma dell'ATS (entro la richiesta dell'anticipo)",
-   "descrizione": "Stipula del contratto di aggregazione (ATS) fissata per lunedì 23/11/2026 alle ore 16:00 presso lo Studio Floridi (Viale Regina Margherita 239, Roma). Per Sapienza firma il prof. Roberto Li Voti con la procura speciale del Rettore del 16/11/2026. L'ATS va allegata all'Atto di Impegno (entro il 25/12/2026) ed è necessaria per la polizza fideiussoria e la richiesta dell'anticipo (entro il 16/12/2026).",
+   "descrizione": "Stipula del contratto di aggregazione (ATS) fissata per lunedì 23/11/2026 alle ore 16:00 presso lo Studio Floridi, confermata dal capofila DEV4U il 12/11/2026, (Viale Regina Margherita 239, Roma). Per Sapienza firma il prof. Roberto Li Voti con la procura speciale del Rettore del 16/11/2026. L'ATS va allegata all'Atto di Impegno (entro il 25/12/2026) ed è necessaria per la polizza fideiussoria e la richiesta dell'anticipo (entro il 16/12/2026).",
    "chi": "DEV4U (capofila) e tutti i partner",
    "stato": "da_avviare"
   },
@@ -553,6 +553,11 @@
    "data": "2026-11-12",
    "titolo": "Bozza di ATS aggiornata (rev. 3)",
    "sintesi": "La bozza di ATS è stata aggiornata per la stipula con atto notarile richiesta da Lazio Innova, con i dati dei partner disponibili. È stata precisata anche la regola sulla sostituzione del coordinatore, che richiede l'autorizzazione di Lazio Innova."
+  },
+  {
+   "data": "2026-11-12",
+   "titolo": "Documentazione allo Studio Floridi e orari della stipula del 23/11",
+   "sintesi": "Allo Studio Floridi sono state trasmesse le schede delle parti e dei firmatari, le bozze delle tre ATS, l'Avviso e le determine di concessione. Orari proposti per lunedì 23/11/2026: ore 15:00 PRONTI VIA, 15:30 SPACE.AI, 16:00 HS – HumanSeal; per Sapienza firma il prof. Roberto Li Voti con procura speciale e il notaio dell'Università si coordinerà con lo studio."
   }
  ],
  "riunioni": [
