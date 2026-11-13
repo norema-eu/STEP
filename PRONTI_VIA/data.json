@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-12T17:45:00+01:00",
+  "aggiornato": "2026-11-13T12:50:00+01:00",
   "fonte": "Fonti: Det. G13392 del 02/10/2026 (BURL n. 81 suppl. 1 del 08/10/2026, Allegati A e B); comunicazione di concessione Lazio Innova (prot. LISPA 0036564 del 14/10/2026); piano costi approvato GeCoWEB Plus (dettaglio del 22/10/2026); formulario presentato (proposta progettuale) e bozza del contratto di aggregazione allegata alla domanda; corrispondenza di partenariato (email Outlook dal 15/07/2025 al 26/10/2026).",
   "progetto": {
     "acronimo": "PRONTI VIA",
@@ -456,6 +456,18 @@
       "titolo": "Convocazione per la stipula dell'ATS del 23/11 ore 15:00",
       "sintesi": "I partner sono convocati presso lo Studio Floridi (Viale Regina Margherita 239, Roma) lunedì 23/11/2026 alle ore 15:00 per la stipula dell'ATS. La bozza dell'atto e le informazioni utili sono disponibili su questa pagina; si chiede a ciascun partner un riscontro di conferma.",
       "nota_interna": "Email da step@norema.eu (L. Ciampi) del 12/11 alle 16:05 a RO Technology (G. Rossi, A. Talamanca, R. Di Francesco) e Sapienza (V. Bruni, D. Vitulano). Conferme dei partner non ancora ricevute."
+    },
+    {
+      "data": "2026-11-13",
+      "titolo": "CUP di Sapienza registrati",
+      "sintesi": "Il Dipartimento SBAI di Sapienza ha registrato i propri CUP per i tre progetti STEP e ne ha trasmesso il dettaglio: il CUP di Sapienza può essere inserito nella bozza di ATS prima della stipula del 23/11/2026.",
+      "nota_interna": "Email di L. Francescangeli a Claudia del 13/11 alle 08:52 con i PDF DETTAGLIO_CUP per SPACE AI, HUMANSEAL e PRONTI VIA e il documento d'identità del Direttore (non pubblicare). Codici CUP non letti in questo controllo (allegati non accessibili): riportarli nell'ATS e nell'anagrafica."
+    },
+    {
+      "data": "2026-11-13",
+      "titolo": "Studio Floridi: progetti di fattura per la stipula delle ATS",
+      "sintesi": "Lo Studio Floridi ha trasmesso i progetti di fattura relativi alla stipula delle tre ATS del 23/11/2026, intestati ai rispettivi capofila (per questo progetto RO Technology). Le spese notarili sono ripartite tra le Parti secondo l'art. 18 della bozza di ATS.",
+      "nota_interna": "Email dell'Avv. E. Dragoni a Claudia del 13/11 alle 09:47 («come richiesto»), con i PDF «prog. fatt.» intestati a DEV4U, RO Technology e IPTSAT. Importi non riportati: verificarli negli allegati. Conferma degli orari della sessione del 23/11 non contenuta nella mail."
     }
   ],
   "riunioni": [
@@ -503,7 +515,7 @@
       "stato": "in_corso",
       "file": "PRONTI_VIA_ATS_bozza.docx",
       "anteprima": "anteprime/PRONTI_VIA_ATS_bozza.pdf",
-      "nota": "bozza del 12/11/2026 per la stipula notarile del 23/11/2026, da allegare all'Atto di Impegno. Per Sapienza firma il prof. Roberto Li Voti come procuratore speciale. Le spese notarili sono ripartite tra le Parti in proporzione ai costi ammessi (art. 18). Restano da inserire gli estremi dell'atto notarile, il CUP di Sapienza e gli allegati (poteri di firma)"
+      "nota": "bozza del 12/11/2026 per la stipula notarile del 23/11/2026, da allegare all'Atto di Impegno. Per Sapienza firma il prof. Roberto Li Voti come procuratore speciale. Le spese notarili sono ripartite tra le Parti in proporzione ai costi ammessi (art. 18). Restano da inserire gli estremi dell'atto notarile, il CUP di Sapienza (registrato e trasmesso dal Dipartimento il 13/11/2026) e gli allegati (poteri di firma)"
     },
     {
       "nome": "Atto di Impegno",

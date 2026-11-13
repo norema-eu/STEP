@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-12T18:50:00+01:00",
+  "aggiornato": "2026-11-13T12:50:00+01:00",
   "fonte": "Fonti: comunicazione di concessione Lazio Innova (prot. LISPA 0033570 del 24/09/2026), Det. G12471 del 15/09/2026 (BURL n. 75 del 17/09/2026, Allegati A e B), formulario/proposta progettuale definitiva (18/07/2025), piano costi approvato da GeCoWEB Plus (estrazione 22/10/2026), corrispondenza di partenariato e PEC (luglio 2025 – ottobre 2026).",
   "progetto": {
     "acronimo": "HS – HumanSeal",
@@ -599,6 +599,18 @@
       "titolo": "Olympos Hub: prossima variazione della sede legale",
       "sintesi": "Olympos Hub segnala che la sede legale cambierà indirizzo dopo la stipula dell'ATS del 23/11/2026 (deposito in Camera di Commercio entro 30 giorni dalla variazione). Il nuovo indirizzo e la data effettiva saranno comunicati appena disponibili.",
       "nota_interna": "Email di C. Pezzotta del 12/11 alle 17:44 a c.abatecola@norema.eu (non sulla casella step@)."
+    },
+    {
+      "data": "2026-11-13",
+      "titolo": "CUP di Sapienza registrati",
+      "sintesi": "Il Dipartimento SBAI di Sapienza ha registrato i propri CUP per i tre progetti STEP e ne ha trasmesso il dettaglio: il CUP di Sapienza può essere inserito nella bozza di ATS prima della stipula del 23/11/2026.",
+      "nota_interna": "Email di L. Francescangeli a Claudia del 13/11 alle 08:52 con i PDF DETTAGLIO_CUP per SPACE AI, HUMANSEAL e PRONTI VIA e il documento d'identità del Direttore (non pubblicare). Codici CUP non letti in questo controllo (allegati non accessibili): riportarli nell'ATS e nell'anagrafica."
+    },
+    {
+      "data": "2026-11-13",
+      "titolo": "Studio Floridi: progetti di fattura per la stipula delle ATS",
+      "sintesi": "Lo Studio Floridi ha trasmesso i progetti di fattura relativi alla stipula delle tre ATS del 23/11/2026, intestati ai rispettivi capofila (per questo progetto DEV4U). Le spese notarili sono ripartite tra le Parti secondo l'art. 18 della bozza di ATS.",
+      "nota_interna": "Email dell'Avv. E. Dragoni a Claudia del 13/11 alle 09:47 («come richiesto»), con i PDF «prog. fatt.» intestati a DEV4U, RO Technology e IPTSAT. Importi non riportati: verificarli negli allegati. Conferma degli orari della sessione del 23/11 non contenuta nella mail."
     }
   ],
   "riunioni": [
@@ -661,7 +673,7 @@
       "stato": "in_corso",
       "file": "HUMAN_SEAL_ATS_bozza.docx",
       "anteprima": "anteprime/HUMAN_SEAL_ATS_bozza.pdf",
-      "nota": "bozza del 12/11/2026 per la stipula notarile del 23/11/2026, da allegare all'Atto di Impegno. Per Sapienza firma il prof. Roberto Li Voti come procuratore speciale. Le spese notarili sono ripartite tra le Parti in proporzione ai costi ammessi (art. 18). Restano da inserire gli estremi dell'atto notarile, il CUP di Sapienza e il comune di nascita di un sottoscrittore e gli allegati (poteri di firma)"
+      "nota": "bozza del 12/11/2026 per la stipula notarile del 23/11/2026, da allegare all'Atto di Impegno. Per Sapienza firma il prof. Roberto Li Voti come procuratore speciale. Le spese notarili sono ripartite tra le Parti in proporzione ai costi ammessi (art. 18). Restano da inserire gli estremi dell'atto notarile, il CUP di Sapienza (registrato e trasmesso dal Dipartimento il 13/11/2026) e il comune di nascita di un sottoscrittore e gli allegati (poteri di firma)"
     },
     {
       "nome": "Atto di Impegno",
