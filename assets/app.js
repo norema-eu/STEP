@@ -348,7 +348,7 @@
           ${row(a.codice_fiscale && a.partita_iva && a.codice_fiscale !== a.partita_iva ? "Codici fiscali" : "C.F. / P.IVA", piva(a))}
           ${row("REA", esc(a.rea))}${row("Legale rappresentante", esc(a.legale_rappresentante))}
           ${row("PEC", mail(a.pec))}${row("Email", mail(a.email_generale))}${row("Telefono", tel(a.telefono))}
-          ${row("Codice RNA", esc(p.rna))}${row("Note", esc(a.altro))}
+          ${row("Codice RNA", esc(p.rna))}${row("CUP del partner", esc(a.cup_partner))}${row("Note", esc(a.altro))}
         </dl>
         ${refs.length ? `<div class="pt-h">Referenti</div><ul class="pt-refs">${refs.map((r) => `<li><b>${esc(r.nome)}</b><span>${esc(r.ruolo || "")}</span>${r.email || r.telefono ? `<span class="pt-c">${mail(r.email)}${r.email && r.telefono ? " · " : ""}${tel(r.telefono)}</span>` : ""}</li>`).join("")}</ul>` : ""}
       </div>`;
