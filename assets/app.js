@@ -154,7 +154,7 @@
       };
       document.querySelectorAll("#pers-f button").forEach((b) => b.addEventListener("click", () => { fsel = b.dataset.v === "tutti" ? "tutti" : +b.dataset.v; drawHeat(); }));
       drawHeat();
-      $("#pers-note").textContent = `Personale indicato nel formulario per ciascun partner e carico mensile stimato: le ore previste per ogni work package sono distribuite in modo uniforme sui mesi del WP${senzaWp ? " (dove il formulario non ripartisce le ore per WP, sull'intera durata)" : ""}. È una pianificazione indicativa: le ore effettive risultano dai timesheet.`;
+      $("#pers-note").textContent = `Personale indicato nel formulario per ciascun partner e carico mensile stimato: le ore previste per ogni work package sono distribuite in modo uniforme sui mesi del WP${senzaWp ? " (dove il formulario non ripartisce le ore per WP, sull'intera durata)" : ""}. Le ore totali di ciascun partner coincidono con le ore valorizzate nel piano dei costi approvato (costi standard orari, B.1.1); la ripartizione mensile è indicativa e le ore effettive risultano dai timesheet.`;
       $("#pers-src").textContent = "Fonte: " + (PE.fonte || "formulario presentato");
     } else if ($("#personale-s")) {
       $("#pers-sum").closest(".card").outerHTML = `<div class="empty">Dati del personale in caricamento.</div>`;

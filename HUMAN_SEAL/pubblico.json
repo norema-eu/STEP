@@ -653,7 +653,7 @@
  },
  "personale": {
   "progetto": "HUMAN_SEAL",
-  "fonte": "Formulario presentato, Tab. 3 «Impegno delle risorse umane valorizzate a tempo uomo» dei WP1, WP4 e WP5, verificata con i costi ammessi per partner. Le ore dei WP2 e WP3 non ripartite per persona sono indicate come «Ore da attribuire»; il dettaglio sarà completato.",
+  "fonte": "Formulario presentato, Tab. 3 «Impegno delle risorse umane valorizzate a tempo uomo» dei WP1, WP4 e WP5, con totali per partner pari alle ore valorizzate nel piano dei costi approvato (GeCoWEB Plus, B.1.1). Le ore dei WP2 e WP3 non ripartite per persona sono indicate come «Ore da attribuire»; il dettaglio sarà completato.",
   "partner": [
    {
     "nome": "DEV4U S.r.l.s.",
@@ -791,9 +791,20 @@
        "WP5": 50
       },
       "ore_totali": 80
+     },
+     {
+      "nome": "Ore da attribuire",
+      "ruolo": "ore del piano dei costi non ripartite per persona nel formulario (WP2–WP3)",
+      "inquadramento": "",
+      "ore_per_wp": {},
+      "ore_totali": 520,
+      "wp_residuo": [
+       "WP2",
+       "WP3"
+      ]
      }
     ],
-    "ore_totali": 860
+    "ore_totali": 1380
    },
    {
     "nome": "NOREMA S.r.l.",
@@ -917,23 +928,23 @@
       "ruolo": "Esperta gestione progetti e finanza UE",
       "inquadramento": "fascia bassa",
       "ore_per_wp": {
-       "WP4": 700,
-       "WP5": 100
+       "WP4": 612.5,
+       "WP5": 87.5
       },
-      "ore_totali": 800
+      "ore_totali": 700
      },
      {
       "nome": "Alessio Giannini",
       "ruolo": "Ricercatore AI, big data e modelli predittivi",
       "inquadramento": "fascia bassa",
       "ore_per_wp": {
-       "WP4": 700,
-       "WP5": 100
+       "WP4": 612.5,
+       "WP5": 87.5
       },
-      "ore_totali": 800
+      "ore_totali": 700
      }
     ],
-    "ore_totali": 2360
+    "ore_totali": 2160
    },
    {
     "nome": "Olympos Hub S.r.l.",
