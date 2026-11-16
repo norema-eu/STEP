@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-11-16T17:50:00+01:00",
+ "aggiornato": "2026-11-16T18:50:00+01:00",
  "progetti": [
   {
    "acronimo": "HS – HumanSeal",
@@ -409,7 +409,7 @@
      "descrizione": "Kick-off fissato al 09/11/2026. Per la polizza fideiussoria dell'anticipo è in corso la raccolta dei preventivi.",
      "livello": "media",
      "stato": "aperta",
-     "nota_interna": "Richiesta del capofila (Patitucci) a NOREMA del 28/10."
+     "nota_interna": "Richiesta del capofila (Patitucci) a NOREMA del 28/10. 16/11 17:43: in Bozze di c.abatecola una richiesta di preventivo (non ancora inviata) all'agenzia «Roma Clodio» (P. Caputo, agenziaromaclodio@gmail.com, cc step@) per le polizze di HS (DEV4U, € 137.480,11) e PRONTI VIA (RO Technology, € 166.220,32), stesso schema di SPACE.AI; allegati formulari, visure, bilanci e dichiarazioni dei redditi (dati personali: non pubblicare). Integrazioni chieste alle società: visure aggiornate, dichiarazioni mancanti, documenti d'identità."
     },
     {
      "data": "2026-10-02",
@@ -441,7 +441,7 @@
      "stato": "risolta"
     }
    ],
-   "aggiornato": "2026-11-13T12:50:00+01:00"
+   "aggiornato": "2026-11-16T18:50:00+01:00"
   },
   {
    "acronimo": "PRONTI VIA",
@@ -733,7 +733,7 @@
      "descrizione": "Preventivo della polizza per l'anticipo in corso di richiesta; la polizza si finalizza dopo la firma dell'ATS.",
      "livello": "media",
      "stato": "aperta",
-     "nota_interna": "Cartella VIA-Polizza vuota. 10/11: documentazione del capofila ricevuta per il preventivo."
+     "nota_interna": "Cartella VIA-Polizza vuota. 10/11: documentazione del capofila ricevuta per il preventivo. 16/11 17:43: in Bozze di c.abatecola una richiesta di preventivo (non ancora inviata) all'agenzia «Roma Clodio» (P. Caputo, agenziaromaclodio@gmail.com, cc step@) per le polizze di HS (DEV4U, € 137.480,11) e PRONTI VIA (RO Technology, € 166.220,32), stesso schema di SPACE.AI; allegati formulari, visure, bilanci e dichiarazioni dei redditi (dati personali: non pubblicare). Integrazioni chieste alle società: visure aggiornate, dichiarazioni mancanti, documenti d'identità. Importo: nella richiesta € 166.220,32 (110% dell'anticipo arrotondato), in dashboard € 166.220,31 (44% del contributo): allineare."
     },
     {
      "data": "2026-07-13",
@@ -743,7 +743,7 @@
      "stato": "risolta"
     }
    ],
-   "aggiornato": "2026-11-13T12:50:00+01:00"
+   "aggiornato": "2026-11-16T18:50:00+01:00"
   },
   {
    "acronimo": "SPACE.AI",
@@ -1047,7 +1047,7 @@
      "nota_interna": "Bozze di email di C. Mirabella del 03/11 per IPTSAT, ReadyLab e Dipartimento SBAI (inviate a Claudia per revisione). Rischio economico: ~52.200 € IPTSAT e ~82.800 € ReadyLab se non risolto. 03/11: risposto a Sapienza sul post-doc (B.1 dipendente; costo standard vs effettivo da chiedere a Lazio Innova)."
     }
    ],
-   "aggiornato": "2026-11-16T17:50:00+01:00"
+   "aggiornato": "2026-11-16T18:50:00+01:00"
   }
  ],
  "tutor": {
