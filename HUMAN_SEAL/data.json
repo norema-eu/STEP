@@ -281,12 +281,6 @@
       "stato": "completato"
     },
     {
-      "data": "2026-09-17",
-      "titolo": "Pubblicazione esiti",
-      "descrizione": "Progetto inserito nel quarto elenco degli idonei e finanziabili (Det. G12471, BURL n. 75): 68 punti, nessun taglio.",
-      "stato": "completato"
-    },
-    {
       "data": "2026-09-24",
       "titolo": "Comunicazione di concessione del contributo",
       "descrizione": "PEC di Lazio Innova (prot. 0033570) con CUP, schede B.D.N.A. e richiesta della documentazione antimafia entro 10 giorni.",
@@ -330,15 +324,15 @@
     },
     {
       "titolo": "Richiesta dell'anticipo",
-      "descrizione": "Termine per la richiesta dell'anticipo: richiede ATS sottoscritta (da allegare all'Atto di Impegno) e polizza fideiussoria. Obiettivo: firma dell'ATS entro metà dicembre, possibilmente entro novembre.",
+      "descrizione": "Entro 90 giorni dalla Data di Concessione (17/09/2026): 40% del contributo concesso (€ 124.981,92), con la polizza fideiussoria e l'ATS sottoscritta allegata all'Atto di Impegno (art. 9 dell'Avviso).",
       "chi": "DEV4U (capofila)",
       "stato": "da_avviare",
       "data": "2026-12-16"
     },
     {
-      "data": null,
-      "titolo": "Polizza fideiussoria per l'anticipo",
-      "descrizione": "Individuato lo schema di polizza; raccolta dei preventivi in corso. Per la stipula sono richiesti ai partner le dichiarazioni degli amministratori e gli ultimi due bilanci approvati.",
+      "data": "2026-12-16",
+      "titolo": "Polizza fideiussoria per l'anticipo (con la richiesta di anticipo)",
+      "descrizione": "Come da Avviso (art. 9 e Appendice 1, «Fideiussione») e manuale GeCoWEB: la polizza va presentata con la richiesta di anticipo, entro 90 giorni dalla Data di Concessione (17/09/2026), quindi entro il 16/12/2026. Importo garantito: 44% del contributo concesso, cioè l'anticipo del 40% (€ 124.981,92) maggiorato del 10%, per € 137.480,11. Durata: fino alla conclusione del progetto più 12 mesi, quindi almeno fino al 17/09/2029, con proroga automatica annuale fino allo svincolo di Lazio Innova. Contraente: il capofila, per tutto il partenariato. Individuato lo schema di polizza; raccolta dei preventivi in corso. Per la stipula sono richiesti ai partner le dichiarazioni degli amministratori e gli ultimi due bilanci approvati.",
       "chi": "DEV4U (capofila)",
       "stato": "in_corso",
       "nota_interna": "Il 03/11 NOREMA ha chiesto al capofila se ha un broker di riferimento. 05/11: NOREMA ha chiesto a IPTSAT il contatto dell'assicuratore che ha emesso la bozza di polizza SPACE.AI, per richiedere preventivi anche per PRONTI VIA e HumanSeal; IPTSAT ha fornito il riferimento del titolare (contatto preavvisato). 10/11: NOREMA ha chiesto a DEV4U e Main Project le ultime due dichiarazioni degli amministratori e gli ultimi due bilanci; DEV4U ha inviato lo stesso giorno (bilanci 2024 e 2025 e due dichiarazioni)."
@@ -346,7 +340,7 @@
     {
       "data": "2026-09-17",
       "titolo": "Data di Concessione",
-      "descrizione": "Det. G12471 del 15/09/2026 pubblicata sul BURL n. 75 del 17/09/2026: per l'Atto di Impegno è la Data di Concessione da cui decorrono anticipo (90 giorni), SAL (8 e 16 mesi) e saldo (24 mesi). Con la lettera prot. 0041094 Lazio Innova conferma l'esito positivo delle verifiche dell'art. 8.",
+      "descrizione": "Pubblicazione sul BURL della graduatoria con il progetto ammesso: Det. G12471 del 15/09/2026 (BURL n. 75 del 17/09/2026). È la data da cui decorrono anticipo, SAL e conclusione del progetto (Avviso, Appendice 1, «Data di Concessione»).",
       "chi": "Regione Lazio",
       "stato": "completato"
     },
@@ -361,8 +355,8 @@
     {
       "data": "2028-09-17",
       "titolo": "Conclusione del progetto e richiesta di saldo",
-      "descrizione": "Progetto concluso e richiesta di erogazione a saldo con la rendicontazione finale di ogni beneficiario entro il 17/09/2028 (24 mesi dalla Data di Concessione; art. 3 Atto di Impegno, art. 1 Avviso).",
-      "chi": "Tutti i partner",
+      "descrizione": "Entro 24 mesi dalla Data di Concessione e comunque non oltre il 31/03/2029 (artt. 1 e 9 dell'Avviso).",
+      "chi": "DEV4U (capofila)",
       "stato": "da_avviare"
     },
     {
@@ -376,15 +370,15 @@
     {
       "data": "2027-05-17",
       "titolo": "1° SAL obbligatorio",
-      "descrizione": "Richiesta di erogazione a SAL entro 8 mesi dalla Data di Concessione (art. 9 Avviso; art. 6 Atto di Impegno). Anticipo e SAL insieme non possono superare l'80% del contributo.",
-      "chi": "DEV4U (mandataria) con la rendicontazione di tutti i partner",
+      "descrizione": "Richiesta del primo acconto a stato di avanzamento, entro 8 mesi dalla Data di Concessione (art. 9 dell'Avviso).",
+      "chi": "DEV4U (capofila)",
       "stato": "da_avviare"
     },
     {
       "data": "2028-01-17",
       "titolo": "2° SAL obbligatorio",
-      "descrizione": "Richiesta di erogazione a SAL entro 16 mesi dalla Data di Concessione: costi rendicontati complessivamente almeno pari al 40% dei costi ammessi (art. 9 Avviso).",
-      "chi": "DEV4U (mandataria) con la rendicontazione di tutti i partner",
+      "descrizione": "Entro 16 mesi dalla Data di Concessione, con costi rendicontati pari almeno al 40% dei costi ammessi (art. 9 dell'Avviso).",
+      "chi": "DEV4U (capofila)",
       "stato": "da_avviare"
     },
     {
@@ -414,6 +408,13 @@
       "descrizione": "Ogni partner invia a step@norema.eu gli aggiornamenti su personale e ore/uomo (inclusi i nuovi dipendenti), costi generali e attrezzature da acquistare, confrontati con il piano dei costi approvato su GeCoWEB Plus. Data indicativa, da confermare.",
       "chi": "Tutti i partner",
       "stato": "in_corso"
+    },
+    {
+      "data": "2029-09-17",
+      "descrizione": "La polizza deve restare valida almeno fino al 17/09/2029: 12 mesi oltre la conclusione del progetto (17/09/2028). Se si ottiene la proroga del saldo (massimo 6 mesi, art. 9 dell'Avviso), la scadenza va estesa di conseguenza. Lazio Innova restituisce la polizza a saldo, se l'anticipo non va restituito.",
+      "chi": "DEV4U (capofila)",
+      "stato": "da_avviare",
+      "titolo": "Validità minima della polizza fideiussoria"
     }
   ],
   "criticita": [
@@ -663,8 +664,9 @@
       "nome": "Decreto di concessione",
       "categoria": "Documenti di progetto",
       "stato": "completato",
-      "nota": "Det. G12471 del 15/09/2026 (BURL n. 75 del 17/09/2026); la Data di Concessione è il 17/09/2026",
-      "data": "2026-09-17"
+      "nota": "Det. G12471 del 15/09/2026 (BURL n. 75 del 17/09/2026): la pubblicazione sul BURL è la Data di Concessione",
+      "data": "2026-09-17",
+      "file": "HUMAN_SEAL_determina_concessione.pdf"
     },
     {
       "nome": "Contratto di aggregazione (ATS) – bozza per la stipula",

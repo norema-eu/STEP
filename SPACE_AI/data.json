@@ -231,12 +231,6 @@
   ],
   "scadenze": [
     {
-      "data": "2026-10-08",
-      "titolo": "Pubblicazione esiti",
-      "descrizione": "Progetto inserito nel 5° elenco degli idonei e finanziabili (BURL n. 81 suppl. 1).",
-      "stato": "completato"
-    },
-    {
       "data": "2026-10-19",
       "titolo": "Call di avvio del partenariato",
       "descrizione": "Accettazione del contributo, antimafia, cronoprogramma, organizzazione della rendicontazione.",
@@ -264,16 +258,16 @@
     },
     {
       "titolo": "Richiesta dell'anticipo",
-      "descrizione": "Termine per la richiesta dell'anticipo: richiede ATS sottoscritta (da allegare all'Atto di Impegno) e polizza fideiussoria. Obiettivo: firma dell'ATS entro metà dicembre, possibilmente entro novembre.",
+      "descrizione": "Entro 90 giorni dalla Data di Concessione (08/10/2026): 40% del contributo concesso (€ 181.988,93), con la polizza fideiussoria e l'ATS sottoscritta allegata all'Atto di Impegno (art. 9 dell'Avviso).",
       "chi": "IPTSAT (capofila)",
       "stato": "da_avviare",
       "data": "2027-01-06"
     },
     {
-      "data": null,
-      "titolo": "Polizza fideiussoria per l'anticipo",
-      "descrizione": "Schema precompilato inviato al capofila il 20/10. Il 03/11 il capofila ha condiviso la bozza di polizza redatta dall'assicuratore sullo schema di Lazio Innova: premio complessivo di € 4.832 per i 2 anni di validità, ripartito tra i partner come previsto dalla bozza di ATS (art. 5-bis). Il 05/11 il capofila ha trasmesso la bozza corretta (refusi del facsimile e durata fino all'08/10/2029). Da finalizzare dopo l'ATS e l'Atto di Impegno; all'emissione serve un coobbligato (amministratore/legale rappresentante).",
-      "chi": "IPTSAT",
+      "data": "2027-01-06",
+      "titolo": "Polizza fideiussoria per l'anticipo (con la richiesta di anticipo)",
+      "descrizione": "Come da Avviso (art. 9 e Appendice 1, «Fideiussione») e manuale GeCoWEB: la polizza va presentata con la richiesta di anticipo, entro 90 giorni dalla Data di Concessione (08/10/2026), quindi entro il 06/01/2027. Importo garantito: 44% del contributo concesso, cioè l'anticipo del 40% (€ 181.988,93) maggiorato del 10%, per € 200.187,82. Durata: fino alla conclusione del progetto più 12 mesi, quindi almeno fino al 08/10/2029, con proroga automatica annuale fino allo svincolo di Lazio Innova. Contraente: il capofila, per tutto il partenariato. Schema precompilato inviato al capofila il 20/10. Il 03/11 il capofila ha condiviso la bozza di polizza redatta dall'assicuratore sullo schema di Lazio Innova: premio complessivo di € 4.832 per i 2 anni di validità, ripartito tra i partner come previsto dalla bozza di ATS (art. 5-bis). Il 05/11 il capofila ha trasmesso la bozza corretta (refusi del facsimile e durata fino all'08/10/2029). Da finalizzare dopo l'ATS e l'Atto di Impegno; all'emissione serve un coobbligato (amministratore/legale rappresentante).",
+      "chi": "IPTSAT (capofila)",
       "stato": "in_corso"
     },
     {
@@ -285,11 +279,11 @@
       "nota_interna": "10/11: Sapienza (L. Francescangeli) chiede il contatto del notaio individuato per l'ATS (ipotesi di un unico notaio per i tre progetti), perché il notaio di Sapienza che prepara la procura speciale vuole coordinarsi con lui. 10/11: NOREMA ha chiesto al notaio S. Lombardo (contatto Microsis) preventivo e disponibilità per stipulare le tre ATS in un'unica sessione il 18, 19 o 20/11. 10/11 17:03: il notaio conferma la disponibilità per il 20/11. 11/11 12:17: L. Francescangeli (Sapienza) chiede di nuovo se il notaio per le ATS è stato individuato, perché il notaio di Sapienza vuole contattarlo al più presto: in Bozze c'è una mail (11/11 12:38) con i recapiti del notaio Lombardo, non ancora inviata. 12/11: le ATS saranno stipulate presso lo Studio Floridi (Avv. Ettore Dragoni, Viale Regina Margherita 239, Roma) e non più con il notaio Lombardo. Claudia ha girato i recapiti a L. Francescangeli (12:03) con date possibili 17/11 ore 12:00, 23/11 ore 15:00 e 24/11 ore 12:00 (rettifica alle 12:06: solo 17/11 e 23/11). Prof. Li Voti (12:16): 17/11 impossibile (in missione), 23/11 ore 15:00 prima scelta, 24/11 ore 12:00 disponibile. Claudia a DEV4U (D. Berardi, M. Patitucci, 12:32): stipula HS 23/11 ore 16:00 presso lo Studio Floridi. 12/11 14:43: Claudia ha inviato all'Avv. E. Dragoni (Studio Floridi) le schede delle parti e dei firmatari, le bozze delle tre ATS, l'Avviso e le determine G12471 e G13392, con gli orari proposti 15:00 PRONTI VIA, 15:30 SPACE.AI, 16:00 HS; conferma degli orari da parte dello studio non ancora ricevuta. Nella mail la procura di Sapienza è indicata «del ProRettore», mentre le schede del progetto parlano di procura del Rettore: verificare chi la conferisce. 12/11 14:47: annullato l'incarico al notaio Lombardo (nessun impegno pendente)."
     },
     {
-      "data": null,
-      "titolo": "Atto di concessione",
-      "descrizione": "Emesso dalla Regione Lazio al termine delle verifiche antimafia.",
-      "chi": "Regione Lazio / Lazio Innova",
-      "stato": "da_avviare"
+      "data": "2026-10-08",
+      "titolo": "Data di Concessione",
+      "descrizione": "Pubblicazione sul BURL della graduatoria con il progetto ammesso: Det. G13392 del 02/10/2026 (BURL n. 81, Suppl. 1, dell'08/10/2026). È la data da cui decorrono anticipo, SAL e conclusione del progetto (Avviso, Appendice 1, «Data di Concessione»).",
+      "chi": "Regione Lazio",
+      "stato": "completato"
     },
     {
       "data": null,
@@ -299,11 +293,32 @@
       "stato": "da_avviare"
     },
     {
-      "data": null,
-      "titolo": "Fine progetto e rendicontazione finale",
-      "descrizione": "Entro 24 mesi dalla data di concessione, salvo proroghe.",
-      "chi": "Tutti i partner",
+      "data": "2028-10-08",
+      "titolo": "Conclusione del progetto e richiesta di saldo",
+      "descrizione": "Entro 24 mesi dalla Data di Concessione e comunque non oltre il 31/03/2029 (artt. 1 e 9 dell'Avviso).",
+      "chi": "IPTSAT (capofila)",
       "stato": "da_avviare"
+    },
+    {
+      "data": "2029-10-08",
+      "descrizione": "La polizza deve restare valida almeno fino al 08/10/2029: 12 mesi oltre la conclusione del progetto (08/10/2028). Se si ottiene la proroga del saldo (massimo 6 mesi, art. 9 dell'Avviso), la scadenza va estesa di conseguenza. Lazio Innova restituisce la polizza a saldo, se l'anticipo non va restituito.",
+      "chi": "IPTSAT (capofila)",
+      "stato": "da_avviare",
+      "titolo": "Validità minima della polizza fideiussoria"
+    },
+    {
+      "data": "2027-06-08",
+      "descrizione": "Richiesta del primo acconto a stato di avanzamento, entro 8 mesi dalla Data di Concessione (art. 9 dell'Avviso).",
+      "chi": "IPTSAT (capofila)",
+      "stato": "da_avviare",
+      "titolo": "1° SAL obbligatorio"
+    },
+    {
+      "data": "2028-02-08",
+      "descrizione": "Entro 16 mesi dalla Data di Concessione, con costi rendicontati pari almeno al 40% dei costi ammessi (art. 9 dell'Avviso).",
+      "chi": "IPTSAT (capofila)",
+      "stato": "da_avviare",
+      "titolo": "2° SAL obbligatorio"
     }
   ],
   "criticita": [
@@ -515,8 +530,10 @@
     {
       "nome": "Decreto di concessione",
       "categoria": "Documenti di progetto",
-      "stato": "da_avviare",
-      "nota": "emesso dalla Regione dopo le verifiche antimafia"
+      "stato": "completato",
+      "nota": "Det. G13392 del 02/10/2026 (BURL n. 81, Suppl. 1, dell'08/10/2026): la pubblicazione sul BURL è la Data di Concessione",
+      "data": "2026-10-08",
+      "file": "SPACE_AI_determina_concessione.pdf"
     },
     {
       "nome": "Contratto di aggregazione (ATS) – bozza per la stipula",

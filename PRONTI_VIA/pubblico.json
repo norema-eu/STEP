@@ -196,12 +196,6 @@
  ],
  "scadenze": [
   {
-   "data": "2026-10-08",
-   "titolo": "Pubblicazione esiti",
-   "descrizione": "Progetto inserito nel 5° elenco degli idonei e finanziabili (Det. G13392 del 02/10/2026, BURL n. 81 suppl. 1).",
-   "stato": "completato"
-  },
-  {
    "data": "2026-10-14",
    "titolo": "Comunicazione di concessione del contributo",
    "descrizione": "PEC di Lazio Innova al capofila (prot. LISPA 0036564): CUP, tutor e richiesta della documentazione antimafia entro 10 giorni.",
@@ -236,7 +230,7 @@
   },
   {
    "titolo": "Richiesta dell'anticipo",
-   "descrizione": "Termine per la richiesta dell'anticipo: richiede ATS sottoscritta (da allegare all'Atto di Impegno) e polizza fideiussoria. Obiettivo: firma dell'ATS entro metà dicembre, possibilmente entro novembre.",
+   "descrizione": "Entro 90 giorni dalla Data di Concessione (08/10/2026): 40% del contributo concesso (€ 151.109,38), con la polizza fideiussoria e l'ATS sottoscritta allegata all'Atto di Impegno (art. 9 dell'Avviso).",
    "chi": "RO Technology (capofila)",
    "stato": "da_avviare",
    "data": "2027-01-06"
@@ -249,10 +243,10 @@
    "stato": "in_corso"
   },
   {
-   "data": null,
-   "titolo": "Polizza fideiussoria per l'anticipo",
-   "descrizione": "Raccolta della documentazione per il preventivo in corso: il 10/11 il capofila ha trasmesso gli ultimi due bilanci approvati (2024 e 2025) e la documentazione richiesta per la quotazione. La polizza si finalizza dopo la firma dell'ATS.",
-   "chi": "RO Technology",
+   "data": "2027-01-06",
+   "titolo": "Polizza fideiussoria per l'anticipo (con la richiesta di anticipo)",
+   "descrizione": "Come da Avviso (art. 9 e Appendice 1, «Fideiussione») e manuale GeCoWEB: la polizza va presentata con la richiesta di anticipo, entro 90 giorni dalla Data di Concessione (08/10/2026), quindi entro il 06/01/2027. Importo garantito: 44% del contributo concesso, cioè l'anticipo del 40% (€ 151.109,38) maggiorato del 10%, per € 166.220,31. Durata: fino alla conclusione del progetto più 12 mesi, quindi almeno fino al 08/10/2029, con proroga automatica annuale fino allo svincolo di Lazio Innova. Contraente: il capofila, per tutto il partenariato. Raccolta della documentazione per il preventivo in corso: il 10/11 il capofila ha trasmesso gli ultimi due bilanci approvati (2024 e 2025) e la documentazione richiesta per la quotazione. La polizza si finalizza dopo la firma dell'ATS.",
+   "chi": "RO Technology (capofila)",
    "stato": "in_corso"
   },
   {
@@ -270,11 +264,11 @@
    "stato": "da_avviare"
   },
   {
-   "data": null,
-   "titolo": "Atto di concessione",
-   "descrizione": "Emesso dalla Regione Lazio al termine delle verifiche antimafia.",
-   "chi": "Regione Lazio / Lazio Innova",
-   "stato": "da_avviare"
+   "data": "2026-10-08",
+   "titolo": "Data di Concessione",
+   "descrizione": "Pubblicazione sul BURL della graduatoria con il progetto ammesso: Det. G13392 del 02/10/2026 (BURL n. 81, Suppl. 1, dell'08/10/2026). È la data da cui decorrono anticipo, SAL e conclusione del progetto (Avviso, Appendice 1, «Data di Concessione»).",
+   "chi": "Regione Lazio",
+   "stato": "completato"
   },
   {
    "data": null,
@@ -284,11 +278,32 @@
    "stato": "da_avviare"
   },
   {
-   "data": null,
-   "titolo": "Fine progetto e rendicontazione finale",
-   "descrizione": "Entro 24 mesi dalla data di concessione, salvo proroghe.",
-   "chi": "Tutti i partner",
+   "data": "2028-10-08",
+   "titolo": "Conclusione del progetto e richiesta di saldo",
+   "descrizione": "Entro 24 mesi dalla Data di Concessione e comunque non oltre il 31/03/2029 (artt. 1 e 9 dell'Avviso).",
+   "chi": "RO Technology (capofila)",
    "stato": "da_avviare"
+  },
+  {
+   "data": "2029-10-08",
+   "descrizione": "La polizza deve restare valida almeno fino al 08/10/2029: 12 mesi oltre la conclusione del progetto (08/10/2028). Se si ottiene la proroga del saldo (massimo 6 mesi, art. 9 dell'Avviso), la scadenza va estesa di conseguenza. Lazio Innova restituisce la polizza a saldo, se l'anticipo non va restituito.",
+   "chi": "RO Technology (capofila)",
+   "stato": "da_avviare",
+   "titolo": "Validità minima della polizza fideiussoria"
+  },
+  {
+   "data": "2027-06-08",
+   "descrizione": "Richiesta del primo acconto a stato di avanzamento, entro 8 mesi dalla Data di Concessione (art. 9 dell'Avviso).",
+   "chi": "RO Technology (capofila)",
+   "stato": "da_avviare",
+   "titolo": "1° SAL obbligatorio"
+  },
+  {
+   "data": "2028-02-08",
+   "descrizione": "Entro 16 mesi dalla Data di Concessione, con costi rendicontati pari almeno al 40% dei costi ammessi (art. 9 dell'Avviso).",
+   "chi": "RO Technology (capofila)",
+   "stato": "da_avviare",
+   "titolo": "2° SAL obbligatorio"
   }
  ],
  "criticita": [
@@ -473,8 +488,10 @@
   {
    "nome": "Decreto di concessione",
    "categoria": "Documenti di progetto",
-   "stato": "da_avviare",
-   "nota": "emesso dalla Regione dopo le verifiche antimafia"
+   "stato": "completato",
+   "nota": "Det. G13392 del 02/10/2026 (BURL n. 81, Suppl. 1, dell'08/10/2026): la pubblicazione sul BURL è la Data di Concessione",
+   "data": "2026-10-08",
+   "file": "PRONTI_VIA_determina_concessione.pdf"
   },
   {
    "nome": "Contratto di aggregazione (ATS) – bozza per la stipula",
