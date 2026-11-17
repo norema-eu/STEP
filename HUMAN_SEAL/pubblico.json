@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-11-16T18:50:00+01:00",
+ "aggiornato": "2026-11-17T08:45:00+01:00",
  "fonte": "Fonti: comunicazione di concessione Lazio Innova (prot. LISPA 0033570 del 24/09/2026), Det. G12471 del 15/09/2026 (BURL n. 75 del 17/09/2026, Allegati A e B), formulario/proposta progettuale definitiva (18/07/2025), piano costi approvato da GeCoWEB Plus (estrazione 22/10/2026), corrispondenza di partenariato e PEC (luglio 2025 – ottobre 2026).",
  "progetto": {
   "acronimo": "HS – HumanSeal",
@@ -332,7 +332,7 @@
   {
    "data": "2026-12-16",
    "titolo": "Polizza fideiussoria per l'anticipo (con la richiesta di anticipo)",
-   "descrizione": "Come da Avviso (art. 9 e Appendice 1, «Fideiussione») e manuale GeCoWEB: la polizza va presentata con la richiesta di anticipo, entro 90 giorni dalla Data di Concessione (17/09/2026), quindi entro il 16/12/2026. Importo garantito: 44% del contributo concesso, cioè l'anticipo del 40% (€ 124.981,92) maggiorato del 10%, per € 137.480,11. Durata: fino alla conclusione del progetto più 12 mesi, quindi almeno fino al 17/09/2029, con proroga automatica annuale fino allo svincolo di Lazio Innova. Contraente: il capofila, per tutto il partenariato. Individuato lo schema di polizza; raccolta dei preventivi in corso. Per la stipula sono richiesti ai partner le dichiarazioni degli amministratori e gli ultimi due bilanci approvati.",
+   "descrizione": "Come da Avviso (art. 9 e Appendice 1, «Fideiussione») e manuale GeCoWEB: la polizza va presentata con la richiesta di anticipo, entro 90 giorni dalla Data di Concessione (17/09/2026), quindi entro il 16/12/2026. Importo garantito: 44% del contributo concesso, cioè l'anticipo del 40% (€ 124.981,92) maggiorato del 10%, per € 137.480,11. Durata: fino alla conclusione del progetto più 12 mesi, quindi almeno fino al 17/09/2029, con proroga automatica annuale fino allo svincolo di Lazio Innova. Contraente: il capofila, per tutto il partenariato. Individuato lo schema di polizza; raccolta dei preventivi in corso: il 16/11/2026 è stata inviata a un'agenzia assicurativa la richiesta di preventivo per la polizza del progetto. Per la stipula sono richiesti ai partner le dichiarazioni degli amministratori e gli ultimi due bilanci approvati.",
    "chi": "DEV4U (capofila)",
    "stato": "in_corso"
   },
@@ -439,7 +439,7 @@
   {
    "data": "2026-10-28",
    "titolo": "Polizza fideiussoria da finalizzare",
-   "descrizione": "Kick-off fissato al 09/11/2026. Per la polizza fideiussoria dell'anticipo è in corso la raccolta dei preventivi.",
+   "descrizione": "Kick-off fissato al 09/11/2026. Per la polizza fideiussoria dell'anticipo è in corso la raccolta dei preventivi: richiesta di preventivo inviata il 16/11/2026.",
    "livello": "media",
    "stato": "aperta"
   },
@@ -582,6 +582,11 @@
    "data": "2026-11-13",
    "titolo": "Studio Floridi: progetti di fattura per la stipula delle ATS",
    "sintesi": "Lo Studio Floridi ha trasmesso i progetti di fattura relativi alla stipula delle tre ATS del 23/11/2026, intestati ai rispettivi capofila (per questo progetto DEV4U). Le spese notarili sono ripartite tra le Parti secondo l'art. 18 della bozza di ATS."
+  },
+  {
+   "data": "2026-11-16",
+   "titolo": "Richiesta di preventivo per la polizza fideiussoria dell'anticipo",
+   "sintesi": "Inviata a un'agenzia assicurativa la richiesta di preventivo per la polizza fideiussoria a garanzia dell'anticipo (contraente DEV4U, capofila, per tutto il partenariato; importo garantito € 137.480,11, 110% dell'anticipo; ente garantito Lazio Innova; durata pari al periodo di progetto più 12 mesi, con proroga automatica annuale fino allo svincolo; testo conforme allo schema Lazio Innova)."
   }
  ],
  "riunioni": [
