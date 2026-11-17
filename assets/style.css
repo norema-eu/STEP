@@ -259,3 +259,14 @@ footer .credit .wrap{display:flex;align-items:center;justify-content:center;gap:
 .cf-tab td{padding:5px 6px;border-bottom:1px solid var(--g1)}
 .cf-tab .num{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
 .cf-tab tfoot td{font-weight:600;border-top:2px solid var(--line)}
+.heat td[data-tip]{cursor:default}
+.heat td[data-tip]:hover{outline:2px solid var(--navy);outline-offset:-1px}
+.heat-tip{position:fixed;z-index:50;display:none;pointer-events:none;background:#fff;border:1px solid var(--g2,#dde3ea);border-radius:8px;box-shadow:0 6px 20px rgba(10,30,60,.18);padding:10px 12px;font-size:12px;min-width:200px;max-width:300px;color:var(--text)}
+.heat-tip b{color:var(--navy)}
+.heat-tip .tt-tot{color:var(--muted);margin:2px 0 6px}
+.heat-tip .tt-bar{display:flex;height:8px;border-radius:4px;overflow:hidden;margin-bottom:6px}
+.heat-tip .tt-bar i{display:block;height:100%}
+.heat-tip .tt-row{display:flex;align-items:center;gap:6px;margin-top:3px}
+.heat-tip .tt-row i{width:10px;height:10px;border-radius:2px;flex:none}
+.heat-tip .tt-row span{flex:1;line-height:1.25}
+.heat-tip .tt-row small{color:var(--muted)}

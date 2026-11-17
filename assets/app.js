@@ -119,18 +119,22 @@
       const startIso = P.data_avvio || P.data_inizio, st = startIso ? new Date(startIso + "T00:00:00") : null;
       const mLab = (n) => st ? (() => { const x = new Date(st.getFullYear(), st.getMonth() + n - 1, 1); return `${MESI[x.getMonth()]} ${String(x.getFullYear()).slice(2)}`; })() : "";
       let senzaWp = false;
-      const profilo = (x) => {
-        const v = new Array(m).fill(0), opw = Object.entries(x.ore_per_wp || {}).filter(([k, h]) => h && wpM[k]);
+      const profilo = (x) => { // ore per mese, con la ripartizione per WP (w[codice] = array dei mesi)
+        const v = new Array(m).fill(0), w = {}, add = (k, i, h) => { if (!h) return; v[i] += h; (w[k] = w[k] || new Array(m).fill(0))[i] += h; };
+        if (x.mensile && Object.keys(x.mensile).length) { Object.entries(x.mensile).forEach(([k, arr]) => arr.slice(0, m).forEach((h, i) => add(k, i, +h || 0))); return { v, w }; }
+        const opw = Object.entries(x.ore_per_wp || {}).filter(([k, h]) => h && wpM[k]);
         const res = (x.wp_residuo || []).filter((k) => wpM[k]);
-        if (res.length && x.ore_totali) { const ms = [...new Set(res.flatMap((k) => { const [a, b] = wpM[k]; return Array.from({ length: b - a + 1 }, (_, i) => a + i); }))]; ms.forEach((i) => (v[i - 1] += x.ore_totali / ms.length)); return v; }
-        if (opw.length) opw.forEach(([k, h]) => { const [a, b] = wpM[k]; for (let i = a; i <= b; i++) v[i - 1] += h / (b - a + 1); });
-        else if (x.ore_totali) { senzaWp = true; for (let i = 0; i < m; i++) v[i] += x.ore_totali / m; }
-        return v;
+        if (res.length && x.ore_totali) { const ms = [...new Set(res.flatMap((k) => { const [a, b] = wpM[k]; return Array.from({ length: b - a + 1 }, (_, i) => a + i); }))]; ms.forEach((i) => add(res.join("+"), i - 1, x.ore_totali / ms.length)); return { v, w }; }
+        if (opw.length) opw.forEach(([k, h]) => { const [a, b] = wpM[k]; for (let i = a; i <= b; i++) add(k, i - 1, h / (b - a + 1)); });
+        else if (x.ore_totali) { senzaWp = true; for (let i = 0; i < m; i++) add("n.d.", i, x.ore_totali / m); }
+        return { v, w };
       };
+      const mensileDaFile = PE.partner.some((pa) => (pa.persone || []).some((x) => x.mensile));
       const parts = PE.partner.map((pa) => {
-        const pp = (pa.persone || []).map((x) => ({ ...x, v: profilo(x) }));
+        const pp = (pa.persone || []).map((x) => ({ ...x, ...profilo(x) }));
         const v = Array.from({ length: m }, (_, i) => pp.reduce((s, x) => s + x.v[i], 0));
-        return { ...pa, pp, v, tot: v.reduce((s, y) => s + y, 0) };
+        const w = {}; pp.forEach((x) => Object.entries(x.w).forEach(([k, arr]) => { w[k] = w[k] || new Array(m).fill(0); arr.forEach((h, i) => (w[k][i] += h)); }));
+        return { ...pa, pp, v, w, tot: v.reduce((s, y) => s + y, 0) };
       });
       const n0 = (x) => Math.round(x).toLocaleString("it-IT");
       const short = (nm) => String(nm).replace(/Università di Roma "La Sapienza" – /, "Sapienza – ").replace(/ S\.r\.l\.s?\.?/i, "");
@@ -144,17 +148,39 @@
         document.querySelectorAll("#pers-f button").forEach((b) => b.classList.toggle("on", b.dataset.v === String(fsel)));
         const shown = fsel === "tutti" ? parts : [parts[+fsel]];
         const max = Math.max(1, ...shown.flatMap((p) => p.pp.flatMap((x) => x.v)));
-        const cell = (h, tip, strong) => { if (h < 0.5) return `<td class="z" title="${esc(tip)}: 0 h"></td>`; const t = Math.min(1, h / max), pct = Math.round(12 + t * 78);
-          return `<td title="${esc(tip)}: ${n0(h)} h" style="background:color-mix(in srgb, var(--teal-2) ${pct}%, #fff);color:${pct > 55 ? "#fff" : "var(--text)"}${strong ? ";font-weight:600" : ""}">${n0(h)}</td>`; };
+        const tipAttr = (tit, w, i) => `data-tip="${esc(JSON.stringify({ t: tit, w: Object.keys(w).sort().map((k) => [k, w[k][i]]).filter(([, h]) => h >= 0.5) }))}"`;
+        const cell = (h, tip, w, i) => { if (h < 0.5) return `<td class="z"></td>`; const t = Math.min(1, h / max), pct = Math.round(12 + t * 78);
+          return `<td ${tipAttr(tip, w, i)} style="background:color-mix(in srgb, var(--teal-2) ${pct}%, #fff);color:${pct > 55 ? "#fff" : "var(--text)"}">${n0(h)}</td>`; };
         const head = `<thead><tr><th class="who">Persona</th>${Array.from({ length: m }, (_, i) => `<th title="${mLab(i + 1)}">M${i + 1}${st ? `<small>${mLab(i + 1)}</small>` : ""}</th>`).join("")}<th class="tot">Totale</th></tr></thead>`;
         $("#pers-heat").innerHTML = head + `<tbody>` + shown.map((p) =>
-          `<tr class="ph"><th class="who">${esc(short(p.nome))}<small>carico mensile del partner</small></th>${p.v.map((h, i) => `<td class="ptot" title="${esc(short(p.nome))} · M${i + 1}: ${n0(h)} h">${h >= 0.5 ? n0(h) : ""}</td>`).join("")}<td class="tot">${n0(p.tot)}</td></tr>` +
-          p.pp.map((x) => `<tr><th class="who">${esc(x.nome)}<small>${esc([x.ruolo, x.inquadramento].filter(Boolean).join(" · "))}</small></th>${x.v.map((h, i) => cell(h, `${x.nome} · M${i + 1}${st ? " " + mLab(i + 1) : ""}`)).join("")}<td class="tot">${n0(x.v.reduce((s, y) => s + y, 0))}</td></tr>`).join("")).join("") + `</tbody>`;
-        $("#pers-leg").innerHTML = `<span>Ore al mese:</span><i style="background:color-mix(in srgb, var(--teal-2) 12%, #fff)"></i>poche<i style="background:color-mix(in srgb, var(--teal-2) 50%, #fff)"></i><i style="background:color-mix(in srgb, var(--teal-2) 90%, #fff)"></i>${n0(max)} h<span style="margin-left:12px">La riga del partner somma le ore del suo personale.</span>`;
+          `<tr class="ph"><th class="who">${esc(short(p.nome))}<small>carico mensile del partner</small></th>${p.v.map((h, i) => `<td class="ptot" ${h >= 0.5 ? tipAttr(`${short(p.nome)} · M${i + 1}${st ? " " + mLab(i + 1) : ""}`, p.w, i) : ""}>${h >= 0.5 ? n0(h) : ""}</td>`).join("")}<td class="tot">${n0(p.tot)}</td></tr>` +
+          p.pp.map((x) => `<tr><th class="who">${esc(x.nome)}<small>${esc([x.ruolo, x.inquadramento].filter(Boolean).join(" · "))}</small></th>${x.v.map((h, i) => cell(h, `${x.nome} · M${i + 1}${st ? " " + mLab(i + 1) : ""}`, x.w, i)).join("")}<td class="tot">${n0(x.v.reduce((s, y) => s + y, 0))}</td></tr>`).join("")).join("") + `</tbody>`;
+        $("#pers-leg").innerHTML = `<span>Ore al mese:</span><i style="background:color-mix(in srgb, var(--teal-2) 12%, #fff)"></i>poche<i style="background:color-mix(in srgb, var(--teal-2) 50%, #fff)"></i><i style="background:color-mix(in srgb, var(--teal-2) 90%, #fff)"></i>${n0(max)} h<span style="margin-left:12px">La riga del partner somma le ore del suo personale. Passa il mouse su una cella per vedere la ripartizione tra i work package.</span>`;
       };
+      // tooltip: ripartizione delle ore del mese tra i WP
+      const WPC = ["#1f6f8b", "#e07a2f", "#3a9d5d", "#8a5cc2", "#c94f6d", "#7a7a7a"];
+      const wpCol = (k) => { const n = parseInt(String(k).replace(/\D/g, ""), 10); return WPC[(isNaN(n) ? 6 : n) - 1] || WPC[5]; };
+      const wpNome = Object.fromEntries((D.wp || []).map((w) => [w.codice, w.titolo || w.nome || ""]));
+      let tipEl = document.getElementById("heat-tip");
+      if (!tipEl) { tipEl = document.createElement("div"); tipEl.id = "heat-tip"; tipEl.className = "heat-tip"; document.body.appendChild(tipEl); }
+      const heatEl = $("#pers-heat");
+      heatEl.addEventListener("mouseover", (e) => {
+        const td = e.target.closest("td[data-tip]"); if (!td) return;
+        let o; try { o = JSON.parse(td.dataset.tip); } catch { return; }
+        const tot = o.w.reduce((s, [, h]) => s + h, 0);
+        tipEl.innerHTML = `<b>${esc(o.t)}</b><div class="tt-tot">${n0(tot)} h nel mese</div>` + (o.w.length ? `<div class="tt-bar">${o.w.map(([k, h]) => `<i style="width:${h / tot * 100}%;background:${wpCol(k)}"></i>`).join("")}</div>` +
+          o.w.map(([k, h]) => `<div class="tt-row"><i style="background:${wpCol(k)}"></i><span>${esc(k)}${wpNome[k] ? ` <small>${esc(wpNome[k])}</small>` : ""}</span><b>${n0(h)} h</b></div>`).join("") : "");
+        tipEl.style.display = "block";
+      });
+      heatEl.addEventListener("mousemove", (e) => {
+        if (tipEl.style.display !== "block") return;
+        const r = tipEl.getBoundingClientRect(), x = e.clientX + 14 + r.width > innerWidth ? e.clientX - r.width - 14 : e.clientX + 14, y = e.clientY + 14 + r.height > innerHeight ? e.clientY - r.height - 14 : e.clientY + 14;
+        tipEl.style.left = x + "px"; tipEl.style.top = y + "px";
+      });
+      heatEl.addEventListener("mouseout", (e) => { if (!e.relatedTarget || !e.relatedTarget.closest || !e.relatedTarget.closest("td[data-tip]")) tipEl.style.display = "none"; });
       document.querySelectorAll("#pers-f button").forEach((b) => b.addEventListener("click", () => { fsel = b.dataset.v === "tutti" ? "tutti" : +b.dataset.v; drawHeat(); }));
       drawHeat();
-      $("#pers-note").textContent = `Personale indicato nel formulario per ciascun partner e carico mensile stimato: le ore previste per ogni work package sono distribuite in modo uniforme sui mesi del WP${senzaWp ? " (dove il formulario non ripartisce le ore per WP, sull'intera durata)" : ""}. Le ore totali di ciascun partner coincidono con le ore valorizzate nel piano dei costi approvato (costi standard orari, B.1.1); la ripartizione mensile è indicativa e le ore effettive risultano dai timesheet.`;
+      $("#pers-note").textContent = mensileDaFile ? `Ore previste per ciascuna persona e per ogni mese di progetto, con la ripartizione tra i work package (passa il mouse sulle celle). Le ore totali di ciascun partner sono coerenti con il costo del personale del piano dei costi approvato (costi standard orari, B.1.1); la ripartizione mensile è un piano indicativo e le ore effettive risultano dai timesheet.` : `Personale indicato nel formulario per ciascun partner e carico mensile stimato: le ore previste per ogni work package sono distribuite in modo uniforme sui mesi del WP${senzaWp ? " (dove il formulario non ripartisce le ore per WP, sull'intera durata)" : ""}. Le ore totali di ciascun partner coincidono con le ore valorizzate nel piano dei costi approvato (costi standard orari, B.1.1); la ripartizione mensile è indicativa e le ore effettive risultano dai timesheet.`;
       $("#pers-src").textContent = "Fonte: " + (PE.fonte || "formulario presentato");
     } else if ($("#personale-s")) {
       $("#pers-sum").closest(".card").outerHTML = `<div class="empty">Dati del personale in caricamento.</div>`;
