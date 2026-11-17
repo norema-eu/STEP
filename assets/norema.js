@@ -55,13 +55,13 @@
     const righe = Object.entries(ore).map(([id, h]) => ({ ...T[id], ore: h, uscita: h * T[id].reale, rendic: h * (tq ? T[id].rendTQ : T[id].rend) }));
     const pers = righe.reduce((a, x) => a + x.rendic, 0), stip = righe.reduce((a, x) => a + x.uscita, 0);
     const rend = pers * (1 + PS.forfait_b4), usc = stip + (PS.forfait_b4_uscita ? pers * PS.forfait_b4 : 0);
-    const N = p.norema, contr = Math.min(N.contributo, rend * N.contributo / N.costo);
+    const N = p.norema, contr = N.contributo; // contributo atteso sempre pari al concesso
     return { righe, usc, rend, contr, pers };
   }
 
   function erogazioni(p, I, mode, tq) {
     const N = p.norema, K = N.costo, C = N.contributo, D = p.durata_mesi || 24, t0 = parse(p.data_inizio), r = C / K;
-    const R = mode === "reale" && N.R ? (tq ? N.RTQ : N.R) : { usc: K, rend: K, contr: C };
+    const R = mode === "reale" && N.R ? { usc: N.R.usc, rend: K, contr: C } : { usc: K, rend: K, contr: C }; // si rendiconta l'intero costo ammesso
     const base = profilo(p), prof = base.map((v) => v * R.usc / K), rq = R.rend / K;
     const cumul = (a, b) => base.slice(a, b).reduce((x, y) => x + y, 0) * rq;
     const ev = [], tetto = I.tetto_pct * C, lag = I.ritardo_li + I.ritardo_capofila;
@@ -76,7 +76,7 @@
         `costi rendicontati ${eur0(costi)}; cumulati ${Math.round((cum / K) * 100)}% del costo ammesso` + (i === 1 && cum / K < 0.4 ? " — sotto il 40% richiesto al 2° SAL" : ""));
       prev = m;
     });
-    push("Saldo", addM(t0, D), R.contr - erog, R.contr < C - 0.5 ? `contributo residuo; contributo atteso ${eur0(R.contr)} invece di ${eur0(C)} concessi` : "contributo residuo a fronte di tutti i costi rendicontati");
+    push("Saldo", addM(t0, D), R.contr - erog, false ? "" : "contributo residuo a fronte di tutti i costi rendicontati");
     return { prof, ev, t0, D, R };
   }
 
@@ -88,7 +88,7 @@
     P.forEach((p) => { p.norema.R = reale(p, T, PS, false); p.norema.RTQ = reale(p, T, PS, true); });
     const hasR = P.some((p) => p.norema.R);
     let mode = (hasR && (store.get("n_mode") || "reale")) || "ammesso";
-    let tq = store.get("n_tq") === "1";
+    const tq = false;
     const EXT = PS?.prestazioni_esterne;
     const I = { ...I0, ritardo_li: +(store.get("n_li") ?? I0.ritardo_li), ritardo_capofila: +(store.get("n_cf") ?? I0.ritardo_capofila) };
 
@@ -119,15 +119,15 @@
       const rows = P.filter((p) => p.norema.R);
       const tU = rows.reduce((a, p) => a + p.norema.R.usc, 0), tRd = rows.reduce((a, p) => a + p.norema.R.rend, 0), tCa = rows.reduce((a, p) => a + p.norema.R.contr, 0), tK = rows.reduce((a, p) => a + p.norema.costo, 0), tC = rows.reduce((a, p) => a + p.norema.contributo, 0);
       $("#n-reale").innerHTML = `<h3 style="margin:22px 0 6px;font-size:18px;font-weight:600;color:var(--navy)">Costo reale del personale e rendicontazione</h3>
-        <p class="lead" style="margin-top:0">Le entrate dipendono da come si rendiconta (costi standard o costo effettivo); le uscite da quanto NOREMA paga davvero. Il forfait B.4 (${Math.round(PS.forfait_b4 * 100)}%) si rendiconta ma ${PS.forfait_b4_uscita ? "è considerato anche come uscita" : "non genera uscite"}.</p>
+        <p class="lead" style="margin-top:0">Entrate: contributo concesso. Uscite: quanto NOREMA paga davvero per il personale. Il forfait B.4 (${Math.round(PS.forfait_b4 * 100)}%) si rendiconta ma ${PS.forfait_b4_uscita ? "è considerato anche come uscita" : "non genera uscite"}.</p>
         <div class="card scroll"><table class="tbl"><thead><tr><th>Persona</th><th>Inquadramento e calcolo</th><th class="num">Costo annuo</th><th class="num">€/h reale</th><th class="num">€/h rendicontato</th><th>Voce</th></tr></thead><tbody>` +
         pp.map((x) => `<tr><td><b>${esc(x.nome)}</b>${x.sostituisce ? `<div style="font-size:12px;color:var(--muted)">al posto di ${esc(x.sostituisce)}</div>` : ""}</td><td style="font-size:13px">${esc(x.inquadramento)}<div style="font-size:12px;color:var(--muted)">${esc(x.calcolo || "")}</div>${x.attenzione ? `<div class="nint">${esc(x.attenzione)}</div>` : ""}</td><td class="num">${x.annuo ? eur0(x.annuo) : "—"}</td><td class="num">${eur(x.reale)}</td><td class="num">${eur(x.rend)}${x.rendTQ !== x.rend ? `<div style="font-size:12px;color:var(--muted)">${eur(x.rendTQ)} come Titolare Qualificato</div>` : ""}</td><td>${esc(x.voce)}</td></tr>`).join("") +
         `</tbody></table><div class="note" style="font-size:12px;color:var(--muted);margin-top:8px">€/h reale = costo annuo ÷ ${PS.ore_annue.toLocaleString("it-IT")} ore (${esc(PS.ore_annue_nota)}). ${esc(PS.fonte_ccnl)}. Stime da verificare con il consulente del lavoro.</div></div>
-        <div class="card scroll" style="margin-top:14px"><table class="tbl"><thead><tr><th>Progetto</th><th class="num">Ore NOREMA</th><th class="num">Uscite reali</th><th class="num">Costo rendicontabile</th><th class="num">Contributo atteso</th><th class="num">Differenza sul concesso</th><th class="num">Cofinanziamento effettivo</th><th class="num">Contributo atteso con Titolare Qualificato</th></tr></thead><tbody>` +
-        rows.map((p) => { const R = p.norema.R; return `<tr><td>${pill(p)}${PS.ore_nota?.[p.slug] ? `<div style="font-size:12px;color:var(--muted);max-width:280px">${esc(PS.ore_nota[p.slug])}</div>` : ""}</td><td class="num">${R.righe.reduce((a, x) => a + x.ore, 0).toLocaleString("it-IT")}</td><td class="num">${eur(R.usc)}</td><td class="num">${eur(R.rend)}</td><td class="num">${eur(R.contr)}</td><td class="num ${R.contr < p.norema.contributo - 0.5 ? "neg" : ""}">${eur(R.contr - p.norema.contributo)}</td><td class="num">${eur(R.usc - R.contr)}</td><td class="num">${eur(p.norema.RTQ.contr)}${p.norema.RTQ.contr >= p.norema.contributo - 0.5 ? `<div style="font-size:11.5px;color:var(--muted)">limitato al concesso</div>` : ""}</td></tr>`
-          + R.righe.map((x) => `<tr class="det"><td style="padding-left:22px;font-size:12.5px;color:var(--muted)">${esc(x.nome)}</td><td class="num" style="font-size:12.5px">${x.ore.toLocaleString("it-IT")}</td><td class="num" style="font-size:12.5px">${eur(x.uscita)}</td><td class="num" style="font-size:12.5px">${eur(x.rendic * (1 + PS.forfait_b4))}</td><td colspan="4"></td></tr>`).join(""); }).join("") +
-        `</tbody><tfoot><tr><td>Totale</td><td></td><td class="num">${eur(tU)}</td><td class="num">${eur(tRd)}</td><td class="num">${eur(tCa)}</td><td class="num ${tCa < tC - 0.5 ? "neg" : ""}">${eur(tCa - tC)}</td><td class="num">${eur(tU - tCa)}</td><td class="num">${eur(rows.reduce((a, p) => a + p.norema.RTQ.contr, 0))}</td></tr></tfoot></table>
-        <div class="note" style="font-size:12px;color:var(--muted);margin-top:8px">Costo rendicontabile = ore × €/h rendicontato, più forfait B.4. Confronto con il piano approvato: costo ammesso ${eur(tK)}, contributo concesso ${eur(tC)}. Il contributo atteso non supera mai quello concesso per progetto.</div></div>` +
+        <div class="card scroll" style="margin-top:14px"><table class="tbl"><thead><tr><th>Progetto</th><th class="num">Ore NOREMA</th><th class="num">Uscite reali</th><th class="num">Costo ammesso</th><th class="num">Contributo atteso (= concesso)</th><th class="num">Cofinanziamento effettivo</th></tr></thead><tbody>` +
+        rows.map((p) => { const R = p.norema.R; return `<tr><td>${pill(p)}${PS.ore_nota?.[p.slug] ? `<div style="font-size:12px;color:var(--muted);max-width:280px">${esc(PS.ore_nota[p.slug])}</div>` : ""}</td><td class="num">${R.righe.reduce((a, x) => a + x.ore, 0).toLocaleString("it-IT")}</td><td class="num">${eur(R.usc)}</td><td class="num">${eur(p.norema.costo)}</td><td class="num">${eur(p.norema.contributo)}</td><td class="num">${eur(R.usc - p.norema.contributo)}</td></tr>`
+          + R.righe.map((x) => `<tr class="det"><td style="padding-left:22px;font-size:12.5px;color:var(--muted)">${esc(x.nome)}</td><td class="num" style="font-size:12.5px">${x.ore.toLocaleString("it-IT")}</td><td class="num" style="font-size:12.5px">${eur(x.uscita)}</td><td colspan="3"></td></tr>`).join(""); }).join("") +
+        `</tbody><tfoot><tr><td>Totale</td><td></td><td class="num">${eur(tU)}</td><td class="num">${eur(tK)}</td><td class="num">${eur(tC)}</td><td class="num">${eur(tU - tC)}</td></tr></tfoot></table>
+        <div class="note" style="font-size:12px;color:var(--muted);margin-top:8px">Il contributo atteso è sempre pari al contributo concesso: si assume di rendicontare l'intero costo ammesso. Le uscite reali sono quanto NOREMA paga per il personale.</div></div>` +
         (EXT ? `<div class="card" style="margin-top:14px"><b>Prestazioni specialistiche esterne: ${eur(EXT.importo)}</b><div style="font-size:13px;margin-top:4px">${esc(EXT.nota)}</div></div>` : "");
     }
     $("#n-budget-prog").innerHTML = P.map((p) => {
@@ -150,8 +150,8 @@
       document.querySelectorAll("#n-f-prog button").forEach((b) => b.classList.toggle("on", b.dataset.v === sel));
       const Ps = P.filter((p) => sel === "tutti" || p.slug === sel);
       document.querySelectorAll("#n-f-mode button").forEach((b) => b.classList.toggle("on", b.dataset.v === mode));
-      document.querySelectorAll("#n-f-tq button").forEach((b) => b.classList.toggle("on", (b.dataset.v === "1") === tq));
-      const tqEl = $("#n-f-tq"); if (tqEl) tqEl.style.display = mode === "reale" ? "" : "none";
+      
+      
       const runs = Ps.map((p) => ({ p, ...erogazioni(p, I, mode, tq) }));
       // mesi di calendario
       const months = new Map();
@@ -171,7 +171,7 @@
       const minRow = rows.reduce((a, b) => (b.cum < a.cum ? b : a), rows[0]);
       const totU = runs.reduce((a, r) => a + r.prof.reduce((x, y) => x + y, 0), 0) + (extOn ? EXT.importo : 0), totE = runs.reduce((a, r) => a + r.ev.reduce((x, e) => x + e.importo, 0), 0);
       $("#n-cassa-lead").innerHTML = (mode === "reale"
-        ? `Uscite: <b>costo reale</b> del personale NOREMA (stipendi e compenso, vedi scheda Budget), distribuito sui mesi dei work package; il forfait B.4 non genera uscite. Entrate: contributo sui costi rendicontabili (costi standard; costo effettivo per l'apprendista; Claudia Abatecola a ${tq ? "34,70 €/h come Titolare Qualificato di PMI" : "30 €/h"}). ` + (EXT ? (extOn ? `Comprese prestazioni esterne per ${eur0(EXT.importo)} nei ${EXT.mesi_punta} mesi di punta, non rendicontabili. ` : `Le prestazioni esterne (${eur0(EXT.importo)}) compaiono solo nella vista "Tutti i progetti". `) : "")
+        ? `Uscite: <b>costo reale</b> del personale NOREMA (stipendi e compenso, vedi scheda Budget), distribuito sui mesi dei work package; il forfait B.4 non genera uscite. Entrate: contributo concesso, con rendicontazione dell'intero costo ammesso. ` + (EXT ? (extOn ? `Comprese prestazioni esterne per ${eur0(EXT.importo)} nei ${EXT.mesi_punta} mesi di punta, non rendicontabili. ` : `Le prestazioni esterne (${eur0(EXT.importo)}) compaiono solo nella vista "Tutti i progetti". `) : "")
         : `Uscite: costo ammesso NOREMA (costi standard + forfait) distribuito sui mesi dei work package. Entrate: contributo concesso. `) +
         `Anticipo, SAL e saldo incassati dopo ${I.ritardo_li} + ${I.ritardo_capofila} giorni dalla richiesta. <b>Massima esposizione di cassa: ${eur0(-Math.min(0, minRow.cum))}</b> (${ym(minRow.dt)}); a fine periodo il saldo per NOREMA è ${eur0(totE - totU)}.`;
 
@@ -220,7 +220,7 @@
       $("#kpis").innerHTML = [
         ["Costo ammesso NOREMA", eur0(K), "contributo concesso " + eur0(C)],
         [mode === "reale" ? "Uscite reali" : "Uscite", eur0(U3), mode === "reale" ? (extK ? `personale reale + ${eur0(EXT.importo)} esterni` : "personale a costo reale") : "pari al costo ammesso"],
-        ["Contributo atteso", eur0(E3), (E3 < C - 0.5 ? `${eur0(E3 - C)} sul concesso` : "pari al concesso") + (mode === "reale" && tq ? " · Titolare Qualificato" : "")],
+        ["Contributo atteso", eur0(E3), "pari al concesso"],
         ["Cofinanziamento", eur0(U3 - E3), mode === "reale" ? "effettivo, a carico di NOREMA" : "a carico di NOREMA"],
         ["Anticipi attesi", eur0(P.reduce((a, p) => a + I.anticipo_pct * p.norema.contributo, 0)), "40% del contributo, con fideiussione"],
         ["Max esposizione", eur0(-worst), "tre progetti insieme"],
@@ -230,9 +230,8 @@
     if (hasR) {
       $("#n-f-mode").innerHTML = `<button data-v="reale">Costo reale</button><button data-v="ammesso">Costo ammesso</button>`;
       document.querySelectorAll("#n-f-mode button").forEach((b) => b.addEventListener("click", () => { mode = b.dataset.v; store.set("n_mode", mode); draw(); }));
-      $("#n-f-tq").innerHTML = `<button data-v="0">Claudia 30 €/h</button><button data-v="1">Titolare Qualificato 34,70 €/h</button>`;
-      document.querySelectorAll("#n-f-tq button").forEach((b) => b.addEventListener("click", () => { tq = b.dataset.v === "1"; store.set("n_tq", tq ? "1" : "0"); draw(); }));
-    } else { $("#n-f-mode").remove(); $("#n-f-tq").remove(); }
+      $("#n-f-tq").remove();
+    } else { $("#n-f-mode").remove(); $("#n-f-tq")?.remove(); }
     [["#n-li", "ritardo_li", "n_li"], ["#n-cf", "ritardo_capofila", "n_cf"]].forEach(([id, k, sk]) => $(id).addEventListener("change", (e) => { I[k] = Math.max(0, +e.target.value || 0); store.set(sk, I[k]); draw(); }));
     draw();
 
@@ -360,9 +359,9 @@
       <ul><li>Data di Concessione: ${P.map((p) => `${esc(p.acronimo)} ${d(parse(p.data_inizio))}`).join(" · ")}. Da aggiornare all'arrivo del decreto di concessione.</li>
       <li>Ogni richiesta è presentata all'ultimo giorno utile; incasso di NOREMA dopo ${I.ritardo_li} giorni (Lazio Innova) + ${I.ritardo_capofila} giorni (trasferimento del capofila). I due valori si cambiano nella scheda Flusso di cassa.</li>
       <li>Uscite (vista "Costo reale", predefinita): ore di ciascuna persona × costo orario reale, cioè costo annuo ÷ ${PS ? PS.ore_annue.toLocaleString("it-IT") : "—"} ore. Chiara Mirabella: impiegata III livello CCNL Terziario. Lucia Ciampi (al posto di Valentina Caldarera): apprendista IV livello. Claudia Abatecola: compenso di amministratrice 2.000 €/mese. Figure da individuare: 30 €/h. Il forfait B.4 non genera uscite. Nella vista "Costo ammesso" le uscite sono pari al costo ammesso.</li>
-      <li>Entrate: contributo (${Math.round(C / K * 100)}%) sul costo rendicontabile. Ore a costi standard: 30 €/h, fascia bassa. Apprendista: costo effettivo RAL/1.720, perché agli apprendisti non si applicano i costi standard (FAQ 18 luglio, n. 5). Più il forfait B.4. Il contributo atteso non supera quello concesso.</li>
+      <li>Entrate: il contributo atteso è sempre pari al contributo concesso (${Math.round(C / K * 100)}% del costo ammesso): si assume di rendicontare l'intero costo ammesso, compensando eventuali minori valorizzazioni (es. apprendista a costo effettivo) con le variazioni consentite dall'art. 8 dell'Avviso. Anticipo, SAL e saldo sono calcolati sul contributo concesso.</li>
       <li>Le uscite sono distribuite sui mesi dei work package in base alle ore di NOREMA per WP; dove le ore per WP non sono disponibili, sui WP di cui NOREMA è responsabile, con una quota costante di gestione.</li>
-      <li><b>Da verificare:</b> le ore di Claudia Abatecola sono ammissibili solo come «Titolare Qualificato di PMI» (34,70 €/h figurativi, con dottorato o 4 anni di esperienza da ricercatrice) oppure con incarico tecnico deliberato dal CdA, e mai per l'amministratore unico (Avviso, Appendice 1, definizione di «Dipendente»). La vista "Costo reale" offre due scenari: 30 €/h (piano approvato) e 34,70 €/h come Titolare Qualificato (esperienza da tecnologo, CCNL Ricerca, da far confermare alla tutor; serve una variazione tramite il capofila).</li>
+      <li><b>Da verificare:</b> le ore di Claudia Abatecola sono ammissibili solo come «Titolare Qualificato di PMI» (34,70 €/h figurativi, con dottorato o 4 anni di esperienza da ricercatrice) oppure con incarico tecnico deliberato dal CdA, e mai per l'amministratore unico (Avviso, Appendice 1, definizione di «Dipendente»).</li>
       ${EXT ? `<li>Prestazioni specialistiche esterne: ${eur0(EXT.importo)} distribuiti sui ${EXT.mesi_punta} mesi con le uscite più alte. Non sono nel piano dei costi di NOREMA: senza variazione non sono rendicontabili e non generano contributo.</li>` : ""}
       <li>Non sono considerati il premio della fideiussione, l'IVA e gli eventuali tempi di istruttoria aggiuntivi.</li></ul>
       <p class="src">Fonti: Avviso STEP Lazio (Det. G08307 del 30/06/2025) art. 9; piano dei costi approvato GeCoWEB Plus (22/10/2026); formulari presentati; dati di progetto della cabina di regia.</p></div>`;
