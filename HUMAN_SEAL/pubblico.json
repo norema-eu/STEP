@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-11-18T08:45:00+01:00",
+ "aggiornato": "2026-11-18T09:45:00+01:00",
  "fonte": "Fonti: comunicazione di concessione Lazio Innova (prot. LISPA 0033570 del 24/09/2026), Det. G12471 del 15/09/2026 (BURL n. 75 del 17/09/2026, Allegati A e B), formulario/proposta progettuale definitiva (18/07/2025), piano costi approvato da GeCoWEB Plus (estrazione 22/10/2026), corrispondenza di partenariato e PEC (luglio 2025 – ottobre 2026).",
  "progetto": {
   "acronimo": "HS – HumanSeal",
@@ -587,6 +587,11 @@
    "data": "2026-11-16",
    "titolo": "Richiesta di preventivo per la polizza fideiussoria dell'anticipo",
    "sintesi": "Inviata a un'agenzia assicurativa la richiesta di preventivo per la polizza fideiussoria a garanzia dell'anticipo (contraente DEV4U, capofila, per tutto il partenariato; importo garantito € 137.480,11, 110% dell'anticipo; ente garantito Lazio Innova; durata pari al periodo di progetto più 12 mesi, con proroga automatica annuale fino allo svincolo; testo conforme allo schema Lazio Innova)."
+  },
+  {
+   "data": "2026-11-18",
+   "titolo": "Ripartizione delle spese notarili per la costituzione dell'ATS",
+   "sintesi": "Il capofila ha condiviso il prospetto di ripartizione del costo dell'atto costitutivo dell'ATS (€ 1.528,27 complessivi, compresa la ritenuta d'acconto di € 208,88 che DEV4U versa come sostituto d'imposta), in proporzione ai costi ammessi dei cinque partner privati, esclusa Sapienza: DEV4U € 359,89 (23,55%), NOREMA € 313,65 (20,52%), Microsis € 294,90 (19,30%), Olympos Hub € 289,91 (18,97%), Main Project € 269,92 (17,66%). DEV4U, come mandataria, paga il notaio; i partner versano la propria quota a DEV4U con causale «Quota costituzione ATS – Progetto HumanSeal – STEP Lazio»."
   }
  ],
  "riunioni": [

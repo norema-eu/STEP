@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-18T08:45:00+01:00",
+  "aggiornato": "2026-11-18T09:45:00+01:00",
   "fonte": "Fonti: comunicazione di concessione Lazio Innova (prot. LISPA 0033570 del 24/09/2026), Det. G12471 del 15/09/2026 (BURL n. 75 del 17/09/2026, Allegati A e B), formulario/proposta progettuale definitiva (18/07/2025), piano costi approvato da GeCoWEB Plus (estrazione 22/10/2026), corrispondenza di partenariato e PEC (luglio 2025 – ottobre 2026).",
   "progetto": {
     "acronimo": "HS – HumanSeal",
@@ -619,6 +619,12 @@
       "titolo": "Richiesta di preventivo per la polizza fideiussoria dell'anticipo",
       "sintesi": "Inviata a un'agenzia assicurativa la richiesta di preventivo per la polizza fideiussoria a garanzia dell'anticipo (contraente DEV4U, capofila, per tutto il partenariato; importo garantito € 137.480,11, 110% dell'anticipo; ente garantito Lazio Innova; durata pari al periodo di progetto più 12 mesi, con proroga automatica annuale fino allo svincolo; testo conforme allo schema Lazio Innova).",
       "nota_interna": "Email di Claudia del 16/11 alle 21:44 a agenziaromaclodio@gmail.com (P. Caputo), cc step@, unica per HS e PRONTI VIA. Allegati: prospetti anticipo, formulari, atti/comunicazioni di Lazio Innova, visura DEV4U, bilanci, dichiarazioni dei redditi di amministratori/soci (dati personali: non pubblicare), bozze di polizza HS e PRONTI VIA. In attesa del preventivo."
+    },
+    {
+      "data": "2026-11-18",
+      "titolo": "Ripartizione delle spese notarili per la costituzione dell'ATS",
+      "sintesi": "Il capofila ha condiviso il prospetto di ripartizione del costo dell'atto costitutivo dell'ATS (€ 1.528,27 complessivi, compresa la ritenuta d'acconto di € 208,88 che DEV4U versa come sostituto d'imposta), in proporzione ai costi ammessi dei cinque partner privati, esclusa Sapienza: DEV4U € 359,89 (23,55%), NOREMA € 313,65 (20,52%), Microsis € 294,90 (19,30%), Olympos Hub € 289,91 (18,97%), Main Project € 269,92 (17,66%). DEV4U, come mandataria, paga il notaio; i partner versano la propria quota a DEV4U con causale «Quota costituzione ATS – Progetto HumanSeal – STEP Lazio».",
+      "nota_interna": "Email di M. Patitucci (DEV4U) a Claudia del 18/11 alle 08:49 e 09:12, cc D. Berardi, in risposta alla mail di Claudia del 17/11 19:18. Percentuali coerenti con i costi ammessi per partner (totale privati € 440.280). Patitucci chiede conferma se il notaio vada pagato prima della stipula del 23/11: risposta da dare. Coordinate bancarie DEV4U presenti nella mail (non riportate qui)."
     }
   ],
   "riunioni": [
