@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-18T08:45:00+01:00",
+  "aggiornato": "2026-11-18T12:45:00+01:00",
   "fonte": "Fonti: Det. G13392 del 02/10/2026 (BURL n. 81 suppl. 1 del 08/10/2026, Allegati A e B); comunicazione di concessione Lazio Innova (prot. LISPA 0036564 del 14/10/2026); piano costi approvato GeCoWEB Plus (dettaglio del 22/10/2026); formulario presentato (proposta progettuale) e bozza del contratto di aggregazione allegata alla domanda; corrispondenza di partenariato (email Outlook dal 15/07/2025 al 26/10/2026).",
   "progetto": {
     "acronimo": "PRONTI VIA",
@@ -347,7 +347,7 @@
       "descrizione": "Preventivo della polizza per l'anticipo richiesto il 16/11/2026 a un'agenzia assicurativa; la polizza si finalizza dopo la firma dell'ATS.",
       "livello": "media",
       "stato": "aperta",
-      "nota_interna": "Cartella VIA-Polizza vuota. 10/11: documentazione del capofila ricevuta per il preventivo. 16/11 21:44: inviata da c.abatecola (cc step@) la richiesta di preventivo all'agenzia «Roma Clodio» (P. Caputo, agenziaromaclodio@gmail.com, cc step@) per le polizze di HS (DEV4U, € 137.480,11) e PRONTI VIA (RO Technology, € 166.220,32), stesso schema di SPACE.AI; allegati formulari, visure, bilanci e dichiarazioni dei redditi (dati personali: non pubblicare). Integrazioni chieste alle società: visure aggiornate, dichiarazioni mancanti, documenti d'identità. Importo: nella richiesta € 166.220,32 (110% dell'anticipo arrotondato), in dashboard € 166.220,31 (44% del contributo): allineare."
+      "nota_interna": "Cartella VIA-Polizza vuota. 10/11: documentazione del capofila ricevuta per il preventivo. 16/11 21:44: inviata da c.abatecola (cc step@) la richiesta di preventivo all'agenzia «Roma Clodio» (P. Caputo, agenziaromaclodio@gmail.com, cc step@) per le polizze di HS (DEV4U, € 137.480,11) e PRONTI VIA (RO Technology, € 166.220,32), stesso schema di SPACE.AI; allegati formulari, visure, bilanci e dichiarazioni dei redditi (dati personali: non pubblicare). Integrazioni chieste alle società: visure aggiornate, dichiarazioni mancanti, documenti d'identità. Importo: nella richiesta € 166.220,32 (110% dell'anticipo arrotondato), in dashboard € 166.220,31 (44% del contributo): allineare. 18/11 12:29: c.abatecola ha inoltrato la stessa richiesta di preventivo (con bozze di polizza HS e PRONTI VIA e documentazione) all'agenzia Generali Lido di Ostia (P. Esposito, agenzia.lidodiostia.it@generali.com) chiedendo aggiornamenti: secondo preventivo in attesa."
     },
     {
       "data": "2026-07-13",
@@ -495,7 +495,12 @@
       "data": "2026-11-17",
       "titolo": "Proposta di riunione di progetto in presenza presso RO Technology",
       "sintesi": "Il capofila propone di tenere la prossima riunione di progetto in presenza presso la sede di RO Technology (Via Benedetto Croce 40, Roma), indicando due date alternative: lunedì 23/11/2026 o mercoledì 25/11/2026, entrambe alle ore 11:00. Data da confermare.",
-      "nota_interna": "Email di A. Talamanca a Claudia del 17/11 alle 21:19 (cc G. Rossi, S. Cornacchia, M. Scalise, M. Scopigno). Da rispondere indicando la data preferita; il 23/11 alle 15:00 è prevista la stipula dell'ATS PRONTI VIA presso il notaio."
+      "nota_interna": "Email di A. Talamanca a Claudia del 17/11 alle 21:19 (cc G. Rossi, S. Cornacchia, M. Scalise, M. Scopigno). Da rispondere indicando la data preferita; il 23/11 alle 15:00 è prevista la stipula dell'ATS PRONTI VIA presso il notaio. 18/11 11:59: Claudia ha risposto che le due date non sono possibili e ha proposto lunedì 30/11 alle 11:00 (sentito anche Sapienza)."
+    },
+    {
+      "data": "2026-11-18",
+      "titolo": "Proposta di data per la riunione di progetto in presenza",
+      "sintesi": "NOREMA, sentita anche Sapienza, propone di tenere la riunione di progetto in presenza presso RO Technology lunedì 30/11/2026 alle ore 11:00, in alternativa alle date del 23 e 25/11. Data da confermare da parte del capofila. Resta confermata la stipula dell'ATS lunedì 23/11/2026 alle ore 15:00 presso lo Studio Floridi."
     }
   ],
   "riunioni": [
