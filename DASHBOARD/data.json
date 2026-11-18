@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-11-17T18:45:00+01:00",
+ "aggiornato": "2026-11-18T08:45:00+01:00",
  "progetti": [
   {
    "acronimo": "HS – HumanSeal",
@@ -409,7 +409,7 @@
      "descrizione": "Kick-off fissato al 09/11/2026. Per la polizza fideiussoria dell'anticipo è in corso la raccolta dei preventivi: richiesta di preventivo inviata il 16/11/2026.",
      "livello": "media",
      "stato": "aperta",
-     "nota_interna": "Richiesta del capofila (Patitucci) a NOREMA del 28/10. 16/11 21:44: inviata da c.abatecola (cc step@) la richiesta di preventivo all'agenzia «Roma Clodio» (P. Caputo, agenziaromaclodio@gmail.com, cc step@) per le polizze di HS (DEV4U, € 137.480,11) e PRONTI VIA (RO Technology, € 166.220,32), stesso schema di SPACE.AI; allegati formulari, visure, bilanci e dichiarazioni dei redditi (dati personali: non pubblicare). Integrazioni chieste alle società: visure aggiornate, dichiarazioni mancanti, documenti d'identità."
+     "nota_interna": "Richiesta del capofila (Patitucci) a NOREMA del 28/10. 16/11 21:44: inviata da c.abatecola (cc step@) la richiesta di preventivo all'agenzia «Roma Clodio» (P. Caputo, agenziaromaclodio@gmail.com, cc step@) per le polizze di HS (DEV4U, € 137.480,11) e PRONTI VIA (RO Technology, € 166.220,32), stesso schema di SPACE.AI; allegati formulari, visure, bilanci e dichiarazioni dei redditi (dati personali: non pubblicare). Integrazioni chieste alle società: visure aggiornate, dichiarazioni mancanti, documenti d'identità. 17/11: in attesa del secondo preventivo; chiesto a DEV4U di segnalare eventuali altri contatti assicurativi."
     },
     {
      "data": "2026-10-02",
@@ -441,7 +441,7 @@
      "stato": "risolta"
     }
    ],
-   "aggiornato": "2026-11-17T18:45:00+01:00"
+   "aggiornato": "2026-11-18T08:45:00+01:00"
   },
   {
    "acronimo": "PRONTI VIA",
@@ -743,7 +743,7 @@
      "stato": "risolta"
     }
    ],
-   "aggiornato": "2026-11-17T17:45:00+01:00"
+   "aggiornato": "2026-11-18T08:45:00+01:00"
   },
   {
    "acronimo": "SPACE.AI",
