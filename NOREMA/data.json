@@ -1039,10 +1039,10 @@
   "percentuale": 0.015,
   "rate": [
    {
-    "nome": "Subito",
+    "nome": "1ª rata",
     "quota": 0.005,
     "evento": "subito",
-    "nota": "alla sottoscrizione dell'accordo di servizio"
+    "nota": "HS-HumanSeal subito, alla conferma; SPACE.AI contestuale all'arrivo dell'anticipo; PRONTI VIA da definire"
    },
    {
     "nome": "1° SAL",
@@ -1057,13 +1057,26 @@
     "nota": "all'erogazione del 2° SAL; se il 2° SAL non viene richiesto, all'erogazione del saldo finale"
    }
   ],
-  "stato": "proposta da inviare",
+  "stato": "condizioni comunicate ai partner di HS-HumanSeal e SPACE.AI (email del 18/11/2026); Sapienza esclusa dal conteggio",
   "note": [
    "Supporto organizzativo al partenariato: non è la fee che NOREMA applica di norma, perché NOREMA partecipa come partner.",
    "Servizio fuori dalle attività di progetto: non è rendicontato su STEP né dai partner né da NOREMA. Le ore NOREMA dedicate alla segreteria non vanno nei timesheet STEP.",
    "Base di calcolo: costo ammesso di ciascun partner nel piano dei costi approvato GeCoWEB Plus; importi IVA esclusa.",
-   "Per Sapienza va concordata la procedura con il Dipartimento SBAI."
-  ]
+   "Sapienza (Dipartimento SBAI) è esclusa dal conteggio."
+  ],
+  "esclusi": "sapienza|universit",
+  "prima_rata": {
+   "HUMAN_SEAL": {
+    "nome": "subito, alla conferma"
+   },
+   "SPACE_AI": {
+    "nome": "all'arrivo dell'anticipo",
+    "evento": "anticipo"
+   },
+   "PRONTI_VIA": {
+    "nome": "da definire"
+   }
+  }
  },
  "rendicontazione": {
   "generato": "2026-11-18",
