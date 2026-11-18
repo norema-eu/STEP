@@ -1035,24 +1035,26 @@
   }
  ],
  "segreteria": {
-  "titolo": "Servizio di segreteria tecnica ai partner",
+  "titolo": "Compensi dai partner per la segreteria tecnica",
   "percentuale": 0.015,
   "rate": [
    {
-    "nome": "Avvio",
+    "nome": "Subito",
     "quota": 0.005,
-    "mese": 0,
-    "nota": "da definire (proposta: all'incasso dell'anticipo)"
+    "evento": "subito",
+    "nota": "alla sottoscrizione dell'accordo di servizio"
    },
    {
-    "nome": "Metà progetto",
+    "nome": "1° SAL",
     "quota": 0.005,
-    "mese": 12
+    "evento": "sal1",
+    "nota": "all'erogazione del 1° SAL da parte di Lazio Innova"
    },
    {
-    "nome": "Fine progetto",
+    "nome": "2° SAL o saldo finale",
     "quota": 0.005,
-    "mese": 24
+    "evento": "sal2",
+    "nota": "all'erogazione del 2° SAL; se il 2° SAL non viene richiesto, all'erogazione del saldo finale"
    }
   ],
   "stato": "proposta da inviare",

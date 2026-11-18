@@ -336,15 +336,16 @@
         base[base.length - 1] = r2(tot - base.slice(0, -1).reduce((a, b) => a + b, 0)); // arrotondamento sull'ultima rata
         return { p, x, tot, rate: base };
       }));
-      const t0s = (p) => parse(p.data_inizio);
+      const t0s = (p) => parse(p.data_inizio), lag = I0.ritardo_li + I0.ritardo_capofila;
+      const quando = (p, r) => r.evento === "sal1" ? addD(addM(t0s(p), I0.sal_mesi[0]), lag) : r.evento === "sal2" ? addD(addM(t0s(p), I0.sal_mesi[1]), lag) : r.mese != null ? addM(t0s(p), r.mese) : null;
       const sum = (arr, i) => arr.reduce((a, r) => a + (i == null ? r.tot : r.rate[i]), 0);
-      $("#n-seg-lead").innerHTML = `${esc(S.titolo)}: ${String(S.percentuale * 100).replace(".", ",")}% del costo ammesso di ciascun partner, in ${S.rate.length} rate (${S.rate.map((r) => esc(r.nome.toLowerCase())).join(", ")}). Stato: <b>${esc(S.stato)}</b>. Totale <b>${eur(sum(righe))}</b> IVA esclusa.`;
+      $("#n-seg-lead").innerHTML = `${esc(S.titolo)}: ${String(S.percentuale * 100).replace(".", ",")}% del costo ammesso di ciascun partner, in ${S.rate.length} rate (${S.rate.map((r) => esc(r.nome)).join(", ")}). Stato: <b>${esc(S.stato)}</b>. Totale <b>${eur(sum(righe))}</b> IVA esclusa.`;
       $("#n-seg").innerHTML = `<thead><tr><th>Progetto</th><th>Partner</th><th class="num">Costo ammesso</th>${S.rate.map((r) => `<th class="num">${esc(r.nome)}</th>`).join("")}<th class="num">Totale</th></tr></thead><tbody>` +
         P.map((p) => { const rr = righe.filter((r) => r.p === p); if (!rr.length) return "";
           return rr.map((r) => `<tr><td>${pill(p)}</td><td>${esc(r.x.nome)}${r.x.capofila ? ' <span class="b">capofila</span>' : ""}</td><td class="num">${eur(r.x.costo)}</td>${r.rate.map((v) => `<td class="num">${eur(v)}</td>`).join("")}<td class="num"><b>${eur(r.tot)}</b></td></tr>`).join("") +
-            `<tr class="sub"><td>${pill(p)}</td><td colspan="2"><i>Totale ${esc(p.acronimo)}</i> · ${S.rate.map((r, i) => `${esc(r.nome.toLowerCase())} ${i === 0 ? "" : ym(addM(t0s(p), r.mese))}`).filter((s, i) => i > 0).join(" · ")}</td>${S.rate.map((_, i) => `<td class="num">${eur(sum(rr, i))}</td>`).join("")}<td class="num"><b>${eur(sum(rr))}</b></td></tr>`; }).join("") +
+            `<tr class="sub"><td>${pill(p)}</td><td colspan="2"><i>Totale ${esc(p.acronimo)}</i> · ${S.rate.map((r) => quando(p, r) ? `${esc(r.nome)} ≈ ${ym(quando(p, r))}` : "").filter(Boolean).join(" · ")}</td>${S.rate.map((_, i) => `<td class="num">${eur(sum(rr, i))}</td>`).join("")}<td class="num"><b>${eur(sum(rr))}</b></td></tr>`; }).join("") +
         `</tbody><tfoot><tr><td colspan="3">Totale tre progetti</td>${S.rate.map((_, i) => `<td class="num">${eur(sum(righe, i))}</td>`).join("")}<td class="num">${eur(sum(righe))}</td></tr></tfoot>`;
-      $("#n-seg-note").innerHTML = `<ul>${S.rate.filter((r) => r.nota).map((r) => `<li>Rata «${esc(r.nome)}»: ${esc(r.nota)}.</li>`).join("")}${(S.note || []).map((t) => `<li>${esc(t)}</li>`).join("")}<li>Le rate di metà e fine progetto sono indicate al mese 12 e al mese 24 dalla Data di Concessione in Ipotesi. Gli importi non sono inclusi nel flusso di cassa.</li></ul>`;
+      $("#n-seg-note").innerHTML = `<ul>${S.rate.filter((r) => r.nota).map((r) => `<li>Rata «${esc(r.nome)}»: ${esc(r.nota)}.</li>`).join("")}${(S.note || []).map((t) => `<li>${esc(t)}</li>`).join("")}<li>Date indicative delle rate legate ai SAL: richiesta al mese ${I0.sal_mesi[0]} e al mese ${I0.sal_mesi[1]} dalla Data di Concessione, più ${I0.ritardo_li} giorni per l'erogazione di Lazio Innova e ${I0.ritardo_capofila} per il trasferimento dal capofila (scheda Ipotesi). Gli importi non sono inclusi nel flusso di cassa.</li></ul>`;
     }
 
     // ---------- Ipotesi
