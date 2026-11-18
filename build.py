@@ -177,6 +177,10 @@ def main(preview: bool) -> None:
     for folder in sorted(PROJECTS):
         data = json.loads((folder / "data.json").read_text(encoding="utf-8"))  # valida il JSON
         pers = ROOT / "_personale" / f"{folder.name}.json"
+        dlv = ROOT / "_deliverable" / f"{folder.name}.json"
+        if dlv.exists():  # deliverable e responsabili dal formulario
+            dd = json.loads(dlv.read_text(encoding="utf-8"))
+            data["deliverable_list"] = {"fonte": dd.get("fonte"), "deliverable": dd.get("deliverable", [])}
         if pers.exists():  # personale per partner dai formulari (ore per WP, nessun importo)
             pe = json.loads(pers.read_text(encoding="utf-8"))
             pe.pop("note", None)  # note di verifica: restano interne

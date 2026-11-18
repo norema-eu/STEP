@@ -100,16 +100,31 @@
         const x = mStart(i + 1), yr = i === 0 || x.getMonth() === 0;
         return `<span class="${q ? "q" : ""}${yr ? " yr" : ""}" title="M${i + 1}: ${x.toLocaleDateString("it-IT")} – ${mEnd(i + 1).toLocaleDateString("it-IT")}"><b>M${i + 1}</b><i>${MESI[x.getMonth()]}</i><em>${yr ? x.getFullYear() : ""}</em></span>`;
       }).join("");
+      const DL = ((D.deliverable_list || {}).deliverable) || [];
       $("#gantt").innerHTML = `<div class="h">Attività</div><div class="h months">${head}</div>` + wps.map((w) => {
         const left = ((w.mese_inizio - 1) / m * 100).toFixed(2), width = ((w.mese_fine - w.mese_inizio + 1) / m * 100).toFixed(2);
         const tl = monthsNow != null && monthsNow >= 0 && monthsNow <= m ? `<i class="todayline" style="left:${(monthsNow / m * 100).toFixed(2)}%"></i>` : "";
         return `<div class="lbl"><b>${esc(w.codice)}</b>${esc(w.titolo)}<small>${esc(w.responsabile || "")} · M${w.mese_inizio}–M${w.mese_fine}${start ? " (" + my(mStart(w.mese_inizio)) + " – " + my(mEnd(w.mese_fine)) + ")" : ""} · ${badge(w.stato)}</small></div>
-                <div class="trk" style="--m:${m}"><span class="seg ${w.stato === "in_corso" ? "on" : ""}" style="left:${left}%;width:${width}%"></span>${tl}</div>`;
+                <div class="trk" style="--m:${m}"><span class="seg ${w.stato === "in_corso" ? "on" : ""}" style="left:${left}%;width:${width}%"></span>${tl}${DL.filter((x) => x.wp === w.codice).flatMap((x) => (x.mesi || []).filter((mm) => mm >= 1 && mm <= m).map((mm) => `<i class="dmk" style="left:${((mm - 0.5) / m * 100).toFixed(2)}%" title="${esc(x.codice)} · ${esc(x.titolo || "")} · ${esc(x.responsabile || "")} · M${mm}${start ? " (" + my(mEnd(mm)) + ")" : ""}"></i>`)).join("")}</div>`;
       }).join("");
       $("#gantt-note").textContent = start
         ? `I mesi di progetto decorrono dalla data di concessione (${start.toLocaleDateString("it-IT")}): M1 inizia quel giorno e i ${m} mesi terminano il ${mEnd(m).toLocaleDateString("it-IT")}. La linea rossa indica la data di oggi.`
         : "Mesi conteggiati dalla data di avvio, non ancora fissata (decorre dalla firma dell'Atto di Impegno).";
     } else { $("#gantt").outerHTML = `<div class="empty">Piano di lavoro in caricamento.</div>`; }
+    // Deliverable e responsabili
+    (() => {
+      const DL = ((D.deliverable_list || {}).deliverable) || [], tb = $("#dlv"); if (!tb) return;
+      if (!DL.length) { tb.closest(".card").remove(); $("#dlv-h").remove(); return; }
+      const st = P.data_inizio || P.data_avvio, s0 = st ? new Date(st + "T00:00:00") : null;
+      const due = (mm) => { if (!s0) return `M${mm}`; const x = new Date(s0.getFullYear(), s0.getMonth() + mm, s0.getDate()); x.setDate(x.getDate() - 1); return `M${mm} · ${x.toLocaleDateString("it-IT")}`; };
+      const wpBy = Object.fromEntries((D.wp || []).map((w) => [w.codice, w]));
+      const groups = [...new Set(DL.map((x) => x.wp))];
+      tb.innerHTML = `<thead><tr><th>Codice</th><th>Deliverable</th><th>Tipo</th><th>Consegna</th><th>Responsabile</th></tr></thead><tbody>` +
+        groups.map((g) => { const w = wpBy[g] || {};
+          return `<tr class="wp"><td colspan="5"><b>${esc(g)}</b> ${esc(w.titolo || "")}<span>leader: ${esc(w.responsabile || "—")}</span></td></tr>` +
+            DL.filter((x) => x.wp === g).map((x) => `<tr><td class="cd">${esc(x.codice)}</td><td>${esc(x.titolo || "—")}</td><td class="tp">${esc(x.tipo || "—")}</td><td class="dt">${(x.mesi || []).map(due).join("<br>")}</td><td><b>${esc(x.responsabile || "—")}</b>${x.responsabile_da_wp ? `<small>leader del WP (non indicato nel formulario)</small>` : ""}</td></tr>`).join(""); }).join("") + `</tbody>`;
+      $("#dlv-src").textContent = "Fonte: " + ((D.deliverable_list || {}).fonte || "formulario presentato") + ". Le date di consegna decorrono dalla Data di Concessione; il rombo sul diagramma indica il mese di consegna.";
+    })();
 
     // Personale per partner: ore per WP del formulario distribuite in modo uniforme sui mesi del WP
     const PE = D.personale;

@@ -1,0 +1,135 @@
+{
+  "progetto": "SPACE_AI",
+  "fonte": "Formulario presentato (Proposta progettuale), sezione 4 – Tab. 1 \"Lista dei deliverables\" (pp. 16-17), verificata con sezione 4 \"Tempi, Milestone e Deliverables\" e tabella WP della sezione 5",
+  "deliverable": [
+    {
+      "codice": "D1.1",
+      "wp": "WP1",
+      "titolo": "Piano gestione progetto e analisi piattaforma TerraMind",
+      "mesi": [
+        6
+      ],
+      "tipo": "report (R)",
+      "responsabile": "IPTSAT",
+      "responsabile_da_wp": false
+    },
+    {
+      "codice": "D1.2",
+      "wp": "WP1",
+      "titolo": "Dataset armonizzato iniziale Sentinel/Planet",
+      "mesi": [
+        12
+      ],
+      "tipo": "dataset (OTHER)",
+      "responsabile": "IPTSAT",
+      "responsabile_da_wp": false
+    },
+    {
+      "codice": "D1.3",
+      "wp": "WP1",
+      "titolo": "API e interfaccia dati per accesso su piattaforma",
+      "mesi": [
+        18
+      ],
+      "tipo": "software (OTHER)",
+      "responsabile": "ReadyLab",
+      "responsabile_da_wp": false
+    },
+    {
+      "codice": "D1.4",
+      "wp": "WP1",
+      "titolo": "Dataset completo armonizzato e guida d'uso",
+      "mesi": [
+        24
+      ],
+      "tipo": "report (R)",
+      "responsabile": "IPTSAT",
+      "responsabile_da_wp": false
+    },
+    {
+      "codice": "D2.1",
+      "wp": "WP2",
+      "titolo": "Tokenizzatori multimodali compressi e validati",
+      "mesi": [
+        9
+      ],
+      "tipo": "software (OTHER)",
+      "responsabile": "NOREMA",
+      "responsabile_da_wp": false
+    },
+    {
+      "codice": "D3.1",
+      "wp": "WP3",
+      "titolo": "Modello Foundation SPACE.AI v1",
+      "mesi": [
+        15
+      ],
+      "tipo": "software – modello pre-addestrato (OTHER)",
+      "responsabile": "Sapienza",
+      "responsabile_da_wp": false
+    },
+    {
+      "codice": "D4.1",
+      "wp": "WP4",
+      "titolo": "Modulo generativo SPACE.AI con TiM",
+      "mesi": [
+        20
+      ],
+      "tipo": "software (OTHER)",
+      "responsabile": "NOREMA",
+      "responsabile_da_wp": false
+    },
+    {
+      "codice": "D5.1",
+      "wp": "WP5",
+      "titolo": "Report finale validazione su task operativi",
+      "mesi": [
+        22
+      ],
+      "tipo": "report (R)",
+      "responsabile": "IPTSAT",
+      "responsabile_da_wp": false
+    },
+    {
+      "codice": "D6.1",
+      "wp": "WP6",
+      "titolo": "Sistema SPACE.AI validato in ambiente operativo (TRL7)",
+      "mesi": [
+        24
+      ],
+      "tipo": "dimostratore (DEM)",
+      "responsabile": "ReadyLab",
+      "responsabile_da_wp": false
+    },
+    {
+      "codice": "D7.1",
+      "wp": "WP7",
+      "titolo": "Documento tecnico architettura SPACE.AI",
+      "mesi": [
+        6
+      ],
+      "tipo": "report (R)",
+      "responsabile": "ReadyLab",
+      "responsabile_da_wp": false
+    },
+    {
+      "codice": "D7.2",
+      "wp": "WP7",
+      "titolo": "Piattaforma SaaS SPACE.AI operativa",
+      "mesi": [
+        20
+      ],
+      "tipo": "dimostratore (DEM)",
+      "responsabile": "ReadyLab",
+      "responsabile_da_wp": false
+    }
+  ],
+  "note": [
+    "Tutti i responsabili sono indicati esplicitamente in Tab. 1.",
+    "D1.3: responsabile esplicito Ready Lab, diverso dal leader di WP1 (IPTSAT).",
+    "WP7: nella sezione 4 (testo 'Tempi, Milestone e Deliverables') e nella tabella WP della sezione 5 i deliverable sono numerati D7.0 (M6) e D7.1 (M20); in Tab. 1 e in data.json sono D7.1 (M6) e D7.2 (M20). Adottata la numerazione di Tab. 1.",
+    "D3.1: in Tab. 1 il responsabile è scritto 'Sapiena' (refuso per Sapienza).",
+    "Tipologia: codici del formulario R/DEM/OTHER; la specificazione (dataset, software) è desunta dalla descrizione in Tab. 1.",
+    "Sezione 4: al M20 è previsto un 'report performance intermedio' di WP5 esplicitamente indicato come non deliverable formale: non incluso."
+  ]
+}

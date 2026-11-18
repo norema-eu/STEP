@@ -671,6 +671,135 @@
   "pec": "incentivi@pec.lazioinnova.it",
   "nota": "Le comunicazioni ufficiali con Lazio Innova passano dalla PEC della capofila."
  },
+ "deliverable_list": {
+  "fonte": "Formulario presentato (Proposta progettuale), sezione 5 (descrizione per WP, voce 'Deliverable e milestone') per codici, titoli e mesi; sezione 4 – Tab. 1 \"Lista dei deliverables\" per responsabile e tipologia",
+  "deliverable": [
+   {
+    "codice": "D1.1",
+    "wp": "WP1",
+    "titolo": "Piano di gestione e coordinamento",
+    "mesi": [
+     6
+    ],
+    "tipo": "report (R)",
+    "responsabile": "DEV4U",
+    "responsabile_da_wp": false
+   },
+   {
+    "codice": "D1.2",
+    "wp": "WP1",
+    "titolo": "Report trimestrali",
+    "mesi": [
+     6,
+     12,
+     18,
+     24
+    ],
+    "tipo": null,
+    "responsabile": "DEV4U",
+    "responsabile_da_wp": true
+   },
+   {
+    "codice": "D2.1",
+    "wp": "WP2",
+    "titolo": "Documento dei requisiti e casi d'uso",
+    "mesi": [
+     3
+    ],
+    "tipo": "report (R)",
+    "responsabile": "Microsis",
+    "responsabile_da_wp": false
+   },
+   {
+    "codice": "D2.2",
+    "wp": "WP2",
+    "titolo": "Architettura SaaS e piano di adozione",
+    "mesi": [
+     8
+    ],
+    "tipo": null,
+    "responsabile": "Microsis",
+    "responsabile_da_wp": true
+   },
+   {
+    "codice": "D3.1",
+    "wp": "WP3",
+    "titolo": "Dataset annotati e metadata",
+    "mesi": [
+     10
+    ],
+    "tipo": "report (R) – dataset annotati",
+    "responsabile": "Sapienza",
+    "responsabile_da_wp": false
+   },
+   {
+    "codice": "D3.2",
+    "wp": "WP3",
+    "titolo": "Modelli addestrati e report comparativi",
+    "mesi": [
+     16
+    ],
+    "tipo": null,
+    "responsabile": "Sapienza",
+    "responsabile_da_wp": true
+   },
+   {
+    "codice": "D4.1",
+    "wp": "WP4",
+    "titolo": "Prototipo funzionante",
+    "mesi": [
+     16
+    ],
+    "tipo": "dimostratore (DEM)",
+    "responsabile": "DEV4U",
+    "responsabile_da_wp": false
+   },
+   {
+    "codice": "D4.2",
+    "wp": "WP4",
+    "titolo": "Modulo certificativo blockchain",
+    "mesi": [
+     20
+    ],
+    "tipo": "altro (OTHER) – integrazione on-chain",
+    "responsabile": "Main Project",
+    "responsabile_da_wp": false
+   },
+   {
+    "codice": "D4.3",
+    "wp": "WP4",
+    "titolo": "Report validazione ambienti reali",
+    "mesi": [
+     22
+    ],
+    "tipo": "report (R)",
+    "responsabile": "Olympos Hub",
+    "responsabile_da_wp": false
+   },
+   {
+    "codice": "D5.1",
+    "wp": "WP5",
+    "titolo": "Kit formativo e comunicativo",
+    "mesi": [
+     18
+    ],
+    "tipo": "diffusione (DEC)",
+    "responsabile": "NOREMA",
+    "responsabile_da_wp": false
+   },
+   {
+    "codice": "D5.2",
+    "wp": "WP5",
+    "titolo": "Piano di replicabilità e valorizzazione industriale",
+    "mesi": [
+     24
+    ],
+    "tipo": "diffusione (DEC)",
+    "responsabile": "NOREMA",
+    "responsabile_da_wp": false
+   }
+  ]
+ },
  "personale": {
   "progetto": "HUMAN_SEAL",
   "fonte": "Prospetto «HumanSeal – ore intere per persona e mese» (17/11/2026): ore per persona, work package e mese di progetto (M1–M24), con totali per partner coerenti con il costo del personale del piano dei costi approvato (GeCoWEB Plus, B.1.1). Piano indicativo: le ore effettive risultano dai timesheet.",

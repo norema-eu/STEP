@@ -270,3 +270,18 @@ footer .credit .wrap{display:flex;align-items:center;justify-content:center;gap:
 .heat-tip .tt-row i{width:10px;height:10px;border-radius:2px;flex:none}
 .heat-tip .tt-row span{flex:1;line-height:1.25}
 .heat-tip .tt-row small{color:var(--muted)}
+
+/* Deliverable */
+.gantt .trk{position:relative}
+.dmk{position:absolute;top:50%;width:10px;height:10px;margin:-5px 0 0 -5px;background:var(--navy);transform:rotate(45deg);border:2px solid #fff;border-radius:2px;z-index:2;cursor:help}
+.dlv-h{margin:22px 0 8px;font-size:18px;font-weight:600;color:var(--navy)}
+.dlv{width:100%;border-collapse:collapse;font-size:13.5px}
+.dlv th{text-align:left;color:var(--muted);font-weight:500;border-bottom:1px solid var(--line);padding:6px 8px}
+.dlv td{padding:7px 8px;border-bottom:1px solid var(--g1);vertical-align:top}
+.dlv tr.wp td{background:var(--row);color:var(--navy);padding-top:9px}
+.dlv tr.wp span{float:right;font-size:12.5px;color:var(--muted)}
+.dlv td.cd{font-weight:600;white-space:nowrap;color:var(--navy)}
+.dlv td.dt{white-space:nowrap;font-variant-numeric:tabular-nums}
+.dlv td.tp{font-size:12.5px;color:var(--muted)}
+.dlv small{display:block;font-size:11.5px;color:var(--muted)}
+#dlv-src{font-size:12.5px;color:var(--muted);margin-top:8px}

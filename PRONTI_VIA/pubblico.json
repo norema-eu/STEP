@@ -543,6 +543,113 @@
   "pec": "incentivi@pec.lazioinnova.it",
   "nota": "Le comunicazioni ufficiali con Lazio Innova passano dalla PEC della capofila."
  },
+ "deliverable_list": {
+  "fonte": "Formulario presentato (Proposta progettuale), sezione 4 – Tab. 1 \"Lista dei deliverables\" (pp. 15-16) e sezione 5 (descrizione per WP, voce 'Deliverable')",
+  "deliverable": [
+   {
+    "codice": "D1.1",
+    "wp": "WP1",
+    "titolo": "Piano di gestione",
+    "mesi": [
+     2
+    ],
+    "tipo": "report (R)",
+    "responsabile": "RO Technology",
+    "responsabile_da_wp": false
+   },
+   {
+    "codice": "D1.2",
+    "wp": "WP1",
+    "titolo": "Report semestrali",
+    "mesi": [
+     6,
+     12,
+     18,
+     24
+    ],
+    "tipo": "report (R)",
+    "responsabile": "RO Technology",
+    "responsabile_da_wp": false
+   },
+   {
+    "codice": "D2.1",
+    "wp": "WP2",
+    "titolo": "Specifiche tecniche e prototipo funzionante",
+    "mesi": [
+     10
+    ],
+    "tipo": "dimostratore (DEM)",
+    "responsabile": "RO Technology",
+    "responsabile_da_wp": false
+   },
+   {
+    "codice": "D3.1",
+    "wp": "WP3",
+    "titolo": "Moduli AI operativi",
+    "mesi": [
+     16
+    ],
+    "tipo": "software (OTHER)",
+    "responsabile": "NOREMA",
+    "responsabile_da_wp": false
+   },
+   {
+    "codice": "D3.2",
+    "wp": "WP3",
+    "titolo": "Dataset classificati",
+    "mesi": [
+     12
+    ],
+    "tipo": "report (R)",
+    "responsabile": "NOREMA",
+    "responsabile_da_wp": false
+   },
+   {
+    "codice": "D4.1",
+    "wp": "WP4",
+    "titolo": "Prototipo integrato e funzionante",
+    "mesi": [
+     22
+    ],
+    "tipo": "dimostratore (DEM)",
+    "responsabile": "RO Technology",
+    "responsabile_da_wp": false
+   },
+   {
+    "codice": "D5.1",
+    "wp": "WP5",
+    "titolo": "Report tecnico e scenari d'uso",
+    "mesi": [
+     24
+    ],
+    "tipo": "report (R)",
+    "responsabile": "Sapienza",
+    "responsabile_da_wp": false
+   },
+   {
+    "codice": "D6.1",
+    "wp": "WP6",
+    "titolo": "Toolkit di replicabilità",
+    "mesi": [
+     20
+    ],
+    "tipo": "report (R)",
+    "responsabile": "NOREMA",
+    "responsabile_da_wp": false
+   },
+   {
+    "codice": "D6.2",
+    "wp": "WP6",
+    "titolo": "Piano comunicazione e materiali multimediali",
+    "mesi": [
+     12
+    ],
+    "tipo": "diffusione (DEC)",
+    "responsabile": "NOREMA",
+    "responsabile_da_wp": false
+   }
+  ]
+ },
  "personale": {
   "progetto": "PRONTI_VIA",
   "fonte": "Formulario presentato, Tab. 3 «Impegno delle risorse umane valorizzate a tempo uomo» dei WP1–WP4 e WP6, verificata con il piano dei costi approvato (GeCoWEB Plus, 22/10/2026). Le ore del WP5 non ripartite per persona sono indicate come «Ore da attribuire».",

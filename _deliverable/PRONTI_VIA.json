@@ -1,0 +1,115 @@
+{
+  "progetto": "PRONTI_VIA",
+  "fonte": "Formulario presentato (Proposta progettuale), sezione 4 – Tab. 1 \"Lista dei deliverables\" (pp. 15-16) e sezione 5 (descrizione per WP, voce 'Deliverable')",
+  "deliverable": [
+    {
+      "codice": "D1.1",
+      "wp": "WP1",
+      "titolo": "Piano di gestione",
+      "mesi": [
+        2
+      ],
+      "tipo": "report (R)",
+      "responsabile": "RO Technology",
+      "responsabile_da_wp": false
+    },
+    {
+      "codice": "D1.2",
+      "wp": "WP1",
+      "titolo": "Report semestrali",
+      "mesi": [
+        6,
+        12,
+        18,
+        24
+      ],
+      "tipo": "report (R)",
+      "responsabile": "RO Technology",
+      "responsabile_da_wp": false
+    },
+    {
+      "codice": "D2.1",
+      "wp": "WP2",
+      "titolo": "Specifiche tecniche e prototipo funzionante",
+      "mesi": [
+        10
+      ],
+      "tipo": "dimostratore (DEM)",
+      "responsabile": "RO Technology",
+      "responsabile_da_wp": false
+    },
+    {
+      "codice": "D3.1",
+      "wp": "WP3",
+      "titolo": "Moduli AI operativi",
+      "mesi": [
+        16
+      ],
+      "tipo": "software (OTHER)",
+      "responsabile": "NOREMA",
+      "responsabile_da_wp": false
+    },
+    {
+      "codice": "D3.2",
+      "wp": "WP3",
+      "titolo": "Dataset classificati",
+      "mesi": [
+        12
+      ],
+      "tipo": "report (R)",
+      "responsabile": "NOREMA",
+      "responsabile_da_wp": false
+    },
+    {
+      "codice": "D4.1",
+      "wp": "WP4",
+      "titolo": "Prototipo integrato e funzionante",
+      "mesi": [
+        22
+      ],
+      "tipo": "dimostratore (DEM)",
+      "responsabile": "RO Technology",
+      "responsabile_da_wp": false
+    },
+    {
+      "codice": "D5.1",
+      "wp": "WP5",
+      "titolo": "Report tecnico e scenari d'uso",
+      "mesi": [
+        24
+      ],
+      "tipo": "report (R)",
+      "responsabile": "Sapienza",
+      "responsabile_da_wp": false
+    },
+    {
+      "codice": "D6.1",
+      "wp": "WP6",
+      "titolo": "Toolkit di replicabilità",
+      "mesi": [
+        20
+      ],
+      "tipo": "report (R)",
+      "responsabile": "NOREMA",
+      "responsabile_da_wp": false
+    },
+    {
+      "codice": "D6.2",
+      "wp": "WP6",
+      "titolo": "Piano comunicazione e materiali multimediali",
+      "mesi": [
+        12
+      ],
+      "tipo": "diffusione (DEC)",
+      "responsabile": "NOREMA",
+      "responsabile_da_wp": false
+    }
+  ],
+  "note": [
+    "Tutti i responsabili sono indicati esplicitamente in Tab. 1.",
+    "CONFLITTO MESI interno al formulario: i mesi adottati sono quelli della sezione 5 (coerenti con data.json); Tab. 1 riporta valori diversi per 5 deliverable: D1.2 'Mese 4' (sez. 5: M6, M12, M18, M24), D3.1 M14 (sez. 5: M16), D3.2 M16 (sez. 5: M12), D6.1 M12 (sez. 5: M20), D6.2 M24 (sez. 5: M12). D3.2/D6.1/D6.2 sembrano avere i mesi invertiti tra le due sezioni. Da verificare con il capofila / piano approvato.",
+    "D3.2: titolo 'Dataset classificati' ma Tab. 1 lo descrive come 'R – Relazione sui risultati dei test in ambiente operativo simulato'.",
+    "D1.2: titolo 'Report semestrali' ma Tab. 1 indica una sola consegna a Mese 4.",
+    "D6.2: in sezione 5 il titolo è 'Piano comunicazione e contenuti'; adottato il titolo di Tab. 1."
+  ]
+}

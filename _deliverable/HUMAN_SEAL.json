@@ -1,0 +1,138 @@
+{
+  "progetto": "HUMAN_SEAL",
+  "fonte": "Formulario presentato (Proposta progettuale), sezione 5 (descrizione per WP, voce 'Deliverable e milestone') per codici, titoli e mesi; sezione 4 – Tab. 1 \"Lista dei deliverables\" per responsabile e tipologia",
+  "deliverable": [
+    {
+      "codice": "D1.1",
+      "wp": "WP1",
+      "titolo": "Piano di gestione e coordinamento",
+      "mesi": [
+        6
+      ],
+      "tipo": "report (R)",
+      "responsabile": "DEV4U",
+      "responsabile_da_wp": false
+    },
+    {
+      "codice": "D1.2",
+      "wp": "WP1",
+      "titolo": "Report trimestrali",
+      "mesi": [
+        6,
+        12,
+        18,
+        24
+      ],
+      "tipo": null,
+      "responsabile": "DEV4U",
+      "responsabile_da_wp": true
+    },
+    {
+      "codice": "D2.1",
+      "wp": "WP2",
+      "titolo": "Documento dei requisiti e casi d'uso",
+      "mesi": [
+        3
+      ],
+      "tipo": "report (R)",
+      "responsabile": "Microsis",
+      "responsabile_da_wp": false
+    },
+    {
+      "codice": "D2.2",
+      "wp": "WP2",
+      "titolo": "Architettura SaaS e piano di adozione",
+      "mesi": [
+        8
+      ],
+      "tipo": null,
+      "responsabile": "Microsis",
+      "responsabile_da_wp": true
+    },
+    {
+      "codice": "D3.1",
+      "wp": "WP3",
+      "titolo": "Dataset annotati e metadata",
+      "mesi": [
+        10
+      ],
+      "tipo": "report (R) – dataset annotati",
+      "responsabile": "Sapienza",
+      "responsabile_da_wp": false
+    },
+    {
+      "codice": "D3.2",
+      "wp": "WP3",
+      "titolo": "Modelli addestrati e report comparativi",
+      "mesi": [
+        16
+      ],
+      "tipo": null,
+      "responsabile": "Sapienza",
+      "responsabile_da_wp": true
+    },
+    {
+      "codice": "D4.1",
+      "wp": "WP4",
+      "titolo": "Prototipo funzionante",
+      "mesi": [
+        16
+      ],
+      "tipo": "dimostratore (DEM)",
+      "responsabile": "DEV4U",
+      "responsabile_da_wp": false
+    },
+    {
+      "codice": "D4.2",
+      "wp": "WP4",
+      "titolo": "Modulo certificativo blockchain",
+      "mesi": [
+        20
+      ],
+      "tipo": "altro (OTHER) – integrazione on-chain",
+      "responsabile": "Main Project",
+      "responsabile_da_wp": false
+    },
+    {
+      "codice": "D4.3",
+      "wp": "WP4",
+      "titolo": "Report validazione ambienti reali",
+      "mesi": [
+        22
+      ],
+      "tipo": "report (R)",
+      "responsabile": "Olympos Hub",
+      "responsabile_da_wp": false
+    },
+    {
+      "codice": "D5.1",
+      "wp": "WP5",
+      "titolo": "Kit formativo e comunicativo",
+      "mesi": [
+        18
+      ],
+      "tipo": "diffusione (DEC)",
+      "responsabile": "NOREMA",
+      "responsabile_da_wp": false
+    },
+    {
+      "codice": "D5.2",
+      "wp": "WP5",
+      "titolo": "Piano di replicabilità e valorizzazione industriale",
+      "mesi": [
+        24
+      ],
+      "tipo": "diffusione (DEC)",
+      "responsabile": "NOREMA",
+      "responsabile_da_wp": false
+    }
+  ],
+  "note": [
+    "Tab. 1 non riporta i codici D: elenca 7 righe, abbinate ai codici della sezione 5 per WP, titolo e mese.",
+    "D1.2, D2.2, D3.2 non compaiono in Tab. 1: responsabile dedotto dal leader di WP, tipologia non indicata.",
+    "D1.2: titolo 'Report trimestrali' ma le scadenze indicate sono semestrali (M6, M12, M18, M24).",
+    "D5.1 e D5.2: Tab. 1 ha un'unica riga 'Kit formativo e piano di replicabilità' (NOREMA, DEC, M24) che li accorpa; responsabile e tipologia attribuiti a entrambi. In sezione 5 D5.1 è a M18.",
+    "D4.2: responsabile esplicito Main Project e D4.3 Olympos Hub, diversi dal leader di WP4 (DEV4U).",
+    "Titoli tratti dalla sezione 5; in Tab. 1 varianti: D3.1 'Dataset annotati e documentati', D4.1 'Prototipo software funzionante', D4.2 'Modulo blockchain e smart contract', D4.3 'Report di validazione in ambiente reale'."
+  ]
+}
