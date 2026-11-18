@@ -1,0 +1,2506 @@
+{
+ "generato": "2026-11-18",
+ "progetti": [
+  {
+   "slug": "HUMAN_SEAL",
+   "persone": [
+    {
+     "id": "claudia",
+     "nome": "Claudia Abatecola",
+     "tipo": "tq",
+     "orario": 34.7,
+     "fonte": "prospetto ore-uomo",
+     "ore_totali": 1430,
+     "lettera": "rendicontazione/HUMAN_SEAL/lettere/Lettera_incarico_HUMAN_SEAL_claudia.docx",
+     "mesi": [
+      {
+       "m": 1,
+       "mese": "2026-09",
+       "ore": 42,
+       "wp": [
+        "WP1",
+        "WP2",
+        "WP3"
+       ],
+       "file": "rendicontazione/HUMAN_SEAL/timesheet/Timesheet_HUMAN_SEAL_claudia_2026-09_M01.docx"
+      },
+      {
+       "m": 2,
+       "mese": "2026-10",
+       "ore": 42,
+       "wp": [
+        "WP1",
+        "WP2",
+        "WP3"
+       ],
+       "file": "rendicontazione/HUMAN_SEAL/timesheet/Timesheet_HUMAN_SEAL_claudia_2026-10_M02.docx"
+      },
+      {
+       "m": 3,
+       "mese": "2026-11",
+       "ore": 42,
+       "wp": [
+        "WP1",
+        "WP2",
+        "WP3"
+       ],
+       "file": "rendicontazione/HUMAN_SEAL/timesheet/Timesheet_HUMAN_SEAL_claudia_2026-11_M03.docx"
+      },
+      {
+       "m": 4,
+       "mese": "2026-12",
+       "ore": 42,
+       "wp": [
+        "WP1",
+        "WP2",
+        "WP3"
+       ],
+       "file": "rendicontazione/HUMAN_SEAL/timesheet/Timesheet_HUMAN_SEAL_claudia_2026-12_M04.docx"
+      },
+      {
+       "m": 5,
+       "mese": "2027-01",
+       "ore": 42,
+       "wp": [
+        "WP1",
+        "WP2",
+        "WP3"
+       ],
+       "file": "rendicontazione/HUMAN_SEAL/timesheet/Timesheet_HUMAN_SEAL_claudia_2027-01_M05.docx"
+      },
+      {
+       "m": 6,
+       "mese": "2027-02",
+       "ore": 81,
+       "wp": [
+        "WP1",
+        "WP2",
+        "WP3",
+        "WP4",
+        "WP5"
+       ],
+       "file": "rendicontazione/HUMAN_SEAL/timesheet/Timesheet_HUMAN_SEAL_claudia_2027-02_M06.docx"
+      },
+      {
+       "m": 7,
+       "mese": "2027-03",
+       "ore": 80,
+       "wp": [
+        "WP1",
+        "WP2",
+        "WP3",
+        "WP4",
+        "WP5"
+       ],
+       "file": "rendicontazione/HUMAN_SEAL/timesheet/Timesheet_HUMAN_SEAL_claudia_2027-03_M07.docx"
+      },
+      {
+       "m": 8,
+       "mese": "2027-04",
+       "ore": 80,
+       "wp": [
+        "WP1",
+        "WP2",
+        "WP3",
+        "WP4",
+        "WP5"
+       ],
+       "file": "rendicontazione/HUMAN_SEAL/timesheet/Timesheet_HUMAN_SEAL_claudia_2027-04_M08.docx"
+      },
+      {
+       "m": 9,
+       "mese": "2027-05",
+       "ore": 80,
+       "wp": [
+        "WP1",
+        "WP2",
+        "WP3",
+        "WP4",
+        "WP5"
+       ],
+       "file": "rendicontazione/HUMAN_SEAL/timesheet/Timesheet_HUMAN_SEAL_claudia_2027-05_M09.docx"
+      },
+      {
+       "m": 10,
+       "mese": "2027-06",
+       "ore": 80,
+       "wp": [
+        "WP1",
+        "WP2",
+        "WP3",
+        "WP4",
+        "WP5"
+       ],
+       "file": "rendicontazione/HUMAN_SEAL/timesheet/Timesheet_HUMAN_SEAL_claudia_2027-06_M10.docx"
+      },
+      {
+       "m": 11,
+       "mese": "2027-07",
+       "ore": 75,
+       "wp": [
+        "WP1",
+        "WP3",
+        "WP4",
+        "WP5"
+       ],
+       "file": "rendicontazione/HUMAN_SEAL/timesheet/Timesheet_HUMAN_SEAL_claudia_2027-07_M11.docx"
+      },
+      {
+       "m": 12,
+       "mese": "2027-08",
+       "ore": 74,
+       "wp": [
+        "WP1",
+        "WP3",
+        "WP4",
+        "WP5"
+       ],
+       "file": "rendicontazione/HUMAN_SEAL/timesheet/Timesheet_HUMAN_SEAL_claudia_2027-08_M12.docx"
+      },
+      {
+       "m": 13,
+       "mese": "2027-09",
+       "ore": 73,
+       "wp": [
+        "WP1",
+        "WP3",
+        "WP4",
+        "WP5"
+       ],
+       "file": "rendicontazione/HUMAN_SEAL/timesheet/Timesheet_HUMAN_SEAL_claudia_2027-09_M13.docx"
+      },
+      {
+       "m": 14,
+       "mese": "2027-10",
+       "ore": 73,
+       "wp": [
+        "WP1",
+        "WP3",
+        "WP4",
+        "WP5"
+       ],
+       "file": "rendicontazione/HUMAN_SEAL/timesheet/Timesheet_HUMAN_SEAL_claudia_2027-10_M14.docx"
+      },
+      {
+       "m": 15,
+       "mese": "2027-11",
+       "ore": 73,
+       "wp": [
+        "WP1",
+        "WP3",
+        "WP4",
+        "WP5"
+       ],
+       "file": "rendicontazione/HUMAN_SEAL/timesheet/Timesheet_HUMAN_SEAL_claudia_2027-11_M15.docx"
+      },
+      {
+       "m": 16,
+       "mese": "2027-12",
+       "ore": 73,
+       "wp": [
+        "WP1",
+        "WP3",
+        "WP4",
+        "WP5"
+       ],
+       "file": "rendicontazione/HUMAN_SEAL/timesheet/Timesheet_HUMAN_SEAL_claudia_2027-12_M16.docx"
+      },
+      {
+       "m": 17,
+       "mese": "2028-01",
+       "ore": 72,
+       "wp": [
+        "WP1",
+        "WP3",
+        "WP4",
+        "WP5"
+       ],
+       "file": "rendicontazione/HUMAN_SEAL/timesheet/Timesheet_HUMAN_SEAL_claudia_2028-01_M17.docx"
+      },
+      {
+       "m": 18,
+       "mese": "2028-02",
+       "ore": 72,
+       "wp": [
+        "WP1",
+        "WP3",
+        "WP4",
+        "WP5"
+       ],
+       "file": "rendicontazione/HUMAN_SEAL/timesheet/Timesheet_HUMAN_SEAL_claudia_2028-02_M18.docx"
+      },
+      {
+       "m": 19,
+       "mese": "2028-03",
+       "ore": 39,
+       "wp": [
+        "WP1",
+        "WP4",
+        "WP5"
+       ],
+       "file": "rendicontazione/HUMAN_SEAL/timesheet/Timesheet_HUMAN_SEAL_claudia_2028-03_M19.docx"
+      },
+      {
+       "m": 20,
+       "mese": "2028-04",
+       "ore": 39,
+       "wp": [
+        "WP1",
+        "WP4",
+        "WP5"
+       ],
+       "file": "rendicontazione/HUMAN_SEAL/timesheet/Timesheet_HUMAN_SEAL_claudia_2028-04_M20.docx"
+      },
+      {
+       "m": 21,
+       "mese": "2028-05",
+       "ore": 39,
+       "wp": [
+        "WP1",
+        "WP4",
+        "WP5"
+       ],
+       "file": "rendicontazione/HUMAN_SEAL/timesheet/Timesheet_HUMAN_SEAL_claudia_2028-05_M21.docx"
+      },
+      {
+       "m": 22,
+       "mese": "2028-06",
+       "ore": 39,
+       "wp": [
+        "WP1",
+        "WP4",
+        "WP5"
+       ],
+       "file": "rendicontazione/HUMAN_SEAL/timesheet/Timesheet_HUMAN_SEAL_claudia_2028-06_M22.docx"
+      },
+      {
+       "m": 23,
+       "mese": "2028-07",
+       "ore": 39,
+       "wp": [
+        "WP1",
+        "WP4",
+        "WP5"
+       ],
+       "file": "rendicontazione/HUMAN_SEAL/timesheet/Timesheet_HUMAN_SEAL_claudia_2028-07_M23.docx"
+      },
+      {
+       "m": 24,
+       "mese": "2028-08",
+       "ore": 39,
+       "wp": [
+        "WP1",
+        "WP4",
+        "WP5"
+       ],
+       "file": "rendicontazione/HUMAN_SEAL/timesheet/Timesheet_HUMAN_SEAL_claudia_2028-08_M24.docx"
+      }
+     ]
+    },
+    {
+     "id": "chiara",
+     "nome": "Chiara Mirabella",
+     "tipo": "standard",
+     "orario": 30.0,
+     "fonte": "prospetto ore-uomo",
+     "ore_totali": 890,
+     "lettera": "rendicontazione/HUMAN_SEAL/lettere/Lettera_incarico_HUMAN_SEAL_chiara.docx",
+     "mesi": [
+      {
+       "m": 1,
+       "mese": "2026-09",
+       "ore": 22,
+       "wp": [
+        "WP2",
+        "WP3"
+       ],
+       "file": "rendicontazione/HUMAN_SEAL/timesheet/Timesheet_HUMAN_SEAL_chiara_2026-09_M01.docx"
+      },
+      {
+       "m": 2,
+       "mese": "2026-10",
+       "ore": 22,
+       "wp": [
+        "WP2",
+        "WP3"
+       ],
+       "file": "rendicontazione/HUMAN_SEAL/timesheet/Timesheet_HUMAN_SEAL_chiara_2026-10_M02.docx"
+      },
+      {
+       "m": 3,
+       "mese": "2026-11",
+       "ore": 22,
+       "wp": [
+        "WP2",
+        "WP3"
+       ],
+       "file": "rendicontazione/HUMAN_SEAL/timesheet/Timesheet_HUMAN_SEAL_chiara_2026-11_M03.docx"
+      },
+      {
+       "m": 4,
+       "mese": "2026-12",
+       "ore": 22,
+       "wp": [
+        "WP2",
+        "WP3"
+       ],
+       "file": "rendicontazione/HUMAN_SEAL/timesheet/Timesheet_HUMAN_SEAL_chiara_2026-12_M04.docx"
+      },
+      {
+       "m": 5,
+       "mese": "2027-01",
+       "ore": 22,
+       "wp": [
+        "WP2",
+        "WP3"
+       ],
+       "file": "rendicontazione/HUMAN_SEAL/timesheet/Timesheet_HUMAN_SEAL_chiara_2027-01_M05.docx"
+      },
+      {
+       "m": 6,
+       "mese": "2027-02",
+       "ore": 52,
+       "wp": [
+        "WP2",
+        "WP3",
+        "WP4",
+        "WP5"
+       ],
+       "file": "rendicontazione/HUMAN_SEAL/timesheet/Timesheet_HUMAN_SEAL_chiara_2027-02_M06.docx"
+      },
+      {
+       "m": 7,
+       "mese": "2027-03",
+       "ore": 52,
+       "wp": [
+        "WP2",
+        "WP3",
+        "WP4",
+        "WP5"
+       ],
+       "file": "rendicontazione/HUMAN_SEAL/timesheet/Timesheet_HUMAN_SEAL_chiara_2027-03_M07.docx"
+      },
+      {
+       "m": 8,
+       "mese": "2027-04",
+       "ore": 51,
+       "wp": [
+        "WP2",
+        "WP3",
+        "WP4",
+        "WP5"
+       ],
+       "file": "rendicontazione/HUMAN_SEAL/timesheet/Timesheet_HUMAN_SEAL_chiara_2027-04_M08.docx"
+      },
+      {
+       "m": 9,
+       "mese": "2027-05",
+       "ore": 51,
+       "wp": [
+        "WP2",
+        "WP3",
+        "WP4",
+        "WP5"
+       ],
+       "file": "rendicontazione/HUMAN_SEAL/timesheet/Timesheet_HUMAN_SEAL_chiara_2027-05_M09.docx"
+      },
+      {
+       "m": 10,
+       "mese": "2027-06",
+       "ore": 51,
+       "wp": [
+        "WP2",
+        "WP3",
+        "WP4",
+        "WP5"
+       ],
+       "file": "rendicontazione/HUMAN_SEAL/timesheet/Timesheet_HUMAN_SEAL_chiara_2027-06_M10.docx"
+      },
+      {
+       "m": 11,
+       "mese": "2027-07",
+       "ore": 46,
+       "wp": [
+        "WP3",
+        "WP4",
+        "WP5"
+       ],
+       "file": "rendicontazione/HUMAN_SEAL/timesheet/Timesheet_HUMAN_SEAL_chiara_2027-07_M11.docx"
+      },
+      {
+       "m": 12,
+       "mese": "2027-08",
+       "ore": 45,
+       "wp": [
+        "WP3",
+        "WP4",
+        "WP5"
+       ],
+       "file": "rendicontazione/HUMAN_SEAL/timesheet/Timesheet_HUMAN_SEAL_chiara_2027-08_M12.docx"
+      },
+      {
+       "m": 13,
+       "mese": "2027-09",
+       "ore": 44,
+       "wp": [
+        "WP3",
+        "WP4",
+        "WP5"
+       ],
+       "file": "rendicontazione/HUMAN_SEAL/timesheet/Timesheet_HUMAN_SEAL_chiara_2027-09_M13.docx"
+      },
+      {
+       "m": 14,
+       "mese": "2027-10",
+       "ore": 44,
+       "wp": [
+        "WP3",
+        "WP4",
+        "WP5"
+       ],
+       "file": "rendicontazione/HUMAN_SEAL/timesheet/Timesheet_HUMAN_SEAL_chiara_2027-10_M14.docx"
+      },
+      {
+       "m": 15,
+       "mese": "2027-11",
+       "ore": 44,
+       "wp": [
+        "WP3",
+        "WP4",
+        "WP5"
+       ],
+       "file": "rendicontazione/HUMAN_SEAL/timesheet/Timesheet_HUMAN_SEAL_chiara_2027-11_M15.docx"
+      },
+      {
+       "m": 16,
+       "mese": "2027-12",
+       "ore": 44,
+       "wp": [
+        "WP3",
+        "WP4",
+        "WP5"
+       ],
+       "file": "rendicontazione/HUMAN_SEAL/timesheet/Timesheet_HUMAN_SEAL_chiara_2027-12_M16.docx"
+      },
+      {
+       "m": 17,
+       "mese": "2028-01",
+       "ore": 44,
+       "wp": [
+        "WP3",
+        "WP4",
+        "WP5"
+       ],
+       "file": "rendicontazione/HUMAN_SEAL/timesheet/Timesheet_HUMAN_SEAL_chiara_2028-01_M17.docx"
+      },
+      {
+       "m": 18,
+       "mese": "2028-02",
+       "ore": 44,
+       "wp": [
+        "WP3",
+        "WP4",
+        "WP5"
+       ],
+       "file": "rendicontazione/HUMAN_SEAL/timesheet/Timesheet_HUMAN_SEAL_chiara_2028-02_M18.docx"
+      },
+      {
+       "m": 19,
+       "mese": "2028-03",
+       "ore": 28,
+       "wp": [
+        "WP4",
+        "WP5"
+       ],
+       "file": "rendicontazione/HUMAN_SEAL/timesheet/Timesheet_HUMAN_SEAL_chiara_2028-03_M19.docx"
+      },
+      {
+       "m": 20,
+       "mese": "2028-04",
+       "ore": 28,
+       "wp": [
+        "WP4",
+        "WP5"
+       ],
+       "file": "rendicontazione/HUMAN_SEAL/timesheet/Timesheet_HUMAN_SEAL_chiara_2028-04_M20.docx"
+      },
+      {
+       "m": 21,
+       "mese": "2028-05",
+       "ore": 28,
+       "wp": [
+        "WP4",
+        "WP5"
+       ],
+       "file": "rendicontazione/HUMAN_SEAL/timesheet/Timesheet_HUMAN_SEAL_chiara_2028-05_M21.docx"
+      },
+      {
+       "m": 22,
+       "mese": "2028-06",
+       "ore": 28,
+       "wp": [
+        "WP4",
+        "WP5"
+       ],
+       "file": "rendicontazione/HUMAN_SEAL/timesheet/Timesheet_HUMAN_SEAL_chiara_2028-06_M22.docx"
+      },
+      {
+       "m": 23,
+       "mese": "2028-07",
+       "ore": 28,
+       "wp": [
+        "WP4",
+        "WP5"
+       ],
+       "file": "rendicontazione/HUMAN_SEAL/timesheet/Timesheet_HUMAN_SEAL_chiara_2028-07_M23.docx"
+      },
+      {
+       "m": 24,
+       "mese": "2028-08",
+       "ore": 28,
+       "wp": [
+        "WP4",
+        "WP5"
+       ],
+       "file": "rendicontazione/HUMAN_SEAL/timesheet/Timesheet_HUMAN_SEAL_chiara_2028-08_M24.docx"
+      }
+     ]
+    },
+    {
+     "id": "lucia",
+     "nome": "Lucia Ciampi",
+     "tipo": "effettivo",
+     "orario": 14.79,
+     "fonte": "prospetto ore-uomo",
+     "ore_totali": 190,
+     "lettera": "rendicontazione/HUMAN_SEAL/lettere/Lettera_incarico_HUMAN_SEAL_lucia.docx",
+     "mesi": [
+      {
+       "m": 1,
+       "mese": "2026-09",
+       "ore": 5,
+       "wp": [
+        "WP2"
+       ],
+       "file": "rendicontazione/HUMAN_SEAL/timesheet/Timesheet_HUMAN_SEAL_lucia_2026-09_M01.docx"
+      },
+      {
+       "m": 2,
+       "mese": "2026-10",
+       "ore": 5,
+       "wp": [
+        "WP2"
+       ],
+       "file": "rendicontazione/HUMAN_SEAL/timesheet/Timesheet_HUMAN_SEAL_lucia_2026-10_M02.docx"
+      },
+      {
+       "m": 3,
+       "mese": "2026-11",
+       "ore": 5,
+       "wp": [
+        "WP2"
+       ],
+       "file": "rendicontazione/HUMAN_SEAL/timesheet/Timesheet_HUMAN_SEAL_lucia_2026-11_M03.docx"
+      },
+      {
+       "m": 4,
+       "mese": "2026-12",
+       "ore": 5,
+       "wp": [
+        "WP2"
+       ],
+       "file": "rendicontazione/HUMAN_SEAL/timesheet/Timesheet_HUMAN_SEAL_lucia_2026-12_M04.docx"
+      },
+      {
+       "m": 5,
+       "mese": "2027-01",
+       "ore": 5,
+       "wp": [
+        "WP2"
+       ],
+       "file": "rendicontazione/HUMAN_SEAL/timesheet/Timesheet_HUMAN_SEAL_lucia_2027-01_M05.docx"
+      },
+      {
+       "m": 6,
+       "mese": "2027-02",
+       "ore": 14,
+       "wp": [
+        "WP2",
+        "WP4",
+        "WP5"
+       ],
+       "file": "rendicontazione/HUMAN_SEAL/timesheet/Timesheet_HUMAN_SEAL_lucia_2027-02_M06.docx"
+      },
+      {
+       "m": 7,
+       "mese": "2027-03",
+       "ore": 14,
+       "wp": [
+        "WP2",
+        "WP4",
+        "WP5"
+       ],
+       "file": "rendicontazione/HUMAN_SEAL/timesheet/Timesheet_HUMAN_SEAL_lucia_2027-03_M07.docx"
+      },
+      {
+       "m": 8,
+       "mese": "2027-04",
+       "ore": 13,
+       "wp": [
+        "WP2",
+        "WP4",
+        "WP5"
+       ],
+       "file": "rendicontazione/HUMAN_SEAL/timesheet/Timesheet_HUMAN_SEAL_lucia_2027-04_M08.docx"
+      },
+      {
+       "m": 9,
+       "mese": "2027-05",
+       "ore": 13,
+       "wp": [
+        "WP2",
+        "WP4",
+        "WP5"
+       ],
+       "file": "rendicontazione/HUMAN_SEAL/timesheet/Timesheet_HUMAN_SEAL_lucia_2027-05_M09.docx"
+      },
+      {
+       "m": 10,
+       "mese": "2027-06",
+       "ore": 13,
+       "wp": [
+        "WP2",
+        "WP4",
+        "WP5"
+       ],
+       "file": "rendicontazione/HUMAN_SEAL/timesheet/Timesheet_HUMAN_SEAL_lucia_2027-06_M10.docx"
+      },
+      {
+       "m": 11,
+       "mese": "2027-07",
+       "ore": 7,
+       "wp": [
+        "WP4",
+        "WP5"
+       ],
+       "file": "rendicontazione/HUMAN_SEAL/timesheet/Timesheet_HUMAN_SEAL_lucia_2027-07_M11.docx"
+      },
+      {
+       "m": 12,
+       "mese": "2027-08",
+       "ore": 7,
+       "wp": [
+        "WP4",
+        "WP5"
+       ],
+       "file": "rendicontazione/HUMAN_SEAL/timesheet/Timesheet_HUMAN_SEAL_lucia_2027-08_M12.docx"
+      },
+      {
+       "m": 13,
+       "mese": "2027-09",
+       "ore": 7,
+       "wp": [
+        "WP4",
+        "WP5"
+       ],
+       "file": "rendicontazione/HUMAN_SEAL/timesheet/Timesheet_HUMAN_SEAL_lucia_2027-09_M13.docx"
+      },
+      {
+       "m": 14,
+       "mese": "2027-10",
+       "ore": 7,
+       "wp": [
+        "WP4",
+        "WP5"
+       ],
+       "file": "rendicontazione/HUMAN_SEAL/timesheet/Timesheet_HUMAN_SEAL_lucia_2027-10_M14.docx"
+      },
+      {
+       "m": 15,
+       "mese": "2027-11",
+       "ore": 7,
+       "wp": [
+        "WP4",
+        "WP5"
+       ],
+       "file": "rendicontazione/HUMAN_SEAL/timesheet/Timesheet_HUMAN_SEAL_lucia_2027-11_M15.docx"
+      },
+      {
+       "m": 16,
+       "mese": "2027-12",
+       "ore": 7,
+       "wp": [
+        "WP4",
+        "WP5"
+       ],
+       "file": "rendicontazione/HUMAN_SEAL/timesheet/Timesheet_HUMAN_SEAL_lucia_2027-12_M16.docx"
+      },
+      {
+       "m": 17,
+       "mese": "2028-01",
+       "ore": 7,
+       "wp": [
+        "WP4",
+        "WP5"
+       ],
+       "file": "rendicontazione/HUMAN_SEAL/timesheet/Timesheet_HUMAN_SEAL_lucia_2028-01_M17.docx"
+      },
+      {
+       "m": 18,
+       "mese": "2028-02",
+       "ore": 7,
+       "wp": [
+        "WP4",
+        "WP5"
+       ],
+       "file": "rendicontazione/HUMAN_SEAL/timesheet/Timesheet_HUMAN_SEAL_lucia_2028-02_M18.docx"
+      },
+      {
+       "m": 19,
+       "mese": "2028-03",
+       "ore": 7,
+       "wp": [
+        "WP4",
+        "WP5"
+       ],
+       "file": "rendicontazione/HUMAN_SEAL/timesheet/Timesheet_HUMAN_SEAL_lucia_2028-03_M19.docx"
+      },
+      {
+       "m": 20,
+       "mese": "2028-04",
+       "ore": 7,
+       "wp": [
+        "WP4",
+        "WP5"
+       ],
+       "file": "rendicontazione/HUMAN_SEAL/timesheet/Timesheet_HUMAN_SEAL_lucia_2028-04_M20.docx"
+      },
+      {
+       "m": 21,
+       "mese": "2028-05",
+       "ore": 7,
+       "wp": [
+        "WP4",
+        "WP5"
+       ],
+       "file": "rendicontazione/HUMAN_SEAL/timesheet/Timesheet_HUMAN_SEAL_lucia_2028-05_M21.docx"
+      },
+      {
+       "m": 22,
+       "mese": "2028-06",
+       "ore": 7,
+       "wp": [
+        "WP4",
+        "WP5"
+       ],
+       "file": "rendicontazione/HUMAN_SEAL/timesheet/Timesheet_HUMAN_SEAL_lucia_2028-06_M22.docx"
+      },
+      {
+       "m": 23,
+       "mese": "2028-07",
+       "ore": 7,
+       "wp": [
+        "WP4",
+        "WP5"
+       ],
+       "file": "rendicontazione/HUMAN_SEAL/timesheet/Timesheet_HUMAN_SEAL_lucia_2028-07_M23.docx"
+      },
+      {
+       "m": 24,
+       "mese": "2028-08",
+       "ore": 7,
+       "wp": [
+        "WP4",
+        "WP5"
+       ],
+       "file": "rendicontazione/HUMAN_SEAL/timesheet/Timesheet_HUMAN_SEAL_lucia_2028-08_M24.docx"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "SPACE_AI",
+   "persone": [
+    {
+     "id": "claudia",
+     "nome": "Claudia Abatecola",
+     "tipo": "tq",
+     "orario": 34.7,
+     "fonte": "prospetto ore-uomo",
+     "ore_totali": 600,
+     "lettera": "rendicontazione/SPACE_AI/lettere/Lettera_incarico_SPACE_AI_claudia.docx",
+     "mesi": [
+      {
+       "m": 1,
+       "mese": "2026-10",
+       "ore": 7,
+       "wp": [
+        "WP1"
+       ],
+       "file": "rendicontazione/SPACE_AI/timesheet/Timesheet_SPACE_AI_claudia_2026-10_M01.docx"
+      },
+      {
+       "m": 2,
+       "mese": "2026-11",
+       "ore": 7,
+       "wp": [
+        "WP1"
+       ],
+       "file": "rendicontazione/SPACE_AI/timesheet/Timesheet_SPACE_AI_claudia_2026-11_M02.docx"
+      },
+      {
+       "m": 3,
+       "mese": "2026-12",
+       "ore": 29,
+       "wp": [
+        "WP1",
+        "WP2",
+        "WP7"
+       ],
+       "file": "rendicontazione/SPACE_AI/timesheet/Timesheet_SPACE_AI_claudia_2026-12_M03.docx"
+      },
+      {
+       "m": 4,
+       "mese": "2027-01",
+       "ore": 29,
+       "wp": [
+        "WP1",
+        "WP2",
+        "WP7"
+       ],
+       "file": "rendicontazione/SPACE_AI/timesheet/Timesheet_SPACE_AI_claudia_2027-01_M04.docx"
+      },
+      {
+       "m": 5,
+       "mese": "2027-02",
+       "ore": 28,
+       "wp": [
+        "WP1",
+        "WP2",
+        "WP7"
+       ],
+       "file": "rendicontazione/SPACE_AI/timesheet/Timesheet_SPACE_AI_claudia_2027-02_M05.docx"
+      },
+      {
+       "m": 6,
+       "mese": "2027-03",
+       "ore": 28,
+       "wp": [
+        "WP1",
+        "WP2",
+        "WP7"
+       ],
+       "file": "rendicontazione/SPACE_AI/timesheet/Timesheet_SPACE_AI_claudia_2027-03_M06.docx"
+      },
+      {
+       "m": 7,
+       "mese": "2027-04",
+       "ore": 40,
+       "wp": [
+        "WP1",
+        "WP2",
+        "WP3",
+        "WP7"
+       ],
+       "file": "rendicontazione/SPACE_AI/timesheet/Timesheet_SPACE_AI_claudia_2027-04_M07.docx"
+      },
+      {
+       "m": 8,
+       "mese": "2027-05",
+       "ore": 40,
+       "wp": [
+        "WP1",
+        "WP2",
+        "WP3",
+        "WP7"
+       ],
+       "file": "rendicontazione/SPACE_AI/timesheet/Timesheet_SPACE_AI_claudia_2027-05_M08.docx"
+      },
+      {
+       "m": 9,
+       "mese": "2027-06",
+       "ore": 39,
+       "wp": [
+        "WP1",
+        "WP2",
+        "WP3",
+        "WP7"
+       ],
+       "file": "rendicontazione/SPACE_AI/timesheet/Timesheet_SPACE_AI_claudia_2027-06_M09.docx"
+      },
+      {
+       "m": 10,
+       "mese": "2027-07",
+       "ore": 25,
+       "wp": [
+        "WP1",
+        "WP3",
+        "WP4",
+        "WP7"
+       ],
+       "file": "rendicontazione/SPACE_AI/timesheet/Timesheet_SPACE_AI_claudia_2027-07_M10.docx"
+      },
+      {
+       "m": 11,
+       "mese": "2027-08",
+       "ore": 25,
+       "wp": [
+        "WP1",
+        "WP3",
+        "WP4",
+        "WP7"
+       ],
+       "file": "rendicontazione/SPACE_AI/timesheet/Timesheet_SPACE_AI_claudia_2027-08_M11.docx"
+      },
+      {
+       "m": 12,
+       "mese": "2027-09",
+       "ore": 25,
+       "wp": [
+        "WP1",
+        "WP3",
+        "WP4",
+        "WP7"
+       ],
+       "file": "rendicontazione/SPACE_AI/timesheet/Timesheet_SPACE_AI_claudia_2027-09_M12.docx"
+      },
+      {
+       "m": 13,
+       "mese": "2027-10",
+       "ore": 25,
+       "wp": [
+        "WP1",
+        "WP3",
+        "WP4",
+        "WP7"
+       ],
+       "file": "rendicontazione/SPACE_AI/timesheet/Timesheet_SPACE_AI_claudia_2027-10_M13.docx"
+      },
+      {
+       "m": 14,
+       "mese": "2027-11",
+       "ore": 25,
+       "wp": [
+        "WP1",
+        "WP3",
+        "WP4",
+        "WP7"
+       ],
+       "file": "rendicontazione/SPACE_AI/timesheet/Timesheet_SPACE_AI_claudia_2027-11_M14.docx"
+      },
+      {
+       "m": 15,
+       "mese": "2027-12",
+       "ore": 24,
+       "wp": [
+        "WP1",
+        "WP3",
+        "WP4",
+        "WP7"
+       ],
+       "file": "rendicontazione/SPACE_AI/timesheet/Timesheet_SPACE_AI_claudia_2027-12_M15.docx"
+      },
+      {
+       "m": 16,
+       "mese": "2028-01",
+       "ore": 22,
+       "wp": [
+        "WP1",
+        "WP4",
+        "WP5",
+        "WP7"
+       ],
+       "file": "rendicontazione/SPACE_AI/timesheet/Timesheet_SPACE_AI_claudia_2028-01_M16.docx"
+      },
+      {
+       "m": 17,
+       "mese": "2028-02",
+       "ore": 22,
+       "wp": [
+        "WP1",
+        "WP4",
+        "WP5",
+        "WP7"
+       ],
+       "file": "rendicontazione/SPACE_AI/timesheet/Timesheet_SPACE_AI_claudia_2028-02_M17.docx"
+      },
+      {
+       "m": 18,
+       "mese": "2028-03",
+       "ore": 22,
+       "wp": [
+        "WP1",
+        "WP4",
+        "WP5",
+        "WP7"
+       ],
+       "file": "rendicontazione/SPACE_AI/timesheet/Timesheet_SPACE_AI_claudia_2028-03_M18.docx"
+      },
+      {
+       "m": 19,
+       "mese": "2028-04",
+       "ore": 22,
+       "wp": [
+        "WP1",
+        "WP4",
+        "WP5",
+        "WP7"
+       ],
+       "file": "rendicontazione/SPACE_AI/timesheet/Timesheet_SPACE_AI_claudia_2028-04_M19.docx"
+      },
+      {
+       "m": 20,
+       "mese": "2028-05",
+       "ore": 22,
+       "wp": [
+        "WP1",
+        "WP4",
+        "WP5",
+        "WP7"
+       ],
+       "file": "rendicontazione/SPACE_AI/timesheet/Timesheet_SPACE_AI_claudia_2028-05_M20.docx"
+      },
+      {
+       "m": 21,
+       "mese": "2028-06",
+       "ore": 29,
+       "wp": [
+        "WP1",
+        "WP5",
+        "WP6"
+       ],
+       "file": "rendicontazione/SPACE_AI/timesheet/Timesheet_SPACE_AI_claudia_2028-06_M21.docx"
+      },
+      {
+       "m": 22,
+       "mese": "2028-07",
+       "ore": 29,
+       "wp": [
+        "WP1",
+        "WP5",
+        "WP6"
+       ],
+       "file": "rendicontazione/SPACE_AI/timesheet/Timesheet_SPACE_AI_claudia_2028-07_M22.docx"
+      },
+      {
+       "m": 23,
+       "mese": "2028-08",
+       "ore": 18,
+       "wp": [
+        "WP1",
+        "WP6"
+       ],
+       "file": "rendicontazione/SPACE_AI/timesheet/Timesheet_SPACE_AI_claudia_2028-08_M23.docx"
+      },
+      {
+       "m": 24,
+       "mese": "2028-09",
+       "ore": 18,
+       "wp": [
+        "WP1",
+        "WP6"
+       ],
+       "file": "rendicontazione/SPACE_AI/timesheet/Timesheet_SPACE_AI_claudia_2028-09_M24.docx"
+      }
+     ]
+    },
+    {
+     "id": "chiara",
+     "nome": "Chiara Mirabella",
+     "tipo": "standard",
+     "orario": 30.0,
+     "fonte": "prospetto ore-uomo",
+     "ore_totali": 380,
+     "lettera": "rendicontazione/SPACE_AI/lettere/Lettera_incarico_SPACE_AI_chiara.docx",
+     "mesi": [
+      {
+       "m": 1,
+       "mese": "2026-10",
+       "ore": 0,
+       "wp": [],
+       "file": "rendicontazione/SPACE_AI/timesheet/Timesheet_SPACE_AI_chiara_2026-10_M01.docx"
+      },
+      {
+       "m": 2,
+       "mese": "2026-11",
+       "ore": 0,
+       "wp": [],
+       "file": "rendicontazione/SPACE_AI/timesheet/Timesheet_SPACE_AI_chiara_2026-11_M02.docx"
+      },
+      {
+       "m": 3,
+       "mese": "2026-12",
+       "ore": 20,
+       "wp": [
+        "WP2",
+        "WP7"
+       ],
+       "file": "rendicontazione/SPACE_AI/timesheet/Timesheet_SPACE_AI_chiara_2026-12_M03.docx"
+      },
+      {
+       "m": 4,
+       "mese": "2027-01",
+       "ore": 19,
+       "wp": [
+        "WP2",
+        "WP7"
+       ],
+       "file": "rendicontazione/SPACE_AI/timesheet/Timesheet_SPACE_AI_chiara_2027-01_M04.docx"
+      },
+      {
+       "m": 5,
+       "mese": "2027-02",
+       "ore": 18,
+       "wp": [
+        "WP2",
+        "WP7"
+       ],
+       "file": "rendicontazione/SPACE_AI/timesheet/Timesheet_SPACE_AI_chiara_2027-02_M05.docx"
+      },
+      {
+       "m": 6,
+       "mese": "2027-03",
+       "ore": 18,
+       "wp": [
+        "WP2",
+        "WP7"
+       ],
+       "file": "rendicontazione/SPACE_AI/timesheet/Timesheet_SPACE_AI_chiara_2027-03_M06.docx"
+      },
+      {
+       "m": 7,
+       "mese": "2027-04",
+       "ore": 25,
+       "wp": [
+        "WP2",
+        "WP3",
+        "WP7"
+       ],
+       "file": "rendicontazione/SPACE_AI/timesheet/Timesheet_SPACE_AI_chiara_2027-04_M07.docx"
+      },
+      {
+       "m": 8,
+       "mese": "2027-05",
+       "ore": 25,
+       "wp": [
+        "WP2",
+        "WP3",
+        "WP7"
+       ],
+       "file": "rendicontazione/SPACE_AI/timesheet/Timesheet_SPACE_AI_chiara_2027-05_M08.docx"
+      },
+      {
+       "m": 9,
+       "mese": "2027-06",
+       "ore": 25,
+       "wp": [
+        "WP2",
+        "WP3",
+        "WP7"
+       ],
+       "file": "rendicontazione/SPACE_AI/timesheet/Timesheet_SPACE_AI_chiara_2027-06_M09.docx"
+      },
+      {
+       "m": 10,
+       "mese": "2027-07",
+       "ore": 14,
+       "wp": [
+        "WP3",
+        "WP4",
+        "WP7"
+       ],
+       "file": "rendicontazione/SPACE_AI/timesheet/Timesheet_SPACE_AI_chiara_2027-07_M10.docx"
+      },
+      {
+       "m": 11,
+       "mese": "2027-08",
+       "ore": 14,
+       "wp": [
+        "WP3",
+        "WP4",
+        "WP7"
+       ],
+       "file": "rendicontazione/SPACE_AI/timesheet/Timesheet_SPACE_AI_chiara_2027-08_M11.docx"
+      },
+      {
+       "m": 12,
+       "mese": "2027-09",
+       "ore": 14,
+       "wp": [
+        "WP3",
+        "WP4",
+        "WP7"
+       ],
+       "file": "rendicontazione/SPACE_AI/timesheet/Timesheet_SPACE_AI_chiara_2027-09_M12.docx"
+      },
+      {
+       "m": 13,
+       "mese": "2027-10",
+       "ore": 13,
+       "wp": [
+        "WP3",
+        "WP4",
+        "WP7"
+       ],
+       "file": "rendicontazione/SPACE_AI/timesheet/Timesheet_SPACE_AI_chiara_2027-10_M13.docx"
+      },
+      {
+       "m": 14,
+       "mese": "2027-11",
+       "ore": 13,
+       "wp": [
+        "WP3",
+        "WP4",
+        "WP7"
+       ],
+       "file": "rendicontazione/SPACE_AI/timesheet/Timesheet_SPACE_AI_chiara_2027-11_M14.docx"
+      },
+      {
+       "m": 15,
+       "mese": "2027-12",
+       "ore": 12,
+       "wp": [
+        "WP3",
+        "WP4",
+        "WP7"
+       ],
+       "file": "rendicontazione/SPACE_AI/timesheet/Timesheet_SPACE_AI_chiara_2027-12_M15.docx"
+      },
+      {
+       "m": 16,
+       "mese": "2028-01",
+       "ore": 16,
+       "wp": [
+        "WP4",
+        "WP5",
+        "WP7"
+       ],
+       "file": "rendicontazione/SPACE_AI/timesheet/Timesheet_SPACE_AI_chiara_2028-01_M16.docx"
+      },
+      {
+       "m": 17,
+       "mese": "2028-02",
+       "ore": 16,
+       "wp": [
+        "WP4",
+        "WP5",
+        "WP7"
+       ],
+       "file": "rendicontazione/SPACE_AI/timesheet/Timesheet_SPACE_AI_chiara_2028-02_M17.docx"
+      },
+      {
+       "m": 18,
+       "mese": "2028-03",
+       "ore": 16,
+       "wp": [
+        "WP4",
+        "WP5",
+        "WP7"
+       ],
+       "file": "rendicontazione/SPACE_AI/timesheet/Timesheet_SPACE_AI_chiara_2028-03_M18.docx"
+      },
+      {
+       "m": 19,
+       "mese": "2028-04",
+       "ore": 16,
+       "wp": [
+        "WP4",
+        "WP5",
+        "WP7"
+       ],
+       "file": "rendicontazione/SPACE_AI/timesheet/Timesheet_SPACE_AI_chiara_2028-04_M19.docx"
+      },
+      {
+       "m": 20,
+       "mese": "2028-05",
+       "ore": 16,
+       "wp": [
+        "WP4",
+        "WP5",
+        "WP7"
+       ],
+       "file": "rendicontazione/SPACE_AI/timesheet/Timesheet_SPACE_AI_chiara_2028-05_M20.docx"
+      },
+      {
+       "m": 21,
+       "mese": "2028-06",
+       "ore": 23,
+       "wp": [
+        "WP5",
+        "WP6"
+       ],
+       "file": "rendicontazione/SPACE_AI/timesheet/Timesheet_SPACE_AI_chiara_2028-06_M21.docx"
+      },
+      {
+       "m": 22,
+       "mese": "2028-07",
+       "ore": 23,
+       "wp": [
+        "WP5",
+        "WP6"
+       ],
+       "file": "rendicontazione/SPACE_AI/timesheet/Timesheet_SPACE_AI_chiara_2028-07_M22.docx"
+      },
+      {
+       "m": 23,
+       "mese": "2028-08",
+       "ore": 12,
+       "wp": [
+        "WP6"
+       ],
+       "file": "rendicontazione/SPACE_AI/timesheet/Timesheet_SPACE_AI_chiara_2028-08_M23.docx"
+      },
+      {
+       "m": 24,
+       "mese": "2028-09",
+       "ore": 12,
+       "wp": [
+        "WP6"
+       ],
+       "file": "rendicontazione/SPACE_AI/timesheet/Timesheet_SPACE_AI_chiara_2028-09_M24.docx"
+      }
+     ]
+    },
+    {
+     "id": "lucia",
+     "nome": "Lucia Ciampi",
+     "tipo": "effettivo",
+     "orario": 14.79,
+     "fonte": "prospetto ore-uomo",
+     "ore_totali": 380,
+     "lettera": "rendicontazione/SPACE_AI/lettere/Lettera_incarico_SPACE_AI_lucia.docx",
+     "mesi": [
+      {
+       "m": 1,
+       "mese": "2026-10",
+       "ore": 0,
+       "wp": [],
+       "file": "rendicontazione/SPACE_AI/timesheet/Timesheet_SPACE_AI_lucia_2026-10_M01.docx"
+      },
+      {
+       "m": 2,
+       "mese": "2026-11",
+       "ore": 0,
+       "wp": [],
+       "file": "rendicontazione/SPACE_AI/timesheet/Timesheet_SPACE_AI_lucia_2026-11_M02.docx"
+      },
+      {
+       "m": 3,
+       "mese": "2026-12",
+       "ore": 20,
+       "wp": [
+        "WP2",
+        "WP7"
+       ],
+       "file": "rendicontazione/SPACE_AI/timesheet/Timesheet_SPACE_AI_lucia_2026-12_M03.docx"
+      },
+      {
+       "m": 4,
+       "mese": "2027-01",
+       "ore": 19,
+       "wp": [
+        "WP2",
+        "WP7"
+       ],
+       "file": "rendicontazione/SPACE_AI/timesheet/Timesheet_SPACE_AI_lucia_2027-01_M04.docx"
+      },
+      {
+       "m": 5,
+       "mese": "2027-02",
+       "ore": 18,
+       "wp": [
+        "WP2",
+        "WP7"
+       ],
+       "file": "rendicontazione/SPACE_AI/timesheet/Timesheet_SPACE_AI_lucia_2027-02_M05.docx"
+      },
+      {
+       "m": 6,
+       "mese": "2027-03",
+       "ore": 18,
+       "wp": [
+        "WP2",
+        "WP7"
+       ],
+       "file": "rendicontazione/SPACE_AI/timesheet/Timesheet_SPACE_AI_lucia_2027-03_M06.docx"
+      },
+      {
+       "m": 7,
+       "mese": "2027-04",
+       "ore": 27,
+       "wp": [
+        "WP2",
+        "WP3",
+        "WP7"
+       ],
+       "file": "rendicontazione/SPACE_AI/timesheet/Timesheet_SPACE_AI_lucia_2027-04_M07.docx"
+      },
+      {
+       "m": 8,
+       "mese": "2027-05",
+       "ore": 27,
+       "wp": [
+        "WP2",
+        "WP3",
+        "WP7"
+       ],
+       "file": "rendicontazione/SPACE_AI/timesheet/Timesheet_SPACE_AI_lucia_2027-05_M08.docx"
+      },
+      {
+       "m": 9,
+       "mese": "2027-06",
+       "ore": 27,
+       "wp": [
+        "WP2",
+        "WP3",
+        "WP7"
+       ],
+       "file": "rendicontazione/SPACE_AI/timesheet/Timesheet_SPACE_AI_lucia_2027-06_M09.docx"
+      },
+      {
+       "m": 10,
+       "mese": "2027-07",
+       "ore": 18,
+       "wp": [
+        "WP3",
+        "WP4",
+        "WP7"
+       ],
+       "file": "rendicontazione/SPACE_AI/timesheet/Timesheet_SPACE_AI_lucia_2027-07_M10.docx"
+      },
+      {
+       "m": 11,
+       "mese": "2027-08",
+       "ore": 18,
+       "wp": [
+        "WP3",
+        "WP4",
+        "WP7"
+       ],
+       "file": "rendicontazione/SPACE_AI/timesheet/Timesheet_SPACE_AI_lucia_2027-08_M11.docx"
+      },
+      {
+       "m": 12,
+       "mese": "2027-09",
+       "ore": 18,
+       "wp": [
+        "WP3",
+        "WP4",
+        "WP7"
+       ],
+       "file": "rendicontazione/SPACE_AI/timesheet/Timesheet_SPACE_AI_lucia_2027-09_M12.docx"
+      },
+      {
+       "m": 13,
+       "mese": "2027-10",
+       "ore": 17,
+       "wp": [
+        "WP3",
+        "WP4",
+        "WP7"
+       ],
+       "file": "rendicontazione/SPACE_AI/timesheet/Timesheet_SPACE_AI_lucia_2027-10_M13.docx"
+      },
+      {
+       "m": 14,
+       "mese": "2027-11",
+       "ore": 17,
+       "wp": [
+        "WP3",
+        "WP4",
+        "WP7"
+       ],
+       "file": "rendicontazione/SPACE_AI/timesheet/Timesheet_SPACE_AI_lucia_2027-11_M14.docx"
+      },
+      {
+       "m": 15,
+       "mese": "2027-12",
+       "ore": 16,
+       "wp": [
+        "WP3",
+        "WP4",
+        "WP7"
+       ],
+       "file": "rendicontazione/SPACE_AI/timesheet/Timesheet_SPACE_AI_lucia_2027-12_M15.docx"
+      },
+      {
+       "m": 16,
+       "mese": "2028-01",
+       "ore": 17,
+       "wp": [
+        "WP4",
+        "WP5",
+        "WP7"
+       ],
+       "file": "rendicontazione/SPACE_AI/timesheet/Timesheet_SPACE_AI_lucia_2028-01_M16.docx"
+      },
+      {
+       "m": 17,
+       "mese": "2028-02",
+       "ore": 17,
+       "wp": [
+        "WP4",
+        "WP5",
+        "WP7"
+       ],
+       "file": "rendicontazione/SPACE_AI/timesheet/Timesheet_SPACE_AI_lucia_2028-02_M17.docx"
+      },
+      {
+       "m": 18,
+       "mese": "2028-03",
+       "ore": 17,
+       "wp": [
+        "WP4",
+        "WP5",
+        "WP7"
+       ],
+       "file": "rendicontazione/SPACE_AI/timesheet/Timesheet_SPACE_AI_lucia_2028-03_M18.docx"
+      },
+      {
+       "m": 19,
+       "mese": "2028-04",
+       "ore": 17,
+       "wp": [
+        "WP4",
+        "WP5",
+        "WP7"
+       ],
+       "file": "rendicontazione/SPACE_AI/timesheet/Timesheet_SPACE_AI_lucia_2028-04_M19.docx"
+      },
+      {
+       "m": 20,
+       "mese": "2028-05",
+       "ore": 16,
+       "wp": [
+        "WP4",
+        "WP5",
+        "WP7"
+       ],
+       "file": "rendicontazione/SPACE_AI/timesheet/Timesheet_SPACE_AI_lucia_2028-05_M20.docx"
+      },
+      {
+       "m": 21,
+       "mese": "2028-06",
+       "ore": 13,
+       "wp": [
+        "WP5",
+        "WP6"
+       ],
+       "file": "rendicontazione/SPACE_AI/timesheet/Timesheet_SPACE_AI_lucia_2028-06_M21.docx"
+      },
+      {
+       "m": 22,
+       "mese": "2028-07",
+       "ore": 13,
+       "wp": [
+        "WP5",
+        "WP6"
+       ],
+       "file": "rendicontazione/SPACE_AI/timesheet/Timesheet_SPACE_AI_lucia_2028-07_M22.docx"
+      },
+      {
+       "m": 23,
+       "mese": "2028-08",
+       "ore": 5,
+       "wp": [
+        "WP6"
+       ],
+       "file": "rendicontazione/SPACE_AI/timesheet/Timesheet_SPACE_AI_lucia_2028-08_M23.docx"
+      },
+      {
+       "m": 24,
+       "mese": "2028-09",
+       "ore": 5,
+       "wp": [
+        "WP6"
+       ],
+       "file": "rendicontazione/SPACE_AI/timesheet/Timesheet_SPACE_AI_lucia_2028-09_M24.docx"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "PRONTI_VIA",
+   "persone": [
+    {
+     "id": "claudia",
+     "nome": "Claudia Abatecola",
+     "tipo": "tq",
+     "orario": 34.7,
+     "fonte": "stima dal profilo dei WP (ore della persona distribuite come le ore NOREMA nel progetto)",
+     "ore_totali": 2112,
+     "lettera": "rendicontazione/PRONTI_VIA/lettere/Lettera_incarico_PRONTI_VIA_claudia.docx",
+     "mesi": [
+      {
+       "m": 1,
+       "mese": "2026-10",
+       "ore": 25,
+       "wp": [
+        "WP1",
+        "WP2",
+        "WP3"
+       ],
+       "file": "rendicontazione/PRONTI_VIA/timesheet/Timesheet_PRONTI_VIA_claudia_2026-10_M01.docx"
+      },
+      {
+       "m": 2,
+       "mese": "2026-11",
+       "ore": 25,
+       "wp": [
+        "WP1",
+        "WP2",
+        "WP3"
+       ],
+       "file": "rendicontazione/PRONTI_VIA/timesheet/Timesheet_PRONTI_VIA_claudia_2026-11_M02.docx"
+      },
+      {
+       "m": 3,
+       "mese": "2026-12",
+       "ore": 25,
+       "wp": [
+        "WP1",
+        "WP2",
+        "WP3"
+       ],
+       "file": "rendicontazione/PRONTI_VIA/timesheet/Timesheet_PRONTI_VIA_claudia_2026-12_M03.docx"
+      },
+      {
+       "m": 4,
+       "mese": "2027-01",
+       "ore": 25,
+       "wp": [
+        "WP1",
+        "WP2",
+        "WP3"
+       ],
+       "file": "rendicontazione/PRONTI_VIA/timesheet/Timesheet_PRONTI_VIA_claudia_2027-01_M04.docx"
+      },
+      {
+       "m": 5,
+       "mese": "2027-02",
+       "ore": 25,
+       "wp": [
+        "WP1",
+        "WP2",
+        "WP3"
+       ],
+       "file": "rendicontazione/PRONTI_VIA/timesheet/Timesheet_PRONTI_VIA_claudia_2027-02_M05.docx"
+      },
+      {
+       "m": 6,
+       "mese": "2027-03",
+       "ore": 84,
+       "wp": [
+        "WP1",
+        "WP2",
+        "WP3",
+        "WP6"
+       ],
+       "file": "rendicontazione/PRONTI_VIA/timesheet/Timesheet_PRONTI_VIA_claudia_2027-03_M06.docx"
+      },
+      {
+       "m": 7,
+       "mese": "2027-04",
+       "ore": 84,
+       "wp": [
+        "WP1",
+        "WP2",
+        "WP3",
+        "WP6"
+       ],
+       "file": "rendicontazione/PRONTI_VIA/timesheet/Timesheet_PRONTI_VIA_claudia_2027-04_M07.docx"
+      },
+      {
+       "m": 8,
+       "mese": "2027-05",
+       "ore": 106,
+       "wp": [
+        "WP1",
+        "WP2",
+        "WP3",
+        "WP4",
+        "WP6"
+       ],
+       "file": "rendicontazione/PRONTI_VIA/timesheet/Timesheet_PRONTI_VIA_claudia_2027-05_M08.docx"
+      },
+      {
+       "m": 9,
+       "mese": "2027-06",
+       "ore": 105,
+       "wp": [
+        "WP1",
+        "WP2",
+        "WP3",
+        "WP4",
+        "WP6"
+       ],
+       "file": "rendicontazione/PRONTI_VIA/timesheet/Timesheet_PRONTI_VIA_claudia_2027-06_M09.docx"
+      },
+      {
+       "m": 10,
+       "mese": "2027-07",
+       "ore": 105,
+       "wp": [
+        "WP1",
+        "WP2",
+        "WP3",
+        "WP4",
+        "WP6"
+       ],
+       "file": "rendicontazione/PRONTI_VIA/timesheet/Timesheet_PRONTI_VIA_claudia_2027-07_M10.docx"
+      },
+      {
+       "m": 11,
+       "mese": "2027-08",
+       "ore": 98,
+       "wp": [
+        "WP1",
+        "WP3",
+        "WP4",
+        "WP6"
+       ],
+       "file": "rendicontazione/PRONTI_VIA/timesheet/Timesheet_PRONTI_VIA_claudia_2027-08_M11.docx"
+      },
+      {
+       "m": 12,
+       "mese": "2027-09",
+       "ore": 98,
+       "wp": [
+        "WP1",
+        "WP3",
+        "WP4",
+        "WP6"
+       ],
+       "file": "rendicontazione/PRONTI_VIA/timesheet/Timesheet_PRONTI_VIA_claudia_2027-09_M12.docx"
+      },
+      {
+       "m": 13,
+       "mese": "2027-10",
+       "ore": 98,
+       "wp": [
+        "WP1",
+        "WP3",
+        "WP4",
+        "WP6"
+       ],
+       "file": "rendicontazione/PRONTI_VIA/timesheet/Timesheet_PRONTI_VIA_claudia_2027-10_M13.docx"
+      },
+      {
+       "m": 14,
+       "mese": "2027-11",
+       "ore": 98,
+       "wp": [
+        "WP1",
+        "WP3",
+        "WP4",
+        "WP6"
+       ],
+       "file": "rendicontazione/PRONTI_VIA/timesheet/Timesheet_PRONTI_VIA_claudia_2027-11_M14.docx"
+      },
+      {
+       "m": 15,
+       "mese": "2027-12",
+       "ore": 98,
+       "wp": [
+        "WP1",
+        "WP3",
+        "WP4",
+        "WP6"
+       ],
+       "file": "rendicontazione/PRONTI_VIA/timesheet/Timesheet_PRONTI_VIA_claudia_2027-12_M15.docx"
+      },
+      {
+       "m": 16,
+       "mese": "2028-01",
+       "ore": 98,
+       "wp": [
+        "WP1",
+        "WP3",
+        "WP4",
+        "WP6"
+       ],
+       "file": "rendicontazione/PRONTI_VIA/timesheet/Timesheet_PRONTI_VIA_claudia_2028-01_M16.docx"
+      },
+      {
+       "m": 17,
+       "mese": "2028-02",
+       "ore": 83,
+       "wp": [
+        "WP1",
+        "WP4",
+        "WP6"
+       ],
+       "file": "rendicontazione/PRONTI_VIA/timesheet/Timesheet_PRONTI_VIA_claudia_2028-02_M17.docx"
+      },
+      {
+       "m": 18,
+       "mese": "2028-03",
+       "ore": 83,
+       "wp": [
+        "WP1",
+        "WP4",
+        "WP6"
+       ],
+       "file": "rendicontazione/PRONTI_VIA/timesheet/Timesheet_PRONTI_VIA_claudia_2028-03_M18.docx"
+      },
+      {
+       "m": 19,
+       "mese": "2028-04",
+       "ore": 83,
+       "wp": [
+        "WP1",
+        "WP4",
+        "WP6"
+       ],
+       "file": "rendicontazione/PRONTI_VIA/timesheet/Timesheet_PRONTI_VIA_claudia_2028-04_M19.docx"
+      },
+      {
+       "m": 20,
+       "mese": "2028-05",
+       "ore": 142,
+       "wp": [
+        "WP1",
+        "WP4",
+        "WP5",
+        "WP6"
+       ],
+       "file": "rendicontazione/PRONTI_VIA/timesheet/Timesheet_PRONTI_VIA_claudia_2028-05_M20.docx"
+      },
+      {
+       "m": 21,
+       "mese": "2028-06",
+       "ore": 142,
+       "wp": [
+        "WP1",
+        "WP4",
+        "WP5",
+        "WP6"
+       ],
+       "file": "rendicontazione/PRONTI_VIA/timesheet/Timesheet_PRONTI_VIA_claudia_2028-06_M21.docx"
+      },
+      {
+       "m": 22,
+       "mese": "2028-07",
+       "ore": 142,
+       "wp": [
+        "WP1",
+        "WP4",
+        "WP5",
+        "WP6"
+       ],
+       "file": "rendicontazione/PRONTI_VIA/timesheet/Timesheet_PRONTI_VIA_claudia_2028-07_M22.docx"
+      },
+      {
+       "m": 23,
+       "mese": "2028-08",
+       "ore": 120,
+       "wp": [
+        "WP1",
+        "WP5",
+        "WP6"
+       ],
+       "file": "rendicontazione/PRONTI_VIA/timesheet/Timesheet_PRONTI_VIA_claudia_2028-08_M23.docx"
+      },
+      {
+       "m": 24,
+       "mese": "2028-09",
+       "ore": 120,
+       "wp": [
+        "WP1",
+        "WP5",
+        "WP6"
+       ],
+       "file": "rendicontazione/PRONTI_VIA/timesheet/Timesheet_PRONTI_VIA_claudia_2028-09_M24.docx"
+      }
+     ]
+    },
+    {
+     "id": "chiara",
+     "nome": "Chiara Mirabella",
+     "tipo": "standard",
+     "orario": 30.0,
+     "fonte": "stima dal profilo dei WP (ore della persona distribuite come le ore NOREMA nel progetto)",
+     "ore_totali": 1408,
+     "lettera": "rendicontazione/PRONTI_VIA/lettere/Lettera_incarico_PRONTI_VIA_chiara.docx",
+     "mesi": [
+      {
+       "m": 1,
+       "mese": "2026-10",
+       "ore": 17,
+       "wp": [
+        "WP1",
+        "WP2",
+        "WP3"
+       ],
+       "file": "rendicontazione/PRONTI_VIA/timesheet/Timesheet_PRONTI_VIA_chiara_2026-10_M01.docx"
+      },
+      {
+       "m": 2,
+       "mese": "2026-11",
+       "ore": 17,
+       "wp": [
+        "WP1",
+        "WP2",
+        "WP3"
+       ],
+       "file": "rendicontazione/PRONTI_VIA/timesheet/Timesheet_PRONTI_VIA_chiara_2026-11_M02.docx"
+      },
+      {
+       "m": 3,
+       "mese": "2026-12",
+       "ore": 17,
+       "wp": [
+        "WP1",
+        "WP2",
+        "WP3"
+       ],
+       "file": "rendicontazione/PRONTI_VIA/timesheet/Timesheet_PRONTI_VIA_chiara_2026-12_M03.docx"
+      },
+      {
+       "m": 4,
+       "mese": "2027-01",
+       "ore": 16,
+       "wp": [
+        "WP1",
+        "WP2",
+        "WP3"
+       ],
+       "file": "rendicontazione/PRONTI_VIA/timesheet/Timesheet_PRONTI_VIA_chiara_2027-01_M04.docx"
+      },
+      {
+       "m": 5,
+       "mese": "2027-02",
+       "ore": 16,
+       "wp": [
+        "WP1",
+        "WP2",
+        "WP3"
+       ],
+       "file": "rendicontazione/PRONTI_VIA/timesheet/Timesheet_PRONTI_VIA_chiara_2027-02_M05.docx"
+      },
+      {
+       "m": 6,
+       "mese": "2027-03",
+       "ore": 56,
+       "wp": [
+        "WP1",
+        "WP2",
+        "WP3",
+        "WP6"
+       ],
+       "file": "rendicontazione/PRONTI_VIA/timesheet/Timesheet_PRONTI_VIA_chiara_2027-03_M06.docx"
+      },
+      {
+       "m": 7,
+       "mese": "2027-04",
+       "ore": 56,
+       "wp": [
+        "WP1",
+        "WP2",
+        "WP3",
+        "WP6"
+       ],
+       "file": "rendicontazione/PRONTI_VIA/timesheet/Timesheet_PRONTI_VIA_chiara_2027-04_M07.docx"
+      },
+      {
+       "m": 8,
+       "mese": "2027-05",
+       "ore": 70,
+       "wp": [
+        "WP1",
+        "WP2",
+        "WP3",
+        "WP4",
+        "WP6"
+       ],
+       "file": "rendicontazione/PRONTI_VIA/timesheet/Timesheet_PRONTI_VIA_chiara_2027-05_M08.docx"
+      },
+      {
+       "m": 9,
+       "mese": "2027-06",
+       "ore": 70,
+       "wp": [
+        "WP1",
+        "WP2",
+        "WP3",
+        "WP4",
+        "WP6"
+       ],
+       "file": "rendicontazione/PRONTI_VIA/timesheet/Timesheet_PRONTI_VIA_chiara_2027-06_M09.docx"
+      },
+      {
+       "m": 10,
+       "mese": "2027-07",
+       "ore": 70,
+       "wp": [
+        "WP1",
+        "WP2",
+        "WP3",
+        "WP4",
+        "WP6"
+       ],
+       "file": "rendicontazione/PRONTI_VIA/timesheet/Timesheet_PRONTI_VIA_chiara_2027-07_M10.docx"
+      },
+      {
+       "m": 11,
+       "mese": "2027-08",
+       "ore": 66,
+       "wp": [
+        "WP1",
+        "WP3",
+        "WP4",
+        "WP6"
+       ],
+       "file": "rendicontazione/PRONTI_VIA/timesheet/Timesheet_PRONTI_VIA_chiara_2027-08_M11.docx"
+      },
+      {
+       "m": 12,
+       "mese": "2027-09",
+       "ore": 66,
+       "wp": [
+        "WP1",
+        "WP3",
+        "WP4",
+        "WP6"
+       ],
+       "file": "rendicontazione/PRONTI_VIA/timesheet/Timesheet_PRONTI_VIA_chiara_2027-09_M12.docx"
+      },
+      {
+       "m": 13,
+       "mese": "2027-10",
+       "ore": 66,
+       "wp": [
+        "WP1",
+        "WP3",
+        "WP4",
+        "WP6"
+       ],
+       "file": "rendicontazione/PRONTI_VIA/timesheet/Timesheet_PRONTI_VIA_chiara_2027-10_M13.docx"
+      },
+      {
+       "m": 14,
+       "mese": "2027-11",
+       "ore": 66,
+       "wp": [
+        "WP1",
+        "WP3",
+        "WP4",
+        "WP6"
+       ],
+       "file": "rendicontazione/PRONTI_VIA/timesheet/Timesheet_PRONTI_VIA_chiara_2027-11_M14.docx"
+      },
+      {
+       "m": 15,
+       "mese": "2027-12",
+       "ore": 66,
+       "wp": [
+        "WP1",
+        "WP3",
+        "WP4",
+        "WP6"
+       ],
+       "file": "rendicontazione/PRONTI_VIA/timesheet/Timesheet_PRONTI_VIA_chiara_2027-12_M15.docx"
+      },
+      {
+       "m": 16,
+       "mese": "2028-01",
+       "ore": 66,
+       "wp": [
+        "WP1",
+        "WP3",
+        "WP4",
+        "WP6"
+       ],
+       "file": "rendicontazione/PRONTI_VIA/timesheet/Timesheet_PRONTI_VIA_chiara_2028-01_M16.docx"
+      },
+      {
+       "m": 17,
+       "mese": "2028-02",
+       "ore": 55,
+       "wp": [
+        "WP1",
+        "WP4",
+        "WP6"
+       ],
+       "file": "rendicontazione/PRONTI_VIA/timesheet/Timesheet_PRONTI_VIA_chiara_2028-02_M17.docx"
+      },
+      {
+       "m": 18,
+       "mese": "2028-03",
+       "ore": 55,
+       "wp": [
+        "WP1",
+        "WP4",
+        "WP6"
+       ],
+       "file": "rendicontazione/PRONTI_VIA/timesheet/Timesheet_PRONTI_VIA_chiara_2028-03_M18.docx"
+      },
+      {
+       "m": 19,
+       "mese": "2028-04",
+       "ore": 55,
+       "wp": [
+        "WP1",
+        "WP4",
+        "WP6"
+       ],
+       "file": "rendicontazione/PRONTI_VIA/timesheet/Timesheet_PRONTI_VIA_chiara_2028-04_M19.docx"
+      },
+      {
+       "m": 20,
+       "mese": "2028-05",
+       "ore": 94,
+       "wp": [
+        "WP1",
+        "WP4",
+        "WP5",
+        "WP6"
+       ],
+       "file": "rendicontazione/PRONTI_VIA/timesheet/Timesheet_PRONTI_VIA_chiara_2028-05_M20.docx"
+      },
+      {
+       "m": 21,
+       "mese": "2028-06",
+       "ore": 94,
+       "wp": [
+        "WP1",
+        "WP4",
+        "WP5",
+        "WP6"
+       ],
+       "file": "rendicontazione/PRONTI_VIA/timesheet/Timesheet_PRONTI_VIA_chiara_2028-06_M21.docx"
+      },
+      {
+       "m": 22,
+       "mese": "2028-07",
+       "ore": 94,
+       "wp": [
+        "WP1",
+        "WP4",
+        "WP5",
+        "WP6"
+       ],
+       "file": "rendicontazione/PRONTI_VIA/timesheet/Timesheet_PRONTI_VIA_chiara_2028-07_M22.docx"
+      },
+      {
+       "m": 23,
+       "mese": "2028-08",
+       "ore": 80,
+       "wp": [
+        "WP1",
+        "WP5",
+        "WP6"
+       ],
+       "file": "rendicontazione/PRONTI_VIA/timesheet/Timesheet_PRONTI_VIA_chiara_2028-08_M23.docx"
+      },
+      {
+       "m": 24,
+       "mese": "2028-09",
+       "ore": 80,
+       "wp": [
+        "WP1",
+        "WP5",
+        "WP6"
+       ],
+       "file": "rendicontazione/PRONTI_VIA/timesheet/Timesheet_PRONTI_VIA_chiara_2028-09_M24.docx"
+      }
+     ]
+    },
+    {
+     "id": "lucia",
+     "nome": "Lucia Ciampi",
+     "tipo": "effettivo",
+     "orario": 14.79,
+     "fonte": "stima dal profilo dei WP (ore della persona distribuite come le ore NOREMA nel progetto)",
+     "ore_totali": 1408,
+     "lettera": "rendicontazione/PRONTI_VIA/lettere/Lettera_incarico_PRONTI_VIA_lucia.docx",
+     "mesi": [
+      {
+       "m": 1,
+       "mese": "2026-10",
+       "ore": 17,
+       "wp": [
+        "WP1",
+        "WP2",
+        "WP3"
+       ],
+       "file": "rendicontazione/PRONTI_VIA/timesheet/Timesheet_PRONTI_VIA_lucia_2026-10_M01.docx"
+      },
+      {
+       "m": 2,
+       "mese": "2026-11",
+       "ore": 17,
+       "wp": [
+        "WP1",
+        "WP2",
+        "WP3"
+       ],
+       "file": "rendicontazione/PRONTI_VIA/timesheet/Timesheet_PRONTI_VIA_lucia_2026-11_M02.docx"
+      },
+      {
+       "m": 3,
+       "mese": "2026-12",
+       "ore": 17,
+       "wp": [
+        "WP1",
+        "WP2",
+        "WP3"
+       ],
+       "file": "rendicontazione/PRONTI_VIA/timesheet/Timesheet_PRONTI_VIA_lucia_2026-12_M03.docx"
+      },
+      {
+       "m": 4,
+       "mese": "2027-01",
+       "ore": 16,
+       "wp": [
+        "WP1",
+        "WP2",
+        "WP3"
+       ],
+       "file": "rendicontazione/PRONTI_VIA/timesheet/Timesheet_PRONTI_VIA_lucia_2027-01_M04.docx"
+      },
+      {
+       "m": 5,
+       "mese": "2027-02",
+       "ore": 16,
+       "wp": [
+        "WP1",
+        "WP2",
+        "WP3"
+       ],
+       "file": "rendicontazione/PRONTI_VIA/timesheet/Timesheet_PRONTI_VIA_lucia_2027-02_M05.docx"
+      },
+      {
+       "m": 6,
+       "mese": "2027-03",
+       "ore": 56,
+       "wp": [
+        "WP1",
+        "WP2",
+        "WP3",
+        "WP6"
+       ],
+       "file": "rendicontazione/PRONTI_VIA/timesheet/Timesheet_PRONTI_VIA_lucia_2027-03_M06.docx"
+      },
+      {
+       "m": 7,
+       "mese": "2027-04",
+       "ore": 56,
+       "wp": [
+        "WP1",
+        "WP2",
+        "WP3",
+        "WP6"
+       ],
+       "file": "rendicontazione/PRONTI_VIA/timesheet/Timesheet_PRONTI_VIA_lucia_2027-04_M07.docx"
+      },
+      {
+       "m": 8,
+       "mese": "2027-05",
+       "ore": 70,
+       "wp": [
+        "WP1",
+        "WP2",
+        "WP3",
+        "WP4",
+        "WP6"
+       ],
+       "file": "rendicontazione/PRONTI_VIA/timesheet/Timesheet_PRONTI_VIA_lucia_2027-05_M08.docx"
+      },
+      {
+       "m": 9,
+       "mese": "2027-06",
+       "ore": 70,
+       "wp": [
+        "WP1",
+        "WP2",
+        "WP3",
+        "WP4",
+        "WP6"
+       ],
+       "file": "rendicontazione/PRONTI_VIA/timesheet/Timesheet_PRONTI_VIA_lucia_2027-06_M09.docx"
+      },
+      {
+       "m": 10,
+       "mese": "2027-07",
+       "ore": 70,
+       "wp": [
+        "WP1",
+        "WP2",
+        "WP3",
+        "WP4",
+        "WP6"
+       ],
+       "file": "rendicontazione/PRONTI_VIA/timesheet/Timesheet_PRONTI_VIA_lucia_2027-07_M10.docx"
+      },
+      {
+       "m": 11,
+       "mese": "2027-08",
+       "ore": 66,
+       "wp": [
+        "WP1",
+        "WP3",
+        "WP4",
+        "WP6"
+       ],
+       "file": "rendicontazione/PRONTI_VIA/timesheet/Timesheet_PRONTI_VIA_lucia_2027-08_M11.docx"
+      },
+      {
+       "m": 12,
+       "mese": "2027-09",
+       "ore": 66,
+       "wp": [
+        "WP1",
+        "WP3",
+        "WP4",
+        "WP6"
+       ],
+       "file": "rendicontazione/PRONTI_VIA/timesheet/Timesheet_PRONTI_VIA_lucia_2027-09_M12.docx"
+      },
+      {
+       "m": 13,
+       "mese": "2027-10",
+       "ore": 66,
+       "wp": [
+        "WP1",
+        "WP3",
+        "WP4",
+        "WP6"
+       ],
+       "file": "rendicontazione/PRONTI_VIA/timesheet/Timesheet_PRONTI_VIA_lucia_2027-10_M13.docx"
+      },
+      {
+       "m": 14,
+       "mese": "2027-11",
+       "ore": 66,
+       "wp": [
+        "WP1",
+        "WP3",
+        "WP4",
+        "WP6"
+       ],
+       "file": "rendicontazione/PRONTI_VIA/timesheet/Timesheet_PRONTI_VIA_lucia_2027-11_M14.docx"
+      },
+      {
+       "m": 15,
+       "mese": "2027-12",
+       "ore": 66,
+       "wp": [
+        "WP1",
+        "WP3",
+        "WP4",
+        "WP6"
+       ],
+       "file": "rendicontazione/PRONTI_VIA/timesheet/Timesheet_PRONTI_VIA_lucia_2027-12_M15.docx"
+      },
+      {
+       "m": 16,
+       "mese": "2028-01",
+       "ore": 66,
+       "wp": [
+        "WP1",
+        "WP3",
+        "WP4",
+        "WP6"
+       ],
+       "file": "rendicontazione/PRONTI_VIA/timesheet/Timesheet_PRONTI_VIA_lucia_2028-01_M16.docx"
+      },
+      {
+       "m": 17,
+       "mese": "2028-02",
+       "ore": 55,
+       "wp": [
+        "WP1",
+        "WP4",
+        "WP6"
+       ],
+       "file": "rendicontazione/PRONTI_VIA/timesheet/Timesheet_PRONTI_VIA_lucia_2028-02_M17.docx"
+      },
+      {
+       "m": 18,
+       "mese": "2028-03",
+       "ore": 55,
+       "wp": [
+        "WP1",
+        "WP4",
+        "WP6"
+       ],
+       "file": "rendicontazione/PRONTI_VIA/timesheet/Timesheet_PRONTI_VIA_lucia_2028-03_M18.docx"
+      },
+      {
+       "m": 19,
+       "mese": "2028-04",
+       "ore": 55,
+       "wp": [
+        "WP1",
+        "WP4",
+        "WP6"
+       ],
+       "file": "rendicontazione/PRONTI_VIA/timesheet/Timesheet_PRONTI_VIA_lucia_2028-04_M19.docx"
+      },
+      {
+       "m": 20,
+       "mese": "2028-05",
+       "ore": 94,
+       "wp": [
+        "WP1",
+        "WP4",
+        "WP5",
+        "WP6"
+       ],
+       "file": "rendicontazione/PRONTI_VIA/timesheet/Timesheet_PRONTI_VIA_lucia_2028-05_M20.docx"
+      },
+      {
+       "m": 21,
+       "mese": "2028-06",
+       "ore": 94,
+       "wp": [
+        "WP1",
+        "WP4",
+        "WP5",
+        "WP6"
+       ],
+       "file": "rendicontazione/PRONTI_VIA/timesheet/Timesheet_PRONTI_VIA_lucia_2028-06_M21.docx"
+      },
+      {
+       "m": 22,
+       "mese": "2028-07",
+       "ore": 94,
+       "wp": [
+        "WP1",
+        "WP4",
+        "WP5",
+        "WP6"
+       ],
+       "file": "rendicontazione/PRONTI_VIA/timesheet/Timesheet_PRONTI_VIA_lucia_2028-07_M22.docx"
+      },
+      {
+       "m": 23,
+       "mese": "2028-08",
+       "ore": 80,
+       "wp": [
+        "WP1",
+        "WP5",
+        "WP6"
+       ],
+       "file": "rendicontazione/PRONTI_VIA/timesheet/Timesheet_PRONTI_VIA_lucia_2028-08_M23.docx"
+      },
+      {
+       "m": 24,
+       "mese": "2028-09",
+       "ore": 80,
+       "wp": [
+        "WP1",
+        "WP5",
+        "WP6"
+       ],
+       "file": "rendicontazione/PRONTI_VIA/timesheet/Timesheet_PRONTI_VIA_lucia_2028-09_M24.docx"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

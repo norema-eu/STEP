@@ -138,7 +138,7 @@ def build_norema(ver: str) -> None:
     pers = json.loads((src / "personale.json").read_text(encoding="utf-8")) if (src / "personale.json").exists() else None
     seg = json.loads((src / "segreteria.json").read_text(encoding="utf-8")) if (src / "segreteria.json").exists() else None
     crit = json.loads((src / "criticita.json").read_text(encoding="utf-8")) if (src / "criticita.json").exists() else {"voci": []}
-    (out / "data.json").write_text(json.dumps({"aggiornato": agg, "ipotesi": ip, "personale": pers, "progetti": progetti, "criticita": crit.get("voci", []), "segreteria": seg}, ensure_ascii=False, indent=1), encoding="utf-8")
+    (out / "data.json").write_text(json.dumps({"aggiornato": agg, "ipotesi": ip, "personale": pers, "progetti": progetti, "criticita": crit.get("voci", []), "segreteria": seg, "rendicontazione": json.loads((out / "rendicontazione.json").read_text(encoding="utf-8")) if (out / "rendicontazione.json").exists() else None}, ensure_ascii=False, indent=1), encoding="utf-8")
     html = (ROOT / "_norema_page" / "index.html").read_text(encoding="utf-8")
     for a in ("style.css", "dash.css", "norema.css", "norema.js"):
         html = html.replace(f'../assets/{a}"', f'../assets/{a}?v={ver}"')

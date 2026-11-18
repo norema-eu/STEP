@@ -25,7 +25,7 @@
 <div class="wrap"><div class="kpis kpis-6" id="kpis"></div></div>
 
 <nav class="tabs"><div class="wrap">
-  <a href="#attivita-n">Attività</a><a href="#personale-n">Personale e ore</a><a href="#budget-n">Budget</a><a href="#cassa-n">Flusso di cassa</a><a href="#criticita-n">Criticità <span class="ncount" id="n-crit-count"></span></a><a href="#segreteria-n">Compensi partner</a><a href="#ipotesi-n">Ipotesi</a>
+  <a href="#attivita-n">Attività</a><a href="#personale-n">Personale e ore</a><a href="#budget-n">Budget</a><a href="#cassa-n">Flusso di cassa</a><a href="#criticita-n">Criticità <span class="ncount" id="n-crit-count"></span></a><a href="#rend-n">Rendicontazione</a><a href="#segreteria-n">Compensi partner</a><a href="#ipotesi-n">Ipotesi</a>
 </div></nav>
 
 <main class="wrap">
@@ -76,6 +76,17 @@
     <p class="lead">Rischi di non conformità e punti aperti che riguardano NOREMA, con l'azione da fare, chi la fa e la fonte. Comprende lo stato di polizze e antimafia di NOREMA, ricavato dai documenti nelle cartelle di progetto.</p>
     <div class="filters"><div class="seg-ctl" id="n-f-crit"><button data-v="aperte">Da gestire</button><button data-v="tutte">Tutte</button></div></div>
     <div id="n-crit"></div>
+  </section>
+
+  <section id="rend-n">
+    <h2>Rendicontazione</h2>
+    <p class="lead" id="n-rend-lead"></p>
+    <div class="filters"><div class="seg-ctl" id="n-f-rend"></div></div>
+    <div class="card scroll"><table class="tbl" id="n-rend"></table></div>
+    <div class="note-s" id="n-rend-note"></div>
+    <h3 class="nh3">Carico mensile pianificato per persona (tre progetti)</h3>
+    <div class="card scroll"><table class="tbl" id="n-rend-car"></table></div>
+    <div class="note-s">Una persona a tempo pieno corrisponde a circa 143 h/mese (1.720 h/anno, Avviso art. 4, voce B.1). In rosso i mesi oltre questa soglia: le ore rendicontate non possono superare quelle lavorate risultanti dai timesheet dei tre progetti.</div>
   </section>
 
   <section id="segreteria-n">

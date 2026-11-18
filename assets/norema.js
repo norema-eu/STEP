@@ -327,6 +327,42 @@
     document.querySelectorAll("#n-f-crit button").forEach((b) => b.addEventListener("click", () => { cf = b.dataset.v; store.set("n_crit", cf); drawCrit(); }));
     drawCrit();
 
+    // ---------- Rendicontazione (ore pianificate, lettere di incarico, timesheet)
+    const RD = X.rendicontazione;
+    if (RD) {
+      const bySl = Object.fromEntries(P.map((p) => [p.slug, p]));
+      const MM = ["gen", "feb", "mar", "apr", "mag", "giu", "lug", "ago", "set", "ott", "nov", "dic"];
+      const lab = (s) => { const [y, m] = s.split("-"); return `${MM[+m - 1]} ${y.slice(2)}`; };
+      const tipoLab = { tq: "Titolare Qualificato · 34,70 €/h", standard: "B.1.1 · costi standard 30 €/h", effettivo: "B.1.2 · costo effettivo" };
+      let rs = store.get("n_rend") || RD.progetti[0].slug;
+      if (!RD.progetti.some((x) => x.slug === rs)) rs = RD.progetti[0].slug;
+      $("#n-f-rend").innerHTML = RD.progetti.map((x) => `<button data-v="${esc(x.slug)}">${esc(bySl[x.slug]?.acronimo || x.slug)}</button>`).join("");
+      $("#n-rend-lead").innerHTML = `Ore mensili <b>pianificate</b> per persona, con la bozza di lettera di incarico e il timesheet di ogni mese (Modello 11, Word). Clicca sulle ore di un mese per scaricare il timesheet. I timesheet sono precompilati nelle intestazioni: le ore giornaliere vanno inserite con le ore effettivamente lavorate.`;
+      const drawR = () => {
+        document.querySelectorAll("#n-f-rend button").forEach((b) => b.classList.toggle("on", b.dataset.v === rs));
+        const pr = RD.progetti.find((x) => x.slug === rs), p = bySl[rs], mesi = pr.persone[0]?.mesi || [];
+        const sal = (m) => (m <= I0.sal_mesi[0] ? 1 : m <= I0.sal_mesi[1] ? 2 : 3);
+        const grp = [1, 2, 3].map((k) => ({ k, n: mesi.filter((x) => sal(x.m) === k).length }));
+        $("#n-rend").innerHTML = `<thead><tr><th rowspan="2">Persona</th><th rowspan="2">Lettera di incarico</th>${grp.map((g) => `<th colspan="${g.n}" class="sal s${g.k}">${g.k < 3 ? `SAL ${g.k}` : "Saldo"}</th>`).join("")}<th rowspan="2" class="num">Totale</th><th rowspan="2" class="num">Valore</th></tr>
+          <tr>${mesi.map((x) => `<th class="mh s${sal(x.m)}">M${x.m}<br><span>${lab(x.mese)}</span></th>`).join("")}</tr></thead><tbody>` +
+          pr.persone.map((q) => `<tr><td><b>${esc(q.nome)}</b><div class="sm">${esc(tipoLab[q.tipo] || "")}${q.tipo === "effettivo" ? " " + String(q.orario).replace(".", ",") + " €/h" : ""}</div></td>
+            <td><a class="dl" href="${esc(q.lettera)}" download>Word</a></td>
+            ${q.mesi.map((x) => `<td class="mc s${sal(x.m)}">${x.ore ? `<a href="${esc(x.file)}" download title="Timesheet ${esc(q.nome)} – ${lab(x.mese)}${x.wp.length ? " – " + esc(x.wp.join(", ")) : ""}">${x.ore}</a>` : `<a class="z" href="${esc(x.file)}" download title="Timesheet vuoto">–</a>`}</td>`).join("")}
+            <td class="num"><b>${q.ore_totali.toLocaleString("it-IT")}</b></td><td class="num">${eur(q.ore_totali * q.orario)}</td></tr>`).join("") +
+          `</tbody><tfoot><tr><td colspan="2">Totale NOREMA (persone con documenti)</td>${mesi.map((_, i) => `<td class="mc">${pr.persone.reduce((a, q) => a + q.mesi[i].ore, 0)}</td>`).join("")}<td class="num">${pr.persone.reduce((a, q) => a + q.ore_totali, 0).toLocaleString("it-IT")}</td><td class="num">${eur(pr.persone.reduce((a, q) => a + q.ore_totali * q.orario, 0))}</td></tr></tfoot>`;
+        const fonti = [...new Set(pr.persone.map((q) => q.fonte))];
+        $("#n-rend-note").innerHTML = `Fonte delle ore: ${fonti.map(esc).join("; ")}. I mesi di progetto sono associati ai mesi di calendario a partire dall'avvio (${d(parse(p.data_inizio))}); il primo timesheet parte dalla data di avvio. Valore = ore × costo orario (senza forfait B.4). Le figure da individuare non hanno ancora documenti. Documenti generati il ${d(parse(RD.generato))}.`;
+      };
+      document.querySelectorAll("#n-f-rend button").forEach((b) => b.addEventListener("click", () => { rs = b.dataset.v; store.set("n_rend", rs); drawR(); }));
+      drawR();
+      // carico per persona su calendario
+      const car = {}, keys = new Set();
+      RD.progetti.forEach((pr) => pr.persone.forEach((q) => q.mesi.forEach((x) => { keys.add(x.mese); (car[q.nome] ||= {})[x.mese] = ((car[q.nome] || {})[x.mese] || 0) + x.ore; })));
+      const ks = [...keys].sort(), soglia = 1720 / 12;
+      $("#n-rend-car").innerHTML = `<thead><tr><th>Persona</th>${ks.map((k) => `<th class="mh">${lab(k)}</th>`).join("")}<th class="num">Mesi oltre soglia</th></tr></thead><tbody>` +
+        Object.entries(car).map(([n, v]) => `<tr><td><b>${esc(n)}</b></td>${ks.map((k) => `<td class="mc ${(v[k] || 0) > soglia ? "over" : ""}">${v[k] || ""}</td>`).join("")}<td class="num">${ks.filter((k) => (v[k] || 0) > soglia).length}</td></tr>`).join("") + `</tbody>`;
+    }
+
     // ---------- Segreteria tecnica (fuori progetto)
     const S = X.segreteria;
     if (S) {
