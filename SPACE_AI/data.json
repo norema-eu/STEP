@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-17T17:45:00+01:00",
+  "aggiornato": "2026-11-18T13:45:00+01:00",
   "fonte": "Fonti: comunicazione di concessione Lazio Innova (Det. G13392, BURL n. 81 suppl. 1 del 08/10/2026), proposta progettuale, corrispondenza di partenariato.",
   "progetto": {
     "acronimo": "SPACE.AI",
@@ -365,7 +365,7 @@
       "livello": "alta",
       "stato": "aperta",
       "interna": true,
-      "nota_interna": "Bozze di email di C. Mirabella del 03/11 per IPTSAT, ReadyLab e Dipartimento SBAI (inviate a Claudia per revisione). Rischio economico: ~52.200 € IPTSAT e ~82.800 € ReadyLab se non risolto. 03/11: risposto a Sapienza sul post-doc (B.1 dipendente; costo standard vs effettivo da chiedere a Lazio Innova)."
+      "nota_interna": "Bozze di email di C. Mirabella del 03/11 per IPTSAT, ReadyLab e Dipartimento SBAI (inviate a Claudia per revisione). Rischio economico: ~52.200 € IPTSAT e ~82.800 € ReadyLab se non risolto. 03/11: risposto a Sapienza sul post-doc (B.1 dipendente; costo standard vs effettivo da chiedere a Lazio Innova). 18/11 13:01: T. Di Silvio (IPTSAT) chiede indicazioni su: riassunzione di A. Caroselli (contratto scaduto il 31/12/2025) dal 01/01/2027; sostituzione di S. Ricci (uscita) con figura di pari livello entro gennaio 2027; ore di S. De Gennaro (uscito) da attribuire a R. Napoleoni; eventuali comunicazioni a Lazio Innova. Risposta da dare."
     }
   ],
   "comunicazioni": [
@@ -495,6 +495,13 @@
       "titolo": "Bozza di polizza fideiussoria rivista",
       "sintesi": "Il capofila trasmette la bozza di polizza fideiussoria rivista dall'assicuratore, con il relativo atto, a seguito del confronto del 16/11 con NOREMA. La polizza sarà finalizzata dopo la stipula dell'ATS (23/11/2026) e l'Atto di Impegno.",
       "nota_interna": "Email di T. Di Silvio (IPTSAT) a Claudia e C. Mirabella del 16/11 alle 14:48 («polizza risistemata secondo quanto ci siamo dette stamattina»), allegati «iptsat bozza.pdf» e «atto iptsat.pdf» (non letti: verificare le modifiche rispetto alla bozza del 05/11). Alle 12:03 IPTSAT aveva reinoltrato anche la bozza corretta del 05/11 (fac simile e modx005)."
+    },
+    {
+      "data": "2026-11-18",
+      "titolo": "IPTSAT: quesiti sul personale di progetto",
+      "sintesi": "IPTSAT riepiloga la situazione del personale dipendente previsto sul progetto e chiede indicazioni su riassunzioni, sostituzioni e riattribuzione delle ore.",
+      "interna": true,
+      "nota_interna": "Email di T. Di Silvio a Claudia e C. Mirabella del 18/11 alle 13:01 («personale IPTSAT»): 1) A. Caroselli, contratto scaduto il 31/12/2025, sarà riassunto: chiede se basta dal 01/01/2027; 2) S. Ricci non lavora più in IPTSAT: sostituzione con figura di pari livello prevista entro gennaio 2027, nome non ancora individuato; 3) S. De Gennaro non lavora più in IPTSAT: nessuna sostituzione, ore da attribuire a R. Napoleoni. Chiede se servono comunicazioni a Lazio Innova. Da valutare con la criticità «Inquadramento del personale» (eventuale richiesta di variazione/comunicazione tramite capofila). Risposta non ancora inviata."
     }
   ],
   "riunioni": [
