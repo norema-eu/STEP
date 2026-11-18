@@ -204,6 +204,7 @@
       const profilo = (pa) => { // quota mensile del costo, dalle ore del personale per WP
         const v = new Array(Dm).fill(0);
         (persBy[key(pa.nome)] || []).forEach((x) => {
+          if (x.mensile && Object.keys(x.mensile).length) { Object.values(x.mensile).forEach((arr) => arr.slice(0, Dm).forEach((h, i) => (v[i] += +h || 0))); return; }
           const res = (x.wp_residuo || []).filter((k) => wpM[k]);
           if (res.length && x.ore_totali) { const ms = [...new Set(res.flatMap((k) => { const [a, b] = wpM[k]; return Array.from({ length: b - a + 1 }, (_, i) => a + i); }))]; ms.forEach((i) => i <= Dm && (v[i - 1] += x.ore_totali / ms.length)); return; }
           const opw = Object.entries(x.ore_per_wp || {}).filter(([k, h]) => h && wpM[k]);
