@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-11-18T12:45:00+01:00",
+ "aggiornato": "2026-11-19T08:50:00+01:00",
  "fonte": "Fonti: comunicazione di concessione Lazio Innova (prot. LISPA 0033570 del 24/09/2026), Det. G12471 del 15/09/2026 (BURL n. 75 del 17/09/2026, Allegati A e B), formulario/proposta progettuale definitiva (18/07/2025), piano costi approvato da GeCoWEB Plus (estrazione 22/10/2026), corrispondenza di partenariato e PEC (luglio 2025 – ottobre 2026).",
  "progetto": {
   "acronimo": "HS – HumanSeal",
@@ -418,7 +418,7 @@
    "data": "2026-11-23",
    "chi": "DEV4U (capofila) e tutti i partner",
    "stato": "da_avviare",
-   "descrizione": "Lunedì 23/11/2026 presso lo Studio Floridi, Viale Regina Margherita 239, Roma: atto di questo progetto alle ore 16:00 (sessione 15:00 PRONTI VIA, 15:30 SPACE.AI, 16:00 HS – HumanSeal). Partecipano i legali rappresentanti di tutti i partner (o procuratori); per Sapienza il prof. Roberto Li Voti con la procura speciale del Rettore del 16/11/2026. Portare documento d'identità e, per chi firma per procura, la procura. Le spese notarili sono ripartite tra le Parti come previsto dall'ATS."
+   "descrizione": "Lunedì 23/11/2026 presso lo Studio Floridi, Viale Regina Margherita 239, Roma: atto di questo progetto alle ore 16:00 (sessione 15:00 PRONTI VIA, 15:30 SPACE.AI, 16:00 HS – HumanSeal). Partecipano i legali rappresentanti di tutti i partner (o procuratori); per Sapienza il prof. Roberto Li Voti con la procura speciale del Rettore del 16/11/2026. Portare documento d'identità e, per chi firma per procura, la procura. Le spese notarili sono ripartite tra le Parti come previsto dall'ATS. Sessione confermata il 19/11/2026: ricevute le conferme di tutti i partecipanti."
   }
  ],
  "criticita": [
@@ -599,6 +599,11 @@
    "data": "2026-11-18",
    "titolo": "Ripartizione delle spese notarili per la costituzione dell'ATS",
    "sintesi": "Il capofila ha condiviso il prospetto di ripartizione del costo dell'atto costitutivo dell'ATS (€ 1.528,27 complessivi, compresa la ritenuta d'acconto di € 208,88 che DEV4U versa come sostituto d'imposta), in proporzione ai costi ammessi dei cinque partner privati, esclusa Sapienza: DEV4U € 359,89 (23,55%), NOREMA € 313,65 (20,52%), Microsis € 294,90 (19,30%), Olympos Hub € 289,91 (18,97%), Main Project € 269,92 (17,66%). DEV4U, come mandataria, paga il notaio; i partner versano la propria quota a DEV4U con causale «Quota costituzione ATS – Progetto HumanSeal – STEP Lazio»."
+  },
+  {
+   "data": "2026-11-19",
+   "titolo": "Confermata la sessione di stipula delle ATS del 23/11",
+   "sintesi": "Ricevute le conferme di tutti i partecipanti per la sessione di stipula delle ATS di lunedì 23/11/2026 dalle ore 15:00 presso lo Studio Floridi (atto di questo progetto alle ore 16:00). La conferma è stata comunicata anche al Dipartimento SBAI di Sapienza."
   }
  ],
  "riunioni": [
