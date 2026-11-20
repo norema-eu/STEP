@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-11-20T15:45:00+01:00",
+ "aggiornato": "2026-11-20T18:45:00+01:00",
  "fonte": "Fonti: comunicazione di concessione Lazio Innova (prot. LISPA 0033570 del 24/09/2026), Det. G12471 del 15/09/2026 (BURL n. 75 del 17/09/2026, Allegati A e B), formulario/proposta progettuale definitiva (18/07/2025), piano costi approvato da GeCoWEB Plus (estrazione 22/10/2026), corrispondenza di partenariato e PEC (luglio 2025 – ottobre 2026).",
  "progetto": {
   "acronimo": "HS – HumanSeal",
@@ -483,7 +483,7 @@
    "titolo": "Delibera del CdA di Microsis per la firma dell'ATS",
    "descrizione": "Lo studio notarile richiede la delibera del Consiglio di Amministrazione di Microsis S.r.l. che autorizza il Presidente a firmare l'ATS, necessaria per la stipula del 23/11/2026.",
    "livello": "media",
-   "stato": "aperta"
+   "stato": "risolta"
   }
  ],
  "comunicazioni": [
@@ -616,6 +616,11 @@
    "data": "2026-11-20",
    "titolo": "ATS: contratti verificati dallo studio notarile, delibera CdA di Microsis",
    "sintesi": "Lo Studio Floridi ha verificato e sistemato i contratti di ATS e ha ricevuto le procure di Sapienza. Per Microsis S.r.l. occorre la delibera del CdA che autorizza il Presidente alla firma, da consegnare prima della stipula del 23/11/2026. Lo studio ha confermato che per gli altri firmatari è sufficiente il documento d'identità."
+  },
+  {
+   "data": "2026-11-20",
+   "titolo": "ATS: delibera del CdA di Microsis trasmessa allo studio notarile",
+   "sintesi": "Microsis S.r.l. ha prodotto il verbale autenticato del CdA che autorizza la firma dell'ATS; il documento è stato trasmesso allo Studio Floridi in vista della stipula del 23/11/2026."
   }
  ],
  "riunioni": [
