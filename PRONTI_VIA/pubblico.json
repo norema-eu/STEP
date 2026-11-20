@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-11-19T13:45:00+01:00",
+ "aggiornato": "2026-11-20T08:45:00+01:00",
  "fonte": "Fonti: Det. G13392 del 02/10/2026 (BURL n. 81 suppl. 1 del 08/10/2026, Allegati A e B); comunicazione di concessione Lazio Innova (prot. LISPA 0036564 del 14/10/2026); piano costi approvato GeCoWEB Plus (dettaglio del 22/10/2026); formulario presentato (proposta progettuale) e bozza del contratto di aggregazione allegata alla domanda; corrispondenza di partenariato (email Outlook dal 15/07/2025 al 26/10/2026).",
  "progetto": {
   "acronimo": "PRONTI VIA",
@@ -246,7 +246,7 @@
   {
    "data": "2027-01-06",
    "titolo": "Polizza fideiussoria per l'anticipo (con la richiesta di anticipo)",
-   "descrizione": "Come da Avviso (art. 9 e Appendice 1, «Fideiussione») e manuale GeCoWEB: la polizza va presentata con la richiesta di anticipo, entro 90 giorni dalla Data di Concessione (08/10/2026), quindi entro il 06/01/2027. Importo garantito: 44% del contributo concesso, cioè l'anticipo del 40% (€ 151.109,38) maggiorato del 10%, per € 166.220,31. Durata: fino alla conclusione del progetto più 12 mesi, quindi almeno fino al 08/10/2029, con proroga automatica annuale fino allo svincolo di Lazio Innova. Contraente: il capofila, per tutto il partenariato. Raccolta della documentazione per il preventivo in corso: il 10/11 il capofila ha trasmesso gli ultimi due bilanci approvati (2024 e 2025) e la documentazione richiesta per la quotazione; il 16/11/2026 è stata inviata a un'agenzia assicurativa la richiesta di preventivo per la polizza del progetto. La polizza si finalizza dopo la firma dell'ATS.",
+   "descrizione": "Come da Avviso (art. 9 e Appendice 1, «Fideiussione») e manuale GeCoWEB: la polizza va presentata con la richiesta di anticipo, entro 90 giorni dalla Data di Concessione (08/10/2026), quindi entro il 06/01/2027. Importo garantito: 44% del contributo concesso, cioè l'anticipo del 40% (€ 151.109,38) maggiorato del 10%, per € 166.220,31. Durata: fino alla conclusione del progetto più 12 mesi, quindi almeno fino al 08/10/2029, con proroga automatica annuale fino allo svincolo di Lazio Innova. Contraente: il capofila, per tutto il partenariato. Raccolta della documentazione per il preventivo in corso: il 10/11 il capofila ha trasmesso gli ultimi due bilanci approvati (2024 e 2025) e la documentazione richiesta per la quotazione; il 16/11/2026 è stata inviata a un'agenzia assicurativa la richiesta di preventivo per la polizza del progetto; il 20/11 il capofila ha trasmesso la visura camerale aggiornata per completare la richiesta. La polizza si finalizza dopo la firma dell'ATS.",
    "chi": "RO Technology (capofila)",
    "stato": "in_corso"
   },
@@ -484,6 +484,11 @@
    "data": "2026-11-19",
    "titolo": "Confermata la sessione di stipula delle ATS del 23/11",
    "sintesi": "Ricevute le conferme di tutti i partecipanti per la sessione di stipula delle ATS di lunedì 23/11/2026 dalle ore 15:00 presso lo Studio Floridi (atto di questo progetto alle ore 15:00). La conferma è stata comunicata anche al Dipartimento SBAI di Sapienza."
+  },
+  {
+   "data": "2026-11-20",
+   "titolo": "Visura camerale aggiornata del capofila per la polizza",
+   "sintesi": "Il capofila trasmette la visura camerale aggiornata di RO Technology, necessaria per completare la richiesta di preventivo della polizza fideiussoria per l'anticipo."
   }
  ],
  "riunioni": [
