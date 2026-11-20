@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-11-20T12:45:00+01:00",
+ "aggiornato": "2026-11-20T15:45:00+01:00",
  "progetti": [
   {
    "acronimo": "HS – HumanSeal",
@@ -452,10 +452,11 @@
      "titolo": "Delibera del CdA di Microsis per la firma dell'ATS",
      "descrizione": "Lo studio notarile richiede la delibera del Consiglio di Amministrazione di Microsis S.r.l. che autorizza il Presidente a firmare l'ATS, necessaria per la stipula del 23/11/2026.",
      "livello": "media",
-     "stato": "aperta"
+     "stato": "aperta",
+     "nota_interna": "20/11 15:21: Microsis avvisata da NOREMA; la delibera va girata allo Studio Floridi appena ricevuta (prima della stipula del 23/11 ore 16:00)."
     }
    ],
-   "aggiornato": "2026-11-20T12:45:00+01:00"
+   "aggiornato": "2026-11-20T15:45:00+01:00"
   },
   {
    "acronimo": "PRONTI VIA",
@@ -764,7 +765,7 @@
      "stato": "risolta"
     }
    ],
-   "aggiornato": "2026-11-20T12:45:00+01:00"
+   "aggiornato": "2026-11-20T15:45:00+01:00"
   },
   {
    "acronimo": "SPACE.AI",
@@ -1075,7 +1076,7 @@
      "nota_interna": "Bozze di email di C. Mirabella del 03/11 per IPTSAT, ReadyLab e Dipartimento SBAI (inviate a Claudia per revisione). Rischio economico: ~52.200 € IPTSAT e ~82.800 € ReadyLab se non risolto. 03/11: risposto a Sapienza sul post-doc (B.1 dipendente; costo standard vs effettivo da chiedere a Lazio Innova). 18/11 13:01: T. Di Silvio (IPTSAT) chiede indicazioni su: riassunzione di A. Caroselli (contratto scaduto il 31/12/2025) dal 01/01/2027; sostituzione di S. Ricci (uscita) con figura di pari livello entro gennaio 2027; ore di S. De Gennaro (uscito) da attribuire a R. Napoleoni; eventuali comunicazioni a Lazio Innova. Risposta da dare."
     }
    ],
-   "aggiornato": "2026-11-20T12:45:00+01:00"
+   "aggiornato": "2026-11-20T15:45:00+01:00"
   }
  ],
  "tutor": {
