@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-11-20T11:45:00+01:00",
+ "aggiornato": "2026-11-20T12:45:00+01:00",
  "fonte": "Fonti: comunicazione di concessione Lazio Innova (prot. LISPA 0033570 del 24/09/2026), Det. G12471 del 15/09/2026 (BURL n. 75 del 17/09/2026, Allegati A e B), formulario/proposta progettuale definitiva (18/07/2025), piano costi approvato da GeCoWEB Plus (estrazione 22/10/2026), corrispondenza di partenariato e PEC (luglio 2025 – ottobre 2026).",
  "progetto": {
   "acronimo": "HS – HumanSeal",
@@ -319,8 +319,8 @@
   {
    "data": "2026-11-16",
    "titolo": "Procura speciale per la firma dell'ATS (Sapienza)",
-   "descrizione": "Stipula della procura speciale con cui il Rettore conferisce al prof. Roberto Li Voti, Direttore del Dipartimento SBAI, il potere di firmare l'ATS. Gli estremi della procura vanno riportati nell'ATS e la procura va allegata (Allegato B). Dopo questa data si può fissare la firma dell'ATS.",
-   "stato": "da_avviare"
+   "descrizione": "Stipula della procura speciale con cui il Rettore conferisce al prof. Roberto Li Voti, Direttore del Dipartimento SBAI, il potere di firmare l'ATS. Gli estremi della procura vanno riportati nell'ATS e la procura va allegata (Allegato B). Dopo questa data si può fissare la firma dell'ATS. Il 20/11/2026 lo studio notarile ha confermato di aver ricevuto le procure di Sapienza.",
+   "stato": "completato"
   },
   {
    "titolo": "Richiesta dell'anticipo",
@@ -418,7 +418,7 @@
    "data": "2026-11-23",
    "chi": "DEV4U (capofila) e tutti i partner",
    "stato": "da_avviare",
-   "descrizione": "Lunedì 23/11/2026 presso lo Studio Floridi, Viale Regina Margherita 239, Roma: atto di questo progetto alle ore 16:00 (sessione 15:00 PRONTI VIA, 15:30 SPACE.AI, 16:00 HS – HumanSeal). Partecipano i legali rappresentanti di tutti i partner (o procuratori); per Sapienza il prof. Roberto Li Voti con la procura speciale del Rettore del 16/11/2026. Portare documento d'identità e, per chi firma per procura, la procura. Le spese notarili sono ripartite tra le Parti come previsto dall'ATS. Sessione confermata il 19/11/2026: ricevute le conferme di tutti i partecipanti."
+   "descrizione": "Lunedì 23/11/2026 presso lo Studio Floridi, Viale Regina Margherita 239, Roma: atto di questo progetto alle ore 16:00 (sessione 15:00 PRONTI VIA, 15:30 SPACE.AI, 16:00 HS – HumanSeal). Partecipano i legali rappresentanti di tutti i partner (o procuratori); per Sapienza il prof. Roberto Li Voti con la procura speciale del Rettore del 16/11/2026. Portare documento d'identità e, per chi firma per procura, la procura. Le spese notarili sono ripartite tra le Parti come previsto dall'ATS. Sessione confermata il 19/11/2026: ricevute le conferme di tutti i partecipanti. Il 20/11/2026 lo studio notarile ha completato la verifica dei contratti e ricevuto le procure di Sapienza. Per Microsis S.r.l., amministrata da un Consiglio di Amministrazione, lo studio richiede la delibera del CdA che autorizza il Presidente alla firma dell'ATS."
   }
  ],
  "criticita": [
@@ -477,6 +477,13 @@
    "descrizione": "Polizze catastrofali richieste da Lazio Innova (prot. 0025597) e trasmesse via PEC il 27/07/2026.",
    "livello": "media",
    "stato": "risolta"
+  },
+  {
+   "data": "2026-11-20",
+   "titolo": "Delibera del CdA di Microsis per la firma dell'ATS",
+   "descrizione": "Lo studio notarile richiede la delibera del Consiglio di Amministrazione di Microsis S.r.l. che autorizza il Presidente a firmare l'ATS, necessaria per la stipula del 23/11/2026.",
+   "livello": "media",
+   "stato": "aperta"
   }
  ],
  "comunicazioni": [
@@ -604,6 +611,11 @@
    "data": "2026-11-19",
    "titolo": "Confermata la sessione di stipula delle ATS del 23/11",
    "sintesi": "Ricevute le conferme di tutti i partecipanti per la sessione di stipula delle ATS di lunedì 23/11/2026 dalle ore 15:00 presso lo Studio Floridi (atto di questo progetto alle ore 16:00). La conferma è stata comunicata anche al Dipartimento SBAI di Sapienza. Il 20/11 il Direttore del Dipartimento SBAI, prof. Roberto Li Voti, ha confermato la propria presenza; la sede resta lo Studio Floridi, Viale Regina Margherita 239, Roma."
+  },
+  {
+   "data": "2026-11-20",
+   "titolo": "ATS: contratti verificati dallo studio notarile, delibera CdA di Microsis",
+   "sintesi": "Lo Studio Floridi ha verificato e sistemato i contratti di ATS e ha ricevuto le procure di Sapienza. Per Microsis S.r.l. occorre la delibera del CdA che autorizza il Presidente alla firma, da consegnare prima della stipula del 23/11/2026."
   }
  ],
  "riunioni": [

@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-11-20T11:45:00+01:00",
+ "aggiornato": "2026-11-20T12:45:00+01:00",
  "progetti": [
   {
    "acronimo": "HS – HumanSeal",
@@ -273,8 +273,8 @@
     {
      "data": "2026-11-16",
      "titolo": "Procura speciale per la firma dell'ATS (Sapienza)",
-     "descrizione": "Stipula della procura speciale con cui il Rettore conferisce al prof. Roberto Li Voti, Direttore del Dipartimento SBAI, il potere di firmare l'ATS. Gli estremi della procura vanno riportati nell'ATS e la procura va allegata (Allegato B). Dopo questa data si può fissare la firma dell'ATS.",
-     "stato": "da_avviare"
+     "descrizione": "Stipula della procura speciale con cui il Rettore conferisce al prof. Roberto Li Voti, Direttore del Dipartimento SBAI, il potere di firmare l'ATS. Gli estremi della procura vanno riportati nell'ATS e la procura va allegata (Allegato B). Dopo questa data si può fissare la firma dell'ATS. Il 20/11/2026 lo studio notarile ha confermato di aver ricevuto le procure di Sapienza.",
+     "stato": "completato"
     },
     {
      "titolo": "Richiesta dell'anticipo",
@@ -375,7 +375,7 @@
      "data": "2026-11-23",
      "chi": "DEV4U (capofila) e tutti i partner",
      "stato": "da_avviare",
-     "descrizione": "Lunedì 23/11/2026 presso lo Studio Floridi, Viale Regina Margherita 239, Roma: atto di questo progetto alle ore 16:00 (sessione 15:00 PRONTI VIA, 15:30 SPACE.AI, 16:00 HS – HumanSeal). Partecipano i legali rappresentanti di tutti i partner (o procuratori); per Sapienza il prof. Roberto Li Voti con la procura speciale del Rettore del 16/11/2026. Portare documento d'identità e, per chi firma per procura, la procura. Le spese notarili sono ripartite tra le Parti come previsto dall'ATS. Sessione confermata il 19/11/2026: ricevute le conferme di tutti i partecipanti."
+     "descrizione": "Lunedì 23/11/2026 presso lo Studio Floridi, Viale Regina Margherita 239, Roma: atto di questo progetto alle ore 16:00 (sessione 15:00 PRONTI VIA, 15:30 SPACE.AI, 16:00 HS – HumanSeal). Partecipano i legali rappresentanti di tutti i partner (o procuratori); per Sapienza il prof. Roberto Li Voti con la procura speciale del Rettore del 16/11/2026. Portare documento d'identità e, per chi firma per procura, la procura. Le spese notarili sono ripartite tra le Parti come previsto dall'ATS. Sessione confermata il 19/11/2026: ricevute le conferme di tutti i partecipanti. Il 20/11/2026 lo studio notarile ha completato la verifica dei contratti e ricevuto le procure di Sapienza. Per Microsis S.r.l., amministrata da un Consiglio di Amministrazione, lo studio richiede la delibera del CdA che autorizza il Presidente alla firma dell'ATS."
     }
    ],
    "criticita": [
@@ -446,9 +446,16 @@
      "descrizione": "Polizze catastrofali richieste da Lazio Innova (prot. 0025597) e trasmesse via PEC il 27/07/2026.",
      "livello": "media",
      "stato": "risolta"
+    },
+    {
+     "data": "2026-11-20",
+     "titolo": "Delibera del CdA di Microsis per la firma dell'ATS",
+     "descrizione": "Lo studio notarile richiede la delibera del Consiglio di Amministrazione di Microsis S.r.l. che autorizza il Presidente a firmare l'ATS, necessaria per la stipula del 23/11/2026.",
+     "livello": "media",
+     "stato": "aperta"
     }
    ],
-   "aggiornato": "2026-11-20T11:45:00+01:00"
+   "aggiornato": "2026-11-20T12:45:00+01:00"
   },
   {
    "acronimo": "PRONTI VIA",
@@ -619,8 +626,8 @@
     {
      "data": "2026-11-16",
      "titolo": "Procura speciale per la firma dell'ATS (Sapienza)",
-     "descrizione": "Stipula della procura speciale con cui il Rettore conferisce al prof. Roberto Li Voti, Direttore del Dipartimento SBAI, il potere di firmare l'ATS. Gli estremi della procura vanno riportati nell'ATS e la procura va allegata (Allegato B). Dopo questa data si può fissare la firma dell'ATS.",
-     "stato": "da_avviare"
+     "descrizione": "Stipula della procura speciale con cui il Rettore conferisce al prof. Roberto Li Voti, Direttore del Dipartimento SBAI, il potere di firmare l'ATS. Gli estremi della procura vanno riportati nell'ATS e la procura va allegata (Allegato B). Dopo questa data si può fissare la firma dell'ATS. Il 20/11/2026 lo studio notarile ha confermato di aver ricevuto le procure di Sapienza.",
+     "stato": "completato"
     },
     {
      "titolo": "Richiesta dell'anticipo",
@@ -707,7 +714,7 @@
      "data": "2026-11-23",
      "chi": "RO Technology (capofila) e tutti i partner",
      "stato": "da_avviare",
-     "descrizione": "Lunedì 23/11/2026 presso lo Studio Floridi, Viale Regina Margherita 239, Roma: atto di questo progetto alle ore 15:00 (sessione 15:00 PRONTI VIA, 15:30 SPACE.AI, 16:00 HS – HumanSeal). Partecipano i legali rappresentanti di tutti i partner (o procuratori); per Sapienza il prof. Roberto Li Voti con la procura speciale del Rettore del 16/11/2026. Portare documento d'identità e, per chi firma per procura, la procura. Le spese notarili sono ripartite tra le Parti come previsto dall'ATS. Sessione confermata il 19/11/2026: ricevute le conferme di tutti i partecipanti."
+     "descrizione": "Lunedì 23/11/2026 presso lo Studio Floridi, Viale Regina Margherita 239, Roma: atto di questo progetto alle ore 15:00 (sessione 15:00 PRONTI VIA, 15:30 SPACE.AI, 16:00 HS – HumanSeal). Partecipano i legali rappresentanti di tutti i partner (o procuratori); per Sapienza il prof. Roberto Li Voti con la procura speciale del Rettore del 16/11/2026. Portare documento d'identità e, per chi firma per procura, la procura. Le spese notarili sono ripartite tra le Parti come previsto dall'ATS. Sessione confermata il 19/11/2026: ricevute le conferme di tutti i partecipanti. Il 20/11/2026 lo studio notarile ha completato la verifica dei contratti e ricevuto le procure di Sapienza."
     }
    ],
    "criticita": [
@@ -757,7 +764,7 @@
      "stato": "risolta"
     }
    ],
-   "aggiornato": "2026-11-20T11:45:00+01:00"
+   "aggiornato": "2026-11-20T12:45:00+01:00"
   },
   {
    "acronimo": "SPACE.AI",
@@ -947,8 +954,8 @@
     {
      "data": "2026-11-16",
      "titolo": "Procura speciale per la firma dell'ATS (Sapienza)",
-     "descrizione": "Stipula della procura speciale con cui il Rettore conferisce al prof. Roberto Li Voti, Direttore del Dipartimento SBAI, il potere di firmare l'ATS. Gli estremi della procura vanno riportati nell'ATS e la procura va allegata (Allegato B). Dopo questa data si può fissare la firma dell'ATS.",
-     "stato": "da_avviare"
+     "descrizione": "Stipula della procura speciale con cui il Rettore conferisce al prof. Roberto Li Voti, Direttore del Dipartimento SBAI, il potere di firmare l'ATS. Gli estremi della procura vanno riportati nell'ATS e la procura va allegata (Allegato B). Dopo questa data si può fissare la firma dell'ATS. Il 20/11/2026 lo studio notarile ha confermato di aver ricevuto le procure di Sapienza.",
+     "stato": "completato"
     },
     {
      "titolo": "Richiesta dell'anticipo",
@@ -1019,7 +1026,7 @@
      "data": "2026-11-23",
      "chi": "IPTSAT (capofila) e tutti i partner",
      "stato": "da_avviare",
-     "descrizione": "Lunedì 23/11/2026 presso lo Studio Floridi, Viale Regina Margherita 239, Roma: atto di questo progetto alle ore 15:30 (sessione 15:00 PRONTI VIA, 15:30 SPACE.AI, 16:00 HS – HumanSeal). Partecipano i legali rappresentanti di tutti i partner (o procuratori); per Sapienza il prof. Roberto Li Voti con la procura speciale del Rettore del 16/11/2026. Portare documento d'identità e, per chi firma per procura, la procura. Le spese notarili sono ripartite tra le Parti come previsto dall'ATS. Sessione confermata il 19/11/2026: ricevute le conferme di tutti i partecipanti."
+     "descrizione": "Lunedì 23/11/2026 presso lo Studio Floridi, Viale Regina Margherita 239, Roma: atto di questo progetto alle ore 15:30 (sessione 15:00 PRONTI VIA, 15:30 SPACE.AI, 16:00 HS – HumanSeal). Partecipano i legali rappresentanti di tutti i partner (o procuratori); per Sapienza il prof. Roberto Li Voti con la procura speciale del Rettore del 16/11/2026. Portare documento d'identità e, per chi firma per procura, la procura. Le spese notarili sono ripartite tra le Parti come previsto dall'ATS. Sessione confermata il 19/11/2026: ricevute le conferme di tutti i partecipanti. Il 20/11/2026 lo studio notarile ha completato la verifica dei contratti e ricevuto le procure di Sapienza."
     }
    ],
    "criticita": [
@@ -1068,7 +1075,7 @@
      "nota_interna": "Bozze di email di C. Mirabella del 03/11 per IPTSAT, ReadyLab e Dipartimento SBAI (inviate a Claudia per revisione). Rischio economico: ~52.200 € IPTSAT e ~82.800 € ReadyLab se non risolto. 03/11: risposto a Sapienza sul post-doc (B.1 dipendente; costo standard vs effettivo da chiedere a Lazio Innova). 18/11 13:01: T. Di Silvio (IPTSAT) chiede indicazioni su: riassunzione di A. Caroselli (contratto scaduto il 31/12/2025) dal 01/01/2027; sostituzione di S. Ricci (uscita) con figura di pari livello entro gennaio 2027; ore di S. De Gennaro (uscito) da attribuire a R. Napoleoni; eventuali comunicazioni a Lazio Innova. Risposta da dare."
     }
    ],
-   "aggiornato": "2026-11-20T11:45:00+01:00"
+   "aggiornato": "2026-11-20T12:45:00+01:00"
   }
  ],
  "tutor": {
