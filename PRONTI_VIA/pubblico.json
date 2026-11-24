@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-11-24T17:45:00+01:00",
+ "aggiornato": "2026-11-24T18:45:00+01:00",
  "fonte": "Fonti: Det. G13392 del 02/10/2026 (BURL n. 81 suppl. 1 del 08/10/2026, Allegati A e B); comunicazione di concessione Lazio Innova (prot. LISPA 0036564 del 14/10/2026); piano costi approvato GeCoWEB Plus (dettaglio del 22/10/2026); formulario presentato (proposta progettuale) e bozza del contratto di aggregazione allegata alla domanda; corrispondenza di partenariato (email Outlook dal 15/07/2025 al 26/10/2026).",
  "progetto": {
   "acronimo": "PRONTI VIA",
@@ -312,6 +312,13 @@
    "chi": "RO Technology (capofila) e tutti i partner",
    "stato": "completato",
    "descrizione": "Lunedì 23/11/2026 presso lo Studio Floridi, Viale Regina Margherita 239, Roma: atto di questo progetto alle ore 15:00 (sessione 15:00 PRONTI VIA, 15:30 SPACE.AI, 16:00 HS – HumanSeal). Partecipano i legali rappresentanti di tutti i partner (o procuratori); per Sapienza il prof. Roberto Li Voti con la procura speciale del Rettore del 16/11/2026. Portare documento d'identità e, per chi firma per procura, la procura. Le spese notarili sono ripartite tra le Parti come previsto dall'ATS. Sessione confermata il 19/11/2026: ricevute le conferme di tutti i partecipanti. Il 20/11/2026 lo studio notarile ha completato la verifica dei contratti e ricevuto le procure di Sapienza. ATS stipulata il 23/11/2026; copia definitiva dell'atto in attesa dallo studio notarile."
+  },
+  {
+   "data": "2026-11-30",
+   "titolo": "Riunione di progetto in presenza presso RO Technology",
+   "descrizione": "Lunedì 30/11/2026 ore 11:00, sede di RO Technology, Via Benedetto Croce 40, Roma. Data confermata dal capofila il 24/11/2026.",
+   "chi": "Tutti i partner",
+   "stato": "da_avviare"
   }
  ],
  "criticita": [
@@ -499,6 +506,11 @@
    "data": "2026-11-23",
    "titolo": "Stipulata l'ATS presso lo Studio Floridi",
    "sintesi": "Il 23/11/2026 i partner hanno sottoscritto presso lo Studio Floridi il contratto di aggregazione (ATS) del progetto (sessione delle ore 15:00). Si attende dallo studio notarile la copia definitiva dell'atto, da allegare all'Atto di Impegno e da utilizzare per la polizza fideiussoria."
+  },
+  {
+   "data": "2026-11-24",
+   "titolo": "Confermata la riunione di progetto in presenza del 30/11",
+   "sintesi": "Il capofila conferma la riunione di progetto in presenza lunedì 30/11/2026 alle ore 11:00 presso la sede di RO Technology (Via Benedetto Croce 40, Roma). Sapienza conferma la partecipazione e propone di organizzare i prossimi incontri da remoto."
   }
  ],
  "riunioni": [

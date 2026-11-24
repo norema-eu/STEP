@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-11-24T17:45:00+01:00",
+ "aggiornato": "2026-11-24T18:45:00+01:00",
  "progetti": [
   {
    "acronimo": "HS – HumanSeal",
@@ -718,6 +718,13 @@
      "stato": "completato",
      "descrizione": "Lunedì 23/11/2026 presso lo Studio Floridi, Viale Regina Margherita 239, Roma: atto di questo progetto alle ore 15:00 (sessione 15:00 PRONTI VIA, 15:30 SPACE.AI, 16:00 HS – HumanSeal). Partecipano i legali rappresentanti di tutti i partner (o procuratori); per Sapienza il prof. Roberto Li Voti con la procura speciale del Rettore del 16/11/2026. Portare documento d'identità e, per chi firma per procura, la procura. Le spese notarili sono ripartite tra le Parti come previsto dall'ATS. Sessione confermata il 19/11/2026: ricevute le conferme di tutti i partecipanti. Il 20/11/2026 lo studio notarile ha completato la verifica dei contratti e ricevuto le procure di Sapienza. ATS stipulata il 23/11/2026; copia definitiva dell'atto in attesa dallo studio notarile.",
      "nota_interna": "24/11: L. Ciampi (NOREMA), nella bozza di risposta all'agenzia Generali Lido di Ostia preparata per Claudia, indica che l'atto costitutivo dell'ATS è stato finalizzato il 23/11 e allega una copia informale (bozza rev. 2) delle ATS HS e PRONTI VIA, in attesa della copia definitiva sottoscritta. Acquisire dallo Studio Floridi la copia autentica dell'atto (serve per l'Atto di Impegno e per la polizza)."
+    },
+    {
+     "data": "2026-11-30",
+     "titolo": "Riunione di progetto in presenza presso RO Technology",
+     "descrizione": "Lunedì 30/11/2026 ore 11:00, sede di RO Technology, Via Benedetto Croce 40, Roma. Data confermata dal capofila il 24/11/2026.",
+     "chi": "Tutti i partner",
+     "stato": "da_avviare"
     }
    ],
    "criticita": [
@@ -767,7 +774,7 @@
      "stato": "risolta"
     }
    ],
-   "aggiornato": "2026-11-24T17:45:00+01:00"
+   "aggiornato": "2026-11-24T18:45:00+01:00"
   },
   {
    "acronimo": "SPACE.AI",
