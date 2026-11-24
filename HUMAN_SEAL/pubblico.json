@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-11-20T18:45:00+01:00",
+ "aggiornato": "2026-11-24T17:45:00+01:00",
  "fonte": "Fonti: comunicazione di concessione Lazio Innova (prot. LISPA 0033570 del 24/09/2026), Det. G12471 del 15/09/2026 (BURL n. 75 del 17/09/2026, Allegati A e B), formulario/proposta progettuale definitiva (18/07/2025), piano costi approvato da GeCoWEB Plus (estrazione 22/10/2026), corrispondenza di partenariato e PEC (luglio 2025 – ottobre 2026).",
  "progetto": {
   "acronimo": "HS – HumanSeal",
@@ -360,9 +360,9 @@
   {
    "data": "2026-12-16",
    "titolo": "Firma dell'ATS (entro la richiesta dell'anticipo)",
-   "descrizione": "Sottoscrizione del contratto di aggregazione (ATS) da parte di tutti i partner, con atto notarile, entro il termine per la richiesta dell'anticipo (16/12/2026): l'ATS va allegata all'Atto di Impegno (entro il 25/12/2026) ed è necessaria per la polizza fideiussoria e la richiesta dell'anticipo (art. 2, art. 9 e Appendice 5 dell'Avviso). Stipula fissata il 23/11/2026 alle ore 16:00 presso lo Studio Floridi.",
+   "descrizione": "Sottoscrizione del contratto di aggregazione (ATS) da parte di tutti i partner, con atto notarile, entro il termine per la richiesta dell'anticipo (16/12/2026): l'ATS va allegata all'Atto di Impegno (entro il 25/12/2026) ed è necessaria per la polizza fideiussoria e la richiesta dell'anticipo (art. 2, art. 9 e Appendice 5 dell'Avviso). Stipula fissata il 23/11/2026 alle ore 16:00 presso lo Studio Floridi. ATS stipulata il 23/11/2026 presso lo Studio Floridi.",
    "chi": "DEV4U (capofila) e tutti i partner",
-   "stato": "da_avviare"
+   "stato": "completato"
   },
   {
    "data": "2027-05-17",
@@ -417,8 +417,8 @@
    "titolo": "Stipula dell'ATS dal notaio (Studio Floridi)",
    "data": "2026-11-23",
    "chi": "DEV4U (capofila) e tutti i partner",
-   "stato": "da_avviare",
-   "descrizione": "Lunedì 23/11/2026 presso lo Studio Floridi, Viale Regina Margherita 239, Roma: atto di questo progetto alle ore 16:00 (sessione 15:00 PRONTI VIA, 15:30 SPACE.AI, 16:00 HS – HumanSeal). Partecipano i legali rappresentanti di tutti i partner (o procuratori); per Sapienza il prof. Roberto Li Voti con la procura speciale del Rettore del 16/11/2026. Portare documento d'identità e, per chi firma per procura, la procura. Le spese notarili sono ripartite tra le Parti come previsto dall'ATS. Sessione confermata il 19/11/2026: ricevute le conferme di tutti i partecipanti. Il 20/11/2026 lo studio notarile ha completato la verifica dei contratti e ricevuto le procure di Sapienza. Per Microsis S.r.l., amministrata da un Consiglio di Amministrazione, lo studio richiede la delibera del CdA che autorizza il Presidente alla firma dell'ATS."
+   "stato": "completato",
+   "descrizione": "Lunedì 23/11/2026 presso lo Studio Floridi, Viale Regina Margherita 239, Roma: atto di questo progetto alle ore 16:00 (sessione 15:00 PRONTI VIA, 15:30 SPACE.AI, 16:00 HS – HumanSeal). Partecipano i legali rappresentanti di tutti i partner (o procuratori); per Sapienza il prof. Roberto Li Voti con la procura speciale del Rettore del 16/11/2026. Portare documento d'identità e, per chi firma per procura, la procura. Le spese notarili sono ripartite tra le Parti come previsto dall'ATS. Sessione confermata il 19/11/2026: ricevute le conferme di tutti i partecipanti. Il 20/11/2026 lo studio notarile ha completato la verifica dei contratti e ricevuto le procure di Sapienza. Per Microsis S.r.l., amministrata da un Consiglio di Amministrazione, lo studio richiede la delibera del CdA che autorizza il Presidente alla firma dell'ATS. ATS stipulata il 23/11/2026; copia definitiva dell'atto in attesa dallo studio notarile."
   }
  ],
  "criticita": [
@@ -439,14 +439,14 @@
   {
    "data": "2026-11-10",
    "titolo": "Forma del contratto di aggregazione (ATS)",
-   "descrizione": "La lettera di Lazio Innova del 10/11/2026 chiede di allegare all'Atto di Impegno l'atto notarile di costituzione dell'aggregazione; l'Appendice 5 dell'Avviso richiede la forma scritta con firme che autentichino i sottoscrittori. Da chiarire con la tutor se basta la firma digitale di tutti i partner o serve il notaio, perché incide su tempi e costi della firma.",
+   "descrizione": "La lettera di Lazio Innova del 10/11/2026 chiede di allegare all'Atto di Impegno l'atto notarile di costituzione dell'aggregazione; l'Appendice 5 dell'Avviso richiede la forma scritta con firme che autentichino i sottoscrittori. Da chiarire con la tutor se basta la firma digitale di tutti i partner o serve il notaio, perché incide su tempi e costi della firma. L'ATS è stata stipulata con atto notarile presso lo Studio Floridi il 23/11/2026, forma che soddisfa entrambe le indicazioni.",
    "livello": "alta",
-   "stato": "aperta"
+   "stato": "risolta"
   },
   {
    "data": "2026-10-28",
    "titolo": "Polizza fideiussoria da finalizzare",
-   "descrizione": "Kick-off fissato al 09/11/2026. Per la polizza fideiussoria dell'anticipo è in corso la raccolta dei preventivi: richiesta di preventivo inviata il 16/11/2026.",
+   "descrizione": "Per la polizza fideiussoria dell'anticipo è in corso la raccolta dei preventivi (richiesta inviata il 16/11/2026). L'agenzia chiede, per la trattativa, l'Avviso, l'Atto di Impegno e l'atto costitutivo dell'ATS, stipulato il 23/11/2026.",
    "livello": "media",
    "stato": "aperta"
   },
@@ -621,6 +621,11 @@
    "data": "2026-11-20",
    "titolo": "ATS: delibera del CdA di Microsis trasmessa allo studio notarile",
    "sintesi": "Microsis S.r.l. ha prodotto il verbale autenticato del CdA che autorizza la firma dell'ATS; il documento è stato trasmesso allo Studio Floridi in vista della stipula del 23/11/2026."
+  },
+  {
+   "data": "2026-11-23",
+   "titolo": "Stipulata l'ATS presso lo Studio Floridi",
+   "sintesi": "Il 23/11/2026 i partner hanno sottoscritto presso lo Studio Floridi il contratto di aggregazione (ATS) del progetto (sessione delle ore 16:00). Si attende dallo studio notarile la copia definitiva dell'atto, da allegare all'Atto di Impegno e da utilizzare per la polizza fideiussoria."
   }
  ],
  "riunioni": [

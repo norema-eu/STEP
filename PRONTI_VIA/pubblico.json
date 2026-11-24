@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-11-20T15:45:00+01:00",
+ "aggiornato": "2026-11-24T17:45:00+01:00",
  "fonte": "Fonti: Det. G13392 del 02/10/2026 (BURL n. 81 suppl. 1 del 08/10/2026, Allegati A e B); comunicazione di concessione Lazio Innova (prot. LISPA 0036564 del 14/10/2026); piano costi approvato GeCoWEB Plus (dettaglio del 22/10/2026); formulario presentato (proposta progettuale) e bozza del contratto di aggregazione allegata alla domanda; corrispondenza di partenariato (email Outlook dal 15/07/2025 al 26/10/2026).",
  "progetto": {
   "acronimo": "PRONTI VIA",
@@ -253,9 +253,9 @@
   {
    "data": "2027-01-06",
    "titolo": "Firma dell'ATS (entro la richiesta dell'anticipo)",
-   "descrizione": "Sottoscrizione del contratto di aggregazione (ATS) da parte di tutti i partner, con atto notarile, entro il termine per la richiesta dell'anticipo (06/01/2027): l'ATS va trasmessa a Lazio Innova a corredo dell'Atto di Impegno ed è necessaria per finalizzare la polizza fideiussoria e chiedere l'anticipo (art. 2, art. 9 e Appendice 5 dell'Avviso). Per Sapienza firma il prof. Roberto Li Voti con la procura speciale del 16/11/2026. Stipula prevista presso lo Studio Floridi (Viale Regina Margherita 239, Roma) nella sessione di lunedì 23/11/2026 dalle ore 15:00, data indicata come preferita da Sapienza; atto di questo progetto alle ore 15:00, con convocazione inviata ai partner il 12/11/2026 (sessione 15:00 PRONTI VIA, 15:30 SPACE.AI, 16:00 HS – HumanSeal).",
+   "descrizione": "Sottoscrizione del contratto di aggregazione (ATS) da parte di tutti i partner, con atto notarile, entro il termine per la richiesta dell'anticipo (06/01/2027): l'ATS va trasmessa a Lazio Innova a corredo dell'Atto di Impegno ed è necessaria per finalizzare la polizza fideiussoria e chiedere l'anticipo (art. 2, art. 9 e Appendice 5 dell'Avviso). Per Sapienza firma il prof. Roberto Li Voti con la procura speciale del 16/11/2026. Stipula prevista presso lo Studio Floridi (Viale Regina Margherita 239, Roma) nella sessione di lunedì 23/11/2026 dalle ore 15:00, data indicata come preferita da Sapienza; atto di questo progetto alle ore 15:00, con convocazione inviata ai partner il 12/11/2026 (sessione 15:00 PRONTI VIA, 15:30 SPACE.AI, 16:00 HS – HumanSeal). ATS stipulata il 23/11/2026 presso lo Studio Floridi.",
    "chi": "RO Technology (capofila) e tutti i partner",
-   "stato": "da_avviare"
+   "stato": "completato"
   },
   {
    "data": null,
@@ -310,8 +310,8 @@
    "titolo": "Stipula dell'ATS dal notaio (Studio Floridi)",
    "data": "2026-11-23",
    "chi": "RO Technology (capofila) e tutti i partner",
-   "stato": "da_avviare",
-   "descrizione": "Lunedì 23/11/2026 presso lo Studio Floridi, Viale Regina Margherita 239, Roma: atto di questo progetto alle ore 15:00 (sessione 15:00 PRONTI VIA, 15:30 SPACE.AI, 16:00 HS – HumanSeal). Partecipano i legali rappresentanti di tutti i partner (o procuratori); per Sapienza il prof. Roberto Li Voti con la procura speciale del Rettore del 16/11/2026. Portare documento d'identità e, per chi firma per procura, la procura. Le spese notarili sono ripartite tra le Parti come previsto dall'ATS. Sessione confermata il 19/11/2026: ricevute le conferme di tutti i partecipanti. Il 20/11/2026 lo studio notarile ha completato la verifica dei contratti e ricevuto le procure di Sapienza."
+   "stato": "completato",
+   "descrizione": "Lunedì 23/11/2026 presso lo Studio Floridi, Viale Regina Margherita 239, Roma: atto di questo progetto alle ore 15:00 (sessione 15:00 PRONTI VIA, 15:30 SPACE.AI, 16:00 HS – HumanSeal). Partecipano i legali rappresentanti di tutti i partner (o procuratori); per Sapienza il prof. Roberto Li Voti con la procura speciale del Rettore del 16/11/2026. Portare documento d'identità e, per chi firma per procura, la procura. Le spese notarili sono ripartite tra le Parti come previsto dall'ATS. Sessione confermata il 19/11/2026: ricevute le conferme di tutti i partecipanti. Il 20/11/2026 lo studio notarile ha completato la verifica dei contratti e ricevuto le procure di Sapienza. ATS stipulata il 23/11/2026; copia definitiva dell'atto in attesa dallo studio notarile."
   }
  ],
  "criticita": [
@@ -323,16 +323,16 @@
    "stato": "risolta"
   },
   {
-   "data": null,
+   "data": "2026-11-23",
    "titolo": "ATS non ancora costituita",
-   "descrizione": "Bozza rev. 1 da completare e sottoscrivere: senza l'atto formale non si possono finalizzare la polizza fideiussoria e l'Atto di Impegno.",
+   "descrizione": "ATS stipulata il 23/11/2026 presso lo Studio Floridi: con l'atto si possono finalizzare la polizza fideiussoria e l'Atto di Impegno.",
    "livello": "media",
-   "stato": "aperta"
+   "stato": "risolta"
   },
   {
    "data": null,
    "titolo": "Polizza fideiussoria da predisporre",
-   "descrizione": "Preventivo della polizza per l'anticipo richiesto il 16/11/2026 a un'agenzia assicurativa; la polizza si finalizza dopo la firma dell'ATS.",
+   "descrizione": "Preventivo della polizza per l'anticipo richiesto il 16/11/2026 a un'agenzia assicurativa, che per la trattativa chiede l'Avviso, l'Atto di Impegno e l'atto costitutivo dell'ATS (stipulato il 23/11/2026). L'Atto di Impegno del progetto non è ancora pervenuto.",
    "livello": "media",
    "stato": "aperta"
   },
@@ -494,6 +494,11 @@
    "data": "2026-11-20",
    "titolo": "ATS: contratti verificati dallo studio notarile",
    "sintesi": "Lo Studio Floridi ha verificato e sistemato i contratti di ATS in vista della stipula del 23/11/2026 e ha ricevuto le procure di Sapienza. Lo studio ha confermato che per gli altri firmatari è sufficiente il documento d'identità."
+  },
+  {
+   "data": "2026-11-23",
+   "titolo": "Stipulata l'ATS presso lo Studio Floridi",
+   "sintesi": "Il 23/11/2026 i partner hanno sottoscritto presso lo Studio Floridi il contratto di aggregazione (ATS) del progetto (sessione delle ore 15:00). Si attende dallo studio notarile la copia definitiva dell'atto, da allegare all'Atto di Impegno e da utilizzare per la polizza fideiussoria."
   }
  ],
  "riunioni": [

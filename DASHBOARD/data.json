@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-11-20T18:45:00+01:00",
+ "aggiornato": "2026-11-24T17:45:00+01:00",
  "progetti": [
   {
    "acronimo": "HS – HumanSeal",
@@ -316,9 +316,9 @@
     {
      "data": "2026-12-16",
      "titolo": "Firma dell'ATS (entro la richiesta dell'anticipo)",
-     "descrizione": "Sottoscrizione del contratto di aggregazione (ATS) da parte di tutti i partner, con atto notarile, entro il termine per la richiesta dell'anticipo (16/12/2026): l'ATS va allegata all'Atto di Impegno (entro il 25/12/2026) ed è necessaria per la polizza fideiussoria e la richiesta dell'anticipo (art. 2, art. 9 e Appendice 5 dell'Avviso). Stipula fissata il 23/11/2026 alle ore 16:00 presso lo Studio Floridi.",
+     "descrizione": "Sottoscrizione del contratto di aggregazione (ATS) da parte di tutti i partner, con atto notarile, entro il termine per la richiesta dell'anticipo (16/12/2026): l'ATS va allegata all'Atto di Impegno (entro il 25/12/2026) ed è necessaria per la polizza fideiussoria e la richiesta dell'anticipo (art. 2, art. 9 e Appendice 5 dell'Avviso). Stipula fissata il 23/11/2026 alle ore 16:00 presso lo Studio Floridi. ATS stipulata il 23/11/2026 presso lo Studio Floridi.",
      "chi": "DEV4U (capofila) e tutti i partner",
-     "stato": "da_avviare",
+     "stato": "completato",
      "nota_interna": "10/11: Sapienza (L. Francescangeli) chiede il contatto del notaio individuato per l'ATS (ipotesi di un unico notaio per i tre progetti), perché il notaio di Sapienza che prepara la procura speciale vuole coordinarsi con lui. 10/11: NOREMA ha chiesto al notaio S. Lombardo (contatto Microsis) preventivo e disponibilità per stipulare le tre ATS in un'unica sessione il 18, 19 o 20/11. 10/11: il verbale del kick-off fissa la firma al 23/11 ore 15:30, mentre al notaio Lombardo era stata chiesta disponibilità per il 18, 19 o 20/11: allineare la data. 10/11 17:03: il notaio Lombardo conferma la disponibilità per il 20/11 (non per il 23/11 del verbale): decidere la data e comunicarla al partenariato. 11/11 12:17: L. Francescangeli (Sapienza) chiede di nuovo se il notaio per le ATS è stato individuato, perché il notaio di Sapienza vuole contattarlo al più presto: in Bozze c'è una mail (11/11 12:38) con i recapiti del notaio Lombardo, non ancora inviata. 12/11: le ATS saranno stipulate presso lo Studio Floridi (Avv. Ettore Dragoni, Viale Regina Margherita 239, Roma) e non più con il notaio Lombardo. Claudia ha girato i recapiti a L. Francescangeli (12:03) con date possibili 17/11 ore 12:00, 23/11 ore 15:00 e 24/11 ore 12:00 (rettifica alle 12:06: solo 17/11 e 23/11). Prof. Li Voti (12:16): 17/11 impossibile (in missione), 23/11 ore 15:00 prima scelta, 24/11 ore 12:00 disponibile. Claudia a DEV4U (D. Berardi, M. Patitucci, 12:32): stipula HS 23/11 ore 16:00 presso lo Studio Floridi. 12/11 12:54: D. Berardi (DEV4U) conferma la stipula HS del 23/11 ore 16:00. 12/11 14:43: Claudia ha inviato all'Avv. E. Dragoni (Studio Floridi) le schede delle parti e dei firmatari, le bozze delle tre ATS, l'Avviso e le determine G12471 e G13392, con gli orari proposti 15:00 PRONTI VIA, 15:30 SPACE.AI, 16:00 HS; conferma degli orari da parte dello studio non ancora ricevuta. Nella mail la procura di Sapienza è indicata «del ProRettore», mentre le schede del progetto parlano di procura del Rettore: verificare chi la conferisce. 12/11 14:47: annullato l'incarico al notaio Lombardo (nessun impegno pendente). 12/11 17:21: il notaio Lombardo prende atto dell'annullamento."
     },
     {
@@ -374,8 +374,9 @@
      "titolo": "Stipula dell'ATS dal notaio (Studio Floridi)",
      "data": "2026-11-23",
      "chi": "DEV4U (capofila) e tutti i partner",
-     "stato": "da_avviare",
-     "descrizione": "Lunedì 23/11/2026 presso lo Studio Floridi, Viale Regina Margherita 239, Roma: atto di questo progetto alle ore 16:00 (sessione 15:00 PRONTI VIA, 15:30 SPACE.AI, 16:00 HS – HumanSeal). Partecipano i legali rappresentanti di tutti i partner (o procuratori); per Sapienza il prof. Roberto Li Voti con la procura speciale del Rettore del 16/11/2026. Portare documento d'identità e, per chi firma per procura, la procura. Le spese notarili sono ripartite tra le Parti come previsto dall'ATS. Sessione confermata il 19/11/2026: ricevute le conferme di tutti i partecipanti. Il 20/11/2026 lo studio notarile ha completato la verifica dei contratti e ricevuto le procure di Sapienza. Per Microsis S.r.l., amministrata da un Consiglio di Amministrazione, lo studio richiede la delibera del CdA che autorizza il Presidente alla firma dell'ATS."
+     "stato": "completato",
+     "descrizione": "Lunedì 23/11/2026 presso lo Studio Floridi, Viale Regina Margherita 239, Roma: atto di questo progetto alle ore 16:00 (sessione 15:00 PRONTI VIA, 15:30 SPACE.AI, 16:00 HS – HumanSeal). Partecipano i legali rappresentanti di tutti i partner (o procuratori); per Sapienza il prof. Roberto Li Voti con la procura speciale del Rettore del 16/11/2026. Portare documento d'identità e, per chi firma per procura, la procura. Le spese notarili sono ripartite tra le Parti come previsto dall'ATS. Sessione confermata il 19/11/2026: ricevute le conferme di tutti i partecipanti. Il 20/11/2026 lo studio notarile ha completato la verifica dei contratti e ricevuto le procure di Sapienza. Per Microsis S.r.l., amministrata da un Consiglio di Amministrazione, lo studio richiede la delibera del CdA che autorizza il Presidente alla firma dell'ATS. ATS stipulata il 23/11/2026; copia definitiva dell'atto in attesa dallo studio notarile.",
+     "nota_interna": "24/11: L. Ciampi (NOREMA), nella bozza di risposta all'agenzia Generali Lido di Ostia preparata per Claudia, indica che l'atto costitutivo dell'ATS è stato finalizzato il 23/11 e allega una copia informale (bozza rev. 2) delle ATS HS e PRONTI VIA, in attesa della copia definitiva sottoscritta. Acquisire dallo Studio Floridi la copia autentica dell'atto (serve per l'Atto di Impegno e per la polizza)."
     }
    ],
    "criticita": [
@@ -397,9 +398,9 @@
     {
      "data": "2026-11-10",
      "titolo": "Forma del contratto di aggregazione (ATS)",
-     "descrizione": "La lettera di Lazio Innova del 10/11/2026 chiede di allegare all'Atto di Impegno l'atto notarile di costituzione dell'aggregazione; l'Appendice 5 dell'Avviso richiede la forma scritta con firme che autentichino i sottoscrittori. Da chiarire con la tutor se basta la firma digitale di tutti i partner o serve il notaio, perché incide su tempi e costi della firma.",
+     "descrizione": "La lettera di Lazio Innova del 10/11/2026 chiede di allegare all'Atto di Impegno l'atto notarile di costituzione dell'aggregazione; l'Appendice 5 dell'Avviso richiede la forma scritta con firme che autentichino i sottoscrittori. Da chiarire con la tutor se basta la firma digitale di tutti i partner o serve il notaio, perché incide su tempi e costi della firma. L'ATS è stata stipulata con atto notarile presso lo Studio Floridi il 23/11/2026, forma che soddisfa entrambe le indicazioni.",
      "livello": "alta",
-     "stato": "aperta"
+     "stato": "risolta"
     },
     {
      "data": "2026-11-10",
@@ -413,10 +414,10 @@
     {
      "data": "2026-10-28",
      "titolo": "Polizza fideiussoria da finalizzare",
-     "descrizione": "Kick-off fissato al 09/11/2026. Per la polizza fideiussoria dell'anticipo è in corso la raccolta dei preventivi: richiesta di preventivo inviata il 16/11/2026.",
+     "descrizione": "Per la polizza fideiussoria dell'anticipo è in corso la raccolta dei preventivi (richiesta inviata il 16/11/2026). L'agenzia chiede, per la trattativa, l'Avviso, l'Atto di Impegno e l'atto costitutivo dell'ATS, stipulato il 23/11/2026.",
      "livello": "media",
      "stato": "aperta",
-     "nota_interna": "Richiesta del capofila (Patitucci) a NOREMA del 28/10. 16/11 21:44: inviata da c.abatecola (cc step@) la richiesta di preventivo all'agenzia «Roma Clodio» (P. Caputo, agenziaromaclodio@gmail.com, cc step@) per le polizze di HS (DEV4U, € 137.480,11) e PRONTI VIA (RO Technology, € 166.220,32), stesso schema di SPACE.AI; allegati formulari, visure, bilanci e dichiarazioni dei redditi (dati personali: non pubblicare). Integrazioni chieste alle società: visure aggiornate, dichiarazioni mancanti, documenti d'identità. 17/11: in attesa del secondo preventivo; chiesto a DEV4U di segnalare eventuali altri contatti assicurativi. 18/11 12:29: c.abatecola ha inoltrato la stessa richiesta di preventivo (con bozze di polizza HS e PRONTI VIA e documentazione) all'agenzia Generali Lido di Ostia (P. Esposito, agenzia.lidodiostia.it@generali.com) chiedendo aggiornamenti: secondo preventivo in attesa. 19/11 12:19: c.abatecola ha sollecitato l'agenzia Generali Lido di Ostia (P. Esposito) per il preventivo: in attesa di risposta. 20/11 11:17: l'agenzia Generali Lido di Ostia (P. Esposto) risponde alla richiesta di preventivo per HS e PRONTI VIA chiedendo, per la trattativa, l'Avviso/regolamento del contributo, l'Atto di Impegno e l'atto costitutivo dell'ATS (disponibile dopo la stipula del 23/11): documenti da trasmettere."
+     "nota_interna": "Richiesta del capofila (Patitucci) a NOREMA del 28/10. 16/11 21:44: inviata da c.abatecola (cc step@) la richiesta di preventivo all'agenzia «Roma Clodio» (P. Caputo, agenziaromaclodio@gmail.com, cc step@) per le polizze di HS (DEV4U, € 137.480,11) e PRONTI VIA (RO Technology, € 166.220,32), stesso schema di SPACE.AI; allegati formulari, visure, bilanci e dichiarazioni dei redditi (dati personali: non pubblicare). Integrazioni chieste alle società: visure aggiornate, dichiarazioni mancanti, documenti d'identità. 17/11: in attesa del secondo preventivo; chiesto a DEV4U di segnalare eventuali altri contatti assicurativi. 18/11 12:29: c.abatecola ha inoltrato la stessa richiesta di preventivo (con bozze di polizza HS e PRONTI VIA e documentazione) all'agenzia Generali Lido di Ostia (P. Esposito, agenzia.lidodiostia.it@generali.com) chiedendo aggiornamenti: secondo preventivo in attesa. 19/11 12:19: c.abatecola ha sollecitato l'agenzia Generali Lido di Ostia (P. Esposito) per il preventivo: in attesa di risposta. 20/11 11:17: l'agenzia Generali Lido di Ostia (P. Esposto) risponde alla richiesta di preventivo per HS e PRONTI VIA chiedendo, per la trattativa, l'Avviso/regolamento del contributo, l'Atto di Impegno e l'atto costitutivo dell'ATS (disponibile dopo la stipula del 23/11): documenti da trasmettere. 24/11 15:46-17:01: L. Ciampi ha preparato per Claudia la risposta all'agenzia Generali Lido di Ostia con Avviso, Atto di Impegno HS (non sottoscritto; quello di PRONTI VIA non ancora pervenuto) e copia informale delle ATS HS e PRONTI VIA; invio all'agenzia non ancora riscontrato. 24/11: M. Patitucci (DEV4U) ha reinoltrato a step@ la PEC dell'Atto di Impegno HS (prot. 0041094 del 10/11/2026)."
     },
     {
      "data": "2026-10-02",
@@ -456,7 +457,7 @@
      "nota_interna": "20/11 15:21: Microsis avvisata da NOREMA; la delibera va girata allo Studio Floridi appena ricevuta (prima della stipula del 23/11 ore 16:00). 20/11 17:24: R. Antoniucci (Microsis) invia a Claudia il verbale autenticato del CdA (disponibile a un ulteriore CdA lunedì se servisse); 18:08: Claudia lo inoltra allo Studio Floridi."
     }
    ],
-   "aggiornato": "2026-11-20T18:45:00+01:00"
+   "aggiornato": "2026-11-24T17:45:00+01:00"
   },
   {
    "acronimo": "PRONTI VIA",
@@ -656,9 +657,9 @@
     {
      "data": "2027-01-06",
      "titolo": "Firma dell'ATS (entro la richiesta dell'anticipo)",
-     "descrizione": "Sottoscrizione del contratto di aggregazione (ATS) da parte di tutti i partner, con atto notarile, entro il termine per la richiesta dell'anticipo (06/01/2027): l'ATS va trasmessa a Lazio Innova a corredo dell'Atto di Impegno ed è necessaria per finalizzare la polizza fideiussoria e chiedere l'anticipo (art. 2, art. 9 e Appendice 5 dell'Avviso). Per Sapienza firma il prof. Roberto Li Voti con la procura speciale del 16/11/2026. Stipula prevista presso lo Studio Floridi (Viale Regina Margherita 239, Roma) nella sessione di lunedì 23/11/2026 dalle ore 15:00, data indicata come preferita da Sapienza; atto di questo progetto alle ore 15:00, con convocazione inviata ai partner il 12/11/2026 (sessione 15:00 PRONTI VIA, 15:30 SPACE.AI, 16:00 HS – HumanSeal).",
+     "descrizione": "Sottoscrizione del contratto di aggregazione (ATS) da parte di tutti i partner, con atto notarile, entro il termine per la richiesta dell'anticipo (06/01/2027): l'ATS va trasmessa a Lazio Innova a corredo dell'Atto di Impegno ed è necessaria per finalizzare la polizza fideiussoria e chiedere l'anticipo (art. 2, art. 9 e Appendice 5 dell'Avviso). Per Sapienza firma il prof. Roberto Li Voti con la procura speciale del 16/11/2026. Stipula prevista presso lo Studio Floridi (Viale Regina Margherita 239, Roma) nella sessione di lunedì 23/11/2026 dalle ore 15:00, data indicata come preferita da Sapienza; atto di questo progetto alle ore 15:00, con convocazione inviata ai partner il 12/11/2026 (sessione 15:00 PRONTI VIA, 15:30 SPACE.AI, 16:00 HS – HumanSeal). ATS stipulata il 23/11/2026 presso lo Studio Floridi.",
      "chi": "RO Technology (capofila) e tutti i partner",
-     "stato": "da_avviare",
+     "stato": "completato",
      "nota_interna": "10/11: Sapienza (L. Francescangeli) chiede il contatto del notaio individuato per l'ATS (ipotesi di un unico notaio per i tre progetti), perché il notaio di Sapienza che prepara la procura speciale vuole coordinarsi con lui. 10/11: NOREMA ha chiesto al notaio S. Lombardo (contatto Microsis) preventivo e disponibilità per stipulare le tre ATS in un'unica sessione il 18, 19 o 20/11. 10/11 17:03: il notaio conferma la disponibilità per il 20/11. 11/11 12:17: L. Francescangeli (Sapienza) chiede di nuovo se il notaio per le ATS è stato individuato, perché il notaio di Sapienza vuole contattarlo al più presto: in Bozze c'è una mail (11/11 12:38) con i recapiti del notaio Lombardo, non ancora inviata. 12/11: le ATS saranno stipulate presso lo Studio Floridi (Avv. Ettore Dragoni, Viale Regina Margherita 239, Roma) e non più con il notaio Lombardo. Claudia ha girato i recapiti a L. Francescangeli (12:03) con date possibili 17/11 ore 12:00, 23/11 ore 15:00 e 24/11 ore 12:00 (rettifica alle 12:06: solo 17/11 e 23/11). Prof. Li Voti (12:16): 17/11 impossibile (in missione), 23/11 ore 15:00 prima scelta, 24/11 ore 12:00 disponibile. Claudia a DEV4U (D. Berardi, M. Patitucci, 12:32): stipula HS 23/11 ore 16:00 presso lo Studio Floridi. 12/11 14:43: Claudia ha inviato all'Avv. E. Dragoni (Studio Floridi) le schede delle parti e dei firmatari, le bozze delle tre ATS, l'Avviso e le determine G12471 e G13392, con gli orari proposti 15:00 PRONTI VIA, 15:30 SPACE.AI, 16:00 HS; conferma degli orari da parte dello studio non ancora ricevuta. Nella mail la procura di Sapienza è indicata «del ProRettore», mentre le schede del progetto parlano di procura del Rettore: verificare chi la conferisce. 12/11 14:47: annullato l'incarico al notaio Lombardo (nessun impegno pendente). 12/11 16:05: convocazione dei partner PRONTI VIA (RO Technology, Sapienza) per il 23/11 ore 15:00 inviata da step@norema.eu, con richiesta di conferma. 12/11 17:21: il notaio Lombardo prende atto dell'annullamento."
     },
     {
@@ -714,8 +715,9 @@
      "titolo": "Stipula dell'ATS dal notaio (Studio Floridi)",
      "data": "2026-11-23",
      "chi": "RO Technology (capofila) e tutti i partner",
-     "stato": "da_avviare",
-     "descrizione": "Lunedì 23/11/2026 presso lo Studio Floridi, Viale Regina Margherita 239, Roma: atto di questo progetto alle ore 15:00 (sessione 15:00 PRONTI VIA, 15:30 SPACE.AI, 16:00 HS – HumanSeal). Partecipano i legali rappresentanti di tutti i partner (o procuratori); per Sapienza il prof. Roberto Li Voti con la procura speciale del Rettore del 16/11/2026. Portare documento d'identità e, per chi firma per procura, la procura. Le spese notarili sono ripartite tra le Parti come previsto dall'ATS. Sessione confermata il 19/11/2026: ricevute le conferme di tutti i partecipanti. Il 20/11/2026 lo studio notarile ha completato la verifica dei contratti e ricevuto le procure di Sapienza."
+     "stato": "completato",
+     "descrizione": "Lunedì 23/11/2026 presso lo Studio Floridi, Viale Regina Margherita 239, Roma: atto di questo progetto alle ore 15:00 (sessione 15:00 PRONTI VIA, 15:30 SPACE.AI, 16:00 HS – HumanSeal). Partecipano i legali rappresentanti di tutti i partner (o procuratori); per Sapienza il prof. Roberto Li Voti con la procura speciale del Rettore del 16/11/2026. Portare documento d'identità e, per chi firma per procura, la procura. Le spese notarili sono ripartite tra le Parti come previsto dall'ATS. Sessione confermata il 19/11/2026: ricevute le conferme di tutti i partecipanti. Il 20/11/2026 lo studio notarile ha completato la verifica dei contratti e ricevuto le procure di Sapienza. ATS stipulata il 23/11/2026; copia definitiva dell'atto in attesa dallo studio notarile.",
+     "nota_interna": "24/11: L. Ciampi (NOREMA), nella bozza di risposta all'agenzia Generali Lido di Ostia preparata per Claudia, indica che l'atto costitutivo dell'ATS è stato finalizzato il 23/11 e allega una copia informale (bozza rev. 2) delle ATS HS e PRONTI VIA, in attesa della copia definitiva sottoscritta. Acquisire dallo Studio Floridi la copia autentica dell'atto (serve per l'Atto di Impegno e per la polizza)."
     }
    ],
    "criticita": [
@@ -743,19 +745,19 @@
      "interna": true
     },
     {
-     "data": null,
+     "data": "2026-11-23",
      "titolo": "ATS non ancora costituita",
-     "descrizione": "Bozza rev. 1 da completare e sottoscrivere: senza l'atto formale non si possono finalizzare la polizza fideiussoria e l'Atto di Impegno.",
+     "descrizione": "ATS stipulata il 23/11/2026 presso lo Studio Floridi: con l'atto si possono finalizzare la polizza fideiussoria e l'Atto di Impegno.",
      "livello": "media",
-     "stato": "aperta"
+     "stato": "risolta"
     },
     {
      "data": null,
      "titolo": "Polizza fideiussoria da predisporre",
-     "descrizione": "Preventivo della polizza per l'anticipo richiesto il 16/11/2026 a un'agenzia assicurativa; la polizza si finalizza dopo la firma dell'ATS.",
+     "descrizione": "Preventivo della polizza per l'anticipo richiesto il 16/11/2026 a un'agenzia assicurativa, che per la trattativa chiede l'Avviso, l'Atto di Impegno e l'atto costitutivo dell'ATS (stipulato il 23/11/2026). L'Atto di Impegno del progetto non è ancora pervenuto.",
      "livello": "media",
      "stato": "aperta",
-     "nota_interna": "Cartella VIA-Polizza vuota. 10/11: documentazione del capofila ricevuta per il preventivo. 16/11 21:44: inviata da c.abatecola (cc step@) la richiesta di preventivo all'agenzia «Roma Clodio» (P. Caputo, agenziaromaclodio@gmail.com, cc step@) per le polizze di HS (DEV4U, € 137.480,11) e PRONTI VIA (RO Technology, € 166.220,32), stesso schema di SPACE.AI; allegati formulari, visure, bilanci e dichiarazioni dei redditi (dati personali: non pubblicare). Integrazioni chieste alle società: visure aggiornate, dichiarazioni mancanti, documenti d'identità. Importo: nella richiesta € 166.220,32 (110% dell'anticipo arrotondato), in dashboard € 166.220,31 (44% del contributo): allineare. 18/11 12:29: c.abatecola ha inoltrato la stessa richiesta di preventivo (con bozze di polizza HS e PRONTI VIA e documentazione) all'agenzia Generali Lido di Ostia (P. Esposito, agenzia.lidodiostia.it@generali.com) chiedendo aggiornamenti: secondo preventivo in attesa. 19/11 12:19: c.abatecola ha sollecitato l'agenzia Generali Lido di Ostia (P. Esposito) per il preventivo: in attesa di risposta. 19/11 12:45: NOREMA (L. Ciampi, da step@) ha chiesto a RO Technology (A. Talamanca), come anticipato per telefono, la visura camerale aggiornata della società, necessaria per finalizzare la richiesta di polizza. 20/11 00:51: A. Talamanca (RO Technology) ha inviato la visura aggiornata a step@ (cc S. Cornacchia): da girare alle agenzie per il preventivo. 20/11 11:17: l'agenzia Generali Lido di Ostia (P. Esposto) risponde alla richiesta di preventivo per HS e PRONTI VIA chiedendo, per la trattativa, l'Avviso/regolamento del contributo, l'Atto di Impegno e l'atto costitutivo dell'ATS (disponibile dopo la stipula del 23/11): documenti da trasmettere."
+     "nota_interna": "Cartella VIA-Polizza vuota. 10/11: documentazione del capofila ricevuta per il preventivo. 16/11 21:44: inviata da c.abatecola (cc step@) la richiesta di preventivo all'agenzia «Roma Clodio» (P. Caputo, agenziaromaclodio@gmail.com, cc step@) per le polizze di HS (DEV4U, € 137.480,11) e PRONTI VIA (RO Technology, € 166.220,32), stesso schema di SPACE.AI; allegati formulari, visure, bilanci e dichiarazioni dei redditi (dati personali: non pubblicare). Integrazioni chieste alle società: visure aggiornate, dichiarazioni mancanti, documenti d'identità. Importo: nella richiesta € 166.220,32 (110% dell'anticipo arrotondato), in dashboard € 166.220,31 (44% del contributo): allineare. 18/11 12:29: c.abatecola ha inoltrato la stessa richiesta di preventivo (con bozze di polizza HS e PRONTI VIA e documentazione) all'agenzia Generali Lido di Ostia (P. Esposito, agenzia.lidodiostia.it@generali.com) chiedendo aggiornamenti: secondo preventivo in attesa. 19/11 12:19: c.abatecola ha sollecitato l'agenzia Generali Lido di Ostia (P. Esposito) per il preventivo: in attesa di risposta. 19/11 12:45: NOREMA (L. Ciampi, da step@) ha chiesto a RO Technology (A. Talamanca), come anticipato per telefono, la visura camerale aggiornata della società, necessaria per finalizzare la richiesta di polizza. 20/11 00:51: A. Talamanca (RO Technology) ha inviato la visura aggiornata a step@ (cc S. Cornacchia): da girare alle agenzie per il preventivo. 20/11 11:17: l'agenzia Generali Lido di Ostia (P. Esposto) risponde alla richiesta di preventivo per HS e PRONTI VIA chiedendo, per la trattativa, l'Avviso/regolamento del contributo, l'Atto di Impegno e l'atto costitutivo dell'ATS (disponibile dopo la stipula del 23/11): documenti da trasmettere. 24/11 15:46-17:01: L. Ciampi ha preparato per Claudia la risposta all'agenzia Generali Lido di Ostia con Avviso, Atto di Impegno HS (non sottoscritto; quello di PRONTI VIA non ancora pervenuto) e copia informale delle ATS HS e PRONTI VIA; invio all'agenzia non ancora riscontrato. 24/11: M. Patitucci (DEV4U) ha reinoltrato a step@ la PEC dell'Atto di Impegno HS (prot. 0041094 del 10/11/2026)."
     },
     {
      "data": "2026-07-13",
@@ -765,7 +767,7 @@
      "stato": "risolta"
     }
    ],
-   "aggiornato": "2026-11-20T15:45:00+01:00"
+   "aggiornato": "2026-11-24T17:45:00+01:00"
   },
   {
    "acronimo": "SPACE.AI",
@@ -1027,7 +1029,8 @@
      "data": "2026-11-23",
      "chi": "IPTSAT (capofila) e tutti i partner",
      "stato": "da_avviare",
-     "descrizione": "Lunedì 23/11/2026 presso lo Studio Floridi, Viale Regina Margherita 239, Roma: atto di questo progetto alle ore 15:30 (sessione 15:00 PRONTI VIA, 15:30 SPACE.AI, 16:00 HS – HumanSeal). Partecipano i legali rappresentanti di tutti i partner (o procuratori); per Sapienza il prof. Roberto Li Voti con la procura speciale del Rettore del 16/11/2026. Portare documento d'identità e, per chi firma per procura, la procura. Le spese notarili sono ripartite tra le Parti come previsto dall'ATS. Sessione confermata il 19/11/2026: ricevute le conferme di tutti i partecipanti. Il 20/11/2026 lo studio notarile ha completato la verifica dei contratti e ricevuto le procure di Sapienza."
+     "descrizione": "Lunedì 23/11/2026 presso lo Studio Floridi, Viale Regina Margherita 239, Roma: atto di questo progetto alle ore 15:30 (sessione 15:00 PRONTI VIA, 15:30 SPACE.AI, 16:00 HS – HumanSeal). Partecipano i legali rappresentanti di tutti i partner (o procuratori); per Sapienza il prof. Roberto Li Voti con la procura speciale del Rettore del 16/11/2026. Portare documento d'identità e, per chi firma per procura, la procura. Le spese notarili sono ripartite tra le Parti come previsto dall'ATS. Sessione confermata il 19/11/2026: ricevute le conferme di tutti i partecipanti. Il 20/11/2026 lo studio notarile ha completato la verifica dei contratti e ricevuto le procure di Sapienza.",
+     "nota_interna": "24/11: esito della stipula del 23/11 per SPACE.AI non ancora riscontrato nelle fonti (le email del 24/11 confermano la finalizzazione solo per le ATS HS e PRONTI VIA). Confermare con +dashboard. 24/11 14:53: T. Di Silvio (IPTSAT) ha reinoltrato a Claudia la bozza di polizza e l'atto dell'agenzia già trasmessi il 16/11."
     }
    ],
    "criticita": [
@@ -1076,7 +1079,7 @@
      "nota_interna": "Bozze di email di C. Mirabella del 03/11 per IPTSAT, ReadyLab e Dipartimento SBAI (inviate a Claudia per revisione). Rischio economico: ~52.200 € IPTSAT e ~82.800 € ReadyLab se non risolto. 03/11: risposto a Sapienza sul post-doc (B.1 dipendente; costo standard vs effettivo da chiedere a Lazio Innova). 18/11 13:01: T. Di Silvio (IPTSAT) chiede indicazioni su: riassunzione di A. Caroselli (contratto scaduto il 31/12/2025) dal 01/01/2027; sostituzione di S. Ricci (uscita) con figura di pari livello entro gennaio 2027; ore di S. De Gennaro (uscito) da attribuire a R. Napoleoni; eventuali comunicazioni a Lazio Innova. Risposta da dare."
     }
    ],
-   "aggiornato": "2026-11-20T18:45:00+01:00"
+   "aggiornato": "2026-11-24T17:45:00+01:00"
   }
  ],
  "tutor": {
