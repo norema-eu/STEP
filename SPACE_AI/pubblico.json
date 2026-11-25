@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-11-25T11:50:00+01:00",
+ "aggiornato": "2026-11-25T13:45:00+01:00",
  "fonte": "Fonti: comunicazione di concessione Lazio Innova (Det. G13392, BURL n. 81 suppl. 1 del 08/10/2026), proposta progettuale, corrispondenza di partenariato.",
  "progetto": {
   "acronimo": "SPACE.AI",
@@ -267,7 +267,7 @@
   {
    "data": "2027-01-06",
    "titolo": "Polizza fideiussoria per l'anticipo (con la richiesta di anticipo)",
-   "descrizione": "Come da Avviso (art. 9 e Appendice 1, «Fideiussione») e manuale GeCoWEB: la polizza va presentata con la richiesta di anticipo, entro 90 giorni dalla Data di Concessione (08/10/2026), quindi entro il 06/01/2027. Importo garantito: 44% del contributo concesso, cioè l'anticipo del 40% (€ 181.988,93) maggiorato del 10%, per € 200.187,82. Durata: fino alla conclusione del progetto più 12 mesi, quindi almeno fino al 08/10/2029, con proroga automatica annuale fino allo svincolo di Lazio Innova. Contraente: il capofila, per tutto il partenariato. Schema precompilato inviato al capofila il 20/10. Il 03/11 il capofila ha condiviso la bozza di polizza redatta dall'assicuratore sullo schema di Lazio Innova: premio complessivo di € 4.832 per i 2 anni di validità, ripartito tra i partner come previsto dalla bozza di ATS (art. 5-bis). Il 05/11 il capofila ha trasmesso la bozza corretta (refusi del facsimile e durata fino all'08/10/2029) e il 16/11 una bozza ulteriormente rivista dall'assicuratore. Da finalizzare dopo l'ATS e l'Atto di Impegno; all'emissione serve un coobbligato (amministratore/legale rappresentante).",
+   "descrizione": "Come da Avviso (art. 9 e Appendice 1, «Fideiussione») e manuale GeCoWEB: la polizza va presentata con la richiesta di anticipo, entro 90 giorni dalla Data di Concessione (08/10/2026), quindi entro il 06/01/2027. Importo garantito: 44% del contributo concesso, cioè l'anticipo del 40% (€ 181.988,93) maggiorato del 10%, per € 200.187,82. Durata: fino alla conclusione del progetto più 12 mesi, quindi almeno fino al 08/10/2029, con proroga automatica annuale fino allo svincolo di Lazio Innova. Contraente: il capofila, per tutto il partenariato. Schema precompilato inviato al capofila il 20/10. Il 03/11 il capofila ha condiviso la bozza di polizza redatta dall'assicuratore sullo schema di Lazio Innova: premio complessivo di € 4.832 per i 2 anni di validità, ripartito tra i partner come previsto dalla bozza di ATS (art. 5-bis). Il 05/11 il capofila ha trasmesso la bozza corretta (refusi del facsimile e durata fino all'08/10/2029) e il 16/11 una bozza ulteriormente rivista dall'assicuratore. Da finalizzare dopo l'ATS e l'Atto di Impegno; all'emissione serve un coobbligato (amministratore/legale rappresentante). Il 25/11/2026 il capofila ha condiviso la versione definitiva della polizza predisposta dall'agenzia, con la scheda del coobbligato già verificata.",
    "chi": "IPTSAT (capofila)",
    "stato": "in_corso"
   },
@@ -490,6 +490,11 @@
    "data": "2026-11-20",
    "titolo": "ATS: contratti verificati dallo studio notarile",
    "sintesi": "Lo Studio Floridi ha verificato e sistemato i contratti di ATS in vista della stipula del 23/11/2026 e ha ricevuto le procure di Sapienza. Lo studio ha confermato che per gli altri firmatari è sufficiente il documento d'identità."
+  },
+  {
+   "data": "2026-11-25",
+   "titolo": "Versione definitiva della polizza fideiussoria",
+   "sintesi": "Il capofila condivide l'ultima versione della polizza fideiussoria per l'anticipo predisposta dall'agenzia, con l'atto di polizza e la scheda del coobbligato già verificata. Il premio viene versato in anticipo per il biennio 2026-2028; il rinnovo 2028-2029 sarà saldato successivamente, ferma restando la validità contrattuale fino a ottobre 2029 (art. 1 dell'atto di polizza)."
   }
  ],
  "riunioni": [
