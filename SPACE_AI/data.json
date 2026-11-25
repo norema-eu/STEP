@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-25T14:45:00+01:00",
+  "aggiornato": "2026-11-25T18:45:00+01:00",
   "fonte": "Fonti: comunicazione di concessione Lazio Innova (Det. G13392, BURL n. 81 suppl. 1 del 08/10/2026), proposta progettuale, corrispondenza di partenariato.",
   "progetto": {
     "acronimo": "SPACE.AI",
@@ -496,7 +496,7 @@
       "data": "2026-11-13",
       "titolo": "Studio Floridi: progetti di fattura per la stipula delle ATS",
       "sintesi": "Lo Studio Floridi ha trasmesso i progetti di fattura relativi alla stipula delle tre ATS del 23/11/2026, intestati ai rispettivi capofila (per questo progetto IPTSAT). Le spese notarili sono ripartite tra le Parti secondo l'art. 18 della bozza di ATS. Il 17/11/2026 il progetto di fattura è stato trasmesso al capofila (IPTSAT) in vista della stipula.",
-      "nota_interna": "Email dell'Avv. E. Dragoni a Claudia del 13/11 alle 09:47 («come richiesto»), con i PDF «prog. fatt.» intestati a DEV4U, RO Technology e IPTSAT. Importi non riportati: verificarli negli allegati. Conferma degli orari della sessione del 23/11 non contenuta nella mail. Il 17/11 alle 17:12 Claudia ha inoltrato il progetto di fattura a V. Caroselli e T. Di Silvio (IPTSAT). Importo: imponibile 1.044,40 €, spese esenti 254,10 €, totale 1.528,27 €, netto a pagare 1.319,39 € (ritenuta 20%)."
+      "nota_interna": "Email dell'Avv. E. Dragoni a Claudia del 13/11 alle 09:47 («come richiesto»), con i PDF «prog. fatt.» intestati a DEV4U, RO Technology e IPTSAT. Importi non riportati: verificarli negli allegati. Conferma degli orari della sessione del 23/11 non contenuta nella mail. Il 17/11 alle 17:12 Claudia ha inoltrato il progetto di fattura a V. Caroselli e T. Di Silvio (IPTSAT). Importo: imponibile 1.044,40 €, spese esenti 254,10 €, totale 1.528,27 €, netto a pagare 1.319,39 € (ritenuta 20%). 25/11 17:47: T. Di Silvio (IPTSAT) scrive allo Studio Floridi (cc step@) che salderà il progetto di fattura entro il 30/11 e trasmette i dati di fatturazione; chiede se in fattura sarà indicato il progetto o la composizione dell'ATS."
     },
     {
       "data": "2026-11-16",
@@ -534,6 +534,12 @@
       "titolo": "Trasmessa ai partner la copia definitiva dell'ATS",
       "sintesi": "A seguito della stipula del 23/11/2026 presso lo Studio Floridi, è stata trasmessa a tutti i partner la copia definitiva del contratto di aggregazione (ATS) sottoscritto da tutte le parti, da allegare all'Atto di Impegno e da utilizzare per la polizza fideiussoria.",
       "nota_interna": "Email da step@norema.eu (L. Ciampi) del 25/11 alle 14:14 a IPTSAT (T. Di Silvio, V. Caroselli), ReadyLab (S. Fusco), Sapienza (D. Vitulano, V. Bruni, L. Francescangeli, R. Li Voti), cc progetti@norema.eu; allegato «Progetto SPACE.AI.pdf»."
+    },
+    {
+      "data": "2026-11-25",
+      "titolo": "Pagamento delle spese di costituzione dell'ATS",
+      "sintesi": "Il capofila IPTSAT comunica allo Studio Floridi che il progetto di fattura del 12/11/2026 relativo alla costituzione dell'ATS sarà saldato entro il 30/11/2026 e trasmette i dati per l'emissione della fattura.",
+      "nota_interna": "Email di T. Di Silvio (IPTSAT) ad amministrazione@studiofloridi.it, cc step@norema.eu, del 25/11 alle 17:47. Domanda aperta allo studio: se in fattura sarà specificato il progetto o la composizione dell'ATS."
     }
   ],
   "riunioni": [
