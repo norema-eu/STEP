@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-25T11:50:00+01:00",
+  "aggiornato": "2026-11-25T14:45:00+01:00",
   "fonte": "Fonti: comunicazione di concessione Lazio Innova (prot. LISPA 0033570 del 24/09/2026), Det. G12471 del 15/09/2026 (BURL n. 75 del 17/09/2026, Allegati A e B), formulario/proposta progettuale definitiva (18/07/2025), piano costi approvato da GeCoWEB Plus (estrazione 22/10/2026), corrispondenza di partenariato e PEC (luglio 2025 – ottobre 2026).",
   "progetto": {
     "acronimo": "HS – HumanSeal",
@@ -671,6 +671,12 @@
       "titolo": "Ricevute dallo studio notarile le copie dei contratti di ATS",
       "sintesi": "Lo Studio Floridi ha trasmesso via PEC le copie dei contratti di ATS stipulati il 23/11/2026, da allegare all'Atto di Impegno e da utilizzare per la polizza fideiussoria.",
       "nota_interna": "PEC dello Studio Floridi (G. Floridi) a c.abatecola del 25/11 alle 10:42, «copie contratti ATS del giorno 23.11.2026», inoltrata da Claudia a step@ alle 11:22. Allegati in busta PEC firmata (smime.p7m), non leggibili dal connettore: verificare in Outlook quali atti sono inclusi e archiviare le copie nella cartella ATS del progetto. Le copie servono per l'Atto di Impegno e per la trattativa sulla polizza."
+    },
+    {
+      "data": "2026-11-25",
+      "titolo": "Trasmessa ai partner la copia definitiva dell'ATS",
+      "sintesi": "È stata trasmessa a tutti i partner la copia definitiva del contratto di aggregazione (ATS) stipulato il 23/11/2026 e sottoscritto da tutte le parti, da allegare all'Atto di Impegno e da utilizzare per la polizza fideiussoria.",
+      "nota_interna": "Email da step@norema.eu (L. Ciampi) del 25/11 alle 14:02 ai partner HS (DEV4U, Sapienza, Main Project, Microsis, Olympos Hub), cc progetti@norema.eu, allegato «Progetto HS - HumanSeal.pdf»; reinviata alle 14:06 a R. Li Voti e L. Francescangeli (Sapienza). L'indirizzo di R. Antoniucci (Microsis) era scritto male («microsis.i»): messaggio non recapitato, da reinoltrare a r.antoniucci@microsis.it. 14:24: M. Patitucci (DEV4U) ha reinoltrato la mail a step@norema.eu senza commenti."
     }
   ],
   "riunioni": [
