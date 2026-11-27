@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-27T17:45:00+01:00",
+  "aggiornato": "2026-11-27T18:45:00+01:00",
   "fonte": "Fonti: Det. G13392 del 02/10/2026 (BURL n. 81 suppl. 1 del 08/10/2026, Allegati A e B); comunicazione di concessione Lazio Innova (prot. LISPA 0036564 del 14/10/2026); piano costi approvato GeCoWEB Plus (dettaglio del 22/10/2026); formulario presentato (proposta progettuale) e bozza del contratto di aggregazione allegata alla domanda; corrispondenza di partenariato (email Outlook dal 15/07/2025 al 26/10/2026).",
   "progetto": {
     "acronimo": "PRONTI VIA",
@@ -320,7 +320,7 @@
     {
       "data": "2026-11-30",
       "titolo": "Riunione di progetto in presenza presso RO Technology",
-      "descrizione": "Lunedì 30/11/2026 ore 11:00–13:00, sede di RO Technology, Via Benedetto Croce 40, Roma. Data confermata dal capofila il 24/11/2026; invito di calendario inviato dal capofila il 26/11/2026.",
+      "descrizione": "Lunedì 30/11/2026 ore 11:00–13:00, sede di RO Technology, Via Benedetto Croce 40, Roma. Data confermata dal capofila il 24/11/2026; invito di calendario inviato dal capofila il 26/11/2026. Agenda trasmessa dal capofila il 27/11/2026 (durata stimata 2 ore).",
       "chi": "Tutti i partner",
       "stato": "da_avviare"
     }
@@ -576,6 +576,12 @@
       "titolo": "Documentazione trasmessa all'agenzia per il preventivo della polizza fideiussoria",
       "sintesi": "Trasmessi all'agenzia assicurativa, per la valutazione della polizza fideiussoria dell'anticipo, l'Avviso STEP Lazio, l'Atto di Impegno di HS – HumanSeal come riferimento, poiché quello di PRONTI VIA non è ancora pervenuto e una copia del contratto di ATS stipulato il 23/11/2026. La documentazione sottoscritta sarà inviata appena disponibile.",
       "nota_interna": "Email di L. Ciampi del 27/11 alle 17:28 (cc c.abatecola), oggetto «Richiesta preventivo polizze fideiussorie anticipo STEP Lazio – Progetti HS e PRONTI VIA», allegati ADI_DEV4U_S.R.L.S..docx, ATS_HS-HumanSeal.pdf, ATS_PRONTI-VIA.pdf, Bando. ATTENZIONE: indirizzo del destinatario scritto «agenzia.lidodiostia.it@generali.co» (manca la «m» finale di .com): verificare il recapito ed eventualmente reinviare."
+    },
+    {
+      "data": "2026-11-27",
+      "titolo": "Agenda della riunione di coordinamento del 30/11",
+      "sintesi": "Il capofila ha trasmesso l'agenda della riunione di coordinamento di lunedì 30/11/2026: stato degli adempimenti verso Lazio Innova (Atto di Impegno, anticipo entro 06/01/2027 e polizza fideiussoria), validazione del Piano di gestione D1.1 e della governance, cronoprogramma e baseline dei deliverable, preparazione della rendicontazione (timesheet Modello 11, SAL), risorse e accordo sulla proprietà intellettuale, avvio operativo dei WP1–WP6 e action list.",
+      "nota_interna": "Email di A. Talamanca del 27/11 alle 18:03 a progetti@, c.abatecola, V. Bruni, D. Vitulano (cc team RO Technology); allegato Agenda_riunione_coordinamento_2026-11-30_v1.0.pdf. Per NOREMA in agenda: WP3 (avvio T3.1 annotazione/dataset, prerequisiti D3.2 M12 e D3.1 M16), WP6 (Piano di comunicazione M12), ambienti cloud NOREMA, assegnazione ore residuali WP5/WP6, bozza accordo IP. L'agenda riporta anticipo 40% € 151.109,38 e polizza 110% € 166.220,31: da verificare con il piano costi approvato."
     }
   ],
   "riunioni": [
