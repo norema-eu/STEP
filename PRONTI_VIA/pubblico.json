@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-11-27T11:45:00+01:00",
+ "aggiornato": "2026-11-27T17:45:00+01:00",
  "fonte": "Fonti: Det. G13392 del 02/10/2026 (BURL n. 81 suppl. 1 del 08/10/2026, Allegati A e B); comunicazione di concessione Lazio Innova (prot. LISPA 0036564 del 14/10/2026); piano costi approvato GeCoWEB Plus (dettaglio del 22/10/2026); formulario presentato (proposta progettuale) e bozza del contratto di aggregazione allegata alla domanda; corrispondenza di partenariato (email Outlook dal 15/07/2025 al 26/10/2026).",
  "progetto": {
   "acronimo": "PRONTI VIA",
@@ -339,7 +339,7 @@
   {
    "data": null,
    "titolo": "Polizza fideiussoria da predisporre",
-   "descrizione": "Preventivo della polizza per l'anticipo richiesto il 16/11/2026 a un'agenzia assicurativa, che per la trattativa chiede l'Avviso, l'Atto di Impegno e l'atto costitutivo dell'ATS (stipulato il 23/11/2026). L'Atto di Impegno del progetto non è ancora pervenuto.",
+   "descrizione": "Preventivo della polizza per l'anticipo richiesto il 16/11/2026 a un'agenzia assicurativa, che per la trattativa chiede l'Avviso, l'Atto di Impegno e l'atto costitutivo dell'ATS (stipulato il 23/11/2026). L'Atto di Impegno del progetto non è ancora pervenuto. Il 27/11/2026 è stata trasmessa all'agenzia la documentazione richiesta (Avviso, Atto di Impegno, copia dell'ATS); seguirà la documentazione sottoscritta appena disponibile.",
    "livello": "media",
    "stato": "aperta"
   },
@@ -526,6 +526,11 @@
    "data": "2026-11-26",
    "titolo": "Invito alla riunione di progetto del 30/11",
    "sintesi": "Il capofila ha inviato l'invito di calendario per la riunione di progetto di lunedì 30/11/2026, ore 11:00–13:00, presso la sede di RO Technology."
+  },
+  {
+   "data": "2026-11-27",
+   "titolo": "Documentazione trasmessa all'agenzia per il preventivo della polizza fideiussoria",
+   "sintesi": "Trasmessi all'agenzia assicurativa, per la valutazione della polizza fideiussoria dell'anticipo, l'Avviso STEP Lazio, l'Atto di Impegno di HS – HumanSeal come riferimento, poiché quello di PRONTI VIA non è ancora pervenuto e una copia del contratto di ATS stipulato il 23/11/2026. La documentazione sottoscritta sarà inviata appena disponibile."
   }
  ],
  "riunioni": [
